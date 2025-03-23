@@ -145,99 +145,123 @@
           {
             "Recommendation": "All food businesses must ensure that their systems and procedures are capable of preventing the contamination or cross-contamination of food with E.coli O157.",
             "ChangeType": "More",
-            "ActionCategory": ""
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "Food businesses must get to grips with food safety management based very clearly on the seven key HACCP principles, ensuring it is a core part of the way they run their business.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "Additional resources should be made available to ensure that all food businesses in Wales understand and use the HACCP approach and have in place an effective, documented, food safety management system which is embedded in working culture and practice.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Funding & Resources"
           },
           {
             "Recommendation": "The principles underpinning the Butchers’ Licensing Scheme, which was introduced in response to the 1996 E.coli O157 outbreak, should guide food hygiene measures in businesses processing raw meat and unwrapped ready-to-eat foods.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
             "Recommendation": "The Food Standards Agency should review its current guidance and should be proactive in generating new guidance where needs are identified.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
             "Recommendation": "The Food Standards Agency should remove the confusion that exists among food business operators about what solution(s) should be used to prevent cross-contamination from surfaces and equipment.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
             "Recommendation": "Regulatory and enforcement bodies should keep the choice of “light touch” enforcement for individual food businesses under constant review.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "The inspection of HACCP plans must be audit-based.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Audit & Reviews"
           },
           {
             "Recommendation": "Training provision should be developed to ensure that all officers in Wales who check HACCP and HACCP-based plans, including those responsible for overseeing the work of those officers, have the necessary knowledge and skills.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
             "Recommendation": "Environmental Health Officers should obtain a copy of a business’s HACCP/food safety management plan at each inspection, which should be held on the business’s inspection file.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Documentation & Records"
           },
           {
             "Recommendation": "A system of logging issues, concerns or potential problems, whether by “red flagging” specific documents or by file notes, should be standard practice.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
             "Recommendation": "Decisions about confidence in a business’s management of food safety should be evidence-based.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
             "Recommendation": "All inspections, primary and secondary, must be unannounced unless, exceptionally, there are specific and justifiable circumstances or reasons why a pre-arranged visit is necessary.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Accountability & Oversight"
+
           },
           {
             "Recommendation": "Discussion with employees must be a standard part of food hygiene inspection visits.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
             "Recommendation": "The Food Standards Agency should develop, as part of its Audit Scheme or as an adjunct to it, a means of assessing how food hygiene inspections are undertaken by local authorities, including assessment of HACCP and HACCP-based plans.",
-            "ChangeType": "More"
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
             "Recommendation": "Businesses contracting for the supply of high-risk foods, such as raw and cooked meats, to public sector organisations must be subject to independent food hygiene audits.",
-            "ChangeType": "More"
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
             "Recommendation": "All health and care organisations should have an effective means of contacting key personnel during and outside normal working hours and for disseminating important information.",
-            "ChangeType": "More"
+            "ChangeType": "New",
+            "ActionCategory": "Communication & Reporting"
           },
           {
             "Recommendation": "Every local authority should have a programme of audits to ensure that all schools have adequate toilet and hand washing facilities.",
-            "ChangeType": "More"
+            "ChangeType": "New",
+            "ActionCategory": "Audit & Reviews"
           },
           {
             "Recommendation": "All local authorities in Wales should review their policies, procedures and systems against issues raised by this report.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
             "Recommendation": "The National Assembly for Wales should consider my recommendations and monitor and report progress on Implemented.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "A substantial review of food hygiene enforcement in Wales should take place approximately five years after the publication of this report.",
-            "ChangeType": "More"
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
             "Recommendation": "Good practice advice and guidance issued by public bodies should be subject to follow-up and/or more detailed evaluation.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "Variable Number Tandem Repeat (VNTR) should be validated as a standard method for the typing of E.coli O157.",
-            "ChangeType": "New"
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           },
           {
             "Recommendation": "The feasibility of identifying “supershedder” cattle on farms should be explored as a potential means of reducing the likelihood of spreading E.coli O157 to other cattle.",
-            "ChangeType": "New"
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           }
         ]
       }
@@ -252,47 +276,58 @@
       "Recommendations":[
         {
           "Recommendation": "An urgent programme of replacement of buried metallic pipework",
-          "ChangeType": "New"
+          "ChangeType": "Different",
+          "ActionCategory": "Infrastructure & Facilities"
         },
         {
-          "Recommendation":"My conclusion is that complete replacement of underground metallic vapour phase pipework with polyethylene is the right solution; but a replacement programme has to be practicable. The immediate replacement of all underground metallic pipework is unrealistic.",
-          "ChangeType": "New"
+          "Recommendation": "My conclusion is that complete replacement of underground metallic vapour phase pipework with polyethylene is the right solution; but a replacement programme has to be practicable. The immediate replacement of all underground metallic pipework is unrealistic.",
+          "ChangeType": "Different",
+          "ActionCategory": "Infrastructure & Facilities"
         },
         {
           "Recommendation": "I therefore recommend that, in conjunction with the survey of the underground pipework, the premises themselves should be inspected in order to identify any conditions that create the risk that leaking LPG may migrate and accumulate in unventilated spaces.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
           "Recommendation": "The primary responsibility for the safety of the LPG pipework should rest with the user of the installation",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "I therefore regard it as essential that every LPG installation should have its own comprehensive Installation Record.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
         },
         {
           "Recommendation": "I further recommend that guidance on the detailed contents of an Installation Record and a suitable template should be developed by HSE in consultation with UKLPG.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
           "Recommendation": "I recommend that the preparation, maintenance and safe custody of the Installation Record should be the direct responsibility of the user.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "I propose therefore that every installation should be subject to mandatory periodic verification by an ACP whose duty it would be to verify the integrity of the installation and to certify whether or not the installation itself, the safety regime applying on site and any mitigation measures in place at the site were satisfactory.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
           "Recommendation": "Under a verification scheme of this kind it would be appropriate that wherever a verification certificate was not in force, it should be unlawful for the user to use the installation or to obtain any further supply of LPG to it.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
           "Recommendation": "In my view, a registration scheme is a necessary element in the safety strategy that I propose",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
           "Recommendation": "I see it as essential that there should be prompt and effective communication between all interested parties of all technical developments in matters of LPG safety, and of all LPG incidents and the lessons to be learned from them",
-          "ChangeType": "More"
+          "ChangeType": "More",
+          "ActionCategory": "Communication & Reporting"
         }
       ]
     
@@ -308,339 +343,339 @@
         "ReportDate": "04/09/2024",
         "Recommendations":[
           {
-            "Recommendation":"that the owner and manager of every high-rise residential building be required by law to provide their local fire and rescue service with information about the design of its external walls together with details of the materials of which they are constructed and to inform the fire and rescue service of any material changes made to them;"
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to provide their local fire and rescue service with information about the design of its external walls together with details of the materials of which they are constructed and to inform the fire and rescue service of any material changes made to them;"
           },
           {
-            "Recommendation":"that all fire and rescue services ensure that their personnel at all levels understand the risk of fire taking hold in the external walls of high-rise buildings and know how to recognise it when it occurs."
+            "Recommendation": "that all fire and rescue services ensure that their personnel at all levels understand the risk of fire taking hold in the external walls of high-rise buildings and know how to recognise it when it occurs."
           },
           {
-            "Recommendation":"that the LFB review, and revise as appropriate, Appendix 1 to PN633 to ensure that it fully reflects the principles in GRA 3.2;"
+            "Recommendation": "that the LFB review, and revise as appropriate, Appendix 1 to PN633 to ensure that it fully reflects the principles in GRA 3.2;"
           },
           {
-            "Recommendation":"that the LFB ensure that all officers of the rank of Crew Manager and above are trained in carrying out the requirements of PN633 relating to the inspection of high-rise buildings"
+            "Recommendation": "that the LFB ensure that all officers of the rank of Crew Manager and above are trained in carrying out the requirements of PN633 relating to the inspection of high-rise buildings"
           },
           {
-            "Recommendation":"I therefore recommend that the owner and manager of every high-rise residential building be required by law: to provide their local fire and rescue services with up-to-date plans in both paper and electronic form of every floor of the building identifying the location of key fire safety systems;"
+            "Recommendation": "I therefore recommend that the owner and manager of every high-rise residential building be required by law: to provide their local fire and rescue services with up-to-date plans in both paper and electronic form of every floor of the building identifying the location of key fire safety systems;"
           },
           {
-            "Recommendation":"I therefore recommend that the owner and manager of every high-rise residential building be required by law: to ensure that the building contains a premises information box, the contents of which must include a copy of the up-to-date floor plans and information about the nature of any lift intended for use by the fire and rescue services."
+            "Recommendation": "I therefore recommend that the owner and manager of every high-rise residential building be required by law: to ensure that the building contains a premises information box, the contents of which must include a copy of the up-to-date floor plans and information about the nature of any lift intended for use by the fire and rescue services."
           },
           {
-            "Recommendation":"I also recommend, insofar as it is not already the case, that all fire and rescue services be equipped to receive and store electronic plans and to make them available to incident commanders and control room managers."
+            "Recommendation": "I also recommend, insofar as it is not already the case, that all fire and rescue services be equipped to receive and store electronic plans and to make them available to incident commanders and control room managers."
           },
           {
-            "Recommendation":"that the owner and manager of every high-rise residential building be required by law to carry out regular inspections of any lifts that are designed to be used by firefighters in an emergency and to report the results of such inspections to their local fire and rescue service at monthly intervals;"
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to carry out regular inspections of any lifts that are designed to be used by firefighters in an emergency and to report the results of such inspections to their local fire and rescue service at monthly intervals;"
           },
           {
-            "Recommendation":"that the owner and manager of every high-rise residential building be required by law to carry out regular tests of the mechanism which allows firefighters to take control of the lifts and to inform their local fire and rescue service at monthly intervals that they have done so."
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to carry out regular tests of the mechanism which allows firefighters to take control of the lifts and to inform their local fire and rescue service at monthly intervals that they have done so."
           },
           {
-            "Recommendation":"that the LFB review its policies on communications between the control room and the incident commander;"
+            "Recommendation": "that the LFB review its policies on communications between the control room and the incident commander;"
           },
           {
-            "Recommendation":"that all officers who may be expected to act as incident commanders (i.e. all those above the rank of Crew Manager) receive training directed to the specific requirements of communication with the control room"
+            "Recommendation": "that all officers who may be expected to act as incident commanders (i.e. all those above the rank of Crew Manager) receive training directed to the specific requirements of communication with the control room"
           },
           {
-            "Recommendation":"that all CROs of Assistant Operations Manager rank and above receive training directed to the specific requirements of communication with the incident commander;"
+            "Recommendation": "that all CROs of Assistant Operations Manager rank and above receive training directed to the specific requirements of communication with the incident commander;"
           },
           {
-            "Recommendation":"that a dedicated communication link be provided between the senior officer in the control room and the incident commander."
+            "Recommendation": "that a dedicated communication link be provided between the senior officer in the control room and the incident commander."
           },
           {
-            "Recommendation":"that the LFB’s policies be amended to draw a clearer distinction between callers seeking advice and callers who believe they are trapped and need rescuing"
+            "Recommendation": "that the LFB’s policies be amended to draw a clearer distinction between callers seeking advice and callers who believe they are trapped and need rescuing"
           },
           {
-            "Recommendation":"that the LFB provide regular and more effective refresher training to CROs at all levels, including supervisors"
+            "Recommendation": "that the LFB provide regular and more effective refresher training to CROs at all levels, including supervisors"
           },
           {
-            "Recommendation":"that all fire and rescue services develop policies for handling a large number of FSG calls simultaneously"
+            "Recommendation": "that all fire and rescue services develop policies for handling a large number of FSG calls simultaneously"
           },
           {
-            "Recommendation":"that electronic systems be developed to record FSG information in the control room and display it simultaneously at the bridgehead and in any command units"
+            "Recommendation": "that electronic systems be developed to record FSG information in the control room and display it simultaneously at the bridgehead and in any command units"
           },
           {
-            "Recommendation":"that policies be developed for managing a transition from “stay put” to “get out”"
+            "Recommendation": "that policies be developed for managing a transition from “stay put” to “get out”"
           },
           {
-            "Recommendation":"I therefore recommend that steps be taken to investigate methods by which assisting control rooms can obtain access to the information available to the host control room."
+            "Recommendation": "I therefore recommend that steps be taken to investigate methods by which assisting control rooms can obtain access to the information available to the host control room."
           },          
           {
-            "Recommendation":"I therefore recommend that the LAS and the MPS review their protocols and policies to ensure that their operators can identify FSG calls (as defined by the LFB) and pass them to the LFB as soon as possible."
+            "Recommendation": "I therefore recommend that the LAS and the MPS review their protocols and policies to ensure that their operators can identify FSG calls (as defined by the LFB) and pass them to the LFB as soon as possible."
           },
           {
-            "Recommendation":"that the LFB develop policies and training to ensure better control of deployments and the use of resources"
+            "Recommendation": "that the LFB develop policies and training to ensure better control of deployments and the use of resources"
           },
           {
-            "Recommendation":"that the LFB develop policies and training to ensure that better information is obtained from crews returning from deployments and that the information is recorded in a form that enables it to be made available immediately to the incident commander (and thereafter to the command units and the control room)"
+            "Recommendation": "that the LFB develop policies and training to ensure that better information is obtained from crews returning from deployments and that the information is recorded in a form that enables it to be made available immediately to the incident commander (and thereafter to the command units and the control room)"
           },
           {
-            "Recommendation":"I therefore recommend that the LFB develop a communication system to enable direct communication between the control room and the incident commander and improve the means of communication between the incident commander and the bridgehead."
+            "Recommendation": "I therefore recommend that the LFB develop a communication system to enable direct communication between the control room and the incident commander and improve the means of communication between the incident commander and the bridgehead."
           },
           {
-            "Recommendation":"I therefore recommend that the LFB investigate the use of modern communication techniques to provide a direct line of communication between the control room and the bridgehead, allowing information to be transmitted directly between the control room and the bridgehead and providing an integrated system of recording FSG information and the results of deployments."
+            "Recommendation": "I therefore recommend that the LFB investigate the use of modern communication techniques to provide a direct line of communication between the control room and the bridgehead, allowing information to be transmitted directly between the control room and the bridgehead and providing an integrated system of recording FSG information and the results of deployments."
           },
           {
-            "Recommendation":"that the LFB urgently take steps to obtain equipment that enables firefighters wearing helmets and breathing apparatus to communicate with the bridgehead effectively, including when operating in high-rise buildings"
+            "Recommendation": "that the LFB urgently take steps to obtain equipment that enables firefighters wearing helmets and breathing apparatus to communicate with the bridgehead effectively, including when operating in high-rise buildings"
           },
           {
-            "Recommendation":"that urgent steps be taken to ensure that the command support system is fully operative on all command units and that crews are trained in its use."
+            "Recommendation": "that urgent steps be taken to ensure that the command support system is fully operative on all command units and that crews are trained in its use."
           },
           {
-            "Recommendation":"that the government develop national guidelines for carrying out partial or total evacuations of high-rise residential buildings, such guidelines to include the means of protecting fire exit routes and procedures for evacuating persons who are unable to use the stairs in an emergency, or who may require assistance (such as disabled people, older people and young children);"
+            "Recommendation": "that the government develop national guidelines for carrying out partial or total evacuations of high-rise residential buildings, such guidelines to include the means of protecting fire exit routes and procedures for evacuating persons who are unable to use the stairs in an emergency, or who may require assistance (such as disabled people, older people and young children);"
           },
           {
-            "Recommendation":"that fire and rescue services develop policies for partial and total evacuation of high-rise residential buildings and training to support them"
+            "Recommendation": "that fire and rescue services develop policies for partial and total evacuation of high-rise residential buildings and training to support them"
           },
           {
-            "Recommendation":"that the owner and manager of every high-rise residential building be required by law to draw up and keep under regular review evacuation plans, copies of which are to be provided in electronic and paper form to their local fire and rescue service and placed in an information box on the premises"
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to draw up and keep under regular review evacuation plans, copies of which are to be provided in electronic and paper form to their local fire and rescue service and placed in an information box on the premises"
           },
           {
-            "Recommendation":"that all high-rise residential buildings (both those already in existence and those built in the future) be equipped with facilities for use by the fire and rescue services enabling them to send an evacuation signal to the whole or a selected part of the building by means of sounders or similar devices"
+            "Recommendation": "that all high-rise residential buildings (both those already in existence and those built in the future) be equipped with facilities for use by the fire and rescue services enabling them to send an evacuation signal to the whole or a selected part of the building by means of sounders or similar devices"
           },
           {
-            "Recommendation":"that the owner and manager of every high-rise residential building be required by law to prepare personal emergency evacuation plans (PEEPs) for all residents whose ability to self-evacuate may be compromised (such as persons with reduced mobility or cognition)"
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to prepare personal emergency evacuation plans (PEEPs) for all residents whose ability to self-evacuate may be compromised (such as persons with reduced mobility or cognition)"
           },
           {
-            "Recommendation":"that the owner and manager of every high-rise residential building be required by law to include up-to-date information about persons with reduced mobility and their associated PEEPs in the premises information box"
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to include up-to-date information about persons with reduced mobility and their associated PEEPs in the premises information box"
           },        
           {
-            "Recommendation":"that all fire and rescue services be equipped with smoke hoods to assist in the evacuation of occupants through smoke-filled exit routes"
+            "Recommendation": "that all fire and rescue services be equipped with smoke hoods to assist in the evacuation of occupants through smoke-filled exit routes"
           },
           {
-            "Recommendation":"I therefore recommend that in all high-rise buildings floor numbers be clearly marked on each landing within the stairways and in a prominent place in all lobbies in such a way as to be visible both in normal conditions and in low lighting or smoky conditions."
+            "Recommendation": "I therefore recommend that in all high-rise buildings floor numbers be clearly marked on each landing within the stairways and in a prominent place in all lobbies in such a way as to be visible both in normal conditions and in low lighting or smoky conditions."
           },
           {
-            "Recommendation":"I therefore recommend that the owner and manager of every residential building containing separate dwellings (whether or not it is a high-rise building) be required by law to provide fire safety instructions (including instructions for evacuation) in a form that the occupants of the building can reasonably be expected to understand, taking into account the nature of the building and their knowledge of the occupants."
+            "Recommendation": "I therefore recommend that the owner and manager of every residential building containing separate dwellings (whether or not it is a high-rise building) be required by law to provide fire safety instructions (including instructions for evacuation) in a form that the occupants of the building can reasonably be expected to understand, taking into account the nature of the building and their knowledge of the occupants."
           },
           {
-            "Recommendation":"that the owner and manager of every residential building containing separate dwellings (whether or not they are high-rise buildings) carry out an urgent inspection of all fire doors to ensure that they comply with applicable legislative standards"
+            "Recommendation": "that the owner and manager of every residential building containing separate dwellings (whether or not they are high-rise buildings) carry out an urgent inspection of all fire doors to ensure that they comply with applicable legislative standards"
           },
           {
-            "Recommendation":"that the owner and manager of every residential building containing separate dwellings (whether or not they are high-rise buildings) be required by law to carry out checks at not less than three-monthly intervals to ensure that all fire doors are fitted with effective self-closing devices in working order"
+            "Recommendation": "that the owner and manager of every residential building containing separate dwellings (whether or not they are high-rise buildings) be required by law to carry out checks at not less than three-monthly intervals to ensure that all fire doors are fitted with effective self-closing devices in working order"
           },
           {
-            "Recommendation":"I therefore recommend that all those who have responsibility in whatever capacity for the condition of the entrance doors to individual flats in high-rise residential buildings, whose external walls incorporate unsafe cladding, be required by law to ensure that such doors comply with current standards."
+            "Recommendation": "I therefore recommend that all those who have responsibility in whatever capacity for the condition of the entrance doors to individual flats in high-rise residential buildings, whose external walls incorporate unsafe cladding, be required by law to ensure that such doors comply with current standards."
           },
           {
-            "Recommendation":"I therefore recommend that the Joint Doctrine be amended to make it clear: that each emergency service must communicate the declaration of a Major Incident to all other Category 1 Responders as soon as possible"
+            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that each emergency service must communicate the declaration of a Major Incident to all other Category 1 Responders as soon as possible"
           },
           {
-            "Recommendation":"I therefore recommend that the Joint Doctrine be amended to make it clear: that on the declaration of a Major Incident clear lines of communication must be established as soon as possible between the control rooms of the individual emergency services"
+            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that on the declaration of a Major Incident clear lines of communication must be established as soon as possible between the control rooms of the individual emergency services"
           },
           {
-            "Recommendation":"I therefore recommend that the Joint Doctrine be amended to make it clear: that a single point of contact should be designated within each control room to facilitate such communication"
+            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that a single point of contact should be designated within each control room to facilitate such communication"
           },
           {
-            "Recommendation":"I therefore recommend that the Joint Doctrine be amended to make it clear: that a “METHANE” message should be sent as soon as possible by the emergency service declaring a Major Incident."
+            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that a “METHANE” message should be sent as soon as possible by the emergency service declaring a Major Incident."
           },
           {
-            "Recommendation":"I therefore recommend that steps be taken to investigate the compatibility of the LFB systems with those of the MPS and the LAS with a view to enabling all three emergency services’ systems to read each other’s messages."
+            "Recommendation": "I therefore recommend that steps be taken to investigate the compatibility of the LFB systems with those of the MPS and the LAS with a view to enabling all three emergency services’ systems to read each other’s messages."
           },
           {
-            "Recommendation":"I therefore recommend that steps be taken to ensure that the airborne datalink system on every NPAS helicopter observing an incident which involves one of the other emergency services defaults to the National Emergency Service user encryption."
+            "Recommendation": "I therefore recommend that steps be taken to ensure that the airborne datalink system on every NPAS helicopter observing an incident which involves one of the other emergency services defaults to the National Emergency Service user encryption."
           },
           {
-            "Recommendation":"I therefore recommend that the LFB, the MPS, the LAS and the London local authorities all investigate ways of improving the collection of information about survivors and making it available more rapidly to those wishing to make contact with them."
+            "Recommendation": "I therefore recommend that the LFB, the MPS, the LAS and the London local authorities all investigate ways of improving the collection of information about survivors and making it available more rapidly to those wishing to make contact with them."
           },
           {
-            "Recommendation":"We therefore recommend that the government draw together under a single regulator all the functions relating to the construction industry to which we have referred."
+            "Recommendation": "We therefore recommend that the government draw together under a single regulator all the functions relating to the construction industry to which we have referred."
           },
           {
-            "Recommendation":"We therefore recommend that the definition of a higher-risk building for the purposes of the Building Safety Act be reviewed urgently."
+            "Recommendation": "We therefore recommend that the definition of a higher-risk building for the purposes of the Building Safety Act be reviewed urgently."
           },
           {
-            "Recommendation":"We therefore recommend that the government bring responsibility for the functions relating to fire safety currently exercised by MHCLG, the Home Office and the Department for Business and Trade into one department under a single Secretary of State."
+            "Recommendation": "We therefore recommend that the government bring responsibility for the functions relating to fire safety currently exercised by MHCLG, the Home Office and the Department for Business and Trade into one department under a single Secretary of State."
           },
           {
-            "Recommendation":"We therefore recommend that the Secretary of State appoint a Chief Construction Adviser with a sufficient budget and staff to provide advice on all matters affecting the construction industry, including: a. monitoring all aspects of the department’s work relating to the Building Regulations and statutory guidance; b. providing advice to the Secretary of State on request; and c. bringing to the attention of the Secretary of State any matters affecting the Building Regulations and statutory guidance or matters affecting the construction industry more generally of which the government should be aware."
+            "Recommendation": "We therefore recommend that the Secretary of State appoint a Chief Construction Adviser with a sufficient budget and staff to provide advice on all matters affecting the construction industry, including: a. monitoring all aspects of the department’s work relating to the Building Regulations and statutory guidance; b. providing advice to the Secretary of State on request; and c. bringing to the attention of the Secretary of State any matters affecting the Building Regulations and statutory guidance or matters affecting the construction industry more generally of which the government should be aware."
           },
           {
-            "Recommendation":"We therefore recommend that the statutory guidance generally, and Approved Document B in particular, be reviewed accordingly and a revised version published as soon as possible."
+            "Recommendation": "We therefore recommend that the statutory guidance generally, and Approved Document B in particular, be reviewed accordingly and a revised version published as soon as possible."
           },
           {
-            "Recommendation":"We therefore recommend that a revised version of the guidance contain a clear warning in each section that the legal requirements are contained in the Building Regulations and that compliance with the guidance will not necessarily result in compliance with them."
+            "Recommendation": "We therefore recommend that a revised version of the guidance contain a clear warning in each section that the legal requirements are contained in the Building Regulations and that compliance with the guidance will not necessarily result in compliance with them."
           },
           {
-            "Recommendation":"New materials and methods of construction and the practice of overcladding existing buildings make the existence of effective compartmentation a questionable assumption and we recommend that it be reconsidered when Approved Document B is revised."
+            "Recommendation": "New materials and methods of construction and the practice of overcladding existing buildings make the existence of effective compartmentation a questionable assumption and we recommend that it be reconsidered when Approved Document B is revised."
           },
           {
-            "Recommendation":"Calculating the likely rate of fire spread and the time required for evacuation, including the evacuation of those with physical or mental impairments, are matters for a qualified fire engineer. We do not think that it would be helpful to attempt to include in Approved Document B an indication of what would be acceptable because each building is different, but we recommend that the guidance draw attention to the need to make a calculation of that kind. It is one that ought to form an essential part of any fire safety strategy."
+            "Recommendation": "Calculating the likely rate of fire spread and the time required for evacuation, including the evacuation of those with physical or mental impairments, are matters for a qualified fire engineer. We do not think that it would be helpful to attempt to include in Approved Document B an indication of what would be acceptable because each building is different, but we recommend that the guidance draw attention to the need to make a calculation of that kind. It is one that ought to form an essential part of any fire safety strategy."
           },
           {
-            "Recommendation":"We therefore recommend that, as far as possible, membership of bodies advising on changes to the statutory guidance should include representatives of the academic community as well as those with practical experience of the industry (including fire engineers) chosen for their experience and skill and should extend beyond those who have served on similar bodies in the past"
+            "Recommendation": "We therefore recommend that, as far as possible, membership of bodies advising on changes to the statutory guidance should include representatives of the academic community as well as those with practical experience of the industry (including fire engineers) chosen for their experience and skill and should extend beyond those who have served on similar bodies in the past"
           },
           {
-            "Recommendation":"We therefore recommend that it be made a statutory requirement that a fire safety strategy produced by a registered fire engineer (see below) to be submitted with building control applications (at Gateway 2) for the construction or refurbishment of any higher-risk building and for it to be reviewed and re-submitted at the stage of completion (Gateway 3). Such a strategy must take into account the needs of vulnerable people, including the additional time they may require to leave the building or reach a place of safety within it and any additional facilities necessary to ensure their safety."
+            "Recommendation": "We therefore recommend that it be made a statutory requirement that a fire safety strategy produced by a registered fire engineer (see below) to be submitted with building control applications (at Gateway 2) for the construction or refurbishment of any higher-risk building and for it to be reviewed and re-submitted at the stage of completion (Gateway 3). Such a strategy must take into account the needs of vulnerable people, including the additional time they may require to leave the building or reach a place of safety within it and any additional facilities necessary to ensure their safety."
           },
           {
-            "Recommendation":"We therefore recommend that steps be taken in conjunction with the professional and academic community to develop new test methods that will provide the information needed for such assessments to be carried out reliably."
+            "Recommendation": "We therefore recommend that steps be taken in conjunction with the professional and academic community to develop new test methods that will provide the information needed for such assessments to be carried out reliably."
           },
           {
-            "Recommendation":"we recommend that the government make it clear that it should not be used as a substitute for an assessment by a suitably qualified fire engineer"
+            "Recommendation": "we recommend that the government make it clear that it should not be used as a substitute for an assessment by a suitably qualified fire engineer"
           },
           {
-            "Recommendation":"We therefore recommend that the construction regulator should be responsible for assessing the conformity of construction products with the requirements of legislation, statutory guidance and industry standards and issuing certificates as appropriate. We should expect such certificates to become pre-eminent in the market."
+            "Recommendation": "We therefore recommend that the construction regulator should be responsible for assessing the conformity of construction products with the requirements of legislation, statutory guidance and industry standards and issuing certificates as appropriate. We should expect such certificates to become pre-eminent in the market."
           },
           {
-            "Recommendation":"that copies of all test results supporting any certificate issued by the construction regulator be included in the certificate"
+            "Recommendation": "that copies of all test results supporting any certificate issued by the construction regulator be included in the certificate"
           },
           {
-            "Recommendation":"that manufacturers be required to provide the construction regulator with the full testing history of the product or material to which the certificate relates and inform the regulator of any material circumstances that may affect its performance"
+            "Recommendation": "that manufacturers be required to provide the construction regulator with the full testing history of the product or material to which the certificate relates and inform the regulator of any material circumstances that may affect its performance"
           },        
           {
-            "Recommendation":"manufacturers be required by law to provide on request copies of all test results that support claims about fire performance made for their products."
+            "Recommendation": "manufacturers be required by law to provide on request copies of all test results that support claims about fire performance made for their products."
           },
           {
-            "Recommendation":"We therefore recommend that the profession of fire engineer be recognised and protected by law and that an independent body be established to regulate the profession, define the standards required for membership, maintain a register of members and regulate their conduct."
+            "Recommendation": "We therefore recommend that the profession of fire engineer be recognised and protected by law and that an independent body be established to regulate the profession, define the standards required for membership, maintain a register of members and regulate their conduct."
           },        
           {
-            "Recommendation":"In order to speed up the creation of a body of professional fire engineers we also recommend that the government take urgent steps to increase the number of places on high-quality masters level courses in fire engineering accredited by the professional regulator."
+            "Recommendation": "In order to speed up the creation of a body of professional fire engineers we also recommend that the government take urgent steps to increase the number of places on high-quality masters level courses in fire engineering accredited by the professional regulator."
           },
           {
-            "Recommendation":"The development and maintenance of a statement of professional skills should ultimately be the responsibility of the body that regulates the profession, but pending the establishment of such a body we recommend that the government convene a group of practitioner and academic fire engineers and such other professionals as it thinks fit to produce an authoritative statement of the knowledge and skills to be expected of a competent fire engineer."
+            "Recommendation": "The development and maintenance of a statement of professional skills should ultimately be the responsibility of the body that regulates the profession, but pending the establishment of such a body we recommend that the government convene a group of practitioner and academic fire engineers and such other professionals as it thinks fit to produce an authoritative statement of the knowledge and skills to be expected of a competent fire engineer."
           },
           {
-            "Recommendation":"We also recommend that the government, working in collaboration with industry and professional bodies, encourage the development of courses in the principles of fire engineering for construction professionals and members of the fire and rescue services as part of their continuing professional development."
+            "Recommendation": "We also recommend that the government, working in collaboration with industry and professional bodies, encourage the development of courses in the principles of fire engineering for construction professionals and members of the fire and rescue services as part of their continuing professional development."
           },
           {
-            "Recommendation":"We recognise that both the Architects Registration Board and the Royal Institute of British Architects have taken steps since the Grenfell Tower fire to improve the education and training of architects. We recommend that they should review the changes already made to ensure they are sufficient in the light of our findings."
+            "Recommendation": "We recognise that both the Architects Registration Board and the Royal Institute of British Architects have taken steps since the Grenfell Tower fire to improve the education and training of architects. We recommend that they should review the changes already made to ensure they are sufficient in the light of our findings."
           },
           {
-            "Recommendation":"We also recommend that it be made a statutory requirement that an application for building control approval in relation to the construction or refurbishment of a higher-risk building (Gateway 2) be supported by a statement from a senior manager of the principal designer under the Building Safety Act 2022 that all reasonable steps have been taken to ensure that on completion the building as designed will be as safe as is required by the Building Regulations."
+            "Recommendation": "We also recommend that it be made a statutory requirement that an application for building control approval in relation to the construction or refurbishment of a higher-risk building (Gateway 2) be supported by a statement from a senior manager of the principal designer under the Building Safety Act 2022 that all reasonable steps have been taken to ensure that on completion the building as designed will be as safe as is required by the Building Regulations."
           },
           {
-            "Recommendation":"We therefore recommend that a licensing scheme operated by the construction regulator be introduced for principal contractors wishing to undertake the construction or refurbishment of higher-risk buildings and that it be a legal requirement that any application for building control approval for the construction or refurbishment of a higher-risk building (Gateway 2) be supported by a personal undertaking from a director or senior manager of the principal contractor to take all reasonable care to ensure that on completion and handover the building is as safe as is required by the Building Regulations."
+            "Recommendation": "We therefore recommend that a licensing scheme operated by the construction regulator be introduced for principal contractors wishing to undertake the construction or refurbishment of higher-risk buildings and that it be a legal requirement that any application for building control approval for the construction or refurbishment of a higher-risk building (Gateway 2) be supported by a personal undertaking from a director or senior manager of the principal contractor to take all reasonable care to ensure that on completion and handover the building is as safe as is required by the Building Regulations."
           },
           {
-            "Recommendation":"We therefore recommend that the government appoint an independent panel to consider whether it is in the public interest for building control functions to be performed by those who have a commercial interest in the process."
+            "Recommendation": "We therefore recommend that the government appoint an independent panel to consider whether it is in the public interest for building control functions to be performed by those who have a commercial interest in the process."
           },
           {
-            "Recommendation":"we recommend that the same panel consider whether all building control functions should be performed by a national authority."
+            "Recommendation": "we recommend that the same panel consider whether all building control functions should be performed by a national authority."
           },
           {
-            "Recommendation":"We recommend that the construction regulator sponsor the development of a similar library, perhaps as part of a joint project with the University of Queensland, to provide a continuing resource for designers."
+            "Recommendation": "We recommend that the construction regulator sponsor the development of a similar library, perhaps as part of a joint project with the University of Queensland, to provide a continuing resource for designers."
           },
           {
-            "Recommendation":"We recommend that it be made a legal requirement for the government to maintain a publicly accessible record of recommendations made by select committees, coroners and public inquiries together with a description of the steps taken in response. If the government decides not to accept a recommendation, it should record its reasons for doing so. Scrutiny of its actions should be a matter for Parliament, to which it should be required to report annually."
+            "Recommendation": "We recommend that it be made a legal requirement for the government to maintain a publicly accessible record of recommendations made by select committees, coroners and public inquiries together with a description of the steps taken in response. If the government decides not to accept a recommendation, it should record its reasons for doing so. Scrutiny of its actions should be a matter for Parliament, to which it should be required to report annually."
           },
           {
-            "Recommendation":"We therefore recommend that the government establish a system of mandatory accreditation to certify the competence of fire risk assessors by setting standards for qualification and continuing professional development and such other measures as may be considered necessary or desirable. We think it necessary for an accreditation system to be mandatory in order to ensure the competence of all those who offer their services as fire risk assessors."
+            "Recommendation": "We therefore recommend that the government establish a system of mandatory accreditation to certify the competence of fire risk assessors by setting standards for qualification and continuing professional development and such other measures as may be considered necessary or desirable. We think it necessary for an accreditation system to be mandatory in order to ensure the competence of all those who offer their services as fire risk assessors."
           },
           {
-            "Recommendation":"We therefore recommend that the government seeks urgent advice from the Building Safety Regulator and the National Fire Chiefs Council on the nature and scale of the problem and the appropriate response to it."
+            "Recommendation": "We therefore recommend that the government seeks urgent advice from the Building Safety Regulator and the National Fire Chiefs Council on the nature and scale of the problem and the appropriate response to it."
           },
           {
-            "Recommendation":"We therefore recommend that every gas transporter be required by law to check the accessibility of each such valve on its system at least once every three years and to report the results of that inspection to the Health and Safety Executive as part of its gas safety case review."
+            "Recommendation": "We therefore recommend that every gas transporter be required by law to check the accessibility of each such valve on its system at least once every three years and to report the results of that inspection to the Health and Safety Executive as part of its gas safety case review."
           },
           {
-            "Recommendation":"we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: practical training at all levels supplementary to that provided by individual fire and rescue services;"
+            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: practical training at all levels supplementary to that provided by individual fire and rescue services;"
           },
           {
-            "Recommendation":"we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally:education in the form of lectures and seminars on different aspects of the work of the fire and rescue services in order to share experience and promote good practice"
+            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally:education in the form of lectures and seminars on different aspects of the work of the fire and rescue services in order to share experience and promote good practice"
           },
           {
-            "Recommendation":"we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: research into matters that may affect the work of the fire and rescue services, including major fires"
+            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: research into matters that may affect the work of the fire and rescue services, including major fires"
           },
           {
-            "Recommendation":"we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: setting and maintaining national standards of managerial competence for senior managers, including control room managers, and providing management training for, and regular assessment of, senior ranks by reference to such standards"
+            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: setting and maintaining national standards of managerial competence for senior managers, including control room managers, and providing management training for, and regular assessment of, senior ranks by reference to such standards"
           },
           {
-            "Recommendation":"Although it is for the government to decide how the college should be constituted, we recommend that it should have a permanent staff of sufficient size to manage its operations and develop its functions in response to the demands of fire and rescue services nationally and the requirements of the board."
+            "Recommendation": "Although it is for the government to decide how the college should be constituted, we recommend that it should have a permanent staff of sufficient size to manage its operations and develop its functions in response to the demands of fire and rescue services nationally and the requirements of the board."
           },
           {
-            "Recommendation":"In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on: the extent to which the control room is now integrated into the organisation"
+            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on: the extent to which the control room is now integrated into the organisation"
           },
           {
-            "Recommendation":"In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the effectiveness of the arrangements for identifying the training needs of control room staff, delivering effective training and recording its outcomes"
+            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the effectiveness of the arrangements for identifying the training needs of control room staff, delivering effective training and recording its outcomes"
           },
           {
-            "Recommendation":"In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the effectiveness of the control room generally"
+            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the effectiveness of the control room generally"
           },
           {
-            "Recommendation":"In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the ability of the control room to handle a large number of concurrent requests for advice and assistance from people directly affected by fires or other emergencies"
+            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the ability of the control room to handle a large number of concurrent requests for advice and assistance from people directly affected by fires or other emergencies"
           },
           {
-            "Recommendation":"In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the quality and effectiveness of the arrangements for communication between the control room and the incident commander."
+            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the quality and effectiveness of the arrangements for communication between the control room and the incident commander."
           },
           {
-            "Recommendation":"we recommend that as soon as reasonably possible the Inspectorate inspect the LFB to examine and report on the arrangements it has in place for assessing the training of incident commanders at all levels and their continuing competence, whether by a process of revalidation or otherwise."
+            "Recommendation": "we recommend that as soon as reasonably possible the Inspectorate inspect the LFB to examine and report on the arrangements it has in place for assessing the training of incident commanders at all levels and their continuing competence, whether by a process of revalidation or otherwise."
           },
           {
-            "Recommendation":"We therefore recommend that as soon as reasonably practicable the Inspectorate inspect the LFB to examine and report on its arrangements for collecting, storing and distributing information in accordance with section 7(2)(d) of the Fire and Rescue Services Act 2004, and in particular its arrangements for identifying high-risk residential buildings and collecting, storing and distributing information relating to them."
+            "Recommendation": "We therefore recommend that as soon as reasonably practicable the Inspectorate inspect the LFB to examine and report on its arrangements for collecting, storing and distributing information in accordance with section 7(2)(d) of the Fire and Rescue Services Act 2004, and in particular its arrangements for identifying high-risk residential buildings and collecting, storing and distributing information relating to them."
           },
           {
-            "Recommendation":"We therefore recommend that the LFB establish effective standing arrangements for collecting, considering and effectively implementing lessons learned from previous incidents, inquests and investigations"
+            "Recommendation": "We therefore recommend that the LFB establish effective standing arrangements for collecting, considering and effectively implementing lessons learned from previous incidents, inquests and investigations"
           },
           {
-            "Recommendation":"We therefore recommend that fire and rescue services that continue to use low power intrinsically safe radios as part of breathing apparatus consider reserving them only for situations in which there is a real risk of igniting flammable gases and generally using radios of higher power, particularly in high-rise buildings"
+            "Recommendation": "We therefore recommend that fire and rescue services that continue to use low power intrinsically safe radios as part of breathing apparatus consider reserving them only for situations in which there is a real risk of igniting flammable gases and generally using radios of higher power, particularly in high-rise buildings"
           },
           {
-            "Recommendation":"We therefore recommend that all fire and rescue services give consideration to providing all firefighters with digital radios"
+            "Recommendation": "We therefore recommend that all fire and rescue services give consideration to providing all firefighters with digital radios"
           },
           {
-            "Recommendation":"Since radio communications are inherently unreliable in certain environments, we recommend that firefighters be trained to respond appropriately to the loss of communications and to understand how to restore them"
+            "Recommendation": "Since radio communications are inherently unreliable in certain environments, we recommend that firefighters be trained to respond appropriately to the loss of communications and to understand how to restore them"
           },
           {
-            "Recommendation":"we therefore recommend that basic training on the structure and operation of the water supply system, including the different types of hydrants in use and their functions, be given to all firefighters"
+            "Recommendation": "we therefore recommend that basic training on the structure and operation of the water supply system, including the different types of hydrants in use and their functions, be given to all firefighters"
           },
           {
-            "Recommendation":"We therefore recommend that all fire and rescue services establish and periodically review an agreed protocol with the statutory water undertakers in their areas to enable effective communication between them in relation to the supply of water for firefighting purposes."
+            "Recommendation": "We therefore recommend that all fire and rescue services establish and periodically review an agreed protocol with the statutory water undertakers in their areas to enable effective communication between them in relation to the supply of water for firefighting purposes."
           },
           {
-            "Recommendation":"We therefore recommend that the British Standards Institution amend BS 750 to include a description of the circumstances under which the flow coefficient to which it refers in paragraph 10.2 is to be measured."
+            "Recommendation": "We therefore recommend that the British Standards Institution amend BS 750 to include a description of the circumstances under which the flow coefficient to which it refers in paragraph 10.2 is to be measured."
           },
           {
-            "Recommendation":"we recommend that National Fire Chiefs Council consider whether, and if so in what circumstances, firefighters should be discouraged from departing from their instructions on their own initiative and provide appropriate training in how to respond to a situation of that kind."
+            "Recommendation": "we recommend that National Fire Chiefs Council consider whether, and if so in what circumstances, firefighters should be discouraged from departing from their instructions on their own initiative and provide appropriate training in how to respond to a situation of that kind."
           },
           {
-            "Recommendation":"We therefore recommend that the Act be reviewed and consideration be given to granting a designated Secretary of State the power to carry out the functions of a Category 1 responder in its place for a limited period of time."
+            "Recommendation": "We therefore recommend that the Act be reviewed and consideration be given to granting a designated Secretary of State the power to carry out the functions of a Category 1 responder in its place for a limited period of time."
           },
           {
-            "Recommendation":"We therefore recommend that the regulation be amended to require Category 1 responders to establish and maintain partnerships with the voluntary, community and faith organisations in the areas in which they are responsible for preparing for and responding to emergencies."
+            "Recommendation": "We therefore recommend that the regulation be amended to require Category 1 responders to establish and maintain partnerships with the voluntary, community and faith organisations in the areas in which they are responsible for preparing for and responding to emergencies."
           },
           {
-            "Recommendation":"We recommend that the guidance be revised, reduced in length and consolidated in one document which lays greater emphasis on the need for those leading the response to consider the requirements for recovery, the need to identify vulnerable people, the importance of identifying and ensuring co-operation with voluntary, community and faith groups and is consistent with the Equality Act 2010."
+            "Recommendation": "We recommend that the guidance be revised, reduced in length and consolidated in one document which lays greater emphasis on the need for those leading the response to consider the requirements for recovery, the need to identify vulnerable people, the importance of identifying and ensuring co-operation with voluntary, community and faith groups and is consistent with the Equality Act 2010."
           },
           {
-            "Recommendation":"We also recommend that regard for humanitarian considerations be expressly recognised by making it the ninth principle of effective response and recovery."
+            "Recommendation": "We also recommend that regard for humanitarian considerations be expressly recognised by making it the ninth principle of effective response and recovery."
           },
           {
-            "Recommendation":"We therefore recommend that the guidance on the operation of those arrangements be revised and that existing and newly appointed chief executives be given regular training to ensure they are familiar with its principles"
+            "Recommendation": "We therefore recommend that the guidance on the operation of those arrangements be revised and that existing and newly appointed chief executives be given regular training to ensure they are familiar with its principles"
           },
           {
-            "Recommendation":"We therefore recommend that local resilience forums adopt national standards to ensure effective training, preparation and planning for emergencies and adopt independent auditing schemes to identify deficiencies and secure compliance."
+            "Recommendation": "We therefore recommend that local resilience forums adopt national standards to ensure effective training, preparation and planning for emergencies and adopt independent auditing schemes to identify deficiencies and secure compliance."
           },
           {
-            "Recommendation":"We also recommend that a mechanism be introduced for independently verifying the frequency and quality of training provided by local authorities and other Category 1 responders"
+            "Recommendation": "We also recommend that a mechanism be introduced for independently verifying the frequency and quality of training provided by local authorities and other Category 1 responders"
           },        {
-            "Recommendation":"We therefore recommend that local authorities train all their employees, including chief executives, to regard resilience as an integral part of their responsibilities."
+            "Recommendation": "We therefore recommend that local authorities train all their employees, including chief executives, to regard resilience as an integral part of their responsibilities."
           },
           {
-            "Recommendation":"We recommend that all local authorities devise methods of obtaining and recording information of that kind, if possible in electronic form, and practise putting them into operation under a variety of different circumstances"
+            "Recommendation": "We recommend that all local authorities devise methods of obtaining and recording information of that kind, if possible in electronic form, and practise putting them into operation under a variety of different circumstances"
           },
           {
-            "Recommendation":"We recommend that all local authorities make such arrangements as are reasonably practicable for enabling them to place people in temporary accommodation at short notice and in ways that meet their personal, religious and cultural requirements. Such arrangements should, as far as possible, involve local providers of social housing"
+            "Recommendation": "We recommend that all local authorities make such arrangements as are reasonably practicable for enabling them to place people in temporary accommodation at short notice and in ways that meet their personal, religious and cultural requirements. Such arrangements should, as far as possible, involve local providers of social housing"
           },
           {
-            "Recommendation":"We recommend that all local authorities include in their contingency plans arrangements for providing immediate financial assistance to people affected by an emergency."
+            "Recommendation": "We recommend that all local authorities include in their contingency plans arrangements for providing immediate financial assistance to people affected by an emergency."
           },
           {
-            "Recommendation":"We also recommend that as part of their planning for emergencies local authorities give detailed consideration to the availability of key workers and the role they are expected to play so that suitable contingency arrangements can be made to ensure, as far as possible, continuity of support."
+            "Recommendation": "We also recommend that as part of their planning for emergencies local authorities give detailed consideration to the availability of key workers and the role they are expected to play so that suitable contingency arrangements can be made to ensure, as far as possible, continuity of support."
           },
           {
-            "Recommendation":"We recommend that as part of their emergency planning local authorities make effective arrangements for continuing communication with those who need assistance using the most suitable technology and a range of languages appropriate to the area."
+            "Recommendation": "We recommend that as part of their emergency planning local authorities make effective arrangements for continuing communication with those who need assistance using the most suitable technology and a range of languages appropriate to the area."
           },
           {
-            "Recommendation":"We recommend that all local authorities include in their plans for responding to emergencies arrangements for providing information to the public by whatever combination of modern methods of communication are likely to be most effective for the areas for which they are responsible"
+            "Recommendation": "We recommend that all local authorities include in their plans for responding to emergencies arrangements for providing information to the public by whatever combination of modern methods of communication are likely to be most effective for the areas for which they are responsible"
           },
           {
-            "Recommendation":"In future, to avoid confusion, wasted effort and frustration we also recommend that what in the past has been called by the police a “casualty bureau” be described in a way that makes it clear that it does not provide information to the public about people affected by the emergency."
+            "Recommendation": "In future, to avoid confusion, wasted effort and frustration we also recommend that what in the past has been called by the police a “casualty bureau” be described in a way that makes it clear that it does not provide information to the public about people affected by the emergency."
           },
           {
-            "Recommendation":"We therefore recommend that further consideration be given to the recommendations made in the Phase 1 report in the light of our findings in this report."
+            "Recommendation": "We therefore recommend that further consideration be given to the recommendations made in the Phase 1 report in the light of our findings in this report."
           },
           {
-            "Recommendation":"We also recommend that the advice contained in paragraph 79.11 of the LGA Guide be reconsidered"
+            "Recommendation": "We also recommend that the advice contained in paragraph 79.11 of the LGA Guide be reconsidered"
           }
         ]
       }
@@ -654,169 +689,199 @@
       "ReportDate": "20/05/2024",
       "Recommendations":[
         {
-          "Recommendation":"My principal recommendation remains that a compensation scheme should be set up now. The Government accepted the moral case for compensation in December 2022 and my recommendations for compensation were made in the Inquiry’s Second Interim Report of 5 April 2023."
+          "Recommendation": "My principal recommendation remains that a compensation scheme should be set up now. The Government accepted the moral case for compensation in December 2022 and my recommendations for compensation were made in the Inquiry’s Second Interim Report of 5 April 2023.",
+          "changeType": "More",
+          "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation":"A permanent memorial be established in the UK and consideration be given to memorials in each of Northern Ireland, Wales and Scotland. The nature of the memorial(s), their design and location should be determined by a memorial committee consisting of people infected and affected and representatives of the governments. It should be funded by the UK government."
+          "Recommendation": "A permanent memorial be established in the UK and consideration be given to memorials in each of Northern Ireland, Wales and Scotland. The nature of the memorial(s), their design and location should be determined by a memorial committee consisting of people infected and affected and representatives of the governments. It should be funded by the UK government.",
+          "changeType": "New",
+          "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation":"A memorial be established at public expense, dedicated specifically to the children infected at Treloar’s school. The memorial should be such as is agreed with those who were pupils at Treloar’s."
+          "Recommendation": "A memorial be established at public expense, dedicated specifically to the children infected at Treloar’s school. The memorial should be such as is agreed with those who were pupils at Treloar’s.",
+          "changeType": "New",
+          "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation":"There should be at least three events, approximately six months apart, drawing together those infected and affected, the nature and timing of which should be determined by a working party as described above, facilitated by some central funding."
+          "Recommendation": "There should be at least three events, approximately six months apart, drawing together those infected and affected, the nature and timing of which should be determined by a working party as described above, facilitated by some central funding.",
+          "changeType": "New",
+          "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation":"The General Medical Council, and NHS Education for Scotland, Health Education and Improvement Wales, Northern Ireland Medical and Dental Training Agency and NHS England, should take steps to ensure that those “lessons to be learned” which relate to clinical practice should be incorporated in every doctor’s training."
+          "Recommendation": "The General Medical Council, and NHS Education for Scotland, Health Education and Improvement Wales, Northern Ireland Medical and Dental Training Agency and NHS England, should take steps to ensure that those “lessons to be learned” which relate to clinical practice should be incorporated in every doctor’s training.",
+          "changeType": "More",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
-          "Recommendation": "They should look favourably upon putting together a package of training materials, with excerpts from oral and written testimony, to underpin what can happen in healthcare, and must be avoided in future."
+          "Recommendation": "They should look favourably upon putting together a package of training materials, with excerpts from oral and written testimony, to underpin what can happen in healthcare, and must be avoided in future.",
+          "changeType": "New",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation":"The Inquiry website is maintained online"
+          "Recommendation": "The Inquiry website is maintained online",
+          "changeType": "More",
+          "ActionCategory": "Technology & Systems"
         },
         {
-          "Recommendation":"A statutory duty of candour in healthcare should be introduced in Northern Ireland."
+          "Recommendation": "A statutory duty of candour in healthcare should be introduced in Northern Ireland.",
+          "changeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The operation of the duties of candour in healthcare in Scotland and in Wales should be reviewed, as it is being in England, to assess how effective its operation has been in practice. Since the duty was introduced in 2023 in Wales, the review there need not be immediate, but should be no later than the end of 2026."
+          "Recommendation": "The operation of the duties of candour in healthcare in Scotland and in Wales should be reviewed, as it is being in England, to assess how effective its operation has been in practice. Since the duty was introduced in 2023 in Wales, the review there need not be immediate, but should be no later than the end of 2026.",
+          "changeType": "Different",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The review of the duty of candour currently under way in England should be completed as soon as practicable."
+          "Recommendation": "The review of the duty of candour currently under way in England should be completed as soon as practicable.",
+          "changeType": "More",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation":"The statutory duties of candour in England, Scotland, Wales (and Northern Ireland, when introduced) should be extended to cover those individuals in leadership positions in the National Health Service, in particular in executive positions and board members."
+          "Recommendation": "The statutory duties of candour in England, Scotland, Wales (and Northern Ireland, when introduced) should be extended to cover those individuals in leadership positions in the National Health Service, in particular in executive positions and board members.",
+          "changeType": "New",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation":"Individuals in leadership positions should be required by the terms oftheir appointment and by secondary legislation to record, consider andrespond to any concern about the healthcare being provided, or the way it is being provided, where there reasonably appears to be a risk that a patient might suffer harm, or has done so. Any person in authority to whom such a report is made should be personally accountable for a failure to consider it adequately"
+          "Recommendation": "Individuals in leadership positions should be required by the terms of their appointment and by secondary legislation to record, consider and respond to any concern about the healthcare being provided, or the way it is being provided, where there reasonably appears to be a risk that a patient might suffer harm, or has done so. Any person in authority to whom such a report is made should be personally accountable for a failure to consider it adequately",
+          "changeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation":"That a culture of defensiveness, lack of openness, failure to be forthcoming, and being dismissive of concerns about patient safety be addressed both by taking the steps set out in (a) above, and also by making leaders accountable for how the culture operates in their part of the system, and for the way in which it involves patients."
+          "Recommendation": "That a culture of defensiveness, lack of openness, failure to be forthcoming, and being dismissive of concerns about patient safety be addressed both by taking the steps set out in (a) above, and also by making leaders accountable for how the culture operates in their part of the system, and for the way in which it involves patients.",
+          "changeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation":"That external regulation of safety in healthcare be simplified. As a first step towards this, there should be a UK wide review by the four health departments of the systems of external regulation, with the aim of addressing all the points made earlier in this Report and in other reports since 2000."
+          "Recommendation": "That external regulation of safety in healthcare be simplified. As a first step towards this, there should be a UK wide review by the four health departments of the systems of external regulation, with the aim of addressing all the points made earlier in this Report and in other reports since 2000.",
+          "changeType": "Less",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"That the national healthcare administrations in England, Northern Ireland, Scotland and Wales explore, and if appropriate, support the development and implementation of safety management systems (“SMS”s) through SMS coordination groups (as recommended by the HSSIB), and do so as a matter of priority."
+          "Recommendation": "That the national healthcare administrations in England, Northern Ireland, Scotland and Wales explore, and if appropriate, support the development and implementation of safety management systems (“SMS”s) through SMS coordination groups (as recommended by the HSSIB), and do so as a matter of priority.",
+          "changeType": "New",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation":"Before the end of 2027 there should be a formal audit, publicly reported, of the extent of success of digitisation of patient records in each of the four health jurisdictions of the UK, measuring at least the levels of patient access to their personal records, their ability to identify and correct apparent errors in them, their interoperability, and the confidence of health professionals in the detail, accuracy and timeliness of any record they enter, and that little material which should be recorded has been omitted. Next steps should be identified"
+          "Recommendation": "Before the end of 2027 there should be a formal audit, publicly reported, of the extent of success of digitisation of patient records in each of the four health jurisdictions of the UK, measuring at least the levels of patient access to their personal records, their ability to identify and correct apparent errors in them, their interoperability, and the confidence of health professionals in the detail, accuracy and timeliness of any record they enter, and that little material which should be recorded has been omitted. Next steps should be identified"
         },
         {
-          "Recommendation":"Consideration should be given by the national healthcare administration in England, Scotland, Wales and Northern Ireland, to further coordination of their approaches particularly to ensure that patterns of harm, or trends, are identified and any response which for the sake of patient safety would be better coordinated than left to each individual administration can collaboratively be agreed and implemented."
+          "Recommendation": "Consideration should be given by the national healthcare administration in England, Scotland, Wales and Northern Ireland, to further coordination of their approaches particularly to ensure that patterns of harm, or trends, are identified and any response which for the sake of patient safety would be better coordinated than left to each individual administration can collaboratively be agreed and implemented."
         },
         {
-          "Recommendation":"The Government should reconsider whether, in the light of the facts revealed by this Inquiry, it is sufficient to continue to rely on the current non-statutory duties in the Civil Service and Ministerial Codes, coupled with those legal duties which occur on the occasions when civil servants and ministers interact with courts, inquests and inquiries, as securing candour."
+          "Recommendation": "The Government should reconsider whether, in the light of the facts revealed by this Inquiry, it is sufficient to continue to rely on the current non-statutory duties in the Civil Service and Ministerial Codes, coupled with those legal duties which occur on the occasions when civil servants and ministers interact with courts, inquests and inquiries, as securing candour."
         },
         {
-          "Recommendation":"If, on review, the Government considers that it is sufficient to rely on the current non-statutory duties in the Civil Service Code, it should nonetheless introduce a statutory duty of accountability on senior civil servants for the candour and completeness of advice given to Permanent Secretaries and Ministers, and the candour and completeness of their response to concerns raised by members of the public and staff."
+          "Recommendation": "If, on review, the Government considers that it is sufficient to rely on the current non-statutory duties in the Civil Service Code, it should nonetheless introduce a statutory duty of accountability on senior civil servants for the candour and completeness of advice given to Permanent Secretaries and Ministers, and the candour and completeness of their response to concerns raised by members of the public and staff."
         },
         {
-          "Recommendation":"The Government should consider the extent to which Ministers should be subject to a duty beyond their current duty to Parliament under the Ministerial Code."
+          "Recommendation": "The Government should consider the extent to which Ministers should be subject to a duty beyond their current duty to Parliament under the Ministerial Code."
         },
         {
-          "Recommendation":"All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care those who have been diagnosed with cirrhosis at any point should receive lifetime monitoring by way of six-monthly fibroscans and annual clinical review, either nurse-led, consultant-led or, where appropriate, by a GP with a specialist interest in hepatitis"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care those who have been diagnosed with cirrhosis at any point should receive lifetime monitoring by way of six-monthly fibroscans and annual clinical review, either nurse-led, consultant-led or, where appropriate, by a GP with a specialist interest in hepatitis"
         },
         {
-          "Recommendation":"All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care:those who have fibrosis should receive the same care"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care:those who have fibrosis should receive the same care"
         },
         {
-          "Recommendation":"All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: where there is any uncertainty about whether a patient has fibrosis they should receive the same care"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: where there is any uncertainty about whether a patient has fibrosis they should receive the same care"
         },
         {
-          "Recommendation":"All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: fibroscan technology should be used for liver imaging, rather than alternatives"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: fibroscan technology should be used for liver imaging, rather than alternatives"
         },
         {
-          "Recommendation":"All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: those who have had Hepatitis C which is attributable to infected blood or blood products should be seen by a consultant hepatologist, rather than a more junior member of staff, wherever practicable"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: those who have had Hepatitis C which is attributable to infected blood or blood products should be seen by a consultant hepatologist, rather than a more junior member of staff, wherever practicable"
         },
         {
-          "Recommendation":"All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: those bodies responsible for commissioning hepatology services in each of the home nations should publish the steps they have taken to satisfy themselves that the services they are commissioning meet the particular needs of the group of people harmed by NHS treatment"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: those bodies responsible for commissioning hepatology services in each of the home nations should publish the steps they have taken to satisfy themselves that the services they are commissioning meet the particular needs of the group of people harmed by NHS treatment"
         },
         {
-          "Recommendation":"In England Hospital Transfusion Committees and transfusion practitioners take steps to ensure that consideration of tranexamic acid be on every hospital surgical checklist; that hospital medical directors be required to report to their boards and the chief executive of their Trust as to the extent of its use; and that the board report annually to NHS England as to the percentage of eligible operations which have involved its use. If the percentage is below 80% or has dropped since the previous year, this report should be accompanied with an explanation for the failure to use more tranexamic acid and thereby reduce the risk to patient safety that comes with using a transfusion of blood or red blood cells."
+          "Recommendation": "In England Hospital Transfusion Committees and transfusion practitioners take steps to ensure that consideration of tranexamic acid be on every hospital surgical checklist; that hospital medical directors be required to report to their boards and the chief executive of their Trust as to the extent of its use; and that the board report annually to NHS England as to the percentage of eligible operations which have involved its use. If the percentage is below 80% or has dropped since the previous year, this report should be accompanied with an explanation for the failure to use more tranexamic acid and thereby reduce the risk to patient safety that comes with using a transfusion of blood or red blood cells."
         },
         {
-          "Recommendation":"In Scotland, Wales and Northern Ireland offering the use of tranexamic acid should be considered a treatment of preference in respect of all eligible surgery"
+          "Recommendation": "In Scotland, Wales and Northern Ireland offering the use of tranexamic acid should be considered a treatment of preference in respect of all eligible surgery"
         },
         {
-          "Recommendation":"Consideration be given to standardising and benchmarking transfusion performance between hospitals in order to deliver better patient blood management."
+          "Recommendation": "Consideration be given to standardising and benchmarking transfusion performance between hospitals in order to deliver better patient blood management."
         },
         {
-          "Recommendation":"Progress in implementation of the Transfusion 2024 recommendations be reviewed, and next steps be determined and promulgated; and that in Scotland the 5 year plan is reviewed in or before 2027 with a view to determining next steps"
+          "Recommendation": "Progress in implementation of the Transfusion 2024 recommendations be reviewed, and next steps be determined and promulgated; and that in Scotland the 5 year plan is reviewed in or before 2027 with a view to determining next steps"
         },
         {
-          "Recommendation":"Transfusion laboratories should be staffed (and resourced) adequately to meet the requirements of their functions."
+          "Recommendation": "Transfusion laboratories should be staffed (and resourced) adequately to meet the requirements of their functions."
         },
         {
-          "Recommendation":"That those bodies concerned with undergraduate and postgraduate training across the UK of those people who are, or intend to be, working in the NHS ensure that they are adequately trained in transfusion, that the standards by which sufficiency of training is measured are defined, and accountability for training in transfusion be defined."
+          "Recommendation": "That those bodies concerned with undergraduate and postgraduate training across the UK of those people who are, or intend to be, working in the NHS ensure that they are adequately trained in transfusion, that the standards by which sufficiency of training is measured are defined, and accountability for training in transfusion be defined."
         },
         {
-          "Recommendation":"That all NHS organisations across the UK have a mechanism in place for implementing recommendations of SHOT reports, which should be professionally mandated, and for monitoring such implementation."
+          "Recommendation": "That all NHS organisations across the UK have a mechanism in place for implementing recommendations of SHOT reports, which should be professionally mandated, and for monitoring such implementation."
         },
         {
-          "Recommendation":"Establishing the outcome of every transfusion: That a framework be established for recording outcomes for recipients of blood components. That those records be used by NHS bodies to improve transfusion practice (including by providing such information to haemovigilance bodies)."
+          "Recommendation": "Establishing the outcome of every transfusion: That a framework be established for recording outcomes for recipients of blood components. That those records be used by NHS bodies to improve transfusion practice (including by providing such information to haemovigilance bodies)."
         },
         {
-          "Recommendation":"Establishing the outcome of every transfusion: To the extent that the funding for digital transformation does not already cover the setting up and operation of this framework, bespoke funding should be provided."
+          "Recommendation": "Establishing the outcome of every transfusion: To the extent that the funding for digital transformation does not already cover the setting up and operation of this framework, bespoke funding should be provided."
         },
         {
-          "Recommendation":"Establishing the outcome of every transfusion: That funding for the provision of enhanced electronic clinical systems in relation to blood transfusion be regarded as a priority across the UK."
+          "Recommendation": "Establishing the outcome of every transfusion: That funding for the provision of enhanced electronic clinical systems in relation to blood transfusion be regarded as a priority across the UK."
         },
         {
-          "Recommendation":"When doctors become aware that a patient has had a blood transfusion prior to 1996, that patient should be offered a blood test for Hepatitis C."
+          "Recommendation": "When doctors become aware that a patient has had a blood transfusion prior to 1996, that patient should be offered a blood test for Hepatitis C."
         },
         {
-          "Recommendation":"As a matter of routine, new patients registering at a practice should be asked if they have had such a transfusion."
+          "Recommendation": "As a matter of routine, new patients registering at a practice should be asked if they have had such a transfusion."
         },
         {
-          "Recommendation":"That peer review of haemophilia care should continue to occur as presently practised, with any necessary support being provided by NHS Trusts and Health Boards"
+          "Recommendation": "That peer review of haemophilia care should continue to occur as presently practised, with any necessary support being provided by NHS Trusts and Health Boards"
         },
         {
-          "Recommendation":"That NHS Trusts and Health Boards should be required to deliberate on peer review findings and give favourable consideration to implementing the changes identified with a view to ensuring comprehensive, safe, care."
+          "Recommendation": "That NHS Trusts and Health Boards should be required to deliberate on peer review findings and give favourable consideration to implementing the changes identified with a view to ensuring comprehensive, safe, care."
         },
         {
-          "Recommendation":"A peer review of each centre should take place not less than once every five years."
+          "Recommendation": "A peer review of each centre should take place not less than once every five years."
         },
         {
-          "Recommendation":"The necessary administrative and clinical resources should be provided by hospital trusts and boards, integrated care boards, and service commissioners to facilitate multi-disciplinary regional networks to discuss policy and practice in haemophilia and other inherited bleeding disorders care, provided they involve patients in their discussions."
+          "Recommendation": "The necessary administrative and clinical resources should be provided by hospital trusts and boards, integrated care boards, and service commissioners to facilitate multi-disciplinary regional networks to discuss policy and practice in haemophilia and other inherited bleeding disorders care, provided they involve patients in their discussions."
         },
         {
-          "Recommendation":"I recommend (adopting wording used by the Scottish Territorial Health Boards, who also favour this proposal)224 that, across the UK recombinant coagulation factor products should be offered in place of plasma-derived ones where clinically appropriate. Service commissioners should ensure that such treatment decisions are funded accordingly."
+          "Recommendation": "I recommend (adopting wording used by the Scottish Territorial Health Boards, who also favour this proposal)224 that, across the UK recombinant coagulation factor products should be offered in place of plasma-derived ones where clinically appropriate. Service commissioners should ensure that such treatment decisions are funded accordingly."
         },
         {
-          "Recommendation":"I therefore recommend: that the National Haemophilia Database, run by the UKHCDO, merits the support of additional central funding."
+          "Recommendation": "I therefore recommend: that the National Haemophilia Database, run by the UKHCDO, merits the support of additional central funding."
         },
         {
-          "Recommendation":"That the patient voice be enabled and empowered by the following measures: clinical audit should as a matter of routine include measures of patient satisfaction or concern, and these should be reported to the board of the body concerned. Success in this will be measured by comparing the measure of satisfaction from one year to the next, such that the reports to the board concerned demonstrate a trend of improvement by comparing this year’s outcomes with the similar outcomes from at least the two previous years."
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: clinical audit should as a matter of routine include measures of patient satisfaction or concern, and these should be reported to the board of the body concerned. Success in this will be measured by comparing the measure of satisfaction from one year to the next, such that the reports to the board concerned demonstrate a trend of improvement by comparing this year’s outcomes with the similar outcomes from at least the two previous years."
         },
         {
-          "Recommendation":"That the patient voice be enabled and empowered by the following measures: that the following charities receive funding specifically for patient advocacy: the UK Haemophilia Society; the Hepatitis C Trust; Haemophilia Scotland; the Scottish Infected Blood Forum; Haemophilia Wales; Haemophilia Northern Ireland; and the UK Thalassaemia Society."
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: that the following charities receive funding specifically for patient advocacy: the UK Haemophilia Society; the Hepatitis C Trust; Haemophilia Scotland; the Scottish Infected Blood Forum; Haemophilia Wales; Haemophilia Northern Ireland; and the UK Thalassaemia Society."
         },
         {
-          "Recommendation":"That the patient voice be enabled and empowered by the following measures: that favourable consideration be given to other charities and organisations supporting people infected and affected that were granted core participant status (as listed on the Inquiry website) to continue to provide support for at least the next 18 months. Further support should be reviewed at that stage with a view to it continuing as appropriate."
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: that favourable consideration be given to other charities and organisations supporting people infected and affected that were granted core participant status (as listed on the Inquiry website) to continue to provide support for at least the next 18 months. Further support should be reviewed at that stage with a view to it continuing as appropriate."
         },
         {
-          "Recommendation":"That the patient voice be enabled and empowered by the following measures: particular consideration be given, together with the UK Thalassaemia Society and the Sickle Cell Society, to how the needs of patients with thalassaemia or sickle cell disease can best holistically be addressed."
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: particular consideration be given, together with the UK Thalassaemia Society and the Sickle Cell Society, to how the needs of patients with thalassaemia or sickle cell disease can best holistically be addressed."
         },
         {
-          "Recommendation":"That the patient voice be enabled and empowered by the following measures: steps be taken to give greater prominence to the online Yellow Card system to those receiving drugs or biological products, or who are being transfused with blood components." 
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: steps be taken to give greater prominence to the online Yellow Card system to those receiving drugs or biological products, or who are being transfused with blood components." 
         },
         {
-          "Recommendation":"that a minister should retain the power to call an inquiry as the minister sees fit, in accordance with the Inquiries Act 2005 – but where a minister does not choose to do so, then: if there is sufficient support from within Parliament for there to be an inquiry, the question whether there should be one should be referred to PACAC for it to consider the question. If it appears to PACAC that there is sufficient concern to justify a public inquiry, either because what happened and why has caused concern (as the committee sees it) or there are likely to be lessons learned which may prevent similar concerns arising in future, the committee may recommend to an appropriate minister that there be an inquiry. If the minister disagrees with the recommendation, they must set out in detail and publish reasons for this disagreement which are sufficient to satisfy PACAC that the matter has been carefully and properly considered."
+          "Recommendation": "that a minister should retain the power to call an inquiry as the minister sees fit, in accordance with the Inquiries Act 2005 – but where a minister does not choose to do so, then: if there is sufficient support from within Parliament for there to be an inquiry, the question whether there should be one should be referred to PACAC for it to consider the question. If it appears to PACAC that there is sufficient concern to justify a public inquiry, either because what happened and why has caused concern (as the committee sees it) or there are likely to be lessons learned which may prevent similar concerns arising in future, the committee may recommend to an appropriate minister that there be an inquiry. If the minister disagrees with the recommendation, they must set out in detail and publish reasons for this disagreement which are sufficient to satisfy PACAC that the matter has been carefully and properly considered."
         },
         {
-          "Recommendation":"Within the next 12 months, the Government should consider and either commit to implementing the recommendations which I make, or give sufficient reason, in sufficient detail for others to understand, why it is not considered appropriate to implement any one or more of them."
+          "Recommendation": "Within the next 12 months, the Government should consider and either commit to implementing the recommendations which I make, or give sufficient reason, in sufficient detail for others to understand, why it is not considered appropriate to implement any one or more of them."
         },
         {
-          "Recommendation":"During that period, and before the end of this year – the Government should report back to Parliament as to the progress made on considering and implementing the recommendations."
+          "Recommendation": "During that period, and before the end of this year – the Government should report back to Parliament as to the progress made on considering and implementing the recommendations."
         },
         {
-          "Recommendation":"This timetable should not interfere with earlier consideration and response to the Recommendations of the Second Interim Report of the Inquiry"
+          "Recommendation": "This timetable should not interfere with earlier consideration and response to the Recommendations of the Second Interim Report of the Inquiry"
         },
         {
-          "Recommendation":"The Public Administration and Constitutional Affairs Committee (“PACAC”) should review both the progress towards responding to the Inquiry’s recommendations and, to the extent that they are accepted, implementing those recommendations"
+          "Recommendation": "The Public Administration and Constitutional Affairs Committee (“PACAC”) should review both the progress towards responding to the Inquiry’s recommendations and, to the extent that they are accepted, implementing those recommendations"
         },
         {
-          "Recommendation":"PACAC should accept the role in respect of any future statutory inquiry of reviewing government’s timetable for consideration of recommendations, and of its progress towards implementation of that inquiry’s recommendations."
+          "Recommendation": "PACAC should accept the role in respect of any future statutory inquiry of reviewing government’s timetable for consideration of recommendations, and of its progress towards implementation of that inquiry’s recommendations."
         }
       ]
     }
@@ -830,7 +895,7 @@
       "ReportDate": "19/09/2023",
       "Recommendations":[
         {
-          "Recommendation":""
+          "Recommendation": ""
         }
       ]
     },
@@ -840,7 +905,7 @@
       "ReportDate": "14/12/2011",
       "Recommendations":[
         {
-          "Recommendation":""
+          "Recommendation": ""
         }
       ]
     },
@@ -850,7 +915,7 @@
       "ReportDate": "26/03/2015",
       "Recommendations":[
         {
-          "Recommendation":""
+          "Recommendation": ""
         }
       ]
     },
@@ -860,7 +925,7 @@
       "ReportDate": "24/11/2014",
       "Recommendations":[
         {
-          "Recommendation":""
+          "Recommendation": ""
         }
       ]
     }
@@ -874,7 +939,7 @@
       "ReportDate": "08/06/2023",
       "Recommendations":[
         {
-          "Recommendation":""
+          "Recommendation": ""
         }
       ]
     },
@@ -884,88 +949,131 @@
       "ReportDate": "20/10/2022",
       "Recommendations":[
         {
-          "Recommendation":"The Inquiry recommends that the UK government and the Welsh Government improve data collected by children’s social care and criminal justice agencies concerning child sexual abuse and child sexual exploitation by the introduction of one single core data set covering both England and Wales. In order to facilitate this, these agencies should produce consistent and compatible data about child sexual abuse and child sexual exploitation which includes: the characteristics of victims and alleged perpetrators of child sexual abuse, including age, sex and ethnicity; factors that make victims more vulnerable to child sexual abuse or exploitation; and the settings and contexts in which child sexual abuse and child sexual exploitation occur. Data concerning child sexual abuse and child sexual exploitation should be compiled and published on a regular basis. This should be capable of being collated nationally as well as at regional or local levels.",
-          "shortRecommendation":"A single set of core data relating to child sexual abuse and child sexual exploitation."
+          "Recommendation": "The Inquiry recommends that the UK government and the Welsh Government improve data collected by children’s social care and criminal justice agencies concerning child sexual abuse and child sexual exploitation by the introduction of one single core data set covering both England and Wales. In order to facilitate this, these agencies should produce consistent and compatible data about child sexual abuse and child sexual exploitation which includes: the characteristics of victims and alleged perpetrators of child sexual abuse, including age, sex and ethnicity; factors that make victims more vulnerable to child sexual abuse or exploitation; and the settings and contexts in which child sexual abuse and child sexual exploitation occur. Data concerning child sexual abuse and child sexual exploitation should be compiled and published on a regular basis. This should be capable of being collated nationally as well as at regional or local levels.",
+          "shortRecommendation": "A single set of core data relating to child sexual abuse and child sexual exploitation.",
+          "changeType": "New",
+          "ActionCategory": "Documentation & Records"
+
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government establishes a Child Protection Authority for England and the Welsh Government establishes a Child Protection Authority for Wales. Each Authority’s purpose should be to: improve practice in child protection; provide advice and make recommendations to government in relation to child protection policy and reform to improve child protection; and inspect institutions and settings as it considers necessary and proportionate. The Child Protection Authorities in England and in Wales should also monitor the implementation of the Inquiry’s recommendations.",
-          "shortRecommendation":"Child Protection Authorities for England and for Wales."
+          "Recommendation": "The Inquiry recommends that the UK government establishes a Child Protection Authority for England and the Welsh Government establishes a Child Protection Authority for Wales. Each Authority’s purpose should be to: improve practice in child protection; provide advice and make recommendations to government in relation to child protection policy and reform to improve child protection; and inspect institutions and settings as it considers necessary and proportionate. The Child Protection Authorities in England and in Wales should also monitor the implementation of the Inquiry’s recommendations.",
+          "shortRecommendation": "Child Protection Authorities for England and for Wales.",
+          "changeType": "New",
+          "ActionCategory": "Governance & Oversight"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government creates a cabinet-level ministerial position for children.",
-          "shortRecommendation":"A cabinet-level Minister for Children.(UK)"
+          "Recommendation": "The Inquiry recommends that the UK government creates a cabinet-level ministerial position for children.",
+          "shortRecommendation": "A cabinet-level Minister for Children.(UK)",
+          "changeType": "New",
+          "ActionCategory": "Governance & Oversight"
         },
         {
-          "Recommendation":"The Inquiry recommends that the Welsh Government ensures that there is cabinet-level ministerial responsibility for children.",
-          "shortRecommendation":"A cabinet-level Minister for Children.(Wales)"
+          "Recommendation": "The Inquiry recommends that the Welsh Government ensures that there is cabinet-level ministerial responsibility for children.",
+          "shortRecommendation": "A cabinet-level Minister for Children.(Wales)",
+          "changeType": "New",
+          "ActionCategory": "Governance & Oversight"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government and the Welsh Government commission regular programmes of activity to increase public awareness about child sexual abuse and the action to take if child sexual abuse is happening or suspected in England and in Wales. The programmes should: challenge myths and stereotypes about child sexual abuse; make maximum use of different approaches including, but not limited to, public information campaigns, the use of positive role models and creative media, such as television drama; and be supported by continuous evaluation to measure their impact.",
-          "shortRecommendation":"A public awareness campaign."
+          "Recommendation": "The Inquiry recommends that the UK government and the Welsh Government commission regular programmes of activity to increase public awareness about child sexual abuse and the action to take if child sexual abuse is happening or suspected in England and in Wales. The programmes should: challenge myths and stereotypes about child sexual abuse; make maximum use of different approaches including, but not limited to, public information campaigns, the use of positive role models and creative media, such as television drama; and be supported by continuous evaluation to measure their impact.",
+          "shortRecommendation": "A public awareness campaign.",
+          "changeType": "New",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation":"The Inquiry recommends (as originally stated in its Sexual Abuse of Children in Custodial Institutions: 2009–2017 Investigation Report, dated February 2019) that the UK government prohibits the use of any technique that deliberately induces pain (previously referred to by the Inquiry as ‘pain compliance techniques’) by withdrawing all policy permitting its use in custodial institutions in which children are detained, and setting out that this practice is prohibited by way of regulation.",
-          "shortRecommendation":"The amendment of the Children Act 1989."
+          "Recommendation": "The Inquiry recommends (as originally stated in its Sexual Abuse of Children in Custodial Institutions: 2009–2017 Investigation Report, dated February 2019) that the UK government prohibits the use of any technique that deliberately induces pain (previously referred to by the Inquiry as ‘pain compliance techniques’) by withdrawing all policy permitting its use in custodial institutions in which children are detained, and setting out that this practice is prohibited by way of regulation.",
+          "shortRecommendation": "The amendment of the Children Act 1989 to prohibit the use of pain compliance techniques.",
+          "changeType": "Less",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government amends the Children Act 1989 so that, in any case where a court is satisfied that there is reasonable cause to believe that a child who is in the care of a local authority is experiencing or is at risk of experiencing significant harm, on an application by or for that child, the court may: prohibit a local authority from taking any act (or proposed act) which it otherwise would be entitled to take in exercising its parental responsibility for the child; or give directions for the purpose of determining a specific question which has arisen, or which may arise, in connection with any aspect of the local authority’s exercise of parental responsibility for a child.",
-          "shortRecommendation":"The amendment of the Children Act 1989."
+          "Recommendation": "The Inquiry recommends that the UK government amends the Children Act 1989 so that, in any case where a court is satisfied that there is reasonable cause to believe that a child who is in the care of a local authority is experiencing or is at risk of experiencing significant harm, on an application by or for that child, the court may: prohibit a local authority from taking any act (or proposed act) which it otherwise would be entitled to take in exercising its parental responsibility for the child; or give directions for the purpose of determining a specific question which has arisen, or which may arise, in connection with any aspect of the local authority’s exercise of parental responsibility for a child.",
+          "shortRecommendation": "The amendment of the Children Act 1989.",
+          "changeType": "Different",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The Inquiry recommends (as originally stated in its Interim Report, dated April 2018) that the UK government introduces arrangements for the registration of staff working in care roles in children’s homes, including secure children’s homes. Registration should be with an independent body charged with setting and maintaining standards of training, conduct and continuing professional development, and with the power to enforce these through fitness to practise procedures.",
-          "shortRecommendation":"Registration of care staff in children’s homes."
+          "Recommendation": "The Inquiry recommends (as originally stated in its Interim Report, dated April 2018) that the UK government introduces arrangements for the registration of staff working in care roles in children’s homes, including secure children’s homes. Registration should be with an independent body charged with setting and maintaining standards of training, conduct and continuing professional development, and with the power to enforce these through fitness to practise procedures.",
+          "shortRecommendation": "Registration of care staff in children’s homes.",
+          "changeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The Inquiry recommends (as originally stated in its Sexual Abuse of Children in Custodial Institutions: 2009–2017 Investigation Report, dated February 2019) that the UK government introduces arrangements for the professional registration of staff in roles responsible for the care of children in young offender institutions and secure training centres.",
-          "shortRecommendation":"Registration of staff in care roles in young offender institutions and secure training centres."
+          "Recommendation": "The Inquiry recommends (as originally stated in its Sexual Abuse of Children in Custodial Institutions: 2009–2017 Investigation Report, dated February 2019) that the UK government introduces arrangements for the professional registration of staff in roles responsible for the care of children in young offender institutions and secure training centres.",
+          "shortRecommendation": "Registration of staff in care roles in young offender institutions and secure training centres.",
+          "changeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government enables any person engaging an individual to work or volunteer with children on a frequent basis to check whether or not they have been barred by the Disclosure and Barring Service from working with children. These arrangements should also apply where the role is undertaken on a supervised basis.",
-          "shortRecommendation":"Greater use of the Disclosure and Barring Service barred list."
+          "Recommendation": "The Inquiry recommends that the UK government enables any person engaging an individual to work or volunteer with children on a frequent basis to check whether or not they have been barred by the Disclosure and Barring Service from working with children. These arrangements should also apply where the role is undertaken on a supervised basis.",
+          "shortRecommendation": "Greater use of the Disclosure and Barring Service barred list.",
+          "changeType": "More",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government takes steps to improve compliance by regulated activity providers with their statutory duty to refer concerns about the suitability of individuals to work with children to the Disclosure and Barring Service, including: all relevant regulators and inspectorates include compliance with the statutory duty to refer to the Disclosure and Barring Service in their assessment of safeguarding procedures during inspections; the National Police Chiefs’ Council works with relevant regulators and inspectorates to ensure that there are clear arrangements in place to refer breaches of the duty to refer to the police for criminal investigation; and an information-sharing protocol is put in place between the Disclosure and Barring Service and relevant regulators and inspectorates.",
-          "shortRecommendation":"Improvements to compliance with statutory duties to refer concerns to the Disclosure and Barring Service"
+          "Recommendation": "The Inquiry recommends that the UK government takes steps to improve compliance by regulated activity providers with their statutory duty to refer concerns about the suitability of individuals to work with children to the Disclosure and Barring Service, including: all relevant regulators and inspectorates include compliance with the statutory duty to refer to the Disclosure and Barring Service in their assessment of safeguarding procedures during inspections; the National Police Chiefs’ Council works with relevant regulators and inspectorates to ensure that there are clear arrangements in place to refer breaches of the duty to refer to the police for criminal investigation; and an information-sharing protocol is put in place between the Disclosure and Barring Service and relevant regulators and inspectorates.",
+          "shortRecommendation": "Improvements to compliance with statutory duties to refer concerns to the Disclosure and Barring Service",
+          "changeType": "More",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
-          "Recommendation":"The Inquiry recommends (as originally stated in its Children Outside the United Kingdom Phase 2 Investigation Report, dated January 2020) that the UK government introduces legislation permitting the Disclosure and Barring Service to provide enhanced certificates with barred list checks to citizens and residents of England and Wales applying for: work or volunteering with UK-based organisations, where the recruitment decision is taken outside the UK; or work or volunteering with organisations based outside the UK, in each case where the work or volunteering would be a regulated activity if in England and Wales.",
-          "shortRecommendation":"Extending the disclosure regime to those working with children overseas."
+          "Recommendation": "The Inquiry recommends (as originally stated in its Children Outside the United Kingdom Phase 2 Investigation Report, dated January 2020) that the UK government introduces legislation permitting the Disclosure and Barring Service to provide enhanced certificates with barred list checks to citizens and residents of England and Wales applying for: work or volunteering with UK-based organisations, where the recruitment decision is taken outside the UK; or work or volunteering with organisations based outside the UK, in each case where the work or volunteering would be a regulated activity if in England and Wales.",
+          "shortRecommendation": "Extending the disclosure regime to those working with children overseas.",
+          "changeType": "More",
+          "ActionCategory": "Communication & Reporting"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government makes it mandatory for all regulated providers of search services and user-to-user services to pre-screen for known child sexual abuse material.",
-          "shortRecommendation":"Pre-screening for illegal images of children."
+          "Recommendation": "The Inquiry recommends that the UK government makes it mandatory for all regulated providers of search services and user-to-user services to pre-screen for known child sexual abuse material.",
+          "shortRecommendation": "Pre-screening for illegal images of children.",
+          "changeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government and Welsh Government introduce legislation which places certain individuals – ‘mandated reporters’ – under a statutory duty to report child sexual abuse where they: receive a disclosure of child sexual abuse from a child or perpetrator; or witness a child being sexually abused; or observe recognised indicators of child sexual abuse. The following persons should be designated ‘mandated reporters’: any person working in regulated activity in relation to children (under the Safeguarding and Vulnerable Groups Act 2006, as amended); any person working in a position of trust (as defined by the Sexual Offences Act 2003, as amended); and police officers. For the purposes of mandatory reporting, ‘child sexual abuse’ should be interpreted as any act that would be an offence under the Sexual Offences Act 2003 where the alleged victim is a child under the age of 18. Where the child is aged between 13 and under 16 years old, a report need not be made where the mandated reporter reasonably believes that: the relationship between the parties is consensual and not intimidatory, exploitative or coercive; and the child has not been harmed and is not at risk of being harmed; and there is no material difference in capacity or maturity between the parties engaged in the sexual activity concerned, and there is a difference in age of no more than three years. These exceptions should not, however, apply where the alleged perpetrator is in a position of trust within the meaning of the 2003 Act. Where the child is under the age of 13, a report must always be made. Reports should be made to either local authority children’s social care or the police as soon as is practicable. It should be a criminal offence for mandated reporters to fail to report child sexual abuse where they: are in receipt of a disclosure of child sexual abuse from a child or perpetrator; or witness a child being sexually abused.",
-          "shortRecommendation":"Mandatory reporting of child sexual abuse in certain circumstances."
+          "Recommendation": "The Inquiry recommends that the UK government and Welsh Government introduce legislation which places certain individuals – ‘mandated reporters’ – under a statutory duty to report child sexual abuse where they: receive a disclosure of child sexual abuse from a child or perpetrator; or witness a child being sexually abused; or observe recognised indicators of child sexual abuse. The following persons should be designated ‘mandated reporters’: any person working in regulated activity in relation to children (under the Safeguarding and Vulnerable Groups Act 2006, as amended); any person working in a position of trust (as defined by the Sexual Offences Act 2003, as amended); and police officers. For the purposes of mandatory reporting, ‘child sexual abuse’ should be interpreted as any act that would be an offence under the Sexual Offences Act 2003 where the alleged victim is a child under the age of 18. Where the child is aged between 13 and under 16 years old, a report need not be made where the mandated reporter reasonably believes that: the relationship between the parties is consensual and not intimidatory, exploitative or coercive; and the child has not been harmed and is not at risk of being harmed; and there is no material difference in capacity or maturity between the parties engaged in the sexual activity concerned, and there is a difference in age of no more than three years. These exceptions should not, however, apply where the alleged perpetrator is in a position of trust within the meaning of the 2003 Act. Where the child is under the age of 13, a report must always be made. Reports should be made to either local authority children’s social care or the police as soon as is practicable. It should be a criminal offence for mandated reporters to fail to report child sexual abuse where they: are in receipt of a disclosure of child sexual abuse from a child or perpetrator; or witness a child being sexually abused.",
+          "shortRecommendation": "Mandatory reporting of child sexual abuse in certain circumstances.",
+          "changeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The Inquiry recommends (as originally stated in its Interim Report, dated April 2018) that the UK government commissions a joint inspection of compliance with the Victims’ Code in relation to victims and survivors of child sexual abuse, to be undertaken by His Majesty’s Inspectorate of Constabulary and Fire & Rescue Services, His Majesty’s Crown Prosecution Service Inspectorate and His Majesty’s Inspectorate of Probation.",
-          "shortRecommendation":"Compliance with the Victims’ Code."
+          "Recommendation": "The Inquiry recommends (as originally stated in its Interim Report, dated April 2018) that the UK government commissions a joint inspection of compliance with the Victims’ Code in relation to victims and survivors of child sexual abuse, to be undertaken by His Majesty’s Inspectorate of Constabulary and Fire & Rescue Services, His Majesty’s Crown Prosecution Service Inspectorate and His Majesty’s Inspectorate of Probation.",
+          "shortRecommendation": "Compliance with the Victims’ Code.",
+          "changeType": "New",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government makes the necessary changes to legislation in order to ensure: the removal of the three-year limitation period for personal injury claims brought by victims and survivors of child sexual abuse in respect of their abuse; and the express protection of the right to a fair trial, with the burden falling on defendants to show that a fair trial is not possible. These provisions should apply whether or not the current three-year period has already started to run or has expired, except where claims have been: dismissed by a court; or settled by agreement. They should, however, only apply to claims brought by victims and survivors, not claims brought on behalf of victims and survivors’ estates.",
-          "shortRecommendation":"The removal of the three-year limitation period for personal injury claims brought by victims and survivors of child sexual abuse"
+          "Recommendation": "The Inquiry recommends that the UK government makes the necessary changes to legislation in order to ensure: the removal of the three-year limitation period for personal injury claims brought by victims and survivors of child sexual abuse in respect of their abuse; and the express protection of the right to a fair trial, with the burden falling on defendants to show that a fair trial is not possible. These provisions should apply whether or not the current three-year period has already started to run or has expired, except where claims have been: dismissed by a court; or settled by agreement. They should, however, only apply to claims brought by victims and survivors, not claims brought on behalf of victims and survivors’ estates.",
+          "shortRecommendation": "The removal of the three-year limitation period for personal injury claims brought by victims and survivors of child sexual abuse",
+          "changeType": "Less",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government and the Welsh Government introduce a national guarantee that child victims of sexual abuse will be offered specialist and accredited therapeutic support. There should be sufficient supply of these services so that children in all parts of England and Wales can access support in a timely way. These services should be fully funded. Responsibility for commissioning these services should be given to local authorities. There must be no eligibility criteria for children to access these specialist therapeutic services other than having been a victim of child sexual abuse",
-          "shortRecommendation":"A national guarantee of specialist therapeutic support for child victims."
+          "Recommendation": "The Inquiry recommends that the UK government and the Welsh Government introduce a national guarantee that child victims of sexual abuse will be offered specialist and accredited therapeutic support. There should be sufficient supply of these services so that children in all parts of England and Wales can access support in a timely way. These services should be fully funded. Responsibility for commissioning these services should be given to local authorities. There must be no eligibility criteria for children to access these specialist therapeutic services other than having been a victim of child sexual abuse",
+          "shortRecommendation": "A national guarantee of specialist therapeutic support for child victims.",
+          "changeType": "More",
+          "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government directs the Information Commissioner’s Office to introduce a code of practice on retention of and access to records known to relate to child sexual abuse. The retention period for records known to relate to allegations or cases of child sexual abuse should be 75 years with appropriate review periods. The code should set out that institutions should have: retention policies that reflect the importance of such records to victims and survivors, and that they may take decades to seek to access such records; clear and accessible procedures for victims and survivors of child sexual abuse to access such records; policies, procedures and training for staff responding to requests to ensure that they recognise the long-term impact of child sexual abuse and engage with the applicant with empathy.",
-          "shortRecommendation":"A code of practice on access to records about child sexual abuse."
+          "Recommendation": "The Inquiry recommends that the UK government directs the Information Commissioner’s Office to introduce a code of practice on retention of and access to records known to relate to child sexual abuse. The retention period for records known to relate to allegations or cases of child sexual abuse should be 75 years with appropriate review periods. The code should set out that institutions should have: retention policies that reflect the importance of such records to victims and survivors, and that they may take decades to seek to access such records; clear and accessible procedures for victims and survivors of child sexual abuse to access such records; policies, procedures and training for staff responding to requests to ensure that they recognise the long-term impact of child sexual abuse and engage with the applicant with empathy.",
+          "shortRecommendation": "A code of practice on access to records about child sexual abuse.",
+          "changeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government changes the Criminal Injuries Compensation Scheme to: include other forms of child sexual abuse, including online-facilitated sexual abuse; amend the rule on unspent convictions so that applicants with unspent convictions are not automatically excluded where offences are likely to be linked to the circumstances of their sexual abuse as a child; and increase the time limit for child sexual abuse applications so that applicants have seven years to apply from (a) the date the offence was reported to the police or (b) the age of 18, where the offence was reported whilst the victim was a child. In either circumstance, the claims officer’s discretion to extend the time limit remains.",
-          "shortRecommendation":"Further changes to the Criminal Injuries Compensation Scheme."
+          "Recommendation": "The Inquiry recommends that the UK government changes the Criminal Injuries Compensation Scheme to: include other forms of child sexual abuse, including online-facilitated sexual abuse; amend the rule on unspent convictions so that applicants with unspent convictions are not automatically excluded where offences are likely to be linked to the circumstances of their sexual abuse as a child; and increase the time limit for child sexual abuse applications so that applicants have seven years to apply from (a) the date the offence was reported to the police or (b) the age of 18, where the offence was reported whilst the victim was a child. In either circumstance, the claims officer’s discretion to extend the time limit remains.",
+          "shortRecommendation": "Further changes to the Criminal Injuries Compensation Scheme.",
+          "changeType": "Different",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation":"The Inquiry recommends that the UK government establishes a single redress scheme in England and Wales, taking into account devolved responsibilities. The detailed rules of, and funding for, this redress scheme should reflect the following core elements. Eligibility: Victims and survivors of child sexual abuse and exploitation that occurred in England and in Wales should be eligible to apply. Applicants must have experienced child sexual abuse and exploitation where there is a clear connection to State or non-State institutions in England and Wales. The scheme should be open to any victim of child sexual abuse that took place prior to its establishment. The scheme should deduct any previous award from any payment under the scheme (or in the case of payments made by the Criminal Injuries Compensation Authority, it may order that they be repaid). Applicants who have previously brought civil claims which have been rejected by the court should be excluded from applying to the scheme, save where their cases have been rejected due to limitation. Redress provided: The scheme should provide payments to eligible applicants through a two-tier system, based on a fixed flat-rate recognition payment, with the option to apply for a second-tier payment. Process: The application process must be accessible and straightforward, and be sensitive to the needs and vulnerabilities of victims and survivors of child sexual abuse. The process should provide for streamlined checks and verification of applications, but not be adversarial. There should be special provisions to accelerate awards for older or terminally ill applicants. Duration: The scheme should run for five years. Funding: The scheme should be funded by central and local government, in accordance with devolved funding principles, with voluntary contributions sought from non-State institutions.",
-          "shortRecommendation":"A tiered redress scheme."
+          "Recommendation": "The Inquiry recommends that the UK government establishes a single redress scheme in England and Wales, taking into account devolved responsibilities. The detailed rules of, and funding for, this redress scheme should reflect the following core elements. Eligibility: Victims and survivors of child sexual abuse and exploitation that occurred in England and in Wales should be eligible to apply. Applicants must have experienced child sexual abuse and exploitation where there is a clear connection to State or non-State institutions in England and Wales. The scheme should be open to any victim of child sexual abuse that took place prior to its establishment. The scheme should deduct any previous award from any payment under the scheme (or in the case of payments made by the Criminal Injuries Compensation Authority, it may order that they be repaid). Applicants who have previously brought civil claims which have been rejected by the court should be excluded from applying to the scheme, save where their cases have been rejected due to limitation. Redress provided: The scheme should provide payments to eligible applicants through a two-tier system, based on a fixed flat-rate recognition payment, with the option to apply for a second-tier payment. Process: The application process must be accessible and straightforward, and be sensitive to the needs and vulnerabilities of victims and survivors of child sexual abuse. The process should provide for streamlined checks and verification of applications, but not be adversarial. There should be special provisions to accelerate awards for older or terminally ill applicants. Duration: The scheme should run for five years. Funding: The scheme should be funded by central and local government, in accordance with devolved funding principles, with voluntary contributions sought from non-State institutions.",
+          "shortRecommendation": "A tiered redress scheme.",
+          "changeType": "New",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation":"The Inquiry recommends (as originally stated in its The Internet Investigation Report, dated March 2020) that the UK government introduces legislation requiring providers of online services and social media platforms to implement more stringent age verification measures.",
-          "shortRecommendation":"Age verification in relation to online services and social media platforms"
+          "Recommendation": "The Inquiry recommends (as originally stated in its The Internet Investigation Report, dated March 2020) that the UK government introduces legislation requiring providers of online services and social media platforms to implement more stringent age verification measures.",
+          "shortRecommendation": "Age verification in relation to online services and social media platforms",
+          "changeType": "New",
+          "ActionCategory": "Law & Regulation"
         }
       ]
     },
@@ -975,106 +1083,106 @@
       "ReportDate": "05/07/2022",
       "Recommendations":[
         {
-          "Recommendation":"There should be clearer guidance from the MPS, College of Policing and/or the NPCC on the separation of roles between the Senior Investigating Officer (SIO) and the Tactical and Strategic Firearms Commanders (TFC and SFC). The guidance should be clear that not only should the SIO and TFC/SFC be different individuals, but the importance of the separation of responsibilities under those roles should also be emphasised."
+          "Recommendation": "There should be clearer guidance from the MPS, College of Policing and/or the NPCC on the separation of roles between the Senior Investigating Officer (SIO) and the Tactical and Strategic Firearms Commanders (TFC and SFC). The guidance should be clear that not only should the SIO and TFC/SFC be different individuals, but the importance of the separation of responsibilities under those roles should also be emphasised."
         },
         {
-          "Recommendation":"Training should emphasise that multidimensional risk assessments must be carried out throughout police operations, including the planning and briefing of operations. Those risk assessments should assess the future threat and risk at all stages of the operation."
+          "Recommendation": "Training should emphasise that multidimensional risk assessments must be carried out throughout police operations, including the planning and briefing of operations. Those risk assessments should assess the future threat and risk at all stages of the operation."
         },
         {
-          "Recommendation":"In order to provide for efficacy and transparency, the NPCC and College of Policing should be tasked with providing a document management system for FA (and equivalent) forms. The system should allow for the auditing of completion and submission dates as well as version management."
+          "Recommendation": "In order to provide for efficacy and transparency, the NPCC and College of Policing should be tasked with providing a document management system for FA (and equivalent) forms. The system should allow for the auditing of completion and submission dates as well as version management."
         },
         {
-          "Recommendation":"There should be an amendment to FA (and equivalent) forms to: encourage a multidimensional risk assessment (to comply with Article 2) to “minimise, to the greatest extent possible, recourse to lethal force”"
+          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: encourage a multidimensional risk assessment (to comply with Article 2) to “minimise, to the greatest extent possible, recourse to lethal force”"
         },
         {
-          "Recommendation":"There should be an amendment to FA (and equivalent) forms to: include a provision for reference to evidential and, where appropriate, geographical tipping points"
+          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: include a provision for reference to evidential and, where appropriate, geographical tipping points"
         },
         {
-          "Recommendation":"There should be an amendment to FA (and equivalent) forms to: include a dedicated box on the FA2 form to be completed when no FA1 form has been completed, with an explanation for the reason therefor"
+          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: include a dedicated box on the FA2 form to be completed when no FA1 form has been completed, with an explanation for the reason therefor"
         },
         {
-          "Recommendation":"There should be an amendment to FA (and equivalent) forms to: include the provision (and the requirement) for updating the forms during the course of an operation"
+          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: include the provision (and the requirement) for updating the forms during the course of an operation"
         },
         {
-          "Recommendation":"Appropriate training and refresher courses on the usage and completion of FA (and equivalent) forms should be made compulsory for firearms commanders and Tactical Advisors."
+          "Recommendation": "Appropriate training and refresher courses on the usage and completion of FA (and equivalent) forms should be made compulsory for firearms commanders and Tactical Advisors."
         },
         {
-          "Recommendation":"The NPCC should commission a national review of the frequency with which this strategic option is used and its efficacy. The NPCC should consider whether contain and call out is being given meaningful consideration in the planning of armed deployments."
+          "Recommendation": "The NPCC should commission a national review of the frequency with which this strategic option is used and its efficacy. The NPCC should consider whether contain and call out is being given meaningful consideration in the planning of armed deployments."
         },
         {
-          "Recommendation":"MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: Notes and/or audio recordings should be made of all meetings in relation to general strategy where it is envisaged that firearms may or will be deployed during the course of a planned operation, and training given to explain why it is so important – for reasons of accountability and to establish an audit trail."
+          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: Notes and/or audio recordings should be made of all meetings in relation to general strategy where it is envisaged that firearms may or will be deployed during the course of a planned operation, and training given to explain why it is so important – for reasons of accountability and to establish an audit trail."
         },
         {
-          "Recommendation":"MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: Such notes should include the date, location and duration of the meeting, the identity of those present, the capacity in which they are attending, and details of decisions made and actions accepted or rejected."
+          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: Such notes should include the date, location and duration of the meeting, the identity of those present, the capacity in which they are attending, and details of decisions made and actions accepted or rejected."
         },
         {
-          "Recommendation":"MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: All planning meetings should be properly minuted and the minutes thereof should be centrally retained."
+          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: All planning meetings should be properly minuted and the minutes thereof should be centrally retained."
         },        
         {
-          "Recommendation":"MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: All briefings relating to firearms operations should be audio-recorded unless it is not reasonably practicable on the grounds of sensitivity of information/intelligence to do so, in which case they should be minuted in the same way as planning meetings (see paragraph 15.7c)."
+          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: All briefings relating to firearms operations should be audio-recorded unless it is not reasonably practicable on the grounds of sensitivity of information/intelligence to do so, in which case they should be minuted in the same way as planning meetings (see paragraph 15.7c)."
         },
         {
-          "Recommendation":"The NPCC and/or College of Policing should ensure that these amendments are reflected in the guidance and training given to forces nationally."
+          "Recommendation": "The NPCC and/or College of Policing should ensure that these amendments are reflected in the guidance and training given to forces nationally."
         },
         {
-          "Recommendation":"The College of Policing’s Authorised Professional Practice – Armed Policing (APP-AP) should clarify that, during the course of an operation, any relevant intelligence should be briefed out to the firearms officers even if it is appropriate, in the circumstances, to provide clarification or a limitation warning together with the intelligence."
+          "Recommendation": "The College of Policing’s Authorised Professional Practice – Armed Policing (APP-AP) should clarify that, during the course of an operation, any relevant intelligence should be briefed out to the firearms officers even if it is appropriate, in the circumstances, to provide clarification or a limitation warning together with the intelligence."
         },
         {
-          "Recommendation":"When intelligence is being provided, the use of any language that is capable of misinterpretation is to be avoided. Training to address this point should be provided to all officers and staff directly or indirectly involved in armed operations."
+          "Recommendation": "When intelligence is being provided, the use of any language that is capable of misinterpretation is to be avoided. Training to address this point should be provided to all officers and staff directly or indirectly involved in armed operations."
         },
         {
-          "Recommendation":"Only those officers who have received the requisite training and accreditation should be posted to a Covert Monitoring Post (CMP)."
+          "Recommendation": "Only those officers who have received the requisite training and accreditation should be posted to a Covert Monitoring Post (CMP)."
         },
         {
-          "Recommendation":"There should be clear and unequivocal written guidance for the CMP from the TFC as to the key information and intelligence that is being sought."
+          "Recommendation": "There should be clear and unequivocal written guidance for the CMP from the TFC as to the key information and intelligence that is being sought."
         },
         {
-          "Recommendation":"The training referred to in paragraph 15.11 must emphasise the importance of covert monitoring officers (CMOs) making accurate notes of: (a) what they have heard; and (b) what they have passed on."
+          "Recommendation": "The training referred to in paragraph 15.11 must emphasise the importance of covert monitoring officers (CMOs) making accurate notes of: (a) what they have heard; and (b) what they have passed on."
         },
         {
-          "Recommendation":"CMPs should not be established without the appointment of a properly trained CMP manager, whose responsibility it should be to appoint a team of CMOs, once satisfied from proper assessment as to their qualifications and ability."
+          "Recommendation": "CMPs should not be established without the appointment of a properly trained CMP manager, whose responsibility it should be to appoint a team of CMOs, once satisfied from proper assessment as to their qualifications and ability."
         },
         {
-          "Recommendation":"When a CMP is being used to gather evidence or intelligence, the MPS (and other forces) should consider developing an SOP to ensure that the information is adequately recorded to provide a clear audit trail."
+          "Recommendation": "When a CMP is being used to gather evidence or intelligence, the MPS (and other forces) should consider developing an SOP to ensure that the information is adequately recorded to provide a clear audit trail."
         },
         {
-          "Recommendation":"APP-AP should be amended to cover the following: a. Sustained public protection2 should never be the object of an operation unless and until there is a clearly recorded note of the possible charge(s) that are anticipated, the evidence that will be required to establish guilt, the evidential (and, if appropriate, geographical) tipping points, and the probable sentence – expressed if necessary as a range within which the sentence is likely to fall, at the conclusion of any trial."
+          "Recommendation": "APP-AP should be amended to cover the following: a. Sustained public protection2 should never be the object of an operation unless and until there is a clearly recorded note of the possible charge(s) that are anticipated, the evidence that will be required to establish guilt, the evidential (and, if appropriate, geographical) tipping points, and the probable sentence – expressed if necessary as a range within which the sentence is likely to fall, at the conclusion of any trial."
         },
         {
-          "Recommendation":"APP-AP should be amended to cover the following: This may necessitate the involvement of the Crown Prosecution Service (CPS), whose early advice should be sought if there is any uncertainty as to any of the matters set out in paragraph 15.16a."
+          "Recommendation": "APP-AP should be amended to cover the following: This may necessitate the involvement of the Crown Prosecution Service (CPS), whose early advice should be sought if there is any uncertainty as to any of the matters set out in paragraph 15.16a."
         },
         {
-          "Recommendation":"APP-AP should be amended to cover the following: Written sentencing guidelines exist for almost all serious offences and, like the Criminal Procedure Rules (see paragraph 15.21), should be readily accessible to inform any opinion as to the probable sentence (see paragraph 15.16a)."
+          "Recommendation": "APP-AP should be amended to cover the following: Written sentencing guidelines exist for almost all serious offences and, like the Criminal Procedure Rules (see paragraph 15.21), should be readily accessible to inform any opinion as to the probable sentence (see paragraph 15.16a)."
         },
         {
-          "Recommendation":"Police medic training should emphasise that, in cases of catastrophic external torso haemorrhage, the immediate action is to apply direct pressure and then progress directly to using haemostatic gauze. Chest seals should only be used where there is no evidence of ongoing catastrophic haemorrhage."
+          "Recommendation": "Police medic training should emphasise that, in cases of catastrophic external torso haemorrhage, the immediate action is to apply direct pressure and then progress directly to using haemostatic gauze. Chest seals should only be used where there is no evidence of ongoing catastrophic haemorrhage."
         },
         {
-          "Recommendation":"Training should be made mandatory for command officers in the use of the Computer Logging of Intelligence Operations (CLIO) system and the Serious Organised Crime Tasking and Briefing (SOCTAB) system (a firearms version of CLIO which has specific tabs created in it and lends itself to firearms deployments). This should include training to enable the CLIO system to be compatible with the FA forms."
+          "Recommendation": "Training should be made mandatory for command officers in the use of the Computer Logging of Intelligence Operations (CLIO) system and the Serious Organised Crime Tasking and Briefing (SOCTAB) system (a firearms version of CLIO which has specific tabs created in it and lends itself to firearms deployments). This should include training to enable the CLIO system to be compatible with the FA forms."
         },
         {
-          "Recommendation":"Advice should be given by the College of Policing about the benefits of uniformity in instructions and commands. Ultimate discretion as to what is said must be left to the CTSFOs, based on the situation that confronts them, but the protocol should encourage agreement to be reached on the command/instruction that is to be given."
+          "Recommendation": "Advice should be given by the College of Policing about the benefits of uniformity in instructions and commands. Ultimate discretion as to what is said must be left to the CTSFOs, based on the situation that confronts them, but the protocol should encourage agreement to be reached on the command/instruction that is to be given."
         },
         {
-          "Recommendation":"There needs to be proper and objective consideration by the NPCC as to whether, and if so when, it is appropriate for a firearms officer to return to active deployment following their part in a fatal shooting. Such consideration must always occur at an appropriately senior level in the organisation and take account of the views of the family of the deceased and all relevant public interest matters. A proper audit trail must be kept of the process."
+          "Recommendation": "There needs to be proper and objective consideration by the NPCC as to whether, and if so when, it is appropriate for a firearms officer to return to active deployment following their part in a fatal shooting. Such consideration must always occur at an appropriately senior level in the organisation and take account of the views of the family of the deceased and all relevant public interest matters. A proper audit trail must be kept of the process."
         },
         {
-          "Recommendation":"There should be an amendment to the Criminal Procedure Rules which govern the process in applications for a firearms presence in court – a requirement for witness statements, sworn evidence and the taping of proceedings should all be included."
+          "Recommendation": "There should be an amendment to the Criminal Procedure Rules which govern the process in applications for a firearms presence in court – a requirement for witness statements, sworn evidence and the taping of proceedings should all be included."
         },
         {
-          "Recommendation":"There should be training of those who are authorised by reason of rank to present such applications at court, and no-one should act as a substitute for a properly authorised person unless they have been appropriately trained. In any event, a copy of the Rules should be readily available in every chief inspector’s office with which any officer making an application should be familiar (as is the case with Special Procedure Material applications)."
+          "Recommendation": "There should be training of those who are authorised by reason of rank to present such applications at court, and no-one should act as a substitute for a properly authorised person unless they have been appropriately trained. In any event, a copy of the Rules should be readily available in every chief inspector’s office with which any officer making an application should be familiar (as is the case with Special Procedure Material applications)."
         },
         {
-          "Recommendation":"Consideration should be given to the introduction of a practice requiring, as an alternative to a face-to-face interview, the submission of a list of questions for written answer within a fixed time – failure to provide which, absent a reasonable excuse, would amount to misconduct."
+          "Recommendation": "Consideration should be given to the introduction of a practice requiring, as an alternative to a face-to-face interview, the submission of a list of questions for written answer within a fixed time – failure to provide which, absent a reasonable excuse, would amount to misconduct."
         },
         {
-          "Recommendation":"The IOPC should be provided with the power to require a force to take “management action” in situations that fall short of misconduct but where standards of conduct and/or performance have fallen short of a reasonable public expectation. A force required by the IOPC to carry out such “management action” should confirm within 28 days of the requirement having been notified that it has been carried out and what it entailed, or else provide a written explanation as to why no action has been taken."
+          "Recommendation": "The IOPC should be provided with the power to require a force to take “management action” in situations that fall short of misconduct but where standards of conduct and/or performance have fallen short of a reasonable public expectation. A force required by the IOPC to carry out such “management action” should confirm within 28 days of the requirement having been notified that it has been carried out and what it entailed, or else provide a written explanation as to why no action has been taken."
         },
         {
-          "Recommendation":"Serious consideration should be given to the public interest in amending the current legislation so that allegations of “simple” misconduct, as distinct from “gross” misconduct, will survive following a police officer’s resignation or retirement. I do not recommend that the survival of allegations of simple misconduct carries with it any threat to a pension entitlement, but any post-resignation/retirement finding of simple misconduct should remain on the relevant personnel file and a matter of public record for a period of two years thereafter."
+          "Recommendation": "Serious consideration should be given to the public interest in amending the current legislation so that allegations of “simple” misconduct, as distinct from “gross” misconduct, will survive following a police officer’s resignation or retirement. I do not recommend that the survival of allegations of simple misconduct carries with it any threat to a pension entitlement, but any post-resignation/retirement finding of simple misconduct should remain on the relevant personnel file and a matter of public record for a period of two years thereafter."
         },
         {
-          "Recommendation":"Consideration should be given by the MPS, Home Office and the NPCC to finding a more suitable solution for smashing windows during the course of an armed operation, so that an officer who is holding a firearm does not need to take their hand off their main weapon to utilise a life hammer."
+          "Recommendation": "Consideration should be given by the MPS, Home Office and the NPCC to finding a more suitable solution for smashing windows during the course of an armed operation, so that an officer who is holding a firearm does not need to take their hand off their main weapon to utilise a life hammer."
         }
 
       ]
@@ -1085,46 +1193,75 @@
       "ReportDate": "19/09/2023",
       "Recommendations":[
         {
-          "Recommendation":"The Home Office must actively and robustly monitor the performance of the Brook House contract, including satisfying itself that any self-reported information is accurate. This may include engagement with monitoring bodies and appropriate stakeholders. Penalties must be attached to inadequate self-reporting."
+          "Recommendation": "The Home Office must actively and robustly monitor the performance of the Brook House contract, including satisfying itself that any self-reported information is accurate. This may include engagement with monitoring bodies and appropriate stakeholders. Penalties must be attached to inadequate self-reporting.",
+          "shortRecommendation": "Active and robust monitoring of the Brook House contract.",
+          "ChangeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation":"The Home Office must ensure that each contract for the management of an immigration removal centre must expressly require compliance with the overriding purpose of Rule 3, which is to provide “the secure but humane accommodation of detained persons in a relaxed regime with as much freedom of movement and association as possible, consistent with maintaining a safe and secure environment, and to encourage and assist detained persons to make the most productive use of their time, whilst respecting in particular their dignity and the right to individual expression”. The provisions and operation of each contract must be consistent with and uphold the requirements of the Detention Centre Rules 2001, the Adults at Risk in Immigration Detention policy and the safeguards contained in detention services orders (including those concerning the use of force)."
+          "Recommendation": "The Home Office must ensure that each contract for the management of an immigration removal centre must expressly require compliance with the overriding purpose of Rule 3, which is to provide “the secure but humane accommodation of detained persons in a relaxed regime with as much freedom of movement and association as possible, consistent with maintaining a safe and secure environment, and to encourage and assist detained persons to make the most productive use of their time, whilst respecting in particular their dignity and the right to individual expression”. The provisions and operation of each contract must be consistent with and uphold the requirements of the Detention Centre Rules 2001, the Adults at Risk in Immigration Detention policy and the safeguards contained in detention services orders (including those concerning the use of force).",
+          "ChangeType": "More",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
-          "Recommendation":"The Home Office must ensure that a maximum of two detained people are accommodated in each cell at Brook House."
+          "Recommendation": "The Home Office must ensure that a maximum of two detained people are accommodated in each cell at Brook House.",
+          "ChangeType": "More",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
-          "Recommendation":"The Home Office and its contractors must ensure reasonable access to computers and the internet. Contractors must comply in full with Detention Services Order 04/2016: Detainee Access to the Internet, in particular: Computers and the internet provided for detained people’s use must be maintained and fixed, if broken, within a reasonable time period, in orderto allow detained people to access the internet for a minimum of sevenhours per day, seven days per week. Websites containing personal internet-based email accounts must not be blocked, since this is not a prohibited category of website. Websites facilitating the provision of legal advice and representation must not be blocked, as this is not a prohibited category of website."
+          "Recommendation": "The Home Office and its contractors must ensure reasonable access to computers and the internet. Contractors must comply in full with Detention Services Order 04/2016: Detainee Access to the Internet, in particular: Computers and the internet provided for detained people’s use must be maintained and fixed, if broken, within a reasonable time period, in orderto allow detained people to access the internet for a minimum of sevenhours per day, seven days per week. Websites containing personal internet-based email accounts must not be blocked, since this is not a prohibited category of website. Websites facilitating the provision of legal advice and representation must not be blocked, as this is not a prohibited category of website.",
+          "ChangeType": "More",
+          "ActionCategory": "Infrastructure & Facilities"
         },
         {
-          "Recommendation":"The Home Office must ensure that adequate risk assessment for cell sharing is carried out by contractors in relation to every detained person. This must be done at the outset of detention and then repeated at reasonable intervals (at least every 14 days) or following any relevant change in circumstances. In the event that an immigration removal centre is unable to detain someone in accordance with the outcome of a risk assessment (due to capacity or for other reasons), the Home Office must ensure that the individual does not remain at that centre."
+          "Recommendation": "The Home Office must ensure that adequate risk assessment for cell sharing is carried out by contractors in relation to every detained person. This must be done at the outset of detention and then repeated at reasonable intervals (at least every 14 days) or following any relevant change in circumstances. In the event that an immigration removal centre is unable to detain someone in accordance with the outcome of a risk assessment (due to capacity or for other reasons), the Home Office must ensure that the individual does not remain at that centre.",
+          "ChangeType": "More",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation":"The Home Office, in consultation with the contractor responsible for operating each immigration removal centre, must review the current lock- in regime and determine whether the period of time during which detained people are locked in their cells could be reduced. The Inquiry does not consider cost alone to be a sufficient justification for extensive lock-in periods."
+          "Recommendation": "The Home Office, in consultation with the contractor responsible for operating each immigration removal centre, must review the current lock- in regime and determine whether the period of time during which detained people are locked in their cells could be reduced. The Inquiry does not consider cost alone to be a sufficient justification for extensive lock-in periods.",
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation":"The government must introduce in legislation a maximum 28-day time limit on any individual’s detention within an immigration removal centre."
+          "Recommendation": "The government must introduce in legislation a maximum 28-day time limit on any individual’s detention within an immigration removal centre.",
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The Home Office (in collaboration with NHS England as required) must ensure that comprehensive training on Rule 34 and Rule 35 of the Detention Centre Rules 2001 is rolled out urgently across the immigration detention estate. Staff must be subject to refresher training, at least annually. Attendance must be mandatory for all staff working in immigration removal centres and those responsible for managing them, as well as GPs and relevant Home Office staff. Consideration must be given as to whether such training should be subject to an assessment."
+          "Recommendation": "The Home Office (in collaboration with NHS England as required) must ensure that comprehensive training on Rule 34 and Rule 35 of the Detention Centre Rules 2001 is rolled out urgently across the immigration detention estate. Staff must be subject to refresher training, at least annually. Attendance must be mandatory for all staff working in immigration removal centres and those responsible for managing them, as well as GPs and relevant Home Office staff. Consideration must be given as to whether such training should be subject to an assessment.",
+          "ChangeType": "More",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation":"The Home Office must, across the immigration detention estate, assure itself that all three limbs of Rule 35 of the Detention Centre Rules 2001 (reports by a medical practitioner where: (i) it is likely that a detained person’s health would be injuriously affected by continued detention (Rule 35(1)); (ii) it is suspected that a detained person has suicidal intentions (Rule 35(2)); or (iii) there is a concern that a detained person may have been a victim of torture (Rule 35(3))) are being followed, are operating effectively and are adequately resourced, in recognition of the key safeguarding role that the Rule plays. The Home Office must also regularly audit the use of Rule 35 in order to identify trends, any training needs and required improvements."
+          "Recommendation": "The Home Office must, across the immigration detention estate, assure itself that all three limbs of Rule 35 of the Detention Centre Rules 2001 (reports by a medical practitioner where: (i) it is likely that a detained person’s health would be injuriously affected by continued detention (Rule 35(1)); (ii) it is suspected that a detained person has suicidal intentions (Rule 35(2)); or (iii) there is a concern that a detained person may have been a victim of torture (Rule 35(3))) are being followed, are operating effectively and are adequately resourced, in recognition of the key safeguarding role that the Rule plays. The Home Office must also regularly audit the use of Rule 35 in order to identify trends, any training needs and required improvements.",
+          "ChangeType": "More",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation":"The Home Office must amend, as a matter of urgency, Detention Services Order 02/2017: Removal from Association (Detention Centre Rule 40) and Temporary Confinement (Detention Centre Rule 42) and, if necessary, the Detention Services Operating Standards Manual for Immigration Service Removal Centres, to clarify who can authorise use of Rule 40 and Rule 42 of the Detention Centre Rules 2001, in both urgent and non‑urgent circumstances, including providing a definition of the term ‘manager’ in Rule 40(2) and Rule 42(2). In anticipation of the update to Detention Services Order 02/2017, the Home Office must issue an immediate instruction to communicate this clarification to staff and contractors operating immigration detention centres."
+          "Recommendation": "The Home Office must amend, as a matter of urgency, Detention Services Order 02/2017: Removal from Association (Detention Centre Rule 40) and Temporary Confinement (Detention Centre Rule 42) and, if necessary, the Detention Services Operating Standards Manual for Immigration Service Removal Centres, to clarify who can authorise use of Rule 40 and Rule 42 of the Detention Centre Rules 2001, in both urgent and non‑urgent circumstances, including providing a definition of the term ‘manager’ in Rule 40(2) and Rule 42(2). In anticipation of the update to Detention Services Order 02/2017, the Home Office must issue an immediate instruction to communicate this clarification to staff and contractors operating immigration detention centres.",
+          "ChangeType": "Different",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation":"The Home Office and the current operator of Brook House must keep under review the appropriateness of the multi-purpose use of E Wing, particularly in relation to its suitability as a location to detain vulnerable people."
+          "Recommendation": "The Home Office and the current operator of Brook House must keep under review the appropriateness of the multi-purpose use of E Wing, particularly in relation to its suitability as a location to detain vulnerable people.",
+          "ChangeType": "Different",
+          "ActionCategory": "Infrastructure & Facilities"
         },
         {
-          "Recommendation":"The Home Office and contractors operating immigration removal centres must provide regular training, at least annually, on the operation of Rule 40 and Rule 42 of the Detention Centre Rules 2001, which must include: that Rules 40 and 42 are the only powers under which detained people in immigration removal centres can be removed from association and/or located in temporary confinement; who is permitted to authorise use of those Rules and in what circumstances they may be authorised; that Rules 40 and 42 cannot be used as a punishment or solely for administrative convenience before a planned removal or transfer; and the need to assess any adverse effect that use of Rule 40 or Rule 42 could have on a detained person’s physical or mental health, and to consider any steps that could be taken to mitigate those effects. Attendance must be mandatory for all staff working in immigration removal centres and those responsible for managing them. The training must be subject to an assessment."
+          "Recommendation": "The Home Office and contractors operating immigration removal centres must provide regular training, at least annually, on the operation of Rule 40 and Rule 42 of the Detention Centre Rules 2001, which must include: that Rules 40 and 42 are the only powers under which detained people in immigration removal centres can be removed from association and/or located in temporary confinement; who is permitted to authorise use of those Rules and in what circumstances they may be authorised; that Rules 40 and 42 cannot be used as a punishment or solely for administrative convenience before a planned removal or transfer; and the need to assess any adverse effect that use of Rule 40 or Rule 42 could have on a detained person’s physical or mental health, and to consider any steps that could be taken to mitigate those effects. Attendance must be mandatory for all staff working in immigration removal centres and those responsible for managing them. The training must be subject to an assessment.",
+          "ChangeType": "More",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation":"The Home Office must regularly (and at least quarterly) audit the use of Rule 40 and Rule 42 across the immigration detention estate, in order to identify trends, any training needs and required improvements. In addition, HM Inspectorate of Prisons and the National Chair and Management Board of Independent Monitoring Boards must review processes to consider how they fulfil their oversight role in respect of Rule 40 and Rule 42, and report on the monitoring of the use of Rules 40 and 42 going forward."
+          "Recommendation": "The Home Office must regularly (and at least quarterly) audit the use of Rule 40 and Rule 42 across the immigration detention estate, in order to identify trends, any training needs and required improvements. In addition, HM Inspectorate of Prisons and the National Chair and Management Board of Independent Monitoring Boards must review processes to consider how they fulfil their oversight role in respect of Rule 40 and Rule 42, and report on the monitoring of the use of Rules 40 and 42 going forward.",
+          "ChangeType": "More",
+          "ActionCategory": "Audit & Reviews"
         },
         {
-          "Recommendation":"The Home Office and contractors operating immigration removal centres must ensure that all staff are aware that the technique of handcuffing detained people with their hands behind their back while seated is not permitted, given its association with positional asphyxia."
+          "Recommendation": "The Home Office and contractors operating immigration removal centres must ensure that all staff are aware that the technique of handcuffing detained people with their hands behind their back while seated is not permitted, given its association with positional asphyxia.",
+          "ChangeType": "More",
+          "ActionCategory": "Training & Education"
         }
         ]
       }
@@ -1138,7 +1275,7 @@
       "ReportDate": "21/03/2011",
       "Recommendations":[
         {
-          "Recommendation":""
+          "Recommendation": ""
         }
       ]
     },
@@ -1148,7 +1285,7 @@
       "ReportDate": "13/03/2020",
       "Recommendations":[
         {
-          "Recommendation":""
+          "Recommendation": ""
         }
       ]
     }
