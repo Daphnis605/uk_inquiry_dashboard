@@ -145,99 +145,123 @@
           {
             "Recommendation": "All food businesses must ensure that their systems and procedures are capable of preventing the contamination or cross-contamination of food with E.coli O157.",
             "ChangeType": "More",
-            "ActionCategory": ""
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "Food businesses must get to grips with food safety management based very clearly on the seven key HACCP principles, ensuring it is a core part of the way they run their business.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "Additional resources should be made available to ensure that all food businesses in Wales understand and use the HACCP approach and have in place an effective, documented, food safety management system which is embedded in working culture and practice.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Funding & Resources"
           },
           {
             "Recommendation": "The principles underpinning the Butchers’ Licensing Scheme, which was introduced in response to the 1996 E.coli O157 outbreak, should guide food hygiene measures in businesses processing raw meat and unwrapped ready-to-eat foods.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
             "Recommendation": "The Food Standards Agency should review its current guidance and should be proactive in generating new guidance where needs are identified.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
             "Recommendation": "The Food Standards Agency should remove the confusion that exists among food business operators about what solution(s) should be used to prevent cross-contamination from surfaces and equipment.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
             "Recommendation": "Regulatory and enforcement bodies should keep the choice of “light touch” enforcement for individual food businesses under constant review.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "The inspection of HACCP plans must be audit-based.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Investigation & Redress"
           },
           {
             "Recommendation": "Training provision should be developed to ensure that all officers in Wales who check HACCP and HACCP-based plans, including those responsible for overseeing the work of those officers, have the necessary knowledge and skills.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
             "Recommendation": "Environmental Health Officers should obtain a copy of a business’s HACCP/food safety management plan at each inspection, which should be held on the business’s inspection file.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Documentation & Records"
           },
           {
             "Recommendation": "A system of logging issues, concerns or potential problems, whether by “red flagging” specific documents or by file notes, should be standard practice.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
             "Recommendation": "Decisions about confidence in a business’s management of food safety should be evidence-based.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
             "Recommendation": "All inspections, primary and secondary, must be unannounced unless, exceptionally, there are specific and justifiable circumstances or reasons why a pre-arranged visit is necessary.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Accountability & Oversight"
+
           },
           {
             "Recommendation": "Discussion with employees must be a standard part of food hygiene inspection visits.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
             "Recommendation": "The Food Standards Agency should develop, as part of its Audit Scheme or as an adjunct to it, a means of assessing how food hygiene inspections are undertaken by local authorities, including assessment of HACCP and HACCP-based plans.",
-            "ChangeType": "More"
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
             "Recommendation": "Businesses contracting for the supply of high-risk foods, such as raw and cooked meats, to public sector organisations must be subject to independent food hygiene audits.",
-            "ChangeType": "More"
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
             "Recommendation": "All health and care organisations should have an effective means of contacting key personnel during and outside normal working hours and for disseminating important information.",
-            "ChangeType": "More"
+            "ChangeType": "New",
+            "ActionCategory": "Communication & Reporting"
           },
           {
             "Recommendation": "Every local authority should have a programme of audits to ensure that all schools have adequate toilet and hand washing facilities.",
-            "ChangeType": "More"
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
             "Recommendation": "All local authorities in Wales should review their policies, procedures and systems against issues raised by this report.",
-            "ChangeType": "More"
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
             "Recommendation": "The National Assembly for Wales should consider my recommendations and monitor and report progress on Implemented.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "A substantial review of food hygiene enforcement in Wales should take place approximately five years after the publication of this report.",
-            "ChangeType": "More"
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
             "Recommendation": "Good practice advice and guidance issued by public bodies should be subject to follow-up and/or more detailed evaluation.",
-            "ChangeType": "More"
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "Variable Number Tandem Repeat (VNTR) should be validated as a standard method for the typing of E.coli O157.",
-            "ChangeType": "New"
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           },
           {
             "Recommendation": "The feasibility of identifying “supershedder” cattle on farms should be explored as a potential means of reducing the likelihood of spreading E.coli O157 to other cattle.",
-            "ChangeType": "New"
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           }
         ]
       }
@@ -252,47 +276,58 @@
       "Recommendations":[
         {
           "Recommendation": "An urgent programme of replacement of buried metallic pipework",
-          "ChangeType": "New"
+          "ChangeType": "Different",
+          "ActionCategory": "Infrastructure & Facilities"
         },
         {
           "Recommendation":"My conclusion is that complete replacement of underground metallic vapour phase pipework with polyethylene is the right solution; but a replacement programme has to be practicable. The immediate replacement of all underground metallic pipework is unrealistic.",
-          "ChangeType": "New"
+          "ChangeType": "Different",
+          "ActionCategory": "Infrastructure & Facilities"
         },
         {
           "Recommendation": "I therefore recommend that, in conjunction with the survey of the underground pipework, the premises themselves should be inspected in order to identify any conditions that create the risk that leaking LPG may migrate and accumulate in unventilated spaces.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
           "Recommendation": "The primary responsibility for the safety of the LPG pipework should rest with the user of the installation",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "I therefore regard it as essential that every LPG installation should have its own comprehensive Installation Record.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
         },
         {
           "Recommendation": "I further recommend that guidance on the detailed contents of an Installation Record and a suitable template should be developed by HSE in consultation with UKLPG.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
           "Recommendation": "I recommend that the preparation, maintenance and safe custody of the Installation Record should be the direct responsibility of the user.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "I propose therefore that every installation should be subject to mandatory periodic verification by an ACP whose duty it would be to verify the integrity of the installation and to certify whether or not the installation itself, the safety regime applying on site and any mitigation measures in place at the site were satisfactory.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
           "Recommendation": "Under a verification scheme of this kind it would be appropriate that wherever a verification certificate was not in force, it should be unlawful for the user to use the installation or to obtain any further supply of LPG to it.",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
           "Recommendation": "In my view, a registration scheme is a necessary element in the safety strategy that I propose",
-          "ChangeType": "More"
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
           "Recommendation": "I see it as essential that there should be prompt and effective communication between all interested parties of all technical developments in matters of LPG safety, and of all LPG incidents and the lessons to be learned from them",
-          "ChangeType": "More"
+          "ChangeType": "More",
+          "ActionCategory": "Communication & Reporting"
         }
       ]
     
@@ -1085,43 +1120,70 @@
       "ReportDate": "19/09/2023",
       "Recommendations":[
         {
-          "Recommendation":"The Home Office must actively and robustly monitor the performance of the Brook House contract, including satisfying itself that any self-reported information is accurate. This may include engagement with monitoring bodies and appropriate stakeholders. Penalties must be attached to inadequate self-reporting."
+          "Recommendation":"The Home Office must actively and robustly monitor the performance of the Brook House contract, including satisfying itself that any self-reported information is accurate. This may include engagement with monitoring bodies and appropriate stakeholders. Penalties must be attached to inadequate self-reporting.",
+          "shortRecommendation":"Active and robust monitoring of the Brook House contract.",
+          "ChangeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation":"The Home Office must ensure that each contract for the management of an immigration removal centre must expressly require compliance with the overriding purpose of Rule 3, which is to provide “the secure but humane accommodation of detained persons in a relaxed regime with as much freedom of movement and association as possible, consistent with maintaining a safe and secure environment, and to encourage and assist detained persons to make the most productive use of their time, whilst respecting in particular their dignity and the right to individual expression”. The provisions and operation of each contract must be consistent with and uphold the requirements of the Detention Centre Rules 2001, the Adults at Risk in Immigration Detention policy and the safeguards contained in detention services orders (including those concerning the use of force)."
+          "Recommendation":"The Home Office must ensure that each contract for the management of an immigration removal centre must expressly require compliance with the overriding purpose of Rule 3, which is to provide “the secure but humane accommodation of detained persons in a relaxed regime with as much freedom of movement and association as possible, consistent with maintaining a safe and secure environment, and to encourage and assist detained persons to make the most productive use of their time, whilst respecting in particular their dignity and the right to individual expression”. The provisions and operation of each contract must be consistent with and uphold the requirements of the Detention Centre Rules 2001, the Adults at Risk in Immigration Detention policy and the safeguards contained in detention services orders (including those concerning the use of force).",
+          "ChangeType": "More",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
-          "Recommendation":"The Home Office must ensure that a maximum of two detained people are accommodated in each cell at Brook House."
+          "Recommendation":"The Home Office must ensure that a maximum of two detained people are accommodated in each cell at Brook House.",
+          "ChangeType": "More",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
-          "Recommendation":"The Home Office and its contractors must ensure reasonable access to computers and the internet. Contractors must comply in full with Detention Services Order 04/2016: Detainee Access to the Internet, in particular: Computers and the internet provided for detained people’s use must be maintained and fixed, if broken, within a reasonable time period, in orderto allow detained people to access the internet for a minimum of sevenhours per day, seven days per week. Websites containing personal internet-based email accounts must not be blocked, since this is not a prohibited category of website. Websites facilitating the provision of legal advice and representation must not be blocked, as this is not a prohibited category of website."
+          "Recommendation":"The Home Office and its contractors must ensure reasonable access to computers and the internet. Contractors must comply in full with Detention Services Order 04/2016: Detainee Access to the Internet, in particular: Computers and the internet provided for detained people’s use must be maintained and fixed, if broken, within a reasonable time period, in orderto allow detained people to access the internet for a minimum of sevenhours per day, seven days per week. Websites containing personal internet-based email accounts must not be blocked, since this is not a prohibited category of website. Websites facilitating the provision of legal advice and representation must not be blocked, as this is not a prohibited category of website.",
+          "ChangeType": "More",
+          "ActionCategory": "Infrastructure & Facilities"
         },
         {
-          "Recommendation":"The Home Office must ensure that adequate risk assessment for cell sharing is carried out by contractors in relation to every detained person. This must be done at the outset of detention and then repeated at reasonable intervals (at least every 14 days) or following any relevant change in circumstances. In the event that an immigration removal centre is unable to detain someone in accordance with the outcome of a risk assessment (due to capacity or for other reasons), the Home Office must ensure that the individual does not remain at that centre."
+          "Recommendation":"The Home Office must ensure that adequate risk assessment for cell sharing is carried out by contractors in relation to every detained person. This must be done at the outset of detention and then repeated at reasonable intervals (at least every 14 days) or following any relevant change in circumstances. In the event that an immigration removal centre is unable to detain someone in accordance with the outcome of a risk assessment (due to capacity or for other reasons), the Home Office must ensure that the individual does not remain at that centre.",
+          "ChangeType": "More",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation":"The Home Office, in consultation with the contractor responsible for operating each immigration removal centre, must review the current lock- in regime and determine whether the period of time during which detained people are locked in their cells could be reduced. The Inquiry does not consider cost alone to be a sufficient justification for extensive lock-in periods."
+          "Recommendation":"The Home Office, in consultation with the contractor responsible for operating each immigration removal centre, must review the current lock- in regime and determine whether the period of time during which detained people are locked in their cells could be reduced. The Inquiry does not consider cost alone to be a sufficient justification for extensive lock-in periods.",
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation":"The government must introduce in legislation a maximum 28-day time limit on any individual’s detention within an immigration removal centre."
+          "Recommendation":"The government must introduce in legislation a maximum 28-day time limit on any individual’s detention within an immigration removal centre.",
+          "ChangeType": "New",
+          "ActionCategory":"Law & Regulation"
         },
         {
-          "Recommendation":"The Home Office (in collaboration with NHS England as required) must ensure that comprehensive training on Rule 34 and Rule 35 of the Detention Centre Rules 2001 is rolled out urgently across the immigration detention estate. Staff must be subject to refresher training, at least annually. Attendance must be mandatory for all staff working in immigration removal centres and those responsible for managing them, as well as GPs and relevant Home Office staff. Consideration must be given as to whether such training should be subject to an assessment."
+          "Recommendation":"The Home Office (in collaboration with NHS England as required) must ensure that comprehensive training on Rule 34 and Rule 35 of the Detention Centre Rules 2001 is rolled out urgently across the immigration detention estate. Staff must be subject to refresher training, at least annually. Attendance must be mandatory for all staff working in immigration removal centres and those responsible for managing them, as well as GPs and relevant Home Office staff. Consideration must be given as to whether such training should be subject to an assessment.",
+          "ChangeType": "More",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation":"The Home Office must, across the immigration detention estate, assure itself that all three limbs of Rule 35 of the Detention Centre Rules 2001 (reports by a medical practitioner where: (i) it is likely that a detained person’s health would be injuriously affected by continued detention (Rule 35(1)); (ii) it is suspected that a detained person has suicidal intentions (Rule 35(2)); or (iii) there is a concern that a detained person may have been a victim of torture (Rule 35(3))) are being followed, are operating effectively and are adequately resourced, in recognition of the key safeguarding role that the Rule plays. The Home Office must also regularly audit the use of Rule 35 in order to identify trends, any training needs and required improvements."
+          "Recommendation":"The Home Office must, across the immigration detention estate, assure itself that all three limbs of Rule 35 of the Detention Centre Rules 2001 (reports by a medical practitioner where: (i) it is likely that a detained person’s health would be injuriously affected by continued detention (Rule 35(1)); (ii) it is suspected that a detained person has suicidal intentions (Rule 35(2)); or (iii) there is a concern that a detained person may have been a victim of torture (Rule 35(3))) are being followed, are operating effectively and are adequately resourced, in recognition of the key safeguarding role that the Rule plays. The Home Office must also regularly audit the use of Rule 35 in order to identify trends, any training needs and required improvements.",
+          "ChangeType": "More",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation":"The Home Office must amend, as a matter of urgency, Detention Services Order 02/2017: Removal from Association (Detention Centre Rule 40) and Temporary Confinement (Detention Centre Rule 42) and, if necessary, the Detention Services Operating Standards Manual for Immigration Service Removal Centres, to clarify who can authorise use of Rule 40 and Rule 42 of the Detention Centre Rules 2001, in both urgent and non‑urgent circumstances, including providing a definition of the term ‘manager’ in Rule 40(2) and Rule 42(2). In anticipation of the update to Detention Services Order 02/2017, the Home Office must issue an immediate instruction to communicate this clarification to staff and contractors operating immigration detention centres."
+          "Recommendation":"The Home Office must amend, as a matter of urgency, Detention Services Order 02/2017: Removal from Association (Detention Centre Rule 40) and Temporary Confinement (Detention Centre Rule 42) and, if necessary, the Detention Services Operating Standards Manual for Immigration Service Removal Centres, to clarify who can authorise use of Rule 40 and Rule 42 of the Detention Centre Rules 2001, in both urgent and non‑urgent circumstances, including providing a definition of the term ‘manager’ in Rule 40(2) and Rule 42(2). In anticipation of the update to Detention Services Order 02/2017, the Home Office must issue an immediate instruction to communicate this clarification to staff and contractors operating immigration detention centres.",
+          "ChangeType":"Different",
+          "ActionCategory":"Law & Regulation"
         },
         {
-          "Recommendation":"The Home Office and the current operator of Brook House must keep under review the appropriateness of the multi-purpose use of E Wing, particularly in relation to its suitability as a location to detain vulnerable people."
+          "Recommendation":"The Home Office and the current operator of Brook House must keep under review the appropriateness of the multi-purpose use of E Wing, particularly in relation to its suitability as a location to detain vulnerable people.",
+          "ChangeType": "Different",
+          "ActionCategory":"Infrastructure & Facilities"
         },
         {
-          "Recommendation":"The Home Office and contractors operating immigration removal centres must provide regular training, at least annually, on the operation of Rule 40 and Rule 42 of the Detention Centre Rules 2001, which must include: that Rules 40 and 42 are the only powers under which detained people in immigration removal centres can be removed from association and/or located in temporary confinement; who is permitted to authorise use of those Rules and in what circumstances they may be authorised; that Rules 40 and 42 cannot be used as a punishment or solely for administrative convenience before a planned removal or transfer; and the need to assess any adverse effect that use of Rule 40 or Rule 42 could have on a detained person’s physical or mental health, and to consider any steps that could be taken to mitigate those effects. Attendance must be mandatory for all staff working in immigration removal centres and those responsible for managing them. The training must be subject to an assessment."
+          "Recommendation":"The Home Office and contractors operating immigration removal centres must provide regular training, at least annually, on the operation of Rule 40 and Rule 42 of the Detention Centre Rules 2001, which must include: that Rules 40 and 42 are the only powers under which detained people in immigration removal centres can be removed from association and/or located in temporary confinement; who is permitted to authorise use of those Rules and in what circumstances they may be authorised; that Rules 40 and 42 cannot be used as a punishment or solely for administrative convenience before a planned removal or transfer; and the need to assess any adverse effect that use of Rule 40 or Rule 42 could have on a detained person’s physical or mental health, and to consider any steps that could be taken to mitigate those effects. Attendance must be mandatory for all staff working in immigration removal centres and those responsible for managing them. The training must be subject to an assessment.",
+          "ChangeType": "More",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation":"The Home Office must regularly (and at least quarterly) audit the use of Rule 40 and Rule 42 across the immigration detention estate, in order to identify trends, any training needs and required improvements. In addition, HM Inspectorate of Prisons and the National Chair and Management Board of Independent Monitoring Boards must review processes to consider how they fulfil their oversight role in respect of Rule 40 and Rule 42, and report on the monitoring of the use of Rules 40 and 42 going forward."
+          "Recommendation":"The Home Office must regularly (and at least quarterly) audit the use of Rule 40 and Rule 42 across the immigration detention estate, in order to identify trends, any training needs and required improvements. In addition, HM Inspectorate of Prisons and the National Chair and Management Board of Independent Monitoring Boards must review processes to consider how they fulfil their oversight role in respect of Rule 40 and Rule 42, and report on the monitoring of the use of Rules 40 and 42 going forward.",
+          "ChangeType": "More",
+          "ActionCategory": "Investigation & Redress"
         },
         {
           "Recommendation":"The Home Office and contractors operating immigration removal centres must ensure that all staff are aware that the technique of handcuffing detained people with their hands behind their back while seated is not permitted, given its association with positional asphyxia."
