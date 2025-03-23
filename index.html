@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Public Inquiries Dashboard</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>UK Public Inquiries Dashboard</h1>
+        
+        <div class="chart-container">
+            <h2>Number of Recommendations per Inquiry</h2>
+            <div id="chart"></div>
+        </div>
+
+        <h2>Inquiries Table</h2>
+        <table id="inquiriesTable">
+            <thead>
+                <tr>
+                    <th>Administration/Department</th>
+                    <th>Inquiry Name</th>
+                    <th>Report Date</th>
+                    <th>Number of Recommendations</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        // Fetch and process the data
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Process data for visualization
+                const processedData = [];
+                data.forEach(dept => {
+                    if (dept.Inquiries) {
+                        dept.Inquiries.forEach(inquiry => {
+                            processedData.push({
+                                department: dept['Administration-or-Department'],
+                                name: inquiry.InquiryName,
+                                date: inquiry.ReportDate,
+                                recommendations: inquiry.Recommendations ? inquiry.Recommendations.length : 0
+                            });
+                        });
+                    }
+                });
+
+                // Populate table
+                const tbody = document.querySelector('#inquiriesTable tbody');
+                processedData.forEach(inquiry => {
+                    const row = tbody.insertRow();
+                    row.insertCell(0).textContent = inquiry.department;
+                    row.insertCell(1).textContent = inquiry.name;
+                    row.insertCell(2).textContent = inquiry.date;
+                    row.insertCell(3).textContent = inquiry.recommendations;
+                });
+
+                // Create D3 visualization
+                createBarChart(processedData);
+            });
+
+        function createBarChart(data) {
+            // Set up dimensions
+            const margin = {top: 20, right: 20, bottom: 90, left: 60};
+            const width = 1000 - margin.left - margin.right;
+            const height = 400 - margin.top - margin.bottom;
+
+            // Create SVG
+            const svg = d3.select("#chart")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            // Create scales
+            const x = d3.scaleBand()
+                .range([0, width])
+                .padding(0.1);
+
+            const y = d3.scaleLinear()
+                .range([height, 0]);
+
+            // Set domains
+            x.domain(data.map(d => d.name));
+            y.domain([0, d3.max(data, d => d.recommendations)]);
+
+            // Create tooltip
+            const tooltip = d3.select("body")
+                .append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0);
+
+            // Add bars
+            svg.selectAll(".bar")
+                .data(data)
+                .enter()
+                .append("rect")
+                .attr("class", "bar")
+                .attr("x", d => x(d.name))
+                .attr("width", x.bandwidth())
+                .attr("y", d => y(d.recommendations))
+                .attr("height", d => height - y(d.recommendations))
+                .on("mouseover", function(event, d) {
+                    tooltip.transition()
+                        .duration(200)
+                        .style("opacity", .9);
+                    tooltip.html(`${d.name}<br/>Recommendations: ${d.recommendations}`)
+                        .style("left", (event.pageX) + "px")
+                        .style("top", (event.pageY - 28) + "px");
+                })
+                .on("mouseout", function(d) {
+                    tooltip.transition()
+                        .duration(500)
+                        .style("opacity", 0);
+                });
+
+            // Add axes
+            svg.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(d3.axisBottom(x))
+                .selectAll("text")
+                .attr("transform", "rotate(-45)")
+                .style("text-anchor", "end");
+
+            svg.append("g")
+                .call(d3.axisLeft(y));
+
+            // Add labels
+            svg.append("text")
+                .attr("class", "axis-label")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 0 - margin.left)
+                .attr("x", 0 - (height / 2))
+                .attr("dy", "1em")
+                .style("text-anchor", "middle")
+                .text("Number of Recommendations");
+        }
+    </script>
+</body>
+</html> 
