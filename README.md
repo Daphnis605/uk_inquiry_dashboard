@@ -1,1 +1,1 @@
-# uk_inquiry_dashboard.github.io
+# uk_inquiry_dashboard

@@ -8,13 +8,19 @@
         "ReportDate": "14/09/2010",
         "Recommendations": [
           {
-            "Recommendation": "Given what we discovered about the destruction of prisoners’ files, many of which would have been important historical records, we recommend that the SOSNI should satisfy himself whether any other prison records have been destroyed and whether proper retention processes are now observed in the NIPS."
+            "Recommendation": "Given what we discovered about the destruction of prisoners’ files, many of which would have been important historical records, we recommend that the SOSNI should satisfy himself whether any other prison records have been destroyed and whether proper retention processes are now observed in the NIPS.",
+            "ChangeType": "Cease",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "We recommend that the SOSNI and those with recently devolved authority should satisfy themselves that any relevant lessons from HMP Maze have been learned for HMP Maghaberry."
+            "Recommendation": "We recommend that the SOSNI and those with recently devolved authority should satisfy themselves that any relevant lessons from HMP Maze have been learned for HMP Maghaberry.",
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
-            "Recommendation": "We recommend that the SOSNI and those with recently devolved authority should consider whether a similar process might pave the way for radical change in the way that the NIPS is managed and, among other matters, how its industrial relations are conducted."
+            "Recommendation": "We recommend that the SOSNI and those with recently devolved authority should consider whether a similar process might pave the way for radical change in the way that the NIPS is managed and, among other matters, how its industrial relations are conducted.",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           }
         ]
       },
@@ -24,7 +30,9 @@
         "ReportDate": "29/01/2010",
         "Recommendations": [
           {
-            "Recommendation": "Not Published"
+            "Recommendation": "Not Published",
+            "ChangeType": "",
+            "ActionCategory": ""
           }
         ]
       },
@@ -34,7 +42,9 @@
         "ReportDate": "15/12/2009",
         "Recommendations": [
           {
-            "Recommendation": ""
+            "Recommendation": "",
+            "ChangeType": "",
+            "ActionCategory": ""
           }
         ]
       },
@@ -44,7 +54,9 @@
         "ReportDate": "08/09/2011",
         "Recommendations": [
           {
-            "Recommendation": ""
+            "Recommendation": "",
+            "ChangeType": "",
+            "ActionCategory": ""
           }
         ]
       },
@@ -54,7 +66,9 @@
         "ReportDate": "17/12/2014",
         "Recommendations": [
           {
-            "Recommendation": ""
+            "Recommendation": "",
+            "ChangeType": "",
+            "ActionCategory": ""
           }
         ]
       },
@@ -64,7 +78,9 @@
         "ReportDate": "05/07/2013",
         "Recommendations": [
           {
-            "Recommendation": ""
+            "Recommendation": "",
+            "ChangeType": "",
+            "ActionCategory": ""
           }
         ]
       },
@@ -74,7 +90,9 @@
         "ReportDate": "06/02/2013",
         "Recommendations": [
           {
-            "Recommendation": ""
+            "Recommendation": "",
+            "ChangeType": "",
+            "ActionCategory": ""
           }
         ]
       },
@@ -84,7 +102,9 @@
         "ReportDate": "29/11/2012",
         "Recommendations": [
           {
-            "Recommendation": ""
+            "Recommendation": "",
+            "ChangeType": "",
+            "ActionCategory": ""
           }
         ]
       },
@@ -94,7 +114,9 @@
         "ReportDate": "21/01/2016",
         "Recommendations": [
           {
-            "Recommendation": ""
+            "Recommendation": "",
+            "ChangeType": "",
+            "ActionCategory": ""
           }
         ]
       },
@@ -104,7 +126,9 @@
         "ReportDate": "12/07/2019",
         "Recommendations": [
           {
-            "Recommendation": ""
+            "Recommendation": "",
+            "ChangeType": "",
+            "ActionCategory": ""
           }
         ]
       }
@@ -119,76 +143,101 @@
         "ReportDate": "19/03/2009",
         "Recommendations": [
           {
-            "Recommendation": "All food businesses must ensure that their systems and procedures are capable of preventing the contamination or cross-contamination of food with E.coli O157."
+            "Recommendation": "All food businesses must ensure that their systems and procedures are capable of preventing the contamination or cross-contamination of food with E.coli O157.",
+            "ChangeType": "More",
+            "ActionCategory": ""
           },
           {
-            "Recommendation": "Food businesses must get to grips with food safety management based very clearly on the seven key HACCP principles, ensuring it is a core part of the way they run their business."
+            "Recommendation": "Food businesses must get to grips with food safety management based very clearly on the seven key HACCP principles, ensuring it is a core part of the way they run their business.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "Additional resources should be made available to ensure that all food businesses in Wales understand and use the HACCP approach and have in place an effective, documented, food safety management system which is embedded in working culture and practice."
+            "Recommendation": "Additional resources should be made available to ensure that all food businesses in Wales understand and use the HACCP approach and have in place an effective, documented, food safety management system which is embedded in working culture and practice.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "The principles underpinning the Butchers’ Licensing Scheme, which was introduced in response to the 1996 E.coli O157 outbreak, should guide food hygiene measures in businesses processing raw meat and unwrapped ready-to-eat foods."
+            "Recommendation": "The principles underpinning the Butchers’ Licensing Scheme, which was introduced in response to the 1996 E.coli O157 outbreak, should guide food hygiene measures in businesses processing raw meat and unwrapped ready-to-eat foods.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "The Food Standards Agency should review its current guidance and should be proactive in generating new guidance where needs are identified."
+            "Recommendation": "The Food Standards Agency should review its current guidance and should be proactive in generating new guidance where needs are identified.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "The Food Standards Agency should remove the confusion that exists among food business operators about what solution(s) should be used to prevent cross-contamination from surfaces and equipment."
+            "Recommendation": "The Food Standards Agency should remove the confusion that exists among food business operators about what solution(s) should be used to prevent cross-contamination from surfaces and equipment.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "Regulatory and enforcement bodies should keep the choice of “light touch” enforcement for individual food businesses under constant review."
+            "Recommendation": "Regulatory and enforcement bodies should keep the choice of “light touch” enforcement for individual food businesses under constant review.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "The inspection of HACCP plans must be audit-based."
+            "Recommendation": "The inspection of HACCP plans must be audit-based.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "Training provision should be developed to ensure that all officers in Wales who check HACCP and HACCP-based plans, including those responsible foroverseeing the work of those officers, have the necessary knowledge and skills."
+            "Recommendation": "Training provision should be developed to ensure all officers in Wales who check HACCP and HACCP-based plans, including those responsible for overseeing the work of those officers, have the necessary knowledge and skills.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "Environmental Health Officers should obtain a copy of a business’s HACCP/food safety management plan at each inspection, which should be held on the business’s inspection file."
+            "Recommendation": "Environmental Health Officers should obtain a copy of a business’s HACCP/food safety management plan at each inspection, which should be held on the business’s inspection file.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "A system of logging issues, concerns or potential problems, whether by “red flagging” specific documents or by file notes, should be standard practice."
+            "Recommendation": "A system of logging issues, concerns or potential problems, whether by “red flagging” specific documents or by file notes, should be standard practice.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "Decisions about confidence in a business’s management of food safety should be evidence-based."
+            "Recommendation": "Decisions about confidence in a business’s management of food safety should be evidence-based.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "All inspections, primary and secondary, must be unannounced unless, exceptionally, there are specific and justifiable circumstances or reasons why a pre-arranged visit is necessary."
+            "Recommendation": "All inspections, primary and secondary, must be unannounced unless, exceptionally, there are specific and justifiable circumstances or reasons why a pre-arranged visit is necessary.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "Discussion with employees must be a standard part of food hygiene inspection visits."
+            "Recommendation": "Discussion with employees must be a standard part of food hygiene inspection visits.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "The Food Standards Agency should develop, as part of its Audit Scheme or as an adjunct to it, a means of assessing how food hygiene inspections are undertaken by local authorities, including assessment of HACCP and HACCP-based plans."
+            "Recommendation": "The Food Standards Agency should develop, as part of its Audit Scheme or as an adjunct to it, a means of assessing how food hygiene inspections are undertaken by local authorities, including assessment of HACCP and HACCP-based plans.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "Businesses contracting for the supply of high-risk foods, such as raw and cooked meats, to public sector organisations must be subject to independent food hygiene audits."
+            "Recommendation": "Businesses contracting for the supply of high-risk foods, such as raw and cooked meats, to public sector organisations must be subject to independent food hygiene audits.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "All health and care organisations should have an effective means of contacting key personnel during and outside normal working hours and for disseminating important information."
+            "Recommendation": "All health and care organisations should have an effective means of contacting key personnel during and outside normal working hours and for disseminating important information.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "Every local authority should have a programme of audits to ensure that all schools have adequate toilet and hand washing facilities"
+            "Recommendation": "Every local authority should have a programme of audits to ensure that all schools have adequate toilet and hand washing facilities.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "All local authorities in Wales should review their policies, procedures and systems against issues raised by this report."
+            "Recommendation": "All local authorities in Wales should review their policies, procedures and systems against issues raised by this report.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "The National Assembly for Wales should consider my recommendations and monitor and report progress on Implemented."
+            "Recommendation": "The National Assembly for Wales should consider my recommendations and monitor and report progress on Implemented.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "A substantial review of food hygiene enforcement in Wales should take place approximately five years after the publication of this report."
+            "Recommendation": "A substantial review of food hygiene enforcement in Wales should take place approximately five years after the publication of this report.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "Good practice advice and guidance issued by public bodies should be subject to follow-up and/or more detailed evaluation."
+            "Recommendation": "Good practice advice and guidance issued by public bodies should be subject to follow-up and/or more detailed evaluation.",
+            "ChangeType": "More"
           },
           {
-            "Recommendation": "Variable Number Tandem Repeat (VNTR) should be validated as a standard method for the typing of E.coli O157"
+            "Recommendation": "Variable Number Tandem Repeat (VNTR) should be validated as a standard method for the typing of E.coli O157.",
+            "ChangeType": "New"
           },
           {
-            "Recommendation": "The feasibility of identifying “supershedder” cattle on farms should be explored as a potential means of reducing the likelihood of spreading E.coli O157 to other cattle."
+            "Recommendation": "The feasibility of identifying “supershedder” cattle on farms should be explored as a potential means of reducing the likelihood of spreading E.coli O157 to other cattle.",
+            "ChangeType": "New"
           }
         ]
       }
@@ -203,37 +252,47 @@
       "Recommendations":[
         {
           "Recommendation": "An urgent programme of replacement of buried metallic pipework",
-          "Implemented": "unknown"
+          "ChangeType": "New"
         },
         {
-          "Recommendation":"My conclusion is that complete replacement of underground metallic vapour phase pipework with polyethylene is the right solution; but a replacement programme has to be practicable. The immediate replacement of all underground metallic pipework is unrealistic."
+          "Recommendation":"My conclusion is that complete replacement of underground metallic vapour phase pipework with polyethylene is the right solution; but a replacement programme has to be practicable. The immediate replacement of all underground metallic pipework is unrealistic.",
+          "ChangeType": "New"
         },
         {
-          "Recommendation":"I therefore recommend that, in conjunction with the survey of the underground pipework, the premises themselves should be inspected in order to identify any conditions that create the risk that leaking LPG may migrate and accumulate in unventilated spaces."
+          "Recommendation": "I therefore recommend that, in conjunction with the survey of the underground pipework, the premises themselves should be inspected in order to identify any conditions that create the risk that leaking LPG may migrate and accumulate in unventilated spaces.",
+          "ChangeType": "More"
         },
         {
-          "Recommendation":"The primary responsibility for the safety of the LPG pipework should rest with the user of the installation"
+          "Recommendation": "The primary responsibility for the safety of the LPG pipework should rest with the user of the installation",
+          "ChangeType": "More"
         },
         {
-          "Recommendation":"I therefore regard it as essential that every LPG installation should have its own comprehensive Installation Record."
+          "Recommendation": "I therefore regard it as essential that every LPG installation should have its own comprehensive Installation Record.",
+          "ChangeType": "More"
         },
         {
-          "Recommendation":"I further recommend that guidance on the detailed contents of an Installation Record and a suitable template should be developed by HSE in consultation with UKLPG."
+          "Recommendation": "I further recommend that guidance on the detailed contents of an Installation Record and a suitable template should be developed by HSE in consultation with UKLPG.",
+          "ChangeType": "More"
         },
         {
-          "Recommendation":"I recommend that the preparation, maintenance and safe custody of the Installation Record should be the direct responsibility of the user."
+          "Recommendation": "I recommend that the preparation, maintenance and safe custody of the Installation Record should be the direct responsibility of the user.",
+          "ChangeType": "More"
         },
         {
-          "Recommendation":"I propose therefore that every installation should be subject to mandatory periodic verification by an ACP whose duty it would be to verify the integrity of the installation and to certify whether or not the installation itself, the safety regime applying on site and any mitigation measures in place at the site were satisfactory."
+          "Recommendation": "I propose therefore that every installation should be subject to mandatory periodic verification by an ACP whose duty it would be to verify the integrity of the installation and to certify whether or not the installation itself, the safety regime applying on site and any mitigation measures in place at the site were satisfactory.",
+          "ChangeType": "More"
         },
         {
-          "Recommendation":"Under a verification scheme of this kind it would be appropriate that wherever a verification certificate was not in force, it should be unlawful for the user to use the installation or to obtain any further supply of LPG to it."
+          "Recommendation": "Under a verification scheme of this kind it would be appropriate that wherever a verification certificate was not in force, it should be unlawful for the user to use the installation or to obtain any further supply of LPG to it.",
+          "ChangeType": "More"
         },
         {
-          "Recommendation":"In my view, a registration scheme is a necessary element in the safety strategy that I propose"
+          "Recommendation": "In my view, a registration scheme is a necessary element in the safety strategy that I propose",
+          "ChangeType": "More"
         },
         {
-          "Recommendation":"I see it as essential that there should be prompt and effective communication between all interested parties of all technical developments in matters of LPG safety, and of all LPG incidents and the lessons to be learned from them"
+          "Recommendation": "I see it as essential that there should be prompt and effective communication between all interested parties of all technical developments in matters of LPG safety, and of all LPG incidents and the lessons to be learned from them",
+          "ChangeType": "More"
         }
       ]
     
