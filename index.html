@@ -160,7 +160,10 @@
                             name: rec.ActionCategory,
                             children: [{
                                 name: rec.ChangeType,
-                                value: 1
+                                children: [{
+                                    name: rec.Recommendation,
+                                    value: 1
+                                }]
                             }]
                         }))
                     )

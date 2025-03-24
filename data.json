@@ -764,124 +764,204 @@
           "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "Before the end of 2027 there should be a formal audit, publicly reported, of the extent of success of digitisation of patient records in each of the four health jurisdictions of the UK, measuring at least the levels of patient access to their personal records, their ability to identify and correct apparent errors in them, their interoperability, and the confidence of health professionals in the detail, accuracy and timeliness of any record they enter, and that little material which should be recorded has been omitted. Next steps should be identified"
+          "Recommendation": "Before the end of 2027 there should be a formal audit, publicly reported, of the extent of success of digitisation of patient records in each of the four health jurisdictions of the UK, measuring at least the levels of patient access to their personal records, their ability to identify and correct apparent errors in them, their interoperability, and the confidence of health professionals in the detail, accuracy and timeliness of any record they enter, and that little material which should be recorded has been omitted. Next steps should be identified",
+          "changeType": "New",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation": "Consideration should be given by the national healthcare administration in England, Scotland, Wales and Northern Ireland, to further coordination of their approaches particularly to ensure that patterns of harm, or trends, are identified and any response which for the sake of patient safety would be better coordinated than left to each individual administration can collaboratively be agreed and implemented."
+          "Recommendation": "Consideration should be given by the national healthcare administration in England, Scotland, Wales and Northern Ireland, to further coordination of their approaches particularly to ensure that patterns of harm, or trends, are identified and any response which for the sake of patient safety would be better coordinated than left to each individual administration can collaboratively be agreed and implemented.",
+          "changeType": "Different",
+          "ActionCategory": "Governance & Structure"
         },
         {
-          "Recommendation": "The Government should reconsider whether, in the light of the facts revealed by this Inquiry, it is sufficient to continue to rely on the current non-statutory duties in the Civil Service and Ministerial Codes, coupled with those legal duties which occur on the occasions when civil servants and ministers interact with courts, inquests and inquiries, as securing candour."
+          "Recommendation": "The Government should reconsider whether, in the light of the facts revealed by this Inquiry, it is sufficient to continue to rely on the current non-statutory duties in the Civil Service and Ministerial Codes, coupled with those legal duties which occur on the occasions when civil servants and ministers interact with courts, inquests and inquiries, as securing candour.",
+          "changeType":"Different",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation": "If, on review, the Government considers that it is sufficient to rely on the current non-statutory duties in the Civil Service Code, it should nonetheless introduce a statutory duty of accountability on senior civil servants for the candour and completeness of advice given to Permanent Secretaries and Ministers, and the candour and completeness of their response to concerns raised by members of the public and staff."
+          "Recommendation": "If, on review, the Government considers that it is sufficient to rely on the current non-statutory duties in the Civil Service Code, it should nonetheless introduce a statutory duty of accountability on senior civil servants for the candour and completeness of advice given to Permanent Secretaries and Ministers, and the candour and completeness of their response to concerns raised by members of the public and staff.",
+          "changeType": "New",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation": "The Government should consider the extent to which Ministers should be subject to a duty beyond their current duty to Parliament under the Ministerial Code."
+          "Recommendation": "The Government should consider the extent to which Ministers should be subject to a duty beyond their current duty to Parliament under the Ministerial Code.",
+          "changeType": "Different",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care those who have been diagnosed with cirrhosis at any point should receive lifetime monitoring by way of six-monthly fibroscans and annual clinical review, either nurse-led, consultant-led or, where appropriate, by a GP with a specialist interest in hepatitis"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care those who have been diagnosed with cirrhosis at any point should receive lifetime monitoring by way of six-monthly fibroscans and annual clinical review, either nurse-led, consultant-led or, where appropriate, by a GP with a specialist interest in hepatitis",
+          "changeType":"New",
+          "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care:those who have fibrosis should receive the same care"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care:those who have fibrosis should receive the same care",
+          "changeType":"More",
+          "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: where there is any uncertainty about whether a patient has fibrosis they should receive the same care"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: where there is any uncertainty about whether a patient has fibrosis they should receive the same care",
+          "changeType":"More",
+          "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: fibroscan technology should be used for liver imaging, rather than alternatives"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: fibroscan technology should be used for liver imaging, rather than alternatives",
+          "changeType":"More",
+          "ActionCategory": "Technology & Systems"
         },
         {
-          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: those who have had Hepatitis C which is attributable to infected blood or blood products should be seen by a consultant hepatologist, rather than a more junior member of staff, wherever practicable"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: those who have had Hepatitis C which is attributable to infected blood or blood products should be seen by a consultant hepatologist, rather than a more junior member of staff, wherever practicable",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: those bodies responsible for commissioning hepatology services in each of the home nations should publish the steps they have taken to satisfy themselves that the services they are commissioning meet the particular needs of the group of people harmed by NHS treatment"
+          "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: those bodies responsible for commissioning hepatology services in each of the home nations should publish the steps they have taken to satisfy themselves that the services they are commissioning meet the particular needs of the group of people harmed by NHS treatment",
+          "changeType": "New",
+          "ActionCategory": "Documentation & Records"
         },
         {
-          "Recommendation": "In England Hospital Transfusion Committees and transfusion practitioners take steps to ensure that consideration of tranexamic acid be on every hospital surgical checklist; that hospital medical directors be required to report to their boards and the chief executive of their Trust as to the extent of its use; and that the board report annually to NHS England as to the percentage of eligible operations which have involved its use. If the percentage is below 80% or has dropped since the previous year, this report should be accompanied with an explanation for the failure to use more tranexamic acid and thereby reduce the risk to patient safety that comes with using a transfusion of blood or red blood cells."
+          "Recommendation": "In England Hospital Transfusion Committees and transfusion practitioners take steps to ensure that consideration of tranexamic acid be on every hospital surgical checklist; that hospital medical directors be required to report to their boards and the chief executive of their Trust as to the extent of its use; and that the board report annually to NHS England as to the percentage of eligible operations which have involved its use. If the percentage is below 80% or has dropped since the previous year, this report should be accompanied with an explanation for the failure to use more tranexamic acid and thereby reduce the risk to patient safety that comes with using a transfusion of blood or red blood cells.",
+          "changeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation": "In Scotland, Wales and Northern Ireland offering the use of tranexamic acid should be considered a treatment of preference in respect of all eligible surgery"
+          "Recommendation": "In Scotland, Wales and Northern Ireland offering the use of tranexamic acid should be considered a treatment of preference in respect of all eligible surgery",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "Consideration be given to standardising and benchmarking transfusion performance between hospitals in order to deliver better patient blood management."
+          "Recommendation": "Consideration be given to standardising and benchmarking transfusion performance between hospitals in order to deliver better patient blood management.",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "Progress in implementation of the Transfusion 2024 recommendations be reviewed, and next steps be determined and promulgated; and that in Scotland the 5 year plan is reviewed in or before 2027 with a view to determining next steps"
+          "Recommendation": "Progress in implementation of the Transfusion 2024 recommendations be reviewed, and next steps be determined and promulgated; and that in Scotland the 5 year plan is reviewed in or before 2027 with a view to determining next steps",
+          "changeType": "More",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation": "Transfusion laboratories should be staffed (and resourced) adequately to meet the requirements of their functions."
+          "Recommendation": "Transfusion laboratories should be staffed (and resourced) adequately to meet the requirements of their functions.",
+          "changeType": "More",
+          "ActionCategory": "Funding & Resources"
         },
         {
-          "Recommendation": "That those bodies concerned with undergraduate and postgraduate training across the UK of those people who are, or intend to be, working in the NHS ensure that they are adequately trained in transfusion, that the standards by which sufficiency of training is measured are defined, and accountability for training in transfusion be defined."
+          "Recommendation": "That those bodies concerned with undergraduate and postgraduate training across the UK of those people who are, or intend to be, working in the NHS ensure that they are adequately trained in transfusion, that the standards by which sufficiency of training is measured are defined, and accountability for training in transfusion be defined.",
+          "changeType": "More",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation": "That all NHS organisations across the UK have a mechanism in place for implementing recommendations of SHOT reports, which should be professionally mandated, and for monitoring such implementation."
+          "Recommendation": "That all NHS organisations across the UK have a mechanism in place for implementing recommendations of SHOT reports, which should be professionally mandated, and for monitoring such implementation.",
+          "changeType": "New",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "Establishing the outcome of every transfusion: That a framework be established for recording outcomes for recipients of blood components. That those records be used by NHS bodies to improve transfusion practice (including by providing such information to haemovigilance bodies)."
+          "Recommendation": "Establishing the outcome of every transfusion: That a framework be established for recording outcomes for recipients of blood components. That those records be used by NHS bodies to improve transfusion practice (including by providing such information to haemovigilance bodies).",
+          "changeType": "New",
+          "ActionCategory": "Documentation & Records"
         },
         {
-          "Recommendation": "Establishing the outcome of every transfusion: To the extent that the funding for digital transformation does not already cover the setting up and operation of this framework, bespoke funding should be provided."
+          "Recommendation": "Establishing the outcome of every transfusion: To the extent that the funding for digital transformation does not already cover the setting up and operation of this framework, bespoke funding should be provided.",
+          "changeType": "More",
+          "ActionCategory": "Funding & Resources"
         },
         {
-          "Recommendation": "Establishing the outcome of every transfusion: That funding for the provision of enhanced electronic clinical systems in relation to blood transfusion be regarded as a priority across the UK."
+          "Recommendation": "Establishing the outcome of every transfusion: That funding for the provision of enhanced electronic clinical systems in relation to blood transfusion be regarded as a priority across the UK.",
+          "changeType": "More",
+          "ActionCategory": "Funding & Resources"
         },
         {
-          "Recommendation": "When doctors become aware that a patient has had a blood transfusion prior to 1996, that patient should be offered a blood test for Hepatitis C."
+          "Recommendation": "When doctors become aware that a patient has had a blood transfusion prior to 1996, that patient should be offered a blood test for Hepatitis C.",
+          "changeType": "New",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "As a matter of routine, new patients registering at a practice should be asked if they have had such a transfusion."
+          "Recommendation": "As a matter of routine, new patients registering at a practice should be asked if they have had such a transfusion.",
+          "changeType": "New",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "That peer review of haemophilia care should continue to occur as presently practised, with any necessary support being provided by NHS Trusts and Health Boards"
+          "Recommendation": "That peer review of haemophilia care should continue to occur as presently practised, with any necessary support being provided by NHS Trusts and Health Boards",
+          "changeType": "More",
+          "ActionCategory": "Audit & Reviews"
         },
         {
-          "Recommendation": "That NHS Trusts and Health Boards should be required to deliberate on peer review findings and give favourable consideration to implementing the changes identified with a view to ensuring comprehensive, safe, care."
+          "Recommendation": "That NHS Trusts and Health Boards should be required to deliberate on peer review findings and give favourable consideration to implementing the changes identified with a view to ensuring comprehensive, safe, care.",
+          "changeType": "New",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation": "A peer review of each centre should take place not less than once every five years."
+          "Recommendation": "A peer review of each centre should take place not less than once every five years.",
+          "changeType": "More",
+          "ActionCategory": "Audit & Reviews"
         },
         {
-          "Recommendation": "The necessary administrative and clinical resources should be provided by hospital trusts and boards, integrated care boards, and service commissioners to facilitate multi-disciplinary regional networks to discuss policy and practice in haemophilia and other inherited bleeding disorders care, provided they involve patients in their discussions."
+          "Recommendation": "The necessary administrative and clinical resources should be provided by hospital trusts and boards, integrated care boards, and service commissioners to facilitate multi-disciplinary regional networks to discuss policy and practice in haemophilia and other inherited bleeding disorders care, provided they involve patients in their discussions.",
+          "changeType": "More",
+          "ActionCategory": "Funding & Resources"
         },
         {
-          "Recommendation": "I recommend (adopting wording used by the Scottish Territorial Health Boards, who also favour this proposal)224 that, across the UK recombinant coagulation factor products should be offered in place of plasma-derived ones where clinically appropriate. Service commissioners should ensure that such treatment decisions are funded accordingly."
+          "Recommendation": "I recommend (adopting wording used by the Scottish Territorial Health Boards, who also favour this proposal)224 that, across the UK recombinant coagulation factor products should be offered in place of plasma-derived ones where clinically appropriate. Service commissioners should ensure that such treatment decisions are funded accordingly.",
+          "changeType": "More",
+          "ActionCategory": "Funding & Resources"
         },
         {
-          "Recommendation": "I therefore recommend: that the National Haemophilia Database, run by the UKHCDO, merits the support of additional central funding."
+          "Recommendation": "I therefore recommend: that the National Haemophilia Database, run by the UKHCDO, merits the support of additional central funding.",
+          "changeType": "More",
+          "ActionCategory": "Funding & Resources"
         },
         {
-          "Recommendation": "That the patient voice be enabled and empowered by the following measures: clinical audit should as a matter of routine include measures of patient satisfaction or concern, and these should be reported to the board of the body concerned. Success in this will be measured by comparing the measure of satisfaction from one year to the next, such that the reports to the board concerned demonstrate a trend of improvement by comparing this year’s outcomes with the similar outcomes from at least the two previous years."
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: clinical audit should as a matter of routine include measures of patient satisfaction or concern, and these should be reported to the board of the body concerned. Success in this will be measured by comparing the measure of satisfaction from one year to the next, such that the reports to the board concerned demonstrate a trend of improvement by comparing this year’s outcomes with the similar outcomes from at least the two previous years.",
+          "changeType": "More",
+          "ActionCategory": "Audit & Reviews"
         },
         {
-          "Recommendation": "That the patient voice be enabled and empowered by the following measures: that the following charities receive funding specifically for patient advocacy: the UK Haemophilia Society; the Hepatitis C Trust; Haemophilia Scotland; the Scottish Infected Blood Forum; Haemophilia Wales; Haemophilia Northern Ireland; and the UK Thalassaemia Society."
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: that the following charities receive funding specifically for patient advocacy: the UK Haemophilia Society; the Hepatitis C Trust; Haemophilia Scotland; the Scottish Infected Blood Forum; Haemophilia Wales; Haemophilia Northern Ireland; and the UK Thalassaemia Society.",
+          "changeType": "More",
+          "ActionCategory": "Funding & Resources"
         },
         {
-          "Recommendation": "That the patient voice be enabled and empowered by the following measures: that favourable consideration be given to other charities and organisations supporting people infected and affected that were granted core participant status (as listed on the Inquiry website) to continue to provide support for at least the next 18 months. Further support should be reviewed at that stage with a view to it continuing as appropriate."
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: that favourable consideration be given to other charities and organisations supporting people infected and affected that were granted core participant status (as listed on the Inquiry website) to continue to provide support for at least the next 18 months. Further support should be reviewed at that stage with a view to it continuing as appropriate.",
+          "changeType": "More",
+          "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation": "That the patient voice be enabled and empowered by the following measures: particular consideration be given, together with the UK Thalassaemia Society and the Sickle Cell Society, to how the needs of patients with thalassaemia or sickle cell disease can best holistically be addressed."
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: particular consideration be given, together with the UK Thalassaemia Society and the Sickle Cell Society, to how the needs of patients with thalassaemia or sickle cell disease can best holistically be addressed.",
+          "changeType": "Different",
+          "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation": "That the patient voice be enabled and empowered by the following measures: steps be taken to give greater prominence to the online Yellow Card system to those receiving drugs or biological products, or who are being transfused with blood components." 
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: steps be taken to give greater prominence to the online Yellow Card system to those receiving drugs or biological products, or who are being transfused with blood components." ,
+          "changeType": "Different",
+          "ActionCategory": "Technology & Systems"
         },
         {
-          "Recommendation": "that a minister should retain the power to call an inquiry as the minister sees fit, in accordance with the Inquiries Act 2005 – but where a minister does not choose to do so, then: if there is sufficient support from within Parliament for there to be an inquiry, the question whether there should be one should be referred to PACAC for it to consider the question. If it appears to PACAC that there is sufficient concern to justify a public inquiry, either because what happened and why has caused concern (as the committee sees it) or there are likely to be lessons learned which may prevent similar concerns arising in future, the committee may recommend to an appropriate minister that there be an inquiry. If the minister disagrees with the recommendation, they must set out in detail and publish reasons for this disagreement which are sufficient to satisfy PACAC that the matter has been carefully and properly considered."
+          "Recommendation": "that a minister should retain the power to call an inquiry as the minister sees fit, in accordance with the Inquiries Act 2005 – but where a minister does not choose to do so, then: if there is sufficient support from within Parliament for there to be an inquiry, the question whether there should be one should be referred to PACAC for it to consider the question. If it appears to PACAC that there is sufficient concern to justify a public inquiry, either because what happened and why has caused concern (as the committee sees it) or there are likely to be lessons learned which may prevent similar concerns arising in future, the committee may recommend to an appropriate minister that there be an inquiry. If the minister disagrees with the recommendation, they must set out in detail and publish reasons for this disagreement which are sufficient to satisfy PACAC that the matter has been carefully and properly considered.",
+          "changeType": "Different",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation": "Within the next 12 months, the Government should consider and either commit to implementing the recommendations which I make, or give sufficient reason, in sufficient detail for others to understand, why it is not considered appropriate to implement any one or more of them."
+          "Recommendation": "Within the next 12 months, the Government should consider and either commit to implementing the recommendations which I make, or give sufficient reason, in sufficient detail for others to understand, why it is not considered appropriate to implement any one or more of them.",
+          "changeType": "More",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation": "During that period, and before the end of this year – the Government should report back to Parliament as to the progress made on considering and implementing the recommendations."
+          "Recommendation": "During that period, and before the end of this year – the Government should report back to Parliament as to the progress made on considering and implementing the recommendations.",
+          "changeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation": "This timetable should not interfere with earlier consideration and response to the Recommendations of the Second Interim Report of the Inquiry"
+          "Recommendation": "This timetable should not interfere with earlier consideration and response to the Recommendations of the Second Interim Report of the Inquiry",
+          "changeType": "Different",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation": "The Public Administration and Constitutional Affairs Committee (“PACAC”) should review both the progress towards responding to the Inquiry’s recommendations and, to the extent that they are accepted, implementing those recommendations"
+          "Recommendation": "The Public Administration and Constitutional Affairs Committee (“PACAC”) should review both the progress towards responding to the Inquiry’s recommendations and, to the extent that they are accepted, implementing those recommendations",
+          "changeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation": "PACAC should accept the role in respect of any future statutory inquiry of reviewing government’s timetable for consideration of recommendations, and of its progress towards implementation of that inquiry’s recommendations."
+          "Recommendation": "PACAC should accept the role in respect of any future statutory inquiry of reviewing government’s timetable for consideration of recommendations, and of its progress towards implementation of that inquiry’s recommendations.",
+          "changeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         }
       ]
     }
