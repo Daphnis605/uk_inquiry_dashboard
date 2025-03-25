@@ -206,7 +206,6 @@
             "Recommendation": "All inspections, primary and secondary, must be unannounced unless, exceptionally, there are specific and justifiable circumstances or reasons why a pre-arranged visit is necessary.",
             "ChangeType": "Different",
             "ActionCategory": "Accountability & Oversight"
-
           },
           {
             "Recommendation": "Discussion with employees must be a standard part of food hygiene inspection visits.",
@@ -1258,7 +1257,6 @@
           "shortRecommendation": "A single set of core data relating to child sexual abuse and child sexual exploitation.",
           "changeType": "New",
           "ActionCategory": "Documentation & Records"
-
         },
         {
           "Recommendation": "The Inquiry recommends that the UK government establishes a Child Protection Authority for England and the Welsh Government establishes a Child Protection Authority for Wales. Each Authority’s purpose should be to: improve practice in child protection; provide advice and make recommendations to government in relation to child protection policy and reform to improve child protection; and inspect institutions and settings as it considers necessary and proportionate. The Child Protection Authorities in England and in Wales should also monitor the implementation of the Inquiry’s recommendations.",
@@ -1388,106 +1386,174 @@
       "ReportDate": "05/07/2022",
       "Recommendations":[
         {
-          "Recommendation": "There should be clearer guidance from the MPS, College of Policing and/or the NPCC on the separation of roles between the Senior Investigating Officer (SIO) and the Tactical and Strategic Firearms Commanders (TFC and SFC). The guidance should be clear that not only should the SIO and TFC/SFC be different individuals, but the importance of the separation of responsibilities under those roles should also be emphasised."
+          "Recommendation": "There should be clearer guidance from the MPS, College of Policing and/or the NPCC on the separation of roles between the Senior Investigating Officer (SIO) and the Tactical and Strategic Firearms Commanders (TFC and SFC). The guidance should be clear that not only should the SIO and TFC/SFC be different individuals, but the importance of the separation of responsibilities under those roles should also be emphasised.",
+          "changeType":"Different",
+          "ActionCategory": "Governance & Structure"
         },
         {
-          "Recommendation": "Training should emphasise that multidimensional risk assessments must be carried out throughout police operations, including the planning and briefing of operations. Those risk assessments should assess the future threat and risk at all stages of the operation."
+          "Recommendation": "Training should emphasise that multidimensional risk assessments must be carried out throughout police operations, including the planning and briefing of operations. Those risk assessments should assess the future threat and risk at all stages of the operation.",
+          "changeType": "Different",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation": "In order to provide for efficacy and transparency, the NPCC and College of Policing should be tasked with providing a document management system for FA (and equivalent) forms. The system should allow for the auditing of completion and submission dates as well as version management."
+          "Recommendation": "In order to provide for efficacy and transparency, the NPCC and College of Policing should be tasked with providing a document management system for FA (and equivalent) forms. The system should allow for the auditing of completion and submission dates as well as version management.",
+          "changeType": "New",
+          "ActionCategory": "Technology & Systems"
         },
         {
-          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: encourage a multidimensional risk assessment (to comply with Article 2) to “minimise, to the greatest extent possible, recourse to lethal force”"
+          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: encourage a multidimensional risk assessment (to comply with Article 2) to “minimise, to the greatest extent possible, recourse to lethal force”",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: include a provision for reference to evidential and, where appropriate, geographical tipping points"
+          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: include a provision for reference to evidential and, where appropriate, geographical tipping points",
+          "changeType": "Different",
+          "ActionCategory": "Documentation & Records"
         },
         {
-          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: include a dedicated box on the FA2 form to be completed when no FA1 form has been completed, with an explanation for the reason therefor"
+          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: include a dedicated box on the FA2 form to be completed when no FA1 form has been completed, with an explanation for the reason therefor",
+          "changeType": "Different",
+          "ActionCategory": "Documentation & Records"
         },
         {
-          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: include the provision (and the requirement) for updating the forms during the course of an operation"
+          "Recommendation": "There should be an amendment to FA (and equivalent) forms to: include the provision (and the requirement) for updating the forms during the course of an operation",
+          "changeType": "Different",
+          "ActionCategory": "Documentation & Records"
         },
         {
-          "Recommendation": "Appropriate training and refresher courses on the usage and completion of FA (and equivalent) forms should be made compulsory for firearms commanders and Tactical Advisors."
+          "Recommendation": "Appropriate training and refresher courses on the usage and completion of FA (and equivalent) forms should be made compulsory for firearms commanders and Tactical Advisors.",
+          "changeType": "More",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation": "The NPCC should commission a national review of the frequency with which this strategic option is used and its efficacy. The NPCC should consider whether contain and call out is being given meaningful consideration in the planning of armed deployments."
+          "Recommendation": "The NPCC should commission a national review of the frequency with which this strategic option is used and its efficacy. The NPCC should consider whether contain and call out is being given meaningful consideration in the planning of armed deployments.",
+          "changeType": "New",
+          "ActionCategory": "Investigation & Redress"
         },
         {
-          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: Notes and/or audio recordings should be made of all meetings in relation to general strategy where it is envisaged that firearms may or will be deployed during the course of a planned operation, and training given to explain why it is so important – for reasons of accountability and to establish an audit trail."
+          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: Notes and/or audio recordings should be made of all meetings in relation to general strategy where it is envisaged that firearms may or will be deployed during the course of a planned operation, and training given to explain why it is so important – for reasons of accountability and to establish an audit trail.",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: Such notes should include the date, location and duration of the meeting, the identity of those present, the capacity in which they are attending, and details of decisions made and actions accepted or rejected."
+          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: Such notes should include the date, location and duration of the meeting, the identity of those present, the capacity in which they are attending, and details of decisions made and actions accepted or rejected.",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: All planning meetings should be properly minuted and the minutes thereof should be centrally retained."
+          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: All planning meetings should be properly minuted and the minutes thereof should be centrally retained.",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },        
         {
-          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: All briefings relating to firearms operations should be audio-recorded unless it is not reasonably practicable on the grounds of sensitivity of information/intelligence to do so, in which case they should be minuted in the same way as planning meetings (see paragraph 15.7c)."
+          "Recommendation": "MPS Armed Policing Standard Operating Procedure (SOP) to be amended so that: All briefings relating to firearms operations should be audio-recorded unless it is not reasonably practicable on the grounds of sensitivity of information/intelligence to do so, in which case they should be minuted in the same way as planning meetings (see paragraph 15.7c).",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "The NPCC and/or College of Policing should ensure that these amendments are reflected in the guidance and training given to forces nationally."
+          "Recommendation": "The NPCC and/or College of Policing should ensure that these amendments are reflected in the guidance and training given to forces nationally.",
+          "changeType": "Different",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation": "The College of Policing’s Authorised Professional Practice – Armed Policing (APP-AP) should clarify that, during the course of an operation, any relevant intelligence should be briefed out to the firearms officers even if it is appropriate, in the circumstances, to provide clarification or a limitation warning together with the intelligence."
+          "Recommendation": "The College of Policing’s Authorised Professional Practice – Armed Policing (APP-AP) should clarify that, during the course of an operation, any relevant intelligence should be briefed out to the firearms officers even if it is appropriate, in the circumstances, to provide clarification or a limitation warning together with the intelligence.",
+          "changeType": "More",
+          "ActionCategory": "Communication & Reporting"
         },
         {
-          "Recommendation": "When intelligence is being provided, the use of any language that is capable of misinterpretation is to be avoided. Training to address this point should be provided to all officers and staff directly or indirectly involved in armed operations."
+          "Recommendation": "When intelligence is being provided, the use of any language that is capable of misinterpretation is to be avoided. Training to address this point should be provided to all officers and staff directly or indirectly involved in armed operations.",
+          "changeType": "Different",
+          "ActionCategory": "Communication & Reporting"
         },
         {
-          "Recommendation": "Only those officers who have received the requisite training and accreditation should be posted to a Covert Monitoring Post (CMP)."
+          "Recommendation": "Only those officers who have received the requisite training and accreditation should be posted to a Covert Monitoring Post (CMP).",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "There should be clear and unequivocal written guidance for the CMP from the TFC as to the key information and intelligence that is being sought."
+          "Recommendation": "There should be clear and unequivocal written guidance for the CMP from the TFC as to the key information and intelligence that is being sought.",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "The training referred to in paragraph 15.11 must emphasise the importance of covert monitoring officers (CMOs) making accurate notes of: (a) what they have heard; and (b) what they have passed on."
+          "Recommendation": "The training referred to in paragraph 15.11 must emphasise the importance of covert monitoring officers (CMOs) making accurate notes of: (a) what they have heard; and (b) what they have passed on.",
+          "changeType": "Different",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation": "CMPs should not be established without the appointment of a properly trained CMP manager, whose responsibility it should be to appoint a team of CMOs, once satisfied from proper assessment as to their qualifications and ability."
+          "Recommendation": "CMPs should not be established without the appointment of a properly trained CMP manager, whose responsibility it should be to appoint a team of CMOs, once satisfied from proper assessment as to their qualifications and ability.",
+          "changeType": "More",
+          "ActionCategory": "Governance & Structure"
         },
         {
-          "Recommendation": "When a CMP is being used to gather evidence or intelligence, the MPS (and other forces) should consider developing an SOP to ensure that the information is adequately recorded to provide a clear audit trail."
+          "Recommendation": "When a CMP is being used to gather evidence or intelligence, the MPS (and other forces) should consider developing an SOP to ensure that the information is adequately recorded to provide a clear audit trail.",
+          "changeType": "New",
+          "ActionCategory": "Documentation & Records"
         },
         {
-          "Recommendation": "APP-AP should be amended to cover the following: a. Sustained public protection2 should never be the object of an operation unless and until there is a clearly recorded note of the possible charge(s) that are anticipated, the evidence that will be required to establish guilt, the evidential (and, if appropriate, geographical) tipping points, and the probable sentence – expressed if necessary as a range within which the sentence is likely to fall, at the conclusion of any trial."
+          "Recommendation": "APP-AP should be amended to cover the following: a. Sustained public protection2 should never be the object of an operation unless and until there is a clearly recorded note of the possible charge(s) that are anticipated, the evidence that will be required to establish guilt, the evidential (and, if appropriate, geographical) tipping points, and the probable sentence – expressed if necessary as a range within which the sentence is likely to fall, at the conclusion of any trial.",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "APP-AP should be amended to cover the following: This may necessitate the involvement of the Crown Prosecution Service (CPS), whose early advice should be sought if there is any uncertainty as to any of the matters set out in paragraph 15.16a."
+          "Recommendation": "APP-AP should be amended to cover the following: This may necessitate the involvement of the Crown Prosecution Service (CPS), whose early advice should be sought if there is any uncertainty as to any of the matters set out in paragraph 15.16a.",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "APP-AP should be amended to cover the following: Written sentencing guidelines exist for almost all serious offences and, like the Criminal Procedure Rules (see paragraph 15.21), should be readily accessible to inform any opinion as to the probable sentence (see paragraph 15.16a)."
+          "Recommendation": "APP-AP should be amended to cover the following: Written sentencing guidelines exist for almost all serious offences and, like the Criminal Procedure Rules (see paragraph 15.21), should be readily accessible to inform any opinion as to the probable sentence (see paragraph 15.16a).",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "Police medic training should emphasise that, in cases of catastrophic external torso haemorrhage, the immediate action is to apply direct pressure and then progress directly to using haemostatic gauze. Chest seals should only be used where there is no evidence of ongoing catastrophic haemorrhage."
+          "Recommendation": "Police medic training should emphasise that, in cases of catastrophic external torso haemorrhage, the immediate action is to apply direct pressure and then progress directly to using haemostatic gauze. Chest seals should only be used where there is no evidence of ongoing catastrophic haemorrhage.",
+          "changeType": "Different",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation": "Training should be made mandatory for command officers in the use of the Computer Logging of Intelligence Operations (CLIO) system and the Serious Organised Crime Tasking and Briefing (SOCTAB) system (a firearms version of CLIO which has specific tabs created in it and lends itself to firearms deployments). This should include training to enable the CLIO system to be compatible with the FA forms."
+          "Recommendation": "Training should be made mandatory for command officers in the use of the Computer Logging of Intelligence Operations (CLIO) system and the Serious Organised Crime Tasking and Briefing (SOCTAB) system (a firearms version of CLIO which has specific tabs created in it and lends itself to firearms deployments). This should include training to enable the CLIO system to be compatible with the FA forms.",
+          "changeType": "More",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation": "Advice should be given by the College of Policing about the benefits of uniformity in instructions and commands. Ultimate discretion as to what is said must be left to the CTSFOs, based on the situation that confronts them, but the protocol should encourage agreement to be reached on the command/instruction that is to be given."
+          "Recommendation": "Advice should be given by the College of Policing about the benefits of uniformity in instructions and commands. Ultimate discretion as to what is said must be left to the CTSFOs, based on the situation that confronts them, but the protocol should encourage agreement to be reached on the command/instruction that is to be given.",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "There needs to be proper and objective consideration by the NPCC as to whether, and if so when, it is appropriate for a firearms officer to return to active deployment following their part in a fatal shooting. Such consideration must always occur at an appropriately senior level in the organisation and take account of the views of the family of the deceased and all relevant public interest matters. A proper audit trail must be kept of the process."
+          "Recommendation": "There needs to be proper and objective consideration by the NPCC as to whether, and if so when, it is appropriate for a firearms officer to return to active deployment following their part in a fatal shooting. Such consideration must always occur at an appropriately senior level in the organisation and take account of the views of the family of the deceased and all relevant public interest matters. A proper audit trail must be kept of the process.",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "There should be an amendment to the Criminal Procedure Rules which govern the process in applications for a firearms presence in court – a requirement for witness statements, sworn evidence and the taping of proceedings should all be included."
+          "Recommendation": "There should be an amendment to the Criminal Procedure Rules which govern the process in applications for a firearms presence in court – a requirement for witness statements, sworn evidence and the taping of proceedings should all be included.",
+          "changeType": "Different",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation": "There should be training of those who are authorised by reason of rank to present such applications at court, and no-one should act as a substitute for a properly authorised person unless they have been appropriately trained. In any event, a copy of the Rules should be readily available in every chief inspector’s office with which any officer making an application should be familiar (as is the case with Special Procedure Material applications)."
+          "Recommendation": "There should be training of those who are authorised by reason of rank to present such applications at court, and no-one should act as a substitute for a properly authorised person unless they have been appropriately trained. In any event, a copy of the Rules should be readily available in every chief inspector’s office with which any officer making an application should be familiar (as is the case with Special Procedure Material applications).",
+          "changeType": "More",
+          "ActionCategory": "Training & Education"
         },
         {
-          "Recommendation": "Consideration should be given to the introduction of a practice requiring, as an alternative to a face-to-face interview, the submission of a list of questions for written answer within a fixed time – failure to provide which, absent a reasonable excuse, would amount to misconduct."
+          "Recommendation": "Consideration should be given to the introduction of a practice requiring, as an alternative to a face-to-face interview, the submission of a list of questions for written answer within a fixed time – failure to provide which, absent a reasonable excuse, would amount to misconduct.",
+          "changeType": "New",
+          "ActionCategory": "Processes & Procedures"
         },
         {
-          "Recommendation": "The IOPC should be provided with the power to require a force to take “management action” in situations that fall short of misconduct but where standards of conduct and/or performance have fallen short of a reasonable public expectation. A force required by the IOPC to carry out such “management action” should confirm within 28 days of the requirement having been notified that it has been carried out and what it entailed, or else provide a written explanation as to why no action has been taken."
+          "Recommendation": "The IOPC should be provided with the power to require a force to take “management action” in situations that fall short of misconduct but where standards of conduct and/or performance have fallen short of a reasonable public expectation. A force required by the IOPC to carry out such “management action” should confirm within 28 days of the requirement having been notified that it has been carried out and what it entailed, or else provide a written explanation as to why no action has been taken.",
+          "changeType": "Different",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
-          "Recommendation": "Serious consideration should be given to the public interest in amending the current legislation so that allegations of “simple” misconduct, as distinct from “gross” misconduct, will survive following a police officer’s resignation or retirement. I do not recommend that the survival of allegations of simple misconduct carries with it any threat to a pension entitlement, but any post-resignation/retirement finding of simple misconduct should remain on the relevant personnel file and a matter of public record for a period of two years thereafter."
+          "Recommendation": "Serious consideration should be given to the public interest in amending the current legislation so that allegations of “simple” misconduct, as distinct from “gross” misconduct, will survive following a police officer’s resignation or retirement. I do not recommend that the survival of allegations of simple misconduct carries with it any threat to a pension entitlement, but any post-resignation/retirement finding of simple misconduct should remain on the relevant personnel file and a matter of public record for a period of two years thereafter.",
+          "changeType": "Different",
+          "ActionCategory": "Law & Regulation"
         },
         {
-          "Recommendation": "Consideration should be given by the MPS, Home Office and the NPCC to finding a more suitable solution for smashing windows during the course of an armed operation, so that an officer who is holding a firearm does not need to take their hand off their main weapon to utilise a life hammer."
+          "Recommendation": "Consideration should be given by the MPS, Home Office and the NPCC to finding a more suitable solution for smashing windows during the course of an armed operation, so that an officer who is holding a firearm does not need to take their hand off their main weapon to utilise a life hammer.",
+          "changeType": "Different",
+          "ActionCategory": "Processes & Procedures"
         }
 
       ]
