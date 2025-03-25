@@ -343,247 +343,408 @@
         "ReportDate": "04/09/2024",
         "Recommendations":[
           {
-            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to provide their local fire and rescue service with information about the design of its external walls together with details of the materials of which they are constructed and to inform the fire and rescue service of any material changes made to them;"
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to provide their local fire and rescue service with information about the design of its external walls together with details of the materials of which they are constructed and to inform the fire and rescue service of any material changes made to them;",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "that all fire and rescue services ensure that their personnel at all levels understand the risk of fire taking hold in the external walls of high-rise buildings and know how to recognise it when it occurs."
+            "Recommendation": "that all fire and rescue services ensure that their personnel at all levels understand the risk of fire taking hold in the external walls of high-rise buildings and know how to recognise it when it occurs.",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "that the LFB review, and revise as appropriate, Appendix 1 to PN633 to ensure that it fully reflects the principles in GRA 3.2;"
+            "Recommendation": "that the LFB review, and revise as appropriate, Appendix 1 to PN633 to ensure that it fully reflects the principles in GRA 3.2;",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "that the LFB ensure that all officers of the rank of Crew Manager and above are trained in carrying out the requirements of PN633 relating to the inspection of high-rise buildings"
+            "Recommendation": "that the LFB ensure that all officers of the rank of Crew Manager and above are trained in carrying out the requirements of PN633 relating to the inspection of high-rise buildings",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "I therefore recommend that the owner and manager of every high-rise residential building be required by law: to provide their local fire and rescue services with up-to-date plans in both paper and electronic form of every floor of the building identifying the location of key fire safety systems;"
+            "Recommendation": "I therefore recommend that the owner and manager of every high-rise residential building be required by law: to provide their local fire and rescue services with up-to-date plans in both paper and electronic form of every floor of the building identifying the location of key fire safety systems;",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "I therefore recommend that the owner and manager of every high-rise residential building be required by law: to ensure that the building contains a premises information box, the contents of which must include a copy of the up-to-date floor plans and information about the nature of any lift intended for use by the fire and rescue services."
+            "Recommendation": "I therefore recommend that the owner and manager of every high-rise residential building be required by law: to ensure that the building contains a premises information box, the contents of which must include a copy of the up-to-date floor plans and information about the nature of any lift intended for use by the fire and rescue services.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "I also recommend, insofar as it is not already the case, that all fire and rescue services be equipped to receive and store electronic plans and to make them available to incident commanders and control room managers."
+            "Recommendation": "I also recommend, insofar as it is not already the case, that all fire and rescue services be equipped to receive and store electronic plans and to make them available to incident commanders and control room managers.",
+            "ChangeType": "More",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to carry out regular inspections of any lifts that are designed to be used by firefighters in an emergency and to report the results of such inspections to their local fire and rescue service at monthly intervals;"
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to carry out regular inspections of any lifts that are designed to be used by firefighters in an emergency and to report the results of such inspections to their local fire and rescue service at monthly intervals;",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to carry out regular tests of the mechanism which allows firefighters to take control of the lifts and to inform their local fire and rescue service at monthly intervals that they have done so."
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to carry out regular tests of the mechanism which allows firefighters to take control of the lifts and to inform their local fire and rescue service at monthly intervals that they have done so.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "that the LFB review its policies on communications between the control room and the incident commander;"
+            "Recommendation": "that the LFB review its policies on communications between the control room and the incident commander;",
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "that all officers who may be expected to act as incident commanders (i.e. all those above the rank of Crew Manager) receive training directed to the specific requirements of communication with the control room"
+            "Recommendation": "that all officers who may be expected to act as incident commanders (i.e. all those above the rank of Crew Manager) receive training directed to the specific requirements of communication with the control room",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "that all CROs of Assistant Operations Manager rank and above receive training directed to the specific requirements of communication with the incident commander;"
+            "Recommendation": "that all CROs of Assistant Operations Manager rank and above receive training directed to the specific requirements of communication with the incident commander;",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "that a dedicated communication link be provided between the senior officer in the control room and the incident commander."
+            "Recommendation": "that a dedicated communication link be provided between the senior officer in the control room and the incident commander.",
+            "ChangeType": "More",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "that the LFB’s policies be amended to draw a clearer distinction between callers seeking advice and callers who believe they are trapped and need rescuing"
+            "Recommendation": "that the LFB’s policies be amended to draw a clearer distinction between callers seeking advice and callers who believe they are trapped and need rescuing",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "that the LFB provide regular and more effective refresher training to CROs at all levels, including supervisors"
+            "Recommendation": "that the LFB provide regular and more effective refresher training to CROs at all levels, including supervisors",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "that all fire and rescue services develop policies for handling a large number of FSG calls simultaneously"
+            "Recommendation": "that all fire and rescue services develop policies for handling a large number of FSG calls simultaneously",
+            "ChangeType": "More",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "that electronic systems be developed to record FSG information in the control room and display it simultaneously at the bridgehead and in any command units"
+            "Recommendation": "that electronic systems be developed to record FSG information in the control room and display it simultaneously at the bridgehead and in any command units",
+            "ChangeType": "New",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "that policies be developed for managing a transition from “stay put” to “get out”"
+            "Recommendation": "that policies be developed for managing a transition from “stay put” to “get out”",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "I therefore recommend that steps be taken to investigate methods by which assisting control rooms can obtain access to the information available to the host control room."
+            "Recommendation": "I therefore recommend that steps be taken to investigate methods by which assisting control rooms can obtain access to the information available to the host control room.",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },          
           {
-            "Recommendation": "I therefore recommend that the LAS and the MPS review their protocols and policies to ensure that their operators can identify FSG calls (as defined by the LFB) and pass them to the LFB as soon as possible."
+            "Recommendation": "I therefore recommend that the LAS and the MPS review their protocols and policies to ensure that their operators can identify FSG calls (as defined by the LFB) and pass them to the LFB as soon as possible.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "that the LFB develop policies and training to ensure better control of deployments and the use of resources"
+            "Recommendation": "that the LFB develop policies and training to ensure better control of deployments and the use of resources",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "that the LFB develop policies and training to ensure that better information is obtained from crews returning from deployments and that the information is recorded in a form that enables it to be made available immediately to the incident commander (and thereafter to the command units and the control room)"
+            "Recommendation": "that the LFB develop policies and training to ensure that better information is obtained from crews returning from deployments and that the information is recorded in a form that enables it to be made available immediately to the incident commander (and thereafter to the command units and the control room)",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "I therefore recommend that the LFB develop a communication system to enable direct communication between the control room and the incident commander and improve the means of communication between the incident commander and the bridgehead."
+            "Recommendation": "I therefore recommend that the LFB develop a communication system to enable direct communication between the control room and the incident commander and improve the means of communication between the incident commander and the bridgehead.",
+            "ChangeType": "New",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "I therefore recommend that the LFB investigate the use of modern communication techniques to provide a direct line of communication between the control room and the bridgehead, allowing information to be transmitted directly between the control room and the bridgehead and providing an integrated system of recording FSG information and the results of deployments."
+            "Recommendation": "I therefore recommend that the LFB investigate the use of modern communication techniques to provide a direct line of communication between the control room and the bridgehead, allowing information to be transmitted directly between the control room and the bridgehead and providing an integrated system of recording FSG information and the results of deployments.",
+            "ChangeType": "More",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "that the LFB urgently take steps to obtain equipment that enables firefighters wearing helmets and breathing apparatus to communicate with the bridgehead effectively, including when operating in high-rise buildings"
+            "Recommendation": "that the LFB urgently take steps to obtain equipment that enables firefighters wearing helmets and breathing apparatus to communicate with the bridgehead effectively, including when operating in high-rise buildings",
+            "ChangeType": "New",
+            "ActionCategory": "Infrastructure & Facilities"
           },
           {
-            "Recommendation": "that urgent steps be taken to ensure that the command support system is fully operative on all command units and that crews are trained in its use."
+            "Recommendation": "that urgent steps be taken to ensure that the command support system is fully operative on all command units and that crews are trained in its use.",
+            "ChangeType": "More",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
-            "Recommendation": "that the government develop national guidelines for carrying out partial or total evacuations of high-rise residential buildings, such guidelines to include the means of protecting fire exit routes and procedures for evacuating persons who are unable to use the stairs in an emergency, or who may require assistance (such as disabled people, older people and young children);"
+            "Recommendation": "that the government develop national guidelines for carrying out partial or total evacuations of high-rise residential buildings, such guidelines to include the means of protecting fire exit routes and procedures for evacuating persons who are unable to use the stairs in an emergency, or who may require assistance (such as disabled people, older people and young children);",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "that fire and rescue services develop policies for partial and total evacuation of high-rise residential buildings and training to support them"
+            "Recommendation": "that fire and rescue services develop policies for partial and total evacuation of high-rise residential buildings and training to support them",
+            "ChangeType": "More",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to draw up and keep under regular review evacuation plans, copies of which are to be provided in electronic and paper form to their local fire and rescue service and placed in an information box on the premises"
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to draw up and keep under regular review evacuation plans, copies of which are to be provided in electronic and paper form to their local fire and rescue service and placed in an information box on the premises",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "that all high-rise residential buildings (both those already in existence and those built in the future) be equipped with facilities for use by the fire and rescue services enabling them to send an evacuation signal to the whole or a selected part of the building by means of sounders or similar devices"
+            "Recommendation": "that all high-rise residential buildings (both those already in existence and those built in the future) be equipped with facilities for use by the fire and rescue services enabling them to send an evacuation signal to the whole or a selected part of the building by means of sounders or similar devices",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to prepare personal emergency evacuation plans (PEEPs) for all residents whose ability to self-evacuate may be compromised (such as persons with reduced mobility or cognition)"
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to prepare personal emergency evacuation plans (PEEPs) for all residents whose ability to self-evacuate may be compromised (such as persons with reduced mobility or cognition)",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to include up-to-date information about persons with reduced mobility and their associated PEEPs in the premises information box"
+            "Recommendation": "that the owner and manager of every high-rise residential building be required by law to include up-to-date information about persons with reduced mobility and their associated PEEPs in the premises information box",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },        
           {
-            "Recommendation": "that all fire and rescue services be equipped with smoke hoods to assist in the evacuation of occupants through smoke-filled exit routes"
+            "Recommendation": "that all fire and rescue services be equipped with smoke hoods to assist in the evacuation of occupants through smoke-filled exit routes",
+            "ChangeType": "More",
+            "ActionCategory": "Infrastructure & Facilities"
           },
           {
-            "Recommendation": "I therefore recommend that in all high-rise buildings floor numbers be clearly marked on each landing within the stairways and in a prominent place in all lobbies in such a way as to be visible both in normal conditions and in low lighting or smoky conditions."
+            "Recommendation": "I therefore recommend that in all high-rise buildings floor numbers be clearly marked on each landing within the stairways and in a prominent place in all lobbies in such a way as to be visible both in normal conditions and in low lighting or smoky conditions.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "I therefore recommend that the owner and manager of every residential building containing separate dwellings (whether or not it is a high-rise building) be required by law to provide fire safety instructions (including instructions for evacuation) in a form that the occupants of the building can reasonably be expected to understand, taking into account the nature of the building and their knowledge of the occupants."
+            "Recommendation": "I therefore recommend that the owner and manager of every residential building containing separate dwellings (whether or not it is a high-rise building) be required by law to provide fire safety instructions (including instructions for evacuation) in a form that the occupants of the building can reasonably be expected to understand, taking into account the nature of the building and their knowledge of the occupants.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "that the owner and manager of every residential building containing separate dwellings (whether or not they are high-rise buildings) carry out an urgent inspection of all fire doors to ensure that they comply with applicable legislative standards"
+            "Recommendation": "that the owner and manager of every residential building containing separate dwellings (whether or not they are high-rise buildings) carry out an urgent inspection of all fire doors to ensure that they comply with applicable legislative standards",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "that the owner and manager of every residential building containing separate dwellings (whether or not they are high-rise buildings) be required by law to carry out checks at not less than three-monthly intervals to ensure that all fire doors are fitted with effective self-closing devices in working order"
+            "Recommendation": "that the owner and manager of every residential building containing separate dwellings (whether or not they are high-rise buildings) be required by law to carry out checks at not less than three-monthly intervals to ensure that all fire doors are fitted with effective self-closing devices in working order",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "I therefore recommend that all those who have responsibility in whatever capacity for the condition of the entrance doors to individual flats in high-rise residential buildings, whose external walls incorporate unsafe cladding, be required by law to ensure that such doors comply with current standards."
+            "Recommendation": "I therefore recommend that all those who have responsibility in whatever capacity for the condition of the entrance doors to individual flats in high-rise residential buildings, whose external walls incorporate unsafe cladding, be required by law to ensure that such doors comply with current standards.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that each emergency service must communicate the declaration of a Major Incident to all other Category 1 Responders as soon as possible"
+            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that each emergency service must communicate the declaration of a Major Incident to all other Category 1 Responders as soon as possible",
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that on the declaration of a Major Incident clear lines of communication must be established as soon as possible between the control rooms of the individual emergency services"
+            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that on the declaration of a Major Incident clear lines of communication must be established as soon as possible between the control rooms of the individual emergency services",
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that a single point of contact should be designated within each control room to facilitate such communication"
+            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that a single point of contact should be designated within each control room to facilitate such communication",
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that a “METHANE” message should be sent as soon as possible by the emergency service declaring a Major Incident."
+            "Recommendation": "I therefore recommend that the Joint Doctrine be amended to make it clear: that a “METHANE” message should be sent as soon as possible by the emergency service declaring a Major Incident.",
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "I therefore recommend that steps be taken to investigate the compatibility of the LFB systems with those of the MPS and the LAS with a view to enabling all three emergency services’ systems to read each other’s messages."
+            "Recommendation": "I therefore recommend that steps be taken to investigate the compatibility of the LFB systems with those of the MPS and the LAS with a view to enabling all three emergency services’ systems to read each other’s messages.",
+            "ChangeType": "Different",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "I therefore recommend that steps be taken to ensure that the airborne datalink system on every NPAS helicopter observing an incident which involves one of the other emergency services defaults to the National Emergency Service user encryption."
+            "Recommendation": "I therefore recommend that steps be taken to ensure that the airborne datalink system on every NPAS helicopter observing an incident which involves one of the other emergency services defaults to the National Emergency Service user encryption.",
+            "ChangeType": "Different",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "I therefore recommend that the LFB, the MPS, the LAS and the London local authorities all investigate ways of improving the collection of information about survivors and making it available more rapidly to those wishing to make contact with them."
+            "Recommendation": "I therefore recommend that the LFB, the MPS, the LAS and the London local authorities all investigate ways of improving the collection of information about survivors and making it available more rapidly to those wishing to make contact with them.",
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "We therefore recommend that the government draw together under a single regulator all the functions relating to the construction industry to which we have referred."
+            "Recommendation": "We therefore recommend that the government draw together under a single regulator all the functions relating to the construction industry to which we have referred.",
+            "ChangeType": "New",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "We therefore recommend that the definition of a higher-risk building for the purposes of the Building Safety Act be reviewed urgently."
+            "Recommendation": "We therefore recommend that the definition of a higher-risk building for the purposes of the Building Safety Act be reviewed urgently.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that the government bring responsibility for the functions relating to fire safety currently exercised by MHCLG, the Home Office and the Department for Business and Trade into one department under a single Secretary of State."
+            "Recommendation": "We therefore recommend that the government bring responsibility for the functions relating to fire safety currently exercised by MHCLG, the Home Office and the Department for Business and Trade into one department under a single Secretary of State.",
+            "ChangeType": "Different",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "We therefore recommend that the Secretary of State appoint a Chief Construction Adviser with a sufficient budget and staff to provide advice on all matters affecting the construction industry, including: a. monitoring all aspects of the department’s work relating to the Building Regulations and statutory guidance; b. providing advice to the Secretary of State on request; and c. bringing to the attention of the Secretary of State any matters affecting the Building Regulations and statutory guidance or matters affecting the construction industry more generally of which the government should be aware."
+            "Recommendation": "We therefore recommend that the Secretary of State appoint a Chief Construction Adviser with a sufficient budget and staff to provide advice on all matters affecting the construction industry, including: a. monitoring all aspects of the department’s work relating to the Building Regulations and statutory guidance; b. providing advice to the Secretary of State on request; and c. bringing to the attention of the Secretary of State any matters affecting the Building Regulations and statutory guidance or matters affecting the construction industry more generally of which the government should be aware.",
+            "ChangeType": "New",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "We therefore recommend that the statutory guidance generally, and Approved Document B in particular, be reviewed accordingly and a revised version published as soon as possible."
+            "Recommendation": "We therefore recommend that the statutory guidance generally, and Approved Document B in particular, be reviewed accordingly and a revised version published as soon as possible.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that a revised version of the guidance contain a clear warning in each section that the legal requirements are contained in the Building Regulations and that compliance with the guidance will not necessarily result in compliance with them."
+            "Recommendation": "We therefore recommend that a revised version of the guidance contain a clear warning in each section that the legal requirements are contained in the Building Regulations and that compliance with the guidance will not necessarily result in compliance with them.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "New materials and methods of construction and the practice of overcladding existing buildings make the existence of effective compartmentation a questionable assumption and we recommend that it be reconsidered when Approved Document B is revised."
+            "Recommendation": "New materials and methods of construction and the practice of overcladding existing buildings make the existence of effective compartmentation a questionable assumption and we recommend that it be reconsidered when Approved Document B is revised.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "Calculating the likely rate of fire spread and the time required for evacuation, including the evacuation of those with physical or mental impairments, are matters for a qualified fire engineer. We do not think that it would be helpful to attempt to include in Approved Document B an indication of what would be acceptable because each building is different, but we recommend that the guidance draw attention to the need to make a calculation of that kind. It is one that ought to form an essential part of any fire safety strategy."
+            "Recommendation": "Calculating the likely rate of fire spread and the time required for evacuation, including the evacuation of those with physical or mental impairments, are matters for a qualified fire engineer. We do not think that it would be helpful to attempt to include in Approved Document B an indication of what would be acceptable because each building is different, but we recommend that the guidance draw attention to the need to make a calculation of that kind. It is one that ought to form an essential part of any fire safety strategy.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that, as far as possible, membership of bodies advising on changes to the statutory guidance should include representatives of the academic community as well as those with practical experience of the industry (including fire engineers) chosen for their experience and skill and should extend beyond those who have served on similar bodies in the past"
+            "Recommendation": "We therefore recommend that, as far as possible, membership of bodies advising on changes to the statutory guidance should include representatives of the academic community as well as those with practical experience of the industry (including fire engineers) chosen for their experience and skill and should extend beyond those who have served on similar bodies in the past",
+            "ChangeType": "Different",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "We therefore recommend that it be made a statutory requirement that a fire safety strategy produced by a registered fire engineer (see below) to be submitted with building control applications (at Gateway 2) for the construction or refurbishment of any higher-risk building and for it to be reviewed and re-submitted at the stage of completion (Gateway 3). Such a strategy must take into account the needs of vulnerable people, including the additional time they may require to leave the building or reach a place of safety within it and any additional facilities necessary to ensure their safety."
+            "Recommendation": "We therefore recommend that it be made a statutory requirement that a fire safety strategy produced by a registered fire engineer (see below) to be submitted with building control applications (at Gateway 2) for the construction or refurbishment of any higher-risk building and for it to be reviewed and re-submitted at the stage of completion (Gateway 3). Such a strategy must take into account the needs of vulnerable people, including the additional time they may require to leave the building or reach a place of safety within it and any additional facilities necessary to ensure their safety.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that steps be taken in conjunction with the professional and academic community to develop new test methods that will provide the information needed for such assessments to be carried out reliably."
+            "Recommendation": "We therefore recommend that steps be taken in conjunction with the professional and academic community to develop new test methods that will provide the information needed for such assessments to be carried out reliably.",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "we recommend that the government make it clear that it should not be used as a substitute for an assessment by a suitably qualified fire engineer"
+            "Recommendation": "we recommend that the government make it clear that it should not be used as a substitute for an assessment by a suitably qualified fire engineer",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that the construction regulator should be responsible for assessing the conformity of construction products with the requirements of legislation, statutory guidance and industry standards and issuing certificates as appropriate. We should expect such certificates to become pre-eminent in the market."
+            "Recommendation": "We therefore recommend that the construction regulator should be responsible for assessing the conformity of construction products with the requirements of legislation, statutory guidance and industry standards and issuing certificates as appropriate. We should expect such certificates to become pre-eminent in the market.",
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "that copies of all test results supporting any certificate issued by the construction regulator be included in the certificate"
+            "Recommendation": "that copies of all test results supporting any certificate issued by the construction regulator be included in the certificate",
+            "ChangeType": "Different",
+            "ActionCategory": "Documentation & Records"
           },
           {
-            "Recommendation": "that manufacturers be required to provide the construction regulator with the full testing history of the product or material to which the certificate relates and inform the regulator of any material circumstances that may affect its performance"
+            "Recommendation": "that manufacturers be required to provide the construction regulator with the full testing history of the product or material to which the certificate relates and inform the regulator of any material circumstances that may affect its performance",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },        
           {
-            "Recommendation": "manufacturers be required by law to provide on request copies of all test results that support claims about fire performance made for their products."
+            "Recommendation": "manufacturers be required by law to provide on request copies of all test results that support claims about fire performance made for their products.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that the profession of fire engineer be recognised and protected by law and that an independent body be established to regulate the profession, define the standards required for membership, maintain a register of members and regulate their conduct."
+            "Recommendation": "We therefore recommend that the profession of fire engineer be recognised and protected by law and that an independent body be established to regulate the profession, define the standards required for membership, maintain a register of members and regulate their conduct.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },        
           {
-            "Recommendation": "In order to speed up the creation of a body of professional fire engineers we also recommend that the government take urgent steps to increase the number of places on high-quality masters level courses in fire engineering accredited by the professional regulator."
+            "Recommendation": "In order to speed up the creation of a body of professional fire engineers we also recommend that the government take urgent steps to increase the number of places on high-quality masters level courses in fire engineering accredited by the professional regulator.",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "The development and maintenance of a statement of professional skills should ultimately be the responsibility of the body that regulates the profession, but pending the establishment of such a body we recommend that the government convene a group of practitioner and academic fire engineers and such other professionals as it thinks fit to produce an authoritative statement of the knowledge and skills to be expected of a competent fire engineer."
+            "Recommendation": "The development and maintenance of a statement of professional skills should ultimately be the responsibility of the body that regulates the profession, but pending the establishment of such a body we recommend that the government convene a group of practitioner and academic fire engineers and such other professionals as it thinks fit to produce an authoritative statement of the knowledge and skills to be expected of a competent fire engineer.",
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "We also recommend that the government, working in collaboration with industry and professional bodies, encourage the development of courses in the principles of fire engineering for construction professionals and members of the fire and rescue services as part of their continuing professional development."
+            "Recommendation": "We also recommend that the government, working in collaboration with industry and professional bodies, encourage the development of courses in the principles of fire engineering for construction professionals and members of the fire and rescue services as part of their continuing professional development.",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "We recognise that both the Architects Registration Board and the Royal Institute of British Architects have taken steps since the Grenfell Tower fire to improve the education and training of architects. We recommend that they should review the changes already made to ensure they are sufficient in the light of our findings."
+            "Recommendation": "We recognise that both the Architects Registration Board and the Royal Institute of British Architects have taken steps since the Grenfell Tower fire to improve the education and training of architects. We recommend that they should review the changes already made to ensure they are sufficient in the light of our findings.",
+            "ChangeType": "Different",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "We also recommend that it be made a statutory requirement that an application for building control approval in relation to the construction or refurbishment of a higher-risk building (Gateway 2) be supported by a statement from a senior manager of the principal designer under the Building Safety Act 2022 that all reasonable steps have been taken to ensure that on completion the building as designed will be as safe as is required by the Building Regulations."
+            "Recommendation": "We also recommend that it be made a statutory requirement that an application for building control approval in relation to the construction or refurbishment of a higher-risk building (Gateway 2) be supported by a statement from a senior manager of the principal designer under the Building Safety Act 2022 that all reasonable steps have been taken to ensure that on completion the building as designed will be as safe as is required by the Building Regulations.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that a licensing scheme operated by the construction regulator be introduced for principal contractors wishing to undertake the construction or refurbishment of higher-risk buildings and that it be a legal requirement that any application for building control approval for the construction or refurbishment of a higher-risk building (Gateway 2) be supported by a personal undertaking from a director or senior manager of the principal contractor to take all reasonable care to ensure that on completion and handover the building is as safe as is required by the Building Regulations."
+            "Recommendation": "We therefore recommend that a licensing scheme operated by the construction regulator be introduced for principal contractors wishing to undertake the construction or refurbishment of higher-risk buildings and that it be a legal requirement that any application for building control approval for the construction or refurbishment of a higher-risk building (Gateway 2) be supported by a personal undertaking from a director or senior manager of the principal contractor to take all reasonable care to ensure that on completion and handover the building is as safe as is required by the Building Regulations.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that the government appoint an independent panel to consider whether it is in the public interest for building control functions to be performed by those who have a commercial interest in the process."
+            "Recommendation": "We therefore recommend that the government appoint an independent panel to consider whether it is in the public interest for building control functions to be performed by those who have a commercial interest in the process.",
+            "ChangeType": "New",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "we recommend that the same panel consider whether all building control functions should be performed by a national authority."
+            "Recommendation": "we recommend that the same panel consider whether all building control functions should be performed by a national authority.",
+            "ChangeType": "Different",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "We recommend that the construction regulator sponsor the development of a similar library, perhaps as part of a joint project with the University of Queensland, to provide a continuing resource for designers."
+            "Recommendation": "We recommend that the construction regulator sponsor the development of a similar library, perhaps as part of a joint project with the University of Queensland, to provide a continuing resource for designers.",
+            "ChangeType": "New",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "We recommend that it be made a legal requirement for the government to maintain a publicly accessible record of recommendations made by select committees, coroners and public inquiries together with a description of the steps taken in response. If the government decides not to accept a recommendation, it should record its reasons for doing so. Scrutiny of its actions should be a matter for Parliament, to which it should be required to report annually."
+            "Recommendation": "We recommend that it be made a legal requirement for the government to maintain a publicly accessible record of recommendations made by select committees, coroners and public inquiries together with a description of the steps taken in response. If the government decides not to accept a recommendation, it should record its reasons for doing so. Scrutiny of its actions should be a matter for Parliament, to which it should be required to report annually.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that the government establish a system of mandatory accreditation to certify the competence of fire risk assessors by setting standards for qualification and continuing professional development and such other measures as may be considered necessary or desirable. We think it necessary for an accreditation system to be mandatory in order to ensure the competence of all those who offer their services as fire risk assessors."
+            "Recommendation": "We therefore recommend that the government establish a system of mandatory accreditation to certify the competence of fire risk assessors by setting standards for qualification and continuing professional development and such other measures as may be considered necessary or desirable. We think it necessary for an accreditation system to be mandatory in order to ensure the competence of all those who offer their services as fire risk assessors.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that the government seeks urgent advice from the Building Safety Regulator and the National Fire Chiefs Council on the nature and scale of the problem and the appropriate response to it."
+            "Recommendation": "We therefore recommend that the government seeks urgent advice from the Building Safety Regulator and the National Fire Chiefs Council on the nature and scale of the problem and the appropriate response to it.",
+            "ChangeType": "More",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "We therefore recommend that every gas transporter be required by law to check the accessibility of each such valve on its system at least once every three years and to report the results of that inspection to the Health and Safety Executive as part of its gas safety case review."
+            "Recommendation": "We therefore recommend that every gas transporter be required by law to check the accessibility of each such valve on its system at least once every three years and to report the results of that inspection to the Health and Safety Executive as part of its gas safety case review.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: practical training at all levels supplementary to that provided by individual fire and rescue services;"
+            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: practical training at all levels supplementary to that provided by individual fire and rescue services;",
+            "ChangeType": "New",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally:education in the form of lectures and seminars on different aspects of the work of the fire and rescue services in order to share experience and promote good practice"
+            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally:education in the form of lectures and seminars on different aspects of the work of the fire and rescue services in order to share experience and promote good practice",
+            "ChangeType": "New",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: research into matters that may affect the work of the fire and rescue services, including major fires"
+            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: research into matters that may affect the work of the fire and rescue services, including major fires",
+            "ChangeType": "New",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: setting and maintaining national standards of managerial competence for senior managers, including control room managers, and providing management training for, and regular assessment of, senior ranks by reference to such standards"
+            "Recommendation": "we therefore recommend that the government establish such a college immediately with sufficient resources to provide the following services nationally: setting and maintaining national standards of managerial competence for senior managers, including control room managers, and providing management training for, and regular assessment of, senior ranks by reference to such standards",
+            "ChangeType": "New",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "Although it is for the government to decide how the college should be constituted, we recommend that it should have a permanent staff of sufficient size to manage its operations and develop its functions in response to the demands of fire and rescue services nationally and the requirements of the board."
+            "Recommendation": "Although it is for the government to decide how the college should be constituted, we recommend that it should have a permanent staff of sufficient size to manage its operations and develop its functions in response to the demands of fire and rescue services nationally and the requirements of the board.",
+            "ChangeType": "New",
+            "ActionCategory": "Funding & Resources"
           },
           {
             "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on: the extent to which the control room is now integrated into the organisation"
+            
           },
           {
             "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the effectiveness of the arrangements for identifying the training needs of control room staff, delivering effective training and recording its outcomes"
