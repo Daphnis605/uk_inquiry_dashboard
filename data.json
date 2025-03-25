@@ -465,7 +465,7 @@
           {
             "Recommendation": "that the LFB urgently take steps to obtain equipment that enables firefighters wearing helmets and breathing apparatus to communicate with the bridgehead effectively, including when operating in high-rise buildings",
             "ChangeType": "New",
-            "ActionCategory": "Infrastructure & Facilities"
+            "ActionCategory": "Technology & Systems"
           },
           {
             "Recommendation": "that urgent steps be taken to ensure that the command support system is fully operative on all command units and that crews are trained in its use.",
@@ -743,100 +743,164 @@
             "ActionCategory": "Funding & Resources"
           },
           {
-            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on: the extent to which the control room is now integrated into the organisation"
-            
+            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on: the extent to which the control room is now integrated into the organisation",
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the effectiveness of the arrangements for identifying the training needs of control room staff, delivering effective training and recording its outcomes"
+            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the effectiveness of the arrangements for identifying the training needs of control room staff, delivering effective training and recording its outcomes",
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the effectiveness of the control room generally"
+            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the effectiveness of the control room generally",
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the ability of the control room to handle a large number of concurrent requests for advice and assistance from people directly affected by fires or other emergencies"
+            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the ability of the control room to handle a large number of concurrent requests for advice and assistance from people directly affected by fires or other emergencies",
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the quality and effectiveness of the arrangements for communication between the control room and the incident commander."
+            "Recommendation": "In the meantime, we recommend that His Majesty’s Inspectorate of Constabulary and Fire and Rescue Services (“the Inspectorate”) inspect the LFB as soon as reasonably possible to assess and report on the quality and effectiveness of the arrangements for communication between the control room and the incident commander.",
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "we recommend that as soon as reasonably possible the Inspectorate inspect the LFB to examine and report on the arrangements it has in place for assessing the training of incident commanders at all levels and their continuing competence, whether by a process of revalidation or otherwise."
+            "Recommendation": "we recommend that as soon as reasonably possible the Inspectorate inspect the LFB to examine and report on the arrangements it has in place for assessing the training of incident commanders at all levels and their continuing competence, whether by a process of revalidation or otherwise.",
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "We therefore recommend that as soon as reasonably practicable the Inspectorate inspect the LFB to examine and report on its arrangements for collecting, storing and distributing information in accordance with section 7(2)(d) of the Fire and Rescue Services Act 2004, and in particular its arrangements for identifying high-risk residential buildings and collecting, storing and distributing information relating to them."
+            "Recommendation": "We therefore recommend that as soon as reasonably practicable the Inspectorate inspect the LFB to examine and report on its arrangements for collecting, storing and distributing information in accordance with section 7(2)(d) of the Fire and Rescue Services Act 2004, and in particular its arrangements for identifying high-risk residential buildings and collecting, storing and distributing information relating to them.",
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "We therefore recommend that the LFB establish effective standing arrangements for collecting, considering and effectively implementing lessons learned from previous incidents, inquests and investigations"
+            "Recommendation": "We therefore recommend that the LFB establish effective standing arrangements for collecting, considering and effectively implementing lessons learned from previous incidents, inquests and investigations",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "We therefore recommend that fire and rescue services that continue to use low power intrinsically safe radios as part of breathing apparatus consider reserving them only for situations in which there is a real risk of igniting flammable gases and generally using radios of higher power, particularly in high-rise buildings"
+            "Recommendation": "We therefore recommend that fire and rescue services that continue to use low power intrinsically safe radios as part of breathing apparatus consider reserving them only for situations in which there is a real risk of igniting flammable gases and generally using radios of higher power, particularly in high-rise buildings",
+            "ChangeType": "More",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "We therefore recommend that all fire and rescue services give consideration to providing all firefighters with digital radios"
+            "Recommendation": "We therefore recommend that all fire and rescue services give consideration to providing all firefighters with digital radios",
+            "ChangeType": "Different",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "Since radio communications are inherently unreliable in certain environments, we recommend that firefighters be trained to respond appropriately to the loss of communications and to understand how to restore them"
+            "Recommendation": "Since radio communications are inherently unreliable in certain environments, we recommend that firefighters be trained to respond appropriately to the loss of communications and to understand how to restore them",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "we therefore recommend that basic training on the structure and operation of the water supply system, including the different types of hydrants in use and their functions, be given to all firefighters"
+            "Recommendation": "we therefore recommend that basic training on the structure and operation of the water supply system, including the different types of hydrants in use and their functions, be given to all firefighters",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "We therefore recommend that all fire and rescue services establish and periodically review an agreed protocol with the statutory water undertakers in their areas to enable effective communication between them in relation to the supply of water for firefighting purposes."
+            "Recommendation": "We therefore recommend that all fire and rescue services establish and periodically review an agreed protocol with the statutory water undertakers in their areas to enable effective communication between them in relation to the supply of water for firefighting purposes.",
+            "ChangeType": "New",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "We therefore recommend that the British Standards Institution amend BS 750 to include a description of the circumstances under which the flow coefficient to which it refers in paragraph 10.2 is to be measured."
+            "Recommendation": "We therefore recommend that the British Standards Institution amend BS 750 to include a description of the circumstances under which the flow coefficient to which it refers in paragraph 10.2 is to be measured.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "we recommend that National Fire Chiefs Council consider whether, and if so in what circumstances, firefighters should be discouraged from departing from their instructions on their own initiative and provide appropriate training in how to respond to a situation of that kind."
+            "Recommendation": "we recommend that National Fire Chiefs Council consider whether, and if so in what circumstances, firefighters should be discouraged from departing from their instructions on their own initiative and provide appropriate training in how to respond to a situation of that kind.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "We therefore recommend that the Act be reviewed and consideration be given to granting a designated Secretary of State the power to carry out the functions of a Category 1 responder in its place for a limited period of time."
+            "Recommendation": "We therefore recommend that the Act be reviewed and consideration be given to granting a designated Secretary of State the power to carry out the functions of a Category 1 responder in its place for a limited period of time.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We therefore recommend that the regulation be amended to require Category 1 responders to establish and maintain partnerships with the voluntary, community and faith organisations in the areas in which they are responsible for preparing for and responding to emergencies."
+            "Recommendation": "We therefore recommend that the regulation be amended to require Category 1 responders to establish and maintain partnerships with the voluntary, community and faith organisations in the areas in which they are responsible for preparing for and responding to emergencies.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "We recommend that the guidance be revised, reduced in length and consolidated in one document which lays greater emphasis on the need for those leading the response to consider the requirements for recovery, the need to identify vulnerable people, the importance of identifying and ensuring co-operation with voluntary, community and faith groups and is consistent with the Equality Act 2010."
+            "Recommendation": "We recommend that the guidance be revised, reduced in length and consolidated in one document which lays greater emphasis on the need for those leading the response to consider the requirements for recovery, the need to identify vulnerable people, the importance of identifying and ensuring co-operation with voluntary, community and faith groups and is consistent with the Equality Act 2010.",
+            "ChangeType": "Less",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "We also recommend that regard for humanitarian considerations be expressly recognised by making it the ninth principle of effective response and recovery."
+            "Recommendation": "We also recommend that regard for humanitarian considerations be expressly recognised by making it the ninth principle of effective response and recovery.",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "We therefore recommend that the guidance on the operation of those arrangements be revised and that existing and newly appointed chief executives be given regular training to ensure they are familiar with its principles"
+            "Recommendation": "We therefore recommend that the guidance on the operation of those arrangements be revised and that existing and newly appointed chief executives be given regular training to ensure they are familiar with its principles",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "We therefore recommend that local resilience forums adopt national standards to ensure effective training, preparation and planning for emergencies and adopt independent auditing schemes to identify deficiencies and secure compliance."
+            "Recommendation": "We therefore recommend that local resilience forums adopt national standards to ensure effective training, preparation and planning for emergencies and adopt independent auditing schemes to identify deficiencies and secure compliance.",
+            "ChangeType": "Different",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "We also recommend that a mechanism be introduced for independently verifying the frequency and quality of training provided by local authorities and other Category 1 responders"
-          },        {
-            "Recommendation": "We therefore recommend that local authorities train all their employees, including chief executives, to regard resilience as an integral part of their responsibilities."
+            "Recommendation": "We also recommend that a mechanism be introduced for independently verifying the frequency and quality of training provided by local authorities and other Category 1 responders",
+            "ChangeType": "New",
+            "ActionCategory": "Audit & Reviews"
+          },        
+          {
+            "Recommendation": "We therefore recommend that local authorities train all their employees, including chief executives, to regard resilience as an integral part of their responsibilities.",
+            "ChangeType": "New",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
-            "Recommendation": "We recommend that all local authorities devise methods of obtaining and recording information of that kind, if possible in electronic form, and practise putting them into operation under a variety of different circumstances"
+            "Recommendation": "We recommend that all local authorities devise methods of obtaining and recording information of that kind, if possible in electronic form, and practise putting them into operation under a variety of different circumstances",
+            "ChangeType": "New",
+            "ActionCategory": "Documentation & Records"
           },
           {
-            "Recommendation": "We recommend that all local authorities make such arrangements as are reasonably practicable for enabling them to place people in temporary accommodation at short notice and in ways that meet their personal, religious and cultural requirements. Such arrangements should, as far as possible, involve local providers of social housing"
+            "Recommendation": "We recommend that all local authorities make such arrangements as are reasonably practicable for enabling them to place people in temporary accommodation at short notice and in ways that meet their personal, religious and cultural requirements. Such arrangements should, as far as possible, involve local providers of social housing",
+            "ChangeType": "New",
+            "ActionCategory": "Support & Welfare"
           },
           {
-            "Recommendation": "We recommend that all local authorities include in their contingency plans arrangements for providing immediate financial assistance to people affected by an emergency."
+            "Recommendation": "We recommend that all local authorities include in their contingency plans arrangements for providing immediate financial assistance to people affected by an emergency.",
+            "ChangeType": "More",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
-            "Recommendation": "We also recommend that as part of their planning for emergencies local authorities give detailed consideration to the availability of key workers and the role they are expected to play so that suitable contingency arrangements can be made to ensure, as far as possible, continuity of support."
+            "Recommendation": "We also recommend that as part of their planning for emergencies local authorities give detailed consideration to the availability of key workers and the role they are expected to play so that suitable contingency arrangements can be made to ensure, as far as possible, continuity of support.",
+            "ChangeType": "More",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
-            "Recommendation": "We recommend that as part of their emergency planning local authorities make effective arrangements for continuing communication with those who need assistance using the most suitable technology and a range of languages appropriate to the area."
+            "Recommendation": "We recommend that as part of their emergency planning local authorities make effective arrangements for continuing communication with those who need assistance using the most suitable technology and a range of languages appropriate to the area.",
+            "ChangeType": "More",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
-            "Recommendation": "We recommend that all local authorities include in their plans for responding to emergencies arrangements for providing information to the public by whatever combination of modern methods of communication are likely to be most effective for the areas for which they are responsible"
+            "Recommendation": "We recommend that all local authorities include in their plans for responding to emergencies arrangements for providing information to the public by whatever combination of modern methods of communication are likely to be most effective for the areas for which they are responsible",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "In future, to avoid confusion, wasted effort and frustration we also recommend that what in the past has been called by the police a “casualty bureau” be described in a way that makes it clear that it does not provide information to the public about people affected by the emergency."
+            "Recommendation": "In future, to avoid confusion, wasted effort and frustration we also recommend that what in the past has been called by the police a “casualty bureau” be described in a way that makes it clear that it does not provide information to the public about people affected by the emergency.",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "We therefore recommend that further consideration be given to the recommendations made in the Phase 1 report in the light of our findings in this report."
+            "Recommendation": "We therefore recommend that further consideration be given to the recommendations made in the Phase 1 report in the light of our findings in this report.",
+            "ChangeType": "More",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "We also recommend that the advice contained in paragraph 79.11 of the LGA Guide be reconsidered"
+            "Recommendation": "We also recommend that the advice contained in paragraph 79.11 of the LGA Guide be reconsidered",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           }
         ]
       }
