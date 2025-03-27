@@ -42,9 +42,49 @@
         "ReportDate": "15/12/2009",
         "Recommendations": [
           {
-            "Recommendation": "",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "Recommendation": "I recommend that the Prison Service urges all prisons, in conjunction with their local primary care trust, to provide dedicated mental health care for segregation units (paragraph 13.25)",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
+          },
+          {
+            "Recommendation": "I recommend that Electronic Medical Information Systems (EMIS) in prisons incorporate provision for clinical staff to have confidential access to medical information at a terminal in the segregation unit (paragraph 13.25).",
+            "ChangeType": "Different",
+            "ActionCategory": "Infrastructure & Facilities"
+          },
+          {
+            "Recommendation": "I recommend that the Prison Service considers issuing further guidance on disclosure in cases where the police are investigating allegations of assault involving prisoners and prison staff (paragraph 16.21).",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
+          },
+          {
+            "Recommendation": "In particular, I recommend that where the Prison Service declines to investigate possible misconduct by staff because of a related police investigation, there is a presumption that information that would have been material to a conduct investigation should be disclosed to the police (paragraph 16.21).",
+            "ChangeType": "Different",
+            "ActionCategory": "Enforcement & Compliance"
+          },
+          {
+            "Recommendation": "I recommend that the Prison Service ensures that reports into the circumstances of a death in prison are brought to the attention of all the establishments mentioned in the report’s findings or conclusions so that any appropriate action can be taken and any lessons learned (paragraph 16.21).",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
+          },
+          {
+            "Recommendation": "I recommend that the Prison Service advises adjudicators to consider examining use of force statements in any adjudication where force has been used following an incident of alleged assault (paragraph 21.17).", 
+            "ChangeType": "More",
+            "ActionCategory": "Investigation & Redress"
+          },
+          {
+            "Recommendation": "I recommend that the Prison Service considers whether specific guidance might usefully be issued on the appropriate use of prisoners’ history sheets, in particular  so that:  information affecting a prisoner’s custody and care is reliably recorded in his or her personal record; and it is referred to when prisoners change locations or other significant events occur (paragraph 22.19). ",
+            "ChangeType": "Different",
+            "ActionCategory": "Documentation & Records"
+          },
+          {
+            "Recommendation": "I recommend that the Prison Service considers issuing specific guidance about recording information received from family, friends or outside agencies that a prisoner may be at risk of suicide or self-harm (paragraph 22.19)",
+            "ChangeType": "New",
+            "ActionCategory": "Training & Education"
+          },
+          {
+            "Recommendation": "I recommend that the Governor of Manchester and his colleagues:  examine each stage of the process of vetting Samaritan volunteers and selecting Listeners to identify and eliminate any avoidable delays; ensure that Listeners can be made available in all locations at any time of day or night; and make provision for prisoners to use the Samaritans telephone in private (paragraph 23.35).",
+            "ChangeType": "More",
+            "ActionCategory": "Investigation & Redress"
           }
         ]
       },
