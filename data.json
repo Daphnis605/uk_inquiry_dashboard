@@ -761,526 +761,874 @@
             "ActionCategory": "Funding & Resources"
           },
           {
-            "Recommendation": "A facility should be available to Independent Complaints Advocacy Services advocates and their clients for access to expert advice in complicated cases."
+            "Recommendation": "A facility should be available to Independent Complaints Advocacy Services advocates and their clients for access to expert advice in complicated cases.",
+            "ChangeType": "New",
+            "ActionCategory": "Infrastructure & Facilities"
           },
           {
             "Recommendation": "Subject to anonymisation, a summary of each upheld complaint relating to patient care, in terms agreed with the complainant, and the trust’s response should be published on its website. In any case where the complainant or, if different, the patient, refuses to agree, or for some other reason publication of an upheld, clinically related complaint is not possible, the summary should be shared confidentially with the Commissioner and the Care Quality Commission.",
+            "ChangeType": "New",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "Overview and scrutiny committees and Local Healthwatch should have access to detailed information about complaints, although respect needs to be paid in this instance to the requirement of patient confidentiality."
+            "Recommendation": "Overview and scrutiny committees and Local Healthwatch should have access to detailed information about complaints, although respect needs to be paid in this instance to the requirement of patient confidentiality.",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "Commissioners should require access to all complaints information as and when complaints are made, and should receive complaints and their outcomes on as near a real-time basis as possible. This means commissioners should be required by the NHS Commissioning Board to undertake the support and oversight role of GPs in this area, and be given the resources to do so."
+            "Recommendation": "Commissioners should require access to all complaints information as and when complaints are made, and should receive complaints and their outcomes on as near a real-time basis as possible. This means commissioners should be required by the NHS Commissioning Board to undertake the support and oversight role of GPs in this area, and be given the resources to do so.",
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "The Care Quality Commission should have a means of ready access to information about the most serious complaints. Their local inspectors should be charged with informing themselves of such complaints and the detail underlying them."
+            "Recommendation": "The Care Quality Commission should have a means of ready access to information about the most serious complaints. Their local inspectors should be charged with informing themselves of such complaints and the detail underlying them.",
+            "ChangeType": "New",
+            "ActionCategory": "Technology & Systems"
           },
           {
-            "Recommendation": "Large-scale failures of clinical service are likely to have in common a need for:   Provision of prompt advice, counselling and support to very distressed and anxious members of the public;   Swift identification of persons of independence, authority and expertise to lead investigations and reviews;   A procedure for the recruitment of clinical and other experts to review cases;   A communications strategy to inform and reassure the public of the processes being adopted;   Clear lines of responsibility and accountability for the setting up and oversight of such reviews.\nSuch events are of sufficient rarity and importance, and requiring of coordination of the activities of multiple organisations, that the primary responsibility should reside in the National Quality Board."
+            "Recommendation": "Large-scale failures of clinical service are likely to have in common a need for:   Provision of prompt advice, counselling and support to very distressed and anxious members of the public;   Swift identification of persons of independence, authority and expertise to lead investigations and reviews;   A procedure for the recruitment of clinical and other experts to review cases;   A communications strategy to inform and reassure the public of the processes being adopted;   Clear lines of responsibility and accountability for the setting up and oversight of such reviews.\nSuch events are of sufficient rarity and importance, and requiring of coordination of the activities of multiple organisations, that the primary responsibility should reside in the National Quality Board.",
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "GPs need to undertake a monitoring role on behalf of their patients who receive acute hospital and other  specialist services. They should be an independent, professionally qualified check on the quality of service, in particular in relation to an assessment of outcomes. They need to have internal systems enabling them to be aware of patterns of concern, so that they do not merely treat each case on its individual merits. They have a responsibility to all their patients to keep themselves informed of the standard of service available at various providers in order to make patients’ choice reality. A GP’s duty to a patient does not end on referral to hospital, but is a continuing relationship. They will need to take this continuing partnership with their patients seriously if they are to be successful commissioners."
+            "Recommendation": "GPs need to undertake a monitoring role on behalf of their patients who receive acute hospital and other specialist services. They should be an independent, professionally qualified check on the quality of service, in particular in relation to an assessment of outcomes. They need to have internal systems enabling them to be aware of patterns of concern, so that they do not merely treat each case on its individual merits. They have a responsibility to all their patients to keep themselves informed of the standard of service available at various providers in order to make patients’ choice reality. A GP’s duty to a patient does not end on referral to hospital, but is a continuing relationship. They will need to take this continuing partnership with their patients seriously if they are to be successful commissioners.",
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "The commissioner is entitled to and should, wherever it is possible to do so, apply a fundamental safety and quality standard in respect of each item of service it is commissioning. In relation to each such standard, it should agree a method of measuring compliance and redress for non-compliance. Commissioners should consider whether it would incentivise compliance by requiring redress for individual patients who have received sub- standard service to be offered by the provider. These must be consistent with fundamental standards enforceable by the Care Quality Commission."
+            "Recommendation": "The commissioner is entitled to and should, wherever it is possible to do so, apply a fundamental safety and quality standard in respect of each item of service it is commissioning. In relation to each such standard, it should agree a method of measuring compliance and redress for non-compliance. Commissioners should consider whether it would incentivise compliance by requiring redress for individual patients who have received sub-standard service to be offered by the provider. These must be consistent with fundamental standards enforceable by the Care Quality Commission.",
+            "ChangeType": "New",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
-            "Recommendation": "In addition to their duties with regard to the fundamental standards, commissioners should be enabled to promote improvement by requiring compliance with enhanced standards or development towards higher standards. They can incentivise such improvements either financially or by other means designed to enhance the reputation and standing of clinicians and the organisations for which they work."
+            "Recommendation": "In addition to their duties with regard to the fundamental standards, commissioners should be enabled to promote improvement by requiring compliance with enhanced standards or development towards higher standards. They can incentivise such improvements either financially or by other means designed to enhance the reputation and standing of clinicians and the organisations for which they work.",
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
-            "Recommendation": "The NHS Commissioning Board and local commissioners should develop and oversee a code of practice for managing organisational transitions, to ensure the information conveyed is both candid and comprehensive. This code should cover both transitions between commissioners, for example as new clinical commissioning groups are formed, and guidance for commissioners on what they should expect to see in any organisational transitions amongst their providers."
+            "Recommendation": "The NHS Commissioning Board and local commissioners should develop and oversee a code of practice for managing organisational transitions, to ensure the information conveyed is both candid and comprehensive. This code should cover both transitions between commissioners, for example as new clinical commissioning groups are formed, and guidance for commissioners on what they should expect to see in any organisational transitions amongst their providers.",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "The NHS Commissioning Board and local commissioners must be provided with the infrastructure and the support necessary to enable a proper scrutiny of its providers’ services, based on sound commissioning contracts, while ensuring providers remain responsible and accountable for the services they provide."
+            "Recommendation": "The NHS Commissioning Board and local commissioners must be provided with the infrastructure and the support necessary to enable a proper scrutiny of its providers’ services, based on sound commissioning contracts, while ensuring providers remain responsible and accountable for the services they provide.",
+            "ChangeType": "New",
+            "ActionCategory": "Funding & Resources"
           },
           {
-            "Recommendation": "Commissioners must have access to the wide range of experience and resources necessary to undertake a highly complex and technical task, including specialist clinical advice and procurement expertise. When groups are too small to acquire such support, they should collaborate with others to do so."
+            "Recommendation": "Commissioners must have access to the wide range of experience and resources necessary to undertake a highly complex and technical task, including specialist clinical advice and procurement expertise. When groups are too small to acquire such support, they should collaborate with others to do so.",
+            "ChangeType": "More",
+            "ActionCategory": "Funding & Resources"
           },
           {
-            "Recommendation": "In selecting indicators and means of measuring compliance, the principal focus of commissioners should be on what is reasonably necessary to safeguard patients and to ensure that at least fundamental safety and quality standards are maintained. This requires close engagement with patients, past, present and potential, to ensure that their expectations and concerns are addressed."
+            "Recommendation": "In selecting indicators and means of measuring compliance, the principal focus of commissioners should be on what is reasonably necessary to safeguard patients and to ensure that at least fundamental safety and quality standards are maintained. This requires close engagement with patients, past, present and potential, to ensure that their expectations and concerns are addressed.",
+            "ChangeType": "Different",
+            "ActionCategory": "Audit & Reviews"
           },
           {
-            "Recommendation": "Commissioners – not providers – should decide what they want to be provided. They need to take into account what can be provided, and for that purpose will have to consult clinicians both from potential providers and elsewhere, and to be willing to receive proposals, but in the end it is the commissioner whose decision must prevail."
+            "Recommendation": "Commissioners – not providers – should decide what they want to be provided. They need to take into account what can be provided, and for that purpose will have to consult clinicians both from potential providers and elsewhere, and to be willing to receive proposals, but in the end it is the commissioner whose decision must prevail.",
+            "ChangeType": "Different",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "Commissioners need, wherever possible, to identify and make available alternative sources of provision. This may mean that commissioning has to be undertaken on behalf of consortia of commissioning groups to provide the negotiating weight necessary to achieve a negotiating balance of power with providers."
+            "Recommendation": "Commissioners need, wherever possible, to identify and make available alternative sources of provision. This may mean that commissioning has to be undertaken on behalf of consortia of commissioning groups to provide the negotiating weight necessary to achieve a negotiating balance of power with providers.",
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "Commissioners must have the capacity to monitor the performance of every commissioning contract on a continuing basis during the contract period:   Such monitoring may include requiring quality information generated by the provider.   Commissioners must also have the capacity to undertake their own (or independent) audits, inspections, and investigations. These should, where appropriate, include investigation of individual cases and reviews of groups of cases.   The possession of accurate, relevant, and useable information from which the safety and quality of a service can be ascertained is the vital key to effective commissioning, as it is to effective regulation.   Monitoring needs to embrace both compliance with the fundamental standards and with any enhanced standards adopted. In the case of the latter, they will be the only source of monitoring, leaving the healthcare regulator to focus on fundamental standards."
+            "Recommendation": "Commissioners must have the capacity to monitor the performance of every commissioning contract on a continuing basis during the contract period:   Such monitoring may include requiring quality information generated by the provider.   Commissioners must also have the capacity to undertake their own (or independent) audits, inspections, and investigations. These should, where appropriate, include investigation of individual cases and reviews of groups of cases.   The possession of accurate, relevant, and useable information from which the safety and quality of a service can be ascertained is the vital key to effective commissioning, as it is to effective regulation.   Monitoring needs to embrace both compliance with the fundamental standards and with any enhanced standards adopted. In the case of the latter, they will be the only source of monitoring, leaving the healthcare regulator to focus on fundamental standards.",
+            "ChangeType": "More",
+            "ActionCategory": "Funding & Resources"
           },
           {
-            "Recommendation": "Commissioners should be entitled to intervene in the management of an individual complaint on behalf of the patient where it appears to them it is not being dealt with satisfactorily, while respecting the principle that it is the provider who has primary responsibility to process and respond to complaints about its services."
+            "Recommendation": "Commissioners should be entitled to intervene in the management of an individual complaint on behalf of the patient where it appears to them it is not being dealt with satisfactorily, while respecting the principle that it is the provider who has primary responsibility to process and respond to complaints about its services.",
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "Consideration should be given to whether commissioners should be given responsibility for commissioning patients’ advocates and support services for complaints against providers."
+            "Recommendation": "Consideration should be given to whether commissioners should be given responsibility for commissioning patients’ advocates and support services for complaints against providers.",
+            "ChangeType": "Different",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "Commissioners should be accountable to their public for the scope and quality of services they commission. Acting on behalf of the public requires their full involvement and engagement:   There should be a membership system whereby eligible members of the public can be involved in and contribute to the work of the commissioners.   There should be lay members of the commissioner’s board.   Commissioners should create and consult with patient forums and local representative groups. Individual members of the public (whether or not members) must have access to a consultative process so their views can be taken into account.   There should be regular surveys of patients and the public more generally.   Decision-making processes should be transparent: decision-making bodies should hold public meetings.\nCommissioners need to create and maintain a recognisable identity which becomes a familiar point of reference for the community."
+            "Recommendation": "Commissioners should be accountable to their public for the scope and quality of services they commission. Acting on behalf of the public requires their full involvement and engagement:   There should be a membership system whereby eligible members of the public can be involved in and contribute to the work of the commissioners.   There should be lay members of the commissioner’s board.   Commissioners should create and consult with patient forums and local representative groups. Individual members of the public (whether or not members) must have access to a consultative process so their views can be taken into account.   There should be regular surveys of patients and the public more generally.   Decision-making processes should be transparent: decision-making bodies should hold public meetings.\nCommissioners need to create and maintain a recognisable identity which becomes a familiar point of reference for the community.",
+            "ChangeType": "More",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "Commissioners need to be recognisable public bodies, visibly acting on behalf of the public they serve and with a sufficient infrastructure of technical support. Effective local commissioning can only work with effective local monitoring, and that cannot be done without knowledgeable and skilled local personnel engaging with an informed public."
+            "Recommendation": "Commissioners need to be recognisable public bodies, visibly acting on behalf of the public they serve and with a sufficient infrastructure of technical support. Effective local commissioning can only work with effective local monitoring, and that cannot be done without knowledgeable and skilled local personnel engaging with an informed public.",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "Commissioners should have powers of intervention where substandard or unsafe services are being provided, including requiring the substitution of staff or other measures necessary to protect patients from the risk of harm. In the provision of the commissioned services, such powers should be aligned with similar powers of the regulators so that both commissioners and regulators can act jointly, but with the proviso that either can act alone if the other declines to do so. The powers should include the ability to order a provider to stop provision of a service."
+            "Recommendation": "Commissioners should have powers of intervention where substandard or unsafe services are being provided, including requiring the substitution of staff or other measures necessary to protect patients from the risk of harm. In the provision of the commissioned services, such powers should be aligned with similar powers of the regulators so that both commissioners and regulators can act jointly, but with the proviso that either can act alone if the other declines to do so. The powers should include the ability to order a provider to stop provision of a service.",
+            "ChangeType": "New",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
-            "Recommendation": "Commissioners should have contingency plans with regard to the protection of patients from harm, where it is found that they are at risk from substandard or unsafe services."
+            "Recommendation": "Commissioners should have contingency plans with regard to the protection of patients from harm, where it is found that they are at risk from substandard or unsafe services.",
+            "ChangeType": "New",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
-            "Recommendation": "The first priority for any organisation charged with responsibility for performance management of a healthcare provider should be ensuring that fundamental patient safety and quality standards are being met. Such an organisation must require convincing evidence to be available before accepting that such standards are being complied with."
+            "Recommendation": "The first priority for any organisation charged with responsibility for performance management of a healthcare provider should be ensuring that fundamental patient safety and quality standards are being met. Such an organisation must require convincing evidence to be available before accepting that such standards are being complied with.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "Where concerns are raised that such standards are not being complied with, a performance management organisation should share, wherever possible, all relevant information with the relevant regulator, including information about its judgement as to the safety of patients of the healthcare provider."
+            "Recommendation": "Where concerns are raised that such standards are not being complied with, a performance management organisation should share, wherever possible, all relevant information with the relevant regulator, including information about its judgement as to the safety of patients of the healthcare provider.",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "Any differences of judgement as to immediate safety concerns between a performance manager and a regulator should be discussed between them and resolved where possible, but each should recognise its retained individual responsibility to take whatever action within its power is necessary in the interests of patient safety."
+            "Recommendation": "Any differences of judgement as to immediate safety concerns between a performance manager and a regulator should be discussed between them and resolved where possible, but each should recognise its retained individual responsibility to take whatever action within its power is necessary in the interests of patient safety.",
+            "ChangeType": "Different",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "For an organisation to be effective in performance management, there must exist unambiguous lines of referral and information flows, so that the performance manager is not in ignorance of the reality."
+            "Recommendation": "For an organisation to be effective in performance management, there must exist unambiguous lines of referral and information flows, so that the performance manager is not in ignorance of the reality.",
+            "ChangeType": "More",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "Metrics need to be established which are relevant to the quality of care and patient safety across the service, to allow norms to be established so that outliers or progression to poor performance can be identified and accepted as needing to be fixed."
+            "Recommendation": "Metrics need to be established which are relevant to the quality of care and patient safety across the service, to allow norms to be established so that outliers or progression to poor performance can be identified and accepted as needing to be fixed.",
+            "ChangeType": "New",
+            "ActionCategory": "Audit & Reviews"
           },
           {
-            "Recommendation": "The NHS Commissioning Board should ensure the development of metrics on quality and outcomes of care for use by commissioners in managing the performance of providers, and retain oversight of these through its regional offices, if appropriate."
+            "Recommendation": "The NHS Commissioning Board should ensure the development of metrics on quality and outcomes of care for use by commissioners in managing the performance of providers, and retain oversight of these through its regional offices, if appropriate.",
+            "ChangeType": "More",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "There should be a consistent basic structure for Local Healthwatch throughout the country, in accordance with the principles set out in Chapter 6: Patient and public local involvement and scrutiny."
+            "Recommendation": "There should be a consistent basic structure for Local Healthwatch throughout the country, in accordance with the principles set out in Chapter 6: Patient and public local involvement and scrutiny.",
+            "ChangeType": "Different",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "Local authorities should be required to pass over the centrally provided funds allocated to its Local Healthwatch, while requiring the latter to account to it for its stewardship of the money. Transparent respect for the independence of Local Healthwatch should not be allowed to inhibit a responsible local authority – or Healthwatch England as appropriate – intervening."
+            "Recommendation": "Local authorities should be required to pass over the centrally provided funds allocated to its Local Healthwatch, while requiring the latter to account to it for its stewardship of the money. Transparent respect for the independence of Local Healthwatch should not be allowed to inhibit a responsible local authority – or Healthwatch England as appropriate – intervening.",
+            "ChangeType": "Different",
+            "ActionCategory": "Funding & Resources"
           },
           {
-            "Recommendation": "Guidance should be given to promote the coordination and cooperation between Local Healthwatch, Health and Wellbeing Boards, and local government scrutiny committees."
+            "Recommendation": "Guidance should be given to promote the coordination and cooperation between Local Healthwatch, Health and Wellbeing Boards, and local government scrutiny committees.",
+             "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "The complexities of the health service are such that proper training must be available to the leadership of Local Healthwatch as well as, when the occasion arises, expert advice."
+            "Recommendation": "The complexities of the health service are such that proper training must be available to the leadership of Local Healthwatch as well as, when the occasion arises, expert advice.",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "Scrutiny committees should be provided with appropriate support to enable them to carry out their scrutiny role, including easily accessible guidance and benchmarks."
+            "Recommendation": "Scrutiny committees should be provided with appropriate support to enable them to carry out their scrutiny role, including easily accessible guidance and benchmarks.",
+            "ChangeType": "Different",
+            "ActionCategory": "Investigation & Redress"
           },
           {
-            "Recommendation": "Scrutiny committees should have powers to inspect providers, rather than relying on local patient involvement structures to carry out this role, or should actively work with those structures to trigger and follow up inspections where appropriate, rather than receiving reports without comment or suggestions for action."
+            "Recommendation": "Scrutiny committees should have powers to inspect providers, rather than relying on local patient involvement structures to carry out this role, or should actively work with those structures to trigger and follow up inspections where appropriate, rather than receiving reports without comment or suggestions for action.",
+            "ChangeType": "More",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "MPs are advised to consider adopting some simple system for identifying trends in the complaints and information they received from constituents. They should also consider whether individual complaints imply concerns of wider significance than the impact on one individual patient."
+            "Recommendation": "MPs are advised to consider adopting some simple system for identifying trends in the complaints and information they received from constituents. They should also consider whether individual complaints imply concerns of wider significance than the impact on one individual patient.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "Any organisation which in the course of a review, inspection or other performance of its duties, identifies concerns potentially relevant to the acceptability of training provided by a healthcare provider, must be required to inform the relevant training regulator of those concerns."
+            "Recommendation": "Any organisation which in the course of a review, inspection or other performance of its duties, identifies concerns potentially relevant to the acceptability of training provided by a healthcare provider, must be required to inform the relevant training regulator of those concerns.",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "The Secretary of State should by statutory instrument specify all medical education and training regulators as relevant bodies for the purpose of their statutory duty to cooperate. Information sharing between the deanery, commissioners, the General Medical Council, the Care Quality Commission and Monitor with regard to patient safety issues must be reviewed to ensure that each organisation is made aware of matters of concern relevant to their responsibilities."
+            "Recommendation": "The Secretary of State should by statutory instrument specify all medical education and training regulators as relevant bodies for the purpose of their statutory duty to cooperate. Information sharing between the deanery, commissioners, the General Medical Council, the Care Quality Commission and Monitor with regard to patient safety issues must be reviewed to ensure that each organisation is made aware of matters of concern relevant to their responsibilities.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "The Care Quality Commission and Monitor should develop practices and procedures with training regulators and bodies responsible for the commissioning and oversight of medical training to coordinate their oversight of healthcare organisations which provide regulated training."
+            "Recommendation": "The Care Quality Commission and Monitor should develop practices and procedures with training regulators and bodies responsible for the commissioning and oversight of medical training to coordinate their oversight of healthcare organisations which provide regulated training.",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "The General Medical Council should set out a standard requirement for routine visits to each local education provider, and programme in accordance with the following principles:   The Postgraduate Dean should be responsible for managing the process at the level of the Local Educational Training Board, as part of overall deanery functions.   The Royal Colleges should be enlisted to support such visits and to provide the relevant specialist expertise where required.   There should be lay or patient representation on visits to ensure that patient interests are maintained as the priority.   Such visits should be informed by all other sources of information and, if relevant, coordinated with the work of the Care Quality Commission and other forms of review.\nThe Department of Health should provide appropriate resources to ensure that an effective programme of monitoring training by visits can be carried out.\nAll healthcare organisations must be required to release healthcare professionals to support the visits programme. It should also be recognised that the benefits in professional development and dissemination of good practice are of significant value."
+            "Recommendation": "The General Medical Council should set out a standard requirement for routine visits to each local education provider, and programme in accordance with the following principles:   The Postgraduate Dean should be responsible for managing the process at the level of the Local Educational Training Board, as part of overall deanery functions.   The Royal Colleges should be enlisted to support such visits and to provide the relevant specialist expertise where required.   There should be lay or patient representation on visits to ensure that patient interests are maintained as the priority.   Such visits should be informed by all other sources of information and, if relevant, coordinated with the work of the Care Quality Commission and other forms of review.\nThe Department of Health should provide appropriate resources to ensure that an effective programme of monitoring training by visits can be carried out.\nAll healthcare organisations must be required to release healthcare professionals to support the visits programme. It should also be recognised that the benefits in professional development and dissemination of good practice are of significant value.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"         
           },
           {
-            "Recommendation": "The system for approving and accrediting training placement providers and programmes should be configured to apply the principles set out above."
+            "Recommendation": "The system for approving and accrediting training placement providers and programmes should be configured to apply the principles set out above.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "The General Medical Council should set out a clear statement of what matters; deaneries are required to report to the General Medical Council either routinely or as they arise. Reports should include a description of all relevant activity and findings and not be limited to exceptional matters of perceived non-compliance with standards.\nWithout a compelling and recorded reason, no professional in a training organisation interviewed by a regulator in the course of an investigation should be bound by a requirement of confidentiality not to report the existence of an investigation, and the concerns raised by or to the investigation with his own organisation."
+            "Recommendation": "The General Medical Council should set out a clear statement of what matters; deaneries are required to report to the General Medical Council either routinely or as they arise. Reports should include a description of all relevant activity and findings and not be limited to exceptional matters of perceived non-compliance with standards.\nWithout a compelling and recorded reason, no professional in a training organisation interviewed by a regulator in the course of an investigation should be bound by a requirement of confidentiality not to report the existence of an investigation, and the concerns raised by or to the investigation with his own organisation.",
+            "ChangeType": "New",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "The General Medical Council should amend its standards for undergraduate medical education to include a requirement that providers actively seek feedback from students and tutors on compliance by placement providers with minimum standards of patient safety and quality of care, and should generally place the highest priority on the safety of patients."
+            "Recommendation": "The General Medical Council should amend its standards for undergraduate medical education to include a requirement that providers actively seek feedback from students and tutors on compliance by placement providers with minimum standards of patient safety and quality of care, and should generally place the highest priority on the safety of patients.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "Surveys of medical students and trainees should be developed to optimise them as a source of feedback of perceptions of the standards of care provided to patients. The General Medical Council should consult the Care Quality Commission in developing the survey and routinely share information obtained with healthcare regulators."
+            "Recommendation": "Surveys of medical students and trainees should be developed to optimise them as a source of feedback of perceptions of the standards of care provided to patients. The General Medical Council should consult the Care Quality Commission in developing the survey and routinely share information obtained with healthcare regulators.",
+            "ChangeType": "New",
+            "ActionCategory": "Audit & Reviews"
           },
           {
-            "Recommendation": "Proactive steps need to be taken to encourage openness on the part of trainees and to protect them from any adverse consequences in relation to raising concerns."
+            "Recommendation": "Proactive steps need to be taken to encourage openness on the part of trainees and to protect them from any adverse consequences in relation to raising concerns.",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "Training visits should make an important contribution to the protection of patients:   Obtaining information directly from trainees should remain a valuable source of information – but it should not be the only method used.   Visits to, and observation of, the actual training environment would enable visitors to detect poor practice from which both patients and trainees should be sheltered.   The opportunity can be taken to share and disseminate good practice with trainers and management.\nVisits of this nature will encourage the transparency that is so vital to the preservation of minimum standards."
+            "Recommendation": "Training visits should make an important contribution to the protection of patients:   Obtaining information directly from trainees should remain a valuable source of information – but it should not be the only method used.   Visits to, and observation of, the actual training environment would enable visitors to detect poor practice from which both patients and trainees should be sheltered.   The opportunity can be taken to share and disseminate good practice with trainers and management.\nVisits of this nature will encourage the transparency that is so vital to the preservation of minimum standards.",
+            "ChangeType": "Different",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "The General Medical Council should in the course of its review of its standards and regulatory process ensure that the system of medical training and education maintains as its first priority the safety of patients. It should also ensure that providers of clinical placements are unable to take on students or trainees in areas which do not comply with fundamental patient safety and quality standards. Regulators and deaneries should exercise their own independent judgement as to whether such standards have been achieved and if at any stage concerns relating to patient safety are raised to the, must take appropriate action to ensure these concerns are properly addressed."
+            "Recommendation": "The General Medical Council should in the course of its review of its standards and regulatory process ensure that the system of medical training and education maintains as its first priority the safety of patients. It should also ensure that providers of clinical placements are unable to take on students or trainees in areas which do not comply with fundamental patient safety and quality standards. Regulators and deaneries should exercise their own independent judgement as to whether such standards have been achieved and if at any stage concerns relating to patient safety are raised to the, must take appropriate action to ensure these concerns are properly addressed.",
+            "ChangeType": "Different",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "The General Medical Council’s system of reviewing the acceptability of the provision of training by healthcare providers must include a review of the sufficiency of the numbers and skills of available staff for the provision of training and to ensure patient safety in the course of training."
+            "Recommendation": "The General Medical Council’s system of reviewing the acceptability of the provision of training by healthcare providers must include a review of the sufficiency of the numbers and skills of available staff for the provision of training and to ensure patient safety in the course of training.",
+            "ChangeType": "Different",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "The Department of Health and the General Medical Council should review whether the resources available for regulating Approved Practice Setting are adequate and, if not, make arrangements for the provision of the same. Consideration should be given to empowering the General Medical Council to charge organisations a fee for approval."
+            "Recommendation": "The Department of Health and the General Medical Council should review whether the resources available for regulating Approved Practice Setting are adequate and, if not, make arrangements for the provision of the same. Consideration should be given to empowering the General Medical Council to charge organisations a fee for approval.",
+            "ChangeType": "Different",
+            "ActionCategory": "Funding & Resources"
           },
           {
-            "Recommendation": "The General Medical Council should immediately review its approved practice settings criteria with a view to recognition of the priority to be given to protecting patients and the public."
+            "Recommendation": "The General Medical Council should immediately review its approved practice settings criteria with a view to recognition of the priority to be given to protecting patients and the public.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "The General Medical Council should in consultation with patient interest groups and the public immediately review its procedures for assuring compliance with its approved practice settings criteria with a view in particular to provision for active exchange of relevant information with the healthcare systems regulator, coordination of monitoring processes with others required for medical education and training, and receipt of relevant information from registered practitioners of their current experience in approved practice settings approved establishments."
+            "Recommendation": "The General Medical Council should in consultation with patient interest groups and the public immediately review its procedures for assuring compliance with its approved practice settings criteria with a view in particular to provision for active exchange of relevant information with the healthcare systems regulator, coordination of monitoring processes with others required for medical education and training, and receipt of relevant information from registered practitioners of their current experience in approved practice settings approved establishments.",
+            "ChangeType": "Different",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
-            "Recommendation": "The Department of Health and the General Medical Council should review the powers available to the General Medical Council in support of assessment and monitoring of approved practice settings establishments with a view to ensuring that the General Medical Council (or if considered to be more appropriate, the healthcare systems regulator) has the power to inspect establishments, either itself or by an appointed entity on its behalf, and to require the production of relevant information."
+            "Recommendation": "The Department of Health and the General Medical Council should review the powers available to the General Medical Council in support of assessment and monitoring of approved practice settings establishments with a view to ensuring that the General Medical Council (or if considered to be more appropriate, the healthcare systems regulator) has the power to inspect establishments, either itself or by an appointed entity on its behalf, and to require the production of relevant information.",
+            "ChangeType": "Different",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "The Department of Health and the General Medical Council should consider making the necessary statutory (and regulatory changes) to incorporate the approved practice settings scheme into the regulatory framework for post graduate training."
+            "Recommendation": "The Department of Health and the General Medical Council should consider making the necessary statutory (and regulatory changes) to incorporate the approved practice settings scheme into the regulatory framework for post graduate training.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "The Department of Health, through the National Quality Board, should ensure that procedures are put in place for facilitating the identification of patient safety issues by training regulators and cooperation between them and healthcare systems regulators."
+            "Recommendation": "The Department of Health, through the National Quality Board, should ensure that procedures are put in place for facilitating the identification of patient safety issues by training regulators and cooperation between them and healthcare systems regulators.",
+            "ChangeType": "More",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "Health Education England should have a medically qualified director of medical education and a lay patient representative on its board."
+            "Recommendation": "Health Education England should have a medically qualified director of medical education and a lay patient representative on its board.",
+            "ChangeType": "Different",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "All Local Education and Training Boards should have a post of medically qualified postgraduate dean responsible for all aspects of postgraduate medical education."
+            "Recommendation": "All Local Education and Training Boards should have a post of medically qualified postgraduate dean responsible for all aspects of postgraduate medical education.",
+            "ChangeType": "Different",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "The Government should consider urgently the introduction of a common requirement of proficiency in communication in the English language with patients and other persons providing healthcare to the standard required for a registered medical practitioner to assume professional responsibility for medical treatment of an English-speaking patient."
+            "Recommendation": "The Government should consider urgently the introduction of a common requirement of proficiency in communication in the English language with patients and other persons providing healthcare to the standard required for a registered medical practitioner to assume professional responsibility for medical treatment of an English-speaking patient.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "Every healthcare organisation and everyone working for them must be honest, open and truthful in all their dealings with patients and the public, and organisational and personal interests must never be allowed to outweigh the duty to be honest, open and truthful."
+            "Recommendation": "Every healthcare organisation and everyone working for them must be honest, open and truthful in all their dealings with patients and the public, and organisational and personal interests must never be allowed to outweigh the duty to be honest, open and truthful.",
+            "ChangeType": "Different",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "Where death or serious harm has been or may have been caused to a patient by an act or omission of the organisation or its staff, the patient (or any lawfully entitled personal representative or other authorised person) should be informed of the incident, given full disclosure of the surrounding circumstances and be offered an appropriate level of support, whether or not the patient or representative has asked for this information."
+            "Recommendation": "Where death or serious harm has been or may have been caused to a patient by an act or omission of the organisation or its staff, the patient (or any lawfully entitled personal representative or other authorised person) should be informed of the incident, given full disclosure of the surrounding circumstances and be offered an appropriate level of support, whether or not the patient or representative has asked for this information.",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "Full and truthful answers must be given to any question reasonably asked about his or her past or intended treatment by a patient (or, if deceased, to any lawfully entitled personal representative)."
+            "Recommendation": "Full and truthful answers must be given to any question reasonably asked about his or her past or intended treatment by a patient (or, if deceased, to any lawfully entitled personal representative).",
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "Any statement made to a regulator or a commissioner in the course of its statutory duties must be completely truthful and not misleading by omission."
+            "Recommendation": "Any statement made to a regulator or a commissioner in the course of its statutory duties must be completely truthful and not misleading by omission.",
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "Any public statement made by a healthcare organisation about its performance must be truthful and not misleading by omission."
+            "Recommendation": "Any public statement made by a healthcare organisation about its performance must be truthful and not misleading by omission.",
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "The NHS Constitution should be revised to reflect the changes recommended with regard to a duty of openness, transparency and candour, and all organisations should review their contracts of employment, policies and guidance to ensure that, where relevant, they expressly include and are consistent with above principles and these recommendations."
+            "Recommendation": "The NHS Constitution should be revised to reflect the changes recommended with regard to a duty of openness, transparency and candour, and all organisations should review their contracts of employment, policies and guidance to ensure that, where relevant, they expressly include and are consistent with above principles and these recommendations.",
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "“Gagging clauses” or non disparagement clauses should be prohibited in the policies and contracts of all healthcare organisations, regulators and commissioners; insofar as they seek, or appear, to limit bona fide disclosure in relation to public interest issues of patient safety and care."
+            "Recommendation": "“Gagging clauses” or non disparagement clauses should be prohibited in the policies and contracts of all healthcare organisations, regulators and commissioners; insofar as they seek, or appear, to limit bona fide disclosure in relation to public interest issues of patient safety and care.",
+            "ChangeType": "Cease",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "Guidance and policies should be reviewed to ensure that they will lead to compliance with Being Open, the guidance published by the National Patient Safety Agency."
+            "Recommendation": "Guidance and policies should be reviewed to ensure that they will lead to compliance with Being Open, the guidance published by the National Patient Safety Agency.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "A statutory obligation should be imposed to observe a duty of candour:   On healthcare providers who believe or suspect that treatment or care provided by it to a patient has caused death or serious injury to a patient to inform that patient or other duly authorised person as soon as is practicable of that fact and thereafter to provide such information and explanation as the patient reasonably may request;   On registered medical practitioners and registered nurses and other registered professionals who believe or suspect that treatment or care provided to a patient by or on behalf of any healthcare provider by which they are employed has caused death or serious injury to the patient to report their belief or suspicion to their employer as soon as is reasonably practicable.\nThe provision of information in compliance with this requirement should not of itself be evidence or an admission of any civil or criminal liability, but non-compliance with the statutory duty should entitle the patient to a remedy."
+            "Recommendation": "A statutory obligation should be imposed to observe a duty of candour:   On healthcare providers who believe or suspect that treatment or care provided by it to a patient has caused death or serious injury to a patient to inform that patient or other duly authorised person as soon as is practicable of that fact and thereafter to provide such information and explanation as the patient reasonably may request;   On registered medical practitioners and registered nurses and other registered professionals who believe or suspect that treatment or care provided to a patient by or on behalf of any healthcare provider by which they are employed has caused death or serious injury to the patient to report their belief or suspicion to their employer as soon as is reasonably practicable.\nThe provision of information in compliance with this requirement should not of itself be evidence or an admission of any civil or criminal liability, but non-compliance with the statutory duty should entitle the patient to a remedy.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "There should be a statutory duty on all directors of healthcare organisations to be truthful in any information given to a healthcare regulator or commissioner, either personally or on behalf of the organisation, where given in compliance with a statutory obligation on the organisation to provide it."
+            "Recommendation": "There should be a statutory duty on all directors of healthcare organisations to be truthful in any information given to a healthcare regulator or commissioner, either personally or on behalf of the organisation, where given in compliance with a statutory obligation on the organisation to provide it.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "It should be made a criminal offence for any registered medical practitioner, or nurse, or allied health professional or director of an authorised or registered healthcare organisation:   Knowingly to obstruct another in the performance of these statutory duties;   To provide information to a patient or nearest relative intending to mislead them about such an incident;   Dishonestly to make an untruthful statement to a commissioner or regulator knowing or believing that they are likely to rely on the statement in the performance of their duties."
+            "Recommendation": "It should be made a criminal offence for any registered medical practitioner, or nurse, or allied health professional or director of an authorised or registered healthcare organisation:   Knowingly to obstruct another in the performance of these statutory duties;   To provide information to a patient or nearest relative intending to mislead them about such an incident;   Dishonestly to make an untruthful statement to a commissioner or regulator knowing or believing that they are likely to rely on the statement in the performance of their duties.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "Observance of the duty should be policed by the Care Quality Commission, which should have powers in the last resort to prosecute in cases of serial non-compliance or serious and wilful deception. The Care Quality Commission should be supported by monitoring undertaken by commissioners and others."
+            "Recommendation": "Observance of the duty should be policed by the Care Quality Commission, which should have powers in the last resort to prosecute in cases of serial non-compliance or serious and wilful deception. The Care Quality Commission should be supported by monitoring undertaken by commissioners and others.",
+            "ChangeType": "New",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
-            "Recommendation": "There should be an increased focus in nurse training, education and professional development on the practical requirements of delivering compassionate care in addition to the theory. A system which ensures the delivery of proper standards of nursing requires:   Selection of recruits to the profession who evidence the:\n−  Possession of the appropriate values, attitudes and behaviours;\n−  Ability and motivation to enable them to put the welfare of others above their own interests;\n−  Drive to maintain, develop and improve their own standards and abilities;\n−  Intellectual achievements to enable them to acquire through training the necessary technical skills;   Training and experience in delivery of compassionate care;   Leadership which constantly reinforces values and standards of compassionate care;   Involvement in, and responsibility for, the planning and delivery of compassionate care;   Constant support and incentivisation which values nurses and the work they do through:\n−  Recognition of achievement;\n−  Regular, comprehensive feedback on performance and concerns;\n−  Encouraging them to report concerns and to give priority to patient well-being."
+            "Recommendation": "There should be an increased focus in nurse training, education and professional development on the practical requirements of delivering compassionate care in addition to the theory. A system which ensures the delivery of proper standards of nursing requires:   Selection of recruits to the profession who evidence the:\n−  Possession of the appropriate values, attitudes and behaviours;\n−  Ability and motivation to enable them to put the welfare of others above their own interests;\n−  Drive to maintain, develop and improve their own standards and abilities;\n−  Intellectual achievements to enable them to acquire through training the necessary technical skills;   Training and experience in delivery of compassionate care;   Leadership which constantly reinforces values and standards of compassionate care;   Involvement in, and responsibility for, the planning and delivery of compassionate care;   Constant support and incentivisation which values nurses and the work they do through:\n−  Recognition of achievement;\n−  Regular, comprehensive feedback on performance and concerns;\n−  Encouraging them to report concerns and to give priority to patient well-being.",
+            "ChangeType": "Different",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "Nursing training should be reviewed so that sufficient practical elements are incorporated to ensure that a consistent standard is achieved by all trainees throughout the country. This requires national standards."
+            "Recommendation": "Nursing training should be reviewed so that sufficient practical elements are incorporated to ensure that a consistent standard is achieved by all trainees throughout the country. This requires national standards.",
+            "ChangeType": "Different",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "There should be a national entry-level requirement that student nurses spend a minimum period of time, at least three months, working on the direct care of patients under the supervision of a registered nurse. Such experience should include direct care of patients, ideally including the elderly, and involve hands-on physical care. Satisfactory completion of this direct care experience should be a pre-condition to continuation in nurse training. Supervised work of this type as a healthcare support worker should be allowed to count as an equivalent. An alternative would be to require candidates for qualification for registration to undertake a minimum period of work in an approved healthcare support worker post involving the delivery of such care."
+            "Recommendation": "There should be a national entry-level requirement that student nurses spend a minimum period of time, at least three months, working on the direct care of patients under the supervision of a registered nurse. Such experience should include direct care of patients, ideally including the elderly, and involve hands-on physical care. Satisfactory completion of this direct care experience should be a pre-condition to continuation in nurse training. Supervised work of this type as a healthcare support worker should be allowed to count as an equivalent. An alternative would be to require candidates for qualification for registration to undertake a minimum period of work in an approved healthcare support worker post involving the delivery of such care.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "The Nursing and Midwifery Council, working with universities, should consider the introduction of an aptitude test to be undertaken by aspirant registered nurses at entry into the profession, exploring, in particular, candidates’ attitudes towards caring, compassion and other necessary professional values."
+            "Recommendation": "The Nursing and Midwifery Council, working with universities, should consider the introduction of an aptitude test to be undertaken by aspirant registered nurses at entry into the profession, exploring, in particular, candidates’ attitudes towards caring, compassion and other necessary professional values.",
+            "ChangeType": "New",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "The Nursing and Midwifery Council and other professional and academic bodies should work towards a common qualification assessment/examination."
+            "Recommendation": "The Nursing and Midwifery Council and other professional and academic bodies should work towards a common qualification assessment/examination.",
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "There should be national training standards for qualification as a registered nurse to ensure that newly qualified nurses are competent to deliver a consistent standard of the fundamental aspects of compassionate care."
+            "Recommendation": "There should be national training standards for qualification as a registered nurse to ensure that newly qualified nurses are competent to deliver a consistent standard of the fundamental aspects of compassionate care.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "Healthcare employers recruiting nursing staff, whether qualified or unqualified, should assess candidates’ values, attitudes and behaviours towards the well-being of patients and their basic care needs, and care providers should be required to do so by commissioning and regulatory requirements."
+            "Recommendation": "Healthcare employers recruiting nursing staff, whether qualified or unqualified, should assess candidates’ values, attitudes and behaviours towards the well-being of patients and their basic care needs, and care providers should be required to do so by commissioning and regulatory requirements.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "The Department of Health and Nursing and Midwifery Council should introduce the concept of a Responsible Officer for nursing, appointed by and accountable to, the Nursing and Midwifery Council."
+            "Recommendation": "The Department of Health and Nursing and Midwifery Council should introduce the concept of a Responsible Officer for nursing, appointed by and accountable to, the Nursing and Midwifery Council.",
+            "ChangeType": "New",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "Without introducing a revalidation scheme immediately, the Nursing and Midwifery Council should introduce common minimum standards for appraisal and support with which responsible officers would be obliged to comply. They could be required to report to the Nursing and Midwifery Council on their performance on a regular basis."
+            "Recommendation": "Without introducing a revalidation scheme immediately, the Nursing and Midwifery Council should introduce common minimum standards for appraisal and support with which responsible officers would be obliged to comply. They could be required to report to the Nursing and Midwifery Council on their performance on a regular basis.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "As part of a mandatory annual performance appraisal, each Nurse, regardless of workplace setting, should be required to demonstrate in their annual learning portfolio an up-to-date knowledge of nursing practice and its implementation. Alongside developmental requirements, this should contain documented evidence of recognised training undertaken, including wider relevant learning. It should also demonstrate commitment, compassion and caring for patients, evidenced by feedback from patients and families on the care provided by the nurse. This portfolio and each annual appraisal should be made available to the Nursing and Midwifery Council, if requested, as part of a nurse’s revalidation process.\nAt the end of each annual assessment, the appraisal and portfolio should be signed by the nurse as being an accurate and true reflection and be countersigned by their appraising manager as being such."
+            "Recommendation": "As part of a mandatory annual performance appraisal, each Nurse, regardless of workplace setting, should be required to demonstrate in their annual learning portfolio an up-to-date knowledge of nursing practice and its implementation. Alongside developmental requirements, this should contain documented evidence of recognised training undertaken, including wider relevant learning. It should also demonstrate commitment, compassion and caring for patients, evidenced by feedback from patients and families on the care provided by the nurse. This portfolio and each annual appraisal should be made available to the Nursing and Midwifery Council, if requested, as part of a nurse’s revalidation process.\nAt the end of each annual assessment, the appraisal and portfolio should be signed by the nurse as being an accurate and true reflection and be countersigned by their appraising manager as being such.",
+            "ChangeType": "Different",
+            "ActionCategory": "Audit & Reviews" 
           },
           {
-            "Recommendation": "Ward nurse managers should operate in a supervisory capacity, and not be office-bound or expected to double up, except in emergencies as part of the nursing provision on the ward. They should know about the care plans relating to every patient on his or her ward. They should make themselves visible to patients and staff alike, and be available to discuss concerns with all, including relatives. Critically, they should work alongside staff as a role model and mentor, developing clinical competencies and leadership skills within the team. As a corollary, they would monitor performance and deliver training and/or feedback as appropriate, including a robust annual appraisal."
+            "Recommendation": "Ward nurse managers should operate in a supervisory capacity, and not be office-bound or expected to double up, except in emergencies as part of the nursing provision on the ward. They should know about the care plans relating to every patient on his or her ward. They should make themselves visible to patients and staff alike, and be available to discuss concerns with all, including relatives. Critically, they should work alongside staff as a role model and mentor, developing clinical competencies and leadership skills within the team. As a corollary, they would monitor performance and deliver training and/or feedback as appropriate, including a robust annual appraisal.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "The Knowledge and Skills Framework should be reviewed with a view to giving explicit recognition to nurses’ demonstrations of commitment to patient care and, in particular, to the priority to be accorded to dignity and respect, and their acquisition of leadership skills."
+            "Recommendation": "The Knowledge and Skills Framework should be reviewed with a view to giving explicit recognition to nurses’ demonstrations of commitment to patient care and, in particular, to the priority to be accorded to dignity and respect, and their acquisition of leadership skills.",
+            "ChangeType": "Different",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "Training and continuing professional development for nurses should include leadership training at every level from student to director. A resource for nurse leadership training should be made available for all NHS healthcare provider organisations that should be required under commissioning arrangements by those buying healthcare services to arrange such training for appropriate staff."
+            "Recommendation": "Training and continuing professional development for nurses should include leadership training at every level from student to director. A resource for nurse leadership training should be made available for all NHS healthcare provider organisations that should be required under commissioning arrangements by those buying healthcare services to arrange such training for appropriate staff.",
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
-            "Recommendation": "Healthcare providers should be encouraged by incentives to develop and deploy reliable and transparent measures of the cultural health of front-line nursing workplaces and teams, which build on the experience and feedback of nursing staff using a robust methodology, such as the “cultural barometer”."
+            "Recommendation": "Healthcare providers should be encouraged by incentives to develop and deploy reliable and transparent measures of the cultural health of front-line nursing workplaces and teams, which build on the experience and feedback of nursing staff using a robust methodology, such as the “cultural barometer”.",
+            "ChangeType": "Different",
+            "ActionCategory": "Audit & Reviews"
           },
           {
-            "Recommendation": "Each patient should be allocated for each shift a named key nurse responsible for coordinating the provision of the care needs for each allocated patient. The named key nurse on duty should, whenever possible, be present at every interaction between a doctor and an allocated patient."
+            "Recommendation": "Each patient should be allocated for each shift a named key nurse responsible for coordinating the provision of the care needs for each allocated patient. The named key nurse on duty should, whenever possible, be present at every interaction between a doctor and an allocated patient.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "Consideration should be given to the creation of a status of Registered Older Person’s Nurse."
+            "Recommendation": "Consideration should be given to the creation of a status of Registered Older Person’s Nurse.",
+            "ChangeType": "New",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "The Royal College of Nursing should consider whether it should formally divide its “Royal College” functions and its employee representative/trade union functions between two bodies rather than behind internal “Chinese walls”."
+            "Recommendation": "The Royal College of Nursing should consider whether it should formally divide its “Royal College” functions and its employee representative/trade union functions between two bodies rather than behind internal “Chinese walls”.",
+            "ChangeType": "Different",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "Recognition of the importance of nursing representation at provider level should be given by ensuring that adequate time is allowed for staff to undertake this role, and employers and unions must regularly review the adequacy of the arrangements in this regard."
+            "Recommendation": "Recognition of the importance of nursing representation at provider level should be given by ensuring that adequate time is allowed for staff to undertake this role, and employers and unions must regularly review the adequacy of the arrangements in this regard.",
+            "ChangeType": "Different",
+            "ActionCategory": "Funding & Resources"    
           },
           {
-            "Recommendation": "A forum for all directors of nursing from both NHS and independent sector organisations should be formed to provide a means of coordinating the leadership of the nursing profession."
+            "Recommendation": "A forum for all directors of nursing from both NHS and independent sector organisations should be formed to provide a means of coordinating the leadership of the nursing profession.",
+            "ChangeType": "New",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "All healthcare providers and commissioning organisations should be required to have at least one executive director who is a registered nurse, and should be encouraged to consider recruiting nurses as non-executive directors."
+            "Recommendation": "All healthcare providers and commissioning organisations should be required to have at least one executive director who is a registered nurse, and should be encouraged to consider recruiting nurses as non-executive directors.",
+            "ChangeType": "Different",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "Commissioning arrangements should require the boards of provider organisations to seek and record the advice of its nursing director on the impact on the quality of care and patient safety of any proposed major change to nurse staffing arrangements or provision facilities, and to record whether they accepted or rejected the advice, in the latter case recording its reasons for doing so."
+            "Recommendation": "Commissioning arrangements should require the boards of provider organisations to seek and record the advice of its nursing director on the impact on the quality of care and patient safety of any proposed major change to nurse staffing arrangements or provision facilities, and to record whether they accepted or rejected the advice, in the latter case recording its reasons for doing so.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "The effectiveness of the newly positioned office of Chief Nursing Officer should be kept under review to ensure the maintenance of a recognised leading representative of the nursing profession as a whole, able and empowered to give independent professional advice to the Government on nursing issues of equivalent authority to that provided by the Chief Medical Officer."
+            "Recommendation": "The effectiveness of the newly positioned office of Chief Nursing Officer should be kept under review to ensure the maintenance of a recognised leading representative of the nursing profession as a whole, able and empowered to give independent professional advice to the Government on nursing issues of equivalent authority to that provided by the Chief Medical Officer.",
+            "ChangeType": "New",
+            "ActionCategory": "Audit & Reviews"
           },
           {
-            "Recommendation": "There should be a uniform description of healthcare support workers, with the relationship with currently registered nurses made clear by the title."
+            "Recommendation": "There should be a uniform description of healthcare support workers, with the relationship with currently registered nurses made clear by the title.",
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "Commissioning arrangements should require provider organisations to ensure by means of identity labels and uniforms that a healthcare support worker is easily distinguishable from that of a registered nurse."
+            "Recommendation": "Commissioning arrangements should require provider organisations to ensure by means of identity labels and uniforms that a healthcare support worker is easily distinguishable from that of a registered nurse.",
+            "ChangeType": "Different",
+            "ActionCategory": "Infrastructure & Facilities"
           },
           {
-            "Recommendation": "A registration system should be created under which no unregistered person should be permitted to provide for reward direct physical care to patients currently under the care and treatment of a registered nurse or a registered doctor (or who are dependent on such care by reason of disability and/or infirmity) in a hospital or care home setting. The system should apply to healthcare support workers, whether they are working for the NHS or independent healthcare providers, in the community, for agencies or as independent agents. (Exemptions should be made for persons caring for members of their own family or those with whom they have a genuine social relationship.)"
+            "Recommendation": "A registration system should be created under which no unregistered person should be permitted to provide for reward direct physical care to patients currently under the care and treatment of a registered nurse or a registered doctor (or who are dependent on such care by reason of disability and/or infirmity) in a hospital or care home setting. The system should apply to healthcare support workers, whether they are working for the NHS or independent healthcare providers, in the community, for agencies or as independent agents. (Exemptions should be made for persons caring for members of their own family or those with whom they have a genuine social relationship.)",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "There should be a national code of conduct for healthcare support workers."
+            "Recommendation": "There should be a national code of conduct for healthcare support workers.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "There should be a common set of national standards for the education and training of healthcare support workers."
+            "Recommendation": "There should be a common set of national standards for the education and training of healthcare support workers.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "The code of conduct, education and training standards and requirements for registration for healthcare support workers should be prepared and maintained by the Nursing and Midwifery Council after due consultation with all relevant stakeholders, including the Department of Health, other regulators, professional representative organisations and the public."
+            "Recommendation": "The code of conduct, education and training standards and requirements for registration for healthcare support workers should be prepared and maintained by the Nursing and Midwifery Council after due consultation with all relevant stakeholders, including the Department of Health, other regulators, professional representative organisations and the public.",
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "Until such time as the Nursing and Midwifery Council is charged with the recommended regulatory responsibilities, the Department of Health should institute a nationwide system to protect patients and care receivers from harm. This system should be supported by fair due process in relation to employees in this grade who have been dismissed by employers on the grounds of a serious breach of the code of conduct or otherwise being unfit for such a post."
+            "Recommendation": "Until such time as the Nursing and Midwifery Council is charged with the recommended regulatory responsibilities, the Department of Health should institute a nationwide system to protect patients and care receivers from harm. This system should be supported by fair due process in relation to employees in this grade who have been dismissed by employers on the grounds of a serious breach of the code of conduct or otherwise being unfit for such a post.",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "A leadership staff college or training system, whether centralised or regional, should be created to: provide common professional training in management and leadership to potential senior staff; promote healthcare leadership and management as a profession; administer an accreditation scheme to enhance eligibility for consideration for such roles; promote and research best leadership practice in healthcare."
+            "Recommendation": "A leadership staff college or training system, whether centralised or regional, should be created to: provide common professional training in management and leadership to potential senior staff; promote healthcare leadership and management as a profession; administer an accreditation scheme to enhance eligibility for consideration for such roles; promote and research best leadership practice in healthcare.",
+            "ChangeType": "New",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "A common code of ethics, standards and conduct for senior board-level healthcare leaders and managers should be produced and steps taken to oblige all such staff to comply with the code and their employers to enforce it."
+            "Recommendation": "A common code of ethics, standards and conduct for senior board-level healthcare leaders and managers should be produced and steps taken to oblige all such staff to comply with the code and their employers to enforce it.",
+            "ChangeType": "New",
+            "ActionCategory": "Law & Regulation"
           },
           {
-            "Recommendation": "The leadership framework should be improved by increasing the emphasis given to patient safety in the thinking of all in the health service. This could be done by, for example, creating a separate domain for managing safety, or by defining the service to be delivered as a safe and effective service."
+            "Recommendation": "The leadership framework should be improved by increasing the emphasis given to patient safety in the thinking of all in the health service. This could be done by, for example, creating a separate domain for managing safety, or by defining the service to be delivered as a safe and effective service.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"         
           },
           {
-            "Recommendation": "A list should be drawn up of all the qualities generally considered necessary for a good and effective leader. This in turn could inform a list of competences a leader would be expected to have."
+            "Recommendation": "A list should be drawn up of all the qualities generally considered necessary for a good and effective leader. This in turn could inform a list of competences a leader would be expected to have.",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedures"
           },
           {
-            "Recommendation": "Serious non-compliance with the code, and in particular, non-compliance leading to actual or potential harm to patients, should render board-level leaders and managers liable to be found not to be fit and proper persons to hold such positions by a fair and proportionate procedure, with the effect of disqualifying them from holding such positions in future."
+            "Recommendation": "Serious non-compliance with the code, and in particular, non-compliance leading to actual or potential harm to patients, should render board-level leaders and managers liable to be found not to be fit and proper persons to hold such positions by a fair and proportionate procedure, with the effect of disqualifying them from holding such positions in future.",
+            "ChangeType": "New",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
-            "Recommendation": "An alternative option to enforcing compliance with a management code of conduct, with the risk of disqualification, would be to set up an independent professional regulator. The need for this would be greater if it were thought appropriate to extend a regulatory requirement to a wider range of managers and leaders. The proportionality of such a step could be better assessed after reviewing the experience of a licensing provision for directors."
+            "Recommendation": "An alternative option to enforcing compliance with a management code of conduct, with the risk of disqualification, would be to set up an independent professional regulator. The need for this would be greater if it were thought appropriate to extend a regulatory requirement to a wider range of managers and leaders. The proportionality of such a step could be better assessed after reviewing the experience of a licensing provision for directors.",
+            "ChangeType": "New",
+            "ActionCategory": "Governance & Structure"
           },
           {
-            "Recommendation": "A training facility could provide the route through which an accreditation scheme could be organised. Although this might be a voluntary scheme, at least initally, the objective should be to require all leadership posts to be filled by persons who experience some shared training and obtain the relevant accreditation, enhancing the spread of the common culture and providing the basis for a regulatory regime."
+            "Recommendation": "A training facility could provide the route through which an accreditation scheme could be organised. Although this might be a voluntary scheme, at least initally, the objective should be to require all leadership posts to be filled by persons who experience some shared training and obtain the relevant accreditation, enhancing the spread of the common culture and providing the basis for a regulatory regime.",
+            "ChangeType": "New",
+            "ActionCategory": "Infrastructure & Facilities"
           },
           {
-            "Recommendation": "Consideration should be given to ensuring that there is regulatory oversight of the competence and compliance with appropriate standards by the boards of health service bodies which are not foundation trusts, of equivalent rigour to that applied to foundation trusts."
+            "Recommendation": "Consideration should be given to ensuring that there is regulatory oversight of the competence and compliance with appropriate standards by the boards of health service bodies which are not foundation trusts, of equivalent rigour to that applied to foundation trusts.",
+            "ChangeType": "More",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
-            "Recommendation": "The General Medical Council should have a clear policy about the circumstances in which a generic complaint or report ought to be made to it, enabling a more proactive approach to monitoring fitness to practise."
+            "Recommendation": "The General Medical Council should have a clear policy about the circumstances in which a generic complaint or report ought to be made to it, enabling a more proactive approach to monitoring fitness to practise.",
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedures"
           },
           {
             "Recommendation": "If the General Medical Council is to be effective in looking into generic complaints and information it will probably need either greater resources, or better cooperation with the Care Quality Commission and other organisations such as the Royal Colleges to ensure that it is provided with the appropriate information."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Steps must be taken to systematise the exchange of information between the Royal Colleges and the General Medical Council, and to issue guidance for use by employers of doctors to the same effect."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The General Medical Council should have regard to the possibility of commissioning peer reviews pursuant to section 35 of the Medical Act 1983 where concerns are raised in a generic way, in order to be advised whether there are individual concerns. Such reviews could be jointly commissioned with the Care Quality Commission in appropriate cases."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "To act as an effective regulator of nurse managers and leaders, as well as more front-line nurses, the Nursing and Midwifery Council needs to be equipped to look at systemic concerns as well as individual ones. It must be enabled to work closely with the systems regulators and to share their information and analyses on the working of systems in organisations in which nurses are active. It should not have to wait until a disaster has occurred to intervene with its fitness to practise procedures. Full access to the Care Quality Commission information in particular is vital."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Nursing and Midwifery Council needs to have its own internal capacity to assess systems and launch its own proactive investigations where it becomes aware of concerns which may give rise to nursing fitness to practise issues. It may decide to seek the cooperation of the Care Quality Commission, but as an independent regulator it must be empowered to act on its own if it considers it necessary in the public interest. This will require resources in terms of appropriately expert staff, data systems and finance. Given the power of the registrar to refer cases without a formal third party complaint, it would not appear that a change of regulation is necessary, but this should be reviewed."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "It is of concern that the administration of the Nursing and Midwifery Council, which has not been examined by  this Inquiry, is still found by other reviews to be wanting. It is imperative in the public interest that this is remedied urgently. Without doing so, there is a danger that the regulatory gap between the Nursing and Midwifery Council and the Care Quality Commission will widen rather than narrow."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "It is highly desirable that the Nursing and Midwifery Council introduces a system of revalidation similar to that of the General Medical Council, as a means of reinforcing the status and competence of registered nurses, as well as providing additional protection to the public. It is essential that the Nursing and Midwifery Council has the resources and the administrative and leadership skills to ensure that this does not detract from its existing core function of regulating fitness to practise of registered nurses."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The profile of the Nursing and Midwifery Council needs to be raised with the public, who are the prime and most valuable source of information about the conduct of nurses. All patients should be informed, by those providing treatment or care, of the existence and role of the Nursing and Midwifery Council, together with contact details. The Nursing and Midwifery Council itself needs to undertake more by way of public promotion of its functions."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "It is essential that, so far as practicable, Nursing and Midwifery Council procedures do not obstruct the progress of internal disciplinary action in providers. In most cases it should be possible, through cooperation, to allow both to proceed in parallel. This may require a review of employment disciplinary procedures, to make it clear that the employer is entitled to proceed even if there are pending Nursing and Midwifery Council proceedings."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Nursing and Midwifery Council could consider a concept of employment liaison officers, similar to that of the General Medical Council, to provide support to directors of nursing. If this is impractical, a support network of senior nurse leaders will have to be engaged in filling this gap."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "While both the General Medical Council and the Nursing and Midwifery Council have highly informative internet sites, both need to ensure that patients and other service users are made aware at the point of service provision of their existence, their role and their contact details."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Both the General Medical Council and Nursing and Midwifery Council must develop closer working relationships with the Care Quality Commission – in many cases there should be joint working to minimise the time taken to resolve issues and maximise the protection afforded to the public."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Professional Standards Authority for Health and Social Care (PSA) (formerly the Council for Healthcare Regulatory Excellence), together with the regulators under its supervision, should seek to devise procedures for dealing consistently and in the public interest with cases arising out of the same event or series of events but involving professionals regulated by more than one body. While it would require new regulations, consideration should be given to the possibility of moving towards a common independent tribunal to determine fitness to practise issues and sanctions across the healthcare professional field."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Hospitals should review whether to reinstate the practice of identifying a senior clinician who is in charge of a patient’s case, so that patients and their supporters are clear who is in overall charge of a patient’s care."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "There needs to be effective teamwork between all the different disciplines and services that together provide the collective care often required by an elderly patient; the contribution of cleaners, maintenance staff, and catering staff also needs to be recognised and valued."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Regular interaction and engagement between nurses and patients and those close to them should be systematised through regular ward rounds:   All staff need to be enabled to interact constructively, in a helpful and friendly fashion, with patients and visitors.   Where possible, wards should have areas where more mobile patients and their visitors can meet in relative privacy and comfort without disturbing other patients.   The NHS should develop a greater willingness to communicate by email with relatives.   The currently common practice of summary discharge letters followed up some time later with more substantive ones should be reconsidered.   Information about an older patient’s condition, progress and care and discharge plans should be available and shared with that patient and, where appropriate, those close to them, who must be included in the therapeutic partnership to which all patients are entitled."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The care offered by a hospital should not end merely because the patient has surrendered a bed – it should never be acceptable for patients to be discharged in the middle of the night, still less so at any time without absolute assurance that a patient in need of care will receive it on arrival at the planned destination. Discharge areas in hospital need to be properly staffed and provide continued care to the patient."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "All staff and visitors need to be reminded to comply with hygiene requirements. Any member of staff, however junior, should be encouraged to remind anyone, however senior, of these."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The arrangements and best practice for providing food and drink to elderly patients require constant review, monitoring and implementation."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "In the absence of automatic checking and prompting, the process of the administration of medication needs to be overseen by the nurse in charge of the ward, or his/her nominated delegate. A frequent check needs to be done to ensure that all patients have received what they have been prescribed and what they need. This is particularly the case when patients are moved from one ward to another, or they are returned to the ward after treatment."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The recording of routine observations on the ward should, where possible, be done automatically as they are taken, with results being immediately accessible to all staff electronically in a form enabling progress to be monitored and interpreted. If this cannot be done, there needs to be a system whereby ward leaders and named nurses are responsible for ensuring that the observations are carried out and recorded."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "There is a need for all to accept common information practices, and to feed performance information into shared databases for monitoring purposes. The following principles should be applied in considering the introduction of electronic patient information systems:   Patients need to be granted user friendly, real time and retrospective access to read their records, and a facility to enter comments. They should be enabled to have a copy of records in a form useable by them, if they wish to have one. If possible, the summary care record should be made accessible in this way.   Systems should be designed to include prompts and defaults where these will contribute to safe and effective care, and to accurate recording of information on first entry.   Systems should include a facility to alert supervisors where actions which might be expected have not occurred, or where likely inaccuracies have been entered.   Systems should, where practicable and proportionate, be capable of collecting performance management and audit information automatically, appropriately anonymised direct from entries, to avoid unnecessary duplication of input.   Systems must be designed by healthcare professionals in partnership with patient groups to secure maximum professional and patient engagement in ensuring accuracy, utility and relevance, both to the needs of the individual patients and collective professional, managerial and regulatory requirements.\nSystems must be capable of reflecting changing needs and local requirements over and above nationally required minimum standards."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Each provider organisation should have a board level member with responsibility for information."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Department of Health/the NHS Commissioning Board/regulators should ensure that provider organisations publish in their annual quality accounts information in a common form to enable comparisons to be made between organisations, to include a minimum of prescribed information about their compliance with fundamental and other standards, their proposals for the rectification of any non-compliance and statistics on mortality and other outcomes. Quality accounts should be required to contain the observations of commissioners, overview and scrutiny committees, and Local Healthwatch."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Healthcare providers should be required to lodge their quality accounts with all organisations commissioning services from them, Local Healthwatch, and all systems regulators."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Healthcare providers should be required to have their quality accounts independently audited. Auditors should be given a wider remit enabling them to use their professional judgement in examining the reliability of all statements in the accounts."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Each quality account should be accompanied by a declaration signed by all directors in office at the date of the account certifying that they believe the contents of the account to be true, or alternatively a statement of explanation as to the reason any such director is unable or has refused to sign such a declaration."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "It should be a criminal offence for a director to sign a declaration of belief that the contents of a quality account are true if it contains a misstatement of fact concerning an item of prescribed information which he/she does not have reason to believe is true at the time of making the declaration."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Care Quality Commission and/or Monitor should keep the accuracy, fairness and balance of quality accounts under review and should be enabled to require corrections to be issued where appropriate. In the event of an organisation failing to take that action, the regulator should be able to issue its own statement of correction."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "It is important that the appropriate steps are taken to enable properly anonymised data to be used for managerial and regulatory purposes."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The information behind the quality and risk profile – as well as the ratings and methodology – should be placed in the public domain, as far as is consistent with maintaining any legitimate confidentiality of such information, together with appropriate explanations to enable the public to understand the limitations of this tool."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "While there are likely to be many different gateways offered through which patient and public comments can be made, to avoid confusion, it would be helpful for there to be consistency across the country in methods of access, and for the output to be published in a manner allowing fair and informed comparison between organisations."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Results and analysis of patient feedback including qualitative information need to be made available to all stakeholders in as near “real time” as possible, even if later adjustments have to be made."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "A proactive system for following up patients shortly after discharge would not only be good “customer service”, it would probably provide a wider range of responses and feedback on their care."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Information Centre should be tasked with the independent collection, analysis, publication and oversight of healthcare information in England, or, with the agreement of the devolved governments, the United Kingdom. The information functions previously held by the National Patient Safety Agency should be transferred to the NHS Information Centre if made independent."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Information Centre should continue to develop and maintain learning, standards and consensus with regard to information methodologies, with particular reference to comparative performance statistics."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Information Centre, in consultation with the Department of Health, the NHS Commissioning Board and the Parliamentary and Health Service Ombudsman, should develop a means of publishing more detailed breakdowns of clinically related complaints."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The standards applied to statistical information about serious untoward incidents should be the same as for any other healthcare information and in particular the principles around transparency and accessibility. It would, therefore, be desirable for the data to be supplied to, and processed by, the Information Centre and, through them, made publicly available in the same way as other quality related information."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Information Centre should be enabled to undertake more detailed statistical analysis of its own than currently appears to be the case."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "All healthcare provider organisations, in conjunction with their healthcare professionals, should develop and maintain systems which give them:   Effective real-time information on the performance of each of their services against patient safety and minimum quality standards;   Effective real-time information of the performance of each of their consultants and specialist teams in relation to mortality, morbidity, outcome and patient satisfaction.\nIn doing so, they should have regard, in relation to each service, to best practice for information management of that service as evidenced by recommendations of the Information Centre, and recommendations of specialist organisations such as the medical Royal Colleges.\nThe information derived from such systems should, to the extent practicable, be published and in any event made available in full to commissioners and regulators, on request, and with appropriate explanation, and to the extent that is relevant to individual patients, to assist in choice of treatment."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "It must be recognised to be the professional duty of all healthcare professionals to collaborate in the provision of information required for such statistics on the efficacy of treatment in specialties."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "In the case of each specialty, a programme of development for statistics on the efficacy of treatment should be prepared, published, and subjected to regular review."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Department of Health, the Information Centre and the Care Quality Commission should engage with each representative specialty organisation in order to consider how best to develop comparative statistics on the efficacy of treatment in that specialty, for publication and use in performance oversight, revalidation, and the promotion of patient knowledge and choice."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "In designing the methodology for such statistics and their presentation, the Department of Health, the Information Centre, the Care Quality Commission and the specialty organisations should seek and have regard to the views of patient groups and the public about the information needed by them."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "All such statistics should be made available online and accessible through provider websites, as well as other gateways such as the Care Quality Commission."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Resources must be allocated to and by provider organisations to enable the relevant data to be collected and forwarded to the relevant central registry."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The only practical way of ensuring reasonable accuracy is vigilant auditing at local level of the data put into the system. This is important work, which must be continued and where possible improved."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "There is a need for a review by the Department of Health, the Information Centre and the UK Statistics Authority of the patient outcome statistics, including hospital mortality and other outcome indicators. In particular, there could be benefit from consideration of the extent to which these statistics can be published in a form more readily useable by the public."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "To the extent that summary hospital-level mortality indicators are not already recognised as national or official statistics, the Department of Health and the Health and Social Care Information Centre should work towards establishing such status for them or any successor hospital mortality figures, and other patient outcome statistics, including reports showing provider-level detail."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "There is a demonstrable need for an accreditation system to be available for healthcare-relevant statistical methodologies. The power to create an accreditation scheme has been included in the Health and Social Care Act 2012, it should be used as soon as practicable."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The terms of authorisation, licensing and registration and any relevant guidance should oblige healthcare providers to provide all relevant information to enable the coroner to perform his function, unless a director is personally satisfied that withholding the information is justified in the public interest."
+            "ChangeType": "",
+            "ActionCategory": ""      
           },
           {
-            "Recommendation": "There is an urgent need for unequivocal guidance to be given to trusts and their legal advisers and those handling disclosure of information to coroners, patients and families, as to the priority to be given to openness over any perceived material interest."
+            "Recommendation": "There is an urgent need for unequivocal guidance to be given to trusts and their legal advisers and those handling disclosure of information to coroners, patients and families, as to the priority to be given to openness over any perceived material interest.",
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "It is of considerable importance that independent medical examiners are independent of the organisation whose patients’ deaths are being scrutinised."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Sufficient numbers of independent medical examiners need to be appointed and resourced to ensure that they can give proper attention to the workload."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "National guidance should set out standard methodologies for approaching the certification of the cause of death to ensure, so far as possible, that similar approaches are universal."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "It should be a routine part of an independent medical examiners’s role to seek out and consider any serious untoward incidents or adverse incident reports relating to the deceased, to ensure that all circumstances are taken into account whether or not referred to in the medical records."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "So far as is practicable, the responsibility for certifying the cause of death should be undertaken and fulfilled by the consultant, or another senior and fully qualified clinician in charge of a patient’s case or treatment."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Both the bereaved family and the certifying doctor should be asked whether they have any concerns about the death or the circumstances surrounding it, and guidance should be given to hospital staff encouraging them to raise any concerns they may have with the independent medical examiner."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "It is important that independent medical examiners and any others having to approach families for this purpose have careful training in how to undertake this sensitive task in a manner least likely to cause additional and unnecessary distress."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Coroners should send copies of relevant Rule 43 reports to the Care Quality Commission."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Guidance should be developed for coroners’ offices about whom to approach in gathering information about whether to hold an inquest into the death of a patient. This should include contact with the patient’s family."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Lord Chancellor should issue guidance as to the criteria to be adopted in the appointment of assistant deputy coroners."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Chief Coroner should issue guidance on how to avoid the appearance of bias when assistant deputy coroners are associated with a party in a case."
+            "ChangeType": "",
+            "ActionCategory": ""          
           },
           {
-            "Recommendation": "Impact and risk assessments should be made public, and debated publicly, before a proposal for any major structural change to the healthcare system is accepted. Such assessments should cover at least the following issues:   What is the precise issue or concern in respect of which change is necessary?   Can the policy objective identified be achieved by modifications within the existing structure?   How are the successful aspects of the existing system to be incorporated and continued in the new system?   How are the existing skills which are relevant to the new system to be transferred to it?   How is the existing corporate and individual knowledge base to be preserved, transferred and exploited?   How is flexibility to meet new circumstances and to respond to experience built into the new system to avoid the need for further structural change?   How are necessary functions to be performed effectively during any transitional period?   What are the respective risks and benefits to service users and the public and, in particular, are there any risks to safety or welfare?"
+            "Recommendation": "Impact and risk assessments should be made public, and debated publicly, before a proposal for any major structural change to the healthcare system is accepted. Such assessments should cover at least the following issues:   What is the precise issue or concern in respect of which change is necessary?   Can the policy objective identified be achieved by modifications within the existing structure?   How are the successful aspects of the existing system to be incorporated and continued in the new system?   How are the existing skills which are relevant to the new system to be transferred to it?   How is the existing corporate and individual knowledge base to be preserved, transferred and exploited?   How is flexibility to meet new circumstances and to respond to experience built into the new system to avoid the need for further structural change?   How are necessary functions to be performed effectively during any transitional period?   What are the respective risks and benefits to service users and the public and, in particular, are there any risks to safety or welfare?",
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Department of Health should together with healthcare systems regulators take the lead in developing through obtaining consensus between the public and healthcare professionals, a coherent, and easily accessible structure for the development and implementation of values, fundamental, enhanced and developmental standards as recommended in this report."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Department of Health should ensure that there is senior clinical involvement in all policy decisions which may impact on patient safety and well-being."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "Department of Health officials need to connect more to the NHS by visits, and most importantly by personal contact with those who have suffered poor experiences. The Department of Health could also be assisted in its work by involving patient/service user representatives through some form of consultative forum within the Department."
+            "ChangeType": "",
+            "ActionCategory": ""
           },
           {
             "Recommendation": "The Department of Health should promote a shared positive culture by setting an example in its statements by being open about deficiencies, ensuring those harmed have a remedy, and making information publicly available about performance at the most detailed level possible."
+            "ChangeType": "",
+            "ActionCategory": ""          
           }
         ]
       },
