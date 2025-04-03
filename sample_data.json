@@ -1,0 +1,41 @@
+[
+    {
+      "Administration-or-Department": "UK Government",
+      "Inquiries": [
+        {
+          "InquiryName": "The Billy Wright Inquiry",
+          "ReportLink": "https://web.archive.org/web/20190725014323/https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229136/0431.pdf",
+          "ReportDate": "14/09/2010",
+          "Recommendations": [
+            {
+              "Recommendation": "Given what we discovered about the destruction of prisoners’ files, many of which would have been important historical records, we recommend that the SOSNI should satisfy himself whether any other prison records have been destroyed and whether proper retention processes are now observed in the NIPS.",
+              "ChangeType": "Cease",
+              "ActionCategory": "Processes & Procedures"
+            },
+            {
+              "Recommendation": "We recommend that the SOSNI and those with recently devolved authority should satisfy themselves that any relevant lessons from HMP Maze have been learned for HMP Maghaberry.",
+              "ChangeType": "More",
+              "ActionCategory": "Enforcement & Compliance"
+            },
+            {
+              "Recommendation": "We recommend that the SOSNI and those with recently devolved authority should consider whether a similar process might pave the way for radical change in the way that the NIPS is managed and, among other matters, how its industrial relations are conducted.",
+              "ChangeType": "New",
+              "ActionCategory": "Processes & Procedures"
+            }
+          ]
+        },
+        {
+          "InquiryName": "The Robert Hamill Inquiry",
+          "ReportLink": "https://web.archive.org/web/20150411003707/http://www.roberthamillinquiry.org/content/report/",
+          "ReportDate": "29/01/2010",
+          "Recommendations": [
+            {
+              "Recommendation": "Not Published",
+              "ChangeType": "More",
+              "ActionCategory": "Enforcement & Compliance"
+            }
+          ]
+        }
+      ]
+    }
+  ]    
