@@ -107,48 +107,48 @@
         "Recommendations": [
           {
             "Recommendation": "Consideration should be given to the establishment of a policy by the Ministry of Defence to ensure that all documents or other material, including electronic material, are retrieved from theatre and elsewhere at the conclusion of an operation, catalogued and stored in secure accommodation for a period of at least 30 years and all searches of that material recorded, so that the Department is able to say what material is available and its location, and if the need arises, to confirm in litigation or to a Public Inquiry that it has complied with its obligation to disclose relevant material.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Documentation & Records"
           },
           {
             "Recommendation": "Digital video and audio recordings should be made of both interrogation and tactical questioning sessions. Such recordings should be retrieved from theatre, catalogued and stored in the same way and for the same period of time as the other documents/ records to which reference is made in Recommendation 1.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Documentation & Records"
           },
           {
             "Recommendation": "All training material should be dated, appropriately retained and archived in such a way that it can easily be established when the training material was composed, when it came into force and the period during which it remained in force. ",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Documentation & Records"
           },
           {
             "Recommendation": "A Shooting Incident Policy should be drafted which is practically achievable in practice in Theatre, which is compliant with Article 2 of the ECHR and which enables the ascertainment of the relevant facts leading up to, during and consequent upon the Shooting Incident by an independent body such as the Royal Military Police within a time limited but reasonable period after the Shooting Incident. ",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedure"
           },
           {
             "Recommendation": "A Shooting Incident Policy should be drafted which is practically achievable in practice in Theatre, which is compliant with Article 2 of the ECHR and which enables the ascertainment of the relevant facts leading up to, during and consequent upon the Shooting Incident by an independent body such as the Royal Military Police within a time limited but reasonable period after the Shooting Incident. ",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedure"
           },          
           {
             "Recommendation": "All detainees should be clearly informed of their rights and obligations as soon as is practicable upon arrival at any detention facility. As a minimum this should include informing the detainee as to the reason(s) for his detention and explaining, in clear and basic terms, that his human rights will be protected and respected.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
             "Recommendation": "Appropriate measures should be taken to ensure that minimum safeguards are in place where a detainee is to be strip searched. These include informing a detainee as to the necessity of the strip search and requesting his/her cooperation. Those conducting a strip search should always bear in mind the need to respect the detainee’s dignity, particularly having regard to any cultural sensitivities. Searches should be conducted by, and in front of, the minimum number of persons necessary and screens or other measures should be taken to shield the detainee from as many of those attending as possible. Those persons should be of the same gender as the detainee unless none are available. ",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance" 
           },
           {
             "Recommendation": "There should be an appropriate review of all current policy and procedures to ensure that a sufficient number of suitably trained interpreters are readily available and on hand during all aspects of prisoner detainee handling and at all holding units, including all forms of interrogation and questioning, including during the issuing and provision of medication, the need to ensure that basic requests for water/food/lavatory breaks are properly understood in prisoner holding areas and to give safety briefings and to help deal with any problems prior to and/or during flight transfers. ",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
             "Recommendation": "Appropriate forms should be made available to allow a medical examiner to declare a detainee unfit for detention and questioning. The decision as to whether a detainee has been declared unfit for detention and questioning should be readily apparent and the reasons for that decision should be recorded. Any conclusion to the contrary effect should be expressed in ethically acceptable terms.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           }
 
         ]
@@ -160,18 +160,18 @@
         "Recommendations": [
           {
             "Recommendation": "The first is that there should now be a full and thorough review by the MPS of all aspects of Operation Tayport. A number of suggestions are made about what should be taken into account in that exercise.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Investigation & Redress"
           },
           {
             "Recommendation": "The second is that the MPS, the IPCC and the Association of Chief Police Officers should endeavour to establish a protocol which will allow for debriefing of future operations while an IPCC investigation is progressing.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedure"
           },
           {
             "Recommendation": "The third recommendation is that, in the event of another shooting by an MPS officer resulting in death or serious injury, a senior officer should be appointed to conduct a full operational debriefing.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           }
         ]
       },
@@ -953,7 +953,7 @@
           {
             "Recommendation": "The General Medical Council should set out a standard requirement for routine visits to each local education provider, and programme in accordance with the following principles:   The Postgraduate Dean should be responsible for managing the process at the level of the Local Educational Training Board, as part of overall deanery functions.   The Royal Colleges should be enlisted to support such visits and to provide the relevant specialist expertise where required.   There should be lay or patient representation on visits to ensure that patient interests are maintained as the priority.   Such visits should be informed by all other sources of information and, if relevant, coordinated with the work of the Care Quality Commission and other forms of review.\nThe Department of Health should provide appropriate resources to ensure that an effective programme of monitoring training by visits can be carried out.\nAll healthcare organisations must be required to release healthcare professionals to support the visits programme. It should also be recognised that the benefits in professional development and dissemination of good practice are of significant value.",
             "ChangeType": "New",
-             "ActionCategory": "Law & Regulation"         
+             "ActionCategory": "Law & Regulation"        
           },
           {
             "Recommendation": "The system for approving and accrediting training placement providers and programmes should be configured to apply the principles set out above.",
@@ -1148,7 +1148,7 @@
           {
             "Recommendation": "As part of a mandatory annual performance appraisal, each Nurse, regardless of workplace setting, should be required to demonstrate in their annual learning portfolio an up-to-date knowledge of nursing practice and its implementation. Alongside developmental requirements, this should contain documented evidence of recognised training undertaken, including wider relevant learning. It should also demonstrate commitment, compassion and caring for patients, evidenced by feedback from patients and families on the care provided by the nurse. This portfolio and each annual appraisal should be made available to the Nursing and Midwifery Council, if requested, as part of a nurse’s revalidation process.\nAt the end of each annual assessment, the appraisal and portfolio should be signed by the nurse as being an accurate and true reflection and be countersigned by their appraising manager as being such.",
             "ChangeType": "Different",
-             "ActionCategory": "Audit & Reviews" 
+             "ActionCategory": "Audit & Reviews"
           },
           {
             "Recommendation": "Ward nurse managers should operate in a supervisory capacity, and not be office-bound or expected to double up, except in emergencies as part of the nursing provision on the ward. They should know about the care plans relating to every patient on his or her ward. They should make themselves visible to patients and staff alike, and be available to discuss concerns with all, including relatives. Critically, they should work alongside staff as a role model and mentor, developing clinical competencies and leadership skills within the team. As a corollary, they would monitor performance and deliver training and/or feedback as appropriate, including a robust annual appraisal.",
@@ -1188,7 +1188,7 @@
           {
             "Recommendation": "Recognition of the importance of nursing representation at provider level should be given by ensuring that adequate time is allowed for staff to undertake this role, and employers and unions must regularly review the adequacy of the arrangements in this regard.",
             "ChangeType": "Different",
-             "ActionCategory": "Funding & Resources"    
+             "ActionCategory": "Funding & Resources"   
           },
           {
             "Recommendation": "A forum for all directors of nursing from both NHS and independent sector organisations should be formed to provide a means of coordinating the leadership of the nursing profession.",
@@ -1258,7 +1258,7 @@
           {
             "Recommendation": "The leadership framework should be improved by increasing the emphasis given to patient safety in the thinking of all in the health service. This could be done by, for example, creating a separate domain for managing safety, or by defining the service to be delivered as a safe and effective service.",
             "ChangeType": "Different",
-             "ActionCategory": "Processes & Procedures"         
+             "ActionCategory": "Processes & Procedures"        
           },
           {
             "Recommendation": "A list should be drawn up of all the qualities generally considered necessary for a good and effective leader. This in turn could inform a list of competences a leader would be expected to have.",
@@ -1543,7 +1543,7 @@
           {
             "Recommendation": "The terms of authorisation, licensing and registration and any relevant guidance should oblige healthcare providers to provide all relevant information to enable the coroner to perform his function, unless a director is personally satisfied that withholding the information is justified in the public interest.",
             "ChangeType": "New",
-             "ActionCategory": "Law & Regulation"      
+             "ActionCategory": "Law & Regulation"     
           },
           {
             "Recommendation": "There is an urgent need for unequivocal guidance to be given to trusts and their legal advisers and those handling disclosure of information to coroners, patients and families, as to the priority to be given to openness over any perceived material interest.",
@@ -1603,7 +1603,7 @@
           {
             "Recommendation": "The Chief Coroner should issue guidance on how to avoid the appearance of bias when assistant deputy coroners are associated with a party in a case.",
             "ChangeType": "Different",
-             "ActionCategory": "Processes & Procedures"          
+             "ActionCategory": "Processes & Procedures"         
           },
           {
             "Recommendation": "Impact and risk assessments should be made public, and debated publicly, before a proposal for any major structural change to the healthcare system is accepted. Such assessments should cover at least the following issues:   What is the precise issue or concern in respect of which change is necessary?   Can the policy objective identified be achieved by modifications within the existing structure?   How are the successful aspects of the existing system to be incorporated and continued in the new system?   How are the existing skills which are relevant to the new system to be transferred to it?   How is the existing corporate and individual knowledge base to be preserved, transferred and exploited?   How is flexibility to meet new circumstances and to respond to experience built into the new system to avoid the need for further structural change?   How are necessary functions to be performed effectively during any transitional period?   What are the respective risks and benefits to service users and the public and, in particular, are there any risks to safety or welfare?",
@@ -1628,7 +1628,7 @@
           {
             "Recommendation": "The Department of Health should promote a shared positive culture by setting an example in its statements by being open about deficiencies, ensuring those harmed have a remedy, and making information publicly available about performance at the most detailed level possible.",
             "ChangeType": "Different",
-             "ActionCategory": "Processes & Procedures"          
+             "ActionCategory": "Processes & Procedures"         
           }
         ]
       },
@@ -1639,38 +1639,38 @@
         "Recommendations": [
           {
             "Recommendation": "An independent self regulatory body should be governed by an independent Board. In order to ensure the independence of the body, the Chair and members of the Board must be appointed in a genuinely open, transparent and independent way, without any influence from industry or Government.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Governance & Structure"
           },
           {
             "Recommendation": "The appointment of the Chair of the Board should be made by an appointment panel. The selection of that panel must itself be conducted in an appropriately independent way and must, itself, be independent of the industry and of Government",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
             "Recommendation": "The appointment panel: (a) should be appointed in an independent, fair and open way; (b) should contain a substantial majority of members who are demonstrably independent of the press; (c) should include at least one person with a current understanding and experience of the press; (d) should include no more than one current editor of a publication that could be a member of the body",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedure"
           },
           {
-            "Recommendation": ". The appointment of the Board should also be an independent process, and the composition of the Board should include people with relevant expertise. The requirement for independence means that there should be no serving editors on the Board.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "Recommendation": "The appointment of the Board should also be an independent process, and the composition of the Board should include people with relevant expertise. The requirement for independence means that there should be no serving editors on the Board.",
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedure"
           },
           {
             "Recommendation": "The members of the Board should be appointed by the same appointment panel that appoints the Chair, together with the Chair (once appointed), and should: (a) be appointed by a fair and open process; (b) comprise a majority of people who are independent of the press; (c) include a sufficient number of people with experience of the industry who may include former editors and senior or academic journalists; (d) not include any serving editor; and (e) not include any serving member of the House of Commons or any member of the Government.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Processes & Procedure"
           },
           {
             "Recommendation": "Funding for the system should be settled in agreement between the industry and the Board, taking into account the cost of fulfilling the obligations of the regulator and the commercial pressures on the industry. There should be an indicative budget which the Board certifies is adequate for the purpose. Funding settlements should cover a four or five year period and should be negotiated well in advance.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Funding & Resources"
           },
           {
             "Recommendation": "The standards code must ultimately be the responsibility of, and adopted by, the Board, advised by a Code Committee which may comprise both independent members of the Board and serving editors",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
             "Recommendation": "The code must take into account the importance of freedom of speech, the interests of the public (including the public interest in detecting or exposing crime or serous impropriety, protecting public health and safety and preventing the public from being seriously misled) and the rights of individuals. Specifically, it must cover standards of: (a) conduct, especially in relation to the treatment of other people in the process of obtaining material; (b) appropriate respect for privacy where there is no sufficient public interest justification for breach and (c) accuracy, and the need to avoid misrepresentation.",
@@ -3184,7 +3184,7 @@
           "ActionCategory": "Support & Welfare"
         },
         {
-          "Recommendation": "That the patient voice be enabled and empowered by the following measures: steps be taken to give greater prominence to the online Yellow Card system to those receiving drugs or biological products, or who are being transfused with blood components." ,
+          "Recommendation": "That the patient voice be enabled and empowered by the following measures: steps be taken to give greater prominence to the online Yellow Card system to those receiving drugs or biological products, or who are being transfused with blood components.",
           "ChangeType": "Different",
           "ActionCategory": "Technology & Systems"
         },
@@ -3340,223 +3340,218 @@
           },
           {
             "Recommendation": "I accept that repeating the same warning about terrorism as part of each briefing creates a risk of it being ignored and those who have heard it before may listen less than attentively.", 
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": " The evidence I heard from Showsec is a good illustration of this issue. The Showsec supervisors’ and stewards’ briefings on 22nd May 2017 both include the importance of being vigilant for suspicious behaviour. As the events which followed demonstrate, that was insufficient to keep people safe. However, the fact that this measure was not effective on this occasion is not a reason to abandon it. Rather, it is a reason to do it better.", 
-            "ChangeType": "",
-            "ActionCategory": ""
+            "Recommendation": "The evidence I heard from Showsec is a good illustration of this issue. The Showsec supervisors’ and stewards’ briefings on 22nd May 2017 both include the importance of being vigilant for suspicious behaviour. As the events which followed demonstrate, that was insufficient to keep people safe. However, the fact that this measure was not effective on this occasion is not a reason to abandon it. Rather, it is a reason to do it better.", 
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": " Those receiving the warning about the risk of attack have to be aware of the potential that they will become desensitised to the message. Those giving the warning need to be aware of this and must try to refresh the message so that it is sufficiently updated and relevant to attract the attention of the listener.", 
-            "ChangeType": "",
-            "ActionCategory": ""
+            "Recommendation": "Those receiving the warning about the risk of attack have to be aware of the potential that they will become desensitised to the message. Those giving the warning need to be aware of this and must try to refresh the message so that it is sufficiently updated and relevant to attract the attention of the listener.", 
+            "ChangeType": "Different",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": " Showsec operated a system of having a period within the supervisors’ briefing for a particular topic which was selected from a number of possible options, one of which was counter‑terrorism. This was, in my view, a good way to ensure that additional detail was provided without the subject matter becoming stale. Any and all suspicious behaviour by event‑goers or members of the public close to a venue must be noted. It must be reported promptly so that investigations can be made and action taken, if appropriate.", 
-            "ChangeType": "",
-            "ActionCategory": ""
+            "Recommendation": "Showsec operated a system of having a period within the supervisors’ briefing for a particular topic which was selected from a number of possible options, one of which was counter‑terrorism. This was, in my view, a good way to ensure that additional detail was provided without the subject matter becoming stale. Any and all suspicious behaviour by event‑goers or members of the public close to a venue must be noted. It must be reported promptly so that investigations can be made and action taken, if appropriate.", 
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedure"
           },
           {
-            "Recommendation": " When this recommendation is followed there will be false alarms. While this may be frustrating, it is important that the way false alarms are dealt with does not discourage the reporting of suspicious behaviour. If unnecessary reports are made, the remedy should be to train staff better to recognise suspicious behaviour, rather than criticise them for making the report. It is not easy for staff, particularly junior ones, to make reports that they know may result in disruption to an event or inconvenience a large number of people. They need to be given the confidence to do so.", 
-            "ChangeType": "",
-            "ActionCategory": ""
+            "Recommendation": "When this recommendation is followed there will be false alarms. While this may be frustrating, it is important that the way false alarms are dealt with does not discourage the reporting of suspicious behaviour. If unnecessary reports are made, the remedy should be to train staff better to recognise suspicious behaviour, rather than criticise them for making the report. It is not easy for staff, particularly junior ones, to make reports that they know may result in disruption to an event or inconvenience a large number of people. They need to be given the confidence to do so.", 
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedure"
           },
           {
-            "Recommendation": " Bomb hoaxes can cause great inconvenience, but no‑one can safely ignore bomb warnings. So it is with suspicious behaviour. It should only be ignored when an innocent explanation has been verified. There was evidence of a number of such false alarms during the Inquiry, but staff should be congratulated and not criticised either expressly or implicitly for raising the alarm. Showsec and SMG were clear that they did their best to get this message across but, on the evidence, it did not seem to have got through to all of their staff. In particular, the system for capturing reports and ensuring their proper investigation was not sufficiently robust.", 
-            "ChangeType": "",
-            "ActionCategory": ""
+            "Recommendation": "Bomb hoaxes can cause great inconvenience, but no‑one can safely ignore bomb warnings. So it is with suspicious behaviour. It should only be ignored when an innocent explanation has been verified. There was evidence of a number of such false alarms during the Inquiry, but staff should be congratulated and not criticised either expressly or implicitly for raising the alarm. Showsec and SMG were clear that they did their best to get this message across but, on the evidence, it did not seem to have got through to all of their staff. In particular, the system for capturing reports and ensuring their proper investigation was not sufficiently robust.", 
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedure"
           },
           {
-            "Recommendation": " Where hostile reconnaissance is suspected it needs to be properly recorded and reported to the police. The police should investigate it and report back. Briefings to security staff need to include details of the suspected hostile reconnaissance. This is so that staff know what has happened and know what to look out for.", 
-            "ChangeType": "",
-            "ActionCategory": ""
+            "Recommendation": "Where hostile reconnaissance is suspected it needs to be properly recorded and reported to the police. The police should investigate it and report back. Briefings to security staff need to include details of the suspected hostile reconnaissance. This is so that staff know what has happened and know what to look out for.", 
+            "ChangeType": "New",
+            "ActionCategory": "Documentation & Records"
           },
           {
             "Recommendation": "In some cases, the steps required of Protect Duty‑holders will be obvious and straightforward. In these cases expert input may be disproportionate. These Protect Duty‑holders should be able to take the necessary steps by accessing publicly available information as to how they should approach their tasks. Below I make recommendations as to how NaCTSO may be able to make a contribution to ensuring the required information is available to those who need it.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
             "Recommendation": "In cases in which preparing the Protect Plan is not straightforward and the Protect Duty‑holder, such as a charity, does not have the means to pay for assistance, consideration should be given to providing state help for the preparation of the Plan and its implementation.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Funding & Resources"
           },
           {
             "Recommendation": "The Protect Plan should set out the ‘reasonably practicable’ measures to be taken to mitigate the risk of a terrorist attack.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
             "Recommendation": "Once prepared, in some cases the police and other state agencies may wish to have an input into the plan before it finalised.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
             "Recommendation": "A timetable will need to be set. There will need to be provision for regular reviews and enforcement process. Reviews will not only be needed to ensure that the Protect Plan is still being implemented but to consider possible changes if the terrorist threat alters.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Audit & Reviews"
           },
           {
             "Recommendation": "The Protect Plan should identify which roles will include a counter‑terrorism element. These roles are essential to the successful discharge of the Protect Duty. It is critical that those undertaking these roles are selected with care. This will include ensuring that they have the necessary maturity and confidence to speak up should the situation arise. It should also include ensuring a background check proportionate to the role that they are undertaking has been conducted.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
             "Recommendation": "I recommend that the Protect Plan identifies the approach which will be taken to ensuring that only appropriate people undertake work which includes a counter‑terrorism element.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
             "Recommendation": "Part of the Protect Duty proposals include the provision of training in counter‑terrorism. The higher‑level training provided by the SIA for employees occupying certain positions should be retained but it is important that managers and all employees have some training. ACT which is a training scheme set up by NaCTSO is suitable for people working in the industry at all levels. All people working in venues such as the Arena should be trained in the basics of counter‑terrorism. The nature of the threat changes so it is important that there is regular refresher training.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
             "Recommendation": "The provision of adequate training should form a key control measure within the Protect Plan. This will include consideration of the need for enhanced training for those in roles which require it.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
             "Recommendation": "I recommend that staff training should form a mandatory part of the Protect Plan.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "It was a common feature of the regulatory schemes that I have heard about during the Inquiry that there were insufficient resources to carry out proper enforcement. The consequence of that is that there have been a number of breaches of regulations which might have been avoided with more active enforcement.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Funding & Resources"
           },
           {
             "Recommendation": "It is important that there is proper enforcement of the Protect Duty, the possible consequences of breaches are so serious that proper steps need to be taken to avoid them happening. It is possible that CTSAs, licensing officers, police licensing enforcement officers and the SIA could all combine to provide enforcement. Even if that happens, it is likely that more people will be required to carry out the work. When cutbacks occur, enforcement can be one of the first areas to lose staff. It would be a false economy in relation to enforcement of the Protect Duty. I recommend that an adequate and effective enforcement process is established in relation to the Protect Duty.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "The proposal is that there should be a system of enforcement to ensure that the terms of the Protect Plan which has been determined are complied with. I am satisfied on the evidence that I have heard that there needs to be an enforcement mechanism and the ability to impose a penalty if there is a breach. Part of the reason for the failure of other schemes has been that they have been voluntary. The Consultation suggests that the penalty should be restricted to a civil penalty which would be financial. In those circumstances there would be no conviction. While it is not unusual to have civil penalties for regulatory failures, provision is often made for criminal prosecutions and more severe penalties in more serious cases. I would recommend that the same should apply for breaches of the Protect Duty. It should be borne in mind that this is an area where the possibility of a severe sentence could have a deterrent effect.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "In my view, there is no good reason to put in place an enforcement regime that is any less rigorous or robust in terms of inspection, enforcement and penalty than that which exists in the parallel health and safety legislation. Given what is at stake, namely the lives of people going about their everyday business, there is every reason to make the Protect Duty equally rigorous and robust.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "Whatever the legislature decides about penalty for breach, inspection and enforcement is likely to be the main deterrent. A proper inspection regime needs to be in force so that serious security breaches are identified and promptly remedied. Even if enforcement is regarded as light touch it is important that there is proper inspection. An effective enforcement regime requires sufficient people to do it properly. All the evidence that I heard suggests that insufficient resources have been put into the present inspection regimes. A proper inspection policy should provide for unannounced inspections as well as planned ones. It may be that the roles of different inspectors can be combined so that for example inspectors looking to see that the Protect Duty was being complied with could also be checking in appropriate locations that licensing conditions are being observed.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "I envisage that this may follow a similar approach to that used in relation to health and safety and food standards. By this I mean the existence of a mechanism for issuing a formal notice setting out the remedial steps which are required in relation to any identified deficiencies. For extreme situations, there must be provision for issuing a notice that prevents a venue from operating until remedial steps have been taken. The notice will provide a timescale for compliance. It will also be necessary to have an appeal process for the adjudication on the appropriateness of the terms of the notice, should there be a dispute. It should be a criminal offence to fail to comply with a valid notice without reasonable excuse.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Audit & Reviews"
           },
           {
             "Recommendation": "Operators, and people who work for them, are often under financial pressure to try and make savings as has been evident during this Inquiry. I understand that is the commercial reality, but it does mean that a proper inspection regime is needed to give some assurance that savings will not be made at the cost of safety. The security measures may be expensive. It must be more costly to an organisation and individuals to cut corners than to comply with the Protect Duty.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "I recommend that enforcement of the Protect Duty is at least as robust and rigorous as comparable regulatory regimes.Communication, coordination and co‑operation between enforcement authorities with overlapping regimes in connection with the Protect Duty8.93 The various regulatory bodies who have responsibility for safety at premises like the Arena need to operate together. CTSAs, the SIA, the Licensing Authority, the Health and Safety Executive and the police all have responsibilities for public safety at premises of this kind. They need to understand what each of them is doing in relation to any particular premises so they do not duplicate but can provide complementary services. I will be reviewing the progress of this as part of my monitoring of the Protect Duty.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "I recommend that regulators and other state agencies with responsibilities that engage with any Protect Duty co‑operate, coordinate and communicate.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Emergency & Risk Management"
           },
           {
             "Recommendation": "As well as looking at measures aimed at preventing a terrorist attack, I recommend that the government should also look at simple measures to help to save lives should an attack occur. It has become clear to me during the evidence that it would be beneficial if employees of companies which have a Protect Duty, including SMG and Showsec, were trained in first aid relevant to injuries of the type caused during the Attack on 22nd May 2017.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
             "Recommendation": "I recommend that Protect Duty‑holders are required to ensure that employees are trained in first aid relevant to injuries which are particularly likely to occur during a terrorist attack.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Law & Regulation"
           },
           {
             "Recommendation": "The suggestion made by Showsec that NaCTSO should set up a centralised online library where it will be possible to access training material is a good one. This will help in particular smaller organisations who cannot afford to employ professional help to assist them with a Protect Duty. Thought will need to be given to how access might be gained to this to ensure that this information is not misused by those seeking to do harm.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Training & Education"
           },
           {
             "Recommendation": "I recommend that NaCTSO sets up a centralised online library for training materials freely accessible to those subject to the Protect Duty.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "New",
+            "ActionCategory": "Technology & Systems"
           },
           {
             "Recommendation": "The approach taken by SMG in its written risk assessments involved a numerical assessment of the likelihood of a terrorist attack. This was then used as a multiplier against a severity score. I have considerable reservations about this approach being used in connection with the threat from terrorism. This concern arises from the potential that a strictly statistical approach may suppress any total score to the point where the risk of a terrorist attack is regarded as being sufficiently low as to be acceptable and no action is taken.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedure"
           },
           {
             "Recommendation": "There are at least three ways that this could be addressed. One option is to remove consideration of likelihood from the process altogether. This will result in a focus on what can be done without providing for an opportunity for the thought, ‘It will not happen to me’, entering the process. Another is to import it only in relation to drawing a distinction between different attack methodologies. Some spaces may be naturally highly protected from a particular form of attack. In those circumstances, having a mechanism to ensure focus is on the more likely methodologies may be advantageous. A third approach may be to ensure that the severity score range is sufficiently wide so that even when a low likelihood is applied, the total score still remains high enough to produce the necessary measures. A high severity score is clearly justified when considering the very high degree of harm a terrorist attack is capable of causing. I do not believe that a range of between 1 to 5, as was used by SMG, is sufficiently wide.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedure"
           },
           {
-            "Recommendation": "However, I have not heard sufficient evidence to express a concluded view  on the best way to complete such a risk assessment. Nor have I heard expert evidence on the subject to inform me. In my view, NaCTSO is likely to have access to the necessary expertise to consider this issue in detail, identify the best approach and issue readily understandable guidance.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "Recommendation": "However, I have not heard sufficient evidence to express a concluded view on the best way to complete such a risk assessment. Nor have I heard expert evidence on the subject to inform me. In my view, NaCTSO is likely to have access to the necessary expertise to consider this issue in detail, identify the best approach and issue readily understandable guidance.",
+            "ChangeType": "More",
+            "ActionCategory": "Communication & Reporting"
           },
           {
-            "Recommendation": "The Health and Safety Executive makes publicly available, via its website, guidance on the completion of a risk assessment, together with a template in the health and safety context.",
-            "ChangeType": "",
-            "ActionCategory": ""
-          },
-          {
-            "Recommendation": "I recommend that a similar facility should be made available by NaCTSO in relating to the risk of a terrorist attack.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "Recommendation": "The Health and Safety Executive makes publicly available, via its website, guidance on the completion of a risk assessment, together with a template in the health and safety context. I recommend that a similar facility should be made available by NaCTSO in relating to the risk of a terrorist attack.",
+            "ChangeType": "New",
+            "ActionCategory": "Technology & Systems"
           },
           {
             "Recommendation": "As I have already set out, the SIA licences individuals working in the security industry to carry out certain activities. Amongst those activities is operating CCTV over a public space. At present, a licence is only required by those who monitor CCTV under a contract for services. In‑house CCTV operators do not need a licence. Although an attempt was made to justify the reasoning for this distinction by Tony Holyland, a senior employee at the SIA, I was unpersuaded. This distinction has been considered in the past, but no change has been made. In‑house operators carry out the same job as those who monitor CCTV under a contract for services. The Inquiry heard evidence that more than one SMG employee who carried out monitoring of CCTVs asked for training but were not given it. There seems to me to be no persuasive reason why a licence should not be mandatory for those operating in‑house as well as those working under a contract for services. I recommend that the distinction is abolished. All of those who monitor CCTV should be required to hold an SIA CCTV operator’s licence.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
             "Recommendation": "In addition to licensing individuals, the SIA runs an Approved Contractor Scheme (ACS). This is a voluntary scheme and, while individuals who carry out security work may require a licence or licences depending on what functions they carry out, companies who provide security and supervise these activities do not. While the ACS provides assurance that the member is a fit and proper person, there is nothing to prevent someone who is not a member of the scheme setting up and running a company providing security services. The SIA promotes good practice through its ACS. But there is no compulsion on companies to become a member or carry out good practice. While checks are made on how a company conducts its business when it applies to join the scheme, self‑certification plays a considerable part in the process.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
           },
           {
             "Recommendation": "I recommend that consideration is given to amending the SIA legislation to require that companies which carry out security work which may include a counter‑terrorism element are required to be licensed. This will ensure that only fit and proper companies carry out this work. It will also ensure that they are aware of and guard against the risks of terrorist attacks at the events where they operate and carry out proper procedures, including training to mitigate those risks.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Law & Regulation"
           },
           {
             "Recommendation": "Training for an SIA qualification is designed to be mainly classroom‑based. The SIA does not provide the training itself nor does it award the qualifications, that is done by independent providers who are subject to quality control. The SIA decides what areas the training has to cover. It is important that the quality of the providers is maintained but, providing that happens, it seemed to me to be a satisfactory system of training.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
             "Recommendation": "Training providers for the SIA qualification are not meant to rely to a large extent on document‑based online teaching, sometimes referred to as e‑learning. While e‑learning is a convenient method of teaching large numbers of people without having to get them all together, the evidence at the Inquiry was that it is difficult to ensure that the training is properly carried out and it may be possible for the student to make it look as if the training has been done when it has not. That was the case with at least one of the employees of Showsec. There was another example of a Showsec employee doing e‑learning on his mobile phone which is unlikely to have been a suitable way to ensure adequate training. Simply using good quality e‑learning material is not sufficient. What is important is ensuring that the trainees have absorbed the learning. As was said in other contexts in the Inquiry, the learning needs to become part of the ‘muscle memory’. I recommend that there should not be undue reliance on e‑learning and its limitations need to be recognised.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Training & Education"
           },
           {
             "Recommendation": "I recommend that if e‑learning is used, there should be follow‑up to ensure that the training has been understood. This can either be done while the job is being carried out or in a classroom. If this follow‑up is carried out while the job is being carried out, it should be timetabled and recorded.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Training & Education"
           },
           {
             "Recommendation": "The SIA says that even with employees who are licence holders, it expects employers to provide continuous training. An issue arose as to whether training should be provided during paid time or during the employees own time. It seemed to be generally accepted within the security and crowd control industry that stewards who have been accepted for work but have not yet started should do their basic training during their own time.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Enforcement & Compliance"
             },
           {
             "Recommendation": "The reason for this is that people who have been accepted as employees not infrequently do not take up the job, having found something else to do. While it is understandable that future employees are not paid for this time, it provides an incentive not to do the training especially as the training at that stage is most frequently e‑learning. This makes it all the more important to ensure that new employees have diligently undertaken this training.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Accountability & Oversight"
           },
           {
             "Recommendation": "I recommend that employees should get further training after they have started their employment and they are paid for that training time. Training is important and it requires both employees and employers to take it seriously. Giving payment for doing it would encourage this and ensure that employees realise that employers take it seriously.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "More",
+            "ActionCategory": "Funding & Resources"
           },
           {
             "Recommendation": "The issue of primacy is relevant to both Volumes 1 and 2 of my Report. For that reason, I will not be giving any final recommendation on primacy until I publish the part of the Report which deals with the emergency response. I have received from BTP and GMP an interim memorandum776 on the policing of the Victoria Exchange Complex for which I am grateful and which I have considered. In case it may be helpful, I will set out my present thinking on the evidence that I have heard so far. While there may be other sites where similar considerations arise and my recommendations may be relevant to them, I do understand that the issues at different sites are likely to be unique both in terms of location and resources.",
@@ -4852,28 +4847,28 @@
       "Recommendations":[
         {
           "Recommendation": "We recommend that the DHSSPS reviews the current regional guidance on infection prevention and control(23) to ensure that trusts have comprehensive outbreak control plans that adequately cover the following elements: • definitions of an outbreak, including an outbreak of an infection in hospitals • the individual(s) who have authority to declare an outbreak • the arrangements for public declaration of an outbreak • the membership, chairmanship, role, responsibilities and accountability of the outbreak control team • the resources that may be required to respond to an outbreak in terms of finance, personnel, equipment and pharmaceuticals • the arrangements for isolating and, where necessary, cohorting infected patients • the arrangements for training staff and keeping them updated • a communications strategy, specific to the outbreak, to include information to staff, patients, relatives and other hospital visitors, the public and the media • the members of staff who will act as liaison and spokespersons with the media, together with their training needs and their information sources.",
-          "ChangeType": "",
-          "ActionCategory": ""
+          "ChangeType": "Different",
+          "ActionCategory": "Law & Regulation"
         },
         {
           "Recommendation": "the Trust should review its outbreak control plan at least annually to ensure that it is kept up to date. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedure"
         },
         {
           "Recommendation": "we recommend that the Trust gives attention to the needs of staff for training and support in caring for patients with CDI, particularly when they are called upon to care for patients during an outbreak and may have to change their area of practice at short notice",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Training & Education"
         },
         {
           "Recommendation": "the Trust should always take account of, and act upon, the advice of infection prevention and control staff. The challenges an outbreak presents to staff at all levels, and the support required to maintain morale must be recognised. Where the help of outside bodies or personnel is needed, the Trust must be aware of the risk that existing staff may consider that their advice, expertise and role has been devalued or rejected. They should be fully involved in the arrangements for collaborating with new teams or additional personnel.  ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory":"Processes & Procedure"
         },        
         {
           "Recommendation": "organisational change should be recognised by the DHSSPS as carrying high risk for patient safety and quality of care, including the potential for a sub-optimal response to an outbreak of a healthcare associated infection. At such times of change, this risk should be addressed specifically and reported in the risk register of all trusts.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory":"Governance & Structure"
         }
       ]
     },
