@@ -1674,8 +1674,8 @@
           },
           {
             "Recommendation": "The code must take into account the importance of freedom of speech, the interests of the public (including the public interest in detecting or exposing crime or serous impropriety, protecting public health and safety and preventing the public from being seriously misled) and the rights of individuals. Specifically, it must cover standards of: (a) conduct, especially in relation to the treatment of other people in the process of obtaining material; (b) appropriate respect for privacy where there is no sufficient public interest justification for breach and (c) accuracy, and the need to avoid misrepresentation.",
-            "ChangeType": "",
-            "ActionCategory": ""
+            "ChangeType": "Different",
+            "ActionCategory": "Processes & Procedure"
           },
           {
             "Recommendation": "The Board should require, of those who subscribe, appropriate internal governance processes, transparency on what governance processes they have in place, and notice of any failures in compliance, together with details of steps taken to deal with failures in compliance",
@@ -3230,7 +3230,124 @@
       "ReportDate": "19/09/2023",
       "Recommendations":[
         {
-          "Recommendation": ""
+          "Recommendation": "Scottish Ministers should undertake a review of public inquiries to determine the most cost-effective method of avoiding delay in the establishment of an inquiry, including consideration of establishing a dedicated unit within the Scottish Courts and Tribunals Service and publishing regularly updated guidance for people involved in the establishment and progress of public inquiries.",
+          "ChangeType": "New",
+          "ActionCategory": "Investigation & Redress"
+        },
+        {
+          "Recommendation": "In any event Scottish Ministers should not appoint as the sponsor of any public inquiry any department, agency or other government organisation where it, or any of its employees, has had any involvement in the project or other event giving rise to the establishment of the public inquiry.",
+          "ChangeType": "Different",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The guidance mentioned in the first recommendation should include: advice concerning the circumstances in which civil servants in the inquiry team may properly transfer to posts, other than promoted posts, within other government departments or agencies; which positions within the administration of a public inquiry may be filled by the employment of agency staff; and whether longer-term contracts as temporary civil servants are more appropriate for particular positions that cannot be filled by permanent civil servants.",
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "In reporting the cost of a public inquiry Scottish Ministers should report its net cost to the public purse, after discounting expenditure already incurred on accommodation, staff and other resources, as well as the total cost appearing in the accounts of the sponsor department.",
+          "ChangeType": "More",
+          "ActionCategory": "Communication & Reporting"
+        },
+        {
+          "Recommendation": "Where the Business Case for any future light rail project is based upon an assumption that, prior to the award of the contract for the construction of the infrastructure, certain matters will have been completed (e.g. design, the obtaining of all necessary approvals and consents or the diversion of utilities), the contract negotiations should be delayed until completion of these matters has been achieved, failing which before any infrastructure contract is signed a new Business Case should be prepared on the basis of the altered assumptions that prevail and should be approved by the promoter and owner of the project.",
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "All versions of the Business Case, including any Business Case required as a result of altered assumptions, should include an assessment of risk that takes account of optimism bias in accordance with the current published government guidance.",
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
+        },
+        {
+          "Recommendation": "The assessment of risk at each stage mentioned in Recommendation 6 should be the subject of a peer review by external consultants with experience of similar large-scale infrastructure projects in the transportation sector who should submit a report of each review to the promoter and owner of the project as well as to the procurement and project manager sufficiently far in advance of the signature of the infrastructure contract to enable the promoter and owner to consider whether to authorise its signature and, as appropriate, to consider any other available options requiring a strategic decision.",
+          "ChangeType": "New",
+          "ActionCategory": "Audit & Reviews"
+        },
+        {
+          "Recommendation": "The existing Guidance on optimism bias was based on empirical data available almost two decades ago and should be revised to take into data that is now available. Thereafter the Guidance should be reviewed and revised to take account of additional data on a regular basis at intervals of not more than five years.",
+          "ChangeType": "New",
+          "ActionCategory": "Investigation & Redress"
+        },
+        {
+          "Recommendation": "The identification and management of risk should be an integral part of the governance of all major public-sector contracts in future. In identifying and managing risk the following principles should be adopted: • Probabilistic forecasts rather than single-point forecasts should be used to take account of the risk appetite of funders and project sponsors. • Funders, sponsors and project managers should be cautious when adjusting uplifts and there should be critical review of claims that mitigation measures have reduced project risk. • Effective governance needs to provide constant challenge and control of the project, including recording of where the project is compared with its baseline, and reacting quickly to get the project back on track, whenever there are signs that it is veering off course. This necessitates providing senior decision-makers with data-driven reports on project performance and forecasts combined with reports by the management team and independent audits. • In reporting to governance bodies there should be special emphasis on detecting early warning signs that the cost, schedule and benefit risks may be materialising so that damage to the project can be prevented. If early warning signs do emerge, the project should revisit assumptions and reassess risk and optimism bias forecasts. • The quality of evidence rather than process is the key to providing effective oversight and validation.",
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "In the interests of protecting the public purse and maximising the benefits from public expenditure on major projects, the Scottish Ministers should contemplate establishing a joint working group consisting of officials in Transport Scotland and representatives of the Convention of Scottish Local Authorities (“COSLA”) to consider how best to take advantage of: • tolerating the risk of cost overrun that is always a possibility in risk assessments by including all public-sector light rail projects in the portfolio of large projects undertaken by the Scottish Government, including those to be constructed wholly within the geographical boundaries of a single local authority; • the greater experience within Transport Scotland of managing major projects in the public sector; and • the necessary skills and expertise within Transport Scotland to deliver the project on time and within budget.",
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The Scottish Ministers and local authorities responsible for funding light rail projects should be mindful at all times of their obligation to protect public funds and to obtain value for public expenditure. In that regard: • the Scottish Ministers should impose conditions on the payments of grants, similar to the “hold points” imposed on the offer of grant made on 19 March 2007 that enable them to review at each “hold point” whether the scheme is continuing to meet its objectives and to determine whether to continue to support the funding and implementation of the scheme; • continued financial support from the Scottish Ministers should require their critical review of all versions of the draft Business Case and their approval of the FBC as well as their review, and approval before their signature, of the draft contracts for the delivery of the project; • the Scottish Ministers should be involved in the delivery of the project as they were before the withdrawal of the support of officials from Transport Scotland in 2007 and following the resumption of infrastructure works after the mediation settlement at Mar Hall; and • as a condition of the grant the local authority should be obliged to comply with the project monitoring and control procedures of Transport Scotland and should ensure that robust, transparent, externally verifiable project controls for the project are in place.",
+          "ChangeType": "More",
+          "ActionCategory": "Enforcement & Compliance"
+        },
+        {
+          "Recommendation": "For reasons of transparency and accountability for public expenditure, the Scottish Ministers should keep minutes of: • the nature and content of any discussions and the reasons for any decisions taken at all meetings, discussions or telephone conversations, and in email or other correspondence between a Minister and civil servants relating to the nature and extent of any involvement by civil servants in the procurement and delivery of a project funded or to be funded in whole or in part from public funds (including a grant from the Scottish Ministers); • all discussions between a Minister and representatives of a local authority, the company responsible for the procurement and delivery of a publicly funded project or the company responsible for its construction to record what was discussed and what, if any, decisions were reached and the reasons for any such decision; • all discussions between a Minister and civil servants including telephone discussions concerning any negotiations, including, but not restricted to, negotiations at mediation, for settling disputes involving contracts funded or to be funded in whole or in part from public funds (including a grant from the Scottish Ministers) to record what was discussed and what, if any, decisions were reached and the reasons for any such decision.",
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
+        },
+        {
+          "Recommendation": "The procurement strategy for any future light rail project should make adequate provision for the uncertainties concerning the location of utilities and redundant equipment belonging to present and past utility companies, particularly in urban centres. In particular, although it is not possible to be prescriptive about the appropriate timescale: • the procurement strategy should include a requirement that the route of the track should be exposed and cleared of utilities well in advance of the infrastructure contractors commencing their work; • the procurement strategy should specify the period that should elapse between the exposure and clearance of the route and the commencement of construction, to ensure that the contractors have unrestricted access to the construction site and may proceed with the infrastructure works unencumbered by the presence of utilities; and • in fixing the period mentioned above, the procurement strategy should take into account the length of the route to be constructed, past experience of the time taken for the diversion of utilities in light rail projects in other parts of the UK and any additional constraints peculiar to the project such as an embargo on work to divert utilities during particular periods such as the festive season or special events (e.g. the Edinburgh Festival).",
+          "ChangeType": "More",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "Although some participants in the Inquiry criticised the use of MUDFA to divert utilities in advance of the infrastructure works and advocated the “bow wave” approach to the diversion of utilities that followed the mediation settlement at Mar Hall, I do not think it appropriate to be prescriptive about how the risks associated with the diversion of utilities are managed. It is sufficient for promoters of light rail schemes to be aware of such risks and to demonstrate that they have adequate proposals for managing them.",
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "In recognition of the various difficulties likely to be experienced in the design and construction of a light rail project through a city centre, the promoter and owner of the project should appoint as its procurement and project manager a company with suitably qualified and experienced permanent employees that has delivered a similar project successfully on time and within budget or can demonstrate that it will be able to do so.",
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "Immediately following the appointment of the designer, and throughout the design of the project, the designer should engage with the promoter and owner of the project, the procurement and project manager, the local planning authority, the utility companies and interested third parties owning land that may be affected by the project to clarify their design criteria. In such discussions throughout the design of the project the promoter and owner of the project should co-ordinate responses to the various stages of design and, in doing so, should take into account the competing interests of different parties and of various departments within any local authority exercising different statutory functions as well as the significance of the project in the context of the community as a whole and should provide all necessary assistance and clear and timeous instructions to the designer to avoid delays and additional expense. In that regard: • prior to the appointment of the designer the local planning authority ought to produce sufficiently detailed design guidelines to enable the designer to take them into account from the outset when designing the tram network and to improve the prospects of obtaining the necessary consents and approvals without requiring repeated re-submission of designs that will result in delay to the project with resultant expense; • throughout the project a collaborative approach should be adopted by the promoter and owner to achieve an early resolution of any design issues that arise; and • the promoter and owner should assume primary responsibility for co-ordinating the local authority’s response and for negotiating the resolution of all issues to enable clear instructions to be issued to the designer and to avoid re-design of sections of the route following reconsideration of matters that have been resolved at an earlier stage.",
+          "ChangeType": "More",
+          "ActionCategory": "Accountability & Oversight"
+        },
+        {
+          "Recommendation": "The governance structure for the delivery of a major project such as a light rail scheme should follow the published guidance and should ensure that there is clarity regarding the respective roles of the various bodies and individuals involved in its delivery. In particular, the chairman of the company responsible for the procurement and management of the project should not also be its chief executive.",
+          "ChangeType": "Different",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "As part of their investigations, representatives of OGC undertaking an independent “readiness review” of a publicly funded project and representatives of any person, including representatives of any public body such as Audit Scotland, undertaking a review of the progress of and/or expenditure on a project funded in whole or in part by public funds should interview key personnel involved in the project to ensure that each of them understands his or her role and is performing it effectively. In preparing any list of key personnel to be interviewed, the individuals undertaking the investigations shall include the person designated as SRO.",
+          "ChangeType": "New",
+          "ActionCategory": "Accountability & Oversight"
+        },
+        {
+          "Recommendation": "At all stages of the project there should be a collaborative approach to delivering it. This should include the co-location of representatives from each organisation relevant to the particular stage reached and having an interest in its completion to enable any issues to be addressed and resolved at the earliest opportunity, thereby minimising the risk of the escalation of disputes with associated delays and increased expense.",
+          "ChangeType": "More",
+          "ActionCategory": "Communication & Reporting"
+        },
+        {
+          "Recommendation": "The directors, employees and consultants of the company responsible for the procurement and delivery of the project as project managers, including an arm’s- length external organisation (“ALEO”) wholly owned by the local authority that is the promoter and owner of the project, should not submit to the local authority information that is deceptive or reports that are misleading either by the inclusion of false statements or by the omission of references to facts that might influence the strategic decisions of councillors if they were disclosed. In that regard they should recognise and respect the need for local authority officials to scrutinise and challenge the accuracy of information and reports submitted to them and should not seek to frustrate, or interfere with, the instruction of independent consultants to advise officials on the accuracy of the risk assessment in such reports or on the terms of any draft contracts for which they seek authority to sign.",
+          "ChangeType": "Different",
+          "ActionCategory": "Communication & Reporting"
+        },
+        {
+          "Recommendation": "Local authority officials should be mindful at all times of the distinction in roles between them and councillors, who are solely responsible for strategic decisions, and of their duty to provide accurate reports to councillors to enable them to take informed decisions based upon the reality of the situation. Such reports should not be misleading either by the inclusion of false statements or by the omission of relevant facts. Where officials prepare and submit reports based upon reports to them from an ALEO acting as the procurement and delivery vehicle, they should not assume the accuracy of these reports based upon the adoption of a “one family” approach involving the local authority and the ALEO.",
+          "ChangeType": "Different",
+          "ActionCategory": "Documentation & Records"
+        },
+        {
+          "Recommendation": "Where a company, including an ALEO, knowingly submits a report or other information to local authority officials that is misleading by reason of the inclusion of false statements or the omission of relevant facts or where such officials knowingly submit misleading information to councillors, whether or not councillors act upon that information, the Scottish Ministers should consider whether there should be an appropriate sanction in damages against the relevant individuals within the company responsible for the false statements or omission of relevant facts, as well as against the company itself, and against the relevant local authority officials involved in misleading councillors.",
+          "ChangeType": "Different",
+          "ActionCategory": "Enforcement & Compliance"
+        },
+        {
+          "Recommendation": "In addition to any civil liability arising from any sanction introduced in accordance with Recommendation 22, the Scottish Ministers should consider whether there is a need for a statutory criminal offence involving strict liability once it is established that the information and/or report was misleading by reason of the inclusion of false statements or the omission of relevant facts.",
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
+        },
+        {
+          "Recommendation": "The Scottish Ministers should also give consideration to the need for legislation to impose a similar duty of disclosure to that owed by policyholders to their insurers upon a company, its directors, employees or consultants and upon a local authority and its officials towards representatives of OGC or of Audit Scotland undertaking any review of a publicly funded project. Any such legislation should determine the appropriate civil and/or criminal sanctions to be imposed for breach of the duty of disclosure.",
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
         }
       ]
     },
@@ -3260,6 +3377,7 @@
       "ReportDate": "24/11/2014",
       "Recommendations":[
         {
+           
           "Recommendation": ""
         }
       ]
