@@ -3015,7 +3015,7 @@
         },
         {
           "Recommendation": "The Government should reconsider whether, in the light of the facts revealed by this Inquiry, it is sufficient to continue to rely on the current non-statutory duties in the Civil Service and Ministerial Codes, coupled with those legal duties which occur on the occasions when civil servants and ministers interact with courts, inquests and inquiries, as securing candour.",
-          "ChangeType":"Different",
+          "ChangeType": "Different",
           "ActionCategory": "Law & Regulation"
         },
         {
@@ -3030,22 +3030,22 @@
         },
         {
           "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care those who have been diagnosed with cirrhosis at any point should receive lifetime monitoring by way of six-monthly fibroscans and annual clinical review, either nurse-led, consultant-led or, where appropriate, by a GP with a specialist interest in hepatitis",
-          "ChangeType":"New",
+          "ChangeType": "New",
           "ActionCategory": "Support & Welfare"
         },
         {
           "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care:those who have fibrosis should receive the same care",
-          "ChangeType":"More",
+          "ChangeType": "More",
           "ActionCategory": "Support & Welfare"
         },
         {
           "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: where there is any uncertainty about whether a patient has fibrosis they should receive the same care",
-          "ChangeType":"More",
+          "ChangeType": "More",
           "ActionCategory": "Support & Welfare"
         },
         {
           "Recommendation": "All patients who have contracted hepatitis via a blood transfusion or blood products should receive the following care: fibroscan technology should be used for liver imaging, rather than alternatives",
-          "ChangeType":"More",
+          "ChangeType": "More",
           "ActionCategory": "Technology & Systems"
         },
         {
@@ -4690,7 +4690,7 @@
       "Recommendations":[
         {
           "Recommendation": "There should be clearer guidance from the MPS, College of Policing and/or the NPCC on the separation of roles between the Senior Investigating Officer (SIO) and the Tactical and Strategic Firearms Commanders (TFC and SFC). The guidance should be clear that not only should the SIO and TFC/SFC be different individuals, but the importance of the separation of responsibilities under those roles should also be emphasised.",
-          "ChangeType":"Different",
+          "ChangeType": "Different",
           "ActionCategory": "Governance & Structure"
         },
         {
@@ -4966,12 +4966,12 @@
         {
           "Recommendation": "the Trust should always take account of, and act upon, the advice of infection prevention and control staff. The challenges an outbreak presents to staff at all levels, and the support required to maintain morale must be recognised. Where the help of outside bodies or personnel is needed, the Trust must be aware of the risk that existing staff may consider that their advice, expertise and role has been devalued or rejected. They should be fully involved in the arrangements for collaborating with new teams or additional personnel.  ",
           "ChangeType": "Different",
-          "ActionCategory":"Processes & Procedure"
+          "ActionCategory": "Processes & Procedure"
         },        
         {
           "Recommendation": "organisational change should be recognised by the DHSSPS as carrying high risk for patient safety and quality of care, including the potential for a sub-optimal response to an outbreak of a healthcare associated infection. At such times of change, this risk should be addressed specifically and reported in the risk register of all trusts.",
           "ChangeType": "Different",
-          "ActionCategory":"Governance & Structure"
+          "ActionCategory": "Governance & Structure"
         }
       ]
     },
@@ -4982,223 +4982,223 @@
       "Recommendations":[
         {
           "Recommendation": "A new policy at its earliest stage should be subject to a rigorous process to determine whether the Northern Ireland devolved administration has (or is prepared to assign) the necessary skills and resources to deliver the policy safely and competently. The scope for economies of scale through working in partnership with another administration (for example a Westminster Department, another of the devolved administrations or cityregions within the UK or, in appropriate circumstances, the Republic of Ireland) should be thoroughly examined and the assessment of joint working options made visible to Ministers and the relevant Assembly Committee. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedure"
         },
         {
           "Recommendation": "Novel, potentially volatile and untested initiatives should in future be scrutinised thoroughly, well ahead of ministerial and business case approval. The Inquiry commends processes such as a ‘starting point Gateway assessment’ and, at a suitable point, a ‘feasibility signoff’ completed by the Department’s Accounting Officer. With regard to particular policies driven by unpredictable demand, consideration should always be given, before the policy is implemented, to the inclusion of a clearly drafted statutory power to enable swift action to be taken to suspend and/or close the scheme in order to bring it under control.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedure"
         },
         {
           "Recommendation": "As far as practicable, Northern Ireland Civil Service teams working on policies, particularly new and untested initiatives, should be trained and supported so that they have the skills to do the job, not least the ability to model the policy, the skills to test it in advance under different conditions and scenarios, and the self-awareness to seek and use external challenge.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Training & Education"
         },
         {
           "Recommendation": "A lesson from the RHI experience is that action is needed to raise and sustain the quality of advice to Ministers and the clarity with which it is expressed. Options must be properly evaluated and, at the point of formal decisions, advice must be clear, comprehensive and impartial. Risks should be clearly and realistically stated, with an account of the implementation challenges and how the policy will work on the ground. In particular, when relevant because of the nature of the policy, Ministers should be informed at the outset of how the initiative may be suspended or closed if it gets into difficulty. Ministers should in future expect, and Departments should put in place systems to ensure, that officials provide regular and accurate information about how implementation is working in practice, especially when a third party is involved in implementing and/or administering a scheme or policy. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Communication & Reporting"
         },
         {
           "Recommendation": "One role of Ministers in a democratic system is to decide on policies and they can only do so effectively if they are prepared, in appropriate cases, to question and challenge material put to them in submissions and regulatory impact assessments. Ministers should be given training on their role in relation to policy, legislation and on the working of public expenditure and value for money. More should also be done to provide (a) comprehensive departmental induction and information, which should include frank disclosure of any specific difficulties and problems involved in a particular scheme or policy area; and (b) greater support in the form of a properly resourced Private Office. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Training & Education"
         },
         {
           "Recommendation": "Under existing arrangements, Northern Ireland Ministers should be responsible for their Special Advisers. New or returning Ministers should be invited to convey to the relevant Permanent Secretary, and make transparent to the Department, how the Minister expects his or her Special Adviser to fulfil their role in relation to considering submissions and associated background documents. There should be clarity with regard to the Minister’s and the Special Adviser’s respective roles in terms of reading, advising and commenting upon submissions, technical reports and other documentation advanced as a basis for ministerial decisions. The advisory role of the Special Adviser in relation to ministerial decision-making, including the sequencing of consideration by the Special Adviser and the Minister, should be clearly set out for officials to understand. This should include provision for exceptional circumstances in which, and the means by which, the usual  procedures may need to be adapted, for example in cases of particular urgency or when a Minister is abroad on official business or on leave. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "There should be a clearly defined induction process for new Special Advisers, shared by the appointing Minister and the relevant Permanent Secretary, in the course of which the structure and work of the relevant Department, the terms of the Special Advisers Model Contract, the Code Governing Appointment of Special Advisers, the relevant NICS Codes of Conduct and the role, responsibilities, accountability and obligations of advisers should be carefully explained. Such a process should involve practical preparation and training and not be limited to the provision of documents. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedure"
         },
         {
           "Recommendation": "A fundamental shift is needed in the approach used within the Northern Ireland Civil Service with regard to recruitment and selection for government jobs. This must involve an up-front assessment of the skills that are required to fulfil the specific role in question, rather than matching a person to a role according to an individual’s grade and level of pay. In time the Inquiry believes this should lead towards more job-specific recruitment and selection which must, of course, be fair, transparent and consistent with relevant employment legislation. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedure"
         },
         {
           "Recommendation": "Commercial and business awareness amongst policy officials, particularly those working in roles relating to the economy of Northern Ireland, must be improved. It is important that the leadership of the Northern Ireland Civil Service also devise and provide clear guidance and training to relevant staff about the identification and handling of commercially sensitive information, including when engaging with third parties. This should include a clear process for escalating queries in relation to, and seeking clearance in respect of, what can be shared by officials, where necessary. In addition, a wider range of opportunities and encouragement for policy civil servants to gain front-line business/ commercial and operational experience would be of benefit. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Training & Education"
         },
         {
           "Recommendation": "The Northern Ireland Civil Service should consider what changes are needed to its guidance and practices on the use of external consultants arising from the experience of RHI. Specific recommendations include:  (a) that better assessments are needed at the outset of a given policy or project preprocurement, as to what type of specialist support is to be sought from amongst the different types of available consultancies – for example, contracted-in specialist skills or stand-alone advisory reports or some appropriate combination of both; and  (b) that far greater emphasis should be placed upon the resources and capabilities of the relevant Civil Service teams to manage the consultants and to make effective use of their input, including knowledge transfer and retention after any consultancy contract has ended. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedure"
         },
         {
           "Recommendation": "Best practice project and risk management disciplines should be the default practice within the Northern Ireland Civil Service when developing novel and complex policies and managing their implementation. These disciplines can be widely applied and should not be confined only to major or capital projects. They can be tailored to the specific circumstances of an initiative and are especially important when implementing policies designed to change behaviour or to make incentive payments to individuals or businesses. If there is insufficient resource to implement adequate project management then projects should not proceed.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Enforcement & Compliance" 
         },
         {
           "Recommendation": "The leaders of the Northern Ireland Civil Service should work with Invest Northern Ireland and the Strategic Investment Board to consider how both organisations can better contribute their expertise to the work of mainstream Departments, particularly in relation to good practice on implementation of programmes and project management. This could for example include providing advice at the early stages of policy development; ‘tyrekicking’ and challenge; and joint training and job exchange schemes. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Governance & Structure"
         },
         {
-          "Recommendation": "Project boards are an essential element of project management oversight and must include individuals who can challenge and who are not directly responsible for the dayto-day delivery of the project. Such boards, in appropriate circumstances, can benefit greatly from the inclusion of individuals external to the Northern Ireland Civil Service, preferably with experience/expertise in the project subject matter",
-          "ChangeType": "",
-          "ActionCategory":""
+          "Recommendation": "Project boards are an essential element of project management oversight and must include individuals who can challenge and who are not directly responsible for the day to-day delivery of the project. Such boards, in appropriate circumstances, can benefit greatly from the inclusion of individuals external to the Northern Ireland Civil Service, preferably with experience/expertise in the project subject matter",
+          "ChangeType": "Different",
+          "ActionCategory": "Governance & Structure"
         },
         {
           "Recommendation": "The risks involved in implementation of an initiative must be tracked, re-considered regularly and used to manage, improve and adjust the project in real time. How the risks are being acted upon should be reported to the Project Board and to the relevant Minister. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Technology & Systems"
         },
         {
           "Recommendation": "Co-ordination of groups of projects aiming to achieve change in a particular sector – e.g. renewable energy projects – would be stronger through use of high level Programme Boards. Such boards should meet regularly and receive reports of relevant experience as to how the projects are working ‘on the ground’. Had such a board existed, taken such reports and met regularly in relation to the NI non-domestic RHI scheme, it could have provided a forum for the exchange of knowledge and communication between the concerned Departments and agencies (DETI/DfE, Invest NI, DFP/DoF, DARD/DAERA and CAFRE). ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
         },
         {
           "Recommendation": "Where other government bodies, such as Ofgem, or contractors or other third parties are involved in the implementation of a project, the ‘home’ Department must retain overall control and overall project management. The governance arrangement between the Northern Ireland Department and the third party must be owned and led at a senior level in the Department. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "The Northern Ireland Civil Service should take steps to draw on best practice from other jurisdictions to provide more support for professions within the civil service. The Inquiry specifically recommends:  (a) the establishment of a project management profession with a named senior leader and a comprehensive programme of professional development; and (b) the development of improved professional opportunities for finance professionals and for economists within the Northern Ireland Civil Service. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
         },
         {
           "Recommendation": "More generally, we recommend a Northern Ireland government-wide framework for information exchange and, where appropriate, co-operation between the Northern Ireland Civil Service, Whitehall Departments and (where relevant) Departments of other devolved Governments and of the Government of the Republic of Ireland.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Communication & Reporting"
         },
         {
           "Recommendation": "The processes within a Department for approving new expenditure and business cases including, where it forms part of that process, the role of Casework Committees, should be thoroughly re-designed to be more rigorous, testing and independent. Such processes should be less bureaucratic and pay greater attention to examining the unique features of the project proposed. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Governance & Structure"
         },
         {
           "Recommendation": "Public expenditure rules should be sufficiently flexible so that false economies can be avoided. In order to deliver a policy objective, Departments should not be required to choose a more expensive option in overall terms because they cannot use the available funding in a flexible cost-effective way. The Department of Finance should engage with HMT to determine how such false economies, impacting as they must on the value for money taxpayers receive for the funds they provide, can be identified and avoided in the future in respect of government initiatives in Northern Ireland. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Funding & Resources"
         },
         {
           "Recommendation": "The Department of Finance’s distinctive role in scrutinising business cases should be searching and sceptical, guarding against over-reliance on the assurances offered by the applicant Department. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "Particularly where a policy initiative is demand-led, novel, complex and/or likely to be lengthy, consideration should be given to increasing Department of Finance involvement from an early stage and on an ongoing basis, including a more proactive role in monitoring the financial progress of the relevant initiative, rather than merely reactively dealing with periodic requests for additional expenditure or approval.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Funding & Resources"
         },
         {
           "Recommendation": "Ministers should always be advised of any conditions attached to the approval of a policy or project by the Department of Finance. The Department of Finance should also require, and be kept informed of, regular reviews to ensure compliance with such conditions by the spending Department. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Communication & Reporting"
         },
         {
           "Recommendation": "Senior managers in the Civil Service must take responsibility for guiding and, where necessary, sequencing the timing of staff moves so that continuity of business is secured. This includes allowing sufficient time for transferring staff to hand over, and discuss in person, responsibilities with their successors. The Northern Ireland Civil Service should consider allowing those managers more flexibility in handling the timing of staff moves (e.g. in terms of retention, allowances and promotion in role) to help secure business continuity on complex projects. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "In light of their legal responsibility to direct and control the Department for which they are responsible, and their democratic accountability to the Northern Ireland Assembly, ministerial decisions should be taken by Ministers (in conjunction with other ministerial colleagues, where appropriate) and by no one else.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "Notes of significant meetings between officials and ministers, particularly those affecting decision-making and spending, must be taken and retained. The responsibility for ensuring this is done should be clearly identified and compliance should be ensured in practice.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
         },
         {
           "Recommendation": "Ministers’ responses to submissions should be formally and timeously recorded and disseminated to officials by the Minister’s Private Office. That responsibility should not be left to policy teams. One clear corollary is the need for a better system to carry out these essential administrative tasks and the Inquiry recommends a much stronger role  for ministerial Private Offices which should be staffed by officials capable of supporting Ministers in this and other tasks to a high standard. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
         },
         {
           "Recommendation": "The culture and practice of record keeping and access to records within the Northern Ireland Civil Service needs to change so that staff responsible for a given area of work have easy access to the analysis and decisions underpinning the policy or initiative on which they are engaged. Regular audits of record keeping should be undertaken so as to ensure that important information is recorded, is easily identifiable, is readily accessible and remains so for as long as is necessary in respect of any policy or initiative. In addressing this recommendation, there should be a review of the NICS electronic information management system and how it is used by civil servants. Steps should be taken to ensure that the systems which civil servants are expected to use are fit for purpose and facilitate the easy saving, storage and subsequent location and use of relevant material.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedure"
         },
         {
           "Recommendation": "The finance function within a Department should exert the necessary authority and capability to fulfil the requirements of ‘Managing Public Money Northern Ireland’, namely to retain a firm grasp of the organisation’s financial position and performance. The Inquiry recommends that the Department of Finance take action to review and, if necessary, strengthen the leadership of and support for the finance functions within Departments of the Northern Ireland Government. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
           "Recommendation": "Civil servants who are responsible for holding and monitoring a budget should have to demonstrate core requirements in financial literacy and an understanding of how public spending operates, including what is expected of them according to the core guidance contained in ‘Managing Public Money Northern Ireland’. The Inquiry recommends that the financial training requirements for budget holders be reviewed and updated.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Training & Education"
         },
         {
           "Recommendation": "Any imperative to spend a budget within a given timeframe should not be allowed to take precedence over how that budget is used and the longer term benefits and overall value of such expenditure. Ministers, Special Advisers and the Northern Ireland Civil Service all share responsibility for ensuring best practice in the use of taxpayers’ money",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "The checks and balances within a Department designed to catch problems early failed over many years in DETI to identify certain of the risks of the RHI or their materialisation. All Departments would benefit from reviewing how their governance systems work in practice in order to ensure that they are widely understood and actively used by staff. Leaders should set the tone and expectation for strong governance and risk management. Civil servants should be encouraged not to feel in any way inhibited about disclosing possible or emerging problems, raising concerns, negative aspects or adverse criticisms of a project as necessary to ensure that decisions are properly informed. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Investigation & Redress"
         },
         {
           "Recommendation": "The protocol for relations with HMT, namely that the Northern Ireland Department of Finance must be the sole conduit of formal communication, should be reinforced and widely understood across the Northern Ireland Civil Service. The Department of Finance, for its part, must recognise that its unique relationship with HMT places on its officials a responsibility to be alert to, and act expeditiously upon, the requirements of all other Departments in matters relating to HMT; and to communicate clearly and effectively with those Departments as to HMT’s position in respect of the spending Department’s financial envelope. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "The Northern Ireland Civil Service should have regard to best practice elsewhere about how to respond effectively when serious problems emerge, such as those that did so with the non-domestic NI RHI in the summer of 2015, by, for example, establishing a parallel investigatory team and/or developing a specialist capacity within the internal audit service that can be rapidly deployed to assess the situation. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedure"
         },
         {
           "Recommendation": "Better systems are needed for spotting early warnings and concerns from the public and businesses that something unexpected could be happening or going wrong with an initiative. Simply updating existing complaints and whistle-blowing policies, although helpful, will not be sufficient, since relevant intelligence often does not come through these routes. The default response amongst officials should be one of curiosity rather than assuming the concern is misplaced. We recommend that all Northern Ireland Departments review their processes for obtaining, handling and responding to information from multiple routes, to ensure that they have robust systems to pick up early warnings and repeated signals, as well as evidence that a policy is working as intended. Consideration should be given, in appropriate cases, to encouraging relevant officials to investigate the implementation and operation of a scheme in practice. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Audits & Reviews"
         },
         {
           "Recommendation": "The Northern Ireland Civil Service should develop a better process to learn from past failures, one that goes beyond the traditional method of revising and circulating internal guidance. Leaders within the Senior Civil Service must be more systematic, persistent and proactive in explaining to staff what changes are needed and supporting staff to adapt their working practices. A tougher level of external scrutiny, such as from the nonexecutives on the boards of Departments and from strengthened Assembly Committees, while no guarantee of success, would increase scrutiny and help ensure that systematic changes are made and sustained. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedure"
         },
         {
           "Recommendation": "In keeping with the spirit of the Ministerial Pledge of Office, the Northern Ireland political parties, supported by the Northern Ireland Civil Service, should together agree a set of actions to reduce organisational silos arising between the government Departments and their linked public bodies and to promote behaviours of collaboration and joined-up departmental working in the interests of the whole Northern Ireland community",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Governance & Structure"
         },
         {
           "Recommendation": "The Northern Ireland Assembly should consider what steps are needed to strengthen its scrutiny role, particularly as conducted by Assembly Committees, in the light of lessons from the RHI. While it will be for the Assembly itself to decide, the Inquiry recommends that such a consideration might include significantly increasing the resources available to statutory committees and, generally, identifying what steps are needed to improve the effective scrutiny of Departments and their initiatives, whether in Assembly Committees or in the Assembly Chamber itself.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Enforcement & Compliance"
         },
         {
           "Recommendation": "Any Minister presenting the Assembly with legislation for approval should sufficiently read and familiarise themselves with that legislation and ensure an adequate evidence base is publicly available to demonstrate that the benefits justify any attendant costs. ",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Processes & Procedure"
         },
         {
           "Recommendation": "Ministers, Special Advisers and officials in Northern Ireland government Departments should declare their interests annually in writing. When any conflict of interest arises during the course of government business each individual should understand that he/she has an obligation formally to declare that conflict and ensure that it has been recorded. Departments, for their part, must have and implement clear policies and procedures so that all those concerned know what they have to do and when. The relevant existing policies and practices should be tightened up and rigorously implemented to ensure they are consistent with best practice. Conflicts of Interest guidance published by the Northern Ireland Audit Office in 2015 is a good baseline. We further recommend that the registers of interests be made public.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Communication & Reporting"
         },
         {
           "Recommendation": "The Special Adviser Code of Conduct should be revised. How these changes are achieved will need to be a matter for the political representatives concerned in the construction of a system in which the public can have confidence. The Inquiry’s findings suggest the following ought to be considered for inclusion in a revised code:  • the accountability of a SpAd to his/her appointing Minister and clarity as to the responsibilities of each;  • clarity about the working relationship between SpAds based in Departments and SpAds in the Executive Office;  • responsibilities of SpAds to the Executive as a whole;  • with whom and how SpAds should register their interests;  • how SpAds should act when conflicts of interests arise, cross-referencing to departmental requirements on how such conflicts should be identified, reported and managed;  • SpAds’ duty of confidentiality, cross-referencing to their employment terms under the Civil Service code;  • expectations and rules for SpAds when handling and emailing official information;  • guidance about use of personal email addresses and personal mobiles for official business;  • protocol for handling disputes between a Minister and a SpAd;  • clarity on the routes for handling grievances and disciplinary matters;  • guidance on dealing with party political matters, and on interacting with party officials; and  • the need for an office to be responsible for periodic updating of the SpAd Code of Conduct.  Any revised SpAd code should be published. In the meantime, should SpAds come to be appointed before a revised code takes effect, the Inquiry recommends that there should be robust compliance with both the letter and spirit of the Civil Service (Special Advisers) Act (Northern Ireland) 2013 and the codes emanating therefrom approved by the Assembly.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Law & Regulation"
         },
         {
           "Recommendation": "The Code of Conduct issued to Northern Ireland Ministers in 2007 (contained within the Northern Ireland Ministerial Code 2006) should be revised and brought up to date reflecting the findings of the RHI Inquiry and drawing on relevant best practice standards from ministerial codes of conduct used elsewhere in the UK and indeed from Northern Ireland’s earlier Ministerial Code of 2000. This should be a priority for the Northern Ireland Executive. From the experience of this Inquiry, a revised code would among other things:  • explain how Ministers are expected to fulfil their responsibilities when leading a Department and determining a Department’s policies;  • make clear that Ministers have an active role in questioning and challenging the advice they receive;  • cross-reference to Ministers’ duties under “Managing Public Money Northern Ireland”;  • be clear that, unless and until the legislation is changed, each Minister is individually responsible for the recruitment, management and discipline of his/her SpAd, including for observing the Northern Ireland laws and guidance in force in relation to SpAds;  • clarify expectations about collaboration and joint working between Ministers of different Departments as well as an individual Minister’s responsibility to support the Government in Northern Ireland as a whole; Consideration should also include whether recent changes to the Westminster, Scottish Executive and Welsh Government Ministerial Codes of Conduct could be relevant to the Northern Ireland context. For example, the Westminster Ministerial Code of August 2019 published by the Cabinet Office specifically provides at paragraph 3.3 that “The responsibility for the management and conduct of Special Advisers, including discipline, rests with the Minister who made the appointment. Individual Ministers will be accountable to the Prime Minister, Parliament and the public for their actions and decisions in respect of their Special Advisers.”",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "Different",
+          "ActionCategory": "Law & Regulation"
         },
         {
           "Recommendation": "In addition, the Northern Ireland Executive and Assembly ought, in the Inquiry’s view, to give due consideration to an independent mechanism to assess compliance with codes of conduct in public life as they apply to Ministers and Special Advisers. Whatever route is chosen, there must in future also be a focus on keeping standards of conduct clear, consistent, up-to-date and reflective of good practice. How this is done will be a matter for debate, but the principles of independence, transparency and periodic reporting to the people of Northern Ireland must be at the core.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "New",
+          "ActionCategory": "Accountability & Oversight"
         },
         {
           "Recommendation": "The recommendations for change made here, to the extent they are adopted, will take time to implement; they may indeed not even be sufficient to address the range of shortcomings revealed by the Inquiry. The Inquiry therefore recommends a role in future for the Northern Ireland Audit Office in assessing and validating the extent of progress in implementing the lessons learned from the NI RHI scheme and implementing these recommendations, including reporting on such progress periodically to the Northern Ireland Assembly and the people of Northern Ireland. The Inquiry further recommends that the Northern Ireland Audit Office is provided with sufficient additional resources so as to enable it to perform such a role.",
-          "ChangeType": "",
-          "ActionCategory":""
+          "ChangeType": "More",
+          "ActionCategory": "Investigation & Redress"
         }
       ]
     }
