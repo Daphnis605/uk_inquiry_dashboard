@@ -193,31 +193,33 @@
             createZoomableSunburst(actionsData, "#actionsSunburstChart");
         });
 
-    // Breadcrumb dimensions
-    const breadcrumbWidth = 120;
-    const breadcrumbHeight = 30;
-    const breadcrumbSpacing = 3;
-    const breadcrumbTipWidth = 10;
+    // Scale factor
+    const scaleFactor = 1.5;
+
+    // Scaled breadcrumb dimensions
+    const breadcrumbWidth = 120 * scaleFactor;
+    const breadcrumbHeight = 30 * scaleFactor;
+    const breadcrumbSpacing = 3 * scaleFactor;
+    const breadcrumbTipWidth = 10 * scaleFactor;
 
     // Adjust breadcrumb container height to make space for the recommendation rectangle
     const breadcrumbSvg = d3.select("#actionsSunburstChart") // Append to the sunburst chart container
         .append("svg")
         .attr("id", "breadcrumb")
-        .attr("width", 800) // Adjust width as needed
+        .attr("width", 800 * scaleFactor) // Adjust width as needed
         .attr("height", breadcrumbHeight + 70) // Increase height to make space for the rectangle
-        .style("font", "10px sans-serif")
-        .style("margin-bottom", "20px"); // Add spacing below the breadcrumb trail
+        .style("font", `${12 * scaleFactor}px sans-serif`); // Scale font size
 
     // Function to generate breadcrumb points
-    function breadcrumbPoints(d, i) {
+    function generateBreadcrumbPoints(width, height, tipWidth, index) {
         const points = [];
-        points.push("0,0");
-        points.push(`${breadcrumbWidth},0`);
-        points.push(`${breadcrumbWidth + breadcrumbTipWidth},${breadcrumbHeight / 2}`);
-        points.push(`${breadcrumbWidth},${breadcrumbHeight}`);
-        points.push(`0,${breadcrumbHeight}`);
-        if (i > 0) { // Add a tip for all but the first breadcrumb
-            points.push(`${breadcrumbTipWidth},${breadcrumbHeight / 2}`);
+        points.push(`0,0`);
+        points.push(`${width},0`);
+        points.push(`${width + tipWidth},${height / 2}`);
+        points.push(`${width},${height}`);
+        points.push(`0,${height}`);
+        if (index > 0) { // Add a tip for all but the first breadcrumb
+            points.push(`${tipWidth},${height / 2}`);
         }
         return points.join(" ");
     }
@@ -239,7 +241,7 @@
         // Enter new breadcrumb elements
         const breadcrumbEnter = breadcrumb.enter().append("g")
             .attr("transform", (d, i) => {
-                const textWidth = getTextWidth(d.data.name, "10px sans-serif") + 20; // Add padding
+                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
                 const xOffset = totalWidth;
                 totalWidth += textWidth; // Accumulate total width
                 return `translate(${xOffset}, 0)`;
@@ -248,7 +250,7 @@
         // Append the polygon for each breadcrumb
         breadcrumbEnter.append("polygon")
             .attr("points", (d, i) => {
-                const textWidth = getTextWidth(d.data.name, "10px sans-serif") + 20; // Add padding
+                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
                 return generateBreadcrumbPoints(textWidth, breadcrumbHeight, breadcrumbTipWidth, i);
             })
             .attr("fill", d => {
@@ -265,8 +267,8 @@
         // Append the label for each breadcrumb
         breadcrumbEnter.append("text")
             .attr("x", (d, i) => {
-                const textWidth = getTextWidth(d.data.name, "10px sans-serif") + 20; // Add padding
-                return textWidth / 2;
+                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
+                return textWidth / 2 + 5; // Shift slightly to the right
             })
             .attr("y", breadcrumbHeight / 2)
             .attr("dy", "0.35em")
@@ -278,6 +280,7 @@
                     return "black"; // Black text for default white polygons
                 }
             })
+            .style("font", `${12 * scaleFactor}px sans-serif`) // Scale font size
             .text(d => d.data.name); // Add the label text
 
         // Remove old breadcrumb elements
@@ -307,10 +310,10 @@
             .attr("class", "temp-recommendation-text")
             .attr("x", 0)
             .attr("y", 0)
-            .style("font", "12px sans-serif")
+            .style("font", `${12 * scaleFactor}px sans-serif`) // Scale font size
             .text(recommendationText);
 
-        const lineHeight = 16; // Approximate line height in pixels
+        const lineHeight = 16 * scaleFactor; // Scale line height
         const maxLineWidth = breadcrumbWidth - 20; // Add some padding
         const words = recommendationText.split(/\s+/);
         let line = [];
@@ -320,14 +323,14 @@
         // Wrap text into lines
         words.forEach(word => {
             const testLine = [...line, word].join(" ");
-            const testLineWidth = getTextWidth(testLine, "12px sans-serif");
+            const testLineWidth = getTextWidth(testLine, `${12 * scaleFactor}px sans-serif`);
             if (testLineWidth <= maxLineWidth) {
                 line.push(word);
                 currentLineWidth = testLineWidth;
             } else {
                 lines.push(line.join(" "));
                 line = [word];
-                currentLineWidth = getTextWidth(word, "12px sans-serif");
+                currentLineWidth = getTextWidth(word, `${12 * scaleFactor}px sans-serif`);
             }
         });
         if (line.length) lines.push(line.join(" "));
@@ -362,7 +365,7 @@
                 .attr("y", breadcrumbHeight + 10 + (i + 1) * lineHeight) // Position each line
                 .attr("text-anchor", "middle")
                 .attr("fill", "black")
-                .style("font", "12px sans-serif")
+                .style("font", `${12 * scaleFactor}px sans-serif`) // Scale font size
                 .text(line);
         });
     }
