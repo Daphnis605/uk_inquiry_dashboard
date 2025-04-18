@@ -263,8 +263,13 @@
             .attr("fill-opacity", d => +labelVisible(d.current))
             .attr("transform", d => labelTransform(d.current))
             .each(function(d) {
-                const arcWidth = (d.x1 - d.x0) * radius; // Calculate the arc width
-                const maxCharsPerLine = Math.floor(arcWidth / 6); // Approximate max characters per line (adjust as needed)
+                // Use the provided innerRadius and outerRadius
+                const innerRadius = d.y0 * radius;
+                const outerRadius = d.y1 * radius;
+                const arcWidth = (outerRadius - innerRadius); // Effective arc width is the radial difference
+                const maxCharsPerLine = Math.floor(arcWidth / 8); // Approximate max characters per line (adjust as needed)
+
+                // Split the text into words and wrap it
                 const words = d.data.name.split(/\s+/); // Split the text into words
                 let line = [];
                 let lines = [];
@@ -284,6 +289,7 @@
                 const lineHeight = 1.1; // Line height in em
                 const offset = -(totalLines - 1) * lineHeight / 2; // Center the text block
 
+                // Add the lines as tspans
                 const tspan = d3.select(this)
                     .selectAll("tspan")
                     .data(lines)
