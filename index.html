@@ -159,18 +159,32 @@
                 name: "root",
                 children: data.map(dept => ({
                     name: dept['Administration-or-Department'],
-                    children: dept.Inquiries.flatMap(inquiry => 
-                        inquiry.Recommendations.map(rec => ({
-                            name: rec.ActionCategory,
-                            children: [{
-                                name: rec.ChangeType,
-                                children: [{
-                                    name: rec.Recommendation,
-                                    value: 1
-                                }]
-                            }]
-                        }))
-                    )
+                    children: dept.Inquiries.map(inquiry => ({
+                        name: inquiry.InquiryName,
+                        children: inquiry.Recommendations.reduce((acc, rec) => {
+                            // Find or create the Action Category group
+                            let actionCategoryGroup = acc.find(group => group.name === rec.ActionCategory);
+                            if (!actionCategoryGroup) {
+                                actionCategoryGroup = { name: rec.ActionCategory, children: [] };
+                                acc.push(actionCategoryGroup);
+                            }
+
+                            // Find or create the Change Type group within the Action Category group
+                            let changeTypeGroup = actionCategoryGroup.children.find(group => group.name === rec.ChangeType);
+                            if (!changeTypeGroup) {
+                                changeTypeGroup = { name: rec.ChangeType, children: [] };
+                                actionCategoryGroup.children.push(changeTypeGroup);
+                            }
+
+                            // Add the recommendation as a leaf node
+                            changeTypeGroup.children.push({
+                                name: rec.Recommendation || "No Recommendation Text",
+                                value: 1
+                            });
+
+                            return acc;
+                        }, [])
+                    }))
                 }))
             };
 
