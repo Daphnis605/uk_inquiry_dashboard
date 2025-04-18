@@ -3342,8 +3342,431 @@
       "ReportDate": "14/12/2011",
       "Recommendations":[
         {
-          "Recommendation": ""
+          "Recommendation": "Fingerprint evidence should be recognised as opinion evidence, not fact, and those involved in the criminal justice system need to assess it as such on its merits.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Examiners  should  receive  training  which  emphasises  that  their  findings  are  based  on their  personal  opinion;  and  that  this  opinion  is  influenced  by  the  quality  of  the materials that are examined,  their ability  to observe  detail  in mark  and print reliably,  the subjective interpretation of observed  characteristics, the cogency  of explanations  for any differences and the subjective view of ‘sufficiency’. ",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Examiners  should  discontinue  reporting  conclusions  on  identification or  exclusion  with  a claim to 100% certainty or on any other basis suggesting that fingerprint evidence is infallible.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Differences of opinion between examiners should not be referred to as disputes.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "In order to allow the court  to assess  the strength  of their evidence,  fingerprint  examiners should highlight the variables relevant to their assessment and how they have formed their conclusions in the light of those variables. The conclusion should state if it has been reached through training and personal experience or on any other basis such as statistical analysis. Fingerprint methodology",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The SPSA should review its procedures to reduce the risk of contextual bias.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The SPSA should ensure that examiners are trained to be conscious of the risk of contextual bias.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The  SPSA  should  consider  what  limited  information  is  required  from  the  police  or  other sources  for fingerprint  examiners  to carry out their work, only such information  should  be provided to examiners, and the information provided should be recorded.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Features on which examiners rely should be demonstrable to a lay person with normal eye sight as observable in the mark.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "In comparing a mark and print fingerprint practitioners should pay close attention to the precise type of the characteristics and carefully evaluate differences in the type of characteristic.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Explanations for any differences between mark and print require to be cogent if a finding of identification is to be made.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "A finding of identification should not be made if there is an unexplained difference between mark and print.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Examiners should consider whether the clarity of the mark is sufficient to support a confident conclusion of identity or exclusion.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Care should be taken when relying on third level detail in arriving at a finding and practitioners should pay close attention to research on the reproducibility of such detail.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Where third level detail is relied upon in making a comparison this should be included in any note of the examination. Engaging with the academic community",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "An  emphasis  needs  to  be  placed  on  the  importance  not  only  of  learning  and  practising the methodology  of fingerprint  work, but also of engaging  with members  of the academic community working in the field.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Fingerprint  examiners  need  to  be  provided  with  training  to  enable  them  to  articulate their  reasoning.  The  SPSA,  in conjunction  with members  of the academic  community  as appropriate,  should determine how best to explain the process of reasoning in arriving at a non-numeric conclusion.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The SPSA, in conjunction with members of the academic community as appropriate, should design a practical system for examiners to assess and evaluate (a) tolerances and (b) any reverse reasoning. Standard Operating Procedures",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The  SPSA  should   revise   Standard   Operating   Procedures   to  take   into  account   the recommendations from chapter 35 (recommendations 1, 2, 6-18 and 82(part)).",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The SPSA's Standard Operating Procedures should set out in detail the ACE-V process to be followed. ACE-V Exceptions to strict application of ACE-V ",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Steps should be taken to reduce the risk of over-familiarity with prints where an examiner has prior knowledge of the print before conducting an analysis of the mark: (i)        Examiners should be made aware of the risks arising from over-familiarity with prints, by way of written guidance and training. (ii)       As wide a range of examiners as possible should be involved in the work when this risk is present. As an example, when an identification is made in such circumstances at least one verifier should be an examiner who has not previously seen the prints in question.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "If a ‘sift’ phase is employed, the examiner who has carried out the ‘sift’ should not participate further and a different examiner should carry out the full analysis and comparison.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "At the analysis  stage an examiner  should assess the quality  of the mark. If the examiner considers  it to be complex this should be recorded  and the separate  process for complex marks recommended inrecommendation 42 should be followed.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "As thorough analysis is an important safeguard against reverse reasoning, before comparison commences the whole mark should be analysed. The approach whereby only a target area is analysed for all levels of detail should be discontinued.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Fingerprint  examiners  should  assess  tolerances  during  the  analysis  stage  so  that  when they come to evaluate whether the mark and print match they are conscious  of the risk of applying excessive tolerances.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Characteristics first found  at the comparison  stage  should  be included  in any note of the examination. Less weight should be attached to such characteristics.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Although evaluation  may  be  taking  place  throughout  the  analysis/comparison  part  of  the ACE-V process, emphasis should be placed on the need for a separate E - evaluation - stage.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "SPSA guidance to fingerprint examiners should emphasise the need at the evaluation stage to reflect on: tolerances, the quality of similarities, the nature of differences, any explanations for differences,  the extent  to which  reverse  reasoning  may have been employed  and the sufficiency of matching characteristics.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "All verifiers should be experienced examiners who have been given special training for this task, stressing the need for independence.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "A verifier should not be told of the preceding examiner's reasoning before completing A-C-E. It follows  that the verifier  should  not be shown,  for example,  a photograph  or comparator screen marked up to show points of similarity.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "A verifier should not be someone  who  has been consulted  for advice on the mark  by the original examiner in the course of his or her examination.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "No  discussions  should  take  place  between  verifiers  and  preceding  examiners  until  they have completed their work and reached their conclusions.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Practitioners should conduct their individualACE comparisons conscious of the fact that they are working in a field where there is no certainty and where there is scope for differences of opinion. When it comes to verification, examiners should be encouraged to be open and to adopt a challenging attitude to the opinions of other examiners, irrespective  of seniority. Standard Operating Procedures should emphasise that the fact that one examiner reaches the opposite conclusion from another, or entertains any doubt, does not necessarily cast any aspersion on the competence of either examiner.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The SPSA should review its Standard Operating Procedures relative to handling differences of  opinion  and  provision  should  be  made  not  only  for  cases  of  disagreement  between examiners  but  also  for  instances  where  an  examiner  has  some  doubt  about  the  finding which is being verified.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Where an examiner  has doubts, the comparison  should be processed  in accordance  with the complex marks procedure recommended in recommendation 42.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The  SPSA  should  amend  its  procedures   to  include  a  review  panel  to  consider  any disagreement between examiners: (i)        Where there is a disagreement  between  examiners  the further investigation  should be conducted by a panel the members of which should have had no prior involvement with the mark in question but need not come from outside SPSA. (ii)       The members of the panel should each examine the mark independently without any background information about the case or knowledge of the conclusions of the other panel members. (iii)      Once  the  panel  members  have  reached  their  own  conclusions,  they  should,  as  a panel, look at the reasoning of the earlier examiners. (iv)      A result of the review should be that examiners understand why they came to different views. (v)       If the panel members are unanimous, then the result can be reported.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The training and use of specialist fingerprint photographers should be considered by SPSA.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Fingerprint photographers should provide an examiner with a selection of images of a mark.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "In relation to digital images: (i)        the digital original should be stored separately; (ii)       any digital image processing  should be carried out only on accurate replicas of the digital original; (iii)      any adjustments made to the digital image should be recorded as part of the audit trail.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Any adjustments made to a photographic print should be recorded as part of the audit trail. Viewing of original object on which mark is found",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Consideration requires to be given to the need for examiners to examine the object on which the mark was found",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The SPSA should  develop  a process  to ensure  that complex  marks  such as Y7 and  QI2 Ross are treated differently. Such a process should include the following principal elements: (i)        Examination should be by three suitably qualified examiners. (ii)       Notes  should  be taken  at each  stage  of ACE-V  by every  examiner  involved  in the process. Those notes should record the information specified in recommendation 52. (iii)      No examiner should disclose his or her conclusion to another examiner until all three examiners have reached their independent conclusions. (iv)      After all three examiners  have completed  their  individual  comparisons  they should meet and review  the substantive  basis of their conclusions.  The reasons  each has for  their  respective  conclusions  should  be  explored,  even  when  they  agree  that an  identification can  be  made.  Any  differences  of  opinion  among  them  should  be discussed in order to determine whether the conclusion is reliable. A note should be kept of the matters discussed at the technical review meeting.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Where the police or COPFS require a fingerprint comparison to be reconsidered by SPSA for any reason the matter should be referred to the review panel to be addressed in accordance with the procedures recommended in recommendation 36. Record-keeping and note-taking",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The  method  used  by  scene  of  crime  examiners  to  detect  and  record  a  mark  should  be recorded as part of the audit trail for that mark.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The selection of images provided to the examiner,  the image chosen for comparison  work and the photographic negatives, if any, should all be recorded as part of the audit trail.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Any image(s) studied by the examiner in making an identification should be provided to the Crown on request together with the remainder of the selection of images.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "A record should be kept for each mark which (i)        shows whether or not it has been regarded as suitable for comparison; (ii)       lists all prints with which it has been compared.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Any  discussions  between  examiners  (including  any  consultation  with  an  examiner  not directly involved in the comparison  of the mark in question) at any stage of ACE-V should be recorded.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The audit trail for a mark should be available to the Crown if requested.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Examiners should always take notes when they are examining marks that they consider to be complex.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Notes should be taken in any case in which a fresh comparison  is made in response  to a request from the Crown for a report.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Where notes are required as a result of the preceding recommendations, the notes should be taken at each stage of ACE-V by every examiner  involved in the process at that stage and should cover the following matters: (i)        the  assessment  of  the  quality  of  the  mark  at  the  analysis  stage  and  any  sign  of distortion; the characteristics identified at analysis including their type and the sequence of them; the characteristics taken into account at the comparison  stage including  their types and sequence in mark and print; (iv)      any revision to the initial analysis made at the comparison stage; (v)       any differences observed at the comparison stage; (vi)      the explanation for any differences; (vii)     any third level detail relied upon in arriving at the conclusion; (viii)    the reasons for the conclusion at the evaluation stage; and (ix)      any consultation with any other examiner during the ACE-V process.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Subject to any requirement under ISO 17025 and recommendations 50 and 51, note-taking as to the detail found on analysis  and the process  of comparison,  though  not mandatory, should become the general practice for all fingerprint comparison work. Provision of information to the Crown by the SPSA",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The omission of the SPSA from the statutory scheme of disclosure under sections 117 to 120 inclusive of the Criminal Justice and Licensing (Scotland) Act 2010 should be reviewed. The SPSA should be regarded as having the same duties as regards provision of information to COPFS as investigating agencies under those provisions.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "SPSA and COPFS should agree and implement, as a matter of urgency, a process for the provision of information by SPSA to COPFS. COPFS should provide SPSA with information and advice as to the Crown's duty of disclosure with a view to informing SPSA's understanding of the nature and extent of the information that SPSA will require to provide to COPFS.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The following information should always be provided to the Crown: (i)        a list  of  names  of all  examiners  who  have  examined  the mark  at  SPSA and  their opinions as to the mark and the comparison; (ii)       whether the complex marks process has been invoked; (iii)      any discussions between examiners relating to the formulation of conclusions about a mark; (iv)      any differences of opinion between examiners; (v)       whether the mark has been subject to facilitated discussion or panel review. Reports under sections 280 and 281 of the Criminal Procedure (Scotland) Act 1995",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Each examiner should provide a separate written opinion and prepare his or her own material before any attempt is made to produce a joint report.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "The joint report prepared should be supported by the production of the individual opinions. It should be a matter for the Crown and defence to determine whether the joint report would suffice in a given case, or whether examiners should be called to give oral evidence.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Each examiner's separate opinion should cover: (i)        the images of the mark and also the specific print used in the comparison; (ii)       the examiner's opinion about the quality of the mark; (iii)      if the examiner considers the mark to be complex; (iv)      whether third level detail is relied upon and the fact that such detail still requires to be supported by further research that has been validated; (v)       identifying any differences between mark and print; (vi)      a summary  of the reasons why any differences between mark and print have been discounted  and  whether  the  examiner  relies  on  objective  studies  and  evidence  to account for such differences or on common sense and experience; (vii)     the  characteristics  relied  on  in  making  the  identification,  the  number  of  such characteristics,  and  the  classification  of  such  characteristics,  (e.g.  ridge  ending, bifurcation); (viii)    a marked up image of the mark and print with a legend specifying the type of the ridge detail (including any third level detail) relied upon and the associated ridge counts; (ix)      the opinion of the examiner; (x)       any  consultation  with  another  examiner  during  the ACE-V  process,  including  any facilitated discussion or panel review; and (xi)      the fact that any novel method such as probabilistic analysis has been used or relied on.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Fingerprint  examiners  engaged  by  the  defence  should  be  afforded  access  to  the  same material as that used by SPSA, in appropriate examination or laboratory conditions.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "Fingerprint  examiners  engaged  by  the  defence  should  be  afforded  access  to  any  other images of the mark or fingerprint forms as are available to SPSA and COPFS. If negatives are available, arrangements  should be made on request  to provide the defence examiner with any print reasonably  required.  If the image  is in digital  format  the defence examiner should be given sight of the digital original and should be provided with a copy of the same.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "As a matter of good practice, defence examiners should examine the unmarked mark and print and reach their own conclusions on that material before examining any marked images produced by SPSA.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "In the event ofa challenge to an identification the defence should disclose the full reasons why it believes that the SPSA examiners' opinions are incorrect. This may require the disclosure of marked up images of mark and print with a legend specifying  the type of characteristic and associated ridge counts. Such disclosure should take place at a reasonable time before the trial in question. It should take place where appropriate in the context of the provision of defence statements  in accordance  with section  124 of the Criminal  Justice  and Licensing (Scotland) Act 2010.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },        
+        {
+          "Recommendation": "COPFS should pay particular attention to ensuring that fingerprint evidence is presented to the court in such manner as to be readily understood by the judge and jury.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The use of technology to assist fingerprint examiners in demonstrating to the court aspects of their evidence should be explored.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Before a finding of ‘unable to exclude’ is led in evidence, careful consideration will require to be given to (a) the types of mark for which such a finding is meaningful and (b) the proper interpretation of the finding. An examiner led in evidence to support such a finding will require to give a careful explanation of its limitations.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The SPSA should investigate all ‘erroneous’ fingerprint identifications or exclusions.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Cases where there is scope for a difference of opinion should not be classified as ‘erroneous’. The cases that merit investigation  are where  there may have been a mistaken  fingerprint analysis or a breach of accepted procedures.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The  SPSA  should  introduce  a  requirement  that  fingerprint  examiners  have  training  and development in core fingerprint examiner skills each year.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "All fingerprint  examiners at SPSA should  receive  court skills training  at suitable  intervals. The training should emphasise the role of the expert witness.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Examiners should be discouraged from using stock phrases or responses to questions.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The discussions  about the possibility  of having  a national  dip sampling  regime  should be pursued, as this would introduce  an element of external  validation. The proposal  whereby some  dip sampling  will be carried  out  by SPSA personnel  from other  bureaux  should  be implemented in the interim.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The SPSA should  develop  a procedure  for the provision  of information  to COPFS  where issues  have been  raised about  the performance  of an examiner  who  may  be required  to report or give evidence.  COPFS should provide SPSA with guidance  as to the nature and extent of the information that should be provided in order to enable COPFS to comply with its duties of disclosure to the defence.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "COPFS  should  ensure  that  appropriate  written  guidance  as  to  fingerprint  evidence  is available  to its staff.  COPFS  should  also  ensure  that  a sufficient  number  of lawyers  fully conversant with fingerprint evidence are available to deal with any issues that may arise.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The system  for authorisation  under  section  280  of the Criminal  Procedure  (Scotland)  Act 1995, so far as relating to fingerprint examiners, requires review.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "A  system  should  be  devised  whereby  any  authorisation  of  fingerprint  examiners  under section  280  would  be  confined  to  the  authorisation  of  individuals  who  are  employed  by an  institution  which  has  achieved  appropriate  accreditation.  It  would  be  for  the  Scottish Government  to satisfy itself in the course  of the review  referred  to in recommendation 76 as to what constitutes appropriate accreditation, and by whom that accreditation should be carried out.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The system of registration on the National Register of Fingerprint Experts should be reviewed. If it continues  in use it should be revised to ensure that the criteria for registration  and the records are kept up to date and that the records indicate competence. Should SPSA for any reason decide that an examiner is no longer competent to practise, it should notify the NPIA so that the examiner's name is removed from the register and also the Scottish Government so that authorisation under section 280 is withdrawn.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Absence of authorisation under the Act should not be taken as disqualifying a witness from being treated as an expert in relation to fingerprint evidence. The witness should be prepared to demonstrate his or her expert status on ordinary common law principles.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The SPSA should continue to seek to obtain and retain the ISO 17025 external accreditation and such other accreditation as may become relevant in the field of fingerprint identification.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Requirements   for  research   and   development   should  be  identified   and  collated   and an  appropriate  scheme  of  research  and  development  prepared  by  SPSA.  Appropriate arrangements  and  funding  (when  available)  should  then  be  provided  to enable  research and development to take place on a UK basis and where appropriate through co-operation on an international basis.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Specific matters to be included in the scheme of research and development include: (i)        the  frequency  of  particular  characteristics  or  combinations  of  characteristics  in fingerprints; (ii)       the use of data as to the frequency  of particular  characteristics or combinations  of characteristics as a means of assisting examiners in their work; (iii)      the weight to be given to third level detail, and as to its reliability; (iv)      distortion and the effect of movement; (v)       which marks ought to be assessed as complex; (vi)      the specific factors that may cause variations among examiners; and (vii)     contextual bias.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The use of probabilistic analysis should continue to be developed.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The SPSA should keep its practices under review in the light of developments in research. Familiarity with developments and disputes in fingerprint law and practice",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "The SPSA should task identified staff with: (i)        maintaining  up-to-date  knowledge  of cases, at least in anglophone  jurisdictions, in which fingerprint evidence has been disputed; and (ii)       monitoring cases in which courts, inquiries or other investigating bodies have made significant  criticism of existing fingerprint  practice and of considering  whether those criticisms  should  be  taken  into  account  in  developing  and  improving  fingerprint practice in Scotland. Such staff should be tasked also with advising an identified contact in COPFS as to these matters.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "COPFS  should  task  identified  staff  with  maintaining  up-to-date  knowledge  of  cases,  at least in anglophone jurisdictions, in which fingerprint evidence has been disputed, and with liaising with an identified contact in SPSA in relation to any implications that the findings of such courts may have for fingerprint evidence in Scotland.",
+          "ChangeType": "",
+          "ActionCategory": ""
         }
+
       ]
     },
     {
