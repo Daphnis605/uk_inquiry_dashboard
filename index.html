@@ -260,10 +260,38 @@
             .selectAll("text")
             .data(root.descendants().slice(1))
             .join("text")
-            .attr("dy", "0.35em")
             .attr("fill-opacity", d => +labelVisible(d.current))
             .attr("transform", d => labelTransform(d.current))
-            .text(d => d.data.name);
+            .each(function(d) {
+                const arcWidth = (d.x1 - d.x0) * radius; // Calculate the arc width
+                const maxCharsPerLine = Math.floor(arcWidth / 6); // Approximate max characters per line (adjust as needed)
+                const words = d.data.name.split(/\s+/); // Split the text into words
+                let line = [];
+                let lines = [];
+                words.forEach(word => {
+                    const testLine = [...line, word].join(" ");
+                    if (testLine.length <= maxCharsPerLine) {
+                        line.push(word);
+                    } else {
+                        lines.push(line.join(" "));
+                        line = [word];
+                    }
+                });
+                if (line.length) lines.push(line.join(" ")); // Add the last line
+
+                // Adjust the starting position to center the text block
+                const totalLines = lines.length;
+                const lineHeight = 1.1; // Line height in em
+                const offset = -(totalLines - 1) * lineHeight / 2; // Center the text block
+
+                const tspan = d3.select(this)
+                    .selectAll("tspan")
+                    .data(lines)
+                    .join("tspan")
+                    .attr("x", 0)
+                    .attr("y", (line, i) => offset + i * lineHeight + "em") // Adjust line height and center
+                    .text(line => line); // Add the line
+            });
 
         const parent = svg.append("circle")
             .datum(root)
