@@ -3787,9 +3787,381 @@
       "ReportDate": "24/11/2014",
       "Recommendations":[
         {
-           
-          "Recommendation": ""
+          "Recommendation": "Scottish Government should ensure that the Healthcare Environment Inspectorate (HEI) has the power to close a ward to new admissions if the HEI concludes that there is a real risk to the safety of patients. In the event of such closure, an urgent action plan should be devised with the Infection Prevention and Control Team and management.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Scottish Government should ensure that policies and guidance on healthcare associated infection are accompanied by an implementation strategy and that implementation is monitored.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that infection prevention and control policies are reviewed promptly in response to any new policies or guidance issued by or on behalf of the Scottish Government, and in any event at specific review dates no more than two years apart.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Scottish Government should develop local Healthcare Associated Infection (HAI) Task Forces within each Health Board area",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Scottish Government should ensure that where any uncertainty over the future of any hospital or service exists, resolution of the uncertainty is not delayed any longer than is essential for planning and consultation to take place.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Scottish Government should ensure that where major changes in patient services are planned there should be clear and effective plans in place for continuity of safe patient care during the period of planning and change.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "In any major structural reorganisation in the NHS in Scotland a due diligence process including risk assessment should be undertaken by the Board or Boards responsible for all patient services before the reorganisation takes place. Subsequent to that reorganisation regular reviews of the process should be conducted to assess its impact upon patient services, up to the point at which the new structure is fully operational. The review process should include an independent audit.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "In any major structural reorganisation in the NHS in Scotland the Board or Boards responsible should ensure that an effective and stable management structure is in place for the success of the project and the maintenance of patient safety throughout the process.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that infection prevention and control is explicitly considered at all clinical governance committee meetings from local level to Board level.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that patients diagnosed with CDI are given information by medical and nursing staff about their condition and prognosis. Patients should be told when there is a suspicion they have CDI, and when there is a definitive diagnosis. Where appropriate, relatives should also be involved.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that patients, and relatives where appropriate, are made aware that CDI is a condition that can be life-threatening, particularly in the elderly. The consultant in charge of a patient’s care should ensure that the patient and, where appropriate, relatives have reasonable access to fully informed medical staff.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that when a patient has CDI patients and relatives are given clear and proper advice on the necessary infection control precautions, particularly hand washing and laundry. Should it be necessary to request relatives to take soiled laundry home, the laundry should be bagged appropriately and  clear instructions about washing should be given. Leaflets containing guidance should be provided, and these should be supplemented by discussion with patients and relatives.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that there is a clear and effective line of professional responsibility between the ward and the Board.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that the nurse in charge of each ward audits compliance with the duty to keep clear and contemporaneous patient records. Health Boards should ensure that there is an effective system of audit of patient records, and that there is effective scrutiny of audits by the Board.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that nursing staff caring for a patient with CDI keep accurate records of patient observations including temperature, pulse, respiration, oxygen saturation and blood pressure.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that the nurse in charge of each ward reports suspected outbreaks of CDI (as defined in local guidance) to the Infection Control Team.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that where there is risk of cross infection, the nurse in charge of a ward has ultimate responsibility for admission of patients to the ward or bay. Any such decision should be based on a full report of the patient’s status and full discussion with site management, the bed manager, and a member of the Infection Control Team. The decision and the advice upon which the decision is based should be fully recorded contemporaneously",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that there is an agreed system of care planning in use in every ward with the appropriate documentation available to nursing staff. Where appropriate they should introduce pro forma care plans to assist nurses with care planning. Health Boards should ensure that there is a system of audit of care planning in place.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that where Infection Control Nurses provide instructions on the management of patients those instructions are recorded in the patient notes and are included in care planning for the patient.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that where a patient has, or is suspected of having, C. difficile diarrhoea a proper record of the patient’s stools is kept. Health Boards should ensure that there is an appropriate form of charting of stools available to enable nursing staff to provide the date, time, size and nature of the stool. Stool charts should be continued after a patient has become asymptomatic of diarrhoea in order to reduce the risk of cross infection. Health Boards should ensure that all nursing staff are properly trained in the completion of these charts, and that the nurse in charge of the ward audits compliance.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that a member of nursing staff is available to deal with questions from relatives during visiting periods",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that any discussion between a member of nursing staff and a relative about a patient which is relevant to the patient’s continuing care is recorded in the patient’s notes to ensure that those caring for the patient are aware of the information given.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that a nurse appointed as Tissue Viability Nurse (TVN) is appropriately trained and possesses, or is working towards, a recognised specialist post-registration qualification. Health Boards should ensure that a trainee TVN is supervised by a qualified TVN.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that where a TVN is involved in caring for a patient there is a clear record in the patient notes and care plan of the instructions given for management of the patient",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that every patient is assessed for risk of pressure damage on admission to hospital using a recognised tool such as the Waterlow Score in accordance with best practice guidance. Where patients are identified as at risk they must be reassessed at the frequency identified by the risk scoring system employed. Compliance should be monitored by a system of audit.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that where a patient has a wound or pressure damage there is clear documentation of the nature of the wound or damage in accordance with best practice guidance, including the cause, grade, size and colour of the wound or damage. The pressure damage or wound should be reassessed regularly according to the patient’s condition. Compliance should be monitored by a system of audit.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that where a patient requires positional changes nursing staff clearly record this on a turning chart or equivalent. Compliance should be monitored by a system of audit",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that all patients have their nutritional status screened on admission to a ward using a recognised nutritional screening tool. Where nutritional problems are identified further assessment should be undertaken to determine an individual care plan. Appropriate and timely referrals should be made to dieticians for patients identified as being in need of specialist nutritional support",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that there is appropriate equipment in each ward to weigh all patients. Patients should be weighed on admission and at least weekly thereafter and weights recorded. Faulty equipment should be repaired or replaced timeously and a contingency plan should be in place in the event of delays.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that where patients require fluid monitoring as part of their clinical care, nursing staff complete fluid balance charts as accurately as possible and sign them off at the end of each 24-hour period",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that the staffing and skills mix is appropriate for each ward, and that it is reviewed in response to increases in the level of activity/patient acuity and dependency in the ward. Where the clinical profile of a group or ward of patients changes, (due to acuity and/or dependency) an agreed review framework and process should be in place to ensure that the appropriate skills base and resource requirements are easily provided.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that there is a straightforward and timely escalation process for nurses to report concerns about the staffing numbers/skill mix",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that where a complaint is made about nursing practice on a ward this complaint is investigated by an independent senior member of Nursing Management.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that changes in policy and/or guidance on antimicrobial practice issued by or on behalf of Scottish Government are implemented without delay.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Scottish Government should monitor the implementation of policies and/or guidance on antibiotic prescribing issued in connection with healthcare associated infection and seek assurance within specified time limits that implementation has taken place",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that the level of medical staffing planned and provided is sufficient to provide safe high quality care",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that any patient with suspected CDI receives full clinical assessment by senior medical staff, that specific antibiotic therapy for CDI is commenced timeously and that the response to antibiotics is monitored on at least a daily basis",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that clear, accurate and legible patient records are kept by doctors, that records are seen as integral to good patient care, and that they are routinely audited by senior medical staff",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that medical and nursing staff are aware that a DNAR decision is an important aspect of care. The decision should involve the patient where possible, nursing staff, the consultant in charge and, where appropriate, relatives. The decision should be fully documented, regularly reviewed and there should be regular auditing of compliance with the DNAR policy",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that the key principles of prudent antibiotic prescribing are adhered to and that implementation of policy is rigorously monitored by management",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that there is no unnecessary delay in processing laboratory specimens, in reporting positive results and in commencing specific antibiotic treatment. Infection control staff should carry out regular audits to ensure that there are no unnecessary delays in the management of infected patients once the diagnosis is confirmed.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that all those working in a healthcare setting have mandatory infection prevention and control training that includes CDI on appointment and regularly thereafter. Staff records should be audited to ensure that such training has taken place",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that Infection Control Nurses and Infection Control Doctors have regular training in infection prevention and control, of which a record should be kept",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that performance appraisals of infection prevention and control staff take place at least annually. The appraisals of Infection Control Doctors who have other responsibilities should include specific reference to their Infection Control Doctor roles",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that where a manager has responsibility for oversight of infection prevention and control, this is specified in the job description",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that the Infection Control Manager has direct responsibility for the infection prevention and control service and its staff.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that the Infection Control Manager reports direct to the Chief Executive, or at least to an executive board member.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that the Infection Control Manager is responsible for reporting to the Board on the state of healthcare associated infection in the organisation",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Scottish Government should re-issue national guidance on the role of the Infection Control Manager, stipulating that the Infection Control Manager must be responsible for the management of the infection prevention and control service.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that there is 24-hour cover for infection prevention and control seven days a week, and that contingency plans for leave and sickness absence are in place.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that any Infection Control Team functions as a team, with clear lines of communication and regular meetings.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": " Health Boards should ensure that adherence to infection prevention and control policies, for example the C. difficile and Loose Stool Policies, is audited at least annually, and that serious non-adherence is reported to the Board.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that surveillance systems are fit for purpose, are simple to use and monitor, and provide information on potential outbreaks in real time",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that the users of surveillance systems are properly trained in their use and fully aware of how to use and respond to the data available",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that numbers and rates of CDI are reported through each level of the organisation up to the level of the Chief Executive and the Board. Reporting should include positive reporting in addition to any exception reporting. The Chief Executive should sign off the figures to confirm that there is oversight of infection prevention and control at that level",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that infection prevention and control groups meet at regular intervals and that there is appropriate reporting upwards through the management structure.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": " Health Boards should ensure that the minutes of all meetings and reports from each infection prevention and control committee are reported to the level above in the hierarchy and include the numbers and rates of CDI, audit reports, and training reports",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that there is lay representation at Board infection prevention and control committee level in keeping with local policy on public involvement",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": " Health Boards should ensure that attendance by members of committees in the infection prevention and control structure is treated as a priority. Non-attendance should only be justified by illness or leave or if there is a risk of compromise to other clinical duties in which event deputies should attend where practicable",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": " Health Boards should ensure that programmes designed to improve staff knowledge of good infection prevention and control practice, such as the Cleanliness Champions Programme, are implemented without undue delay. Staff should be given protected time by managers to complete such programmes.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that unannounced inspections of clinical areas are conducted by senior infection prevention and control staff accompanied by lay representation to examine infection prevention and control arrangements, including policy implementation and cleanliness",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": " Health Boards should ensure that senior managers accompanied by infection prevention and control staff visit clinical areas at least weekly to verify that proper attention is being paid to infection prevention and control.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that there is effective isolation of any patient who is suspected of suffering from CDI, and that failure to isolate is reported to senior management",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": " Health Boards should ensure that cohorting is not used as a substitute for single room isolation and is only resorted to in exceptional circumstances and under strict conditions of dedicated nursing, with infected patients nursed in cohort bays with en-suite facilities.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": " Health Boards should ensure that appropriate steps are taken to isolate patients with potentially infectious diarrhoea",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that the healthcare environment does not compromise effective infection prevention and control, and that poor maintenance practices, such as the acceptance of non-intact surfaces that could compromise effective infection prevention and control practice, are not tolerated.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that, where a local Link Nurse system is in place as part of the infection prevention and control system, the Link Nurses have specific training for that role. The role should be written into job descriptions and job plans. They should have clear objectives set annually and have protected time for Link Nurse duties",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that where a death occurs in hospital the consultant in charge of the patient’s care is involved in the completion of the death certificate wherever practicable, and that such involvement is clearly recorded in the patient records. Regular auditing of this process should take place.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that if a patient dies with CDI either as a cause of death or as a condition contributing to the death, relatives are provided with a clear explanation of the role played by CDI in the patient’s death",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Crown Office and the Procurator Fiscal Service (COPFS) should review its guidance on the reporting of deaths regularly and at least every two years.",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Scottish Government should identify a national agency to undertake routine national monitoring of deaths related to CDI",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that a non-executive Board member or a representative from internal audit takes part in an Internal Investigation of the kind instigated by NHSGGC",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Health Boards should ensure that OCT reports provide sufficient details of the key factors in the spread of infection to allow a proper audit to be carried out, as recommended in the Watt Group Report",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": "Scottish Government (whether through HPS, HIS, the HAI Task Force or otherwise) should as a matter of standard practice ensure that reports published in the United Kingdom and in other relevant jurisdictions on infection prevention and control and patient safety are reviewed as soon as possible, and that, as a minimum, any necessary interim guidance is issued within three months",
+          "ChangeType": "",
+          "ActionCategory": ""
+        },
+        {
+          "Recommendation": " Health Boards should review such reports to determine what lessons can be learned and what reviews, audits or other measures (interim or otherwise) should be put in place in the light of these lessons",
+          "ChangeType": "",
+          "ActionCategory": ""
         }
+
       ]
     }
     ]
