@@ -2,31 +2,45 @@
 
 ## Overview
 
-The UK Inquiry Dashboard is a project aimed at compiling and visualizing recommendations from various public inquiries in the United Kingdom. The goal is to identify areas of improvement and prevent tragedies from reoccurring by making these recommendations accessible and actionable.
+The UK Inquiry Dashboard collects and displays recommendations from public inquiries. The aim is to make them easier to find, understand, and act on—helping to prevent future tragedies.
 
 ## Purpose
-Easier to access, Easier to learn from, Easier to prevent
 
+- Easier to access
+- Easier to learn from
+- Easier to prevent
 
-## Mission
- I hope we can all agree that public inquiries are triggered by events we never want to see repeated. They involve extensive and expensive investigation, testimony from those affected, and expert analysis to uncover root causes. These efforts carry weight—not just in cost, but in the responsibility to act.
+## Why This Matters
 
- Not all recommendations carry the same weight, but the easier they are to access, the easier they are to learn from—and the greater the chance that every necessary change is made, so even if we can't fix everything, atleast we don't see the same tragedies twice.
+Public inquiries happen after serious events that should never be repeated. They involve detailed investigations, expert analysis, and testimony from those affected. These efforts come at a high cost—not just financially, but in terms of responsibility to act.
 
+Not all recommendations are equal, but the easier they are to find and learn from, the greater the chance of real change. Even if not everything can be fixed, we should never see the same failures happen twice.
 
 ## Data Source
 
-The data for this project is stored in `data.json`. This file contains exact quotes from the inquiry reports, ensuring that the recommendations are not paraphrased or rewritten. These recommendations have been carefully crafted through a rigorous and expensive process, and it is crucial to maintain their integrity.
+The data is stored in `data.json`. It contains exact quotes from inquiry reports to preserve their meaning and accuracy.
 
-### How the Data is Made
+### How the Data is Processed
 
-1. **Extracting Recommendations**: The recommendations are extracted directly from the inquiry reports. This involves identifying the recommendation section and looking for premade lists or sentences that start with phrases like "I recommend" or similar.
-2. **Assigning ChangeType and ActionCategory**: Each recommendation is manually read to determine the appropriate `ChangeType` and `ActionCategory`. It is important to note that ChatGPT recommended the action-based categories based on reading the `data.json`, but it has not been used for assigning them to the data as test cases were misinterpreted and miscategorized. A discussion in a Pull Request(PR) may help resolve any uncertainty in the recommendation categorization.
-3. **Maintaining Integrity**: The recommendations are not paraphrased or rewritten to ensure their integrity. If you identify any missed or incorrect recommendations, please raise a request for improvement.
+The main method used to create the `data.json` is described in the `method/main method.md`. Some specific steps are covered in other documents in the method folder
+
+1. **Extracting Recommendations**
+   - Recommendations are taken directly from inquiry reports.
+   - They are structured in JSON format for consistency.
+   - No AI is used in this step to ensure accuracy.
+
+2. **Assigning ChangeType and ActionCategory**
+   - Each recommendation is reviewed and categorised.
+   - AI was tested for this but was not reliable. All final decisions are made by a person.
+   - If a recommendation is unclear, discussion in a pull request (PR) helps resolve it.
+
+3. **Maintaining Accuracy**
+   - No recommendations are rewritten.
+   - If you spot an error, raise an issue or submit a PR with a fix.
 
 ### Action-Based Categories
 
-The action-based categories were recommended by ChatGPT based on the reading of the `data.json`. However, they were not used for assigning categories to the data due to potential misinterpretations. The categories include:
+Recommendations are grouped into categories to highlight what kind of change is needed:
 
 - <strong style="color:#CB9608">Law & Regulation</strong> – Changes in legal frameworks, policies, and compliance rules.
 - <strong style="color:#c4ab09">Enforcement & Compliance</strong> – Strengthening or adjusting enforcement mechanisms.
@@ -43,6 +57,8 @@ The action-based categories were recommended by ChatGPT based on the reading of 
 - <strong style="color:#49899E">Infrastructure & Facilities</strong> – Physical buildings, equipment, and safety improvements.
 - <strong style="color:#D3A4EA">Investigation & Redress</strong> – Fact-finding, inquiries, and corrective actions.
 - <strong style="color:#93499E">Support & Welfare</strong> – Assistance for affected individuals, victims, and communities.
+- <strong style="color:#878c8f">None published</strong> – Recommended actions if they exist, have not been published or are not available.
+
 
 
 ### Change Types
@@ -54,19 +70,18 @@ The change types assigned to each recommendation include:
 - <strong style="color:#9467bd">Different</strong> – Change in the nature or approach of a process.
 - <strong style="color:#2ca02c">New</strong> – Introduction of a new system, policy, or procedure.
 - <strong style="color:#d62728">Cease</strong> – Discontinuation of a practice or activity.
-
+- <strong style="color:#878c8f">None</strong> – No (published) recommendations.
 
 ## Inquiry Reports
 
-The list of inquiries was taken from Wikipedia: [List of public inquiries in the United Kingdom](https://en.wikipedia.org/wiki/List_of_public_inquiries_in_the_United_Kingdom). The report links are included in the `data.json`. If you identify any missed or incorrect information, please raise a request for improvement.
-
+The list of inquiries comes from [Wikipedia](https://en.wikipedia.org/wiki/List_of_public_inquiries_in_the_United_Kingdom). Report links are in `data.json`. If you notice missing or incorrect data, raise an issue or submit a PR.
 
 ## Contributing
 
-If you would like to contribute to this project, please follow these guidelines:
+You can help improve this project:
 
-1. **Pull Requests**: Submit a pull request with your changes. Ensure that you provide a detailed description of the changes and the reasoning behind them.
-2. **Discussions**: If there is any uncertainty in the recommendation categorization, please initiate a discussion in the PR to resolve it.
-3. **Reporting Issues**: If you identify any missed or incorrect recommendations, please raise a request for improvement.
+1. **Pull Requests** – Submit changes with a clear explanation.
+2. **Discussions** – If a recommendation’s category is unclear, open a PR discussion.
+3. **Report Issues** – Found an error? Raise an issue or submit a fix.
 
-Thank you for your contributions to this project.
+Thank you for contributing!
