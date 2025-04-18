@@ -144,7 +144,7 @@
 
             // Transform data for sunburst chart
             const hierarchicalData = {
-                name: "root",
+                name: "UK",
                 children: data.map(dept => ({
                     name: dept['Administration-or-Department'],
                     children: dept.Inquiries.map(inquiry => ({
@@ -156,7 +156,7 @@
 
             // Transform data for actions sunburst chart
             const actionsData = {
-                name: "root",
+                name: "UK",
                 children: data.map(dept => ({
                     name: dept['Administration-or-Department'],
                     children: dept.Inquiries.map(inquiry => ({
@@ -193,6 +193,204 @@
             createZoomableSunburst(actionsData, "#actionsSunburstChart");
         });
 
+    // Scale factor
+    const scaleFactor = 1.5;
+
+    // Scaled breadcrumb dimensions
+    const breadcrumbWidth = 120 * scaleFactor;
+    const breadcrumbHeight = 30 * scaleFactor;
+    const breadcrumbSpacing = 3 * scaleFactor;
+    const breadcrumbTipWidth = 10 * scaleFactor;
+
+    // Adjust breadcrumb container height to make space for the recommendation rectangle
+    const breadcrumbSvg = d3.select("#actionsSunburstChart") // Append to the sunburst chart container
+        .append("svg")
+        .attr("id", "breadcrumb")
+        .attr("width", 800 * scaleFactor) // Adjust width as needed
+        .attr("height", breadcrumbHeight + 70) // Increase height to make space for the rectangle
+        .style("font", `${12 * scaleFactor}px sans-serif`); // Scale font size
+
+    // Function to generate breadcrumb points
+    function generateBreadcrumbPoints(width, height, tipWidth, index) {
+        const points = [];
+        points.push(`0,0`);
+        points.push(`${width},0`);
+        points.push(`${width + tipWidth},${height / 2}`);
+        points.push(`${width},${height}`);
+        points.push(`0,${height}`);
+        if (index > 0) { // Add a tip for all but the first breadcrumb
+            points.push(`${tipWidth},${height / 2}`);
+        }
+        return points.join(" ");
+    }
+
+    // Function to update the breadcrumb trail
+    function updateBreadcrumbs(node) {
+        const ancestors = node.ancestors().reverse(); // Get the sequence from root to the hovered node
+
+        // Log the breadcrumb sequence for debugging
+        console.log("Breadcrumb sequence:", ancestors.map(d => d.data.name));
+
+        // Calculate the total width of the breadcrumb trail
+        let totalWidth = 0;
+
+        // Bind data to breadcrumb elements (excluding the last recommendation step)
+        const breadcrumb = breadcrumbSvg.selectAll("g")
+            .data(ancestors.slice(0, -1), d => d.data.name);
+
+        // Enter new breadcrumb elements
+        const breadcrumbEnter = breadcrumb.enter().append("g")
+            .attr("transform", (d, i) => {
+                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
+                const xOffset = totalWidth;
+                totalWidth += textWidth; // Accumulate total width
+                return `translate(${xOffset}, 0)`;
+            });
+
+        // Append the polygon for each breadcrumb
+        breadcrumbEnter.append("polygon")
+            .attr("points", (d, i) => {
+                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
+                return generateBreadcrumbPoints(textWidth, breadcrumbHeight, breadcrumbTipWidth, i);
+            })
+            .attr("fill", d => {
+                if (d.depth === 3) {
+                    return actionCategoryColors[d.data.name] || "white";
+                } else if (d.depth === 4) {
+                    return changeTypeColors[d.data.name] || "white";
+                } else {
+                    return "white";
+                }
+            })
+            .attr("stroke", "black");
+
+        // Append the label for each breadcrumb
+        breadcrumbEnter.append("text")
+            .attr("x", (d, i) => {
+                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
+                return textWidth / 2 + 5; // Shift slightly to the right
+            })
+            .attr("y", breadcrumbHeight / 2)
+            .attr("dy", "0.35em")
+            .attr("text-anchor", "middle")
+            .attr("fill", d => {
+                if (d.depth === 3 || d.depth === 4) {
+                    return "white"; // White text for colored polygons
+                } else {
+                    return "black"; // Black text for default white polygons
+                }
+            })
+            .style("font", `${12 * scaleFactor}px sans-serif`) // Scale font size
+            .text(d => d.data.name); // Add the label text
+
+        // Remove old breadcrumb elements
+        breadcrumb.exit().remove();
+
+        // Handle the recommendation rectangle if the last step is a recommendation
+        const lastNode = ancestors[ancestors.length - 1];
+        if (lastNode && lastNode.depth === 5) { // Assuming depth 5 is for recommendations
+            updateRecommendationRectangle(lastNode, totalWidth);
+        } else {
+            // Remove the recommendation rectangle if not hovering over a recommendation
+            breadcrumbSvg.selectAll(".recommendation-rect").remove();
+            breadcrumbSvg.selectAll(".recommendation-text").remove();
+        }
+    }
+
+    // Function to update the recommendation rectangle
+    function updateRecommendationRectangle(node, breadcrumbWidth) {
+        const recommendationText = node.data.name || "No Recommendation Text";
+
+        // Remove any existing recommendation rectangle
+        breadcrumbSvg.selectAll(".recommendation-rect").remove();
+        breadcrumbSvg.selectAll(".recommendation-text").remove();
+
+        // Create a temporary text element to calculate dimensions
+        const tempText = breadcrumbSvg.append("text")
+            .attr("class", "temp-recommendation-text")
+            .attr("x", 0)
+            .attr("y", 0)
+            .style("font", `${12 * scaleFactor}px sans-serif`) // Scale font size
+            .text(recommendationText);
+
+        const lineHeight = 16 * scaleFactor; // Scale line height
+        const maxLineWidth = breadcrumbWidth - 20; // Add some padding
+        const words = recommendationText.split(/\s+/);
+        let line = [];
+        let lines = [];
+        let currentLineWidth = 0;
+
+        // Wrap text into lines
+        words.forEach(word => {
+            const testLine = [...line, word].join(" ");
+            const testLineWidth = getTextWidth(testLine, `${12 * scaleFactor}px sans-serif`);
+            if (testLineWidth <= maxLineWidth) {
+                line.push(word);
+                currentLineWidth = testLineWidth;
+            } else {
+                lines.push(line.join(" "));
+                line = [word];
+                currentLineWidth = getTextWidth(word, `${12 * scaleFactor}px sans-serif`);
+            }
+        });
+        if (line.length) lines.push(line.join(" "));
+
+        // Calculate the height of the rectangle based on the number of lines
+        const rectHeight = lines.length * lineHeight + 10; // Add padding
+
+        // Remove the temporary text element
+        tempText.remove();
+
+        // Dynamically adjust the height of the breadcrumbSvg container
+        const newSvgHeight = breadcrumbHeight + rectHeight + 20; // Add extra spacing
+        breadcrumbSvg.attr("height", newSvgHeight);
+
+        // Add a rectangle for the recommendation
+        breadcrumbSvg.append("rect")
+            .attr("class", "recommendation-rect")
+            .attr("x", 0)
+            .attr("y", breadcrumbHeight + 10) // Position below the breadcrumb trail
+            .attr("width", breadcrumbWidth) // Match the width of the breadcrumb trail
+            .attr("height", rectHeight) // Adjust height dynamically
+            .attr("fill", "#f9f9f9") // Light background color
+            .attr("stroke", "black");
+
+        // Add the wrapped text
+        const textGroup = breadcrumbSvg.append("g")
+            .attr("class", "recommendation-text");
+
+        lines.forEach((line, i) => {
+            textGroup.append("text")
+                .attr("x", breadcrumbWidth / 2)
+                .attr("y", breadcrumbHeight + 10 + (i + 1) * lineHeight) // Position each line
+                .attr("text-anchor", "middle")
+                .attr("fill", "black")
+                .style("font", `${12 * scaleFactor}px sans-serif`) // Scale font size
+                .text(line);
+        });
+    }
+
+    // Utility function to calculate text width
+    function getTextWidth(text, font) {
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+        context.font = font;
+        return context.measureText(text).width;
+    }
+
+    // Utility function to generate breadcrumb points dynamically
+    function generateBreadcrumbPoints(width, height, tipWidth, index) {
+        const points = [];
+        points.push(`0,0`);
+        points.push(`${width},0`);
+        points.push(`${width + tipWidth},${height / 2}`);
+        points.push(`${width},${height}`);
+        points.push(`0,${height}`);
+        if (index > 0) { // Add a tip for all but the first breadcrumb
+            points.push(`${tipWidth},${height / 2}`);
+        }
+        return points.join(" ");
+    }
 
     function createZoomableSunburst(data, containerId) {
         const width = 928;
@@ -260,10 +458,40 @@
             .selectAll("text")
             .data(root.descendants().slice(1))
             .join("text")
-            .attr("dy", "0.35em")
             .attr("fill-opacity", d => +labelVisible(d.current))
             .attr("transform", d => labelTransform(d.current))
-            .text(d => d.data.name);
+            .each(function(d) {
+                const innerRadius = d.y0 * radius;
+                const outerRadius = d.y1 * radius;
+                const arcWidth = (outerRadius - innerRadius);
+                const maxCharsPerLine = Math.floor(arcWidth / 6);
+
+                const words = d.data.name.split(/\s+/);
+                let line = [];
+                let lines = [];
+                words.forEach(word => {
+                    const testLine = [...line, word].join(" ");
+                    if (testLine.length <= maxCharsPerLine) {
+                        line.push(word);
+                    } else {
+                        lines.push(line.join(" "));
+                        line = [word];
+                    }
+                });
+                if (line.length) lines.push(line.join(" "));
+
+                const totalLines = lines.length;
+                const lineHeight = 1.1;
+                const offset = -(totalLines - 1) * lineHeight / 2;
+
+                const tspan = d3.select(this)
+                    .selectAll("tspan")
+                    .data(lines)
+                    .join("tspan")
+                    .attr("x", 0)
+                    .attr("y", (line, i) => offset + i * lineHeight + "em")
+                    .text(line => line);
+            });
 
         const parent = svg.append("circle")
             .datum(root)
@@ -285,9 +513,6 @@
 
             const t = svg.transition().duration(event.altKey ? 7500 : 750);
 
-            // Transition the data on all arcs, even the ones that aren’t visible,
-            // so that if this transition is interrupted, entering arcs will start
-            // the next transition from the desired position.
             path.transition(t)
                 .tween("data", d => {
                     const i = d3.interpolate(d.current, d.target);
@@ -323,6 +548,19 @@
 
         // Append the SVG to the DOM
         document.querySelector(containerId).appendChild(svg.node());
+
+        // Add hover interaction to update breadcrumbs only for #actionsSunburstChart
+        if (containerId === "#actionsSunburstChart") {
+            path.on("mouseover", function(event, d) {
+                console.log("Hovered segment:", d.data.name); // Debugging
+                updateBreadcrumbs(d); // Update the breadcrumb trail
+            });
+
+            // Clear breadcrumbs on mouseout
+            path.on("mouseout", function() {
+                breadcrumbSvg.selectAll("g").remove(); // Clear the breadcrumb trail
+            });
+        }
     }
 
     </script>
