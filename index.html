@@ -267,7 +267,7 @@
                 const innerRadius = d.y0 * radius;
                 const outerRadius = d.y1 * radius;
                 const arcWidth = (outerRadius - innerRadius); // Effective arc width is the radial difference
-                const maxCharsPerLine = Math.floor(arcWidth / 8); // Approximate max characters per line (adjust as needed)
+                const maxCharsPerLine = Math.floor(arcWidth / 6); // Approximate max characters per line (adjust as needed)
 
                 // Split the text into words and wrap it
                 const words = d.data.name.split(/\s+/); // Split the text into words
