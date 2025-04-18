@@ -144,7 +144,7 @@
 
             // Transform data for sunburst chart
             const hierarchicalData = {
-                name: "root",
+                name: "UK",
                 children: data.map(dept => ({
                     name: dept['Administration-or-Department'],
                     children: dept.Inquiries.map(inquiry => ({
@@ -156,7 +156,7 @@
 
             // Transform data for actions sunburst chart
             const actionsData = {
-                name: "root",
+                name: "UK",
                 children: data.map(dept => ({
                     name: dept['Administration-or-Department'],
                     children: dept.Inquiries.map(inquiry => ({
@@ -310,7 +310,6 @@
             .style("font", "12px sans-serif")
             .text(recommendationText);
 
-        const textWidth = tempText.node().getBBox().width;
         const lineHeight = 16; // Approximate line height in pixels
         const maxLineWidth = breadcrumbWidth - 20; // Add some padding
         const words = recommendationText.split(/\s+/);
@@ -338,6 +337,10 @@
 
         // Remove the temporary text element
         tempText.remove();
+
+        // Dynamically adjust the height of the breadcrumbSvg container
+        const newSvgHeight = breadcrumbHeight + rectHeight + 20; // Add extra spacing
+        breadcrumbSvg.attr("height", newSvgHeight);
 
         // Add a rectangle for the recommendation
         breadcrumbSvg.append("rect")
