@@ -231,9 +231,9 @@
             .data(root.descendants().slice(1))
             .join("path")
             .attr("fill", d => {
-                if (d.depth === 2) {
+                if (d.depth === 3) {
                     return actionCategoryColors[d.data.name] || color(d.data.name);
-                } else if (d.depth === 3) {
+                } else if (d.depth === 4) {
                     return changeTypeColors[d.data.name] || color(d.data.name);
                 } else {
                     while (d.depth > 1) d = d.parent;
