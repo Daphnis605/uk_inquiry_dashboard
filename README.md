@@ -16,6 +16,8 @@ Public inquiries happen after serious events that should never be repeated. They
 
 Not all recommendations are equal, but the easier they are to find and learn from, the greater the chance of real change. Even if not everything can be fixed, we should never see the same failures happen twice.
 
+[Lords committee calls for major overhaul of public inquiries(Sept 2024)](https://www.parliament.uk/business/lords/media-centre/house-of-lords-media-notices/2024/september-2024/lords-committee-report-on-the-effectiveness-of-statutory-inquiries-to-be-published-next-week/)
+
 ## Data Source
 
 The data is stored in `data.json`. It contains exact quotes from inquiry reports to preserve their meaning and accuracy.
