@@ -76,6 +76,5 @@ Refer to `data.json` to see how categories have been applied.
 
 ## 3. Peer review and proofreading  
 
-All changes are reviewed by a second person before they are finalised.  
-
+Changes are reviewed by a second person when available. Additional support appreciated.
 
