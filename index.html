@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h1>UK Public Inquiries Dashboard</h1>
-        <h3 style="text-align: center; color: #7c7b7b;"><i>Explore the charts by clicking on the sections to navigate through the data</h3>
+        <h3 style="text-align: center; color: #7c7b7b;"><i>Explore the charts by clicking on the sections to navigate through the data</i></h3>
 
         
         <div class="chart-container">
@@ -19,7 +19,7 @@
         </div>
         <div class="chart-container">
             <h2>Actions recommended for each Administration/Department and type of action advised</h2>
-            <h3 style="text-align: center; color: #7c7b7b;">Hover over or click on the chart below to view recommendation in full</h3>
+            <h3 style="text-align: center; color: #7c7b7b;"><i>Hover over or click on the chart below to view recommendation in full</i></h3>
             <div id="actionsSunburstChart"></div>
         </div>
         <div>
@@ -53,11 +53,19 @@
                     <li><strong style="color:#878c8f">None</strong> – No (published) recommendations.</li>
                 </ul>
                     
-                </div>
-                <h2>Inquiries Table</h2>
-                <h3 style="text-align: center; color: #7c7b7b;">Outcomes are compiled from publicly available sources</h3>
-                <h3 style="text-align: center; color: #7c7b7b;">If you find evidence of outcomes, please submit via <a href="https://forms.gle/vq2q5uEs7RAg2DEB6">this form</a>.</h3>
-                <!-- Filter inputs -->
+        </div>
+        
+        <!-- Contribution Banner -->
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 10px; margin: 30px 0; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <h2 style="margin: 0 0 15px 0; color: white;">💜 Help Improve This Dashboard</h2>
+            <p style="font-size: 18px; margin: 10px 0;"><strong>Free way to contribute:</strong> Submit outcome evidence links via our <a href="https://forms.gle/Xni4V6NhmhEHGNmv8" target="_blank" style="color: #FFD700; text-decoration: underline; font-weight: bold;">Google Form</a></p>
+            <p style="font-size: 16px; margin: 10px 0;">Or support the project with a <a href="buymeacoffee.com/daphnis605" target="_blank" style="color: #FFD700; text-decoration: underline; font-weight: bold;">Hot Chocolate</a> ☕</p>
+            <p style="font-size: 14px; opacity: 0.9; margin-top: 10px;">Your contributions help track government accountability and inquiry outcomes</p>
+        </div>
+
+        <h2>Inquiries Table</h2>
+        <h3 style="text-align: center; color: #7c7b7b;"><i>Outcomes are compiled from publicly available sources</i></h3>
+                 <!-- Filter inputs -->
                 <div style="margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 5px;">
                     <h3 style="margin-top: 0;">Filter Table</h3>
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
@@ -228,9 +236,9 @@
                                 outcomeCell.appendChild(document.createElement('br'));
                             }
                             
-                            if (typeof evidence === 'object' && (evidence.text || evidence.outcomeText)) {
-                                const text = evidence.text || evidence.outcomeText;
-                                const url = evidence.url || evidence.outcomeUrl;
+                            if (typeof evidence === 'object' && (evidence.text || evidence.outcomeText || evidence.OutcomeText)) {
+                                const text = evidence.text || evidence.outcomeText || evidence.OutcomeText;
+                                const url = evidence.url || evidence.outcomeUrl || evidence.OutcomeUrl;
                                 const textNode = document.createTextNode(text);
                                 outcomeCell.appendChild(textNode);
                                 if (url) {
@@ -247,9 +255,9 @@
                         });
                     }
                     // Check if outcome is a single object with text and url properties
-                    else if (typeof inquiry.outcome === 'object' && (inquiry.outcome.text || inquiry.outcome.outcomeText)) {
-                        const text = inquiry.outcome.text || inquiry.outcome.outcomeText;
-                        const url = inquiry.outcome.url || inquiry.outcome.outcomeUrl;
+                    else if (typeof inquiry.outcome === 'object' && (inquiry.outcome.text || inquiry.outcome.outcomeText || inquiry.outcome.OutcomeText)) {
+                        const text = inquiry.outcome.text || inquiry.outcome.outcomeText || inquiry.outcome.OutcomeText;
+                        const url = inquiry.outcome.url || inquiry.outcome.outcomeUrl || inquiry.outcome.OutcomeUrl;
                         outcomeCell.textContent = text;
                         if (url) {
                             outcomeCell.innerHTML += ' ';
@@ -465,9 +473,8 @@
     const breadcrumbSvg = d3.select("#actionsSunburstChart") // Append to the sunburst chart container
         .append("svg")
         .attr("id", "breadcrumb")
-        .attr("width", "100%") // Make responsive
+        .attr("width", 800 * scaleFactor) // Adjust width as needed
         .attr("height", breadcrumbHeight + 70) // Increase height to make space for the rectangle
-        .style("max-width", "1200px") // Limit maximum width
         .style("font", `${12 * scaleFactor}px sans-serif`); // Scale font size
 
     // Function to generate breadcrumb points
@@ -493,8 +500,6 @@
 
         // Calculate the total width of the breadcrumb trail
         let totalWidth = 0;
-        const maxBreadcrumbWidth = 180 * scaleFactor; // Maximum width for each breadcrumb
-        const containerWidth = 1200; // Max container width
 
         // Bind data to breadcrumb elements (excluding the last recommendation step)
         const breadcrumb = breadcrumbSvg.selectAll("g")
@@ -503,8 +508,7 @@
         // Enter new breadcrumb elements
         const breadcrumbEnter = breadcrumb.enter().append("g")
             .attr("transform", (d, i) => {
-                let textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
-                textWidth = Math.min(textWidth, maxBreadcrumbWidth); // Limit width
+                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
                 const xOffset = totalWidth;
                 totalWidth += textWidth; // Accumulate total width
                 return `translate(${xOffset}, 0)`;
@@ -513,8 +517,7 @@
         // Append the polygon for each breadcrumb
         breadcrumbEnter.append("polygon")
             .attr("points", (d, i) => {
-                let textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
-                textWidth = Math.min(textWidth, maxBreadcrumbWidth); // Limit width
+                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
                 return generateBreadcrumbPoints(textWidth, breadcrumbHeight, breadcrumbTipWidth, i);
             })
             .attr("fill", d => {
@@ -531,8 +534,7 @@
         // Append the label for each breadcrumb
         breadcrumbEnter.append("text")
             .attr("x", (d, i) => {
-                let textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
-                textWidth = Math.min(textWidth, maxBreadcrumbWidth); // Limit width
+                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
                 return textWidth / 2 + 5; // Shift slightly to the right
             })
             .attr("y", breadcrumbHeight / 2)
@@ -546,12 +548,7 @@
                 }
             })
             .style("font", `${12 * scaleFactor}px sans-serif`) // Scale font size
-            .text(d => {
-                const maxChars = Math.floor(maxBreadcrumbWidth / (8 * scaleFactor)); // Estimate max characters
-                return d.data.name.length > maxChars ? d.data.name.substring(0, maxChars - 3) + '...' : d.data.name;
-            })
-            .append("title") // Add tooltip with full text
-            .text(d => d.data.name);
+            .text(d => d.data.name); // Add the label text
 
         // Remove old breadcrumb elements
         breadcrumb.exit().remove();
@@ -584,8 +581,7 @@
             .text(recommendationText);
 
         const lineHeight = 16 * scaleFactor; // Scale line height
-        const containerWidth = 1200; // Max container width
-        const maxLineWidth = Math.min(breadcrumbWidth, containerWidth) - 40; // Add padding and respect max width
+        const maxLineWidth = breadcrumbWidth - 20; // Add some padding
         const words = recommendationText.split(/\s+/);
         let line = [];
         let lines = [];
@@ -617,12 +613,11 @@
         breadcrumbSvg.attr("height", newSvgHeight);
 
         // Add a rectangle for the recommendation
-        const rectWidth = Math.min(breadcrumbWidth, containerWidth);
         breadcrumbSvg.append("rect")
             .attr("class", "recommendation-rect")
             .attr("x", 0)
             .attr("y", breadcrumbHeight + 10) // Position below the breadcrumb trail
-            .attr("width", rectWidth) // Match the width with max limit
+            .attr("width", breadcrumbWidth) // Match the width of the breadcrumb trail
             .attr("height", rectHeight) // Adjust height dynamically
             .attr("fill", "#f9f9f9") // Light background color
             .attr("stroke", "black");
@@ -633,7 +628,7 @@
 
         lines.forEach((line, i) => {
             textGroup.append("text")
-                .attr("x", rectWidth / 2)
+                .attr("x", breadcrumbWidth / 2)
                 .attr("y", breadcrumbHeight + 10 + (i + 1) * lineHeight) // Position each line
                 .attr("text-anchor", "middle")
                 .attr("fill", "black")
@@ -736,52 +731,21 @@
                 const innerRadius = d.y0 * radius;
                 const outerRadius = d.y1 * radius;
                 const arcWidth = (outerRadius - innerRadius);
-                const arcAngle = d.x1 - d.x0;
-                
-                // Calculate approximate available space
                 const maxCharsPerLine = Math.floor(arcWidth / 6);
-                const maxLines = Math.max(1, Math.floor((arcAngle * outerRadius) / 15)); // Limit based on arc height
-                
+
                 const words = d.data.name.split(/\s+/);
                 let line = [];
                 let lines = [];
-                
-                // Build lines with word wrapping
                 words.forEach(word => {
                     const testLine = [...line, word].join(" ");
                     if (testLine.length <= maxCharsPerLine) {
                         line.push(word);
                     } else {
-                        if (lines.length < maxLines - 1) {
-                            lines.push(line.join(" "));
-                            line = [word];
-                        } else {
-                            // If we're at max lines, just add to current line
-                            line.push(word);
-                        }
+                        lines.push(line.join(" "));
+                        line = [word];
                     }
                 });
                 if (line.length) lines.push(line.join(" "));
-                
-                // Truncate to maxLines and add ellipses if needed
-                if (lines.length > maxLines) {
-                    lines = lines.slice(0, maxLines);
-                    if (lines[lines.length - 1].length > maxCharsPerLine - 3) {
-                        lines[lines.length - 1] = lines[lines.length - 1].substring(0, maxCharsPerLine - 3) + "...";
-                    } else {
-                        lines[lines.length - 1] += "...";
-                    }
-                }
-                
-                // For very long single lines, truncate with start and end
-                lines = lines.map(lineText => {
-                    if (lineText.length > maxCharsPerLine) {
-                        const start = lineText.substring(0, Math.floor(maxCharsPerLine / 2) - 2);
-                        const end = lineText.substring(lineText.length - Math.floor(maxCharsPerLine / 2) + 2);
-                        return start + "..." + end;
-                    }
-                    return lineText;
-                });
 
                 const totalLines = lines.length;
                 const lineHeight = 1.1;
@@ -867,5 +831,8 @@
     }
 
     </script>
+    
+    <!-- Buy Me a Coffee Widget -->
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="daphnis605" data-description="Support me on Buy me a coffee!" data-message="Free way to support: Submit outcome links (Google Form)" data-color="#BD5FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 </body>
 </html>
