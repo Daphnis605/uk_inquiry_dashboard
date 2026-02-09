@@ -473,8 +473,9 @@
     const breadcrumbSvg = d3.select("#actionsSunburstChart") // Append to the sunburst chart container
         .append("svg")
         .attr("id", "breadcrumb")
-        .attr("width", 800 * scaleFactor) // Adjust width as needed
+        .attr("width", "100%") // Make responsive
         .attr("height", breadcrumbHeight + 70) // Increase height to make space for the rectangle
+        .style("max-width", "1200px") // Limit maximum width
         .style("font", `${12 * scaleFactor}px sans-serif`); // Scale font size
 
     // Function to generate breadcrumb points
@@ -500,6 +501,8 @@
 
         // Calculate the total width of the breadcrumb trail
         let totalWidth = 0;
+        const maxBreadcrumbWidth = 180 * scaleFactor; // Maximum width for each breadcrumb
+        const containerWidth = 1200; // Max container width
 
         // Bind data to breadcrumb elements (excluding the last recommendation step)
         const breadcrumb = breadcrumbSvg.selectAll("g")
@@ -508,7 +511,8 @@
         // Enter new breadcrumb elements
         const breadcrumbEnter = breadcrumb.enter().append("g")
             .attr("transform", (d, i) => {
-                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
+                let textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
+                textWidth = Math.min(textWidth, maxBreadcrumbWidth); // Limit width
                 const xOffset = totalWidth;
                 totalWidth += textWidth; // Accumulate total width
                 return `translate(${xOffset}, 0)`;
@@ -517,7 +521,8 @@
         // Append the polygon for each breadcrumb
         breadcrumbEnter.append("polygon")
             .attr("points", (d, i) => {
-                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
+                let textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
+                textWidth = Math.min(textWidth, maxBreadcrumbWidth); // Limit width
                 return generateBreadcrumbPoints(textWidth, breadcrumbHeight, breadcrumbTipWidth, i);
             })
             .attr("fill", d => {
@@ -534,7 +539,8 @@
         // Append the label for each breadcrumb
         breadcrumbEnter.append("text")
             .attr("x", (d, i) => {
-                const textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
+                let textWidth = getTextWidth(d.data.name, `${12 * scaleFactor}px sans-serif`) + 20; // Add padding
+                textWidth = Math.min(textWidth, maxBreadcrumbWidth); // Limit width
                 return textWidth / 2 + 5; // Shift slightly to the right
             })
             .attr("y", breadcrumbHeight / 2)
@@ -548,7 +554,12 @@
                 }
             })
             .style("font", `${12 * scaleFactor}px sans-serif`) // Scale font size
-            .text(d => d.data.name); // Add the label text
+            .text(d => {
+                const maxChars = Math.floor(maxBreadcrumbWidth / (8 * scaleFactor)); // Estimate max characters
+                return d.data.name.length > maxChars ? d.data.name.substring(0, maxChars - 3) + '...' : d.data.name;
+            })
+            .append("title") // Add tooltip with full text
+            .text(d => d.data.name);
 
         // Remove old breadcrumb elements
         breadcrumb.exit().remove();
@@ -581,7 +592,8 @@
             .text(recommendationText);
 
         const lineHeight = 16 * scaleFactor; // Scale line height
-        const maxLineWidth = breadcrumbWidth - 20; // Add some padding
+        const containerWidth = 1200; // Max container width
+        const maxLineWidth = Math.min(breadcrumbWidth, containerWidth) - 40; // Add padding and respect max width
         const words = recommendationText.split(/\s+/);
         let line = [];
         let lines = [];
@@ -613,11 +625,12 @@
         breadcrumbSvg.attr("height", newSvgHeight);
 
         // Add a rectangle for the recommendation
+        const rectWidth = Math.min(breadcrumbWidth, containerWidth);
         breadcrumbSvg.append("rect")
             .attr("class", "recommendation-rect")
             .attr("x", 0)
             .attr("y", breadcrumbHeight + 10) // Position below the breadcrumb trail
-            .attr("width", breadcrumbWidth) // Match the width of the breadcrumb trail
+            .attr("width", rectWidth) // Match the width with max limit
             .attr("height", rectHeight) // Adjust height dynamically
             .attr("fill", "#f9f9f9") // Light background color
             .attr("stroke", "black");
@@ -628,7 +641,7 @@
 
         lines.forEach((line, i) => {
             textGroup.append("text")
-                .attr("x", breadcrumbWidth / 2)
+                .attr("x", rectWidth / 2)
                 .attr("y", breadcrumbHeight + 10 + (i + 1) * lineHeight) // Position each line
                 .attr("text-anchor", "middle")
                 .attr("fill", "black")
@@ -731,21 +744,52 @@
                 const innerRadius = d.y0 * radius;
                 const outerRadius = d.y1 * radius;
                 const arcWidth = (outerRadius - innerRadius);
+                const arcAngle = d.x1 - d.x0;
+                
+                // Calculate approximate available space
                 const maxCharsPerLine = Math.floor(arcWidth / 6);
-
+                const maxLines = Math.max(1, Math.floor((arcAngle * outerRadius) / 15)); // Limit based on arc height
+                
                 const words = d.data.name.split(/\s+/);
                 let line = [];
                 let lines = [];
+                
+                // Build lines with word wrapping
                 words.forEach(word => {
                     const testLine = [...line, word].join(" ");
                     if (testLine.length <= maxCharsPerLine) {
                         line.push(word);
                     } else {
-                        lines.push(line.join(" "));
-                        line = [word];
+                        if (lines.length < maxLines - 1) {
+                            lines.push(line.join(" "));
+                            line = [word];
+                        } else {
+                            // If we're at max lines, just add to current line
+                            line.push(word);
+                        }
                     }
                 });
                 if (line.length) lines.push(line.join(" "));
+                
+                // Truncate to maxLines and add ellipses if needed
+                if (lines.length > maxLines) {
+                    lines = lines.slice(0, maxLines);
+                    if (lines[lines.length - 1].length > maxCharsPerLine - 3) {
+                        lines[lines.length - 1] = lines[lines.length - 1].substring(0, maxCharsPerLine - 3) + "...";
+                    } else {
+                        lines[lines.length - 1] += "...";
+                    }
+                }
+                
+                // For very long single lines, truncate with start and end
+                lines = lines.map(lineText => {
+                    if (lineText.length > maxCharsPerLine) {
+                        const start = lineText.substring(0, Math.floor(maxCharsPerLine / 2) - 2);
+                        const end = lineText.substring(lineText.length - Math.floor(maxCharsPerLine / 2) + 2);
+                        return start + "..." + end;
+                    }
+                    return lineText;
+                });
 
                 const totalLines = lines.length;
                 const lineHeight = 1.1;
