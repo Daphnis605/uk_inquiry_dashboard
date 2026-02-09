@@ -188,7 +188,13 @@
           {
             "Recommendation": "The NHS and all who work for it must adopt and demonstrate a shared culture in which the patient is the priority in everything done. This requires:   A common set of core values and standards shared throughout the system;   Leadership at all levels from ward to the top of the Department of Health, committed to and capable of involving all staff with those values and standards;   A system which recognises and applies the values of transparency, honesty and candour;   Freely available, useful, reliable and full information on attainment of the values and standards;   A tool or methodology such as a cultural barometer to measure the cultural health of all parts of the system.",
             "ChangeType": "Different",
-             "ActionCategory": "Processes & Procedures"
+            "ActionCategory": "Processes & Procedures",
+            "Outcome":[
+              {
+                "OutcomeText":"NHS Constitution revised in 2013, after inquiry published in 2013",
+                "OutcomeUrl":"https://www.gov.uk/government/publications/the-nhs-constitution-for-england#full-publication-update-history"
+              }
+            ]
           },
           {
             "Recommendation": "The NHS Constitution should be the first reference point for all NHS patients and staff and should set out the system’s common values, as well as the respective rights, legitimate expectations and obligations of patients.",
@@ -208,7 +214,13 @@
           {
             "Recommendation": "The handbook to the NHS Constitution should be revised to include a much more prominent reference to the NHS values and their significance.",
             "ChangeType": "Different",
-             "ActionCategory": "Law & Regulation"
+            "ActionCategory": "Law & Regulation",
+            "Outcome": [
+              {
+                "OutcomeText":"NHS Constitution Handbook first published in 2015, after inquiry published in 2013",
+                "OutcomeUrl":"https://www.gov.uk/government/publications/supplements-to-the-nhs-constitution-for-england#full-publication-update-history"
+              }
+            ]
           },
           {
             "Recommendation": "All NHS staff should be required to enter into an express commitment to abide by the NHS values and the Constitution, both of which should be incorporated into the contracts of employment.",
@@ -4510,7 +4522,13 @@
           {
             "Recommendation": "MR4: A Protect Duty, as set out above, should be enacted into law by primary legislation.",
             "ChangeType": "New",
-            "ActionCategory": "Law & Regulation"
+            "ActionCategory": "Law & Regulation",
+            "Outcome":[
+              {
+                "OutcomeText": "Following a campaign, Martyn's Law (Terrorism (Protection of Premises) Act 2025) was enacted",
+                "OutcomeUrl": "https://homeofficemedia.blog.gov.uk/2025/04/03/martyns-law-factsheet/"
+              }
+            ]
           },
           {
             "Recommendation": "MR5: NaCTSO should create a centralised library of training materials.",
