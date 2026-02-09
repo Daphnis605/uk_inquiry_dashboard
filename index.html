@@ -56,15 +56,79 @@
                 </div>
                 <h2>Inquiries Table</h2>
                 <h3 style="text-align: center; color: #7c7b7b;">Outcomes are compiled from publicly available sources</h3>
+                
+                <!-- Filter inputs -->
+                <div style="margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 5px;">
+                    <h3 style="margin-top: 0;">Filter Table</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+                        <div>
+                            <label for="filterDept" style="display: block; margin-bottom: 5px; font-weight: bold;">Department:</label>
+                            <input type="text" id="filterDept" placeholder="Filter by department..." style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                        </div>
+                        <div>
+                            <label for="filterInquiry" style="display: block; margin-bottom: 5px; font-weight: bold;">Inquiry Name:</label>
+                            <input type="text" id="filterInquiry" placeholder="Filter by inquiry..." style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                        </div>
+                        <div>
+                            <label for="filterChangeType" style="display: block; margin-bottom: 5px; font-weight: bold;">Change Type:</label>
+                            <select id="filterChangeType" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                                <option value="">All</option>
+                                <option value="More">More</option>
+                                <option value="Less">Less</option>
+                                <option value="Different">Different</option>
+                                <option value="New">New</option>
+                                <option value="Cease">Cease</option>
+                                <option value="None">None</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="filterActionCategory" style="display: block; margin-bottom: 5px; font-weight: bold;">Action Category:</label>
+                            <select id="filterActionCategory" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                                <option value="">All</option>
+                                <option value="Law & Regulation">Law & Regulation</option>
+                                <option value="Enforcement & Compliance">Enforcement & Compliance</option>
+                                <option value="Accountability & Oversight">Accountability & Oversight</option>
+                                <option value="Governance & Structure">Governance & Structure</option>
+                                <option value="Processes & Procedures">Processes & Procedures</option>
+                                <option value="Training & Education">Training & Education</option>
+                                <option value="Documentation & Records">Documentation & Records</option>
+                                <option value="Technology & Systems">Technology & Systems</option>
+                                <option value="Communication & Reporting">Communication & Reporting</option>
+                                <option value="Funding & Resources">Funding & Resources</option>
+                                <option value="Emergency & Risk Management">Emergency & Risk Management</option>
+                                <option value="Audits & Reviews">Audits & Reviews</option>
+                                <option value="Infrastructure & Facilities">Infrastructure & Facilities</option>
+                                <option value="Investigation & Redress">Investigation & Redress</option>
+                                <option value="Support & Welfare">Support & Welfare</option>
+                                <option value="None Published">None Published</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="filterRecommendation" style="display: block; margin-bottom: 5px; font-weight: bold;">Recommendation:</label>
+                            <input type="text" id="filterRecommendation" placeholder="Filter by recommendation..." style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                        </div>
+                        <div>
+                            <label for="filterOutcome" style="display: block; margin-bottom: 5px; font-weight: bold;">Has Outcome:</label>
+                            <select id="filterOutcome" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                                <option value="">All</option>
+                                <option value="yes">With Outcome</option>
+                                <option value="no">Without Outcome</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button id="clearFilters" style="margin-top: 10px; padding: 10px 20px; background: #d62728; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Clear All Filters</button>
+                    <span id="resultCount" style="margin-left: 15px; font-weight: bold;"></span>
+                </div>
+
                 <table id="inquiriesTable">
                     <thead>
                         <tr>
-                            <th>Administration/Department</th>
-                            <th>Inquiry Name</th>
-                            <th>Change Type</th>
-                            <th>Action Category</th>
-                            <th>Recommendation</th>
-                            <th>Outcome (Evidence of Action)</th>
+                            <th class="sortable" data-column="0">Administration/Department <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-column="1">Inquiry Name <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-column="2">Change Type <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-column="3">Action Category <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-column="4">Recommendation <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-column="5">Outcome (Evidence of Action) <span class="sort-indicator"></span></th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -128,83 +192,213 @@
                 }
             });
 
-        // Populate table
-        const tbody = document.querySelector('#inquiriesTable tbody');
-        processedData.forEach(inquiry => {
-            const row = tbody.insertRow();
-            row.insertCell(0).textContent = inquiry.department;
-            const inquiryCell = row.insertCell(1);
-            const link = document.createElement('a');
-            link.href = inquiry.link;
-            link.textContent = inquiry.name;
-            link.target = "_blank";
-            inquiryCell.appendChild(link);
-            const changeTypeCell = row.insertCell(2);
-            changeTypeCell.innerHTML = `<strong>${inquiry.changeType}</strong>`;
-            changeTypeCell.style.color = changeTypeColors[inquiry.changeType] || "#000";
-            const actionCategoryCell = row.insertCell(3);
-            actionCategoryCell.textContent = inquiry.actionCategory;
-            actionCategoryCell.style.color = actionCategoryColors[inquiry.actionCategory] || "#000";
-            row.insertCell(4).textContent = inquiry.recommendation;
+        // Store all data for filtering
+        let allTableData = processedData;
+
+        // Function to populate table with data
+        function populateTable(dataToDisplay) {
+            const tbody = document.querySelector('#inquiriesTable tbody');
+            tbody.innerHTML = ''; // Clear existing rows
             
-            // Add outcome cell
-            const outcomeCell = row.insertCell(5);
-            if (inquiry.outcome) {
-                // Check if outcome is an array of evidence items
-                if (Array.isArray(inquiry.outcome)) {
-                    inquiry.outcome.forEach((evidence, index) => {
-                        if (index > 0) {
-                            outcomeCell.appendChild(document.createElement('br'));
-                            outcomeCell.appendChild(document.createElement('br'));
-                        }
-                        
-                        if (typeof evidence === 'object' && (evidence.text || evidence.outcomeText)) {
-                            const text = evidence.text || evidence.outcomeText;
-                            const url = evidence.url || evidence.outcomeUrl;
-                            const textNode = document.createTextNode(text);
-                            outcomeCell.appendChild(textNode);
-                            if (url) {
-                                outcomeCell.appendChild(document.createTextNode(' '));
-                                const evidenceLink = document.createElement('a');
-                                evidenceLink.href = url;
-                                evidenceLink.textContent = '(View Evidence)';
-                                evidenceLink.target = "_blank";
-                                outcomeCell.appendChild(evidenceLink);
+            dataToDisplay.forEach(inquiry => {
+                const row = tbody.insertRow();
+                row.insertCell(0).textContent = inquiry.department;
+                const inquiryCell = row.insertCell(1);
+                const link = document.createElement('a');
+                link.href = inquiry.link;
+                link.textContent = inquiry.name;
+                link.target = "_blank";
+                inquiryCell.appendChild(link);
+                const changeTypeCell = row.insertCell(2);
+                changeTypeCell.innerHTML = `<strong>${inquiry.changeType}</strong>`;
+                changeTypeCell.style.color = changeTypeColors[inquiry.changeType] || "#000";
+                const actionCategoryCell = row.insertCell(3);
+                actionCategoryCell.textContent = inquiry.actionCategory;
+                actionCategoryCell.style.color = actionCategoryColors[inquiry.actionCategory] || "#000";
+                row.insertCell(4).textContent = inquiry.recommendation;
+                
+                // Add outcome cell
+                const outcomeCell = row.insertCell(5);
+                if (inquiry.outcome) {
+                    // Check if outcome is an array of evidence items
+                    if (Array.isArray(inquiry.outcome)) {
+                        inquiry.outcome.forEach((evidence, index) => {
+                            if (index > 0) {
+                                outcomeCell.appendChild(document.createElement('br'));
+                                outcomeCell.appendChild(document.createElement('br'));
                             }
-                        } else if (typeof evidence === 'string') {
-                            outcomeCell.appendChild(document.createTextNode(evidence));
+                            
+                            if (typeof evidence === 'object' && (evidence.text || evidence.outcomeText)) {
+                                const text = evidence.text || evidence.outcomeText;
+                                const url = evidence.url || evidence.outcomeUrl;
+                                const textNode = document.createTextNode(text);
+                                outcomeCell.appendChild(textNode);
+                                if (url) {
+                                    outcomeCell.appendChild(document.createTextNode(' '));
+                                    const evidenceLink = document.createElement('a');
+                                    evidenceLink.href = url;
+                                    evidenceLink.textContent = '(View Evidence)';
+                                    evidenceLink.target = "_blank";
+                                    outcomeCell.appendChild(evidenceLink);
+                                }
+                            } else if (typeof evidence === 'string') {
+                                outcomeCell.appendChild(document.createTextNode(evidence));
+                            }
+                        });
+                    }
+                    // Check if outcome is a single object with text and url properties
+                    else if (typeof inquiry.outcome === 'object' && (inquiry.outcome.text || inquiry.outcome.outcomeText)) {
+                        const text = inquiry.outcome.text || inquiry.outcome.outcomeText;
+                        const url = inquiry.outcome.url || inquiry.outcome.outcomeUrl;
+                        outcomeCell.textContent = text;
+                        if (url) {
+                            outcomeCell.innerHTML += ' ';
+                            const outcomeLink = document.createElement('a');
+                            outcomeLink.href = url;
+                            outcomeLink.textContent = '(View Evidence)';
+                            outcomeLink.target = "_blank";
+                            outcomeCell.appendChild(outcomeLink);
                         }
-                    });
-                }
-                // Check if outcome is a single object with text and url properties
-                else if (typeof inquiry.outcome === 'object' && (inquiry.outcome.text || inquiry.outcome.outcomeText)) {
-                    const text = inquiry.outcome.text || inquiry.outcome.outcomeText;
-                    const url = inquiry.outcome.url || inquiry.outcome.outcomeUrl;
-                    outcomeCell.textContent = text;
-                    if (url) {
-                        outcomeCell.innerHTML += ' ';
+                    }
+                    // If outcome is just a URL string, create a link
+                    else if (typeof inquiry.outcome === 'string' && inquiry.outcome.startsWith('http')) {
                         const outcomeLink = document.createElement('a');
-                        outcomeLink.href = url;
-                        outcomeLink.textContent = '(View Evidence)';
+                        outcomeLink.href = inquiry.outcome;
+                        outcomeLink.textContent = 'View Evidence';
                         outcomeLink.target = "_blank";
                         outcomeCell.appendChild(outcomeLink);
+                    } 
+                    // If outcome is plain text, display it directly
+                    else if (typeof inquiry.outcome === 'string') {
+                        outcomeCell.textContent = inquiry.outcome;
                     }
+                } else {
+                    outcomeCell.textContent = '-';
                 }
-                // If outcome is just a URL string, create a link
-                else if (typeof inquiry.outcome === 'string' && inquiry.outcome.startsWith('http')) {
-                    const outcomeLink = document.createElement('a');
-                    outcomeLink.href = inquiry.outcome;
-                    outcomeLink.textContent = 'View Evidence';
-                    outcomeLink.target = "_blank";
-                    outcomeCell.appendChild(outcomeLink);
-                } 
-                // If outcome is plain text, display it directly
-                else if (typeof inquiry.outcome === 'string') {
-                    outcomeCell.textContent = inquiry.outcome;
+            });
+            
+            // Update result count
+            document.getElementById('resultCount').textContent = `Showing ${dataToDisplay.length} of ${allTableData.length} results`;
+        }
+
+        // Initial population
+        populateTable(allTableData);
+
+        // Filter function
+        function filterTable() {
+            const filterDept = document.getElementById('filterDept').value.toLowerCase();
+            const filterInquiry = document.getElementById('filterInquiry').value.toLowerCase();
+            const filterChangeType = document.getElementById('filterChangeType').value;
+            const filterActionCategory = document.getElementById('filterActionCategory').value;
+            const filterRecommendation = document.getElementById('filterRecommendation').value.toLowerCase();
+            const filterOutcome = document.getElementById('filterOutcome').value;
+
+            const filtered = allTableData.filter(inquiry => {
+                const matchDept = !filterDept || inquiry.department.toLowerCase().includes(filterDept);
+                const matchInquiry = !filterInquiry || inquiry.name.toLowerCase().includes(filterInquiry);
+                const matchChangeType = !filterChangeType || inquiry.changeType === filterChangeType;
+                const matchActionCategory = !filterActionCategory || inquiry.actionCategory === filterActionCategory;
+                const matchRecommendation = !filterRecommendation || (inquiry.recommendation && inquiry.recommendation.toLowerCase().includes(filterRecommendation));
+                
+                let matchOutcome = true;
+                if (filterOutcome === 'yes') {
+                    matchOutcome = inquiry.outcome && inquiry.outcome !== null;
+                } else if (filterOutcome === 'no') {
+                    matchOutcome = !inquiry.outcome || inquiry.outcome === null;
                 }
-            } else {
-                outcomeCell.textContent = '-';
-            }
+
+                return matchDept && matchInquiry && matchChangeType && matchActionCategory && matchRecommendation && matchOutcome;
+            });
+
+            populateTable(filtered);
+        }
+
+        // Add event listeners for filters
+        document.getElementById('filterDept').addEventListener('input', filterTable);
+        document.getElementById('filterInquiry').addEventListener('input', filterTable);
+        document.getElementById('filterChangeType').addEventListener('change', filterTable);
+        document.getElementById('filterActionCategory').addEventListener('change', filterTable);
+        document.getElementById('filterRecommendation').addEventListener('input', filterTable);
+        document.getElementById('filterOutcome').addEventListener('change', filterTable);
+
+        // Clear filters button
+        document.getElementById('clearFilters').addEventListener('click', () => {
+            document.getElementById('filterDept').value = '';
+            document.getElementById('filterInquiry').value = '';
+            document.getElementById('filterChangeType').value = '';
+            document.getElementById('filterActionCategory').value = '';
+            document.getElementById('filterRecommendation').value = '';
+            document.getElementById('filterOutcome').value = '';
+            populateTable(allTableData);
+        });
+
+        // Sorting functionality
+        let sortDirection = {};
+        document.querySelectorAll('.sortable').forEach(header => {
+            const column = parseInt(header.dataset.column);
+            sortDirection[column] = 'asc';
+            
+            header.addEventListener('click', () => {
+                // Toggle sort direction
+                sortDirection[column] = sortDirection[column] === 'asc' ? 'desc' : 'asc';
+                
+                // Clear other indicators
+                document.querySelectorAll('.sort-indicator').forEach(ind => ind.textContent = '');
+                
+                // Set current indicator
+                header.querySelector('.sort-indicator').textContent = sortDirection[column] === 'asc' ? ' ▲' : ' ▼';
+                
+                // Sort the data
+                const currentData = [...allTableData].filter(inquiry => {
+                    // Apply current filters
+                    const filterDept = document.getElementById('filterDept').value.toLowerCase();
+                    const filterInquiry = document.getElementById('filterInquiry').value.toLowerCase();
+                    const filterChangeType = document.getElementById('filterChangeType').value;
+                    const filterActionCategory = document.getElementById('filterActionCategory').value;
+                    const filterRecommendation = document.getElementById('filterRecommendation').value.toLowerCase();
+                    const filterOutcome = document.getElementById('filterOutcome').value;
+
+                    const matchDept = !filterDept || inquiry.department.toLowerCase().includes(filterDept);
+                    const matchInquiry = !filterInquiry || inquiry.name.toLowerCase().includes(filterInquiry);
+                    const matchChangeType = !filterChangeType || inquiry.changeType === filterChangeType;
+                    const matchActionCategory = !filterActionCategory || inquiry.actionCategory === filterActionCategory;
+                    const matchRecommendation = !filterRecommendation || (inquiry.recommendation && inquiry.recommendation.toLowerCase().includes(filterRecommendation));
+                    
+                    let matchOutcome = true;
+                    if (filterOutcome === 'yes') {
+                        matchOutcome = inquiry.outcome && inquiry.outcome !== null;
+                    } else if (filterOutcome === 'no') {
+                        matchOutcome = !inquiry.outcome || inquiry.outcome === null;
+                    }
+
+                    return matchDept && matchInquiry && matchChangeType && matchActionCategory && matchRecommendation && matchOutcome;
+                });
+
+                currentData.sort((a, b) => {
+                    let aVal, bVal;
+                    
+                    switch(column) {
+                        case 0: aVal = a.department; bVal = b.department; break;
+                        case 1: aVal = a.name; bVal = b.name; break;
+                        case 2: aVal = a.changeType; bVal = b.changeType; break;
+                        case 3: aVal = a.actionCategory; bVal = b.actionCategory; break;
+                        case 4: aVal = a.recommendation || ''; bVal = b.recommendation || ''; break;
+                        case 5: 
+                            aVal = a.outcome ? '1' : '0'; 
+                            bVal = b.outcome ? '1' : '0'; 
+                            break;
+                        default: return 0;
+                    }
+                    
+                    if (sortDirection[column] === 'asc') {
+                        return aVal > bVal ? 1 : aVal < bVal ? -1 : 0;
+                    } else {
+                        return aVal < bVal ? 1 : aVal > bVal ? -1 : 0;
+                    }
+                });
+                
+                populateTable(currentData);
+            });
         });
 
             // Transform data for sunburst chart
