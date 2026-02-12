@@ -89,15 +89,22 @@ tr:hover {
 
 /* Mobile responsive styles */
 @media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+    
     .container {
         padding: 10px;
-        margin: 10px;
+        margin: 0;
+        border-radius: 0;
+        overflow-x: hidden;
     }
     
     /* Make table stack vertically on mobile */
     #inquiriesTable {
         display: block;
         overflow-x: visible;
+        width: 100%;
     }
     
     #inquiriesTable thead {
@@ -109,6 +116,7 @@ tr:hover {
     #inquiriesTable td {
         display: block;
         width: 100%;
+        box-sizing: border-box;
     }
     
     #inquiriesTable tr {
@@ -117,14 +125,18 @@ tr:hover {
         padding: 10px;
         background: #fff;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        max-width: 100%;
+        overflow: hidden;
     }
     
     #inquiriesTable td {
         text-align: left;
-        padding: 10px 10px;
+        padding: 10px;
         position: relative;
-        padding-left: 40%;
         border-bottom: 1px solid #eee;
+        min-height: 40px;
+        word-break: break-word;
+        overflow-wrap: anywhere;
     }
     
     #inquiriesTable td:last-child {
@@ -133,11 +145,9 @@ tr:hover {
     
     #inquiriesTable td:before {
         content: attr(data-label);
-        position: absolute;
-        left: 10px;
-        width: 35%;
-        padding-right: 10px;
+        display: block;
         font-weight: bold;
-        text-align: left;
+        margin-bottom: 5px;
+        color: #555;
     }
 } 
