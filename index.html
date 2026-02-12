@@ -506,11 +506,11 @@
             return totalB - totalA;
         });
 
-        // Set up dimensions
-        const margin = {top: 60, right: 20, bottom: 120, left: 70};
+        // Set up dimensions (swapped for horizontal bars)
+        const margin = {top: 60, right: 120, bottom: 70, left: 200};
         const containerWidth = document.getElementById('stackedBarChart').offsetWidth;
         const width = Math.min(containerWidth - margin.left - margin.right, 1200);
-        const height = 500 - margin.top - margin.bottom;
+        const height = Math.max(chartData.length * 35, 400); // Dynamic height based on number of categories
 
         // Create SVG
         const svg = d3.select("#stackedBarChart")
@@ -531,17 +531,17 @@
 
         const stackedData = stack(chartData);
 
-        // Set up scales
-        const x = d3.scaleBand()
+        // Set up scales (swapped X and Y)
+        const x = d3.scaleLinear()
+            .domain([0, d3.max(stackedData, d => d3.max(d, d => d[1]))])
+            .range([0, width]);
+
+        const y = d3.scaleBand()
             .domain(chartData.map(d => d.category))
-            .range([0, width])
+            .range([0, height])
             .padding(0.2);
 
-        const y = d3.scaleLinear()
-            .domain([0, d3.max(stackedData, d => d3.max(d, d => d[1]))])
-            .range([height, 0]);
-
-        // Add bars
+        // Add bars (horizontal)
         const layers = svg.append("g")
             .selectAll("g")
             .data(stackedData)
@@ -551,43 +551,39 @@
         layers.selectAll("rect")
             .data(d => d.map(v => ({...v, key: d.key})))
             .join("rect")
-            .attr("x", d => x(d.data.category))
-            .attr("y", d => y(d[1]))
-            .attr("height", d => y(d[0]) - y(d[1]))
-            .attr("width", x.bandwidth())
+            .attr("y", d => y(d.data.category))
+            .attr("x", d => x(d[0]))
+            .attr("width", d => x(d[1]) - x(d[0]))
+            .attr("height", y.bandwidth())
             .append("title")
             .text(d => `${d.data.category}\n${d.key}: ${d.data[d.key]}`);
 
-        // Add X axis
+        // Add Y axis (now showing action categories)
         svg.append("g")
-            .attr("transform", `translate(0,${height})`)
-            .call(d3.axisBottom(x))
+            .call(d3.axisLeft(y))
             .selectAll("text")
-            .attr("transform", "rotate(-45)")
-            .style("text-anchor", "end")
-            .attr("dx", "-.8em")
-            .attr("dy", ".15em")
             .style("fill", d => actionCategoryColors[d] || "#000")
             .style("font-weight", "bold");
-
-        // Add X axis label
-        svg.append("text")
-            .attr("x", width / 2)
-            .attr("y", height + margin.bottom - 10)
-            .attr("text-anchor", "middle")
-            .style("font-size", "14px")
-            .style("font-weight", "bold")
-            .text("Action Category");
-
-        // Add Y axis
-        svg.append("g")
-            .call(d3.axisLeft(y));
 
         // Add Y axis label
         svg.append("text")
             .attr("transform", "rotate(-90)")
             .attr("x", -height / 2)
             .attr("y", -margin.left + 20)
+            .attr("text-anchor", "middle")
+            .style("font-size", "14px")
+            .style("font-weight", "bold")
+            .text("Action Category");
+
+        // Add X axis (now showing count)
+        svg.append("g")
+            .attr("transform", `translate(0,${height})`)
+            .call(d3.axisBottom(x));
+
+        // Add X axis label
+        svg.append("text")
+            .attr("x", width / 2)
+            .attr("y", height + margin.bottom - 25)
             .attr("text-anchor", "middle")
             .style("font-size", "14px")
             .style("font-weight", "bold")
