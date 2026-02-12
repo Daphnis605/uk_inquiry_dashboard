@@ -23,7 +23,7 @@
             <div id="actionsSunburstChart"></div>
         </div>
         <div class="chart-container">
-            <h2>Recommendations by Action Category and Change Type</h2>
+            <h2>Overall Recommendations by Action Category and Change Type</h2>
             <div id="stackedBarChart"></div>
         </div>
         <div>
@@ -214,23 +214,36 @@
             
             dataToDisplay.forEach(inquiry => {
                 const row = tbody.insertRow();
-                row.insertCell(0).textContent = inquiry.department;
+                
+                const deptCell = row.insertCell(0);
+                deptCell.textContent = inquiry.department;
+                deptCell.setAttribute('data-label', 'Department:');
+                
                 const inquiryCell = row.insertCell(1);
+                inquiryCell.setAttribute('data-label', 'Inquiry:');
                 const link = document.createElement('a');
                 link.href = inquiry.link;
                 link.textContent = inquiry.name;
                 link.target = "_blank";
                 inquiryCell.appendChild(link);
+                
                 const changeTypeCell = row.insertCell(2);
+                changeTypeCell.setAttribute('data-label', 'Change Type:');
                 changeTypeCell.innerHTML = `<strong>${inquiry.changeType}</strong>`;
                 changeTypeCell.style.color = changeTypeColors[inquiry.changeType] || "#000";
+                
                 const actionCategoryCell = row.insertCell(3);
+                actionCategoryCell.setAttribute('data-label', 'Action Category:');
                 actionCategoryCell.textContent = inquiry.actionCategory;
                 actionCategoryCell.style.color = actionCategoryColors[inquiry.actionCategory] || "#000";
-                row.insertCell(4).textContent = inquiry.recommendation;
+                
+                const recCell = row.insertCell(4);
+                recCell.setAttribute('data-label', 'Recommendation:');
+                recCell.textContent = inquiry.recommendation;
                 
                 // Add outcome cell
                 const outcomeCell = row.insertCell(5);
+                outcomeCell.setAttribute('data-label', 'Outcome:');
                 if (inquiry.outcome) {
                     // Check if outcome is an array of evidence items
                     if (Array.isArray(inquiry.outcome)) {

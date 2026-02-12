@@ -11,6 +11,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow-x: hidden;
 }
 
 h1 {
@@ -29,12 +30,16 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    table-layout: fixed;
+    overflow-wrap: break-word;
 }
 
 th, td {
     padding: 12px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 th {
@@ -80,4 +85,59 @@ tr:hover {
     border-radius: 4px;
     font-size: 12px;
     pointer-events: none;
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    /* Make table stack vertically on mobile */
+    #inquiriesTable {
+        display: block;
+        overflow-x: visible;
+    }
+    
+    #inquiriesTable thead {
+        display: none;
+    }
+    
+    #inquiriesTable tbody,
+    #inquiriesTable tr,
+    #inquiriesTable td {
+        display: block;
+        width: 100%;
+    }
+    
+    #inquiriesTable tr {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    #inquiriesTable td {
+        text-align: left;
+        padding: 10px 10px;
+        position: relative;
+        padding-left: 40%;
+        border-bottom: 1px solid #eee;
+    }
+    
+    #inquiriesTable td:last-child {
+        border-bottom: none;
+    }
+    
+    #inquiriesTable td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        width: 35%;
+        padding-right: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
 } 
