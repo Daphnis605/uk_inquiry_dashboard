@@ -64,8 +64,9 @@
             <h2 style="margin: 0 0 15px 0; color: white;">💜 Help Improve This Dashboard</h2>
             <p style="font-size: 18px; margin: 10px 0;"><strong>Free way to contribute:</strong> Submit outcome evidence links via our <a href="https://forms.gle/Xni4V6NhmhEHGNmv8" target="_blank" style="color: #FFD700; text-decoration: underline; font-weight: bold;">Google Form</a></p>
             <p style="font-size: 16px; margin: 10px 0;">Or support the project with a <a href="buymeacoffee.com/daphnis605" target="_blank" style="color: #FFD700; text-decoration: underline; font-weight: bold;">Hot Chocolate</a> ☕</p>
-            <p style="font-size: 14px; opacity: 0.9; margin-top: 10px;">Your contributions help track government accountability and inquiry outcomes</p>
-        </div>
+            <p style="font-size: 14px; opacity: 0.9; margin-top: 10px;">More info on <a href="Sophie-Lynne.com/Projects" target="_blank" style="color:  #71e8af; text-decoration: underline; font-weight: bold;">Sophie-Lynne.com/Projects</a></p>
+            <p style="font-size: 14px; opacity: 0.9; margin-top: 10px;">Your contributions help track government accountability and inquiry outcomes</p> 
+            </div>
 
         <h2>Inquiries Table</h2>
         <h3 style="text-align: center; color: #7c7b7b;"><i>Outcomes are compiled from publicly available sources</i></h3>
@@ -129,6 +130,14 @@
                         </div>
                     </div>
                     <button id="clearFilters" style="margin-top: 10px; padding: 10px 20px; background: #d62728; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Clear All Filters</button>
+                    <div style="display: inline-block; margin-left: 15px;">
+                        <select id="downloadFormat" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px 0 0 4px; font-weight: bold; cursor: pointer;">
+                            <option value="csv">CSV</option>
+                            <option value="json">JSON</option>
+                            <option value="excel">Excel</option>
+                        </select>
+                        <button id="downloadButton" style="padding: 10px 20px; background: #2ca02c; color: white; border: none; border-radius: 0 4px 4px 0; cursor: pointer; font-weight: bold; margin-left: -4px;">📥 Download</button>
+                    </div>
                     <span id="resultCount" style="margin-left: 15px; font-weight: bold;"></span>
                 </div>
 
@@ -206,9 +215,11 @@
 
         // Store all data for filtering
         let allTableData = processedData;
+        let currentFilteredData = processedData; // Track currently filtered data
 
         // Function to populate table with data
         function populateTable(dataToDisplay) {
+            currentFilteredData = dataToDisplay; // Update current filtered data
             const tbody = document.querySelector('#inquiriesTable tbody');
             tbody.innerHTML = ''; // Clear existing rows
             
@@ -344,8 +355,6 @@
         document.getElementById('filterChangeType').addEventListener('change', filterTable);
         document.getElementById('filterActionCategory').addEventListener('change', filterTable);
         document.getElementById('filterRecommendation').addEventListener('input', filterTable);
-        document.getElementById('filterOutcome').addEventListener('change', filterTable);
-
         // Clear filters button
         document.getElementById('clearFilters').addEventListener('click', () => {
             document.getElementById('filterDept').value = '';
@@ -355,6 +364,137 @@
             document.getElementById('filterRecommendation').value = '';
             document.getElementById('filterOutcome').value = '';
             populateTable(allTableData);
+        });
+
+        // Download functions
+        function downloadCSV() {
+            const headers = ['Administration/Department', 'Inquiry Name', 'Report Link', 'Change Type', 'Action Category', 'Recommendation', 'Outcome'];
+            const csvContent = [
+                headers.join(','),
+                ...currentFilteredData.map(row => {
+                    const outcomeText = formatOutcomeForExport(row.outcome);
+                    return [
+                        escapeCSV(row.department),
+                        escapeCSV(row.name),
+                        escapeCSV(row.link),
+                        escapeCSV(row.changeType),
+                        escapeCSV(row.actionCategory),
+                        escapeCSV(row.recommendation),
+                        escapeCSV(outcomeText)
+                    ].join(',');
+                })
+            ].join('\n');
+
+            downloadFile(csvContent, 'inquiries_data.csv', 'text/csv;charset=utf-8;');
+        }
+
+        function downloadJSON() {
+            const jsonData = currentFilteredData.map(row => ({
+                'Administration/Department': row.department,
+                'Inquiry Name': row.name,
+                'Report Link': row.link,
+                'Change Type': row.changeType,
+                'Action Category': row.actionCategory,
+                'Recommendation': row.recommendation,
+                'Outcome': row.outcome
+            }));
+
+            const jsonContent = JSON.stringify(jsonData, null, 2);
+            downloadFile(jsonContent, 'inquiries_data.json', 'application/json');
+        }
+
+        function downloadExcel() {
+            // Create HTML table format that Excel can read
+            const headers = ['Administration/Department', 'Inquiry Name', 'Report Link', 'Change Type', 'Action Category', 'Recommendation', 'Outcome'];
+            let excelContent = '<html><head><meta charset="utf-8"></head><body><table border="1">';
+            
+            // Add headers
+            excelContent += '<tr>' + headers.map(h => `<th>${h}</th>`).join('') + '</tr>';
+            
+            // Add data rows
+            currentFilteredData.forEach(row => {
+                const outcomeText = formatOutcomeForExport(row.outcome);
+                excelContent += '<tr>';
+                excelContent += `<td>${escapeHTML(row.department)}</td>`;
+                excelContent += `<td>${escapeHTML(row.name)}</td>`;
+                excelContent += `<td>${escapeHTML(row.link)}</td>`;
+                excelContent += `<td>${escapeHTML(row.changeType)}</td>`;
+                excelContent += `<td>${escapeHTML(row.actionCategory)}</td>`;
+                excelContent += `<td>${escapeHTML(row.recommendation)}</td>`;
+                excelContent += `<td>${escapeHTML(outcomeText)}</td>`;
+                excelContent += '</tr>';
+            });
+            
+            excelContent += '</table></body></html>';
+            downloadFile(excelContent, 'inquiries_data.xls', 'application/vnd.ms-excel');
+        }
+
+        // Helper function to format outcome for export
+        function formatOutcomeForExport(outcome) {
+            if (!outcome) return '-';
+            
+            if (Array.isArray(outcome)) {
+                return outcome.map(evidence => {
+                    if (typeof evidence === 'object' && (evidence.text || evidence.outcomeText || evidence.OutcomeText)) {
+                        const text = evidence.text || evidence.outcomeText || evidence.OutcomeText;
+                        const url = evidence.url || evidence.outcomeUrl || evidence.OutcomeUrl;
+                        return url ? `${text} (${url})` : text;
+                    }
+                    return evidence.toString();
+                }).join(' | ');
+            } else if (typeof outcome === 'object' && (outcome.text || outcome.outcomeText || outcome.OutcomeText)) {
+                const text = outcome.text || outcome.outcomeText || outcome.OutcomeText;
+                const url = outcome.url || outcome.outcomeUrl || outcome.OutcomeUrl;
+                return url ? `${text} (${url})` : text;
+            } else if (typeof outcome === 'string') {
+                return outcome;
+            }
+            
+            return '-';
+        }
+
+        // Helper function to escape CSV values
+        function escapeCSV(value) {
+            if (value === null || value === undefined) return '""';
+            const stringValue = value.toString().replace(/"/g, '""');
+            return `"${stringValue}"`;
+        }
+
+        // Helper function to escape HTML
+        function escapeHTML(value) {
+            if (value === null || value === undefined) return '';
+            const div = document.createElement('div');
+            div.textContent = value.toString();
+            return div.innerHTML;
+        }
+
+        // Helper function to trigger file download
+        function downloadFile(content, filename, mimeType) {
+            const blob = new Blob([content], { type: mimeType });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }
+
+        // Add event listener for download button
+        document.getElementById('downloadButton').addEventListener('click', () => {
+            const format = document.getElementById('downloadFormat').value;
+            switch(format) {
+                case 'csv':
+                    downloadCSV();
+                    break;
+                case 'json':
+                    downloadJSON();
+                    break;
+                case 'excel':
+                    downloadExcel();
+                    break;
+            }
         });
 
         // Sorting functionality
