@@ -22,6 +22,10 @@
             <h3 style="text-align: center; color: #7c7b7b;"><i>Hover over or click on the chart below to view recommendation in full</i></h3>
             <div id="actionsSunburstChart"></div>
         </div>
+        <div class="chart-container">
+            <h2>Overall Recommendations by Action Category and Change Type</h2>
+            <div id="stackedBarChart"></div>
+        </div>
         <div>
                 <h2>Action-Based Categories (Recommendations Analysis by ChatGPT 4-o)</h2>
                 <ul>
@@ -210,23 +214,36 @@
             
             dataToDisplay.forEach(inquiry => {
                 const row = tbody.insertRow();
-                row.insertCell(0).textContent = inquiry.department;
+                
+                const deptCell = row.insertCell(0);
+                deptCell.textContent = inquiry.department;
+                deptCell.setAttribute('data-label', 'Department:');
+                
                 const inquiryCell = row.insertCell(1);
+                inquiryCell.setAttribute('data-label', 'Inquiry:');
                 const link = document.createElement('a');
                 link.href = inquiry.link;
                 link.textContent = inquiry.name;
                 link.target = "_blank";
                 inquiryCell.appendChild(link);
+                
                 const changeTypeCell = row.insertCell(2);
+                changeTypeCell.setAttribute('data-label', 'Change Type:');
                 changeTypeCell.innerHTML = `<strong>${inquiry.changeType}</strong>`;
                 changeTypeCell.style.color = changeTypeColors[inquiry.changeType] || "#000";
+                
                 const actionCategoryCell = row.insertCell(3);
+                actionCategoryCell.setAttribute('data-label', 'Action Category:');
                 actionCategoryCell.textContent = inquiry.actionCategory;
                 actionCategoryCell.style.color = actionCategoryColors[inquiry.actionCategory] || "#000";
-                row.insertCell(4).textContent = inquiry.recommendation;
+                
+                const recCell = row.insertCell(4);
+                recCell.setAttribute('data-label', 'Recommendation:');
+                recCell.textContent = inquiry.recommendation;
                 
                 // Add outcome cell
                 const outcomeCell = row.insertCell(5);
+                outcomeCell.setAttribute('data-label', 'Outcome:');
                 if (inquiry.outcome) {
                     // Check if outcome is an array of evidence items
                     if (Array.isArray(inquiry.outcome)) {
@@ -455,10 +472,167 @@
                 }))
             };
 
+            // Create stacked bar chart
+            createStackedBarChart(processedData);
+
             // Create D3 visualizations
             createZoomableSunburst(hierarchicalData, "#sunburstChart");
             createZoomableSunburst(actionsData, "#actionsSunburstChart");
         });
+
+    // Function to create stacked bar chart
+    function createStackedBarChart(data) {
+        // Aggregate data by action category and change type
+        const aggregated = {};
+        
+        data.forEach(item => {
+            const category = item.actionCategory;
+            const changeType = item.changeType;
+            
+            if (!aggregated[category]) {
+                aggregated[category] = {New: 0, More: 0, Different: 0, Less: 0, Cease: 0, None: 0};
+            }
+            if (!aggregated[category][changeType]) {
+                aggregated[category][changeType] = 0;
+            }
+            aggregated[category][changeType]++;
+        });
+
+        // Convert to array format for D3
+        const chartData = Object.keys(aggregated).map(category => {
+            const counts = aggregated[category];
+            return {
+                category: category,
+                New: counts.New || 0,
+                More: counts.More || 0,
+                Different: counts.Different || 0,
+                Less: counts.Less || 0,
+                Cease: counts.Cease || 0,
+                None: counts.None || 0
+            };
+        });
+
+        // Sort by total count descending
+        chartData.sort((a, b) => {
+            const totalA = a.More + a.Less + a.Different + a.New + a.Cease + a.None;
+            const totalB = b.More + b.Less + b.Different + b.New + b.Cease + b.None;
+            return totalB - totalA;
+        });
+
+        // Set up dimensions (swapped for horizontal bars)
+        const margin = {top: 60, right: 120, bottom: 70, left: 200};
+        const containerWidth = document.getElementById('stackedBarChart').offsetWidth;
+        const width = Math.min(containerWidth - margin.left - margin.right, 1200);
+        const height = Math.max(chartData.length * 35, 400); // Dynamic height based on number of categories
+
+        // Create SVG
+        const svg = d3.select("#stackedBarChart")
+            .append("svg")
+            .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+            .attr("width", "100%")
+            .attr("height", height + margin.top + margin.bottom)
+            .style("max-width", "1200px")
+            .append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        // Get change types (ordered as requested: New, More, Different, Less, Cease, None)
+        const changeTypes = ["New", "More", "Different", "Less", "Cease", "None"];
+
+        // Stack the data
+        const stack = d3.stack()
+            .keys(changeTypes);
+
+        const stackedData = stack(chartData);
+
+        // Set up scales (swapped X and Y)
+        const x = d3.scaleLinear()
+            .domain([0, d3.max(stackedData, d => d3.max(d, d => d[1]))])
+            .range([0, width]);
+
+        const y = d3.scaleBand()
+            .domain(chartData.map(d => d.category))
+            .range([0, height])
+            .padding(0.2);
+
+        // Add bars (horizontal)
+        const layers = svg.append("g")
+            .selectAll("g")
+            .data(stackedData)
+            .join("g")
+            .attr("fill", d => changeTypeColors[d.key]);
+
+        layers.selectAll("rect")
+            .data(d => d.map(v => ({...v, key: d.key})))
+            .join("rect")
+            .attr("y", d => y(d.data.category))
+            .attr("x", d => x(d[0]))
+            .attr("width", d => x(d[1]) - x(d[0]))
+            .attr("height", y.bandwidth())
+            .append("title")
+            .text(d => `${d.data.category}\n${d.key}: ${d.data[d.key]}`);
+
+        // Add Y axis (now showing action categories)
+        svg.append("g")
+            .call(d3.axisLeft(y))
+            .selectAll("text")
+            .style("fill", d => actionCategoryColors[d] || "#000")
+            .style("font-weight", "bold");
+
+        // Add Y axis label
+        svg.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("x", -height / 2)
+            .attr("y", -margin.left + 20)
+            .attr("text-anchor", "middle")
+            .style("font-size", "14px")
+            .style("font-weight", "bold")
+            .text("Action Category");
+
+        // Add X axis (now showing count)
+        svg.append("g")
+            .attr("transform", `translate(0,${height})`)
+            .call(d3.axisBottom(x));
+
+        // Add X axis label
+        svg.append("text")
+            .attr("x", width / 2)
+            .attr("y", height + margin.bottom - 25)
+            .attr("text-anchor", "middle")
+            .style("font-size", "14px")
+            .style("font-weight", "bold")
+            .text("Number of Recommendations");
+
+        // Add legend title at top
+        svg.append("text")
+            .attr("x", width / 2)
+            .attr("y", -margin.top + 20)
+            .attr("text-anchor", "middle")
+            .style("font-size", "16px")
+            .style("font-weight", "bold")
+            .text("Change Types");
+
+        // Add legend (horizontal at top)
+        const legendSpacing = width / changeTypes.length;
+        const legend = svg.append("g")
+            .attr("transform", `translate(0, ${-margin.top + 35})`);
+
+        changeTypes.forEach((type, i) => {
+            const legendItem = legend.append("g")
+                .attr("transform", `translate(${i * legendSpacing}, 0)`);
+
+            legendItem.append("rect")
+                .attr("width", 18)
+                .attr("height", 18)
+                .attr("fill", changeTypeColors[type]);
+
+            legendItem.append("text")
+                .attr("x", 24)
+                .attr("y", 9)
+                .attr("dy", ".35em")
+                .style("font-size", "12px")
+                .text(type);
+        });
+    }
 
     // Scale factor
     const scaleFactor = 1.5;
