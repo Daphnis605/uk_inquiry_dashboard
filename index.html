@@ -24,7 +24,7 @@
         </div>
         <div class="chart-container">
             <h2>Overall Recommendations by Action Category and Change Type</h2>
-            <div id="stackedBarChart"></div>
+            <div id="stackedBarChart" style="overflow-x: auto; overflow-y: visible;"></div>
         </div>
         <div>
                 <h2>Action-Based Categories (Recommendations Analysis by ChatGPT 4-o)</h2>
@@ -200,9 +200,14 @@
     };
 
     // Fetch and process the data
+    console.log("Starting to fetch data.json...");
     fetch('data.json')
-        .then(response => response.json())
+        .then(response => {
+            console.log("Data fetched successfully");
+            return response.json();
+        })
         .then(data => {
+            console.log("Data parsed, starting visualization...");
             // Process data for visualization
             const processedData = [];
             data.forEach(dept => {
@@ -225,6 +230,7 @@
                     });
                 }
             });
+            console.log("Processed data:", processedData.length, "recommendations");
 
         // Store all data for filtering
         let allTableData = processedData;
@@ -368,6 +374,8 @@
         document.getElementById('filterChangeType').addEventListener('change', filterTable);
         document.getElementById('filterActionCategory').addEventListener('change', filterTable);
         document.getElementById('filterRecommendation').addEventListener('input', filterTable);
+        document.getElementById('filterOutcome').addEventListener('change', filterTable);
+        
         // Clear filters button
         document.getElementById('clearFilters').addEventListener('click', () => {
             document.getElementById('filterDept').value = '';
@@ -627,14 +635,21 @@
 
             // Create stacked bar chart
             createStackedBarChart(processedData);
-
             // Create D3 visualizations
             createZoomableSunburst(hierarchicalData, "#sunburstChart");
             createZoomableSunburst(actionsData, "#actionsSunburstChart");
+            console.log("All charts created successfully");
+        })
+        .catch(error => {
+            console.error("Error loading or processing data:", error);
+            document.querySelector('.container').innerHTML += '<div style="background: #ffdddd; padding: 20px; margin: 20px; border-radius: 5px; border: 2px solid #ff0000;"><h2>Error Loading Data</h2><p>Could not load data.json. Error: ' + error.message + '</p><p><strong>Possible solutions:</strong></p><ul><li>Make sure you are running this page through a web server (not file://)</li><li>Check that data.json exists in the same folder as index.html</li><li>Open browser console (F12) for more details</li></ul></div>';
         });
 
     // Function to create stacked bar chart
     function createStackedBarChart(data) {
+        // Clear any existing chart
+        d3.select("#stackedBarChart").selectAll("*").remove();
+        
         // Aggregate data by action category and change type
         const aggregated = {};
         
@@ -672,11 +687,14 @@
             return totalB - totalA;
         });
 
-        // Set up dimensions (swapped for horizontal bars)
-        const margin = {top: 60, right: 120, bottom: 70, left: 200};
+        // Responsive dimensions
+        const isMobile = window.innerWidth < 768;
+        const margin = isMobile ? 
+            {top: 120, right: 20, bottom: 50, left: 150} : 
+            {top: 60, right: 120, bottom: 70, left: 200};
         const containerWidth = document.getElementById('stackedBarChart').offsetWidth;
-        const width = Math.min(containerWidth - margin.left - margin.right, 1200);
-        const height = Math.max(chartData.length * 35, 400); // Dynamic height based on number of categories
+        const width = Math.max(containerWidth - margin.left - margin.right, 300);
+        const height = Math.max(chartData.length * (isMobile ? 30 : 35), 400);
 
         // Create SVG
         const svg = d3.select("#stackedBarChart")
@@ -760,31 +778,54 @@
             .attr("x", width / 2)
             .attr("y", -margin.top + 20)
             .attr("text-anchor", "middle")
-            .style("font-size", "16px")
+            .style("font-size", isMobile ? "14px" : "16px")
             .style("font-weight", "bold")
             .text("Change Types");
 
-        // Add legend (horizontal at top)
-        const legendSpacing = width / changeTypes.length;
+        // Add legend (responsive layout)
         const legend = svg.append("g")
             .attr("transform", `translate(0, ${-margin.top + 35})`);
 
-        changeTypes.forEach((type, i) => {
-            const legendItem = legend.append("g")
-                .attr("transform", `translate(${i * legendSpacing}, 0)`);
+        if (isMobile) {
+            // Stack legend vertically on mobile (2 columns)
+            changeTypes.forEach((type, i) => {
+                const row = Math.floor(i / 3);
+                const col = i % 3;
+                const legendItem = legend.append("g")
+                    .attr("transform", `translate(${col * (width / 3)}, ${row * 25})`);
 
-            legendItem.append("rect")
-                .attr("width", 18)
-                .attr("height", 18)
-                .attr("fill", changeTypeColors[type]);
+                legendItem.append("rect")
+                    .attr("width", 15)
+                    .attr("height", 15)
+                    .attr("fill", changeTypeColors[type]);
 
-            legendItem.append("text")
-                .attr("x", 24)
-                .attr("y", 9)
-                .attr("dy", ".35em")
-                .style("font-size", "12px")
-                .text(type);
-        });
+                legendItem.append("text")
+                    .attr("x", 20)
+                    .attr("y", 7.5)
+                    .attr("dy", ".35em")
+                    .style("font-size", "10px")
+                    .text(type);
+            });
+        } else {
+            // Horizontal legend on desktop
+            const legendSpacing = width / changeTypes.length;
+            changeTypes.forEach((type, i) => {
+                const legendItem = legend.append("g")
+                    .attr("transform", `translate(${i * legendSpacing}, 0)`);
+
+                legendItem.append("rect")
+                    .attr("width", 18)
+                    .attr("height", 18)
+                    .attr("fill", changeTypeColors[type]);
+
+                legendItem.append("text")
+                    .attr("x", 24)
+                    .attr("y", 9)
+                    .attr("dy", ".35em")
+                    .style("font-size", "12px")
+                    .text(type);
+            });
+        }
     }
 
     // Scale factor
@@ -1000,6 +1041,9 @@
     }
 
     function createZoomableSunburst(data, containerId) {
+        // Clear any existing chart
+        d3.select(containerId).selectAll("svg").remove();
+        
         const width = 928;
         const height = width;
         const radius = width / 6;
