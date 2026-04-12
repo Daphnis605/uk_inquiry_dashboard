@@ -207,7 +207,7 @@
     console.log("Starting to fetch data files...");
     Promise.all([
         fetch('data.json').then(r => r.json()),
-        fetch('enriched_data.json').then(r => r.json())
+        fetch('enriched_data.json').then(r => r.json()).catch(() => ({}))
     ])
         .then(([data, enrichedData]) => {
             console.log("Data fetched successfully");
