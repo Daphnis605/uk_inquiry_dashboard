@@ -84,6 +84,7 @@
 
         <h2>Inquiries Table</h2>
         <h3 style="text-align: center; color: #7c7b7b;"><i>Recommendations compiled from original inquiry PDFs with custom labels (defined above). Outcomes sourced from publicly available evidence.</i></h3>
+        <div id="evidenceCountBadge"></div>
                  <!-- Filter inputs -->
                 <div style="margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 5px;">
                     <h3 style="margin-top: 0;">Filter Table</h3>
@@ -203,13 +204,19 @@
     };
 
     // Fetch and process the data
-    console.log("Starting to fetch data.json...");
-    fetch('data.json')
-        .then(response => {
+    console.log("Starting to fetch data files...");
+    Promise.all([
+        fetch('data.json').then(r => r.json()),
+        fetch('enriched_data.json').then(r => r.json())
+    ])
+        .then(([data, enrichedData]) => {
             console.log("Data fetched successfully");
-            return response.json();
-        })
-        .then(data => {
+            // Build flat lookup from enriched_data.json (skip metadata keys)
+            const enrichedMap = {};
+            Object.entries(enrichedData).forEach(([key, val]) => {
+                if (!key.startsWith('_')) enrichedMap[key] = val;
+            });
+
             console.log("Data parsed, starting visualization...");
             // Process data for visualization
             const processedData = [];
@@ -217,7 +224,8 @@
                 if (dept.Inquiries) {
                     dept.Inquiries.forEach(inquiry => {
                         if (inquiry.Recommendations) {
-                            inquiry.Recommendations.forEach(rec => {
+                            inquiry.Recommendations.forEach((rec, recIdx) => {
+                                const enrichedKey = `${inquiry.InquiryName}__${recIdx}`;
                                 processedData.push({
                                     department: dept['Administration-or-Department'],
                                     name: inquiry.InquiryName,
@@ -226,7 +234,8 @@
                                     changeType: rec.ChangeType,
                                     actionCategory: rec.ActionCategory,
                                     recommendation: rec.Recommendation,
-                                    outcome: rec.Outcome
+                                    recIdx: recIdx,
+                                    enrichedOutcome: enrichedMap[enrichedKey] || null
                                 });
                             });
                         }
@@ -234,6 +243,14 @@
                 }
             });
             console.log("Processed data:", processedData.length, "recommendations");
+
+            // Display evidence count badge
+            const evidencedCount = Object.values(enrichedMap).filter(outcome =>
+                outcome.evidence && outcome.evidence.some(ev => ev.approved)
+            ).length;
+            const badge = document.getElementById('evidenceCountBadge');
+            badge.textContent = `${evidencedCount} of ${processedData.length} recommendations have verified evidence`;
+            badge.style.display = 'block';
 
         // Store all data for filtering
         let allTableData = processedData;
@@ -277,61 +294,42 @@
                 // Add outcome cell
                 const outcomeCell = row.insertCell(5);
                 outcomeCell.setAttribute('data-label', 'Outcome:');
-                if (inquiry.outcome) {
-                    // Check if outcome is an array of evidence items
-                    if (Array.isArray(inquiry.outcome)) {
-                        inquiry.outcome.forEach((evidence, index) => {
-                            if (index > 0) {
-                                outcomeCell.appendChild(document.createElement('br'));
-                                outcomeCell.appendChild(document.createElement('br'));
-                            }
-                            
-                            if (typeof evidence === 'object' && (evidence.text || evidence.outcomeText || evidence.OutcomeText)) {
-                                const text = evidence.text || evidence.outcomeText || evidence.OutcomeText;
-                                const url = evidence.url || evidence.outcomeUrl || evidence.OutcomeUrl;
-                                const textNode = document.createTextNode(text);
-                                outcomeCell.appendChild(textNode);
-                                if (url) {
-                                    outcomeCell.appendChild(document.createTextNode(' '));
-                                    const evidenceLink = document.createElement('a');
-                                    evidenceLink.href = url;
-                                    evidenceLink.textContent = '(View Evidence)';
-                                    evidenceLink.target = "_blank";
-                                    outcomeCell.appendChild(evidenceLink);
-                                }
-                            } else if (typeof evidence === 'string') {
-                                outcomeCell.appendChild(document.createTextNode(evidence));
-                            }
-                        });
-                    }
-                    // Check if outcome is a single object with text and url properties
-                    else if (typeof inquiry.outcome === 'object' && (inquiry.outcome.text || inquiry.outcome.outcomeText || inquiry.outcome.OutcomeText)) {
-                        const text = inquiry.outcome.text || inquiry.outcome.outcomeText || inquiry.outcome.OutcomeText;
-                        const url = inquiry.outcome.url || inquiry.outcome.outcomeUrl || inquiry.outcome.OutcomeUrl;
-                        outcomeCell.textContent = text;
-                        if (url) {
-                            outcomeCell.innerHTML += ' ';
-                            const outcomeLink = document.createElement('a');
-                            outcomeLink.href = url;
-                            outcomeLink.textContent = '(View Evidence)';
-                            outcomeLink.target = "_blank";
-                            outcomeCell.appendChild(outcomeLink);
+                const hasEvidence = inquiry.enrichedOutcome &&
+                    inquiry.enrichedOutcome.evidence &&
+                    inquiry.enrichedOutcome.evidence.some(ev => ev.approved);
+                if (hasEvidence) {
+                    const approvedEvidence = inquiry.enrichedOutcome.evidence.filter(ev => ev.approved);
+                    approvedEvidence.forEach((ev, idx) => {
+                        if (idx > 0) {
+                            outcomeCell.appendChild(document.createElement('br'));
+                            outcomeCell.appendChild(document.createElement('br'));
                         }
-                    }
-                    // If outcome is just a URL string, create a link
-                    else if (typeof inquiry.outcome === 'string' && inquiry.outcome.startsWith('http')) {
-                        const outcomeLink = document.createElement('a');
-                        outcomeLink.href = inquiry.outcome;
-                        outcomeLink.textContent = 'View Evidence';
-                        outcomeLink.target = "_blank";
-                        outcomeCell.appendChild(outcomeLink);
-                    } 
-                    // If outcome is plain text, display it directly
-                    else if (typeof inquiry.outcome === 'string') {
-                        outcomeCell.textContent = inquiry.outcome;
-                    }
+                        if (ev.url) {
+                            const evLink = document.createElement('a');
+                            evLink.href = ev.url;
+                            evLink.textContent = ev.title || 'View Evidence';
+                            evLink.target = '_blank';
+                            outcomeCell.appendChild(evLink);
+                        } else if (ev.title) {
+                            outcomeCell.appendChild(document.createTextNode(ev.title));
+                        }
+                        if (ev.description) {
+                            outcomeCell.appendChild(document.createElement('br'));
+                            outcomeCell.appendChild(document.createTextNode(ev.description));
+                        }
+                    });
                 } else {
                     outcomeCell.textContent = '-';
+                }
+                // Submit evidence link on rows with no verified evidence
+                if (!hasEvidence) {
+                    const submitTitle = encodeURIComponent(`Evidence submission: ${inquiry.name}, rec ${inquiry.recIdx + 1}`);
+                    const submitLink = document.createElement('a');
+                    submitLink.href = `https://github.com/Daphnis605/uk_inquiry_dashboard/issues/new?template=evidence-submission.md&title=${submitTitle}`;
+                    submitLink.textContent = 'Submit evidence';
+                    submitLink.target = '_blank';
+                    submitLink.className = 'submit-evidence-link';
+                    outcomeCell.appendChild(submitLink);
                 }
             });
             
@@ -360,9 +358,9 @@
                 
                 let matchOutcome = true;
                 if (filterOutcome === 'yes') {
-                    matchOutcome = inquiry.outcome && inquiry.outcome !== null;
+                    matchOutcome = inquiry.enrichedOutcome && inquiry.enrichedOutcome.evidence && inquiry.enrichedOutcome.evidence.some(ev => ev.approved);
                 } else if (filterOutcome === 'no') {
-                    matchOutcome = !inquiry.outcome || inquiry.outcome === null;
+                    matchOutcome = !inquiry.enrichedOutcome || !inquiry.enrichedOutcome.evidence || !inquiry.enrichedOutcome.evidence.some(ev => ev.approved);
                 }
 
                 return matchDept && matchInquiry && matchChangeType && matchActionCategory && matchRecommendation && matchOutcome;
@@ -396,7 +394,7 @@
             const csvContent = [
                 headers.join(','),
                 ...currentFilteredData.map(row => {
-                    const outcomeText = formatOutcomeForExport(row.outcome);
+                    const outcomeText = formatOutcomeForExport(row);
                     return [
                         escapeCSV(row.department),
                         escapeCSV(row.name),
@@ -420,7 +418,9 @@
                 'Change Type': row.changeType,
                 'Action Category': row.actionCategory,
                 'Recommendation': row.recommendation,
-                'Outcome': row.outcome
+                'Outcome': row.enrichedOutcome
+                    ? row.enrichedOutcome.evidence.filter(ev => ev.approved)
+                    : null
             }));
 
             const jsonContent = JSON.stringify(jsonData, null, 2);
@@ -437,7 +437,7 @@
             
             // Add data rows
             currentFilteredData.forEach(row => {
-                const outcomeText = formatOutcomeForExport(row.outcome);
+                const outcomeText = formatOutcomeForExport(row);
                 excelContent += '<tr>';
                 excelContent += `<td>${escapeHTML(row.department)}</td>`;
                 excelContent += `<td>${escapeHTML(row.name)}</td>`;
@@ -454,26 +454,14 @@
         }
 
         // Helper function to format outcome for export
-        function formatOutcomeForExport(outcome) {
-            if (!outcome) return '-';
-            
-            if (Array.isArray(outcome)) {
-                return outcome.map(evidence => {
-                    if (typeof evidence === 'object' && (evidence.text || evidence.outcomeText || evidence.OutcomeText)) {
-                        const text = evidence.text || evidence.outcomeText || evidence.OutcomeText;
-                        const url = evidence.url || evidence.outcomeUrl || evidence.OutcomeUrl;
-                        return url ? `${text} (${url})` : text;
-                    }
-                    return evidence.toString();
-                }).join(' | ');
-            } else if (typeof outcome === 'object' && (outcome.text || outcome.outcomeText || outcome.OutcomeText)) {
-                const text = outcome.text || outcome.outcomeText || outcome.OutcomeText;
-                const url = outcome.url || outcome.outcomeUrl || outcome.OutcomeUrl;
-                return url ? `${text} (${url})` : text;
-            } else if (typeof outcome === 'string') {
-                return outcome;
+        function formatOutcomeForExport(row) {
+            const enrichedOutcome = row.enrichedOutcome;
+            if (enrichedOutcome && enrichedOutcome.evidence && enrichedOutcome.evidence.some(ev => ev.approved)) {
+                return enrichedOutcome.evidence
+                    .filter(ev => ev.approved)
+                    .map(ev => ev.url ? `${ev.title || 'Evidence'}: ${ev.url}` : (ev.title || 'Evidence'))
+                    .join(' | ');
             }
-            
             return '-';
         }
 
@@ -555,9 +543,9 @@
                     
                     let matchOutcome = true;
                     if (filterOutcome === 'yes') {
-                        matchOutcome = inquiry.outcome && inquiry.outcome !== null;
+                        matchOutcome = inquiry.enrichedOutcome && inquiry.enrichedOutcome.evidence && inquiry.enrichedOutcome.evidence.some(ev => ev.approved);
                     } else if (filterOutcome === 'no') {
-                        matchOutcome = !inquiry.outcome || inquiry.outcome === null;
+                        matchOutcome = !inquiry.enrichedOutcome || !inquiry.enrichedOutcome.evidence || !inquiry.enrichedOutcome.evidence.some(ev => ev.approved);
                     }
 
                     return matchDept && matchInquiry && matchChangeType && matchActionCategory && matchRecommendation && matchOutcome;
@@ -572,9 +560,9 @@
                         case 2: aVal = a.changeType; bVal = b.changeType; break;
                         case 3: aVal = a.actionCategory; bVal = b.actionCategory; break;
                         case 4: aVal = a.recommendation || ''; bVal = b.recommendation || ''; break;
-                        case 5: 
-                            aVal = a.outcome ? '1' : '0'; 
-                            bVal = b.outcome ? '1' : '0'; 
+                        case 5:
+                            aVal = (a.enrichedOutcome && a.enrichedOutcome.evidence && a.enrichedOutcome.evidence.some(ev => ev.approved)) ? '1' : '0';
+                            bVal = (b.enrichedOutcome && b.enrichedOutcome.evidence && b.enrichedOutcome.evidence.some(ev => ev.approved)) ? '1' : '0';
                             break;
                         default: return 0;
                     }
@@ -645,7 +633,7 @@
         })
         .catch(error => {
             console.error("Error loading or processing data:", error);
-            document.querySelector('.container').innerHTML += '<div style="background: #ffdddd; padding: 20px; margin: 20px; border-radius: 5px; border: 2px solid #ff0000;"><h2>Error Loading Data</h2><p>Could not load data.json. Error: ' + error.message + '</p><p><strong>Possible solutions:</strong></p><ul><li>Make sure you are running this page through a web server (not file://)</li><li>Check that data.json exists in the same folder as index.html</li><li>Open browser console (F12) for more details</li></ul></div>';
+            document.querySelector('.container').innerHTML += '<div style="background: #ffdddd; padding: 20px; margin: 20px; border-radius: 5px; border: 2px solid #ff0000;"><h2>Error Loading Data</h2><p>Could not load data files. Error: ' + error.message + '</p><p><strong>Possible solutions:</strong></p><ul><li>Make sure you are running this page through a web server (not file://)</li><li>Check that data.json and enriched_data.json exist in the same folder as index.html</li><li>Open browser console (F12) for more details</li></ul></div>';
         });
 
     // Function to create stacked bar chart
