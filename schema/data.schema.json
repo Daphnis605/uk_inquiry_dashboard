@@ -85,8 +85,13 @@
             "Infrastructure & Facilities",
             "Investigation & Redress",
             "Support & Welfare",
-            "None published"
+            "None published",
+            "None Published"
           ]
+        },
+        "shortRecommendation": {
+          "type": "string",
+          "description": "Optional short form of the recommendation text, used in some inquiries for display purposes."
         },
         "Outcome": {
           "description": "Legacy outcome field — present in a small number of records from the original dataset. Use enriched_data.json for all new outcome evidence.",
