@@ -1,0 +1,52 @@
+{
+  "_schema_version": "1.0",
+  "_notes": "Flat lookup of outcome evidence per recommendation. Keys are InquiryName__recommendationIndex (0-based). Only recommendations with evidence are listed — all others are implicitly no_evidence_found. approved:false items are never shown publicly.",
+  "Mid Staffordshire NHS Foundation Trust Public Inquiry__1": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "NHS Constitution for England — Publication History",
+        "url": "https://www.gov.uk/government/publications/the-nhs-constitution-for-england#full-publication-update-history",
+        "source_type": "official_report",
+        "date": null,
+        "description": "NHS Constitution revised in 2013, following the inquiry published in February 2013.",
+        "approved": true,
+        "approved_at": null,
+        "submitted_by": null
+      }
+    ],
+    "notes": "NHS Constitution was revised following the Mid Staffs inquiry. The publication history page confirms the 2013 revision."
+  },
+  "Mid Staffordshire NHS Foundation Trust Public Inquiry__5": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Supplements to the NHS Constitution for England — Publication History",
+        "url": "https://www.gov.uk/government/publications/supplements-to-the-nhs-constitution-for-england#full-publication-update-history",
+        "source_type": "official_report",
+        "date": null,
+        "description": "NHS Constitution Handbook first published in 2015, following the inquiry published in February 2013.",
+        "approved": true,
+        "approved_at": null,
+        "submitted_by": null
+      }
+    ],
+    "notes": "The NHS Constitution Handbook (supplement) was first published in 2015 following this recommendation."
+  },
+  "Manchester Arena Inquiry__67": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Martyn's Law Factsheet — Home Office Media Blog",
+        "url": "https://homeofficemedia.blog.gov.uk/2025/04/03/martyns-law-factsheet/",
+        "source_type": "press_release",
+        "date": "2025-04-03",
+        "description": "Terrorism (Protection of Premises) Act 2025 (Martyn's Law) received Royal Assent on 3 April 2025, enacting the Protect Duty recommended by the inquiry.",
+        "approved": true,
+        "approved_at": null,
+        "submitted_by": null
+      }
+    ],
+    "notes": "MR4 called for a Protect Duty enacted by primary legislation. Following Figen Murray's campaign, the Terrorism (Protection of Premises) Act 2025 (Martyn's Law) achieved Royal Assent on 3 April 2025."
+  }
+}

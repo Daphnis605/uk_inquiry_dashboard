@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Daphnis605/uk_inquiry_dashboard/schema/enriched.schema.json",
+  "title": "UK Inquiry Dashboard — enriched_data.json schema",
+  "description": "Validates enriched_data.json. This file is a flat lookup of outcome evidence keyed by 'InquiryName__recommendationIndex' (0-based). Only recommendations with evidence entries need to appear — all others are implicitly no_evidence_found.",
+  "type": "object",
+  "properties": {
+    "_schema_version": {
+      "type": "string",
+      "description": "Schema version string."
+    },
+    "_notes": {
+      "type": "string",
+      "description": "Human-readable notes about this file."
+    }
+  },
+  "additionalProperties": {
+    "oneOf": [
+      {
+        "description": "String properties are reserved for metadata keys prefixed with underscore.",
+        "type": "string"
+      },
+      {
+        "$ref": "#/$defs/outcome"
+      }
+    ]
+  },
+  "$defs": {
+    "outcome": {
+      "type": "object",
+      "required": ["evidence_status", "evidence", "notes"],
+      "additionalProperties": false,
+      "properties": {
+        "evidence_status": {
+          "type": "string",
+          "enum": ["actioned", "partial", "no_evidence_found", "not_published"],
+          "description": "Overall status of this recommendation's implementation. 'actioned' = verified evidence found. 'partial' = some evidence, incomplete. 'no_evidence_found' = researched but nothing found. 'not_published' = recommendations not made public."
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence_item"
+          }
+        },
+        "notes": {
+          "type": "string",
+          "description": "Internal research notes — not displayed publicly. Use for context, caveats, and follow-up actions."
+        }
+      }
+    },
+    "evidence_item": {
+      "type": "object",
+      "required": ["title", "url", "source_type", "approved"],
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable title of the evidence source."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the evidence. Must be a real, clickable URL. Blank is better than wrong — never fabricate or guess URLs."
+        },
+        "archive_url": {
+          "type": ["string", "null"],
+          "description": "Archive.org snapshot URL. Generated at time of approval to insulate against link rot."
+        },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "legislation",
+            "press_release",
+            "official_report",
+            "parliamentary_record",
+            "news_article"
+          ]
+        },
+        "date": {
+          "type": ["string", "null"],
+          "description": "Date of the evidence source in ISO 8601 format (YYYY-MM-DD). Null if unknown."
+        },
+        "description": {
+          "type": "string",
+          "description": "Brief description of what this source shows and how it evidences the recommendation being implemented."
+        },
+        "approved": {
+          "type": "boolean",
+          "description": "Whether this evidence item has been reviewed and approved by the maintainer. Default false. Items with approved:false are never shown publicly."
+        },
+        "approved_at": {
+          "type": ["string", "null"],
+          "description": "ISO 8601 datetime when this item was approved. Null until approved."
+        },
+        "submitted_by": {
+          "type": ["string", "null"],
+          "description": "GitHub username of the contributor, or 'public' for Google Form submissions, or null for maintainer-added items."
+        }
+      }
+    }
+  }
+}
