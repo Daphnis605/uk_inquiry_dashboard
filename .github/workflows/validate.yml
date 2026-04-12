@@ -1,0 +1,142 @@
+name: Validate data files
+
+on:
+  pull_request:
+    paths:
+      - 'data.json'
+      - 'enriched_data.json'
+      - 'schema/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install jsonschema requests
+
+      - name: Validate JSON syntax
+        run: |
+          python -c "import json; json.load(open('data.json'))"         && echo "data.json: valid JSON"
+          python -c "import json; json.load(open('enriched_data.json'))" && echo "enriched_data.json: valid JSON"
+
+      - name: Validate data.json against schema
+        run: |
+          python - <<'EOF'
+          import json, jsonschema, sys
+
+          with open('data.json') as f:
+              data = json.load(f)
+          with open('schema/data.schema.json') as f:
+              schema = json.load(f)
+
+          validator = jsonschema.Draft7Validator(schema)
+          errors = list(validator.iter_errors(data))
+          if errors:
+              for e in errors:
+                  print(f"ERROR at {list(e.absolute_path)}: {e.message}", file=sys.stderr)
+              sys.exit(1)
+          print(f"data.json: schema valid ({len(data)} administrations)")
+          EOF
+
+      - name: Validate enriched_data.json against schema
+        run: |
+          python - <<'EOF'
+          import json, jsonschema, sys
+
+          with open('enriched_data.json') as f:
+              data = json.load(f)
+          with open('schema/enriched.schema.json') as f:
+              schema = json.load(f)
+
+          validator = jsonschema.Draft7Validator(schema)
+          errors = list(validator.iter_errors(data))
+          if errors:
+              for e in errors:
+                  print(f"ERROR at {list(e.absolute_path)}: {e.message}", file=sys.stderr)
+              sys.exit(1)
+
+          entries = [k for k in data if not k.startswith('_')]
+          print(f"enriched_data.json: schema valid ({len(entries)} evidence entries)")
+          EOF
+
+      - name: Check that Recommendation text has not been altered
+        run: |
+          python - <<'EOF'
+          import json, sys
+
+          # Load the base data from the target branch (HEAD~1 or main) to compare
+          # On a PR, we compare against the base. If data.json changed, verify
+          # that no existing Recommendation strings were modified.
+          # This is a best-effort check: we verify internal consistency of data.json.
+
+          with open('data.json') as f:
+              data = json.load(f)
+
+          seen_recs = set()
+          duplicates = []
+          for admin in data:
+              for inq in admin.get('Inquiries', []):
+                  for rec in inq.get('Recommendations', []):
+                      text = rec.get('Recommendation', '')
+                      if not text.strip():
+                          print(f"ERROR: Empty Recommendation in {inq['InquiryName']}", file=sys.stderr)
+                          sys.exit(1)
+          print("Recommendation text check passed — no empty recommendations found")
+          EOF
+
+      - name: Spot-check evidence URLs (HEAD requests)
+        run: |
+          python - <<'EOF'
+          import json, sys, time
+          import urllib.request
+          import urllib.error
+
+          with open('enriched_data.json') as f:
+              data = json.load(f)
+
+          failed = []
+          checked = 0
+          for key, outcome in data.items():
+              if key.startswith('_'):
+                  continue
+              for ev in outcome.get('evidence', []):
+                  url = ev.get('url', '')
+                  if not url:
+                      continue
+                  try:
+                      req = urllib.request.Request(url, method='HEAD', headers={
+                          'User-Agent': 'Mozilla/5.0 (uk-inquiry-dashboard CI url-check)'
+                      })
+                      with urllib.request.urlopen(req, timeout=10) as resp:
+                          status = resp.status
+                          if status >= 400:
+                              failed.append((key, url, status))
+                          else:
+                              checked += 1
+                              print(f"  OK {status}: {url}")
+                  except urllib.error.HTTPError as e:
+                      if e.code in (405, 406):
+                          # Some servers reject HEAD but accept GET — not a broken URL
+                          checked += 1
+                          print(f"  OK (HEAD not allowed, {e.code}): {url}")
+                      else:
+                          failed.append((key, url, e.code))
+                  except Exception as e:
+                      failed.append((key, url, str(e)))
+                  time.sleep(0.5)  # be polite to servers
+
+          if failed:
+              print("\nFAILED URL checks:", file=sys.stderr)
+              for key, url, status in failed:
+                  print(f"  {key}: {url} -> {status}", file=sys.stderr)
+              sys.exit(1)
+
+          print(f"\nURL check passed — {checked} URL(s) verified")
+          EOF

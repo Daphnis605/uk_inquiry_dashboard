@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Daphnis605/uk_inquiry_dashboard/schema/data.schema.json",
+  "title": "UK Inquiry Dashboard — data.json schema",
+  "description": "Validates the structure of data.json. Recommendation text is never altered — this schema enforces that all required fields are present and enums are respected.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "$ref": "#/$defs/administration"
+  },
+  "$defs": {
+    "administration": {
+      "type": "object",
+      "required": ["Administration-or-Department", "Inquiries"],
+      "additionalProperties": false,
+      "properties": {
+        "Administration-or-Department": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Inquiries": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/inquiry"
+          }
+        }
+      }
+    },
+    "inquiry": {
+      "type": "object",
+      "required": ["InquiryName", "ReportLink", "ReportDate", "Recommendations"],
+      "additionalProperties": false,
+      "properties": {
+        "InquiryName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ReportLink": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ReportDate": {
+          "type": "string",
+          "description": "Date in DD/MM/YYYY format (legacy format — new inquiries should use ISO 8601 in enriched_data.json)",
+          "pattern": "^\\d{2}/\\d{2}/\\d{4}$"
+        },
+        "Recommendations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/recommendation"
+          }
+        }
+      }
+    },
+    "recommendation": {
+      "type": "object",
+      "required": ["Recommendation", "ChangeType", "ActionCategory"],
+      "properties": {
+        "Recommendation": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Verbatim text from the original inquiry report. Never altered."
+        },
+        "ChangeType": {
+          "type": "string",
+          "enum": ["More", "Less", "Different", "New", "Cease", "None"]
+        },
+        "ActionCategory": {
+          "type": "string",
+          "enum": [
+            "Law & Regulation",
+            "Enforcement & Compliance",
+            "Accountability & Oversight",
+            "Governance & Structure",
+            "Processes & Procedures",
+            "Training & Education",
+            "Documentation & Records",
+            "Technology & Systems",
+            "Communication & Reporting",
+            "Funding & Resources",
+            "Emergency & Risk Management",
+            "Audits & Reviews",
+            "Infrastructure & Facilities",
+            "Investigation & Redress",
+            "Support & Welfare",
+            "None published"
+          ]
+        },
+        "Outcome": {
+          "description": "Legacy outcome field — present in a small number of records from the original dataset. Use enriched_data.json for all new outcome evidence.",
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "OutcomeText": { "type": "string" },
+                  "OutcomeUrl": { "type": "string" }
+                }
+              }
+            },
+            { "type": "object" },
+            { "type": "string" }
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
