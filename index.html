@@ -430,7 +430,7 @@
         function downloadExcel() {
             // Create HTML table format that Excel can read
             const headers = ['Administration/Department', 'Inquiry Name', 'Report Link', 'Change Type', 'Action Category', 'Recommendation', 'Outcome'];
-            let excelContent = '<html><head><meta charset="utf-8"></head><body><table border="1">';
+            let excelContent = '<html><head><meta charset="utf-8"><\/head><body><table border="1">';
             
             // Add headers
             excelContent += '<tr>' + headers.map(h => `<th>${h}</th>`).join('') + '</tr>';
@@ -449,7 +449,7 @@
                 excelContent += '</tr>';
             });
             
-            excelContent += '</table></body></html>';
+            excelContent += '<\/table><\/body><\/html>';
             downloadFile(excelContent, 'inquiries_data.xls', 'application/vnd.ms-excel');
         }
 
