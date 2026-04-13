@@ -15,12 +15,20 @@
         
         <div class="chart-container">
             <h2>Number of Recommendations by Administration/Department and inquiry</h2>
-            <div id="sunburstChart"></div>
+            <div class="chart-mobile-banner">
+                <span>Interactive chart — best viewed on a wider screen.</span>
+                <button class="chart-toggle-btn" data-target="sunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
+            </div>
+            <div id="sunburstChart" class="chart-collapsible"></div>
         </div>
         <div class="chart-container">
             <h2>Actions recommended for each Administration/Department and type of action advised</h2>
             <h3 style="text-align: center; color: #7c7b7b;"><i>Hover over or click on the chart below to view recommendation in full</i></h3>
-            <div id="actionsSunburstChart"></div>
+            <div class="chart-mobile-banner">
+                <span>Interactive chart — best viewed on a wider screen.</span>
+                <button class="chart-toggle-btn" data-target="actionsSunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
+            </div>
+            <div id="actionsSunburstChart" class="chart-collapsible"></div>
         </div>
         <div class="chart-container">
             <h2>Overall Recommendations by Action Category and Change Type</h2>
@@ -28,36 +36,39 @@
             <div id="stackedBarChart" style="overflow-x: auto; overflow-y: visible;"></div>
         </div>
         <div>
-                <h2>Action-Based Categories (Recommendations Analysis by ChatGPT 4-o)</h2>
-                <ul>
-                    <li><strong style="color:#CB9608">Law & Regulation</strong> – Changes in legal frameworks, policies, and compliance rules.</li>
-                    <li><strong style="color:#c4ab09">Enforcement & Compliance</strong> – Strengthening or adjusting enforcement mechanisms.</li>
-                    <li><strong style="color:#bdbf09">Accountability & Oversight</strong> – Who is responsible and how they are monitored.</li>
-                    <li><strong style="color:#97b430">Governance & Structure</strong> – Organizational, management, and leadership changes.</li>
-                    <li><strong style="color:#70a957">Processes & Procedures</strong> – Internal workflows, operational protocols, and best practices.</li>
-                    <li><strong style="color:#2292a4">Training & Education</strong> – Learning, qualifications, and professional development.</li>
-                    <li><strong style="color:#4aa4b2">Documentation & Records</strong> – Record-keeping, reporting standards, and data retention.</li>
-                    <li><strong style="color:#6F499E">Technology & Systems</strong> – IT, software, tracking systems, and digital transformation.</li>
-                    <li><strong style="color:#499e7e">Communication & Reporting</strong> – How information is shared internally and externally.</li>
-                    <li><strong style="color:#70797b">Funding & Resources</strong> – Budget allocations, financial support, and resource planning.</li>
-                    <li><strong style="color:#ab9826">Emergency & Risk Management</strong> – Crisis handling, mitigation strategies, and safety planning.</li>
-                    <li><strong style="color:#47a12f">Audits & Reviews</strong> – Evaluations, performance assessments, and feedback loops.</li>
-                    <li><strong style="color:#49899E">Infrastructure & Facilities</strong> – Physical buildings, equipment, and safety improvements.</li>
-                    <li><strong style="color:#D3A4EA">Investigation & Redress</strong> – Fact-finding, inquiries, and corrective actions.</li>
-                    <li><strong style="color:#93499E">Support & Welfare</strong> – Assistance for affected individuals, victims, and communities.</li>
-                    <li><strong style="color:#878c8f">None Published</strong> – Recommended actions if they exist, have not been published or are not available.</li>
-                </ul>
-                
-                <h2><strong>Change Types</strong></h2>
-                <ul>
-                    <li><strong style="color:#1f77b4">More</strong> – Increase in a particular activity or resource.</li>
-                    <li><strong style="color:#ff7f0e">Less</strong> – Decrease in a particular activity or resource.</li>
-                    <li><strong style="color:#9467bd">Different</strong> – Change in the nature or approach of a process.</li>
-                    <li><strong style="color:#2ca02c">New</strong> – Introduction of a new system, policy, or procedure.</li>
-                    <li><strong style="color:#d62728">Cease</strong> – Discontinuation of a practice or activity.</li>
-                    <li><strong style="color:#878c8f">None</strong> – No (published) recommendations.</li>
-                </ul>
-                    
+                <details class="legend-section" open>
+                    <summary><h2>Action-Based Categories (Recommendations Analysis by ChatGPT 4-o)</h2></summary>
+                    <ul>
+                        <li><strong style="color:#CB9608">Law & Regulation</strong> – Changes in legal frameworks, policies, and compliance rules.</li>
+                        <li><strong style="color:#c4ab09">Enforcement & Compliance</strong> – Strengthening or adjusting enforcement mechanisms.</li>
+                        <li><strong style="color:#bdbf09">Accountability & Oversight</strong> – Who is responsible and how they are monitored.</li>
+                        <li><strong style="color:#97b430">Governance & Structure</strong> – Organizational, management, and leadership changes.</li>
+                        <li><strong style="color:#70a957">Processes & Procedures</strong> – Internal workflows, operational protocols, and best practices.</li>
+                        <li><strong style="color:#2292a4">Training & Education</strong> – Learning, qualifications, and professional development.</li>
+                        <li><strong style="color:#4aa4b2">Documentation & Records</strong> – Record-keeping, reporting standards, and data retention.</li>
+                        <li><strong style="color:#6F499E">Technology & Systems</strong> – IT, software, tracking systems, and digital transformation.</li>
+                        <li><strong style="color:#499e7e">Communication & Reporting</strong> – How information is shared internally and externally.</li>
+                        <li><strong style="color:#70797b">Funding & Resources</strong> – Budget allocations, financial support, and resource planning.</li>
+                        <li><strong style="color:#ab9826">Emergency & Risk Management</strong> – Crisis handling, mitigation strategies, and safety planning.</li>
+                        <li><strong style="color:#47a12f">Audits & Reviews</strong> – Evaluations, performance assessments, and feedback loops.</li>
+                        <li><strong style="color:#49899E">Infrastructure & Facilities</strong> – Physical buildings, equipment, and safety improvements.</li>
+                        <li><strong style="color:#D3A4EA">Investigation & Redress</strong> – Fact-finding, inquiries, and corrective actions.</li>
+                        <li><strong style="color:#93499E">Support & Welfare</strong> – Assistance for affected individuals, victims, and communities.</li>
+                        <li><strong style="color:#878c8f">None Published</strong> – Recommended actions if they exist, have not been published or are not available.</li>
+                    </ul>
+                </details>
+
+                <details class="legend-section" open>
+                    <summary><h2><strong>Change Types</strong></h2></summary>
+                    <ul>
+                        <li><strong style="color:#1f77b4">More</strong> – Increase in a particular activity or resource.</li>
+                        <li><strong style="color:#ff7f0e">Less</strong> – Decrease in a particular activity or resource.</li>
+                        <li><strong style="color:#9467bd">Different</strong> – Change in the nature or approach of a process.</li>
+                        <li><strong style="color:#2ca02c">New</strong> – Introduction of a new system, policy, or procedure.</li>
+                        <li><strong style="color:#d62728">Cease</strong> – Discontinuation of a practice or activity.</li>
+                        <li><strong style="color:#878c8f">None</strong> – No (published) recommendations.</li>
+                    </ul>
+                </details>
         </div>
         
         <!-- Contribution Banner -->
@@ -87,7 +98,11 @@
         <div id="evidenceCountBadge"></div>
                  <!-- Filter inputs -->
                 <div style="margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 5px;">
-                    <h3 style="margin-top: 0;">Filter Table</h3>
+                    <div class="filter-panel-header">
+                        <h3>Filter Table</h3>
+                        <button class="filter-toggle-btn" id="filterToggle" onclick="toggleFilterPanel()" aria-expanded="true">▲ Collapse</button>
+                    </div>
+                    <div id="filterPanelBody">
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
                         <div>
                             <label for="filterDept" style="display: block; margin-bottom: 5px; font-weight: bold;">Department:</label>
@@ -144,6 +159,7 @@
                             </select>
                         </div>
                     </div>
+                    </div><!-- end filterPanelBody -->
                     <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 15px; margin-top: 15px;">
                         <button id="clearFilters" style="padding: 10px 20px; background: #d62728; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Clear All Filters</button>
                         <div style="display: flex;">
@@ -1063,6 +1079,7 @@
         // Create the SVG container.
         const svg = d3.create("svg")
             .attr("viewBox", [-width / 2, -height / 2, width, width])
+            .attr("width", "100%")
             .style("font", "10px sans-serif");
 
         // Append the arcs.
@@ -1236,8 +1253,23 @@
         }
     }
 
+    function toggleChartVisibility(btn) {
+        const target = btn.getAttribute('data-target');
+        const chartDiv = document.getElementById(target);
+        const isOpen = chartDiv.classList.toggle('chart-open');
+        btn.textContent = isOpen ? 'Hide chart ▲' : 'Show chart ▼';
+    }
+
+    function toggleFilterPanel() {
+        const body = document.getElementById('filterPanelBody');
+        const btn = document.getElementById('filterToggle');
+        const isCollapsed = body.classList.toggle('filter-collapsed');
+        btn.textContent = isCollapsed ? '▼ Expand' : '▲ Collapse';
+        btn.setAttribute('aria-expanded', String(!isCollapsed));
+    }
+
     </script>
-    
+
     <!-- Buy Me a Coffee Widget -->
     <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="daphnis605" data-description="Support me on Buy me a coffee!" data-message="Free way to support: Submit outcome links (Google Form)" data-color="#BD5FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 </body>
