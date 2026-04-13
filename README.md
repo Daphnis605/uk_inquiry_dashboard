@@ -20,11 +20,11 @@ Not all recommendations are equal, but the easier they are to find and learn fro
 
 ## Data Source
 
-The data is stored in `data.json`. It contains exact quotes from inquiry reports to preserve their meaning and accuracy.
+Recommendations are stored in `data.json` — exact quotes from inquiry reports, never altered. Verified outcome evidence is stored separately in `enriched_data.json`, which links each recommendation to primary sources showing whether it was implemented.
 
 ### How the Data is Processed
 
-The main method used to create the `data.json` is described in the `method/main method.md`. Some specific steps are covered in other documents in the method folder
+The main method used to create the `data.json` is described in the `method/main method.md`. Some specific steps are covered in other documents in the method folder.
 
 1. **Extracting Recommendations**
    - Recommendations are taken directly from inquiry reports.
@@ -36,7 +36,12 @@ The main method used to create the `data.json` is described in the `method/main 
    - AI was tested for this but was not reliable. All final decisions are made by a person.
    - If a recommendation is unclear, discussion in a pull request (PR) helps resolve it.
 
-3. **Maintaining Accuracy**
+3. **Evidence of Outcomes (`enriched_data.json`)**
+   - The `scripts/research.py` tool uses the Claude API to propose evidence URLs for unevidenced recommendations.
+   - Every AI-generated proposal is written as `approved: false` and requires human review before it appears on the dashboard.
+   - You can also submit evidence directly via the [contribution form](https://forms.gle/Xni4V6NhmhEHGNmv8) or a GitHub issue.
+
+4. **Maintaining Accuracy**
    - No recommendations are rewritten.
    - If you spot an error, raise an issue or submit a PR with a fix.
 

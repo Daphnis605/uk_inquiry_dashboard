@@ -52,13 +52,10 @@ python scripts/research.py --model claude-haiku-4-5-20251001 --limit 100
 **Not sufficient:** acceptance letters, welcome statements, progress reviews without
 confirmation of implementation, or news articles without primary source.
 
-### Cost estimate
+### Cost
 
-| Model | Per recommendation | 100 recs | 1,000 recs |
-|---|---|---|---|
-| claude-haiku-4-5 | ~£0.001 | ~£0.10 | ~£1 |
-| claude-sonnet-4-6 | ~£0.02 | ~£2 | ~£20 |
-| claude-opus-4-6 | ~£0.15 | ~£15 | ~£150 |
+Check current pricing at [anthropic.com/pricing](https://www.anthropic.com/pricing).
+Each recommendation uses roughly 400 input tokens and 300 output tokens.
 
-For a first sweep, use Haiku to get broad coverage cheaply, then Sonnet for
-any recommendations Haiku couldn't find evidence for.
+A practical approach: run Haiku first for broad coverage, then Sonnet on
+the recommendations Haiku couldn't find evidence for.
