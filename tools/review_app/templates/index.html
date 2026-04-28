@@ -11,425 +11,295 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       font-size: 14px;
       line-height: 1.5;
-      background: #eef0f4;
+      background: #f5f5f5;
       color: #222;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
     }
 
-    /* ── Header ── */
     header {
       background: #1a1a2e;
       color: #fff;
-      padding: 10px 24px;
+      padding: 12px 24px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      flex-shrink: 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
-    header h1 { font-size: 15px; font-weight: 600; }
-    .counts { font-size: 13px; opacity: 0.8; display: flex; gap: 16px; }
-    .pending-count { color: #fbbf24; }
-    .approved-count { color: #6ee7b7; }
+    header h1 { font-size: 16px; font-weight: 600; }
+    .counts { font-size: 13px; opacity: 0.8; }
+    .counts span { margin-left: 16px; }
+    .pending-count { color: #fbbf24; font-weight: 600; }
+    .approved-count { color: #6ee7b7; font-weight: 600; }
 
-    /* ── Filter bar ── */
     .filter-bar {
       background: #fff;
       border-bottom: 1px solid #e5e7eb;
-      padding: 7px 24px;
+      padding: 10px 24px;
       display: flex;
       align-items: center;
-      gap: 10px;
-      flex-shrink: 0;
+      gap: 12px;
+      flex-wrap: wrap;
     }
-    .filter-bar label { font-size: 13px; color: #6b7280; }
+    .filter-bar label { font-size: 13px; color: #555; }
     .filter-bar select {
-      padding: 4px 8px;
+      padding: 5px 10px;
       border: 1px solid #d1d5db;
       border-radius: 4px;
       font-size: 13px;
     }
-    .filter-bar a { font-size: 13px; color: #6b7280; text-decoration: none; }
-    .filter-bar a:hover { color: #374151; }
-
-    /* ── Progress bar ── */
-    .progress-bar-wrap { background: #d1d5db; height: 3px; flex-shrink: 0; }
-    .progress-bar-fill { background: #3b82f6; height: 100%; transition: width 0.3s; }
-
-    /* ── Card area ── */
-    .card-area {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px 16px 0;
-      min-height: 0;
-      overflow: hidden;
-    }
-
-    .progress-label {
+    .filter-bar button {
+      padding: 5px 12px;
+      background: #3b82f6;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
       font-size: 13px;
-      color: #6b7280;
-      margin-bottom: 14px;
-      align-self: stretch;
-      text-align: center;
     }
-    .progress-label strong { color: #374151; }
+    .filter-bar button:hover { background: #2563eb; }
 
-    /* ── Card deck ── */
-    .card-deck {
-      position: relative;
-      width: 100%;
-      max-width: 700px;
-      flex: 1;
-      min-height: 0;
-    }
+    main { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
 
-    /* Stacked cards behind */
-    .card-deck::after {
-      content: '';
-      position: absolute;
-      top: 8px; left: 8px; right: -8px; bottom: -6px;
-      background: #d9dde6;
-      border-radius: 14px;
-      z-index: 0;
-    }
-    .card-deck::before {
-      content: '';
-      position: absolute;
-      top: 4px; left: 4px; right: -4px; bottom: -3px;
-      background: #e5e8ef;
-      border-radius: 14px;
-      z-index: 1;
+    .inquiry-group { margin-bottom: 32px; }
+    .inquiry-group h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1a1a2e;
+      border-bottom: 2px solid #1a1a2e;
+      padding-bottom: 6px;
+      margin-bottom: 16px;
     }
 
-    /* ── Main card ── */
     .card {
-      position: relative;
-      z-index: 2;
       background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.10);
-      display: flex;
-      flex-direction: column;
-      height: 100%;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      margin-bottom: 16px;
       overflow: hidden;
     }
-
-    .card-meta {
-      padding: 12px 20px 10px;
-      border-bottom: 1px solid #f0f0f0;
+    .card-header {
+      background: #f9fafb;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 10px 16px;
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
       gap: 12px;
-      flex-shrink: 0;
     }
-    .card-inquiry { font-size: 13px; font-weight: 700; color: #1a1a2e; }
-    .card-key { font-size: 11px; font-family: monospace; color: #9ca3af; margin-top: 2px; }
-
+    .card-key {
+      font-size: 12px;
+      font-family: monospace;
+      color: #6b7280;
+    }
     .status-badge {
       font-size: 11px;
       padding: 2px 8px;
-      border-radius: 10px;
+      border-radius: 12px;
       white-space: nowrap;
-      flex-shrink: 0;
     }
     .status-actioned { background: #d1fae5; color: #065f46; }
     .status-partial { background: #fef3c7; color: #92400e; }
     .status-no_evidence_found { background: #fee2e2; color: #991b1b; }
     .status-not_published { background: #f3f4f6; color: #374151; }
-    .status-empty { background: #f3f4f6; color: #9ca3af; }
-
-    /* ── Scrollable body ── */
-    .card-body {
-      flex: 1;
-      overflow-y: auto;
-      min-height: 0;
-    }
-
-    .section-label {
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #9ca3af;
-      padding: 12px 20px 4px;
-    }
 
     .rec-text {
-      padding: 0 20px 16px;
-      font-size: 14px;
-      color: #1e293b;
-      line-height: 1.65;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #374151;
+      border-bottom: 1px solid #e5e7eb;
       font-style: italic;
+      max-height: 80px;
+      overflow: hidden;
+      position: relative;
+    }
+    .rec-text.expanded { max-height: none; }
+    .expand-btn {
+      background: none;
+      border: none;
+      color: #3b82f6;
+      cursor: pointer;
+      font-size: 12px;
+      padding: 0;
+      display: block;
+      margin-top: 4px;
     }
 
-    .section-divider {
-      height: 1px;
-      background: #f0f2f5;
-      margin: 0 20px;
+    .notes {
+      padding: 8px 16px;
+      font-size: 12px;
+      color: #6b7280;
+      background: #fafafa;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .evidence-item {
+      padding: 14px 16px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .evidence-item:last-child { border-bottom: none; }
+    .evidence-item.approved-item {
+      background: #f0fdf4;
+      opacity: 0.6;
     }
 
     .evidence-title {
-      padding: 14px 20px 4px;
-      font-size: 14px;
       font-weight: 600;
-      color: #111827;
+      font-size: 13px;
+      margin-bottom: 4px;
     }
     .evidence-meta {
-      padding: 0 20px 8px;
       font-size: 12px;
       color: #6b7280;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 4px 12px;
-      align-items: baseline;
+      margin-bottom: 6px;
     }
-    .evidence-meta a {
-      color: #3b82f6;
-      text-decoration: none;
-      word-break: break-all;
-    }
+    .evidence-meta a { color: #3b82f6; text-decoration: none; }
     .evidence-meta a:hover { text-decoration: underline; }
-    .no-url { color: #9ca3af; font-style: italic; }
     .evidence-desc {
-      padding: 2px 20px 20px;
       font-size: 13px;
       color: #374151;
-      line-height: 1.6;
-    }
-    .notes-bar {
-      padding: 6px 20px;
-      font-size: 12px;
-      color: #6b7280;
-      background: #fafafa;
-      border-top: 1px solid #f0f0f0;
+      margin-bottom: 10px;
     }
 
-    /* ── Status row ── */
-    .status-row {
-      padding: 9px 20px;
-      border-top: 1px solid #f0f2f5;
+    .action-row {
       display: flex;
-      align-items: center;
       gap: 8px;
-      flex-shrink: 0;
-      background: #fafafa;
-    }
-    .status-row label { font-size: 12px; color: #6b7280; }
-    .status-select {
-      font-size: 12px;
-      padding: 3px 8px;
-      border: 1px solid #d1d5db;
-      border-radius: 4px;
-    }
-
-    /* ── Keyboard hint ── */
-    .kbd-hint {
-      font-size: 11px;
-      color: #9ca3af;
-      text-align: center;
-      padding: 5px;
-      flex-shrink: 0;
-    }
-    .kbd-hint kbd {
-      background: #f3f4f6;
-      border: 1px solid #e5e7eb;
-      border-radius: 3px;
-      padding: 1px 5px;
-      font-size: 10px;
-      color: #6b7280;
-    }
-
-    /* ── Action bar ── */
-    .action-bar {
-      background: #fff;
-      border-top: 1px solid #e5e7eb;
-      padding: 12px 24px;
-      display: flex;
-      gap: 10px;
       align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
     }
-
-    .btn {
-      padding: 10px 18px;
-      border-radius: 8px;
+    .btn-approve {
+      padding: 5px 14px;
+      background: #10b981;
+      color: #fff;
       border: none;
+      border-radius: 4px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 500;
-      transition: background 0.12s, transform 0.08s;
     }
-    .btn:active { transform: scale(0.96); }
-    .btn:disabled { opacity: 0.35; cursor: default; transform: none; }
-
-    .btn-back  { background: #f3f4f6; color: #6b7280; }
-    .btn-back:hover:not(:disabled)  { background: #e5e7eb; }
-    .btn-skip  { background: #f3f4f6; color: #6b7280; }
-    .btn-skip:hover  { background: #e5e7eb; }
+    .btn-approve:hover { background: #059669; }
+    .btn-approve:disabled { background: #6ee7b7; cursor: default; }
 
     .btn-reject {
-      background: #fee2e2;
-      color: #dc2626;
-      flex: 1;
-      max-width: 160px;
-      font-size: 15px;
+      padding: 5px 14px;
+      background: #fff;
+      color: #ef4444;
+      border: 1px solid #ef4444;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
     }
-    .btn-reject:hover:not(:disabled) { background: #fecaca; }
+    .btn-reject:hover { background: #fee2e2; }
 
-    .btn-approve {
-      background: #d1fae5;
-      color: #059669;
-      flex: 1;
-      max-width: 160px;
-      font-size: 15px;
+    .ev-type-badge {
+      display: inline-block;
+      font-size: 11px;
+      padding: 1px 6px;
+      border-radius: 3px;
+      margin-left: 6px;
+      vertical-align: middle;
+      font-weight: 600;
     }
-    .btn-approve:hover:not(:disabled) { background: #a7f3d0; }
+    .ev-type-partial  { background: #fef3c7; color: #92400e; }
+    .ev-type-complete { background: #d1fae5; color: #065f46; }
 
-    /* ── Done / empty states ── */
-    .done-state {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      color: #6b7280;
-      padding: 32px 24px;
-      text-align: center;
-    }
-    .done-state h2 { font-size: 24px; color: #374151; }
-    .done-state p { font-size: 14px; max-width: 420px; line-height: 1.6; }
-    .btn-reload {
-      padding: 10px 28px;
-      background: #3b82f6;
+    .btn-approve-all {
+      padding: 5px 12px;
+      background: #f59e0b;
       color: #fff;
       border: none;
-      border-radius: 8px;
+      border-radius: 4px;
       cursor: pointer;
-      font-size: 14px;
-      margin-top: 8px;
+      font-size: 13px;
     }
-    .btn-reload:hover { background: #2563eb; }
+    .btn-approve-all:hover { background: #d97706; }
 
-    /* ── Edit form ── */
-    .edit-panel {
+    .btn-edit {
+      padding: 5px 10px;
+      background: #fff;
+      color: #6b7280;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    .btn-edit:hover { background: #f3f4f6; }
+
+    .edit-form {
       display: none;
       flex-direction: column;
-      gap: 0;
-      flex: 1;
-      min-height: 0;
-      overflow-y: auto;
-      padding: 12px 20px 20px;
+      gap: 8px;
+      margin-top: 10px;
+      padding: 12px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
     }
-    .edit-panel.active { display: flex; }
-    .edit-panel label {
+    .edit-form.open { display: flex; }
+    .edit-form label {
       font-size: 11px;
       font-weight: 700;
-      letter-spacing: 0.06em;
+      letter-spacing: 0.05em;
       text-transform: uppercase;
       color: #9ca3af;
-      margin-top: 12px;
-      margin-bottom: 3px;
+      margin-bottom: 2px;
     }
-    .edit-panel input, .edit-panel select {
+    .edit-form input, .edit-form select, .edit-form textarea {
       width: 100%;
       font-size: 13px;
-      padding: 6px 10px;
+      padding: 6px 8px;
       border: 1px solid #d1d5db;
-      border-radius: 5px;
+      border-radius: 4px;
       font-family: inherit;
     }
-    .edit-panel textarea {
-      width: 100%;
-      font-size: 13px;
-      padding: 8px 10px;
-      border: 1px solid #d1d5db;
-      border-radius: 5px;
-      font-family: inherit;
-      resize: vertical;
-      min-height: 120px;
-      line-height: 1.55;
-    }
-    .edit-panel input:focus, .edit-panel select:focus, .edit-panel textarea:focus {
-      outline: none;
-      border-color: #3b82f6;
-      box-shadow: 0 0 0 2px rgba(59,130,246,0.15);
-    }
-    .edit-actions {
-      display: flex;
-      gap: 8px;
-      margin-top: 16px;
-    }
+    .edit-form textarea { min-height: 80px; resize: vertical; }
+    .edit-form-actions { display: flex; gap: 8px; margin-top: 4px; }
     .btn-edit-save {
-      padding: 8px 20px;
+      padding: 5px 14px;
       background: #3b82f6;
       color: #fff;
       border: none;
-      border-radius: 6px;
+      border-radius: 4px;
       cursor: pointer;
       font-size: 13px;
-      font-weight: 500;
     }
     .btn-edit-save:hover { background: #2563eb; }
     .btn-edit-cancel {
-      padding: 8px 16px;
+      padding: 5px 10px;
       background: #f3f4f6;
       color: #6b7280;
       border: none;
-      border-radius: 6px;
+      border-radius: 4px;
       cursor: pointer;
       font-size: 13px;
     }
     .btn-edit-cancel:hover { background: #e5e7eb; }
-    .edit-hint {
-      font-size: 11px;
-      color: #9ca3af;
-      margin-left: auto;
-      align-self: center;
-    }
-    .section-label-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 12px 20px 4px;
-    }
-    .section-label-row .section-label { padding: 0; }
-    .btn-edit-toggle {
-      background: none;
-      border: 1px solid #d1d5db;
-      border-radius: 4px;
-      padding: 2px 8px;
-      font-size: 11px;
-      color: #6b7280;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-    .btn-edit-toggle:hover { background: #f3f4f6; color: #374151; }
 
-    /* ── Toast ── */
+    .approved-label {
+      font-size: 12px;
+      color: #059669;
+      font-weight: 600;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 64px 24px;
+      color: #6b7280;
+    }
+    .empty-state h2 { font-size: 20px; margin-bottom: 8px; color: #374151; }
+
     .toast {
       position: fixed;
-      bottom: 72px;
-      left: 50%;
-      transform: translateX(-50%);
+      bottom: 24px;
+      right: 24px;
       background: #1a1a2e;
       color: #fff;
-      padding: 8px 20px;
+      padding: 10px 20px;
       border-radius: 6px;
       font-size: 13px;
       opacity: 0;
       transition: opacity 0.2s;
       pointer-events: none;
       z-index: 999;
-      white-space: nowrap;
     }
     .toast.show { opacity: 1; }
   </style>
@@ -437,7 +307,7 @@
 <body>
 
 <header>
-  <h1>Evidence Review</h1>
+  <h1>Evidence Review — UK Inquiry Dashboard</h1>
   <div class="counts">
     <span class="pending-count">{{ total_pending }} pending</span>
     <span class="approved-count">{{ total_approved }} approved</span>
@@ -445,384 +315,270 @@
 </header>
 
 <div class="filter-bar">
-  <form method="get" action="/" style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
-    <label for="inquiry-select">Inquiry:</label>
-    <select id="inquiry-select" name="inquiry" onchange="this.form.submit()">
+  <form method="get" action="/" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+    <label for="inquiry-select">Filter by inquiry:</label>
+    <select id="inquiry-select" name="inquiry">
       <option value="">All inquiries</option>
       {% for inq in all_inquiries %}
       <option value="{{ inq }}" {% if inq == inquiry_filter %}selected{% endif %}>{{ inq }}</option>
       {% endfor %}
     </select>
-    {% if inquiry_filter %}<a href="/">All</a>{% endif %}
+    <button type="submit">Apply</button>
+    {% if inquiry_filter %}
+    <a href="/" style="font-size:13px;color:#6b7280;">Clear filter</a>
+    {% endif %}
   </form>
+  {% if total_pending > 0 %}
+  <button class="btn-approve-all" onclick="approveAll('{{ inquiry_filter | e }}', {{ total_pending }})">
+    Approve all {{ total_pending }} pending{% if inquiry_filter %} ({{ inquiry_filter }}){% endif %}
+  </button>
+  {% endif %}
 </div>
 
-<div class="progress-bar-wrap">
-  <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
-</div>
-
-{% if not cards %}
-
-<div class="done-state">
-  <h2>All done!</h2>
-  <p>No pending evidence items{% if inquiry_filter %} for {{ inquiry_filter }}{% endif %}.</p>
-  {% if inquiry_filter %}<a href="/" style="color:#3b82f6;font-size:14px;">View all inquiries</a>{% endif %}
-</div>
-
+<main>
+{% if not pending %}
+  <div class="empty-state">
+    <h2>All done!</h2>
+    <p>No pending evidence items{% if inquiry_filter %} for {{ inquiry_filter }}{% endif %}.</p>
+    <p style="margin-top:12px;font-size:14px;">
+      Next: <a href="/statuses" style="color:#3b82f6;">Review recommendation statuses &rarr;</a>
+    </p>
+  </div>
 {% else %}
+  {% set ns = namespace(current_inquiry='') %}
+  {% for entry in pending %}
+    {% if entry.inquiry != ns.current_inquiry %}
+      {% if ns.current_inquiry != '' %}</div>{% endif %}
+      {% set ns.current_inquiry = entry.inquiry %}
+      <div class="inquiry-group">
+      <h2>{{ entry.inquiry }}</h2>
+    {% endif %}
 
-<div class="card-area" id="card-area">
-  <div class="progress-label" id="progress-label"></div>
-
-  <div class="card-deck" id="card-deck">
-    <div class="card" id="main-card">
-
-      <div class="card-meta">
+    <div class="card" id="card-{{ entry.key | replace('__', '-') }}">
+      <div class="card-header">
         <div>
-          <div class="card-inquiry" id="c-inquiry"></div>
-          <div class="card-key" id="c-key"></div>
+          <div class="card-key">{{ entry.key }}</div>
         </div>
-        <span class="status-badge" id="c-status-badge"></span>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span class="status-badge status-{{ entry.evidence_status }}">{{ entry.evidence_status }}</span>
+        </div>
       </div>
 
-      <div class="card-body" id="card-body">
-        <div class="section-label">Recommendation</div>
-        <div class="rec-text" id="c-rec-text"></div>
+      <div class="rec-text" id="rectext-{{ loop.index }}">
+        {{ entry.rec_text }}
+        <button class="expand-btn" onclick="toggleExpand({{ loop.index }})">show more</button>
+      </div>
 
-        <div class="section-divider"></div>
+      {% if entry.notes %}
+      <div class="notes">{{ entry.notes }}</div>
+      {% endif %}
 
-        <div class="section-label-row">
-          <div class="section-label">Evidence</div>
-          <button class="btn-edit-toggle" id="btn-edit-toggle" onclick="toggleEdit()">&#9998; Edit</button>
+      {% for item_index, item in entry.pending_items %}
+      {% set evid = entry.key | replace('__', '-') ~ '-' ~ item_index %}
+      <div class="evidence-item" id="evitem-{{ evid }}">
+        <div class="evidence-title">
+          {{ item.title }}
+          {% if item.evidence_type %}
+          <span class="ev-type-badge ev-type-{{ item.evidence_type }}">{{ item.evidence_type }}</span>
+          {% endif %}
         </div>
-
-        <!-- View mode -->
-        <div id="ev-view">
-          <div class="evidence-title" id="c-ev-title"></div>
-          <div class="evidence-meta" id="c-ev-meta"></div>
-          <div class="evidence-desc" id="c-ev-desc"></div>
-          <div class="notes-bar" id="c-notes" style="display:none"></div>
+        <div class="evidence-meta">
+          {% if item.url %}
+          <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.url[:80] }}{% if item.url|length > 80 %}…{% endif %}</a> ·
+          {% else %}
+          <em>No URL</em> ·
+          {% endif %}
+          {{ item.source_type | replace('_', ' ') }} ·
+          {{ item.date or 'no date' }}
         </div>
-
-        <!-- Edit mode -->
-        <div class="edit-panel" id="edit-panel">
-          <label for="edit-title">Title</label>
-          <input type="text" id="edit-title">
-
-          <label for="edit-url">URL</label>
-          <input type="url" id="edit-url" placeholder="https://...">
-
-          <label for="edit-date">Date (YYYY-MM or YYYY)</label>
-          <input type="text" id="edit-date" placeholder="2025-05">
-
-          <label for="edit-source-type">Source type</label>
-          <select id="edit-source-type">
-            <option value="official_report">official report</option>
-            <option value="government_statement">government statement</option>
-            <option value="legislation">legislation</option>
-            <option value="news_article">news article</option>
-            <option value="parliamentary_record">parliamentary record</option>
-            <option value="other">other</option>
-          </select>
-
-          <label for="edit-desc">Description</label>
-          <textarea id="edit-desc" rows="6"></textarea>
-
-          <div class="edit-actions">
-            <button class="btn-edit-save" onclick="saveEdit()">Save</button>
-            <button class="btn-edit-cancel" onclick="cancelEdit()">Cancel</button>
-            <span class="edit-hint">Ctrl+Enter to save &nbsp; Esc to cancel</span>
+        <div class="evidence-desc">{{ item.description }}</div>
+        <div class="action-row">
+          <button class="btn-approve" data-key="{{ entry.key }}" data-index="{{ item_index }}" onclick="approveItem(this.dataset.key, parseInt(this.dataset.index), this)">Approve</button>
+          <button class="btn-reject" data-key="{{ entry.key }}" data-index="{{ item_index }}" onclick="rejectItem(this.dataset.key, parseInt(this.dataset.index), this)">Reject</button>
+          <button class="btn-edit" onclick="toggleEditForm('{{ evid }}')">Edit</button>
+        </div>
+        <div class="edit-form" id="editform-{{ evid }}">
+          <div>
+            <label>Title</label>
+            <input type="text" id="edit-title-{{ evid }}" value="{{ item.title | e }}">
+          </div>
+          <div>
+            <label>URL</label>
+            <input type="url" id="edit-url-{{ evid }}" value="{{ item.url | e }}">
+          </div>
+          <div style="display:flex;gap:8px;">
+            <div style="flex:1">
+              <label>Date (YYYY-MM-DD)</label>
+              <input type="text" id="edit-date-{{ evid }}" value="{{ item.date or '' }}">
+            </div>
+            <div style="flex:1">
+              <label>Source type</label>
+              <select id="edit-source-{{ evid }}">
+                {% for st in ['official_report','legislation','press_release','parliamentary_record','news_article'] %}
+                <option value="{{ st }}" {% if item.source_type == st %}selected{% endif %}>{{ st | replace('_',' ') }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div style="flex:1">
+              <label>Evidence type</label>
+              <select id="edit-evtype-{{ evid }}">
+                <option value="" {% if not item.evidence_type %}selected{% endif %}>— unset —</option>
+                <option value="partial" {% if item.evidence_type == 'partial' %}selected{% endif %}>partial</option>
+                <option value="complete" {% if item.evidence_type == 'complete' %}selected{% endif %}>complete</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label>Description</label>
+            <textarea id="edit-desc-{{ evid }}">{{ item.description | e }}</textarea>
+          </div>
+          <div class="edit-form-actions">
+            <button class="btn-edit-save" onclick="saveEdit('{{ entry.key }}', {{ item_index }}, '{{ evid }}')">Save</button>
+            <button class="btn-edit-cancel" onclick="toggleEditForm('{{ evid }}')">Cancel</button>
           </div>
         </div>
-
       </div>
+      {% endfor %}
 
-      <div class="status-row">
-        <label for="status-select">Rec status:</label>
-        <select id="status-select" class="status-select" onchange="setStatus(currentCard().key, this.value)">
-          <option value="">— set status —</option>
-          <option value="actioned">actioned</option>
-          <option value="partial">partial</option>
-          <option value="no_evidence_found">no evidence found</option>
-          <option value="not_published">not published</option>
-        </select>
+      {% if entry.total_items > entry.pending_items | length %}
+      <div class="evidence-item approved-item">
+        <span class="approved-label">✓ {{ entry.total_items - (entry.pending_items | length) }} already approved item(s)</span>
       </div>
-
+      {% endif %}
     </div>
-  </div>
-</div>
 
-<div class="kbd-hint" id="kbd-hint">
-  <kbd>A</kbd> approve &nbsp; <kbd>R</kbd> reject &nbsp; <kbd>S</kbd> / <kbd>→</kbd> skip &nbsp; <kbd>←</kbd> back &nbsp; <kbd>E</kbd> edit
-</div>
+  {% endfor %}
+  {% if ns.current_inquiry != '' %}</div>{% endif %}
+{% endif %}
+</main>
 
-<div class="action-bar">
-  <button class="btn btn-back" id="btn-back" onclick="goBack()">← Back</button>
-  <button class="btn btn-reject" id="btn-reject" onclick="doReject()">✗ Reject</button>
-  <button class="btn btn-approve" id="btn-approve" onclick="doApprove()">✓ Approve</button>
-  <button class="btn btn-skip" id="btn-skip" onclick="doSkip()">Skip →</button>
-</div>
+<div class="toast" id="toast"></div>
 
 <script>
-const CARDS = {{ cards | tojson }};
-let idx = 0;
-const actioned = new Set();
-let busy = false;
-
-function currentCard() { return CARDS[idx]; }
-
-function esc(str) {
-  return String(str ?? '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
+function showToast(msg, duration=2000) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), duration);
 }
 
-function renderCard() {
-  if (idx >= CARDS.length) { showDone(); return; }
-  if (editing) cancelEdit();
-
-  const c = CARDS[idx];
-  const item = c.item;
-
-  document.getElementById('c-inquiry').textContent = c.inquiry;
-  document.getElementById('c-key').textContent = c.key;
-
-  const badge = document.getElementById('c-status-badge');
-  const statusVal = c.evidence_status || '';
-  badge.textContent = statusVal || 'no status';
-  badge.className = 'status-badge ' + (statusVal ? 'status-' + statusVal : 'status-empty');
-
-  document.getElementById('c-rec-text').textContent = c.rec_text;
-
-  document.getElementById('c-ev-title').textContent = item.title || '(no title)';
-
-  const meta = document.getElementById('c-ev-meta');
-  const urlPart = item.url
-    ? `<a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.url)}</a>`
-    : '<span class="no-url">No URL provided</span>';
-  const sourcePart = item.source_type ? esc(item.source_type.replace(/_/g, ' ')) : '';
-  const datePart = item.date ? esc(item.date) : 'no date';
-  meta.innerHTML = [urlPart, sourcePart, datePart].filter(Boolean).join('<span style="color:#d1d5db"> · </span>');
-
-  document.getElementById('c-ev-desc').textContent = item.description || '';
-
-  const notesEl = document.getElementById('c-notes');
-  if (c.notes) {
-    notesEl.textContent = 'Notes: ' + c.notes;
-    notesEl.style.display = '';
-  } else {
-    notesEl.style.display = 'none';
-  }
-
-  document.getElementById('status-select').value = statusVal;
-  document.getElementById('btn-back').disabled = idx === 0;
-  document.getElementById('card-body').scrollTop = 0;
-  updateProgress();
-}
-
-function updateProgress() {
-  const total = CARDS.length;
-  const done = actioned.size;
-  document.getElementById('progress-label').innerHTML =
-    `<strong>${idx + 1}</strong> of <strong>${total}</strong>` +
-    (done > 0 ? ` &nbsp;·&nbsp; ${done} actioned this session` : '');
-  document.getElementById('progress-fill').style.width = ((idx / total) * 100) + '%';
-}
-
-function showDone() {
-  const remaining = CARDS.length - actioned.size;
-  document.getElementById('progress-fill').style.width = '100%';
-  document.getElementById('card-area').innerHTML = `
-    <div class="done-state">
-      <h2>${remaining === 0 ? 'All done!' : 'End of deck'}</h2>
-      <p>
-        ${actioned.size} item(s) actioned this session.
-        ${remaining > 0
-          ? `${remaining} were skipped and still need review.`
-          : 'Every item in this session has been reviewed.'}
-      </p>
-      <button class="btn-reload" onclick="window.location.reload()">
-        ${remaining > 0 ? 'Reload to continue' : 'Reload'}
-      </button>
-    </div>`;
-  document.querySelector('.kbd-hint').style.display = 'none';
-  document.querySelector('.action-bar').style.display = 'none';
-}
-
-function doApprove() {
-  if (busy) return;
-  const c = currentCard();
-  busy = true;
-  setButtons(true);
+function approveItem(key, itemIndex, btn) {
+  btn.disabled = true;
+  btn.textContent = '…';
   fetch('/approve', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ key: c.key, item_index: c.item_index })
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({key, item_index: itemIndex})
   })
   .then(r => r.json())
-  .then(d => {
-    busy = false; setButtons(false);
-    if (d.ok) { actioned.add(idx); showToast('Approved'); idx++; renderCard(); }
-    else showToast('Error: ' + (d.error || 'unknown'));
-  })
-  .catch(() => { busy = false; setButtons(false); showToast('Network error'); });
-}
-
-function doReject() {
-  if (busy) return;
-  if (!confirm('Remove this evidence item? This cannot be undone.')) return;
-  const c = currentCard();
-  busy = true;
-  setButtons(true);
-  fetch('/reject', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ key: c.key, item_index: c.item_index })
-  })
-  .then(r => r.json())
-  .then(d => {
-    busy = false; setButtons(false);
-    if (d.ok) { actioned.add(idx); showToast('Rejected'); idx++; renderCard(); }
-    else showToast('Error: ' + (d.error || 'unknown'));
-  })
-  .catch(() => { busy = false; setButtons(false); showToast('Network error'); });
-}
-
-function doSkip() {
-  showToast('Skipped');
-  idx++;
-  renderCard();
-}
-
-function goBack() {
-  if (idx > 0) { idx--; renderCard(); }
-}
-
-function setStatus(key, status) {
-  if (!status) return;
-  fetch('/set_status', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ key, status })
-  })
-  .then(r => r.json())
-  .then(d => {
-    if (d.ok) {
-      CARDS.forEach(c => { if (c.key === key) c.evidence_status = status; });
-      const badge = document.getElementById('c-status-badge');
-      badge.textContent = status;
-      badge.className = 'status-badge status-' + status;
-      showToast('Status: ' + status);
+  .then(data => {
+    if (data.ok) {
+      const el = document.getElementById(`evitem-${key.replace('__','-')}-${itemIndex}`);
+      if (el) {
+        el.classList.add('approved-item');
+        el.querySelector('.action-row').innerHTML = '<span class="approved-label">✓ Approved</span>';
+      }
+      showToast('Approved and saved');
     } else {
-      showToast('Error: ' + (d.error || 'unknown'));
+      btn.disabled = false;
+      btn.textContent = 'Approve';
+      showToast('Error: ' + (data.error || 'unknown'));
     }
   });
 }
 
-let editing = false;
-
-function toggleEdit() {
-  editing ? cancelEdit() : openEdit();
+function rejectItem(key, itemIndex, btn) {
+  if (!confirm('Remove this evidence item? This cannot be undone.')) return;
+  btn.disabled = true;
+  fetch('/reject', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({key, item_index: itemIndex})
+  })
+  .then(r => r.json())
+  .then(data => {
+    if (data.ok) {
+      const el = document.getElementById(`evitem-${key.replace('__','-')}-${itemIndex}`);
+      if (el) el.remove();
+      showToast('Rejected and removed');
+    } else {
+      btn.disabled = false;
+      showToast('Error: ' + (data.error || 'unknown'));
+    }
+  });
 }
 
-function openEdit() {
-  const item = currentCard().item;
-  document.getElementById('edit-title').value = item.title || '';
-  document.getElementById('edit-url').value = item.url || '';
-  document.getElementById('edit-date').value = item.date || '';
-  document.getElementById('edit-source-type').value = item.source_type || 'official_report';
-  document.getElementById('edit-desc').value = item.description || '';
-
-  document.getElementById('ev-view').style.display = 'none';
-  document.getElementById('edit-panel').classList.add('active');
-  document.getElementById('btn-edit-toggle').textContent = '✕ Cancel';
-  document.getElementById('btn-approve').disabled = true;
-  document.getElementById('btn-reject').disabled = true;
-  document.getElementById('edit-desc').focus();
-  editing = true;
+function approveAll(inquiry, count) {
+  const label = inquiry ? `all ${count} pending items for "${inquiry}"` : `all ${count} pending items`;
+  if (!confirm(`Approve ${label}? This sets approved:true on every pending item and cannot be undone.`)) return;
+  fetch('/approve_all', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({inquiry})
+  })
+  .then(r => r.json())
+  .then(data => {
+    if (data.ok) {
+      showToast(`Approved ${data.count} item(s)`, 3000);
+      setTimeout(() => window.location.reload(), 1000);
+    } else {
+      showToast('Error: ' + (data.error || 'unknown'));
+    }
+  });
 }
 
-function cancelEdit() {
-  document.getElementById('ev-view').style.display = '';
-  document.getElementById('edit-panel').classList.remove('active');
-  document.getElementById('btn-edit-toggle').innerHTML = '&#9998; Edit';
-  document.getElementById('btn-approve').disabled = false;
-  document.getElementById('btn-reject').disabled = false;
-  editing = false;
+function toggleEditForm(evid) {
+  const form = document.getElementById('editform-' + evid);
+  form.classList.toggle('open');
 }
 
-function saveEdit() {
-  if (busy) return;
-  const c = currentCard();
+function saveEdit(key, itemIndex, evid) {
   const payload = {
-    key: c.key,
-    item_index: c.item_index,
-    title: document.getElementById('edit-title').value.trim(),
-    url: document.getElementById('edit-url').value.trim(),
-    date: document.getElementById('edit-date').value.trim(),
-    source_type: document.getElementById('edit-source-type').value,
-    description: document.getElementById('edit-desc').value.trim(),
+    key,
+    item_index: itemIndex,
+    title:       document.getElementById('edit-title-'  + evid).value.trim(),
+    url:         document.getElementById('edit-url-'    + evid).value.trim(),
+    date:        document.getElementById('edit-date-'   + evid).value.trim(),
+    source_type: document.getElementById('edit-source-' + evid).value,
+    evidence_type: document.getElementById('edit-evtype-' + evid).value || null,
+    description: document.getElementById('edit-desc-'  + evid).value.trim(),
   };
-  busy = true;
   fetch('/edit', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(payload)
   })
   .then(r => r.json())
-  .then(d => {
-    busy = false;
-    if (d.ok) {
-      // Update local card data so view reflects the edit
-      Object.assign(c.item, payload);
-      delete payload.key; delete payload.item_index;
-      cancelEdit();
-      renderCard();
+  .then(data => {
+    if (data.ok) {
       showToast('Saved');
+      // Update visible title and badge without full reload
+      const el = document.getElementById('evitem-' + evid);
+      if (el) {
+        const titleEl = el.querySelector('.evidence-title');
+        const badge = payload.evidence_type
+          ? `<span class="ev-type-badge ev-type-${payload.evidence_type}">${payload.evidence_type}</span>`
+          : '';
+        titleEl.innerHTML = payload.title + (badge ? ' ' + badge : '');
+        el.querySelector('.evidence-desc').textContent = payload.description;
+        el.querySelector('.evidence-meta').childNodes[0].textContent = '';
+      }
+      document.getElementById('editform-' + evid).classList.remove('open');
     } else {
-      showToast('Error: ' + (d.error || 'unknown'));
+      showToast('Error: ' + (data.error || 'unknown'));
     }
-  })
-  .catch(() => { busy = false; showToast('Network error'); });
+  });
 }
 
-function setButtons(disabled) {
-  if (!editing) {
-    ['btn-approve', 'btn-reject'].forEach(id => {
-      document.getElementById(id).disabled = disabled;
-    });
+function toggleExpand(idx) {
+  const el = document.getElementById('rectext-' + idx);
+  const btn = el.querySelector('.expand-btn');
+  if (el.classList.toggle('expanded')) {
+    btn.textContent = 'show less';
+  } else {
+    btn.textContent = 'show more';
   }
 }
-
-function showToast(msg, ms = 1800) {
-  const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), ms);
-}
-
-document.addEventListener('keydown', e => {
-  if (editing) {
-    if (e.key === 'Escape') cancelEdit();
-    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) saveEdit();
-    return;
-  }
-  if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
-  if (e.key === 'ArrowLeft')                   goBack();
-  else if (e.key === 'ArrowRight' || e.key === 's' || e.key === 'S') doSkip();
-  else if (e.key === 'a' || e.key === 'A')     doApprove();
-  else if (e.key === 'r' || e.key === 'R')     doReject();
-  else if (e.key === 'e' || e.key === 'E')     openEdit();
-});
-
-renderCard();
 </script>
-
-{% endif %}
-
-<div class="toast" id="toast"></div>
-
 </body>
 </html>
