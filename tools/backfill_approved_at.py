@@ -23,7 +23,7 @@ def main():
     with open(ENRICHED_PATH, encoding="utf-8") as f:
         data = json.load(f)
 
-    stamp = datetime.now(timezone.utc).isoformat()
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     found = []
 
     for key, entry in data.items():

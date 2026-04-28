@@ -303,17 +303,15 @@
         {% endif %}
       </div>
 
-      <div class="rec-text" id="rectext-{{ loop.index }}">
-        {{ card.rec_text }}
-        <button class="expand-btn" onclick="toggleExpand({{ loop.index }})">show more</button>
-      </div>
+      <div class="rec-text" id="rectext-{{ loop.index }}">{{ card.rec_text }}</div>
+      <button class="expand-btn" id="expbtn-{{ loop.index }}" onclick="toggleExpand({{ loop.index }})" style="display:none;padding:2px 16px 8px;">show more</button>
 
       {% if card.notes %}
       <div class="notes">{{ card.notes }}</div>
       {% endif %}
 
       <div class="evidence-list">
-        {% for item in card.items %}
+        {% for item in card.evidence_items %}
         <div class="evidence-item">
           <div class="evidence-title">
             {% if item.url %}
@@ -409,13 +407,24 @@ function setStatus(key, status, selectEl) {
 
 function toggleExpand(idx) {
   const el = document.getElementById('rectext-' + idx);
-  const btn = el.querySelector('.expand-btn');
+  const btn = document.getElementById('expbtn-' + idx);
   if (el.classList.toggle('expanded')) {
     btn.textContent = 'show less';
   } else {
     btn.textContent = 'show more';
   }
 }
+
+// Show expand buttons only where text is actually clipped
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.rec-text').forEach(function (el) {
+    if (el.scrollHeight > el.clientHeight) {
+      const idx = el.id.replace('rectext-', '');
+      const btn = document.getElementById('expbtn-' + idx);
+      if (btn) btn.style.display = 'block';
+    }
+  });
+});
 </script>
 </body>
 </html>

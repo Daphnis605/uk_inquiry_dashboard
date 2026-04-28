@@ -51,7 +51,7 @@ def load_recommendations():
 
 
 def utc_now():
-    return datetime.now(timezone.utc).isoformat()
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
 @app.route("/")
@@ -258,7 +258,7 @@ def statuses():
             "rec_text": recs.get(key, "(recommendation text not found)"),
             "evidence_status": entry.get("evidence_status", ""),
             "notes": entry.get("notes", ""),
-            "items": approved_items,
+            "evidence_items": approved_items,
         })
 
     rec_cards.sort(key=lambda x: (x["inquiry"], x["key"]))
