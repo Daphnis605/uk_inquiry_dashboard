@@ -91,11 +91,7 @@
         },
         "approved_at": {
           "type": ["string", "null"],
-          "description": "ISO 8601 datetime when this item was approved. Null until approved."
-        },
-        "submitted_by": {
-          "type": ["string", "null"],
-          "description": "GitHub username of the contributor, or 'public' for Google Form submissions, or null for maintainer-added items."
+          "description": "ISO 8601 date when this item was approved. Null until approved."
         }
       }
     }
