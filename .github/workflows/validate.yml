@@ -147,10 +147,10 @@ jobs:
                               checked += 1
                               print(f"  OK {status}: {url}")
                   except urllib.error.HTTPError as e:
-                      if e.code in (405, 406):
-                          # Some servers reject HEAD but accept GET — not a broken URL
+                      if e.code in (403, 405, 406):
+                          # Some servers reject HEAD or block CI user-agents — not a broken URL
                           checked += 1
-                          print(f"  OK (HEAD not allowed, {e.code}): {url}")
+                          print(f"  OK (HEAD blocked, {e.code}): {url}")
                       else:
                           failed.append((key, url, e.code))
                   except Exception as e:
