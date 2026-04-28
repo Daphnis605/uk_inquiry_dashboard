@@ -19,7 +19,14 @@ assignees: Daphnis605
 
 ---
 
-## The evidence
+## What does this evidence show?
+
+**In one or two sentences, what does this source show? (max 300 characters)**
+<!-- Explain specifically how this evidences the recommendation being *implemented*, not just accepted or promised. Put this first so it appears in notification previews. -->
+
+---
+
+## Source details
 
 **URL:**
 <!-- Must be a direct link to the evidence — legislation.gov.uk, gov.uk, parliament.uk, or a reputable news source. No link shorteners. -->
@@ -33,9 +40,6 @@ assignees: Daphnis605
 
 **Date of the source (approximate is fine):**
 <!-- e.g. April 2025 -->
-
-**In one or two sentences, what does this source show?**
-<!-- Explain specifically how this evidences the recommendation being *implemented*, not just accepted or promised. -->
 
 ---
 

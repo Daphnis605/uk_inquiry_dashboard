@@ -54,6 +54,29 @@ All PRs must pass CI validation before they can be merged. The maintainer review
 
 ---
 
+### 4. Submit bulk evidence (official datasets)
+
+> **For maintainers and trusted contributors only.** If you are an external contributor with a single piece of evidence, use the issue template in Section 1.
+
+If you have a structured dataset — an official government implementation tracker, a published CSV, or a report covering many recommendations at once — raising individual issues would send a notification per row to every repository watcher. Use a pull request instead.
+
+**When to use this path:**
+- You have evidence covering 5 or more recommendations from the same inquiry
+- The source is an official government or inquiry body publication
+- You can map each row to a specific recommendation in `enriched_data.json`
+
+**How to submit:**
+1. Fork the repository
+2. Update `enriched_data.json` directly — add entries keyed by `InquiryName__index` (where index is the 1-based position of the recommendation within that inquiry in `data.json`)
+3. Set `"approved": false` on all new entries — the maintainer approves after review
+4. If the source file is not publicly hosted, commit it to the repository alongside your changes
+5. Open a pull request with the title: `Bulk evidence: [Inquiry name] — [source name/date]`
+6. In the PR body, list the data source URL, the number of recommendations covered, and flag any matching uncertainty (e.g. "Rec 6a-vi mapped by text overlap — please verify")
+
+**CI will automatically validate** the JSON schema and spot-check any URLs you provide. CI will also fail until all entries are reviewed — this is expected and signals that maintainer review is required before merging.
+
+---
+
 ## Evidence review process
 
 All submitted evidence is reviewed by the maintainer before it appears on the dashboard. This is not because we distrust contributors — it is because the project's credibility depends entirely on accuracy.
@@ -78,7 +101,7 @@ You will receive a notification on your GitHub issue when a decision is made.
 
 ### For bulk data PRs
 
-When a PR adds multiple evidence entries directly to `enriched_data.json` (section 3 above):
+When a PR adds multiple evidence entries directly to `enriched_data.json` (section 4 above):
 
 1. The PR is opened — all new entries have `approved: false`
 2. **CI fails immediately** — this is expected and signals that review is required
