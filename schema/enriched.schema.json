@@ -85,6 +85,11 @@
           "type": "string",
           "description": "Brief description of what this source shows and how it evidences the recommendation being implemented."
         },
+        "evidence_type": {
+          "type": "string",
+          "enum": ["partial", "complete"],
+          "description": "Whether this item evidences partial progress towards the recommendation being implemented, or complete implementation. Used to derive overall status: any 'complete' item → actioned; only 'partial' items → partial."
+        },
         "approved": {
           "type": "boolean",
           "description": "Whether this evidence item has been reviewed and approved by the maintainer. Default false. Items with approved:false are never shown publicly."

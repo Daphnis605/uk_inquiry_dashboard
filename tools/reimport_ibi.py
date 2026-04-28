@@ -42,6 +42,7 @@ def make_evidence_items(row, sub_label):
     items = []
 
     # Item 1 — Government position (always)
+    # Tagged partial: acceptance is a step, not implementation.
     if gov_response:
         items.append({
             "title": f"Government position: {gov_response} — IBI Tracker",
@@ -49,12 +50,14 @@ def make_evidence_items(row, sub_label):
             "source_type": "official_report",
             "date": "2025-05",
             "description": gov_response,
+            "evidence_type": "partial",
             "approved": False,
             "approved_at": None,
             "submitted_by": None,
         })
 
     # Item 2 — Actions taken (only if the field is populated)
+    # Tagged partial by default; reviewer can promote to complete if warranted.
     if actions:
         items.append({
             "title": f"Actions taken — IBI Tracker (May 2025)",
@@ -62,12 +65,14 @@ def make_evidence_items(row, sub_label):
             "source_type": "official_report",
             "date": "2025-05",
             "description": actions,
+            "evidence_type": "partial",
             "approved": False,
             "approved_at": None,
             "submitted_by": None,
         })
 
     # Item 3 — May 2025 progress update (always)
+    # Tagged partial by default; reviewer can promote to complete if warranted.
     if may_update:
         items.append({
             "title": f"May 2025 progress update — IBI Tracker",
@@ -75,6 +80,7 @@ def make_evidence_items(row, sub_label):
             "source_type": "official_report",
             "date": "2025-05",
             "description": may_update,
+            "evidence_type": "partial",
             "approved": False,
             "approved_at": None,
             "submitted_by": None,
