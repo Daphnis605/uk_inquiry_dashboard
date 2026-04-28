@@ -58,14 +58,47 @@ All PRs must pass CI validation before they can be merged. The maintainer review
 
 All submitted evidence is reviewed by the maintainer before it appears on the dashboard. This is not because we distrust contributors — it is because the project's credibility depends entirely on accuracy.
 
-The review process:
+Every piece of evidence enters the system with `approved: false` and is **never shown publicly** until a maintainer has read it and explicitly approved it. CI enforces this: a PR cannot be merged if it contains any unapproved evidence items.
+
+---
+
+### For single issue submissions
+
+When you open an evidence submission issue, the process is:
+
 1. CI checks that the URL is accessible (HEAD request)
 2. The maintainer reads the recommendation text and the evidence side by side
-3. The maintainer decides: Approve / Reject / Needs more research
-4. Approved evidence is committed to `enriched_data.json` with `approved: true`
-5. The dashboard is updated automatically when the PR merges
+3. The maintainer decides: **Approve** / **Reject** / **Needs more research**
+4. If approved, the evidence is added to `enriched_data.json` with `approved: true` and the PR is merged
+5. The dashboard updates automatically
 
 You will receive a notification on your GitHub issue when a decision is made.
+
+---
+
+### For bulk data PRs
+
+When a PR adds multiple evidence entries directly to `enriched_data.json` (section 3 above):
+
+1. The PR is opened — all new entries have `approved: false`
+2. **CI fails immediately** — this is expected and signals that review is required
+3. The maintainer checks out the branch and runs the local review app:
+   ```
+   git checkout <branch-name>
+   python tools/review_app/app.py
+   # opens http://localhost:5000
+   ```
+4. Each entry is reviewed side by side with the recommendation text; entries are approved or rejected
+5. The maintainer commits the reviewed file and pushes:
+   ```
+   git add enriched_data.json
+   git commit -m "Review: approve evidence entries"
+   git push
+   ```
+6. CI now passes — the PR can be merged
+7. The dashboard updates automatically
+
+See [tools/review_app/README.md](tools/review_app/README.md) for full instructions on running the review app.
 
 ---
 
