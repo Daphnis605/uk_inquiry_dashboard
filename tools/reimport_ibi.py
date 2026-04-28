@@ -48,11 +48,7 @@ def make_evidence_items(row, sub_label):
             "url": TRACKER_URL,
             "source_type": "government_statement",
             "date": "2025-05",
-            "description": (
-                f"The UK Government's formal position on this recommendation: "
-                f"{gov_response}. Source: Infected Blood Inquiry implementation "
-                f"tracker, May 2025 update."
-            ),
+            "description": gov_response,
             "approved": False,
             "approved_at": None,
             "submitted_by": None,
