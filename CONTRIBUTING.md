@@ -40,7 +40,30 @@ If you spot an error in a recommendation, its category, or its change type:
 
 ---
 
-### 3. Submit a pull request
+### 3. Submit bulk evidence (official datasets)
+
+If you have a structured dataset — an official government implementation tracker, a published CSV, or a report covering many recommendations at once — raising individual issues would send a notification per row to every repository watcher. Use a pull request instead.
+
+**When to use this path:**
+- You have evidence covering 5 or more recommendations from the same inquiry
+- The source is an official government or inquiry body publication
+- You can map each row to a specific recommendation in `enriched_data.json`
+
+**How to submit:**
+1. Fork the repository
+2. Update `enriched_data.json` directly — add entries keyed by `InquiryName__index` (where index is the 1-based position of the recommendation within that inquiry in `data.json`)
+3. Set `"approved": false` on all new entries — the maintainer approves after review
+4. If the source file is not publicly hosted, commit it to `raw_data/`
+5. Open a pull request with the title: `Bulk evidence: [Inquiry name] — [source name/date]`
+6. In the PR body, list the data source URL, the number of recommendations covered, and flag any matching uncertainty (e.g. "Rec 6a-vi mapped by text overlap — please verify")
+
+**CI will automatically validate** the JSON schema and spot-check any URLs you provide.
+
+This path is intended for maintainers and trusted contributors who are familiar with the data schema. If you are unsure, use the issue template instead.
+
+---
+
+### 4. Submit a pull request
 
 For code or schema changes:
 
