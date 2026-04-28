@@ -264,8 +264,18 @@
             const evidencedCount = Object.values(enrichedMap).filter(outcome =>
                 outcome.evidence && outcome.evidence.some(ev => ev.approved)
             ).length;
+            const fullyActionedCount = Object.values(enrichedMap).filter(o => o.evidence_status === 'actioned').length;
+            const partialCount = Object.values(enrichedMap).filter(o => o.evidence_status === 'partial').length;
             const badge = document.getElementById('evidenceCountBadge');
-            badge.textContent = `${evidencedCount} of ${processedData.length} recommendations have verified evidence`;
+            let badgeText = `${evidencedCount} of ${processedData.length} recommendations have verified evidence`;
+            if (fullyActionedCount > 0 && partialCount > 0) {
+                badgeText += ` (${fullyActionedCount} fully actioned, ${partialCount} partial)`;
+            } else if (fullyActionedCount > 0) {
+                badgeText += ` (${fullyActionedCount} fully actioned)`;
+            } else if (partialCount > 0) {
+                badgeText += ` (${partialCount} with partial evidence)`;
+            }
+            badge.textContent = badgeText;
             badge.style.display = 'block';
 
         // Store all data for filtering
@@ -320,15 +330,23 @@
                             outcomeCell.appendChild(document.createElement('br'));
                             outcomeCell.appendChild(document.createElement('br'));
                         }
+                        const titleLine = document.createElement('span');
                         if (ev.url) {
                             const evLink = document.createElement('a');
                             evLink.href = ev.url;
                             evLink.textContent = ev.title || 'View Evidence';
                             evLink.target = '_blank';
-                            outcomeCell.appendChild(evLink);
+                            titleLine.appendChild(evLink);
                         } else if (ev.title) {
-                            outcomeCell.appendChild(document.createTextNode(ev.title));
+                            titleLine.appendChild(document.createTextNode(ev.title));
                         }
+                        if (ev.evidence_type) {
+                            const typeBadge = document.createElement('span');
+                            typeBadge.className = `ev-badge ev-badge-${ev.evidence_type}`;
+                            typeBadge.textContent = ev.evidence_type;
+                            titleLine.appendChild(typeBadge);
+                        }
+                        outcomeCell.appendChild(titleLine);
                         if (ev.description) {
                             outcomeCell.appendChild(document.createElement('br'));
                             outcomeCell.appendChild(document.createTextNode(ev.description));

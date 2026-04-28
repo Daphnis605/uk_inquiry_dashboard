@@ -96,11 +96,12 @@
         },
         "approved_at": {
           "type": ["string", "null"],
-          "description": "ISO 8601 datetime when this item was approved. Null until approved."
+          "description": "ISO 8601 date when this item was approved. Null until approved."
         },
-        "submitted_by": {
+        "evidence_type": {
           "type": ["string", "null"],
-          "description": "GitHub username of the contributor, or 'public' for Google Form submissions, or null for maintainer-added items."
+          "enum": ["partial", "complete", null],
+          "description": "Whether this item evidences partial progress or full implementation. 'complete' = law enacted, scheme operational, policy in force. 'partial' = steps taken, not yet complete."
         }
       }
     }
