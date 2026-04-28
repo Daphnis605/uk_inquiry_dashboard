@@ -46,7 +46,7 @@ def make_evidence_items(row, sub_label):
         items.append({
             "title": f"Government position: {gov_response} — IBI Tracker",
             "url": TRACKER_URL,
-            "source_type": "government_statement",
+            "source_type": "official_report",
             "date": "2025-05",
             "description": gov_response,
             "approved": False,
