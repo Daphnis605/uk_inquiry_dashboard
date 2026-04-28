@@ -55,34 +55,28 @@ def index():
     recs = load_recommendations()
     inquiry_filter = request.args.get("inquiry", "")
 
-    # Collect entries with at least one pending (approved:false) evidence item
-    pending = []
+    # Build flat list of cards — one card per unapproved evidence item
+    cards = []
     for key, entry in enriched.items():
         if key.startswith("_"):
             continue
         inquiry_name = key.rsplit("__", 1)[0]
         if inquiry_filter and inquiry_filter != inquiry_name:
             continue
-        pending_items = [
-            (i, item)
-            for i, item in enumerate(entry.get("evidence", []))
-            if not item.get("approved")
-        ]
-        if pending_items:
-            pending.append({
-                "key": key,
-                "inquiry": inquiry_name,
-                "rec_text": recs.get(key, "(recommendation text not found)"),
-                "evidence_status": entry.get("evidence_status", ""),
-                "notes": entry.get("notes", ""),
-                "pending_items": pending_items,
-                "total_items": len(entry.get("evidence", [])),
-            })
+        for i, item in enumerate(entry.get("evidence", [])):
+            if not item.get("approved"):
+                cards.append({
+                    "key": key,
+                    "inquiry": inquiry_name,
+                    "rec_text": recs.get(key, "(recommendation text not found)"),
+                    "evidence_status": entry.get("evidence_status", ""),
+                    "notes": entry.get("notes", ""),
+                    "item_index": i,
+                    "item": item,
+                })
 
-    # Sort by inquiry name then key
-    pending.sort(key=lambda x: (x["inquiry"], x["key"]))
+    cards.sort(key=lambda x: (x["inquiry"], x["key"]))
 
-    # Counts for the filter bar
     all_inquiries = sorted(
         {k.rsplit("__", 1)[0] for k in enriched if not k.startswith("_")}
     )
@@ -103,7 +97,7 @@ def index():
 
     return render_template(
         "index.html",
-        pending=pending,
+        cards=cards,
         all_inquiries=all_inquiries,
         inquiry_filter=inquiry_filter,
         total_pending=total_pending,
