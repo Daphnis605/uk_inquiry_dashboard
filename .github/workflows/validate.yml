@@ -91,6 +91,42 @@ jobs:
           print("Recommendation text check passed — no empty recommendations found")
           EOF
 
+      - name: Check all evidence items are approved before merging
+        run: |
+          python - <<'EOF'
+          import json, sys
+
+          with open('enriched_data.json') as f:
+              data = json.load(f)
+
+          unapproved = []
+          for key, entry in data.items():
+              if key.startswith('_') or not isinstance(entry, dict):
+                  continue
+              for i, ev in enumerate(entry.get('evidence', [])):
+                  if not ev.get('approved', False):
+                      title = ev.get('title', '(no title)')[:60]
+                      unapproved.append(f"  {key}  item {i}: {title}")
+
+          if unapproved:
+              print(f"ERROR: {len(unapproved)} unapproved evidence item(s) found:", file=sys.stderr)
+              for item in unapproved[:20]:
+                  print(item, file=sys.stderr)
+              if len(unapproved) > 20:
+                  print(f"  ... and {len(unapproved) - 20} more", file=sys.stderr)
+              print("", file=sys.stderr)
+              print("All evidence must have approved:true before merging to main.", file=sys.stderr)
+              print("Run  python tools/review_app/app.py  to review and approve entries.", file=sys.stderr)
+              sys.exit(1)
+
+          approved = sum(
+              1 for k, v in data.items()
+              if not k.startswith('_') and isinstance(v, dict)
+              for ev in v.get('evidence', []) if ev.get('approved')
+          )
+          print(f"Approved check passed — {approved} approved evidence item(s)")
+          EOF
+
       - name: Spot-check evidence URLs (HEAD requests)
         run: |
           python - <<'EOF'
