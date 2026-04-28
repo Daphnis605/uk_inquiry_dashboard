@@ -50,7 +50,7 @@
     },
     "evidence_item": {
       "type": "object",
-      "required": ["title", "url", "source_type", "approved"],
+      "required": ["title", "url", "source_type", "approved", "evidence_type"],
       "additionalProperties": false,
       "properties": {
         "title": {
@@ -96,12 +96,7 @@
         },
         "approved_at": {
           "type": ["string", "null"],
-          "description": "ISO 8601 date when this item was approved. Null until approved."
-        },
-        "evidence_type": {
-          "type": ["string", "null"],
-          "enum": ["partial", "complete", null],
-          "description": "Whether this item evidences partial progress or full implementation. 'complete' = law enacted, scheme operational, policy in force. 'partial' = steps taken, not yet complete."
+          "description": "ISO 8601 date (YYYY-MM-DD) when this item was approved. Null until approved."
         }
       }
     }
