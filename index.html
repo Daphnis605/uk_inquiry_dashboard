@@ -14,23 +14,6 @@
 
         
         <div class="chart-container">
-            <h2>Number of Recommendations by Administration/Department and inquiry</h2>
-            <div class="chart-mobile-banner">
-                <span>Interactive chart — best viewed on a wider screen.</span>
-                <button class="chart-toggle-btn" data-target="sunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
-            </div>
-            <div id="sunburstChart" class="chart-collapsible"></div>
-        </div>
-        <div class="chart-container">
-            <h2>Actions recommended for each Administration/Department and type of action advised</h2>
-            <h3 style="text-align: center; color: #7c7b7b;"><i>Hover over or click on the chart below to view recommendation in full</i></h3>
-            <div class="chart-mobile-banner">
-                <span>Interactive chart — best viewed on a wider screen.</span>
-                <button class="chart-toggle-btn" data-target="actionsSunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
-            </div>
-            <div id="actionsSunburstChart" class="chart-collapsible"></div>
-        </div>
-        <div class="chart-container">
             <h2>Overall Recommendations by Action Category and Change Type</h2>
             <h3 style="text-align: center; color: #7c7b7b;"><i>Action Categories and Change Types are custom labels applied to unaltered inquiry recommendations (definitions below)</i></h3>
             <div id="stackedBarChart" style="overflow-x: auto; overflow-y: visible;"></div>
@@ -69,6 +52,23 @@
                         <li><strong style="color:#878c8f">None</strong> – No (published) recommendations.</li>
                     </ul>
                 </details>
+        </div>
+        <div class="chart-container">
+            <h2>Number of Recommendations by Administration/Department and inquiry</h2>
+            <div class="chart-mobile-banner">
+                <span>Interactive chart — best viewed on a wider screen.</span>
+                <button class="chart-toggle-btn" data-target="sunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
+            </div>
+            <div id="sunburstChart" class="chart-collapsible"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Actions recommended for each Administration/Department and type of action advised</h2>
+            <h3 style="text-align: center; color: #7c7b7b;"><i>Hover over or click on the chart below to view recommendation in full</i></h3>
+            <div class="chart-mobile-banner">
+                <span>Interactive chart — best viewed on a wider screen.</span>
+                <button class="chart-toggle-btn" data-target="actionsSunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
+            </div>
+            <div id="actionsSunburstChart" class="chart-collapsible"></div>
         </div>
         
         <!-- Contribution Banner -->
