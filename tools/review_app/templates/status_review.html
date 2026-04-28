@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status Review — UK Inquiry Dashboard</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 { font-size: 16px; font-weight: 600; }
+    .phase-label {
+      font-size: 12px;
+      background: #3b82f6;
+      padding: 2px 10px;
+      border-radius: 10px;
+      margin-left: 10px;
+    }
+    .counts { font-size: 13px; opacity: 0.8; }
+
+    .filter-bar {
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .filter-bar label { font-size: 13px; color: #555; }
+    .filter-bar select {
+      padding: 5px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    .filter-bar button {
+      padding: 5px 12px;
+      background: #3b82f6;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .filter-bar button:hover { background: #2563eb; }
+    .phase-nav {
+      margin-left: auto;
+      font-size: 13px;
+      color: #6b7280;
+    }
+    .phase-nav a { color: #3b82f6; text-decoration: none; }
+    .phase-nav a:hover { text-decoration: underline; }
+
+    main { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+
+    .inquiry-group { margin-bottom: 32px; }
+    .inquiry-group h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1a1a2e;
+      border-bottom: 2px solid #1a1a2e;
+      padding-bottom: 6px;
+      margin-bottom: 16px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+    .card.status-set { border-left: 4px solid #10b981; }
+    .card.status-unset { border-left: 4px solid #fbbf24; }
+
+    .card-header {
+      background: #f9fafb;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .card-key {
+      font-size: 12px;
+      font-family: monospace;
+      color: #6b7280;
+    }
+    .status-badge {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 12px;
+      white-space: nowrap;
+    }
+    .status-actioned         { background: #d1fae5; color: #065f46; }
+    .status-partial          { background: #fef3c7; color: #92400e; }
+    .status-no_evidence_found { background: #fee2e2; color: #991b1b; }
+    .status-not_published    { background: #f3f4f6; color: #374151; }
+    .status-unset-badge      { background: #fef3c7; color: #92400e; font-style: italic; }
+
+    .rec-text {
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #374151;
+      border-bottom: 1px solid #f0f0f0;
+      font-style: italic;
+      max-height: 80px;
+      overflow: hidden;
+      position: relative;
+    }
+    .rec-text.expanded { max-height: none; }
+    .expand-btn {
+      background: none;
+      border: none;
+      color: #3b82f6;
+      cursor: pointer;
+      font-size: 12px;
+      padding: 0;
+      display: block;
+      margin-top: 4px;
+    }
+
+    .notes {
+      padding: 8px 16px;
+      font-size: 12px;
+      color: #6b7280;
+      background: #fafafa;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .evidence-list { padding: 0; }
+
+    .evidence-item {
+      padding: 12px 16px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .evidence-item:last-of-type { border-bottom: none; }
+
+    .evidence-title {
+      font-weight: 600;
+      font-size: 13px;
+      margin-bottom: 3px;
+    }
+    .evidence-title a { color: #1d4ed8; text-decoration: none; }
+    .evidence-title a:hover { text-decoration: underline; }
+
+    .ev-type-badge {
+      display: inline-block;
+      font-size: 11px;
+      padding: 1px 6px;
+      border-radius: 3px;
+      margin-left: 6px;
+      vertical-align: middle;
+      font-weight: 600;
+    }
+    .ev-type-partial  { background: #fef3c7; color: #92400e; }
+    .ev-type-complete { background: #d1fae5; color: #065f46; }
+
+    .evidence-meta {
+      font-size: 12px;
+      color: #9ca3af;
+      margin-bottom: 4px;
+    }
+    .evidence-desc {
+      font-size: 13px;
+      color: #374151;
+    }
+
+    .status-row {
+      padding: 12px 16px;
+      background: #f9fafb;
+      border-top: 1px solid #e5e7eb;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .status-row label { font-size: 13px; color: #374151; font-weight: 600; }
+    .status-select {
+      font-size: 13px;
+      padding: 5px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+    }
+
+    .guide {
+      font-size: 12px;
+      color: #9ca3af;
+      line-height: 1.6;
+    }
+    .guide details summary {
+      cursor: pointer;
+      color: #6b7280;
+      font-size: 12px;
+      user-select: none;
+    }
+    .guide details[open] { margin-top: 4px; }
+    .guide ul { padding-left: 16px; margin-top: 4px; }
+    .guide li { margin-bottom: 2px; }
+
+    .empty-state {
+      text-align: center;
+      padding: 64px 24px;
+      color: #6b7280;
+    }
+    .empty-state h2 { font-size: 20px; margin-bottom: 8px; color: #374151; }
+
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #1a1a2e;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 13px;
+      opacity: 0;
+      transition: opacity 0.2s;
+      pointer-events: none;
+      z-index: 999;
+    }
+    .toast.show { opacity: 1; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Status Review <span class="phase-label">Phase 2</span></h1>
+  <div class="counts">
+    {% if needs_status > 0 %}
+    <span style="color:#fbbf24;font-weight:600;">{{ needs_status }} without status</span>
+    {% else %}
+    <span style="color:#6ee7b7;font-weight:600;">All statuses set</span>
+    {% endif %}
+  </div>
+</header>
+
+<div class="filter-bar">
+  <form method="get" action="/statuses" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+    <label for="inquiry-select">Filter by inquiry:</label>
+    <select id="inquiry-select" name="inquiry">
+      <option value="">All inquiries</option>
+      {% for inq in all_inquiries %}
+      <option value="{{ inq }}" {% if inq == inquiry_filter %}selected{% endif %}>{{ inq }}</option>
+      {% endfor %}
+    </select>
+    <button type="submit">Apply</button>
+    {% if inquiry_filter %}
+    <a href="/statuses" style="font-size:13px;color:#6b7280;">Clear filter</a>
+    {% endif %}
+  </form>
+  <span class="phase-nav">&larr; <a href="/">Back to item approval (Phase 1)</a></span>
+</div>
+
+<main>
+{% if not rec_cards %}
+  <div class="empty-state">
+    <h2>Nothing to review</h2>
+    <p>No recommendations with approved evidence{% if inquiry_filter %} for {{ inquiry_filter }}{% endif %}.</p>
+    <p style="margin-top:12px;">
+      <a href="/" style="color:#3b82f6;">Go to item approval &rarr;</a>
+    </p>
+  </div>
+{% else %}
+  {% set ns = namespace(current_inquiry='') %}
+  {% for card in rec_cards %}
+    {% if card.inquiry != ns.current_inquiry %}
+      {% if ns.current_inquiry != '' %}</div>{% endif %}
+      {% set ns.current_inquiry = card.inquiry %}
+      <div class="inquiry-group">
+      <h2>{{ card.inquiry }}</h2>
+    {% endif %}
+
+    <div class="card {% if card.evidence_status %}status-set{% else %}status-unset{% endif %}"
+         id="card-{{ card.key | replace('__', '-') }}">
+
+      <div class="card-header">
+        <div class="card-key">{{ card.key }}</div>
+        {% if card.evidence_status %}
+        <span class="status-badge status-{{ card.evidence_status }}">{{ card.evidence_status }}</span>
+        {% else %}
+        <span class="status-badge status-unset-badge">no status</span>
+        {% endif %}
+      </div>
+
+      <div class="rec-text" id="rectext-{{ loop.index }}">
+        {{ card.rec_text }}
+        <button class="expand-btn" onclick="toggleExpand({{ loop.index }})">show more</button>
+      </div>
+
+      {% if card.notes %}
+      <div class="notes">{{ card.notes }}</div>
+      {% endif %}
+
+      <div class="evidence-list">
+        {% for item in card.items %}
+        <div class="evidence-item">
+          <div class="evidence-title">
+            {% if item.url %}
+            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+            {% else %}
+            {{ item.title }}
+            {% endif %}
+            {% if item.evidence_type %}
+            <span class="ev-type-badge ev-type-{{ item.evidence_type }}">{{ item.evidence_type }}</span>
+            {% endif %}
+          </div>
+          <div class="evidence-meta">
+            {{ item.source_type | replace('_', ' ') }} · {{ item.date or 'no date' }}
+          </div>
+          {% if item.description %}
+          <div class="evidence-desc">{{ item.description }}</div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="status-row">
+        <label for="status-{{ card.key | replace('__', '-') }}">Recommendation status:</label>
+        <select id="status-{{ card.key | replace('__', '-') }}"
+                class="status-select"
+                data-key="{{ card.key }}"
+                onchange="setStatus(this.dataset.key, this.value, this)">
+          <option value="">— set status —</option>
+          <option value="actioned"          {% if card.evidence_status == 'actioned' %}selected{% endif %}>actioned — fully implemented</option>
+          <option value="partial"           {% if card.evidence_status == 'partial' %}selected{% endif %}>partial — progress made, not complete</option>
+          <option value="no_evidence_found" {% if card.evidence_status == 'no_evidence_found' %}selected{% endif %}>no evidence found</option>
+          <option value="not_published"     {% if card.evidence_status == 'not_published' %}selected{% endif %}>not published</option>
+        </select>
+        <div class="guide">
+          <details>
+            <summary>Decision guide</summary>
+            <ul>
+              <li><strong>actioned</strong> — at least one <em>complete</em> evidence item; recommendation fully implemented (law enacted, scheme operational)</li>
+              <li><strong>partial</strong> — evidence shows progress but implementation is incomplete, paused, or only promised</li>
+              <li><strong>no evidence found</strong> — researched; nothing found (note why in the notes field)</li>
+              <li><strong>not published</strong> — recommendation was not made public</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+
+    </div>
+
+  {% endfor %}
+  {% if ns.current_inquiry != '' %}</div>{% endif %}
+{% endif %}
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+function showToast(msg, duration=2000) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), duration);
+}
+
+function setStatus(key, status, selectEl) {
+  if (!status) return;
+  fetch('/set_status', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({key, status})
+  })
+  .then(r => r.json())
+  .then(data => {
+    if (data.ok) {
+      showToast('Status: ' + status);
+      // Update the card border and badge
+      const cardId = 'card-' + key.replace('__', '-');
+      const card = document.getElementById(cardId);
+      if (card) {
+        card.classList.remove('status-set', 'status-unset');
+        card.classList.add('status-set');
+        const badge = card.querySelector('.status-badge');
+        if (badge) {
+          badge.className = 'status-badge status-' + status;
+          badge.textContent = status;
+        }
+      }
+    } else {
+      showToast('Error: ' + (data.error || 'unknown'));
+      if (selectEl) selectEl.value = '';
+    }
+  });
+}
+
+function toggleExpand(idx) {
+  const el = document.getElementById('rectext-' + idx);
+  const btn = el.querySelector('.expand-btn');
+  if (el.classList.toggle('expanded')) {
+    btn.textContent = 'show less';
+  } else {
+    btn.textContent = 'show more';
+  }
+}
+</script>
+</body>
+</html>

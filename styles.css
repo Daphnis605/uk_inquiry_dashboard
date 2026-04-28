@@ -292,3 +292,16 @@ tr:hover {
         display: none;
     }
 }
+
+/* Evidence type badges in the outcome column */
+.ev-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 5px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.ev-badge-partial  { background: #fef3c7; color: #92400e; }
+.ev-badge-complete { background: #d1fae5; color: #065f46; }

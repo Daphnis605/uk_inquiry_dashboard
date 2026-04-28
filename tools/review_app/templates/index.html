@@ -190,13 +190,89 @@
     }
     .btn-reject:hover { background: #fee2e2; }
 
-    .status-select {
-      font-size: 12px;
-      padding: 4px 8px;
+    .ev-type-badge {
+      display: inline-block;
+      font-size: 11px;
+      padding: 1px 6px;
+      border-radius: 3px;
+      margin-left: 6px;
+      vertical-align: middle;
+      font-weight: 600;
+    }
+    .ev-type-partial  { background: #fef3c7; color: #92400e; }
+    .ev-type-complete { background: #d1fae5; color: #065f46; }
+
+    .btn-approve-all {
+      padding: 5px 12px;
+      background: #f59e0b;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .btn-approve-all:hover { background: #d97706; }
+
+    .btn-edit {
+      padding: 5px 10px;
+      background: #fff;
+      color: #6b7280;
       border: 1px solid #d1d5db;
       border-radius: 4px;
-      margin-left: auto;
+      cursor: pointer;
+      font-size: 12px;
     }
+    .btn-edit:hover { background: #f3f4f6; }
+
+    .edit-form {
+      display: none;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 10px;
+      padding: 12px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+    }
+    .edit-form.open { display: flex; }
+    .edit-form label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #9ca3af;
+      margin-bottom: 2px;
+    }
+    .edit-form input, .edit-form select, .edit-form textarea {
+      width: 100%;
+      font-size: 13px;
+      padding: 6px 8px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      font-family: inherit;
+    }
+    .edit-form textarea { min-height: 80px; resize: vertical; }
+    .edit-form-actions { display: flex; gap: 8px; margin-top: 4px; }
+    .btn-edit-save {
+      padding: 5px 14px;
+      background: #3b82f6;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .btn-edit-save:hover { background: #2563eb; }
+    .btn-edit-cancel {
+      padding: 5px 10px;
+      background: #f3f4f6;
+      color: #6b7280;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .btn-edit-cancel:hover { background: #e5e7eb; }
 
     .approved-label {
       font-size: 12px;
@@ -252,6 +328,11 @@
     <a href="/" style="font-size:13px;color:#6b7280;">Clear filter</a>
     {% endif %}
   </form>
+  {% if total_pending > 0 %}
+  <button class="btn-approve-all" onclick="approveAll('{{ inquiry_filter | e }}', {{ total_pending }})">
+    Approve all {{ total_pending }} pending{% if inquiry_filter %} ({{ inquiry_filter }}){% endif %}
+  </button>
+  {% endif %}
 </div>
 
 <main>
@@ -259,6 +340,9 @@
   <div class="empty-state">
     <h2>All done!</h2>
     <p>No pending evidence items{% if inquiry_filter %} for {{ inquiry_filter }}{% endif %}.</p>
+    <p style="margin-top:12px;font-size:14px;">
+      Next: <a href="/statuses" style="color:#3b82f6;">Review recommendation statuses &rarr;</a>
+    </p>
   </div>
 {% else %}
   {% set ns = namespace(current_inquiry='') %}
@@ -290,8 +374,14 @@
       {% endif %}
 
       {% for item_index, item in entry.pending_items %}
-      <div class="evidence-item" id="evitem-{{ entry.key | replace('__', '-') }}-{{ item_index }}">
-        <div class="evidence-title">{{ item.title }}</div>
+      {% set evid = entry.key | replace('__', '-') ~ '-' ~ item_index %}
+      <div class="evidence-item" id="evitem-{{ evid }}">
+        <div class="evidence-title">
+          {{ item.title }}
+          {% if item.evidence_type %}
+          <span class="ev-type-badge ev-type-{{ item.evidence_type }}">{{ item.evidence_type }}</span>
+          {% endif %}
+        </div>
         <div class="evidence-meta">
           {% if item.url %}
           <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.url[:80] }}{% if item.url|length > 80 %}…{% endif %}</a> ·
@@ -305,13 +395,47 @@
         <div class="action-row">
           <button class="btn-approve" data-key="{{ entry.key }}" data-index="{{ item_index }}" onclick="approveItem(this.dataset.key, parseInt(this.dataset.index), this)">Approve</button>
           <button class="btn-reject" data-key="{{ entry.key }}" data-index="{{ item_index }}" onclick="rejectItem(this.dataset.key, parseInt(this.dataset.index), this)">Reject</button>
-          <select class="status-select" data-key="{{ entry.key }}" onchange="setStatus(this.dataset.key, this.value)" title="Update evidence_status for this recommendation">
-            <option value="">— set status —</option>
-            <option value="actioned" {% if entry.evidence_status == 'actioned' %}selected{% endif %}>actioned</option>
-            <option value="partial" {% if entry.evidence_status == 'partial' %}selected{% endif %}>partial</option>
-            <option value="no_evidence_found" {% if entry.evidence_status == 'no_evidence_found' %}selected{% endif %}>no_evidence_found</option>
-            <option value="not_published" {% if entry.evidence_status == 'not_published' %}selected{% endif %}>not_published</option>
-          </select>
+          <button class="btn-edit" onclick="toggleEditForm('{{ evid }}')">Edit</button>
+        </div>
+        <div class="edit-form" id="editform-{{ evid }}">
+          <div>
+            <label>Title</label>
+            <input type="text" id="edit-title-{{ evid }}" value="{{ item.title | e }}">
+          </div>
+          <div>
+            <label>URL</label>
+            <input type="url" id="edit-url-{{ evid }}" value="{{ item.url | e }}">
+          </div>
+          <div style="display:flex;gap:8px;">
+            <div style="flex:1">
+              <label>Date (YYYY-MM-DD)</label>
+              <input type="text" id="edit-date-{{ evid }}" value="{{ item.date or '' }}">
+            </div>
+            <div style="flex:1">
+              <label>Source type</label>
+              <select id="edit-source-{{ evid }}">
+                {% for st in ['official_report','legislation','press_release','parliamentary_record','news_article'] %}
+                <option value="{{ st }}" {% if item.source_type == st %}selected{% endif %}>{{ st | replace('_',' ') }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div style="flex:1">
+              <label>Evidence type</label>
+              <select id="edit-evtype-{{ evid }}">
+                <option value="" {% if not item.evidence_type %}selected{% endif %}>— unset —</option>
+                <option value="partial" {% if item.evidence_type == 'partial' %}selected{% endif %}>partial</option>
+                <option value="complete" {% if item.evidence_type == 'complete' %}selected{% endif %}>complete</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label>Description</label>
+            <textarea id="edit-desc-{{ evid }}">{{ item.description | e }}</textarea>
+          </div>
+          <div class="edit-form-actions">
+            <button class="btn-edit-save" onclick="saveEdit('{{ entry.key }}', {{ item_index }}, '{{ evid }}')">Save</button>
+            <button class="btn-edit-cancel" onclick="toggleEditForm('{{ evid }}')">Cancel</button>
+          </div>
         </div>
       </div>
       {% endfor %}
@@ -384,17 +508,65 @@ function rejectItem(key, itemIndex, btn) {
   });
 }
 
-function setStatus(key, status) {
-  if (!status) return;
-  fetch('/set_status', {
+function approveAll(inquiry, count) {
+  const label = inquiry ? `all ${count} pending items for "${inquiry}"` : `all ${count} pending items`;
+  if (!confirm(`Approve ${label}? This sets approved:true on every pending item and cannot be undone.`)) return;
+  fetch('/approve_all', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({key, status})
+    body: JSON.stringify({inquiry})
   })
   .then(r => r.json())
   .then(data => {
-    if (data.ok) showToast('Status updated to: ' + status);
-    else showToast('Error: ' + (data.error || 'unknown'));
+    if (data.ok) {
+      showToast(`Approved ${data.count} item(s)`, 3000);
+      setTimeout(() => window.location.reload(), 1000);
+    } else {
+      showToast('Error: ' + (data.error || 'unknown'));
+    }
+  });
+}
+
+function toggleEditForm(evid) {
+  const form = document.getElementById('editform-' + evid);
+  form.classList.toggle('open');
+}
+
+function saveEdit(key, itemIndex, evid) {
+  const payload = {
+    key,
+    item_index: itemIndex,
+    title:       document.getElementById('edit-title-'  + evid).value.trim(),
+    url:         document.getElementById('edit-url-'    + evid).value.trim(),
+    date:        document.getElementById('edit-date-'   + evid).value.trim(),
+    source_type: document.getElementById('edit-source-' + evid).value,
+    evidence_type: document.getElementById('edit-evtype-' + evid).value || null,
+    description: document.getElementById('edit-desc-'  + evid).value.trim(),
+  };
+  fetch('/edit', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(payload)
+  })
+  .then(r => r.json())
+  .then(data => {
+    if (data.ok) {
+      showToast('Saved');
+      // Update visible title and badge without full reload
+      const el = document.getElementById('evitem-' + evid);
+      if (el) {
+        const titleEl = el.querySelector('.evidence-title');
+        const badge = payload.evidence_type
+          ? `<span class="ev-type-badge ev-type-${payload.evidence_type}">${payload.evidence_type}</span>`
+          : '';
+        titleEl.innerHTML = payload.title + (badge ? ' ' + badge : '');
+        el.querySelector('.evidence-desc').textContent = payload.description;
+        el.querySelector('.evidence-meta').childNodes[0].textContent = '';
+      }
+      document.getElementById('editform-' + evid).classList.remove('open');
+    } else {
+      showToast('Error: ' + (data.error || 'unknown'));
+    }
   });
 }
 

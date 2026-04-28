@@ -10,12 +10,13 @@ Usage:
 
 Then open http://localhost:5000 in your browser.
 
-Entries with approved:false are shown for review. Approving an entry
-sets approved:true and saves immediately to enriched_data.json.
+Phase 1 (/):         Card-by-card approval queue for unapproved evidence items.
+Phase 2 (/statuses): Per-recommendation status review once items are approved.
 """
 
 import json
 import os
+from datetime import datetime, timezone
 from flask import Flask, jsonify, render_template, request
 
 app = Flask(__name__)
@@ -47,6 +48,10 @@ def load_recommendations():
             for i, rec in enumerate(inquiry.get("Recommendations", []), 1):
                 recs[f"{name}__{i}"] = rec["Recommendation"]
     return recs
+
+
+def utc_now():
+    return datetime.now(timezone.utc).isoformat()
 
 
 @app.route("/")
@@ -127,14 +132,36 @@ def approve():
         return jsonify({"ok": False, "error": "Index out of range"}), 400
 
     items[item_index]["approved"] = True
-
-    # If all items are now approved, update evidence_status if still partial
-    if all(i.get("approved") for i in items):
-        if entry.get("evidence_status") == "partial":
-            pass  # leave as partial — status reflects implementation, not review
+    items[item_index]["approved_at"] = utc_now()
 
     save_enriched(enriched)
     return jsonify({"ok": True})
+
+
+@app.route("/approve_all", methods=["POST"])
+def approve_all():
+    """Bulk-approve all unapproved items, optionally filtered to one inquiry."""
+    data = request.get_json()
+    inquiry_filter = (data.get("inquiry") or "").strip()
+
+    enriched = load_enriched()
+    stamped = utc_now()
+    count = 0
+
+    for key, entry in enriched.items():
+        if key.startswith("_") or not isinstance(entry, dict):
+            continue
+        inquiry_name = key.rsplit("__", 1)[0]
+        if inquiry_filter and inquiry_filter != inquiry_name:
+            continue
+        for item in entry.get("evidence", []):
+            if not item.get("approved"):
+                item["approved"] = True
+                item["approved_at"] = stamped
+                count += 1
+
+    save_enriched(enriched)
+    return jsonify({"ok": True, "count": count})
 
 
 @app.route("/reject", methods=["POST"])
@@ -163,6 +190,32 @@ def reject():
     return jsonify({"ok": True, "removed_title": removed.get("title", "")})
 
 
+@app.route("/edit", methods=["POST"])
+def edit():
+    """Update fields on a single evidence item."""
+    data = request.get_json()
+    key = data.get("key")
+    item_index = data.get("item_index")
+
+    enriched = load_enriched()
+    entry = enriched.get(key)
+    if not entry or item_index is None:
+        return jsonify({"ok": False, "error": "Not found"}), 404
+
+    items = entry.get("evidence", [])
+    if not isinstance(item_index, int) or item_index < 0 or item_index >= len(items):
+        return jsonify({"ok": False, "error": "Index out of range"}), 400
+
+    item = items[item_index]
+    allowed_fields = {"title", "url", "date", "source_type", "description", "evidence_type"}
+    for field in allowed_fields:
+        if field in data:
+            item[field] = data[field]
+
+    save_enriched(enriched)
+    return jsonify({"ok": True})
+
+
 @app.route("/set_status", methods=["POST"])
 def set_status():
     """Update evidence_status for a key."""
@@ -180,6 +233,48 @@ def set_status():
     enriched[key]["evidence_status"] = status
     save_enriched(enriched)
     return jsonify({"ok": True})
+
+
+@app.route("/statuses")
+def statuses():
+    """Phase 2: per-recommendation status review."""
+    enriched = load_enriched()
+    recs = load_recommendations()
+    inquiry_filter = request.args.get("inquiry", "")
+
+    rec_cards = []
+    for key, entry in enriched.items():
+        if key.startswith("_") or not isinstance(entry, dict):
+            continue
+        inquiry_name = key.rsplit("__", 1)[0]
+        if inquiry_filter and inquiry_filter != inquiry_name:
+            continue
+        approved_items = [ev for ev in entry.get("evidence", []) if ev.get("approved")]
+        if not approved_items:
+            continue
+        rec_cards.append({
+            "key": key,
+            "inquiry": inquiry_name,
+            "rec_text": recs.get(key, "(recommendation text not found)"),
+            "evidence_status": entry.get("evidence_status", ""),
+            "notes": entry.get("notes", ""),
+            "items": approved_items,
+        })
+
+    rec_cards.sort(key=lambda x: (x["inquiry"], x["key"]))
+
+    all_inquiries = sorted(
+        {k.rsplit("__", 1)[0] for k in enriched if not k.startswith("_")}
+    )
+    needs_status = sum(1 for c in rec_cards if not c["evidence_status"])
+
+    return render_template(
+        "status_review.html",
+        rec_cards=rec_cards,
+        all_inquiries=all_inquiries,
+        inquiry_filter=inquiry_filter,
+        needs_status=needs_status,
+    )
 
 
 if __name__ == "__main__":
