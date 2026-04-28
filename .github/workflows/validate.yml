@@ -2,10 +2,6 @@ name: Validate data files
 
 on:
   pull_request:
-    paths:
-      - 'data.json'
-      - 'enriched_data.json'
-      - 'schema/**'
 
 jobs:
   validate:
@@ -71,16 +67,9 @@ jobs:
           python - <<'EOF'
           import json, sys
 
-          # Load the base data from the target branch (HEAD~1 or main) to compare
-          # On a PR, we compare against the base. If data.json changed, verify
-          # that no existing Recommendation strings were modified.
-          # This is a best-effort check: we verify internal consistency of data.json.
-
           with open('data.json') as f:
               data = json.load(f)
 
-          seen_recs = set()
-          duplicates = []
           for admin in data:
               for inq in admin.get('Inquiries', []):
                   for rec in inq.get('Recommendations', []):
