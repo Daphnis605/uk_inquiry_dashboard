@@ -157,6 +157,32 @@ def reject():
     return jsonify({"ok": True, "removed_title": removed.get("title", "")})
 
 
+@app.route("/edit", methods=["POST"])
+def edit():
+    """Update fields on a single evidence item."""
+    data = request.get_json()
+    key = data.get("key")
+    item_index = data.get("item_index")
+
+    enriched = load_enriched()
+    entry = enriched.get(key)
+    if not entry or item_index is None:
+        return jsonify({"ok": False, "error": "Not found"}), 404
+
+    items = entry.get("evidence", [])
+    if not isinstance(item_index, int) or item_index < 0 or item_index >= len(items):
+        return jsonify({"ok": False, "error": "Index out of range"}), 400
+
+    item = items[item_index]
+    allowed_fields = {"title", "url", "date", "source_type", "description"}
+    for field in allowed_fields:
+        if field in data:
+            item[field] = data[field]
+
+    save_enriched(enriched)
+    return jsonify({"ok": True})
+
+
 @app.route("/set_status", methods=["POST"])
 def set_status():
     """Update evidence_status for a key."""

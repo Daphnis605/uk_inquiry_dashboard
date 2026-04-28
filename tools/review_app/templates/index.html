@@ -317,6 +317,103 @@
     }
     .btn-reload:hover { background: #2563eb; }
 
+    /* ── Edit form ── */
+    .edit-panel {
+      display: none;
+      flex-direction: column;
+      gap: 0;
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      padding: 12px 20px 20px;
+    }
+    .edit-panel.active { display: flex; }
+    .edit-panel label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #9ca3af;
+      margin-top: 12px;
+      margin-bottom: 3px;
+    }
+    .edit-panel input, .edit-panel select {
+      width: 100%;
+      font-size: 13px;
+      padding: 6px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+    .edit-panel textarea {
+      width: 100%;
+      font-size: 13px;
+      padding: 8px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 5px;
+      font-family: inherit;
+      resize: vertical;
+      min-height: 120px;
+      line-height: 1.55;
+    }
+    .edit-panel input:focus, .edit-panel select:focus, .edit-panel textarea:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 2px rgba(59,130,246,0.15);
+    }
+    .edit-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .btn-edit-save {
+      padding: 8px 20px;
+      background: #3b82f6;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .btn-edit-save:hover { background: #2563eb; }
+    .btn-edit-cancel {
+      padding: 8px 16px;
+      background: #f3f4f6;
+      color: #6b7280;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .btn-edit-cancel:hover { background: #e5e7eb; }
+    .edit-hint {
+      font-size: 11px;
+      color: #9ca3af;
+      margin-left: auto;
+      align-self: center;
+    }
+    .section-label-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px 4px;
+    }
+    .section-label-row .section-label { padding: 0; }
+    .btn-edit-toggle {
+      background: none;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 11px;
+      color: #6b7280;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .btn-edit-toggle:hover { background: #f3f4f6; color: #374151; }
+
     /* ── Toast ── */
     .toast {
       position: fixed;
@@ -394,11 +491,50 @@
 
         <div class="section-divider"></div>
 
-        <div class="section-label">Evidence</div>
-        <div class="evidence-title" id="c-ev-title"></div>
-        <div class="evidence-meta" id="c-ev-meta"></div>
-        <div class="evidence-desc" id="c-ev-desc"></div>
-        <div class="notes-bar" id="c-notes" style="display:none"></div>
+        <div class="section-label-row">
+          <div class="section-label">Evidence</div>
+          <button class="btn-edit-toggle" id="btn-edit-toggle" onclick="toggleEdit()">&#9998; Edit</button>
+        </div>
+
+        <!-- View mode -->
+        <div id="ev-view">
+          <div class="evidence-title" id="c-ev-title"></div>
+          <div class="evidence-meta" id="c-ev-meta"></div>
+          <div class="evidence-desc" id="c-ev-desc"></div>
+          <div class="notes-bar" id="c-notes" style="display:none"></div>
+        </div>
+
+        <!-- Edit mode -->
+        <div class="edit-panel" id="edit-panel">
+          <label for="edit-title">Title</label>
+          <input type="text" id="edit-title">
+
+          <label for="edit-url">URL</label>
+          <input type="url" id="edit-url" placeholder="https://...">
+
+          <label for="edit-date">Date (YYYY-MM or YYYY)</label>
+          <input type="text" id="edit-date" placeholder="2025-05">
+
+          <label for="edit-source-type">Source type</label>
+          <select id="edit-source-type">
+            <option value="official_report">official report</option>
+            <option value="government_statement">government statement</option>
+            <option value="legislation">legislation</option>
+            <option value="news_article">news article</option>
+            <option value="parliamentary_record">parliamentary record</option>
+            <option value="other">other</option>
+          </select>
+
+          <label for="edit-desc">Description</label>
+          <textarea id="edit-desc" rows="6"></textarea>
+
+          <div class="edit-actions">
+            <button class="btn-edit-save" onclick="saveEdit()">Save</button>
+            <button class="btn-edit-cancel" onclick="cancelEdit()">Cancel</button>
+            <span class="edit-hint">Ctrl+Enter to save &nbsp; Esc to cancel</span>
+          </div>
+        </div>
+
       </div>
 
       <div class="status-row">
@@ -416,8 +552,8 @@
   </div>
 </div>
 
-<div class="kbd-hint">
-  <kbd>A</kbd> approve &nbsp; <kbd>R</kbd> reject &nbsp; <kbd>S</kbd> / <kbd>→</kbd> skip &nbsp; <kbd>←</kbd> back
+<div class="kbd-hint" id="kbd-hint">
+  <kbd>A</kbd> approve &nbsp; <kbd>R</kbd> reject &nbsp; <kbd>S</kbd> / <kbd>→</kbd> skip &nbsp; <kbd>←</kbd> back &nbsp; <kbd>E</kbd> edit
 </div>
 
 <div class="action-bar">
@@ -445,6 +581,7 @@ function esc(str) {
 
 function renderCard() {
   if (idx >= CARDS.length) { showDone(); return; }
+  if (editing) cancelEdit();
 
   const c = CARDS[idx];
   const item = c.item;
@@ -584,10 +721,79 @@ function setStatus(key, status) {
   });
 }
 
+let editing = false;
+
+function toggleEdit() {
+  editing ? cancelEdit() : openEdit();
+}
+
+function openEdit() {
+  const item = currentCard().item;
+  document.getElementById('edit-title').value = item.title || '';
+  document.getElementById('edit-url').value = item.url || '';
+  document.getElementById('edit-date').value = item.date || '';
+  document.getElementById('edit-source-type').value = item.source_type || 'official_report';
+  document.getElementById('edit-desc').value = item.description || '';
+
+  document.getElementById('ev-view').style.display = 'none';
+  document.getElementById('edit-panel').classList.add('active');
+  document.getElementById('btn-edit-toggle').textContent = '✕ Cancel';
+  document.getElementById('btn-approve').disabled = true;
+  document.getElementById('btn-reject').disabled = true;
+  document.getElementById('edit-desc').focus();
+  editing = true;
+}
+
+function cancelEdit() {
+  document.getElementById('ev-view').style.display = '';
+  document.getElementById('edit-panel').classList.remove('active');
+  document.getElementById('btn-edit-toggle').innerHTML = '&#9998; Edit';
+  document.getElementById('btn-approve').disabled = false;
+  document.getElementById('btn-reject').disabled = false;
+  editing = false;
+}
+
+function saveEdit() {
+  if (busy) return;
+  const c = currentCard();
+  const payload = {
+    key: c.key,
+    item_index: c.item_index,
+    title: document.getElementById('edit-title').value.trim(),
+    url: document.getElementById('edit-url').value.trim(),
+    date: document.getElementById('edit-date').value.trim(),
+    source_type: document.getElementById('edit-source-type').value,
+    description: document.getElementById('edit-desc').value.trim(),
+  };
+  busy = true;
+  fetch('/edit', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  })
+  .then(r => r.json())
+  .then(d => {
+    busy = false;
+    if (d.ok) {
+      // Update local card data so view reflects the edit
+      Object.assign(c.item, payload);
+      delete payload.key; delete payload.item_index;
+      cancelEdit();
+      renderCard();
+      showToast('Saved');
+    } else {
+      showToast('Error: ' + (d.error || 'unknown'));
+    }
+  })
+  .catch(() => { busy = false; showToast('Network error'); });
+}
+
 function setButtons(disabled) {
-  ['btn-approve', 'btn-reject'].forEach(id => {
-    document.getElementById(id).disabled = disabled;
-  });
+  if (!editing) {
+    ['btn-approve', 'btn-reject'].forEach(id => {
+      document.getElementById(id).disabled = disabled;
+    });
+  }
 }
 
 function showToast(msg, ms = 1800) {
@@ -598,11 +804,17 @@ function showToast(msg, ms = 1800) {
 }
 
 document.addEventListener('keydown', e => {
+  if (editing) {
+    if (e.key === 'Escape') cancelEdit();
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) saveEdit();
+    return;
+  }
   if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
   if (e.key === 'ArrowLeft')                   goBack();
   else if (e.key === 'ArrowRight' || e.key === 's' || e.key === 'S') doSkip();
   else if (e.key === 'a' || e.key === 'A')     doApprove();
   else if (e.key === 'r' || e.key === 'R')     doReject();
+  else if (e.key === 'e' || e.key === 'E')     openEdit();
 });
 
 renderCard();
