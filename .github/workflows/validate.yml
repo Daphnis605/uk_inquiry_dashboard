@@ -3,6 +3,9 @@ name: Validate data files
 on:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   check-changes:
     runs-on: ubuntu-latest
