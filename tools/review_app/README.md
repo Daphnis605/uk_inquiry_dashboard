@@ -41,22 +41,25 @@ Open http://localhost:5000 in your browser.
 
 **Step 3 — Review each entry**
 
-The app shows every `approved: false` evidence item grouped by inquiry. For each item you will see:
+The app shows one evidence item at a time as a card. Each card displays:
 
-- The **recommendation text** (from `data.json`) — what the inquiry actually recommended
+- The full **recommendation text** (from `data.json`) — what the inquiry actually recommended
 - The **evidence title, source, date, and description** — what the submission claims as evidence
 
-For each item, choose one of:
+For each card, choose one of:
 
-| Action | What it does |
-|---|---|
-| **Approve** | Sets `approved: true` — entry will appear publicly once the PR is merged |
-| **Reject** | Permanently removes the evidence item — use if the evidence does not support the recommendation |
-| **Set status** | Updates `evidence_status` for the recommendation (`actioned`, `partial`, `no_evidence_found`, `not_published`) |
+| Action | Keyboard | What it does |
+|---|---|---|
+| **Approve** | `A` | Sets `approved: true` — entry will appear publicly once the PR is merged |
+| **Reject** | `R` | Permanently removes the evidence item — use if the evidence does not support the recommendation |
+| **Skip** | `S` or `→` | Moves to the next card without taking action — come back to it later |
+| **Back** | `←` | Returns to the previous card |
+
+You can also update `evidence_status` for a recommendation (`actioned`, `partial`, `no_evidence_found`, `not_published`) using the dropdown at the bottom of each card. This does not count as approving or rejecting the evidence item.
 
 > **Warning:** Reject is permanent and cannot be undone within the app. If you reject by mistake, re-run the original data import script or restore from git.
 
-Changes are written to `enriched_data.json` immediately on each action. You do not need to save manually.
+Changes are written to `enriched_data.json` immediately on each action. You do not need to save manually. A progress bar at the top shows how far through the queue you are.
 
 **Step 4 — Commit and push**
 
