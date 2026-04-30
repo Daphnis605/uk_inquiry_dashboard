@@ -156,6 +156,18 @@
     }
     .evidence-item:last-of-type { border-bottom: none; }
 
+    .btn-send-back {
+      margin-top: 8px;
+      background: none;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      padding: 3px 10px;
+      font-size: 11px;
+      color: #6b7280;
+      cursor: pointer;
+    }
+    .btn-send-back:hover { border-color: #9ca3af; color: #374151; }
+
     .evidence-title {
       font-weight: 600;
       font-size: 13px;
@@ -312,7 +324,7 @@
 
       <div class="evidence-list">
         {% for item in card.evidence_items %}
-        <div class="evidence-item">
+        <div class="evidence-item" id="evitem-{{ card.key | replace('__', '-') }}-{{ item._idx }}">
           <div class="evidence-title">
             {% if item.url %}
             <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
@@ -329,6 +341,12 @@
           {% if item.description %}
           <div class="evidence-desc">{{ item.description }}</div>
           {% endif %}
+          <button class="btn-send-back"
+                  data-key="{{ card.key }}"
+                  data-index="{{ item._idx }}"
+                  onclick="sendBack(this.dataset.key, parseInt(this.dataset.index), this)">
+            ↩ Send back to Phase 1
+          </button>
         </div>
         {% endfor %}
       </div>
@@ -373,6 +391,32 @@ function showToast(msg, duration=2000) {
   t.textContent = msg;
   t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), duration);
+}
+
+function sendBack(key, itemIndex, btn) {
+  if (!confirm('Send this item back to Phase 1 for re-review? It will be marked unapproved.')) return;
+  btn.disabled = true;
+  fetch('/unapprove', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({key, item_index: itemIndex})
+  })
+  .then(r => r.json())
+  .then(data => {
+    if (data.ok) {
+      const itemEl = document.getElementById(`evitem-${key.replace('__', '-')}-${itemIndex}`);
+      if (itemEl) itemEl.remove();
+      // If the card now has no evidence items, remove the whole card
+      const cardEl = document.getElementById(`card-${key.replace('__', '-')}`);
+      if (cardEl && cardEl.querySelectorAll('.evidence-item').length === 0) {
+        cardEl.remove();
+      }
+      showToast('Sent back to Phase 1');
+    } else {
+      btn.disabled = false;
+      showToast('Error: ' + (data.error || 'unknown'));
+    }
+  });
 }
 
 function setStatus(key, status, selectEl) {
