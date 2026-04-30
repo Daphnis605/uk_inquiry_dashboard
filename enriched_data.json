@@ -1769,7 +1769,7 @@
     ],
     "notes": "Source: IBI implementation tracker (May 2025). Government position: Accepted in principle."
   },
-    "Manchester Arena Inquiry__236": {
+  "Manchester Arena Inquiry__236": {
     "evidence_status": "partial",
     "evidence": [
       {
@@ -1778,8 +1778,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. We utilised the existing call for evidence on the Keeping Children Safe in Education (KSCIE) statutory guidance to gather views from the sector to inform our response. We have these and have analysed",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1794,8 +1794,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. All ambulance trusts have processes in place to share information between emergency services control rooms, the guidance is being utilised to implement best practice and this recommendation can be mar",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1810,8 +1810,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Mutual aid is a specific requirement for the interoperable capabilities (Hazardous Area Response Teams (HART) and Special Operations Response Team (SORT)) and is included in the NHS Emergency Prepared",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1826,8 +1826,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. There has been a 33% increase in services that have completed R-131. This takes the total completion rate to 64% across all responding services (50 FRS). Evidence includes establishing 'operations cel",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1842,8 +1842,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Training and awareness around major incidents for Control Room staff is widely reported as progressing well. Many services have incorporated Control staff routinely into training plans, for example ex",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1858,8 +1858,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Post the attack a new multi-agency radio control talk group was developed, which is shared with police, fire and ambulance and monitored 24/7 in control rooms. There are established tri service testin",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1874,8 +1874,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1890,8 +1890,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Ambulance Trusts have submitted bids to their lead commissioners. NHS England has reviewed these against the EPRR Core Standards assurance process.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1906,8 +1906,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Terrorism (Protection of Premises) Bill progressed through Parliament between September 2024 - March 2025. It received Royal Assent on 3 April 2025. The Government intends for there to be an imple",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1922,8 +1922,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. CRMI group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Command' sub-groups of the programme. Revis",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1938,8 +1938,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. There are no plans to stop statutory health education as part of the national curriculum, including first aid and CPR. The guidance is currently under review and further content in this space will be",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1954,8 +1954,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. It is confirmed that in March of 2024 we completed the remainder of the Sgt and Inspector (and Chief Inspector) Major Incident Command training. That means all of our Sgts and Inspectors (Chief Inspec",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1970,8 +1970,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. It is confirmed that in March of 2024 we completed the remainder of the Sgt and Inspector (and Chief Inspector) Major Incident Command training. That means all of our Sgts and Inspectors (Chief Inspec",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -1986,8 +1986,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. CLIO the decision making system is now in place across BTP and was tested during Golden Orb.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2002,8 +2002,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. It is confirmed that in March of 2024 we completed the remainder of the Sgt and Inspector (and Chief Inspector) Major Incident Command training. That means all of our Sgts and Inspectors (Chief Inspec",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2018,8 +2018,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. New Command and Control National Guidance-Please see recommendation 58 This duplicates some of the work covered as per V1 MR9. BTPs jurisdiction is too extensive to have bespoke agreements in place fo",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2034,8 +2034,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. All HO Forces with 'category one' locations have been identified (those with significant footfall). Those identified have written and signed MOU's (memorandum of understanding) detailing jurisdiction",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2050,8 +2050,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. We are currently awaiting further data from services regarding their provision as per recommendation 85. Once this has been received we will publish the compliance rate.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2066,8 +2066,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. This recommendation is now complete.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2082,8 +2082,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. New Training for Firearms Officers and Commanders - Revised and refreshed training for both strategic firearms command (SFC), cadre tactical firearms commanders (Cadre TFC) and operational firearms co",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2098,8 +2098,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. NPCC Update: New Training for Unarmed Officers - The new e-learning training modules created to prepare all frontline police officers and supervisors for responding to a range of threat related incide",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2114,8 +2114,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2130,8 +2130,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. The requirement for revising this approved professional practice (APP) was agreed upon in 2022. This review is now complete, and the updated guidance was launched to forces in April 2024. As the new C",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2146,8 +2146,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. A working group has been setup to take forward the work identified in the Clinical Response to Major Incidents (CRMI) review. This will include MAI recommendations relevant to: - Ambulance Personnel -",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2162,8 +2162,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. A working group has been setup to take forward the work identified in the Clinical Response to Major Incidents (CRMI) review. This will include MAI recommendations relevant to: - Ambulance Personnel -",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2178,8 +2178,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. This recommendation is high in compliance. Whilst there will always be local variations due to boundaries and organisational structures positive examples of progress include the role of LRFs, Safety A",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2194,8 +2194,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Guidance has been issued by the Local Resilience Forum (LRF) Portfolio instructing them regarding this recommendation.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2210,8 +2210,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. New Training First Aid Learning Programme (FALP) - The new FALP training now incorporates critical life saving elements alongside the recommendations of the Manchester Arena Inquiry. The revised FALP",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2226,8 +2226,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Force Incident Manager (FIM) Accredited Training - The FIM curriculum has been finalised along with accreditation processes and supporting guidance. A training team is being created, as delivery of th",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2242,8 +2242,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. A high number of Fire and Rescue Services are reporting steady progress in this area. Examples include the use of technology to provide live-time information from Control Rooms to the incident and vic",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2258,8 +2258,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Operational Discretion is currently being reviewed nationally. Until such a time this is revised, all commanders continue to operate under National Operational Guidance (NOG).",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2274,8 +2274,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. In addition to previous updates, the use of body worn video cameras are becoming more prevalent in the UK FRS. The use of trained loggists and routine use of documentation to capture and record decisi",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2290,8 +2290,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Positive examples are being shared around the use of alerting systems, for example Blackberry Athoc. This allows for quick time sharing of critical information (e.g. a METHANE message).",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2306,8 +2306,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. As per the previous update, there is wide evidence and supporting trend of formalised command qualifications and competencies. These include awarding bodies, such as Skills for Justice and recognised",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2322,8 +2322,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Major Incident Plan is managed by a specialist team within the Civil Contingencies and Resilience Unit who have relevant training and experience. Any updates or changes are made in consultation wi",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2338,8 +2338,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. NPCC Update: CTPHQ/Plato Recommendation Review-See recommendation 13 NPCC Update: New Operational and Tactical (Bronze and Silver) Commander's training - The new curriculum has been agreed and is set",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2354,8 +2354,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. CTPHQ/Plato Recommendation Review In June 2023, CTPHQ commenced a proactive and supplementary review of Volume 2 recommendations. This review enabled formal monitoring of developments around specific",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2370,8 +2370,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. NPCC Update: CTPHQ/Plato Recommendation Review-See recommendation 13 NPCC Update: New Command and Control National Guidance-See recommendation 58 GMP's Operation Plato Marauding Terrorist Attack Overa",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2386,8 +2386,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. GMP's Major Incident Plan has a section on the capabilities of Greater Manchester Fire and Rescue Service, and this includes details of its specialist assets such as the Specialist Response Team. This",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2402,8 +2402,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. GMP's Major Incident Plan has a section on the capabilities of Greater Manchester Fire and Rescue Service, and this includes details of its specialist assets such as the Specialist Response Team. This",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2418,8 +2418,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. There has been a 33% increase in services that have completed R-131. This takes the total completion rate to 64% across all responding services (50 FRS). Evidence includes establishing 'operations cel",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2434,8 +2434,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Ten Second Triage, which has been introduced for use by first responders at the scene of a major incident, includes appropriate visible identifiers, such as a triage label. These should to be placed o",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2450,8 +2450,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Following the ambulance trust's reviews and submissions of their bids to their lead commissioners, NHS England and NHS Resilience Emergency Capabilities Unit is establishing a cross-functional working",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2466,8 +2466,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Chief Constables agreed at National Chiefs Council the availability of EOD Dogs. This is now included in the Strategic Policing Requirement. Workstream has been completed and closed.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2482,8 +2482,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2498,8 +2498,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Whilst each individual police service is operationally responsible for ensuring they have sufficient resource to deliver against this recommendation, this new approved professional practice (APP) is a",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2514,8 +2514,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Partially accepted. Status: In progress. Following the recommendations of the Statutory Inquiries Committee on the efficacy of the law and practice relating to statutory inquiries under the Inquiries Act 2005 the Cabinet Office is currently",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2530,8 +2530,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Once regulatory requirements are confirmed, the proposal is to roll out in a phased approach as more evidence in relation to use in different patient groups reviewed.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2546,8 +2546,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Arena, and every SMG venue, now has a dedicated security manager, each of whom is required to complete an Advanced Diploma in Counter-Terrorism Risk Management. All SMG venues, including Mancheste",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2562,8 +2562,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. All Showsec staff must now undertake ACT (Action Counters Terrorism) Security training before working for Showsec, and must undergo annual refresher training. They must also undertake e-learning modul",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2578,8 +2578,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Counter-Extremism sprint has concluded and the Commission for Countering Extremism's report helped inform its findings and the recommendations which are being considered. The Government values the",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2594,8 +2594,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Under section 35(1) of the Inquiries Act 2005 it is an offence for an individual to fail without reasonable excuse to do anything that he is required to by notice under section 21 of the Inquiries Act",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2610,8 +2610,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. We utilised the existing call for evidence on the Keeping Children Safe in Education (KSCIE) statutory guidance to gather views from the sector to inform our response. We have these and have analysed",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2626,8 +2626,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The new Enhanced Contact Vetting Scheme (ECV) was introduced on 9 June 2025 under section 23 the Authorised Communications Controls and Interceptions (ACCI) policy framework. ECV enables us to conduct",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2642,8 +2642,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Partially accepted. Status: In progress. The Ministry of Justice has noted the recommendation. There are no current plans to increase the maximum sentence for committing an offence under the Inquiries Act (it is currently 6 months, but will",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2658,8 +2658,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Partially accepted. Status: In progress. Following the recommendations of the Statutory Inquiries Committee on the efficacy of the law and practice relating to statutory inquiries under the Inquiries Act 2005 the Cabinet Office is currently",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2674,8 +2674,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Partially accepted. Status: In progress. Following the recommendations of the Statutory Inquiries Committee on the efficacy of the law and practice relating to statutory inquiries under the Inquiries Act 2005 the Cabinet Office is currently",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2690,8 +2690,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Authorised Communications Controls and Interception Policy Framework was published in September 2022. This provides rules and guidance for prison staff to manage prisoner communications across pri",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2706,8 +2706,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. We utilised the existing call for evidence on the Keeping Children Safe in Education (KSCIE) statutory guidance to gather views from the sector to inform our response. We have these and have analysed",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2722,8 +2722,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. MHCLG is working on proposals for a new peer review protocol for local resilience forums, which we hope to begin testing later in 2025/26.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2738,8 +2738,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Recommend to close and move to BAU - In December 2023 all 38 English LRFs report they have systems in place to identify and record the lessons learnt from all multi-agency exercises, and ensure change",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2754,8 +2754,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. MHCLG has selected a group of five local resilience forums in England to join the Stronger LRF trailblazer programme, which will launch in spring 2025. These are Cumbria LRF, Greater Manchester LRF, L",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2770,8 +2770,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The ProtectUK platform has been created and populated with guidance. Whilst this recommendation can be shown as complete the site continues to evolve and adapt to meet the needs of the different categ",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2786,8 +2786,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Risk Management Process has been completed and uploaded to ProtectUK. Whilst this recommendation can be shown as complete the process is currently being reviewed and aligned to ISO.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2802,8 +2802,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Improving Event Planning - Processes have been strengthened in relation to the capturing and sharing learning from events and related planning. This work strand builds upon these improvements, with ne",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2818,8 +2818,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. A new process to capture these scenarios has been included in the North West Ambulance Service Incident Response Plan",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2834,8 +2834,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Improving Event Planning - Processes have been strengthened in relation to the capturing and sharing learning from events and related planning. This work strand builds upon these improvements, with ne",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2850,8 +2850,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Incident Response Plan has been updated and trained through annual commander training. North West Ambulance Service has invested in a Command training team which will focus on all levels of comman",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2866,8 +2866,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This recommendation is incorporated into exercising plans which will continue to be ongoing. As new staff are on boarded to the organisation, they will participate in multi agency exercising as part o",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2882,8 +2882,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Record taking has been reviewed. The Incident Response Plan has been updated with new record processes. Body Worn Video Camera (BWVC) are now available to all Commanders, National Interagency Liaison",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2898,8 +2898,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Investment by North West Ambulance Service (NWAS) will increase the number of National Interagency Liaison Officers (NILOs) from 12 to 21. This will see an increase to the rota and geographical covera",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2914,8 +2914,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Part of the Predetermined Attendance (PDA) includes the Hazardous Area Response Teams (HART) and Specialist resources, (e.g. Specialist Operations Response Teams, Medical Emergency Response Incident T",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2930,8 +2930,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Before the Inquiry's Volume 2 report was released, North West Ambulance Service (NWAS) introduced a Predetermined Attendance (PDA) in January 2021. A PDA is an advance agreement regarding what resourc",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2946,8 +2946,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The North West Ambulance Service Incident Response Plan and action cards now reflect that in the early stages of an incident, first resources should, subject to a dynamic risk assessment, go forward a",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2962,8 +2962,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Incident Response Plan has been updated and procedures within North West Ambulance Service Emergency Operation Centre (EOC) have been reviewed. A 'Complex Incident Hub (CIH)', which is a specialis",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2978,8 +2978,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. North West Ambulance Service (NWAS) in partnership with NHS England North West have reviewed the Mass Casualty Distribution Plan and updated as required to produce version 1.4.This went live 14 July 2",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -2994,8 +2994,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Investment by North West Ambulance Service (NWAS) will increase the number of National Interagency Liaison Officers from 12 to 21 (17 NILOs as at 01/11/2023). This will see an increase to the rota and",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3010,8 +3010,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. This practice is included in North West Ambulance Service annual commander training and exercises",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3026,8 +3026,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. There is a good rhythm being reported across the country building on the culture of testing and exercising. These include tri-service exercises focussing on local risk, threat and profile (for example",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3042,8 +3042,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. There has been a 30% increase in services that have completed this recommendation in the last reporting period. This takes the total completion rate to 60% across all responding services (50 FRS). To",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3058,8 +3058,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Steady progress is being made but this is largely influenced by the different operational and resourcing models of Control Rooms around the country.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3074,8 +3074,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Compliance in this recommendation area is high. Services continue to evidence progress, with examples including use of multi-agency hailing groups and talk groups on the Airwave network as well as dev",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3090,8 +3090,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Control room operations and systems vary across the country, but all have technology to allow logging of key information. This can be shared with partners and responding teams. Examples include voice",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3106,8 +3106,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. JESIP is becoming more widely embedded across the emergency service community. The establishment of the Central JESIP team, a dedicated resource funded by the Home Office allows for a greater degree o",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3122,8 +3122,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. SMG's Arena medical plan outlines the levels of medical staffing SMG's medical services provider must allocate to each of its events at Manchester Arena. Each event is separately risk assessed to deci",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3138,8 +3138,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Staff at Manchester Arena have a strong working relationship with NWAS. SMG have agreed the Manchester Arena medical plan with NWAS and its own in-house medical services provider. The plan includes in",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3154,8 +3154,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. SMG has reviewed its healthcare service equipment at Manchester Arena. The equipment and supplies required to be present at the Arena is detailed in the Arena medical plan. Stock levels are checked be",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3170,8 +3170,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. The Department of Health and Social Care has concluded the consultations on changes to Care Quality Commission's regulations and published its response to these in December 2024. DHSC continues to eng",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3186,8 +3186,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. First Aid Training for Armed Officers - The entire armed policing first aid training module has been re-written to take into account the new First Aid Learning Programme and to ensure armed officers d",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3202,8 +3202,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. The police use of analgesics is not confined to armed officers. There are now 20 forces confirmed as having officers trained in the use of analgesia (predominantly Penthrox). The NPCC Clinical Panel h",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3218,8 +3218,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3234,8 +3234,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Marauding Terrorist Attack (MTA) initial response contingency planning guidance is in place, includes a review of command resilience for both firearms command and broader tactical and strategic comman",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3250,8 +3250,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Armed Policing APP Review relating to PIP HO & NPCC - CLOSED - NO UPDATE REQUIRED",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3266,8 +3266,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Work remains in progress to create a unique reference number for each officer to assist in recording and capturing their training. This number would be centrally held by the College of Policing and st",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3282,8 +3282,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. NPCC Update: Force Incident Manager (FIM) Accredited Training - The FIM curriculum has been finalised along with accreditation processes and supporting guidance. A training team is being created, as d",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3298,8 +3298,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. We are currently awaiting further data from services regarding their provision as per recommendation 57. Once this has been received we will publish the compliance rate. The National Police Chiefs Cou",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3314,8 +3314,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Statutory health education already includes first aid and CPR and has been in place since 2020. The guidance is currently under review and adding further content in this space will be part of the cons",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3330,8 +3330,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The section 182 guidance that accompanies the Licensing Act 2003 has been updated to include further information around healthcare provision at events. An annex with helpful resources has also been ad",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3346,8 +3346,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. The Department of Health and Social Care is progressing this recommendation. A review of current standards and guidance is complete and will be included in writing stages, where appropriate. The Stand",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3362,8 +3362,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. DHSC are drafting the consultation document for proposed legislative changes on analgesia.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3378,8 +3378,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This recommendation will be considered as part of the NHS England led Clinical Response to Major Incidents Task and Finish Group. CRMI group met to agree revision to timelines in view of resource cons",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3394,8 +3394,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This is considered as part of R132-R139 on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate. The research projects are complete and dra",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3410,8 +3410,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Advanced Medical Priority Dispatch System has been reviewed and is fit for the purpose for which it was designed (i.e. triage system).",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3426,8 +3426,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. CRMI group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Command' sub-groups of the programme. Revis",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3442,8 +3442,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Individual ambulance trusts already have processes in place to ensure appropriate staff are notified of relevant pre-planned events in their area, however this is variable across the country. As part",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3458,8 +3458,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. As part of the NHS Core Standards for emergency preparedness resilience and response (EPRR) each ambulance service is required to have the following in place in relation to Hazardous Area Response Tea",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3474,8 +3474,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Command training and competence is covered by the requirements of the NHS Emergency Preparedness, Response and Resilience (EPRR) Framework and the NHS Core Standards for EPRR. This applies to all NHS",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3490,8 +3490,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Roll out of (new) Mass Casualty Vehicles complete.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3506,8 +3506,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This is considered as part of a number of recommendations on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate. This will also be fulfil",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3522,8 +3522,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. The Department of Health and Social Care is progressing this recommendation. A programme has been established and a number of steps are complete.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3538,8 +3538,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Recommendations would not usually come from Ambulance Trusts or Commissioners, but through NHS England or established workstreams. The Government's mandate letter to NHS England sets out expectations",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3554,8 +3554,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. DHSC Update: Contents of Public Access Trauma kits has been clinically reviewed and finalised and listed on the PROTECT UK website to inform manufactures and event industry. The National Counter Terro",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3570,8 +3570,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The stretcher review has been completed and shared with relevant groups and as such this recommendation can be marked as complete.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3586,8 +3586,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. CRMI group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Command' sub-groups of the programme. Revis",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3602,8 +3602,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Trial has concluded. Awaiting confirmation of publication of review.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3618,8 +3618,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. CRMI group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Command' sub-groups of the programme. Revis",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3634,8 +3634,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Reinforcement of availability of IM administration within guidelines Ongoing development of auto injector presentations, once available trials will be undertaken Legislative requirements being reviewe",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3650,8 +3650,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Clinical Response to Major Incidents (CRMI) group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Comm",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3666,8 +3666,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Clinical Response to Major Incidents (CRMI) group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Comm",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3682,8 +3682,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Partially accepted. Status: In progress. This will be considered as part of the implementation and evaluation stage of the standard. The standard will incorporate best practice from domestic and international practices. As work to develop th",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3698,8 +3698,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Post the attack a new multi-agency radio control talk group was developed, which is shared with police, fire and ambulance and monitored 24/7 in control rooms. There are established tri service testin",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3714,8 +3714,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Manchester Arena task and finish group has now closed with recommendation 1 delegated to the GM blue light working group (BLWG). Terms of Reference make clear that recommendation 1 is incorporated",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3730,8 +3730,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. New Training First Aid Learning Programme (FALP) - The new FALP training now incorporates critical life saving elements alongside the recommendations of the Manchester Arena Inquiry. The revised FALP",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3746,8 +3746,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. New operational and tactical commanders training has been devised and launched to forces. This will be underpinned by the new command and control approved professional practice (APP) which is due for",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3762,8 +3762,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. New Training First Aid Learning Programme (FALP) - The new FALP training now incorporates critical life saving elements alongside the recommendations of the Manchester Arena Inquiry. The revised FALP",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3778,8 +3778,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Multi-Agency Partners Update: Improving Organisational Learning - Processes around organisational learning have been strengthened, however additional JESIP Transformation resource (JESIP Transformatio",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3794,8 +3794,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Multi-Agency Partners Update: Improving Organisational Learning - Processes around organisational learning have been strengthened, however additional JESIP Transformation resource (JESIP Transformatio",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3810,8 +3810,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This is considered as part of a number of recommendations on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate. The research projects ar",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3826,8 +3826,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. DHSC update: Following the completion of R146, DHSC are continuing to work with the National Counter Terrorism Security Office (who lead on providing advice to business regarding Counter Terrorism thr",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3842,8 +3842,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Force Incident Manager (FIM) Accredited Training - The FIM curriculum has been finalised along with accreditation processes and supporting guidance. A training team is being created, as delivery of th",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3858,8 +3858,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Armed Policing APP Review relating to PIP HO & NPCC - CLOSED - NO UPDATE REQUIRED",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3874,8 +3874,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This is considered as part of R132-R139 on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3890,8 +3890,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This recommendation is high in compliance. Whilst there will always be local variations due to boundaries and organisational structures positive examples of progress include the role of LRFs, Safety A",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       },
       {
@@ -3900,8 +3900,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Processes have been strengthened in relation to the capturing and sharing learning from events and related planning. This work strand builds upon these improvements, with new national Events guidance",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3916,8 +3916,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. As part of the review of the Marauding Terrorist Attack (MTA) Joint Operating Principles (JOPS) action cards were given to all forces and services for the implementation of an MTA response. These card",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3932,8 +3932,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This is considered as part of R132-R139 on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3948,8 +3948,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as 'JOPs' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, whi",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3964,8 +3964,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3980,8 +3980,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Alongside existing funding from across the 3 Emergency Services, additional Home Office funding has been successfully secured to provide stronger investment in the Joint Emergency Services Interoperab",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -3996,8 +3996,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Within the context of Operation PLATO, CTPHQ have reviewed and updated the national guidance in light of the recommendations. This has been launched and all training has been completed. This work stra",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4012,8 +4012,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This continues to be an area of work that the Joint Emergency Services Interoperability Protocol (JESIP) Transformation Team takes forward throughout 2025. Ongoing consultation around the the national",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4028,8 +4028,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. The Civil Contingencies Act (2004) Regulations (2005) (Cabinet Office) set out requirements for the attendance of both Category 1 and 2 responders at meetings including the Local Resilience Forum. For",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4044,8 +4044,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. MHCLG has selected a group of five local resilience forums in England to join the Stronger LRF trailblazer programme, which will launch in spring 2025. These are Cumbria LRF, Greater Manchester LRF, L",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4060,8 +4060,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This is considered as part of R132-R139 on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate. The research projects are complete and dra",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4076,8 +4076,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Revised Civil contingencies Guidance - The requirement for revising this approved professional practice (APP) was agreed upon in 2022. This review is now complete, and the updated guidance was launche",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4092,8 +4092,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Home Office works across Government and operational partners with the aim of better engaging the public about safety and security, including around first responder interventions. With Martyn's Law",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4108,8 +4108,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. October 2025: The provisions of the Terrorism (Protection of Premises) Act do not include a specific requirement relating to the provision of first aid or associated equipment. However, we continue to",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4124,8 +4124,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. MHCLG has selected a group of five local resilience forums in England to join the Stronger LRF trailblazer programme, which will launch in spring 2025. These are Cumbria LRF, Greater Manchester LRF, L",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4140,8 +4140,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Terrorism (Protection of Premises) Act 2025 requires the person responsible for enhanced duty premises and qualifying events to have in place, so far as reasonably practicable, appropriate public",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4156,8 +4156,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Additional resource has been secured to progress this work strand enabling the completion of a mapping process to understand what technologies are being used by services and to build a service network",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4172,8 +4172,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Processes have been strengthened in relation to the capturing and sharing learning from events and related planning. This work strand builds upon these improvements, with new national Events guidance",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4188,8 +4188,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. The requirements of record-keeping are contained within the Joint Operating Principle (JOP's) including the need to ensure that commanders record and are given the means to do so.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4204,8 +4204,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. The requirements of record-keeping are contained within the Joint Operating Principle (JOP's) including the need to ensure that commanders record and are given the means to do so.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4220,8 +4220,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4236,8 +4236,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. This is considered as part of a number of recommendations on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate. The research projects ar",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4252,8 +4252,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The stretcher review has been completed and shared with relevant groups and as such this recommendation can be marked as complete.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4268,8 +4268,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4284,8 +4284,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The police receive their funding from a number of sources, but the two main sources are central government funding and the policing precept component of council tax. Police and Crime Commissioners are",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4300,8 +4300,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. There has been a 16% increase in services that have completed R-130. This takes the total completion rate to 86% across all responding services (50 FR)",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4316,8 +4316,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Home Office Ministers recently committed to reviewing recommendations MR7 and MR8 with a view to delivering on their intent; namely to deliver better uniformity of standards in the private security in",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4332,8 +4332,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. New Operational and Tactical (Bronze and Silver) Commander's training - The new curriculum has been agreed and is set to be launched to forces for local delivery across Winter 2024. The course will be",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4348,8 +4348,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. The SIA has worked with providers of first aid, many of whom have adopted the additional training as a standard across sectors outside of the security industry. The SIA has worked to communicate the r",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4364,8 +4364,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. The Security Industry Authority (SIA) has worked with the Health and Safety Executive (HSE) to implement a sector-specific version of the Emergency First Aid at Work certificate that includes areas th",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4380,8 +4380,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Roll out across the NHS is complete.",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4396,8 +4396,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. The Major Incident Triage Tool was launched in April 2023 and has been rolled out across the NHS. - now marked COMPLETE",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4412,8 +4412,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. CRMI group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Command' sub-groups of the programme. Revis",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4428,8 +4428,8 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as 'JOPs' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, whi",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
@@ -4444,10 +4444,11 @@
         "source_type": "official_report",
         "date": "2025-12",
         "description": "Accepted in full. Status: Completed. Review of the Marauding Terrorist Attack Joint Operating Principles (MTA JOPs) - Please see recommendation 45",
-        "approved": false,
-        "approved_at": null,
+        "approved": true,
+        "approved_at": "2026-04-30",
         "submitted_by": null
       }
     ],
-    "notes": "Source: MAI government tracker (2025). Rec 169: Those organisations should consider what changes need to be . Match score: 22."  }
+    "notes": "Source: MAI government tracker (2025). Rec 169: Those organisations should consider what changes need to be . Match score: 22."
+  }
 }
