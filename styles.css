@@ -1,3 +1,45 @@
+/* ── Skip link (GOV.UK accessibility requirement) ────────────── */
+.skip-link {
+    position: absolute;
+    top: -999px;
+    left: -999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    background: #ffdd00;
+    color: #0b0c0c;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    z-index: 9999;
+}
+.skip-link:focus {
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    outline: 3px solid #0b0c0c;
+    outline-offset: 0;
+}
+
+/* ── GOV.UK focus style: yellow highlight, black outline ─────── */
+a:focus,
+button:focus,
+select:focus,
+input:focus,
+details summary:focus,
+[role="button"]:focus {
+    outline: 3px solid #ffdd00;
+    outline-offset: 0;
+    background-color: #ffdd00;
+    color: #0b0c0c;
+    text-decoration: none;
+    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -11,7 +53,13 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    /* overflow-x must not be set here — it breaks position:sticky on the nav sidebar */
+}
+
+/* Contain horizontal overflow within the main content column only */
+.page-main {
     overflow-x: hidden;
+    min-width: 0;
 }
 
 h1 {
@@ -97,7 +145,6 @@ tr:hover {
         padding: 10px;
         margin: 0;
         border-radius: 0;
-        overflow-x: hidden;
     }
     
     /* Make table stack vertically on mobile */
@@ -366,4 +413,127 @@ tr:hover {
     #outcomeHeatmap {
         min-width: 0;
     }
+}
+
+/* ── Section anchor scroll offset ───────────────────────────── */
+#stackedBarSection,
+#legendSection,
+#outcomeSection,
+#helpSection,
+#sunburstSection,
+#actionsSection,
+#tableSection {
+    scroll-margin-top: 16px;
+}
+
+/* ── Two-column page layout (sidebar + main) ─────────────────── */
+.page-layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 32px;
+    align-items: start;
+}
+
+.page-main {
+    min-width: 0; /* prevent grid blowout */
+}
+
+/* ── GOV.UK-style sticky section nav ─────────────────────────── */
+#sectionNav {
+    position: sticky;
+    top: 20px;
+    background: #f3f2f1;
+    border: 1px solid #b1b4b6;
+    padding: 16px 18px 14px 18px;
+}
+
+#sectionNav summary.nav-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0b0c0c;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #b1b4b6;
+    padding-bottom: 8px;
+    cursor: pointer;
+    list-style: none; /* hide default browser triangle */
+    user-select: none;
+}
+
+#sectionNav summary.nav-title::after {
+    content: ' ▲';
+    font-size: 11px;
+    font-weight: normal;
+    color: #505a5f;
+}
+
+#sectionNav details:not([open]) summary.nav-title::after {
+    content: ' ▼';
+}
+
+#sectionNav details:not([open]) summary.nav-title {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* Remove default WebKit marker */
+#sectionNav summary.nav-title::-webkit-details-marker {
+    display: none;
+}
+
+#sectionNav ol {
+    margin: 0;
+    padding: 0 0 0 18px;
+    list-style: decimal;
+}
+
+#sectionNav li {
+    margin: 0;
+    padding: 2px 0;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+#sectionNav a {
+    color: #1d70b8;
+    text-decoration: underline;
+}
+
+#sectionNav a:hover {
+    color: #003078;
+    background-color: #ffdd00;
+    text-decoration: none;
+}
+
+#sectionNav a:visited {
+    color: #4c2c92;
+}
+
+/* Active section highlight */
+#sectionNav li:has(a.nav-active) {
+    background: #e8f0fb;
+    border-radius: 2px;
+}
+
+#sectionNav a.nav-active {
+    color: #003078;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* ── Mobile: collapse sidebar, show nav inline ───────────────── */
+@media screen and (max-width: 900px) {
+    .page-layout {
+        display: block;
+    }
+
+    #sectionNav {
+        position: static;
+        margin: 0 0 24px 0;
+    }
+
+    #sectionNav li {
+        font-size: 14px;
+    }
+
 }

@@ -4,21 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UK Public Inquiries Dashboard</title>
+    <meta name="description" content="Track the implementation of recommendations from major UK public inquiries, including Grenfell Tower, Infected Blood, and Manchester Arena.">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a href="#page-main" class="skip-link">Skip to main content</a>
     <div class="container">
         <h1>UK Public Inquiries Dashboard</h1>
         <h3 style="text-align: center; color: #7c7b7b;"><i>Explore the charts by clicking on the sections to navigate through the data</i></h3>
 
-        
-        <div class="chart-container">
+        <div class="page-layout">
+
+        <!-- Sticky section navigation (desktop sidebar) -->
+        <nav id="sectionNav" aria-label="Jump to section">
+            <details open>
+                <summary class="nav-title">Contents</summary>
+                <ol>
+                    <li><a href="#stackedBarSection">Recommendations overview</a></li>
+                    <li><a href="#legendSection">Definitions</a></li>
+                    <li><a href="#outcomeSection">Recommendation outcome status</a></li>
+                    <li><a href="#helpSection">Help improve this dashboard</a></li>
+                    <li><a href="#sunburstSection">Inquiry explorer</a></li>
+                    <li><a href="#actionsSection">Actions explorer</a></li>
+                    <li><a href="#tableSection">Data table</a></li>
+                </ol>
+            </details>
+        </nav>
+
+        <main class="page-main" id="page-main">
+
+        <div id="stackedBarSection" class="chart-container">
             <h2>Overall Recommendations by Action Category and Change Type</h2>
             <h3 style="text-align: center; color: #7c7b7b;"><i>Action Categories and Change Types are custom labels applied to unaltered inquiry recommendations (definitions below)</i></h3>
             <div id="stackedBarChart" style="overflow-x: auto; overflow-y: visible;"></div>
         </div>
-        <div>
+        <div id="legendSection">
                 <details class="legend-section" open>
                     <summary><h2>Action-Based Categories (Recommendations Analysis by ChatGPT 4-o)</h2></summary>
                     <ul>
@@ -53,46 +74,6 @@
                     </ul>
                 </details>
         </div>
-        <div class="chart-container">
-            <h2>Number of Recommendations by Administration/Department and inquiry</h2>
-            <div class="chart-mobile-banner">
-                <span>Interactive chart — best viewed on a wider screen.</span>
-                <button class="chart-toggle-btn" data-target="sunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
-            </div>
-            <div id="sunburstChart" class="chart-collapsible"></div>
-        </div>
-        <div class="chart-container">
-            <h2>Actions recommended for each Administration/Department and type of action advised</h2>
-            <h3 style="text-align: center; color: #7c7b7b;"><i>Hover over or click on the chart below to view recommendation in full</i></h3>
-            <div class="chart-mobile-banner">
-                <span>Interactive chart — best viewed on a wider screen.</span>
-                <button class="chart-toggle-btn" data-target="actionsSunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
-            </div>
-            <div id="actionsSunburstChart" class="chart-collapsible"></div>
-        </div>
-        
-        <!-- Contribution Banner -->
-        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 30px; border-radius: 15px; margin: 40px 0; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
-            <h2 style="margin: 0 0 20px 0; color: white; font-size: 32px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">💜 Help Improve This Dashboard</h2>
-            <p style="font-size: 18px; margin: 20px auto; max-width: 700px; line-height: 1.6;">Your contributions help track government accountability and inquiry outcomes</p>
-            
-            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0 20px 0;">
-                <div style="position: relative;">
-                    <span style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #4CAF50; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; white-space: nowrap; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">✨ FREE WAY TO HELP</span>
-                    <a href="https://forms.gle/Xni4V6NhmhEHGNmv8" target="_blank" style="background: white; color: #667eea; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: inline-block;">
-                        📝 Submit Evidence Links
-                    </a>
-                </div>
-                <a href="https://buymeacoffee.com/daphnis605" target="_blank" style="background: #FFDD00; color: #000; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: inline-block;">
-                    ☕ Buy Me a Hot Chocolate
-                </a>
-            </div>
-            
-            <p style="font-size: 14px; opacity: 0.9; margin-top: 20px;">
-                Learn more at <a href="https://Sophie-Lynne.com/Projects" target="_blank" style="color: #FFD700; text-decoration: underline; font-weight: bold;">Sophie-Lynne.com/Projects</a>
-            </p>
-        </div>
-
         <!-- Outcome Visualizations Section -->
         <div id="outcomeSection" class="chart-container">
             <h2>Recommendation Outcome Status</h2>
@@ -112,6 +93,47 @@
             <div id="outcomeInquiryChart" style="overflow-x:auto;margin-bottom:16px;"></div>
         </div>
 
+        <!-- Contribution Banner -->
+        <div id="helpSection" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 30px; border-radius: 15px; margin: 40px 0; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
+            <h2 style="margin: 0 0 20px 0; color: white; font-size: 32px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">💜 Help Improve This Dashboard</h2>
+            <p style="font-size: 18px; margin: 20px auto; max-width: 700px; line-height: 1.6;">Your contributions help track government accountability and inquiry outcomes</p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0 20px 0;">
+                <div style="position: relative;">
+                    <span style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #4CAF50; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; white-space: nowrap; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">✨ FREE WAY TO HELP</span>
+                    <a href="https://forms.gle/Xni4V6NhmhEHGNmv8" target="_blank" style="background: white; color: #667eea; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: inline-block;">
+                        📝 Submit Evidence Links
+                    </a>
+                </div>
+                <a href="https://buymeacoffee.com/daphnis605" target="_blank" style="background: #FFDD00; color: #000; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: inline-block;">
+                    ☕ Buy Me a Hot Chocolate
+                </a>
+            </div>
+
+            <p style="font-size: 14px; opacity: 0.9; margin-top: 20px;">
+                Learn more at <a href="https://Sophie-Lynne.com/Projects" target="_blank" style="color: #FFD700; text-decoration: underline; font-weight: bold;">Sophie-Lynne.com/Projects</a>
+            </p>
+        </div>
+
+        <div id="sunburstSection" class="chart-container">
+            <h2>Number of Recommendations by Administration/Department and inquiry</h2>
+            <div class="chart-mobile-banner">
+                <span>Interactive chart — best viewed on a wider screen.</span>
+                <button class="chart-toggle-btn" data-target="sunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
+            </div>
+            <div id="sunburstChart" class="chart-collapsible"></div>
+        </div>
+        <div id="actionsSection" class="chart-container">
+            <h2>Actions recommended for each Administration/Department and type of action advised</h2>
+            <h3 style="text-align: center; color: #7c7b7b;"><i>Hover over or click on the chart below to view recommendation in full</i></h3>
+            <div class="chart-mobile-banner">
+                <span>Interactive chart — best viewed on a wider screen.</span>
+                <button class="chart-toggle-btn" data-target="actionsSunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
+            </div>
+            <div id="actionsSunburstChart" class="chart-collapsible"></div>
+        </div>
+
+        <div id="tableSection">
         <h2>Inquiries Table</h2>
         <h3 style="text-align: center; color: #7c7b7b;"><i>Recommendations compiled from original inquiry PDFs with custom labels (defined above). Outcomes sourced from publicly available evidence.</i></h3>
         <div id="evidenceCountBadge"></div>
@@ -217,6 +239,9 @@
                     <tbody></tbody>
                 </table>
             </div>
+        </div><!-- end tableSection -->
+        </main><!-- end page-main -->
+        </div><!-- end page-layout -->
 
     <script>
     // Define color scales for ActionCategory and ChangeType
@@ -1647,6 +1672,72 @@
         btn.textContent = isCollapsed ? '▼ Expand' : '▲ Collapse';
         btn.setAttribute('aria-expanded', String(!isCollapsed));
     }
+
+    // ── Sticky nav: highlight active section via IntersectionObserver ──
+    (function () {
+        const sectionIds = [
+            'stackedBarSection', 'legendSection', 'outcomeSection',
+            'helpSection', 'sunburstSection', 'actionsSection', 'tableSection'
+        ];
+        const navLinks = {};
+        sectionIds.forEach(id => {
+            const a = document.querySelector('#sectionNav a[href="#' + id + '"]');
+            if (a) navLinks[id] = a;
+        });
+
+        let activeId = null;
+
+        function setActive(id) {
+            if (id === activeId) return;
+            if (activeId && navLinks[activeId]) {
+                navLinks[activeId].classList.remove('nav-active');
+                navLinks[activeId].removeAttribute('aria-current');
+            }
+            activeId = id;
+            if (id && navLinks[id]) {
+                navLinks[id].classList.add('nav-active');
+                navLinks[id].setAttribute('aria-current', 'true');
+            }
+        }
+
+        const observer = new IntersectionObserver(entries => {
+            // Find the topmost section currently intersecting
+            let topEntry = null;
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    if (!topEntry || e.boundingClientRect.top < topEntry.boundingClientRect.top) {
+                        topEntry = e;
+                    }
+                }
+            });
+            if (topEntry) setActive(topEntry.target.id);
+        }, {
+            rootMargin: '0px 0px -60% 0px',
+            threshold: 0
+        });
+
+        sectionIds.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) observer.observe(el);
+        });
+
+        // Fallback: on scroll, mark the section whose top is closest above viewport centre
+        window.addEventListener('scroll', function () {
+            const mid = window.innerHeight / 2;
+            let best = null, bestDist = Infinity;
+            sectionIds.forEach(id => {
+                const el = document.getElementById(id);
+                if (!el) return;
+                const rect = el.getBoundingClientRect();
+                const dist = Math.abs(rect.top - mid);
+                if (rect.top <= mid + 40 && dist < bestDist) {
+                    bestDist = dist;
+                    best = id;
+                }
+            });
+            if (best) setActive(best);
+        }, { passive: true });
+    })();
 
     </script>
 
