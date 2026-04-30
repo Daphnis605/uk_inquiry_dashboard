@@ -183,6 +183,7 @@
                             <th class="sortable" data-column="3">Action Category <span class="sort-indicator"></span></th>
                             <th class="sortable" data-column="4">Recommendation <span class="sort-indicator"></span></th>
                             <th class="sortable" data-column="5">Outcome (Evidence of Action) <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-column="6">Evidence Status <span class="sort-indicator"></span></th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -365,6 +366,19 @@
                     submitLink.className = 'submit-evidence-link';
                     outcomeCell.appendChild(submitLink);
                 }
+
+                // Add evidence status cell
+                const statusCell = row.insertCell(6);
+                statusCell.setAttribute('data-label', 'Evidence Status:');
+                const evStatus = inquiry.enrichedOutcome && inquiry.enrichedOutcome.evidence_status;
+                if (evStatus) {
+                    const badge = document.createElement('span');
+                    badge.className = `status-badge status-${evStatus}`;
+                    badge.textContent = evStatus.replace(/_/g, ' ');
+                    statusCell.appendChild(badge);
+                } else {
+                    statusCell.textContent = '—';
+                }
             });
             
             // Update result count
@@ -423,38 +437,62 @@
         });
 
         // Download functions
+        // Expands to one row per evidence item. Recommendations with no evidence get one row
+        // with blank evidence fields.
+        function expandToEvidenceRows(data) {
+            const rows = [];
+            data.forEach(row => {
+                const base = [row.department, row.name, row.link, row.changeType, row.actionCategory, row.recommendation];
+                const evStatus = (row.enrichedOutcome && row.enrichedOutcome.evidence_status) || '';
+                const approved = row.enrichedOutcome
+                    ? row.enrichedOutcome.evidence.filter(ev => ev.approved)
+                    : [];
+                if (approved.length === 0) {
+                    rows.push({ base, evStatus, ev: null });
+                } else {
+                    approved.forEach(ev => rows.push({ base, evStatus, ev }));
+                }
+            });
+            return rows;
+        }
+
         function downloadCSV() {
-            const headers = ['Administration/Department', 'Inquiry Name', 'Report Link', 'Change Type', 'Action Category', 'Recommendation', 'Outcome'];
+            const headers = [
+                'Administration/Department', 'Inquiry Name', 'Report Link',
+                'Change Type', 'Action Category', 'Recommendation',
+                'Evidence Status', 'Evidence Title', 'Evidence URL',
+                'Evidence Type', 'Source Type', 'Evidence Date'
+            ];
             const csvContent = [
                 headers.join(','),
-                ...currentFilteredData.map(row => {
-                    const outcomeText = formatOutcomeForExport(row);
-                    return [
-                        escapeCSV(row.department),
-                        escapeCSV(row.name),
-                        escapeCSV(row.link),
-                        escapeCSV(row.changeType),
-                        escapeCSV(row.actionCategory),
-                        escapeCSV(row.recommendation),
-                        escapeCSV(outcomeText)
-                    ].join(',');
-                })
+                ...expandToEvidenceRows(currentFilteredData).map(({ base, evStatus, ev }) => [
+                    ...base.map(escapeCSV),
+                    escapeCSV(evStatus),
+                    escapeCSV(ev ? ev.title || '' : ''),
+                    escapeCSV(ev ? ev.url || '' : ''),
+                    escapeCSV(ev ? ev.evidence_type || '' : ''),
+                    escapeCSV(ev ? ev.source_type || '' : ''),
+                    escapeCSV(ev ? ev.date || '' : ''),
+                ].join(','))
             ].join('\n');
 
             downloadFile(csvContent, 'inquiries_data.csv', 'text/csv;charset=utf-8;');
         }
 
         function downloadJSON() {
-            const jsonData = currentFilteredData.map(row => ({
-                'Administration/Department': row.department,
-                'Inquiry Name': row.name,
-                'Report Link': row.link,
-                'Change Type': row.changeType,
-                'Action Category': row.actionCategory,
-                'Recommendation': row.recommendation,
-                'Outcome': row.enrichedOutcome
-                    ? row.enrichedOutcome.evidence.filter(ev => ev.approved)
-                    : null
+            const jsonData = expandToEvidenceRows(currentFilteredData).map(({ base, evStatus, ev }) => ({
+                'Administration/Department': base[0],
+                'Inquiry Name': base[1],
+                'Report Link': base[2],
+                'Change Type': base[3],
+                'Action Category': base[4],
+                'Recommendation': base[5],
+                'Evidence Status': evStatus,
+                'Evidence Title': ev ? ev.title || '' : '',
+                'Evidence URL': ev ? ev.url || '' : '',
+                'Evidence Type': ev ? ev.evidence_type || '' : '',
+                'Source Type': ev ? ev.source_type || '' : '',
+                'Evidence Date': ev ? ev.date || '' : '',
             }));
 
             const jsonContent = JSON.stringify(jsonData, null, 2);
@@ -462,41 +500,29 @@
         }
 
         function downloadExcel() {
-            // Create HTML table format that Excel can read
-            const headers = ['Administration/Department', 'Inquiry Name', 'Report Link', 'Change Type', 'Action Category', 'Recommendation', 'Outcome'];
+            const headers = [
+                'Administration/Department', 'Inquiry Name', 'Report Link',
+                'Change Type', 'Action Category', 'Recommendation',
+                'Evidence Status', 'Evidence Title', 'Evidence URL',
+                'Evidence Type', 'Source Type', 'Evidence Date'
+            ];
             let excelContent = '<html><head><meta charset="utf-8"><\/head><body><table border="1">';
-            
-            // Add headers
             excelContent += '<tr>' + headers.map(h => `<th>${h}</th>`).join('') + '</tr>';
-            
-            // Add data rows
-            currentFilteredData.forEach(row => {
-                const outcomeText = formatOutcomeForExport(row);
+
+            expandToEvidenceRows(currentFilteredData).forEach(({ base, evStatus, ev }) => {
                 excelContent += '<tr>';
-                excelContent += `<td>${escapeHTML(row.department)}</td>`;
-                excelContent += `<td>${escapeHTML(row.name)}</td>`;
-                excelContent += `<td>${escapeHTML(row.link)}</td>`;
-                excelContent += `<td>${escapeHTML(row.changeType)}</td>`;
-                excelContent += `<td>${escapeHTML(row.actionCategory)}</td>`;
-                excelContent += `<td>${escapeHTML(row.recommendation)}</td>`;
-                excelContent += `<td>${escapeHTML(outcomeText)}</td>`;
+                base.forEach(v => { excelContent += `<td>${escapeHTML(v)}</td>`; });
+                excelContent += `<td>${escapeHTML(evStatus)}</td>`;
+                excelContent += `<td>${escapeHTML(ev ? ev.title || '' : '')}</td>`;
+                excelContent += `<td>${escapeHTML(ev ? ev.url || '' : '')}</td>`;
+                excelContent += `<td>${escapeHTML(ev ? ev.evidence_type || '' : '')}</td>`;
+                excelContent += `<td>${escapeHTML(ev ? ev.source_type || '' : '')}</td>`;
+                excelContent += `<td>${escapeHTML(ev ? ev.date || '' : '')}</td>`;
                 excelContent += '</tr>';
             });
-            
+
             excelContent += '<\/table><\/body><\/html>';
             downloadFile(excelContent, 'inquiries_data.xls', 'application/vnd.ms-excel');
-        }
-
-        // Helper function to format outcome for export
-        function formatOutcomeForExport(row) {
-            const enrichedOutcome = row.enrichedOutcome;
-            if (enrichedOutcome && enrichedOutcome.evidence && enrichedOutcome.evidence.some(ev => ev.approved)) {
-                return enrichedOutcome.evidence
-                    .filter(ev => ev.approved)
-                    .map(ev => ev.url ? `${ev.title || 'Evidence'}: ${ev.url}` : (ev.title || 'Evidence'))
-                    .join(' | ');
-            }
-            return '-';
         }
 
         // Helper function to escape CSV values
@@ -597,6 +623,10 @@
                         case 5:
                             aVal = (a.enrichedOutcome && a.enrichedOutcome.evidence && a.enrichedOutcome.evidence.some(ev => ev.approved)) ? '1' : '0';
                             bVal = (b.enrichedOutcome && b.enrichedOutcome.evidence && b.enrichedOutcome.evidence.some(ev => ev.approved)) ? '1' : '0';
+                            break;
+                        case 6:
+                            aVal = (a.enrichedOutcome && a.enrichedOutcome.evidence_status) || '';
+                            bVal = (b.enrichedOutcome && b.enrichedOutcome.evidence_status) || '';
                             break;
                         default: return 0;
                     }
