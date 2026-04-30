@@ -2744,5 +2744,2686 @@
       }
     ],
     "notes": "Source: GTI Phase 2 government tracker (Dec 2025). Rec 61: Grenfell Tower Inquiry Recommendation: 33.22.F Up-to-date in. Match score: 31."
+  "Manchester Arena Inquiry__236": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 1",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. We utilised the existing call for evidence on the Keeping Children Safe in Education (KSCIE) statutory guidance to gather views from the sector to inform our response. We have these and have analysed",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 1: A clean start should be possible when a student moves from s. Match score: 49."
+  },
+  "Manchester Arena Inquiry__197": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 2",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. All ambulance trusts have processes in place to share information between emergency services control rooms, the guidance is being utilised to implement best practice and this recommendation can be mar",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 2: All ambulance service trusts should consider appointing a pe. Match score: 36."
+  },
+  "Manchester Arena Inquiry__182": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 3",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Mutual aid is a specific requirement for the interoperable capabilities (Hazardous Area Response Teams (HART) and Special Operations Response Team (SORT)) and is included in the NHS Emergency Prepared",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 3: All ambulance service trusts should undertake training and e. Match score: 20."
+  },
+  "Manchester Arena Inquiry__204": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 4",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. There has been a 33% increase in services that have completed R-131. This takes the total completion rate to 64% across all responding services (50 FRS). Evidence includes establishing 'operations cel",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 4: All fire and rescue services should consider appointing a pe. Match score: 36."
+  },
+  "Manchester Arena Inquiry__103": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 5",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Training and awareness around major incidents for Control Room staff is widely reported as progressing well. Many services have incorporated Control staff routinely into training plans, for example ex",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 5: All North West Fire Control staff should be trained on the b. Match score: 33."
+  },
+  "Manchester Arena Inquiry__127": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 6",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Post the attack a new multi-agency radio control talk group was developed, which is shared with police, fire and ambulance and monitored 24/7 in control rooms. There are established tri service testin",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 6: All police services should ensure that they have made adequa. Match score: 28."
+  },
+  "Manchester Arena Inquiry__133": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 7",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 7: All police services should ensure that they have robust vers. Match score: 16."
+  },
+  "Manchester Arena Inquiry__178": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 8",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Ambulance Trusts have submitted bids to their lead commissioners. NHS England has reviewed these against the EPRR Core Standards assurance process.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 8: Ambulance service trusts should review their capacity to res. Match score: 27."
+  },
+  "Manchester Arena Inquiry__68": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 9",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Terrorism (Protection of Premises) Bill progressed through Parliament between September 2024 - March 2025. It received Royal Assent on 3 April 2025. The Government intends for there to be an imple",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 9: A Protect Duty, as set out above, should be enacted into law. Match score: 15."
+  },
+  "Manchester Arena Inquiry__189": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 10",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. CRMI group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Command' sub-groups of the programme. Revis",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 10: A significant issue in a mass casualty situation is that all. Match score: 54."
+  },
+  "Manchester Arena Inquiry__215": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 11",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. There are no plans to stop statutory health education as part of the national curriculum, including first aid and CPR. The guidance is currently under review and further content in this space will be",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 11: As of September 2020, all primary and secondary school pupil. Match score: 39."
+  },
+  "Manchester Arena Inquiry__75": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 12",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. It is confirmed that in March of 2024 we completed the remainder of the Sgt and Inspector (and Chief Inspector) Major Incident Command training. That means all of our Sgts and Inspectors (Chief Inspec",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 12: British Transport Police should ensure that all its Inspecto. Match score: 23."
+  },
+  "Manchester Arena Inquiry__77": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 13",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. It is confirmed that in March of 2024 we completed the remainder of the Sgt and Inspector (and Chief Inspector) Major Incident Command training. That means all of our Sgts and Inspectors (Chief Inspec",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 13: British Transport Police should ensure that all its Sergeant. Match score: 43."
+  },
+  "Manchester Arena Inquiry__80": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 14",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. CLIO the decision making system is now in place across BTP and was tested during Golden Orb.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 14: British Transport Police should reflect on its approach to r. Match score: 24."
+  },
+  "Manchester Arena Inquiry__76": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 15",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. It is confirmed that in March of 2024 we completed the remainder of the Sgt and Inspector (and Chief Inspector) Major Incident Command training. That means all of our Sgts and Inspectors (Chief Inspec",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 15: British Transport Police should review its procedures to ens. Match score: 19."
+  },
+  "Manchester Arena Inquiry__78": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 16",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. New Command and Control National Guidance-Please see recommendation 58 This duplicates some of the work covered as per V1 MR9. BTPs jurisdiction is too extensive to have bespoke agreements in place fo",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 16: British Transport Police should work with the Home Office po. Match score: 62."
+  },
+  "Manchester Arena Inquiry__73": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 17",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. All HO Forces with 'category one' locations have been identified (those with significant footfall). Those identified have written and signed MOU's (memorandum of understanding) detailing jurisdiction",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 17: BTP and all Home Office Police Services should conduct a rev. Match score: 42."
+  },
+  "Manchester Arena Inquiry__158": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 19",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. We are currently awaiting further data from services regarding their provision as per recommendation 85. Once this has been received we will publish the compliance rate.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 19: Consideration should also be given by those organisations to. Match score: 19."
+  },
+  "Manchester Arena Inquiry__72": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 20",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. This recommendation is now complete.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 20: Consideration should be given to whether contractors who car. Match score: 14."
+  },
+  "Manchester Arena Inquiry__137": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 21",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. New Training for Firearms Officers and Commanders - Revised and refreshed training for both strategic firearms command (SFC), cadre tactical firearms commanders (Cadre TFC) and operational firearms co",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 21: Counter Terrorism Policing Headquarters and the College of P. Match score: 52."
+  },
+  "Manchester Arena Inquiry__138": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 22",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. NPCC Update: New Training for Unarmed Officers - The new e-learning training modules created to prepare all frontline police officers and supervisors for responding to a range of threat related incide",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 22: Counter Terrorism Policing Headquarters and the College of P. Match score: 43."
+  },
+  "Manchester Arena Inquiry__151": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 23",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 23: Counter Terrorism Policing Headquarters and the College of P. Match score: 35."
+  },
+  "Manchester Arena Inquiry__145": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 24",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. The requirement for revising this approved professional practice (APP) was agreed upon in 2022. This review is now complete, and the updated guidance was launched to forces in April 2024. As the new C",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 24: Counter Terrorism Policing Headquarters and the College of P. Match score: 32."
+  },
+  "Manchester Arena Inquiry__147": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 25",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. A working group has been setup to take forward the work identified in the Clinical Response to Major Incidents (CRMI) review. This will include MAI recommendations relevant to: - Ambulance Personnel -",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 25: Counter Terrorism Policing Headquarters should review the ev. Match score: 37."
+  },
+  "Manchester Arena Inquiry__148": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 26",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. A working group has been setup to take forward the work identified in the Clinical Response to Major Incidents (CRMI) review. This will include MAI recommendations relevant to: - Ambulance Personnel -",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 26: Counter Terrorism Policing Headquarters should review the ex. Match score: 47."
+  },
+  "Manchester Arena Inquiry__113": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 27",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. This recommendation is high in compliance. Whilst there will always be local variations due to boundaries and organisational structures positive examples of progress include the role of LRFs, Safety A",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 27: Counter Terrorism Policing Headquarters should review the pr. Match score: 28."
+  },
+  "Manchester Arena Inquiry__172": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 28",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Guidance has been issued by the Local Resilience Forum (LRF) Portfolio instructing them regarding this recommendation.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 28: Each emergency service should ensure that it is represented . Match score: 19."
+  },
+  "Manchester Arena Inquiry__167": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 29",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. New Training First Aid Learning Programme (FALP) - The new FALP training now incorporates critical life saving elements alongside the recommendations of the Manchester Arena Inquiry. The revised FALP",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 29: Each police service must ensure that adequate time is alloca. Match score: 23."
+  },
+  "Manchester Arena Inquiry__136": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 30",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Force Incident Manager (FIM) Accredited Training - The FIM curriculum has been finalised along with accreditation processes and supporting guidance. A training team is being created, as delivery of th",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 30: Given the broad command responsibilities that the Force Duty. Match score: 37."
+  },
+  "Manchester Arena Inquiry__105": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 31",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. A high number of Fire and Rescue Services are reporting steady progress in this area. Examples include the use of technology to provide live-time information from Control Rooms to the incident and vic",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 31: Greater Manchester Fire and Rescue Service and North West Fi. Match score: 42."
+  },
+  "Manchester Arena Inquiry__109": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 32",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Operational Discretion is currently being reviewed nationally. Until such a time this is revised, all commanders continue to operate under National Operational Guidance (NOG).",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 32: Greater Manchester Fire and Rescue Service should ensure tha. Match score: 20."
+  },
+  "Manchester Arena Inquiry__112": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 33",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. In addition to previous updates, the use of body worn video cameras are becoming more prevalent in the UK FRS. The use of trained loggists and routine use of documentation to capture and record decisi",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 33: Greater Manchester Fire and Rescue Service should reflect on. Match score: 26."
+  },
+  "Manchester Arena Inquiry__111": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 34",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Positive examples are being shared around the use of alerting systems, for example Blackberry Athoc. This allows for quick time sharing of critical information (e.g. a METHANE message).",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 34: Greater Manchester Fire and Rescue Service should review its. Match score: 45."
+  },
+  "Manchester Arena Inquiry__110": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 35",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. As per the previous update, there is wide evidence and supporting trend of formalised command qualifications and competencies. These include awarding bodies, such as Skills for Justice and recognised",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 35: Greater Manchester Fire and Rescue Service should review the. Match score: 28."
+  },
+  "Manchester Arena Inquiry__84": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 36",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Major Incident Plan is managed by a specialist team within the Civil Contingencies and Resilience Unit who have relevant training and experience. Any updates or changes are made in consultation wi",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 36: Greater Manchester Police should ensure that its plans for r. Match score: 50."
+  },
+  "Manchester Arena Inquiry__81": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 37",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. NPCC Update: CTPHQ/Plato Recommendation Review-See recommendation 13 NPCC Update: New Operational and Tactical (Bronze and Silver) Commander's training - The new curriculum has been agreed and is set",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 37: Greater Manchester Police should ensure that its role cards . Match score: 20."
+  },
+  "Manchester Arena Inquiry__86": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 38",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. CTPHQ/Plato Recommendation Review In June 2023, CTPHQ commenced a proactive and supplementary review of Volume 2 recommendations. This review enabled formal monitoring of developments around specific",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 38: Greater Manchester Police should reflect on its approach to . Match score: 24."
+  },
+  "Manchester Arena Inquiry__85": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 39",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. NPCC Update: CTPHQ/Plato Recommendation Review-See recommendation 13 NPCC Update: New Command and Control National Guidance-See recommendation 58 GMP's Operation Plato Marauding Terrorist Attack Overa",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 39: Greater Manchester Police should review its Operation Plato . Match score: 33."
+  },
+  "Manchester Arena Inquiry__82": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 40",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. GMP's Major Incident Plan has a section on the capabilities of Greater Manchester Fire and Rescue Service, and this includes details of its specialist assets such as the Specialist Response Team. This",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 40: Greater Manchester Police's Major Incident Plan should be re. Match score: 35."
+  },
+  "Manchester Arena Inquiry__83": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 41",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. GMP's Major Incident Plan has a section on the capabilities of Greater Manchester Fire and Rescue Service, and this includes details of its specialist assets such as the Specialist Response Team. This",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 41: Greater Manchester Police's Major Incident Plan should be re. Match score: 40."
+  },
+  "Manchester Arena Inquiry__114": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 42",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. There has been a 33% increase in services that have completed R-131. This takes the total completion rate to 64% across all responding services (50 FRS). Evidence includes establishing 'operations cel",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 42: SMG should review its processes to ensure that it shares wit. Match score: 42."
+  },
+  "Manchester Arena Inquiry__212": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 43",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Ten Second Triage, which has been introduced for use by first responders at the scene of a major incident, includes appropriate visible identifiers, such as a triage label. These should to be placed o",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 43: Guidance should be provided to event healthcare providers, t. Match score: 64."
+  },
+  "Manchester Arena Inquiry__179": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 44",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Following the ambulance trust's reviews and submissions of their bids to their lead commissioners, NHS England and NHS Resilience Emergency Capabilities Unit is establishing a cross-functional working",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 44: Having carried out that review, the trusts should make recom. Match score: 35."
+  },
+  "Manchester Arena Inquiry__153": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 45",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Chief Constables agreed at National Chiefs Council the availability of EOD Dogs. This is now included in the Strategic Policing Requirement. Workstream has been completed and closed.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 45: His Majesty's Inspectorate of Constabulary and Fire and Resc. Match score: 41."
+  },
+  "Manchester Arena Inquiry__132": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 46",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 46: His Majesty's Inspectorate of Constabulary and Fire and Resc. Match score: 44."
+  },
+  "Manchester Arena Inquiry__131": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 47",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Whilst each individual police service is operationally responsible for ensuring they have sufficient resource to deliver against this recommendation, this new approved professional practice (APP) is a",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 47: His Majesty's Inspectorate of Constabulary and Fire and Resc. Match score: 46."
+  },
+  "Manchester Arena Inquiry__225": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 48",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Partially accepted. Status: In progress. Following the recommendations of the Statutory Inquiries Committee on the efficacy of the law and practice relating to statutory inquiries under the Inquiries Act 2005 the Cabinet Office is currently",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 48: It is recommended that consideration be given to the creatio. Match score: 54."
+  },
+  "Manchester Arena Inquiry__192": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 49",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Once regulatory requirements are confirmed, the proposal is to roll out in a phased approach as more evidence in relation to use in different patient groups reviewed.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 49: If the decision is that the regulatory regime should be alte. Match score: 44."
+  },
+  "Manchester Arena Inquiry__65": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 50",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Arena, and every SMG venue, now has a dedicated security manager, each of whom is required to complete an Advanced Diploma in Counter-Terrorism Risk Management. All SMG venues, including Mancheste",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 50: Improvements, to the extent that they have not already been . Match score: 28."
+  },
+  "Manchester Arena Inquiry__66": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 51",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. All Showsec staff must now undertake ACT (Action Counters Terrorism) Security training before working for Showsec, and must undergo annual refresher training. They must also undertake e-learning modul",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 51: Improvements, to the extent that they have not already been . Match score: 28."
+  },
+  "Manchester Arena Inquiry__232": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 52",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Counter-Extremism sprint has concluded and the Commission for Countering Extremism's report helped inform its findings and the recommendations which are being considered. The Government values the",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 52: In 2021, the Commission for Countering Extremism published a. Match score: 32."
+  },
+  "Manchester Arena Inquiry__226": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 53",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Under section 35(1) of the Inquiries Act 2005 it is an offence for an individual to fail without reasonable excuse to do anything that he is required to by notice under section 21 of the Inquiries Act",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 53: I recommend that the Crown Prosecution Service establish a w. Match score: 29."
+  },
+  "Manchester Arena Inquiry__234": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 54",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. We utilised the existing call for evidence on the Keeping Children Safe in Education (KSCIE) statutory guidance to gather views from the sector to inform our response. We have these and have analysed",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 54: I recommend that the Department for Education consider wheth. Match score: 83."
+  },
+  "Manchester Arena Inquiry__230": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 55",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The new Enhanced Contact Vetting Scheme (ECV) was introduced on 9 June 2025 under section 23 the Authorised Communications Controls and Interceptions (ACCI) policy framework. ECV enables us to conduct",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 55: Robust assessment of the risk a prisoner poses for radicalis. Match score: 48."
+  },
+  "Manchester Arena Inquiry__227": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 56",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Partially accepted. Status: In progress. The Ministry of Justice has noted the recommendation. There are no current plans to increase the maximum sentence for committing an offence under the Inquiries Act (it is currently 6 months, but will",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 56: I recommend that the Home Office give consideration to addre. Match score: 26."
+  },
+  "Manchester Arena Inquiry__223": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 57",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Partially accepted. Status: In progress. Following the recommendations of the Statutory Inquiries Committee on the efficacy of the law and practice relating to statutory inquiries under the Inquiries Act 2005 the Cabinet Office is currently",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 57: I recommend that the Ministry of Justice give consideration . Match score: 23."
+  },
+  "Manchester Arena Inquiry__224": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 58",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Partially accepted. Status: In progress. Following the recommendations of the Statutory Inquiries Committee on the efficacy of the law and practice relating to statutory inquiries under the Inquiries Act 2005 the Cabinet Office is currently",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 58: I recommend that the Ministry of Justice, possibly in conjun. Match score: 36."
+  },
+  "Manchester Arena Inquiry__231": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 59",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Authorised Communications Controls and Interception Policy Framework was published in September 2022. This provides rules and guidance for prison staff to manage prisoner communications across pri",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 59: system should allow for proportionate restrictions to be app. Match score: 20."
+  },
+  "Manchester Arena Inquiry__235": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 60",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. We utilised the existing call for evidence on the Keeping Children Safe in Education (KSCIE) statutory guidance to gather views from the sector to inform our response. We have these and have analysed",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 60: I recommend to all educational establishments and the Depart. Match score: 51."
+  },
+  "Manchester Arena Inquiry__171": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 61",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. MHCLG is working on proposals for a new peer review protocol for local resilience forums, which we hope to begin testing later in 2025/26.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 61: Local resilience forums have a vital role in the preparation. Match score: 27."
+  },
+  "Manchester Arena Inquiry__177": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 62",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Recommend to close and move to BAU - In December 2023 all 38 English LRFs report they have systems in place to identify and record the lessons learnt from all multi-agency exercises, and ensure change",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 62: Local resilience forums should establish procedures to ensur. Match score: 35."
+  },
+  "Manchester Arena Inquiry__173": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 63",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. MHCLG has selected a group of five local resilience forums in England to join the Stronger LRF trailblazer programme, which will launch in spring 2025. These are Cumbria LRF, Greater Manchester LRF, L",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 63: Local resilience forums should monitor attendance and partic. Match score: 32."
+  },
+  "Manchester Arena Inquiry__69": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 64",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The ProtectUK platform has been created and populated with guidance. Whilst this recommendation can be shown as complete the site continues to evolve and adapt to meet the needs of the different categ",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 64: NaCTSO should create a centralised library of training mater. Match score: 9."
+  },
+  "Manchester Arena Inquiry__70": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 65",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Risk Management Process has been completed and uploaded to ProtectUK. Whilst this recommendation can be shown as complete the process is currently being reviewed and aligned to ISO.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 65: NaCTSO should issue guidance in relation to the completion o. Match score: 15."
+  },
+  "Manchester Arena Inquiry__90": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 66",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Improving Event Planning - Processes have been strengthened in relation to the capturing and sharing learning from events and related planning. This work strand builds upon these improvements, with ne",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 66: North West Ambulance Service should ensure that all its site. Match score: 28."
+  },
+  "Manchester Arena Inquiry__91": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 67",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. A new process to capture these scenarios has been included in the North West Ambulance Service Incident Response Plan",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 67: North West Ambulance Service should ensure that it has a pol. Match score: 30."
+  },
+  "Manchester Arena Inquiry__89": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 68",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Improving Event Planning - Processes have been strengthened in relation to the capturing and sharing learning from events and related planning. This work strand builds upon these improvements, with ne",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 68: North West Ambulance Service should ensure that it has up-to. Match score: 26."
+  },
+  "Manchester Arena Inquiry__95": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 69",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Incident Response Plan has been updated and trained through annual commander training. North West Ambulance Service has invested in a Command training team which will focus on all levels of comman",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 69: North West Ambulance Service should ensure that its commande. Match score: 18."
+  },
+  "Manchester Arena Inquiry__93": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 70",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This recommendation is incorporated into exercising plans which will continue to be ongoing. As new staff are on boarded to the organisation, they will participate in multi agency exercising as part o",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 70: North West Ambulance Service should ensure that non speciali. Match score: 16."
+  },
+  "Manchester Arena Inquiry__100": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 71",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Record taking has been reviewed. The Incident Response Plan has been updated with new record processes. Body Worn Video Camera (BWVC) are now available to all Commanders, National Interagency Liaison",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 71: North West Ambulance Service should reflect on its approach . Match score: 25."
+  },
+  "Manchester Arena Inquiry__97": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 72",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Investment by North West Ambulance Service (NWAS) will increase the number of National Interagency Liaison Officers (NILOs) from 12 to 21. This will see an increase to the rota and geographical covera",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 72: North West Ambulance Service should review how it rosters Ta. Match score: 39."
+  },
+  "Manchester Arena Inquiry__88": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 73",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Part of the Predetermined Attendance (PDA) includes the Hazardous Area Response Teams (HART) and Specialist resources, (e.g. Specialist Operations Response Teams, Medical Emergency Response Incident T",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 73: North West Ambulance Service should review its Major Inciden. Match score: 35."
+  },
+  "Manchester Arena Inquiry__87": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 74",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Before the Inquiry's Volume 2 report was released, North West Ambulance Service (NWAS) introduced a Predetermined Attendance (PDA) in January 2021. A PDA is an advance agreement regarding what resourc",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 74: North West Ambulance Service should review its Major Inciden. Match score: 22."
+  },
+  "Manchester Arena Inquiry__94": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 75",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The North West Ambulance Service Incident Response Plan and action cards now reflect that in the early stages of an incident, first resources should, subject to a dynamic risk assessment, go forward a",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 75: North West Ambulance Service should review its Major Inciden. Match score: 32."
+  },
+  "Manchester Arena Inquiry__96": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 76",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Incident Response Plan has been updated and procedures within North West Ambulance Service Emergency Operation Centre (EOC) have been reviewed. A 'Complex Incident Hub (CIH)', which is a specialis",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 76: North West Ambulance Service should review its policies for . Match score: 32."
+  },
+  "Manchester Arena Inquiry__99": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 77",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. North West Ambulance Service (NWAS) in partnership with NHS England North West have reviewed the Mass Casualty Distribution Plan and updated as required to produce version 1.4.This went live 14 July 2",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 77: North West Ambulance Service should review its procedures wi. Match score: 32."
+  },
+  "Manchester Arena Inquiry__98": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 78",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Investment by North West Ambulance Service (NWAS) will increase the number of National Interagency Liaison Officers from 12 to 21 (17 NILOs as at 01/11/2023). This will see an increase to the rota and",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 78: North West Ambulance Service should review the number of Tac. Match score: 27."
+  },
+  "Manchester Arena Inquiry__92": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 79",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. This practice is included in North West Ambulance Service annual commander training and exercises",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 79: North West Ambulance Service should train its Operational Co. Match score: 21."
+  },
+  "Manchester Arena Inquiry__102": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 80",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. There is a good rhythm being reported across the country building on the culture of testing and exercising. These include tri-service exercises focussing on local risk, threat and profile (for example",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 80: North West Fire Control should ensure that it regularly test. Match score: 26."
+  },
+  "Manchester Arena Inquiry__108": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 81",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. There has been a 30% increase in services that have completed this recommendation in the last reporting period. This takes the total completion rate to 60% across all responding services (50 FRS). To",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 81: North West Fire Control should reflect on its approach to re. Match score: 25."
+  },
+  "Manchester Arena Inquiry__107": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 82",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Steady progress is being made but this is largely influenced by the different operational and resourcing models of Control Rooms around the country.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 82: North West Fire Control should review how it allocates the b. Match score: 52."
+  },
+  "Manchester Arena Inquiry__106": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 83",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Compliance in this recommendation area is high. Services continue to evidence progress, with examples including use of multi-agency hailing groups and talk groups on the Airwave network as well as dev",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 83: North West Fire Control should review its guidance and polic. Match score: 44."
+  },
+  "Manchester Arena Inquiry__104": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 84",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Control room operations and systems vary across the country, but all have technology to allow logging of key information. This can be shared with partners and responding teams. Examples include voice",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 84: North West Fire Control should review the way it captures an. Match score: 36."
+  },
+  "Manchester Arena Inquiry__101": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 85",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. JESIP is becoming more widely embedded across the emergency service community. The establishment of the Central JESIP team, a dedicated resource funded by the Home Office allows for a greater degree o",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 85: North West Fire Control should take steps to ensure that it . Match score: 35."
+  },
+  "Manchester Arena Inquiry__116": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 86",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. SMG's Arena medical plan outlines the levels of medical staffing SMG's medical services provider must allocate to each of its events at Manchester Arena. Each event is separately risk assessed to deci",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 86: SMG should ensure that the healthcare service provider at th. Match score: 20."
+  },
+  "Manchester Arena Inquiry__115": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 87",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Staff at Manchester Arena have a strong working relationship with NWAS. SMG have agreed the Manchester Arena medical plan with NWAS and its own in-house medical services provider. The plan includes in",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 87: SMG should ensure that the healthcare service provider at th. Match score: 19."
+  },
+  "Manchester Arena Inquiry__117": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 88",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. SMG has reviewed its healthcare service equipment at Manchester Arena. The equipment and supplies required to be present at the Arena is detailed in the Arena medical plan. Stock levels are checked be",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 88: SMG should review its approach to the provision of healthcar. Match score: 20."
+  },
+  "Manchester Arena Inquiry__206": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 89",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. The Department of Health and Social Care has concluded the consultations on changes to Care Quality Commission's regulations and published its response to these in December 2024. DHSC continues to eng",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 89: That standard needs to be regulated and enforced. The Care Q. Match score: 37."
+  },
+  "Manchester Arena Inquiry__169": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 90",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. First Aid Training for Armed Officers - The entire armed policing first aid training module has been re-written to take into account the new First Aid Learning Programme and to ensure armed officers d",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 90: The College of Policing and Counter Terrorism Policing Headq. Match score: 38."
+  },
+  "Manchester Arena Inquiry__170": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 91",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. The police use of analgesics is not confined to armed officers. There are now 20 forces confirmed as having officers trained in the use of analgesia (predominantly Penthrox). The NPCC Clinical Panel h",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 91: The College of Policing and Counter Terrorism Policing Headq. Match score: 27."
+  },
+  "Manchester Arena Inquiry__129": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 92",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 92: The College of Policing and Counter Terrorism Policing Headq. Match score: 39."
+  },
+  "Manchester Arena Inquiry__152": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 93",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Marauding Terrorist Attack (MTA) initial response contingency planning guidance is in place, includes a review of command resilience for both firearms command and broader tactical and strategic comman",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 93: The College of Policing and His Majesty's Inspectorate of Co. Match score: 50."
+  },
+  "Manchester Arena Inquiry__162": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 94",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Armed Policing APP Review relating to PIP HO & NPCC - CLOSED - NO UPDATE REQUIRED",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 94: The College of Policing should assess whether delays in the . Match score: 30."
+  },
+  "Manchester Arena Inquiry__165": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 95",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Work remains in progress to create a unique reference number for each officer to assist in recording and capturing their training. This number would be centrally held by the College of Policing and st",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 95: The College of Policing should consider whether the current . Match score: 55."
+  },
+  "Manchester Arena Inquiry__139": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 96",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. NPCC Update: Force Incident Manager (FIM) Accredited Training - The FIM curriculum has been finalised along with accreditation processes and supporting guidance. A training team is being created, as d",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 96: The College of Policing should issue guidance to all police . Match score: 42."
+  },
+  "Manchester Arena Inquiry__130": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 97",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. We are currently awaiting further data from services regarding their provision as per recommendation 57. Once this has been received we will publish the compliance rate. The National Police Chiefs Cou",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 97: The College of Policing, the Fire Service College and Nation. Match score: 30."
+  },
+  "Manchester Arena Inquiry__216": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 98",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Statutory health education already includes first aid and CPR and has been in place since 2020. The guidance is currently under review and adding further content in this space will be part of the cons",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 98: The Department for Education should consider extending the N. Match score: 24."
+  },
+  "Manchester Arena Inquiry__210": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 99",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The section 182 guidance that accompanies the Licensing Act 2003 has been updated to include further information around healthcare provision at events. An annex with helpful resources has also been ad",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 99: The Ministry of Housing Commuities and Local Government shou. Match score: 48."
+  },
+  "Manchester Arena Inquiry__208": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 100",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. The Department of Health and Social Care is progressing this recommendation. A review of current standards and guidance is complete and will be included in writing stages, where appropriate. The Stand",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 100: The Department of Health and Social Care and the Care Qualit. Match score: 30."
+  },
+  "Manchester Arena Inquiry__191": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 101",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. DHSC are drafting the consultation document for proposed legislative changes on analgesia.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 101: The Department of Health and Social Care and the Medicines a. Match score: 36."
+  },
+  "Manchester Arena Inquiry__184": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 102",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This recommendation will be considered as part of the NHS England led Clinical Response to Major Incidents Task and Finish Group. CRMI group met to agree revision to timelines in view of resource cons",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 102: The Department of Health and Social Care and the National Am. Match score: 36."
+  },
+  "Manchester Arena Inquiry__199": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 103",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This is considered as part of R132-R139 on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate. The research projects are complete and dra",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 103: The Department of Health and Social Care and the National Am. Match score: 25."
+  },
+  "Manchester Arena Inquiry__187": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 104",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Advanced Medical Priority Dispatch System has been reviewed and is fit for the purpose for which it was designed (i.e. triage system).",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 104: The Department of Health and Social Care and the National Am. Match score: 36."
+  },
+  "Manchester Arena Inquiry__190": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 105",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. CRMI group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Command' sub-groups of the programme. Revis",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 105: The Department of Health and Social Care and the National Am. Match score: 29."
+  },
+  "Manchester Arena Inquiry__155": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 106",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Individual ambulance trusts already have processes in place to ensure appropriate staff are notified of relevant pre-planned events in their area, however this is variable across the country. As part",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 106: The Department of Health and Social Care and the National Am. Match score: 42."
+  },
+  "Manchester Arena Inquiry__181": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 107",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. As part of the NHS Core Standards for emergency preparedness resilience and response (EPRR) each ambulance service is required to have the following in place in relation to Hazardous Area Response Tea",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 107: The Department of Health and Social Care and the National Am. Match score: 62."
+  },
+  "Manchester Arena Inquiry__183": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 108",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Command training and competence is covered by the requirements of the NHS Emergency Preparedness, Response and Resilience (EPRR) Framework and the NHS Core Standards for EPRR. This applies to all NHS",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 108: The Department of Health and Social Care and the National Am. Match score: 54."
+  },
+  "Manchester Arena Inquiry__195": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 109",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Roll out of (new) Mass Casualty Vehicles complete.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 109: The Department of Health and Social Care and the National Am. Match score: 23."
+  },
+  "Manchester Arena Inquiry__209": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 110",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This is considered as part of a number of recommendations on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate. This will also be fulfil",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 110: The Department of Health and Social Care should consider iss. Match score: 44."
+  },
+  "Manchester Arena Inquiry__205": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 111",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. The Department of Health and Social Care is progressing this recommendation. A programme has been established and a number of steps are complete.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 111: The Department of Health and Social Care should establish th. Match score: 27."
+  },
+  "Manchester Arena Inquiry__180": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 112",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Recommendations would not usually come from Ambulance Trusts or Commissioners, but through NHS England or established workstreams. The Government's mandate letter to NHS England sets out expectations",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 112: The Department of Health and Social Care should give urgent . Match score: 20."
+  },
+  "Manchester Arena Inquiry__219": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 113",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. DHSC Update: Contents of Public Access Trauma kits has been clinically reviewed and finalised and listed on the PROTECT UK website to inform manufactures and event industry. The National Counter Terro",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 113: The Department of Health and Social Care should take steps t. Match score: 27."
+  },
+  "Manchester Arena Inquiry__222": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 114",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The stretcher review has been completed and shared with relevant groups and as such this recommendation can be marked as complete.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 114: The Department of Health and Social Care should undertake a . Match score: 51."
+  },
+  "Manchester Arena Inquiry__196": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 115",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. CRMI group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Command' sub-groups of the programme. Revis",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 115: The Department of Health and Social Care, the Faculty of Pre. Match score: 39."
+  },
+  "Manchester Arena Inquiry__193": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 116",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Trial has concluded. Awaiting confirmation of publication of review.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 116: The Department of Health and Social Care, the Faculty of Pre. Match score: 35."
+  },
+  "Manchester Arena Inquiry__188": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 117",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. CRMI group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Command' sub-groups of the programme. Revis",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 117: The Department of Health and Social Care, the Faculty of Pre. Match score: 50."
+  },
+  "Manchester Arena Inquiry__194": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 118",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Reinforcement of availability of IM administration within guidelines Ongoing development of auto injector presentations, once available trials will be undertaken Legislative requirements being reviewe",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 118: The Department of Health and Social Care, the Faculty of Pre. Match score: 30."
+  },
+  "Manchester Arena Inquiry__150": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 119",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Clinical Response to Major Incidents (CRMI) group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Comm",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 119: The Department of Health and Social Care, the NHS, the Natio. Match score: 42."
+  },
+  "Manchester Arena Inquiry__149": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 120",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Clinical Response to Major Incidents (CRMI) group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Comm",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 120: The Department of Health and Social Care, the NHS, the Natio. Match score: 42."
+  },
+  "Manchester Arena Inquiry__207": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 121",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Partially accepted. Status: In progress. This will be considered as part of the implementation and evaluation stage of the standard. The standard will incorporate best practice from domestic and international practices. As work to develop th",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 121: The Department of Health and Social Care together with the C. Match score: 27."
+  },
+  "Manchester Arena Inquiry__126": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 122",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Post the attack a new multi-agency radio control talk group was developed, which is shared with police, fire and ambulance and monitored 24/7 in control rooms. There are established tri service testin",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 122: The emergency services should prepare, train and exercise fo. Match score: 29."
+  },
+  "Manchester Arena Inquiry__74": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 123",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Manchester Arena task and finish group has now closed with recommendation 1 delegated to the GM blue light working group (BLWG). Terms of Reference make clear that recommendation 1 is incorporated",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 123: The Greater Manchester Resilience Forum should oversee, at l. Match score: 50."
+  },
+  "Manchester Arena Inquiry__166": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 124",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. New Training First Aid Learning Programme (FALP) - The new FALP training now incorporates critical life saving elements alongside the recommendations of the Manchester Arena Inquiry. The revised FALP",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 124: The Home Office and College of Policing should ensure that a. Match score: 28."
+  },
+  "Manchester Arena Inquiry__164": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 125",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. New operational and tactical commanders training has been devised and launched to forces. This will be underpinned by the new command and control approved professional practice (APP) which is due for",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 125: The Home Office and College of Policing should ensure that a. Match score: 45."
+  },
+  "Manchester Arena Inquiry__168": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 126",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. New Training First Aid Learning Programme (FALP) - The new FALP training now incorporates critical life saving elements alongside the recommendations of the Manchester Arena Inquiry. The revised FALP",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 126: The Home Office and the College of Policing should regularly. Match score: 32."
+  },
+  "Manchester Arena Inquiry__122": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 127",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Multi-Agency Partners Update: Improving Organisational Learning - Processes around organisational learning have been strengthened, however additional JESIP Transformation resource (JESIP Transformatio",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 127: The Home Office and the Department for Levelling Up, Housing. Match score: 37."
+  },
+  "Manchester Arena Inquiry__121": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 128",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Multi-Agency Partners Update: Improving Organisational Learning - Processes around organisational learning have been strengthened, however additional JESIP Transformation resource (JESIP Transformatio",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 128: The Ministry of Housing, Communities and Local Government sh. Match score: 31."
+  },
+  "Manchester Arena Inquiry__200": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 129",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This is considered as part of a number of recommendations on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate. The research projects ar",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 129: The Home Office and the Department of Health and Social Care. Match score: 28."
+  },
+  "Manchester Arena Inquiry__220": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 130",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. DHSC update: Following the completion of R146, DHSC are continuing to work with the National Counter Terrorism Security Office (who lead on providing advice to business regarding Counter Terrorism thr",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 130: The Home Office and the Department of Health and Social Care. Match score: 29."
+  },
+  "Manchester Arena Inquiry__135": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 131",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Force Incident Manager (FIM) Accredited Training - The FIM curriculum has been finalised along with accreditation processes and supporting guidance. A training team is being created, as delivery of th",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 131: The Home Office, College of Policing and Counter Terrorism P. Match score: 91."
+  },
+  "Manchester Arena Inquiry__163": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 132",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Armed Policing APP Review relating to PIP HO & NPCC - CLOSED - NO UPDATE REQUIRED",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 132: The Home Office, Counter Terrorism Policing Headquarters and. Match score: 23."
+  },
+  "Manchester Arena Inquiry__123": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 133",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This is considered as part of R132-R139 on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 133: The Home Office, Counter Terrorism Policing Headquarters, th. Match score: 37."
+  },
+  "Manchester Arena Inquiry__154": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 134",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This recommendation is high in compliance. Whilst there will always be local variations due to boundaries and organisational structures positive examples of progress include the role of LRFs, Safety A",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      },
+      {
+        "title": "MAI Government Tracker (2025) — Rec 150",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Processes have been strengthened in relation to the capturing and sharing learning from events and related planning. This work strand builds upon these improvements, with new national Events guidance",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 134: The Home Office, His Majesty's Inspectorate of Constabulary . Match score: 45."
+  },
+  "Manchester Arena Inquiry__144": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 135",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. As part of the review of the Marauding Terrorist Attack (MTA) Joint Operating Principles (JOPS) action cards were given to all forces and services for the implementation of an MTA response. These card",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 135: The Home Office, His Majesty's Inspectorate of Constabulary . Match score: 33."
+  },
+  "Manchester Arena Inquiry__124": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 136",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This is considered as part of R132-R139 on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 136: The Home Office, His Majesty's Inspectorate of Constabulary . Match score: 46."
+  },
+  "Manchester Arena Inquiry__140": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 137",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as 'JOPs' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, whi",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 137: The Home Office, His Majesty's Inspectorate of Constabulary . Match score: 42."
+  },
+  "Manchester Arena Inquiry__142": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 138",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 138: The Home Office, His Majesty's Inspectorate of Constabulary . Match score: 53."
+  },
+  "Manchester Arena Inquiry__118": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 139",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Alongside existing funding from across the 3 Emergency Services, additional Home Office funding has been successfully secured to provide stronger investment in the Joint Emergency Services Interoperab",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 139: The Home Office, His Majesty's Inspectorate of Constabulary . Match score: 28."
+  },
+  "Manchester Arena Inquiry__119": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 140",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Within the context of Operation PLATO, CTPHQ have reviewed and updated the national guidance in light of the recommendations. This has been launched and all training has been completed. This work stra",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 140: The Home Office, His Majesty's Inspectorate of Constabulary . Match score: 47."
+  },
+  "Manchester Arena Inquiry__120": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 141",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This continues to be an area of work that the Joint Emergency Services Interoperability Protocol (JESIP) Transformation Team takes forward throughout 2025. Ongoing consultation around the the national",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 141: The Home Office, His Majesty's Inspectorate of Constabulary . Match score: 36."
+  },
+  "Manchester Arena Inquiry__174": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 142",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. The Civil Contingencies Act (2004) Regulations (2005) (Cabinet Office) set out requirements for the attendance of both Category 1 and 2 responders at meetings including the Local Resilience Forum. For",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 142: The Home Office should consider empowering the leadership of. Match score: 50."
+  },
+  "Manchester Arena Inquiry__175": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 143",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. MHCLG has selected a group of five local resilience forums in England to join the Stronger LRF trailblazer programme, which will launch in spring 2025. These are Cumbria LRF, Greater Manchester LRF, L",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 143: The Home Office should consider how local resilience forums . Match score: 22."
+  },
+  "Manchester Arena Inquiry__202": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 144",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This is considered as part of R132-R139 on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate. The research projects are complete and dra",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 144: The Home Office should consider how the presence of an Ambul. Match score: 27."
+  },
+  "Manchester Arena Inquiry__146": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 145",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Revised Civil contingencies Guidance - The requirement for revising this approved professional practice (APP) was agreed upon in 2022. This review is now complete, and the updated guidance was launche",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 145: The Home Office should consider the introduction of a nation. Match score: 37."
+  },
+  "Manchester Arena Inquiry__217": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 146",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Home Office works across Government and operational partners with the aim of better engaging the public about safety and security, including around first responder interventions. With Martyn's Law",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 146: The Home Office should consider the introduction of a public. Match score: 17."
+  },
+  "Manchester Arena Inquiry__218": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 147",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. October 2025: The provisions of the Terrorism (Protection of Premises) Act do not include a specific requirement relating to the provision of first aid or associated equipment. However, we continue to",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 147: The Home Office should consider the introduction of a requir. Match score: 36."
+  },
+  "Manchester Arena Inquiry__176": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 148",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. MHCLG has selected a group of five local resilience forums in England to join the Stronger LRF trailblazer programme, which will launch in spring 2025. These are Cumbria LRF, Greater Manchester LRF, L",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 148: The Home Office should consider, together with local resilie. Match score: 23."
+  },
+  "Manchester Arena Inquiry__211": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 149",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Terrorism (Protection of Premises) Act 2025 requires the person responsible for enhanced duty premises and qualifying events to have in place, so far as reasonably practicable, appropriate public",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 149: The Home Office should consider whether the requirement for . Match score: 23."
+  },
+  "Manchester Arena Inquiry__128": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 151",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Additional resource has been secured to progress this work strand enabling the completion of a mapping process to understand what technologies are being used by services and to build a service network",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 151: The Home Office, the College of Policing, the Fire Service C. Match score: 43."
+  },
+  "Manchester Arena Inquiry__157": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 152",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Processes have been strengthened in relation to the capturing and sharing learning from events and related planning. This work strand builds upon these improvements, with new national Events guidance",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 152: The Home Office, the College of Policing, the National Ambul. Match score: 50."
+  },
+  "Manchester Arena Inquiry__160": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 153",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. The requirements of record-keeping are contained within the Joint Operating Principle (JOP's) including the need to ensure that commanders record and are given the means to do so.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 153: The Home Office, the College of Policing, the National Ambul. Match score: 34."
+  },
+  "Manchester Arena Inquiry__159": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 154",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. The requirements of record-keeping are contained within the Joint Operating Principle (JOP's) including the need to ensure that commanders record and are given the means to do so.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 154: The Home Office, the College of Policing, the National Ambul. Match score: 37."
+  },
+  "Manchester Arena Inquiry__161": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 155",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 155: The Home Office, the College of Policing, the National Ambul. Match score: 38."
+  },
+  "Manchester Arena Inquiry__201": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 156",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. This is considered as part of a number of recommendations on developing a healthcare standard for events and will be included in scoping and writing stages, where appropriate. The research projects ar",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 156: The Home Office, the Department of Health and Social Care an. Match score: 35."
+  },
+  "Manchester Arena Inquiry__221": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 157",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The stretcher review has been completed and shared with relevant groups and as such this recommendation can be marked as complete.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 157: The Home Office, the Department of Health and Social Care, t. Match score: 40."
+  },
+  "Manchester Arena Inquiry__125": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 158",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as ''JOPs'' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, w",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 158: The Home Office, the National Ambulance Resilience Unit, the. Match score: 55."
+  },
+  "Manchester Arena Inquiry__134": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 159",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The police receive their funding from a number of sources, but the two main sources are central government funding and the policing precept component of council tax. Police and Crime Commissioners are",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 159: In the event that public funding cuts are in the future cons. Match score: 46."
+  },
+  "Manchester Arena Inquiry__203": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 160",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. There has been a 16% increase in services that have completed R-130. This takes the total completion rate to 86% across all responding services (50 FR)",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 160: The National Fire Chiefs Council and the Fire Service Colleg. Match score: 22."
+  },
+  "Manchester Arena Inquiry__71": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 161",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Home Office Ministers recently committed to reviewing recommendations MR7 and MR8 with a view to delivering on their intent; namely to deliver better uniformity of standards in the private security in",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 161: The requirement that only those monitoring CCTV under a cont. Match score: 21."
+  },
+  "Manchester Arena Inquiry__79": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 162",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. New Operational and Tactical (Bronze and Silver) Commander's training - The new curriculum has been agreed and is set to be launched to forces for local delivery across Winter 2024. The course will be",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 162: The role of the Senior Duty Officer in a Major Incident shou. Match score: 25."
+  },
+  "Manchester Arena Inquiry__214": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 163",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. The SIA has worked with providers of first aid, many of whom have adopted the additional training as a standard across sectors outside of the security industry. The SIA has worked to communicate the r",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 163: The Security Industry Authority should take steps to encoura. Match score: 30."
+  },
+  "Manchester Arena Inquiry__213": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 164",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. The Security Industry Authority (SIA) has worked with the Health and Safety Executive (HSE) to implement a sector-specific version of the Emergency First Aid at Work certificate that includes areas th",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 164: The Security Industry Authority should take urgent steps to . Match score: 50."
+  },
+  "Manchester Arena Inquiry__186": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 165",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Roll out across the NHS is complete.",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 165: The National Ambulance Resilience Unit, the College of Polic. Match score: 50."
+  },
+  "Manchester Arena Inquiry__185": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 166",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. The Major Incident Triage Tool was launched in April 2023 and has been rolled out across the NHS. - now marked COMPLETE",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 166: The National Ambulance Resilience Unit and all ambulance ser. Match score: 42."
+  },
+  "Manchester Arena Inquiry__198": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 167",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. CRMI group met to agree revision to timelines in view of resource constraints. The focus initially will be on 'Casualty Management' and 'Clinical Support to Command' sub-groups of the programme. Revis",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 167: The National Ambulance Resilience Unit should consider appro. Match score: 40."
+  },
+  "Manchester Arena Inquiry__143": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 168",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: In progress. Following the publication of the report the Joint Operating Principles known as 'JOPs' Version 3 has been produced and signed off by the tri-services. This document contains additional principles, whi",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "partial"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 168: Those organisations should consider what changes need to be . Match score: 17."
+  },
+  "Manchester Arena Inquiry__141": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "MAI Government Tracker (2025) — Rec 169",
+        "url": "https://mainquiry.dac.grid.civilservice.gov.uk/",
+        "source_type": "official_report",
+        "date": "2025-12",
+        "description": "Accepted in full. Status: Completed. Review of the Marauding Terrorist Attack Joint Operating Principles (MTA JOPs) - Please see recommendation 45",
+        "approved": true,
+        "approved_at": "2026-04-30",
+        "evidence_type": "complete"
+      }
+    ],
+    "notes": "Source: MAI government tracker (2025). Rec 169: Those organisations should consider what changes need to be . Match score: 22."
   }
 }
