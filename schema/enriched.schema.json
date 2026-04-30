@@ -88,7 +88,7 @@
         "evidence_type": {
           "type": "string",
           "enum": ["partial", "complete"],
-          "description": "Whether this item evidences partial progress towards the recommendation being implemented, or complete implementation. Used to derive overall status: any 'complete' item → actioned; only 'partial' items → partial."
+          "description": "Whether this item evidences partial progress (e.g. accepted, steps underway) or complete implementation (e.g. law enacted, scheme operational). Used to derive overall status: any 'complete' approved item → actioned; only 'partial' approved items → partial."
         },
         "approved": {
           "type": "boolean",
