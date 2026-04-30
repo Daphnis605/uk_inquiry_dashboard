@@ -138,6 +138,29 @@ def approve():
     return jsonify({"ok": True})
 
 
+@app.route("/unapprove", methods=["POST"])
+def unapprove():
+    """Send an approved item back to Phase 1 by setting approved: false."""
+    data = request.get_json()
+    key = data.get("key")
+    item_index = data.get("item_index")
+
+    enriched = load_enriched()
+    entry = enriched.get(key)
+    if not entry or item_index is None:
+        return jsonify({"ok": False, "error": "Not found"}), 404
+
+    items = entry.get("evidence", [])
+    if not isinstance(item_index, int) or item_index < 0 or item_index >= len(items):
+        return jsonify({"ok": False, "error": "Index out of range"}), 400
+
+    items[item_index]["approved"] = False
+    items[item_index]["approved_at"] = None
+
+    save_enriched(enriched)
+    return jsonify({"ok": True})
+
+
 @app.route("/approve_all", methods=["POST"])
 def approve_all():
     """Bulk-approve all unapproved items, optionally filtered to one inquiry."""
@@ -249,7 +272,11 @@ def statuses():
         inquiry_name = key.rsplit("__", 1)[0]
         if inquiry_filter and inquiry_filter != inquiry_name:
             continue
-        approved_items = [ev for ev in entry.get("evidence", []) if ev.get("approved")]
+        approved_items = [
+            {"_idx": i, **ev}
+            for i, ev in enumerate(entry.get("evidence", []))
+            if ev.get("approved")
+        ]
         if not approved_items:
             continue
         rec_cards.append({

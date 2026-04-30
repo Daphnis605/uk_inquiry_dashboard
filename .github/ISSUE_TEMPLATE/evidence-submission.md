@@ -38,6 +38,10 @@ assignees: Daphnis605
 - [ ] Press release
 - [ ] News article
 
+**Evidence type:** (select one)
+- [ ] **Partial** — shows progress towards implementation (e.g. government accepted, steps underway, consultation launched)
+- [ ] **Complete** — shows the recommendation has been fully implemented (e.g. law enacted, scheme operational, policy in force)
+
 **Date of the source (approximate is fine):**
 <!-- e.g. April 2025 -->
 
