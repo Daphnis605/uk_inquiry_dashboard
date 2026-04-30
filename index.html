@@ -341,12 +341,6 @@
                         } else if (ev.title) {
                             titleLine.appendChild(document.createTextNode(ev.title));
                         }
-                        if (ev.evidence_type) {
-                            const typeBadge = document.createElement('span');
-                            typeBadge.className = `ev-badge ev-badge-${ev.evidence_type}`;
-                            typeBadge.textContent = ev.evidence_type;
-                            titleLine.appendChild(typeBadge);
-                        }
                         outcomeCell.appendChild(titleLine);
                         if (ev.description) {
                             outcomeCell.appendChild(document.createElement('br'));
