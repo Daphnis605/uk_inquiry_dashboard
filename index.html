@@ -100,8 +100,11 @@
                 Only 4 of 20 inquiries (10.3% of recommendations) have been researched so far.
                 Grey = <strong>not yet researched</strong> — does not imply government inaction.
             </div>
-            <div id="outcomeLegend" style="display:flex;flex-wrap:wrap;gap:12px;margin:12px 0 20px 0;font-size:13px;"></div>
-            <h3 style="color:#374151;margin-bottom:8px;">Outcomes by Department</h3>
+            <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:4px;">
+                <div id="outcomeLegend" style="display:flex;flex-wrap:wrap;gap:12px;font-size:13px;flex:1;"></div>
+                <button id="outcomeToggleBtn" class="chart-toggle-btn" style="flex-shrink:0;">Show by Change Type</button>
+            </div>
+            <h3 style="color:#374151;margin:16px 0 8px 0;">Outcomes by Department</h3>
             <div id="outcomeBarChart" style="overflow-x:auto;margin-bottom:32px;"></div>
             <h3 style="color:#374151;margin-bottom:8px;">Outcomes by Action Category</h3>
             <div id="outcomeCategoryChart" style="overflow-x:auto;margin-bottom:16px;"></div>
@@ -749,9 +752,21 @@
             createZoomableSunburst(actionsData, "#actionsSunburstChart");
             // Create outcome visualizations
             const deptStats = computeOutcomeStats(processedData);
-            createOutcomeLegend();
-            createOutcomeBarChart(deptStats);
-            createOutcomeCategoryChart(processedData);
+            let outcomeMode = 'outcome';
+            createOutcomeLegend(outcomeMode);
+            createOutcomeBarChart(deptStats, processedData, outcomeMode);
+            createOutcomeCategoryChart(processedData, outcomeMode);
+
+            const outcomeToggleBtn = document.getElementById('outcomeToggleBtn');
+            if (outcomeToggleBtn) {
+                outcomeToggleBtn.addEventListener('click', function() {
+                    outcomeMode = outcomeMode === 'outcome' ? 'changetype' : 'outcome';
+                    this.textContent = outcomeMode === 'outcome' ? 'Show by Change Type' : 'Show by Outcome Status';
+                    createOutcomeLegend(outcomeMode);
+                    createOutcomeBarChart(deptStats, processedData, outcomeMode);
+                    createOutcomeCategoryChart(processedData, outcomeMode);
+                });
+            }
             console.log("All charts created successfully");
         })
         .catch(error => {
@@ -783,16 +798,26 @@
         })).sort((a, b) => b.outstanding - a.outstanding);
     }
 
-    function createOutcomeLegend() {
+    function createOutcomeLegend(mode) {
         const container = document.getElementById('outcomeLegend');
         if (!container) return;
-        const items = [
-            { label: 'Actioned',               color: '#10b981' },
-            { label: 'Partial evidence',        color: '#f59e0b' },
-            { label: 'No evidence found',       color: '#ef4444' },
-            { label: 'Not published',           color: '#9ca3af' },
-            { label: 'Research pending',        color: '#d1d5db', border: '#9ca3af' },
-        ];
+        container.innerHTML = '';
+        const items = mode === 'changetype'
+            ? [
+                { label: 'New',       color: '#2ca02c' },
+                { label: 'More',      color: '#1f77b4' },
+                { label: 'Different', color: '#9467bd' },
+                { label: 'Less',      color: '#ff7f0e' },
+                { label: 'Cease',     color: '#d62728' },
+                { label: 'None',      color: '#878c8f' },
+              ]
+            : [
+                { label: 'Actioned',            color: '#10b981' },
+                { label: 'Partial evidence',    color: '#f59e0b' },
+                { label: 'No evidence found',   color: '#ef4444' },
+                { label: 'Not published',       color: '#9ca3af' },
+                { label: 'Research pending',    color: '#d1d5db', border: '#9ca3af' },
+              ];
         items.forEach(item => {
             const span = document.createElement('span');
             span.style.cssText = 'display:inline-flex;align-items:center;gap:6px;';
@@ -801,19 +826,18 @@
         });
     }
 
-    function createOutcomeBarChart(deptStats) {
-        const container = document.getElementById('outcomeBarChart');
+    function buildHorizontalStackedBar(containerId, rowData, labelKey, stackKeys, colorMap, labelMap, annotationFn, annotationNote) {
+        d3.select(containerId).selectAll('*').remove();
+        const container = document.getElementById(containerId.replace('#',''));
         if (!container) return;
-        d3.select('#outcomeBarChart').selectAll('*').remove();
 
         const isMobile = window.innerWidth < 768;
         const margin = { top: 24, right: isMobile ? 90 : 150, bottom: 30, left: isMobile ? 150 : 210 };
-        const containerWidth = container.offsetWidth || 800;
-        const width = Math.max(containerWidth - margin.left - margin.right, 200);
+        const width = Math.max((container.offsetWidth || 800) - margin.left - margin.right, 200);
         const barHeight = 26;
-        const height = deptStats.length * (barHeight + 10);
+        const height = rowData.length * (barHeight + 10);
 
-        const svg = d3.select('#outcomeBarChart')
+        const svg = d3.select(containerId)
             .append('svg')
             .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
             .attr('width', '100%')
@@ -822,154 +846,96 @@
             .append('g')
             .attr('transform', `translate(${margin.left},${margin.top})`);
 
-        svg.append('text')
-            .attr('x', 0).attr('y', -8)
-            .attr('font-size', '11px').attr('fill', '#9ca3af')
-            .text('Grey = not yet researched (does not mean unactioned)');
+        if (annotationNote) {
+            svg.append('text').attr('x', 0).attr('y', -8)
+                .attr('font-size', '11px').attr('fill', '#9ca3af').text(annotationNote);
+        }
 
-        const maxTotal = d3.max(deptStats, d => d.total);
+        const maxTotal = d3.max(rowData, d => d.total);
         const x = d3.scaleLinear().domain([0, maxTotal]).range([0, width]);
-        const y = d3.scaleBand()
-            .domain(deptStats.map(d => d.department))
-            .range([0, height])
-            .padding(0.2);
+        const y = d3.scaleBand().domain(rowData.map(d => d[labelKey])).range([0, height]).padding(0.2);
 
-        const statusKeys = ['actioned', 'partial', 'no_evidence_found', 'not_published', 'pending'];
-        const statusLabels = {
-            actioned: 'Actioned', partial: 'Partial',
-            no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending'
-        };
-
-        const stack = d3.stack().keys(statusKeys)(deptStats);
-        stack.forEach(layer => {
-            svg.selectAll(`.bar-seg-${layer.key}`)
-                .data(layer)
-                .join('rect')
+        d3.stack().keys(stackKeys)(rowData).forEach(layer => {
+            svg.selectAll(null).data(layer).join('rect')
                 .attr('x', d => x(d[0]))
-                .attr('y', d => y(d.data.department))
+                .attr('y', d => y(d.data[labelKey]))
                 .attr('width', d => Math.max(0, x(d[1]) - x(d[0])))
                 .attr('height', y.bandwidth())
-                .attr('fill', outcomeStatusColor[layer.key])
+                .attr('fill', colorMap[layer.key])
                 .append('title')
-                .text(d => `${d.data.department}\n${statusLabels[layer.key]}: ${d.data[layer.key]} (${Math.round(d.data[layer.key] / d.data.total * 100)}%)`);
+                .text(d => `${d.data[labelKey]}\n${labelMap[layer.key]}: ${d.data[layer.key]} (${Math.round(d.data[layer.key] / d.data.total * 100)}%)`);
         });
 
-        svg.append('g')
-            .call(d3.axisLeft(y).tickSize(0))
+        svg.append('g').call(d3.axisLeft(y).tickSize(0))
             .call(g => g.select('.domain').remove())
-            .selectAll('text')
-            .attr('font-size', isMobile ? '10px' : '12px')
-            .attr('fill', '#374151');
+            .selectAll('text').attr('font-size', isMobile ? '10px' : '12px').attr('fill', '#374151');
 
-        svg.append('g')
-            .attr('transform', `translate(0,${height})`)
-            .call(d3.axisBottom(x).ticks(5))
-            .call(g => g.select('.domain').remove());
+        svg.append('g').attr('transform', `translate(0,${height})`)
+            .call(d3.axisBottom(x).ticks(5)).call(g => g.select('.domain').remove());
 
-        deptStats.forEach(d => {
-            svg.append('text')
-                .attr('x', x(d.total) + 6)
-                .attr('y', y(d.department) + y.bandwidth() / 2 + 4)
-                .attr('font-size', '11px')
-                .attr('fill', '#9ca3af')
-                .text(d.coveragePct > 0 ? `${d.coveragePct}% researched` : 'not yet researched');
-        });
+        if (annotationFn) {
+            rowData.forEach(d => {
+                const label = annotationFn(d);
+                if (label) {
+                    svg.append('text')
+                        .attr('x', x(d.total) + 6)
+                        .attr('y', y(d[labelKey]) + y.bandwidth() / 2 + 4)
+                        .attr('font-size', '11px').attr('fill', '#9ca3af').text(label);
+                }
+            });
+        }
     }
 
-    function createOutcomeCategoryChart(processedData) {
-        const container = document.getElementById('outcomeCategoryChart');
-        if (!container) return;
-        d3.select('#outcomeCategoryChart').selectAll('*').remove();
+    function createOutcomeBarChart(deptStats, processedData, mode) {
+        if (mode === 'changetype') {
+            const deptChangeMap = {};
+            processedData.forEach(r => {
+                if (!deptChangeMap[r.department]) {
+                    deptChangeMap[r.department] = { department: r.department, total: 0, New: 0, More: 0, Different: 0, Less: 0, Cease: 0, None: 0 };
+                }
+                const d = deptChangeMap[r.department];
+                d.total++;
+                if (d[r.changeType] !== undefined) d[r.changeType]++;
+                else d.None++;
+            });
+            const changeStats = Object.values(deptChangeMap).sort((a, b) => b.total - a.total);
+            const ctKeys = ['New', 'More', 'Different', 'Less', 'Cease', 'None'];
+            buildHorizontalStackedBar('#outcomeBarChart', changeStats, 'department', ctKeys, changeTypeColors, changeTypeColors, null, null);
+        } else {
+            const statusKeys = ['actioned', 'partial', 'no_evidence_found', 'not_published', 'pending'];
+            const statusLabels = { actioned: 'Actioned', partial: 'Partial', no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending' };
+            buildHorizontalStackedBar('#outcomeBarChart', deptStats, 'department', statusKeys, outcomeStatusColor, statusLabels,
+                d => d.coveragePct > 0 ? `${d.coveragePct}% researched` : 'not yet researched',
+                'Grey = not yet researched (does not mean unactioned)');
+        }
+    }
 
-        // Aggregate by action category
+    function createOutcomeCategoryChart(processedData, mode) {
         const catMap = {};
         processedData.forEach(r => {
             const cat = r.actionCategory;
-            if (!catMap[cat]) {
-                catMap[cat] = {
-                    category: cat, total: 0,
-                    actioned: 0, partial: 0, no_evidence_found: 0, not_published: 0, pending: 0
-                };
-            }
+            if (!catMap[cat]) catMap[cat] = { category: cat, total: 0, actioned: 0, partial: 0, no_evidence_found: 0, not_published: 0, pending: 0, New: 0, More: 0, Different: 0, Less: 0, Cease: 0, None: 0 };
             const c = catMap[cat];
             c.total++;
             const s = r.enrichedOutcome && r.enrichedOutcome.evidence_status;
-            if (s && c[s] !== undefined) c[s]++;
-            else c.pending++;
+            if (s && c[s] !== undefined) c[s]++; else c.pending++;
+            if (c[r.changeType] !== undefined) c[r.changeType]++; else c.None++;
         });
 
-        const catStats = Object.values(catMap)
-            .map(c => ({ ...c, outstanding: c.partial + c.no_evidence_found + c.pending, coveragePct: Math.round((c.total - c.pending) / c.total * 100) }))
-            .sort((a, b) => b.outstanding - a.outstanding);
-
-        const isMobile = window.innerWidth < 768;
-        const margin = { top: 24, right: isMobile ? 90 : 150, bottom: 30, left: isMobile ? 150 : 210 };
-        const containerWidth = container.offsetWidth || 800;
-        const width = Math.max(containerWidth - margin.left - margin.right, 200);
-        const barHeight = 26;
-        const height = catStats.length * (barHeight + 10);
-
-        const svg = d3.select('#outcomeCategoryChart')
-            .append('svg')
-            .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
-            .attr('width', '100%')
-            .attr('height', height + margin.top + margin.bottom)
-            .style('max-width', '1200px')
-            .append('g')
-            .attr('transform', `translate(${margin.left},${margin.top})`);
-
-        svg.append('text')
-            .attr('x', 0).attr('y', -8)
-            .attr('font-size', '11px').attr('fill', '#9ca3af')
-            .text('Grey = not yet researched (does not mean unactioned)');
-
-        const maxTotal = d3.max(catStats, d => d.total);
-        const x = d3.scaleLinear().domain([0, maxTotal]).range([0, width]);
-        const y = d3.scaleBand()
-            .domain(catStats.map(d => d.category))
-            .range([0, height])
-            .padding(0.2);
-
-        const statusKeys = ['actioned', 'partial', 'no_evidence_found', 'not_published', 'pending'];
-        const statusLabels = {
-            actioned: 'Actioned', partial: 'Partial',
-            no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending'
-        };
-
-        const stack = d3.stack().keys(statusKeys)(catStats);
-        stack.forEach(layer => {
-            svg.selectAll(`.cbar-${layer.key}`)
-                .data(layer)
-                .join('rect')
-                .attr('x', d => x(d[0]))
-                .attr('y', d => y(d.data.category))
-                .attr('width', d => Math.max(0, x(d[1]) - x(d[0])))
-                .attr('height', y.bandwidth())
-                .attr('fill', outcomeStatusColor[layer.key])
-                .append('title')
-                .text(d => `${d.data.category}\n${statusLabels[layer.key]}: ${d.data[layer.key]} (${Math.round(d.data[layer.key] / d.data.total * 100)}%)`);
-        });
-
-        svg.append('g')
-            .call(d3.axisLeft(y).tickSize(0))
-            .call(g => g.select('.domain').remove())
-            .selectAll('text')
-            .attr('font-size', isMobile ? '10px' : '12px')
-            .attr('fill', '#374151');
-
-        svg.append('g')
-            .attr('transform', `translate(0,${height})`)
-            .call(d3.axisBottom(x).ticks(5))
-            .call(g => g.select('.domain').remove());
-
-        catStats.forEach(d => {
-            svg.append('text')
-                .attr('x', x(d.total) + 6)
-                .attr('y', y(d.category) + y.bandwidth() / 2 + 4)
-                .attr('font-size', '11px')
-                .attr('fill', '#9ca3af')
-                .text(d.coveragePct > 0 ? `${d.coveragePct}% researched` : 'not yet researched');
-        });
+        if (mode === 'changetype') {
+            const catStats = Object.values(catMap).sort((a, b) => b.total - a.total);
+            const ctKeys = ['New', 'More', 'Different', 'Less', 'Cease', 'None'];
+            buildHorizontalStackedBar('#outcomeCategoryChart', catStats, 'category', ctKeys, changeTypeColors, changeTypeColors, null, null);
+        } else {
+            const catStats = Object.values(catMap)
+                .map(c => ({ ...c, outstanding: c.partial + c.no_evidence_found + c.pending, coveragePct: Math.round((c.total - c.pending) / c.total * 100) }))
+                .sort((a, b) => b.outstanding - a.outstanding);
+            const statusKeys = ['actioned', 'partial', 'no_evidence_found', 'not_published', 'pending'];
+            const statusLabels = { actioned: 'Actioned', partial: 'Partial', no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending' };
+            buildHorizontalStackedBar('#outcomeCategoryChart', catStats, 'category', statusKeys, outcomeStatusColor, statusLabels,
+                d => d.coveragePct > 0 ? `${d.coveragePct}% researched` : 'not yet researched',
+                'Grey = not yet researched (does not mean unactioned)');
+        }
     }
 
     // ── End outcome visualization helpers ───────────────────────────────────
