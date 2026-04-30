@@ -164,6 +164,27 @@ tr:hover {
     color: #555;
 }
 
+.evidence-desc-text {
+    margin-top: 4px;
+    font-size: 0.85em;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Recommendation and Evidence columns: allow text to wrap freely */
+#inquiriesTable td:nth-child(5),
+#inquiriesTable td:nth-child(6) {
+    word-break: break-word;
+    min-width: 0;
+}
+
+/* Change Type and Action Category: no forced wrapping, let colgroup handle width */
+#inquiriesTable td:nth-child(3),
+#inquiriesTable td:nth-child(4) {
+    white-space: normal;
+    font-size: 0.9em;
+}
+
 .status-badge {
     display: inline-block;
     font-size: 11px;

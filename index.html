@@ -175,6 +175,15 @@
                 </div>
 
                 <table id="inquiriesTable">
+                    <colgroup>
+                        <col style="width:9%">
+                        <col style="width:10%">
+                        <col style="width:6%">
+                        <col style="width:10%">
+                        <col style="width:37%">
+                        <col style="width:22%">
+                        <col style="width:6%">
+                    </colgroup>
                     <thead>
                         <tr>
                             <th class="sortable" data-column="0">Administration/Department <span class="sort-indicator"></span></th>
@@ -182,8 +191,8 @@
                             <th class="sortable" data-column="2">Change Type <span class="sort-indicator"></span></th>
                             <th class="sortable" data-column="3">Action Category <span class="sort-indicator"></span></th>
                             <th class="sortable" data-column="4">Recommendation <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-column="5">Outcome (Evidence of Action) <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-column="6">Evidence Status <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-column="5">Evidence <span class="sort-indicator"></span></th>
+                            <th class="sortable" data-column="6">Evidence Type <span class="sort-indicator"></span></th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -283,100 +292,92 @@
         let allTableData = processedData;
         let currentFilteredData = processedData; // Track currently filtered data
 
-        // Function to populate table with data
+        // Function to populate table with data — one row per evidence item
         function populateTable(dataToDisplay) {
-            currentFilteredData = dataToDisplay; // Update current filtered data
+            currentFilteredData = dataToDisplay;
             const tbody = document.querySelector('#inquiriesTable tbody');
-            tbody.innerHTML = ''; // Clear existing rows
-            
+            tbody.innerHTML = '';
+
             dataToDisplay.forEach(inquiry => {
-                const row = tbody.insertRow();
-                
-                const deptCell = row.insertCell(0);
-                deptCell.textContent = inquiry.department;
-                deptCell.setAttribute('data-label', 'Department:');
-                
-                const inquiryCell = row.insertCell(1);
-                inquiryCell.setAttribute('data-label', 'Inquiry:');
-                const link = document.createElement('a');
-                link.href = inquiry.link;
-                link.textContent = inquiry.name;
-                link.target = "_blank";
-                inquiryCell.appendChild(link);
-                
-                const changeTypeCell = row.insertCell(2);
-                changeTypeCell.setAttribute('data-label', 'Change Type:');
-                changeTypeCell.innerHTML = `<strong>${inquiry.changeType}</strong>`;
-                changeTypeCell.style.color = changeTypeColors[inquiry.changeType] || "#000";
-                
-                const actionCategoryCell = row.insertCell(3);
-                actionCategoryCell.setAttribute('data-label', 'Action Category:');
-                actionCategoryCell.textContent = inquiry.actionCategory;
-                actionCategoryCell.style.color = actionCategoryColors[inquiry.actionCategory] || "#000";
-                
-                const recCell = row.insertCell(4);
-                recCell.setAttribute('data-label', 'Recommendation:');
-                recCell.textContent = inquiry.recommendation;
-                
-                // Add outcome cell
-                const outcomeCell = row.insertCell(5);
-                outcomeCell.setAttribute('data-label', 'Outcome:');
-                const hasEvidence = inquiry.enrichedOutcome &&
-                    inquiry.enrichedOutcome.evidence &&
-                    inquiry.enrichedOutcome.evidence.some(ev => ev.approved);
-                if (hasEvidence) {
-                    const approvedEvidence = inquiry.enrichedOutcome.evidence.filter(ev => ev.approved);
-                    approvedEvidence.forEach((ev, idx) => {
-                        if (idx > 0) {
-                            outcomeCell.appendChild(document.createElement('br'));
-                            outcomeCell.appendChild(document.createElement('br'));
-                        }
-                        const titleLine = document.createElement('span');
+                const approvedEvidence = inquiry.enrichedOutcome
+                    ? inquiry.enrichedOutcome.evidence.filter(ev => ev.approved)
+                    : [];
+
+                // One row per evidence item; recommendations with no evidence get one empty row
+                const items = approvedEvidence.length > 0 ? approvedEvidence : [null];
+
+                items.forEach(ev => {
+                    const row = tbody.insertRow();
+
+                    const deptCell = row.insertCell(0);
+                    deptCell.textContent = inquiry.department;
+                    deptCell.setAttribute('data-label', 'Department:');
+
+                    const inquiryCell = row.insertCell(1);
+                    inquiryCell.setAttribute('data-label', 'Inquiry:');
+                    const link = document.createElement('a');
+                    link.href = inquiry.link;
+                    link.textContent = inquiry.name;
+                    link.target = '_blank';
+                    inquiryCell.appendChild(link);
+
+                    const changeTypeCell = row.insertCell(2);
+                    changeTypeCell.setAttribute('data-label', 'Change Type:');
+                    changeTypeCell.innerHTML = `<strong>${inquiry.changeType}</strong>`;
+                    changeTypeCell.style.color = changeTypeColors[inquiry.changeType] || '#000';
+
+                    const actionCategoryCell = row.insertCell(3);
+                    actionCategoryCell.setAttribute('data-label', 'Action Category:');
+                    actionCategoryCell.textContent = inquiry.actionCategory;
+                    actionCategoryCell.style.color = actionCategoryColors[inquiry.actionCategory] || '#000';
+
+                    const recCell = row.insertCell(4);
+                    recCell.setAttribute('data-label', 'Recommendation:');
+                    recCell.textContent = inquiry.recommendation;
+
+                    const evidenceCell = row.insertCell(5);
+                    evidenceCell.setAttribute('data-label', 'Evidence:');
+                    if (ev) {
                         if (ev.url) {
                             const evLink = document.createElement('a');
                             evLink.href = ev.url;
                             evLink.textContent = ev.title || 'View Evidence';
                             evLink.target = '_blank';
-                            titleLine.appendChild(evLink);
+                            evidenceCell.appendChild(evLink);
                         } else if (ev.title) {
-                            titleLine.appendChild(document.createTextNode(ev.title));
+                            evidenceCell.appendChild(document.createTextNode(ev.title));
                         }
-                        outcomeCell.appendChild(titleLine);
                         if (ev.description) {
-                            outcomeCell.appendChild(document.createElement('br'));
-                            outcomeCell.appendChild(document.createTextNode(ev.description));
+                            const desc = document.createElement('div');
+                            desc.className = 'evidence-desc-text';
+                            desc.textContent = ev.description;
+                            evidenceCell.appendChild(desc);
                         }
-                    });
-                } else {
-                    outcomeCell.textContent = '-';
-                }
-                // Submit evidence link on rows with no verified evidence
-                if (!hasEvidence) {
-                    const submitTitle = encodeURIComponent(`Evidence submission: ${inquiry.name}, rec ${inquiry.recIdx + 1}`);
-                    const submitLink = document.createElement('a');
-                    submitLink.href = `https://github.com/Daphnis605/uk_inquiry_dashboard/issues/new?template=evidence-submission.md&title=${submitTitle}`;
-                    submitLink.textContent = 'Submit evidence';
-                    submitLink.target = '_blank';
-                    submitLink.className = 'submit-evidence-link';
-                    outcomeCell.appendChild(submitLink);
-                }
+                    } else {
+                        const submitTitle = encodeURIComponent(`Evidence submission: ${inquiry.name}, rec ${inquiry.recIdx + 1}`);
+                        const submitLink = document.createElement('a');
+                        submitLink.href = `https://github.com/Daphnis605/uk_inquiry_dashboard/issues/new?template=evidence-submission.md&title=${submitTitle}`;
+                        submitLink.textContent = 'Submit evidence';
+                        submitLink.target = '_blank';
+                        submitLink.className = 'submit-evidence-link';
+                        evidenceCell.appendChild(submitLink);
+                    }
 
-                // Add evidence status cell
-                const statusCell = row.insertCell(6);
-                statusCell.setAttribute('data-label', 'Evidence Status:');
-                const evStatus = inquiry.enrichedOutcome && inquiry.enrichedOutcome.evidence_status;
-                if (evStatus) {
-                    const badge = document.createElement('span');
-                    badge.className = `status-badge status-${evStatus}`;
-                    badge.textContent = evStatus.replace(/_/g, ' ');
-                    statusCell.appendChild(badge);
-                } else {
-                    statusCell.textContent = '—';
-                }
+                    const typeCell = row.insertCell(6);
+                    typeCell.setAttribute('data-label', 'Evidence Type:');
+                    if (ev && ev.evidence_type) {
+                        const badge = document.createElement('span');
+                        badge.className = `ev-badge ev-badge-${ev.evidence_type}`;
+                        badge.textContent = ev.evidence_type;
+                        typeCell.appendChild(badge);
+                    } else {
+                        typeCell.textContent = '—';
+                    }
+                });
             });
-            
+
             // Update result count
-            document.getElementById('resultCount').textContent = `Showing ${dataToDisplay.length} of ${allTableData.length} results`;
+            document.getElementById('resultCount').textContent = `Showing ${dataToDisplay.length} of ${allTableData.length} recommendations`;
         }
 
         // Initial population
@@ -619,8 +620,8 @@
                             bVal = (b.enrichedOutcome && b.enrichedOutcome.evidence && b.enrichedOutcome.evidence.some(ev => ev.approved)) ? '1' : '0';
                             break;
                         case 6:
-                            aVal = (a.enrichedOutcome && a.enrichedOutcome.evidence_status) || '';
-                            bVal = (b.enrichedOutcome && b.enrichedOutcome.evidence_status) || '';
+                            aVal = (a.enrichedOutcome && a.enrichedOutcome.evidence && a.enrichedOutcome.evidence.find(ev => ev.approved) || {}).evidence_type || '';
+                            bVal = (b.enrichedOutcome && b.enrichedOutcome.evidence && b.enrichedOutcome.evidence.find(ev => ev.approved) || {}).evidence_type || '';
                             break;
                         default: return 0;
                     }
