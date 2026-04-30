@@ -908,13 +908,13 @@
             const changeStats = Object.values(deptChangeMap).sort((a, b) => b.total - a.total);
             const ctKeys = ['New', 'More', 'Different', 'Less', 'Cease', 'None'];
             buildHorizontalStackedBar('#outcomeBarChart', changeStats, 'department', ctKeys, changeTypeColors, changeTypeColors,
-                d => `${d.total} researched`, 'Only showing actioned / partial recommendations');
+                d => `${d.total} researched`, 'Only showing actioned / partial recommendations', { leftMargin: 280 });
         } else {
             const statusKeys = ['actioned', 'partial', 'no_evidence_found', 'not_published', 'pending'];
             const statusLabels = { actioned: 'Actioned', partial: 'Partial', no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending' };
             buildHorizontalStackedBar('#outcomeBarChart', deptStats, 'department', statusKeys, outcomeStatusColor, statusLabels,
                 d => d.coveragePct > 0 ? `${d.coveragePct}% researched` : 'not yet researched',
-                'Grey = not yet researched (does not mean unactioned)');
+                'Grey = not yet researched (does not mean unactioned)', { leftMargin: 280 });
         }
     }
 
@@ -946,7 +946,7 @@
             const catStats = Object.values(catChangeMap).sort((a, b) => b.total - a.total);
             const ctKeys = ['New', 'More', 'Different', 'Less', 'Cease', 'None'];
             buildHorizontalStackedBar('#outcomeCategoryChart', catStats, 'category', ctKeys, changeTypeColors, changeTypeColors,
-                d => `${d.total} researched`, 'Only showing actioned / partial recommendations');
+                d => `${d.total} researched`, 'Only showing actioned / partial recommendations', { leftMargin: 280 });
         } else {
             const catStats = Object.values(catMap)
                 .map(c => ({ ...c, outstanding: c.partial + c.no_evidence_found + c.pending, coveragePct: Math.round((c.total - c.pending) / c.total * 100) }))
@@ -955,7 +955,7 @@
             const statusLabels = { actioned: 'Actioned', partial: 'Partial', no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending' };
             buildHorizontalStackedBar('#outcomeCategoryChart', catStats, 'category', statusKeys, outcomeStatusColor, statusLabels,
                 d => d.coveragePct > 0 ? `${d.coveragePct}% researched` : 'not yet researched',
-                'Grey = not yet researched (does not mean unactioned)');
+                'Grey = not yet researched (does not mean unactioned)', { leftMargin: 280 });
         }
     }
 
