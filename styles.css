@@ -164,6 +164,11 @@ tr:hover {
     color: #555;
 }
 
+/* Continuation rows (2nd+ evidence item for a recommendation) — no top border */
+#inquiriesTable tr.ev-continuation td {
+    border-top: 1px dashed #e5e7eb;
+}
+
 .evidence-desc-text {
     margin-top: 4px;
     font-size: 0.85em;

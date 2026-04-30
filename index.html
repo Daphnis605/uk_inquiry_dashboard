@@ -176,11 +176,11 @@
 
                 <table id="inquiriesTable">
                     <colgroup>
-                        <col style="width:9%">
+                        <col style="width:11%">
                         <col style="width:10%">
                         <col style="width:6%">
                         <col style="width:10%">
-                        <col style="width:37%">
+                        <col style="width:35%">
                         <col style="width:22%">
                         <col style="width:6%">
                     </colgroup>
@@ -303,39 +303,50 @@
                     ? inquiry.enrichedOutcome.evidence.filter(ev => ev.approved)
                     : [];
 
-                // One row per evidence item; recommendations with no evidence get one empty row
+                // One row per evidence item; recommendations with no evidence get one row
                 const items = approvedEvidence.length > 0 ? approvedEvidence : [null];
+                const span = items.length;
 
-                items.forEach(ev => {
+                items.forEach((ev, evIdx) => {
                     const row = tbody.insertRow();
+                    if (evIdx > 0) row.classList.add('ev-continuation');
 
-                    const deptCell = row.insertCell(0);
-                    deptCell.textContent = inquiry.department;
-                    deptCell.setAttribute('data-label', 'Department:');
+                    // First evidence row: insert shared cells with rowspan
+                    if (evIdx === 0) {
+                        const deptCell = row.insertCell();
+                        deptCell.textContent = inquiry.department;
+                        deptCell.setAttribute('data-label', 'Department:');
+                        deptCell.rowSpan = span;
 
-                    const inquiryCell = row.insertCell(1);
-                    inquiryCell.setAttribute('data-label', 'Inquiry:');
-                    const link = document.createElement('a');
-                    link.href = inquiry.link;
-                    link.textContent = inquiry.name;
-                    link.target = '_blank';
-                    inquiryCell.appendChild(link);
+                        const inquiryCell = row.insertCell();
+                        inquiryCell.setAttribute('data-label', 'Inquiry:');
+                        inquiryCell.rowSpan = span;
+                        const link = document.createElement('a');
+                        link.href = inquiry.link;
+                        link.textContent = inquiry.name;
+                        link.target = '_blank';
+                        inquiryCell.appendChild(link);
 
-                    const changeTypeCell = row.insertCell(2);
-                    changeTypeCell.setAttribute('data-label', 'Change Type:');
-                    changeTypeCell.innerHTML = `<strong>${inquiry.changeType}</strong>`;
-                    changeTypeCell.style.color = changeTypeColors[inquiry.changeType] || '#000';
+                        const changeTypeCell = row.insertCell();
+                        changeTypeCell.setAttribute('data-label', 'Change Type:');
+                        changeTypeCell.rowSpan = span;
+                        changeTypeCell.innerHTML = `<strong>${inquiry.changeType}</strong>`;
+                        changeTypeCell.style.color = changeTypeColors[inquiry.changeType] || '#000';
 
-                    const actionCategoryCell = row.insertCell(3);
-                    actionCategoryCell.setAttribute('data-label', 'Action Category:');
-                    actionCategoryCell.textContent = inquiry.actionCategory;
-                    actionCategoryCell.style.color = actionCategoryColors[inquiry.actionCategory] || '#000';
+                        const actionCategoryCell = row.insertCell();
+                        actionCategoryCell.setAttribute('data-label', 'Action Category:');
+                        actionCategoryCell.rowSpan = span;
+                        actionCategoryCell.textContent = inquiry.actionCategory;
+                        actionCategoryCell.style.color = actionCategoryColors[inquiry.actionCategory] || '#000';
 
-                    const recCell = row.insertCell(4);
-                    recCell.setAttribute('data-label', 'Recommendation:');
-                    recCell.textContent = inquiry.recommendation;
+                        const recCell = row.insertCell();
+                        recCell.setAttribute('data-label', 'Recommendation:');
+                        recCell.rowSpan = span;
+                        recCell.textContent = inquiry.recommendation;
+                    }
 
-                    const evidenceCell = row.insertCell(5);
+                    // Evidence cell — unique per row
+                    const evidenceCell = row.insertCell();
                     evidenceCell.setAttribute('data-label', 'Evidence:');
                     if (ev) {
                         if (ev.url) {
@@ -363,7 +374,8 @@
                         evidenceCell.appendChild(submitLink);
                     }
 
-                    const typeCell = row.insertCell(6);
+                    // Evidence type badge — unique per row
+                    const typeCell = row.insertCell();
                     typeCell.setAttribute('data-label', 'Evidence Type:');
                     if (ev && ev.evidence_type) {
                         const badge = document.createElement('span');
