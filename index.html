@@ -93,6 +93,23 @@
             </p>
         </div>
 
+        <!-- Outcome Visualizations Section -->
+        <div id="outcomeSection" class="chart-container">
+            <h2>Recommendation Outcome Status</h2>
+            <div class="outcome-pending-note">
+                Only 4 of 20 inquiries (10.3% of recommendations) have been researched so far.
+                Grey = <strong>not yet researched</strong> — does not imply government inaction.
+            </div>
+            <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:4px;">
+                <div id="outcomeLegend" style="display:flex;flex-wrap:wrap;gap:12px;font-size:13px;flex:1;"></div>
+                <button id="outcomeToggleBtn" class="chart-toggle-btn" style="flex-shrink:0;">Show by Change Type</button>
+            </div>
+            <h3 style="color:#374151;margin:16px 0 8px 0;">Outcomes by Department</h3>
+            <div id="outcomeBarChart" style="overflow-x:auto;margin-bottom:32px;"></div>
+            <h3 style="color:#374151;margin-bottom:8px;">Outcomes by Action Category</h3>
+            <div id="outcomeCategoryChart" style="overflow-x:auto;margin-bottom:16px;"></div>
+        </div>
+
         <h2>Inquiries Table</h2>
         <h3 style="text-align: center; color: #7c7b7b;"><i>Recommendations compiled from original inquiry PDFs with custom labels (defined above). Outcomes sourced from publicly available evidence.</i></h3>
         <div id="evidenceCountBadge"></div>
@@ -227,6 +244,14 @@
         "New": "#2ca02c",
         "Cease": "#d62728",
         "None": "#878c8f"
+    };
+
+    const outcomeStatusColor = {
+        actioned: "#10b981",
+        partial: "#f59e0b",
+        no_evidence_found: "#ef4444",
+        not_published: "#9ca3af",
+        pending: "#d1d5db"
     };
 
     // Fetch and process the data
@@ -649,14 +674,39 @@
             });
         });
 
-            // Transform data for sunburst chart
+            // Build status sub-nodes for an inquiry (used by dept sunburst)
+            function buildStatusChildren(inquiryName, totalRecs, enrichedMapRef) {
+                const counts = { actioned: 0, partial: 0, no_evidence_found: 0, not_published: 0, pending: 0 };
+                for (let i = 0; i < totalRecs; i++) {
+                    const entry = enrichedMapRef[`${inquiryName}__${i}`];
+                    const s = entry && entry.evidence_status;
+                    if (s && counts[s] !== undefined) counts[s]++;
+                    else counts.pending++;
+                }
+                const order = [
+                    { status: 'actioned',          label: 'Actioned' },
+                    { status: 'partial',            label: 'Partial' },
+                    { status: 'no_evidence_found',  label: 'No evidence found' },
+                    { status: 'not_published',      label: 'Not published' },
+                    { status: 'pending',            label: 'Research pending' },
+                ];
+                return order
+                    .filter(o => counts[o.status] > 0)
+                    .map(o => ({ name: o.label, value: counts[o.status], status: o.status }));
+            }
+
+            // Transform data for sunburst chart — inquiries split into status sub-nodes
             const hierarchicalData = {
                 name: "UK",
                 children: data.map(dept => ({
                     name: dept['Administration-or-Department'],
                     children: dept.Inquiries.map(inquiry => ({
                         name: inquiry.InquiryName,
-                        value: inquiry.Recommendations ? inquiry.Recommendations.length : 0
+                        children: buildStatusChildren(
+                            inquiry.InquiryName,
+                            inquiry.Recommendations ? inquiry.Recommendations.length : 0,
+                            enrichedMap
+                        )
                     }))
                 }))
             };
@@ -700,12 +750,195 @@
             // Create D3 visualizations
             createZoomableSunburst(hierarchicalData, "#sunburstChart");
             createZoomableSunburst(actionsData, "#actionsSunburstChart");
+            // Create outcome visualizations
+            const deptStats = computeOutcomeStats(processedData);
+            let outcomeMode = 'outcome';
+            createOutcomeLegend(outcomeMode);
+            createOutcomeBarChart(deptStats, processedData, outcomeMode);
+            createOutcomeCategoryChart(processedData, outcomeMode);
+
+            const outcomeToggleBtn = document.getElementById('outcomeToggleBtn');
+            if (outcomeToggleBtn) {
+                outcomeToggleBtn.addEventListener('click', function() {
+                    outcomeMode = outcomeMode === 'outcome' ? 'changetype' : 'outcome';
+                    this.textContent = outcomeMode === 'outcome' ? 'Show by Change Type' : 'Show by Outcome Status';
+                    createOutcomeLegend(outcomeMode);
+                    createOutcomeBarChart(deptStats, processedData, outcomeMode);
+                    createOutcomeCategoryChart(processedData, outcomeMode);
+                });
+            }
             console.log("All charts created successfully");
         })
         .catch(error => {
             console.error("Error loading or processing data:", error);
             document.querySelector('.container').innerHTML += '<div style="background: #ffdddd; padding: 20px; margin: 20px; border-radius: 5px; border: 2px solid #ff0000;"><h2>Error Loading Data</h2><p>Could not load data files. Error: ' + error.message + '</p><p><strong>Possible solutions:</strong></p><ul><li>Make sure you are running this page through a web server (not file://)</li><li>Check that data.json and enriched_data.json exist in the same folder as index.html</li><li>Open browser console (F12) for more details</li></ul></div>';
         });
+
+    // ── Outcome visualization helpers ───────────────────────────────────────
+
+    function computeOutcomeStats(processedData) {
+        const deptMap = {};
+        processedData.forEach(r => {
+            if (!deptMap[r.department]) {
+                deptMap[r.department] = {
+                    department: r.department, total: 0,
+                    actioned: 0, partial: 0, no_evidence_found: 0, not_published: 0, pending: 0
+                };
+            }
+            const d = deptMap[r.department];
+            d.total++;
+            const s = r.enrichedOutcome && r.enrichedOutcome.evidence_status;
+            if (s && d[s] !== undefined) d[s]++;
+            else d.pending++;
+        });
+        return Object.values(deptMap).map(d => ({
+            ...d,
+            outstanding: d.partial + d.no_evidence_found + d.pending,
+            coveragePct: Math.round((d.total - d.pending) / d.total * 100)
+        })).sort((a, b) => b.outstanding - a.outstanding);
+    }
+
+    function createOutcomeLegend(mode) {
+        const container = document.getElementById('outcomeLegend');
+        if (!container) return;
+        container.innerHTML = '';
+        const items = mode === 'changetype'
+            ? [
+                { label: 'New',       color: '#2ca02c' },
+                { label: 'More',      color: '#1f77b4' },
+                { label: 'Different', color: '#9467bd' },
+                { label: 'Less',      color: '#ff7f0e' },
+                { label: 'Cease',     color: '#d62728' },
+                { label: 'None',      color: '#878c8f' },
+              ]
+            : [
+                { label: 'Actioned',            color: '#10b981' },
+                { label: 'Partial evidence',    color: '#f59e0b' },
+                { label: 'No evidence found',   color: '#ef4444' },
+                { label: 'Not published',       color: '#9ca3af' },
+                { label: 'Research pending',    color: '#d1d5db', border: '#9ca3af' },
+              ];
+        items.forEach(item => {
+            const span = document.createElement('span');
+            span.style.cssText = 'display:inline-flex;align-items:center;gap:6px;';
+            span.innerHTML = `<span style="width:14px;height:14px;border-radius:3px;background:${item.color};border:1px solid ${item.border || item.color};display:inline-block;flex-shrink:0;"></span><span>${item.label}</span>`;
+            container.appendChild(span);
+        });
+    }
+
+    function buildHorizontalStackedBar(containerId, rowData, labelKey, stackKeys, colorMap, labelMap, annotationFn, annotationNote) {
+        d3.select(containerId).selectAll('*').remove();
+        const container = document.getElementById(containerId.replace('#',''));
+        if (!container) return;
+
+        const isMobile = window.innerWidth < 768;
+        const margin = { top: 24, right: isMobile ? 90 : 150, bottom: 30, left: isMobile ? 150 : 210 };
+        const width = Math.max((container.offsetWidth || 800) - margin.left - margin.right, 200);
+        const barHeight = 26;
+        const height = rowData.length * (barHeight + 10);
+
+        const svg = d3.select(containerId)
+            .append('svg')
+            .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+            .attr('width', '100%')
+            .attr('height', height + margin.top + margin.bottom)
+            .style('max-width', '1200px')
+            .append('g')
+            .attr('transform', `translate(${margin.left},${margin.top})`);
+
+        if (annotationNote) {
+            svg.append('text').attr('x', 0).attr('y', -8)
+                .attr('font-size', '11px').attr('fill', '#9ca3af').text(annotationNote);
+        }
+
+        const maxTotal = d3.max(rowData, d => d.total);
+        const x = d3.scaleLinear().domain([0, maxTotal]).range([0, width]);
+        const y = d3.scaleBand().domain(rowData.map(d => d[labelKey])).range([0, height]).padding(0.2);
+
+        d3.stack().keys(stackKeys)(rowData).forEach(layer => {
+            svg.selectAll(null).data(layer).join('rect')
+                .attr('x', d => x(d[0]))
+                .attr('y', d => y(d.data[labelKey]))
+                .attr('width', d => Math.max(0, x(d[1]) - x(d[0])))
+                .attr('height', y.bandwidth())
+                .attr('fill', colorMap[layer.key])
+                .append('title')
+                .text(d => `${d.data[labelKey]}\n${labelMap[layer.key]}: ${d.data[layer.key]} (${Math.round(d.data[layer.key] / d.data.total * 100)}%)`);
+        });
+
+        svg.append('g').call(d3.axisLeft(y).tickSize(0))
+            .call(g => g.select('.domain').remove())
+            .selectAll('text').attr('font-size', isMobile ? '10px' : '12px').attr('fill', '#374151');
+
+        svg.append('g').attr('transform', `translate(0,${height})`)
+            .call(d3.axisBottom(x).ticks(5)).call(g => g.select('.domain').remove());
+
+        if (annotationFn) {
+            rowData.forEach(d => {
+                const label = annotationFn(d);
+                if (label) {
+                    svg.append('text')
+                        .attr('x', x(d.total) + 6)
+                        .attr('y', y(d[labelKey]) + y.bandwidth() / 2 + 4)
+                        .attr('font-size', '11px').attr('fill', '#9ca3af').text(label);
+                }
+            });
+        }
+    }
+
+    function createOutcomeBarChart(deptStats, processedData, mode) {
+        if (mode === 'changetype') {
+            const deptChangeMap = {};
+            processedData.forEach(r => {
+                if (!deptChangeMap[r.department]) {
+                    deptChangeMap[r.department] = { department: r.department, total: 0, New: 0, More: 0, Different: 0, Less: 0, Cease: 0, None: 0 };
+                }
+                const d = deptChangeMap[r.department];
+                d.total++;
+                if (d[r.changeType] !== undefined) d[r.changeType]++;
+                else d.None++;
+            });
+            const changeStats = Object.values(deptChangeMap).sort((a, b) => b.total - a.total);
+            const ctKeys = ['New', 'More', 'Different', 'Less', 'Cease', 'None'];
+            buildHorizontalStackedBar('#outcomeBarChart', changeStats, 'department', ctKeys, changeTypeColors, changeTypeColors, null, null);
+        } else {
+            const statusKeys = ['actioned', 'partial', 'no_evidence_found', 'not_published', 'pending'];
+            const statusLabels = { actioned: 'Actioned', partial: 'Partial', no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending' };
+            buildHorizontalStackedBar('#outcomeBarChart', deptStats, 'department', statusKeys, outcomeStatusColor, statusLabels,
+                d => d.coveragePct > 0 ? `${d.coveragePct}% researched` : 'not yet researched',
+                'Grey = not yet researched (does not mean unactioned)');
+        }
+    }
+
+    function createOutcomeCategoryChart(processedData, mode) {
+        const catMap = {};
+        processedData.forEach(r => {
+            const cat = r.actionCategory;
+            if (!catMap[cat]) catMap[cat] = { category: cat, total: 0, actioned: 0, partial: 0, no_evidence_found: 0, not_published: 0, pending: 0, New: 0, More: 0, Different: 0, Less: 0, Cease: 0, None: 0 };
+            const c = catMap[cat];
+            c.total++;
+            const s = r.enrichedOutcome && r.enrichedOutcome.evidence_status;
+            if (s && c[s] !== undefined) c[s]++; else c.pending++;
+            if (c[r.changeType] !== undefined) c[r.changeType]++; else c.None++;
+        });
+
+        if (mode === 'changetype') {
+            const catStats = Object.values(catMap).sort((a, b) => b.total - a.total);
+            const ctKeys = ['New', 'More', 'Different', 'Less', 'Cease', 'None'];
+            buildHorizontalStackedBar('#outcomeCategoryChart', catStats, 'category', ctKeys, changeTypeColors, changeTypeColors, null, null);
+        } else {
+            const catStats = Object.values(catMap)
+                .map(c => ({ ...c, outstanding: c.partial + c.no_evidence_found + c.pending, coveragePct: Math.round((c.total - c.pending) / c.total * 100) }))
+                .sort((a, b) => b.outstanding - a.outstanding);
+            const statusKeys = ['actioned', 'partial', 'no_evidence_found', 'not_published', 'pending'];
+            const statusLabels = { actioned: 'Actioned', partial: 'Partial', no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending' };
+            buildHorizontalStackedBar('#outcomeCategoryChart', catStats, 'category', statusKeys, outcomeStatusColor, statusLabels,
+                d => d.coveragePct > 0 ? `${d.coveragePct}% researched` : 'not yet researched',
+                'Grey = not yet researched (does not mean unactioned)');
+        }
+    }
+
+    // ── End outcome visualization helpers ───────────────────────────────────
 
     // Function to create stacked bar chart
     function createStackedBarChart(data) {
@@ -1143,16 +1376,21 @@
             .data(root.descendants().slice(1))
             .join("path")
             .attr("fill", d => {
-                if (d.depth === 3) {
+                if (d.data.status) {
+                    return outcomeStatusColor[d.data.status] || "#d1d5db";
+                } else if (d.depth === 3) {
                     return actionCategoryColors[d.data.name] || color(d.data.name);
                 } else if (d.depth === 4) {
                     return changeTypeColors[d.data.name] || color(d.data.name);
                 } else {
-                    while (d.depth > 1) d = d.parent;
-                    return color(d.data.name);
+                    let node = d;
+                    while (node.depth > 1) node = node.parent;
+                    return color(node.data.name);
                 }
             })
             .attr("fill-opacity", d => arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0)
+            .attr("stroke", d => d.data.status ? "white" : "none")
+            .attr("stroke-width", d => d.data.status ? 0.5 : 0)
             .attr("pointer-events", d => arcVisible(d.current) ? "auto" : "none")
             .attr("d", d => arc(d.current));
 
