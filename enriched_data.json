@@ -6652,5 +6652,855 @@
       }
     ],
     "notes": "Limited evidence of implementation; document shows research/development of probabilistic approaches but does not confirm full operational implementation of the 2011 Inquiry recommendation."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__0": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 2 Oversight and leadership",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2014-12-07",
+        "description": "Official Scottish Government response confirming intention to extend HEI powers to close wards, stating 'We will be extending its powers to include the ability to close wards if that is what it recommends.' However, this represents a statement of intent rather than confirmed implementation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Statement of government intent to extend HEI powers found in official response, but no evidence of completed legislative implementation or operational status confirmed."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__1": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 2 Oversight and leadership - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2015-04",
+        "description": "Addresses recommendation 2 by detailing the development of a HAI strategy for 2015-2020 to provide stronger strategic guidance and monitoring of healthcare associated infection policy implementation across NHSScotland.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Chapter 5 Next steps - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/8/",
+        "source_type": "official_report",
+        "date": "2015-04",
+        "description": "Outlines establishment of Implementation and Reference Groups to oversee implementation of all 75 recommendations, with action plans and progress updates to be published on the Scottish Government website.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Documentation shows policy commitment and monitoring structures established, but full implementation of the 2015-2020 strategy completion status not confirmed in available sources."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__2": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "The Scottish Government's formal response to the Vale of Leven Hospital Inquiry Report outlining the government's position on implementing the 75 recommendations, including Recommendation #3 concerning infection prevention and control policy review cycles.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government response document identified but full implementation details require access to the complete response publication."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__3": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 2 Oversight and leadership - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2014-12-07",
+        "description": "Government response explicitly references Recommendation 4, stating it 'supports the idea of NHS board-level HAI taskforces linked to the national HAI Taskforce' and mentions the existing national HAI Taskforce established in 2003.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted the recommendation and referenced existing HAI governance structures, but evidence shows existing national-level HAI Taskforce rather than clear evidence of new board-level task forces established as per the specific recommendation."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__4": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 2 Oversight and leadership - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "The Scottish Government's official response document identifies recommendation 5 as one addressing uncertainty from major structural change at VOLH. The document acknowledges the uncertainty affected service delivery but does not provide detailed evidence of implementation of the specific requirement to resolve hospital future uncertainty promptly.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Document addresses recommendation 5 but focuses on recognizing the problem rather than demonstrating concrete implementation of the resolution mechanism."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__5": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "Chapter 2 acknowledges recommendations 5 and 6 concerning major structural changes and their impact on service delivery. The document confirms Scottish Government acceptance of all 75 recommendations and establishment of an Implementation Group (February 2015) to oversee implementation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted recommendation but specific operational implementation of continuity-of-care plans for major service changes not verified in available sources."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__6": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/",
+        "source_type": "official_report",
+        "date": "2014-12-07",
+        "description": "The Scottish Government's formal response accepting all 75 recommendations from the Vale of Leven Inquiry and establishing Implementation and Reference Groups to oversee their implementation, which would cover Recommendation 7 on due diligence processes for NHS reorganisations.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The gov.scot response acknowledges all 75 recommendations but the search results do not provide specific details on the current implementation status or completion of Recommendation 7 specifically."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__7": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 2 Oversight and leadership - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "The Scottish Government's official response document explicitly acknowledges Recommendation #8 and describes the need for 'an effective and stable management structure to be in place at board level to maintain patient safety throughout the process' during major NHS restructuring, with the government committing to implementation via an established Implementation Group.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The government accepted all 75 recommendations and established implementation structures, but the search results show commitment to implement rather than evidence of full completion."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__8": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 2: Oversight and Leadership",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "Scottish Government's official response confirming that Recommendation 9 (ensuring infection prevention and control is explicitly considered at all clinical governance committee meetings) is addressed within a comprehensive response to all 75 Vale of Leven Inquiry recommendations. The government accepted all recommendations in full and committed to implementation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Response addresses Recommendation 9 within broader governance framework but does not provide specific operational evidence of implementation across all NHS boards."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__10": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Appendix 1. Report recommendations and related chapter sections",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/10/",
+        "source_type": "official_report",
+        "date": "2015-12",
+        "description": "Official Scottish Government response document that lists all 75 recommendations and their implementation status. Recommendation 11 concerns ensuring patients and relatives are aware CDI is life-threatening and have access to informed medical staff.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Scottish Government accepted all 75 recommendations but the response document indicates implementation planning was ongoing; full details available through the Implementation and Reference Groups' detailed plan."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__12": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 2 Oversight and leadership - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "Scottish Government's response acknowledges recommendation 13 on ensuring clear and effective line of professional responsibility between ward and board, addressing this within the context of infection control management roles and reporting lines.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted all 75 recommendations but documents show planning/response rather than evidence of full implementation completion."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__13": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 3: Preventing and controlling infection",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "This page specifically addresses recommendation 14 regarding audits of patient records by nurse managers and notes that the Scottish Government accepted all recommendations and established implementation groups to oversee their enactment, but does not provide evidence of full implementation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Scottish Government accepted recommendation 14 but detailed implementation evidence not found in available sources."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__14": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Vale of Leven Hospital Inquiry: 25 Nov 2014: Scottish Parliament debates",
+        "url": "https://www.theyworkforyou.com/sp/?id=2014-11-25.5.0",
+        "source_type": "parliamentary_record",
+        "date": "2014-11-25",
+        "description": "Ministerial statement committing to roll out nationally agreed standards for nursing documentation and care planning, including a minimum dataset for patient records, in response to Vale of Leven Inquiry recommendations.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/3/",
+        "source_type": "official_report",
+        "date": "2014-12-07",
+        "description": "Scottish Government's formal response accepting all 75 recommendations and committing to their implementation through an Implementation Group.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "URLs show commitment and action toward nursing documentation standards but do not specifically confirm complete implementation of recommendation #15 in its full form."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__16": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 2 Oversight and Leadership",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2015-12",
+        "description": "Scottish Government response document that acknowledges recommendation 17 regarding nurses in charge of wards assuming 'ultimate responsibility' for patient admissions where cross-infection risk exists, but provides no implementation detail or completion status.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted recommendation but search results contain no URL demonstrating full implementation or specific operational policy changes enacted."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__17": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 4 Professional Practice - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2014-12-07",
+        "description": "Government response document that addresses recommendation 18 regarding care planning systems, audit, and professional standards. Confirms acceptance and commitment to implement care planning improvements.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted recommendation 18 but search results show commitment rather than verified operational implementation across all health boards."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__21": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official Scottish Government response to the Vale of Leven Hospital Inquiry, which would document how the government addressed the 75 recommendations including Recommendation #22 on nursing staff documentation practices.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "URL located but content not fully verified; search did not yield specific evidence of Recommendation #22 implementation."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__24": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/",
+        "source_type": "official_report",
+        "date": "2015-05",
+        "description": "Scottish Government's comprehensive response to all 75 Vale of Leven Hospital Inquiry recommendations, including details on implementation progress through the Implementation Group and Reference Group established in February 2015.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Official government response document exists but specific implementation status for Recommendation #25 on pressure damage assessment not confirmed in available search results."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__25": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 3: Preventing and controlling infection",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015-12-07",
+        "description": "Scottish Government response explicitly references recommendation #26 regarding record-keeping deficiencies and auditing of records, confirms government acceptance of the recommendation, and details establishment of implementation structures.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted recommendation but search results show commitment to implement rather than demonstrated completion of wound documentation and audit systems."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__27": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "The Scottish Government's official response accepting all 75 recommendations from the Vale of Leven Hospital Inquiry, including recommendation #28 on nutritional screening. The response indicates an implementation plan was being developed but specific details on nutritional screening implementation are not visible in search results.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Official government response document exists but specific implementation details for recommendation #28 are not accessible via search results."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__28": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 3: Preventing and controlling infection",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "Scottish Government's formal response acknowledging Recommendation #29 on patient weighing equipment, stating it accepts the recommendation and commits to implementation through NHS boards.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted and committed to implementation, but document does not confirm whether recommendation was fully actioned in practice."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__29": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/",
+        "source_type": "official_report",
+        "date": "2014-11-24",
+        "description": "Official Scottish Government response document addressing all 75 recommendations from the Vale of Leven Hospital Inquiry, including guidance on fluid balance chart completion and documentation standards.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "URL found addresses recommendations but specific implementation status of Recommendation #30 could not be fully verified from search results."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__32": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 4 Professional practice - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2018-12-07",
+        "description": "Acknowledges that evidence of poor complaint management by nursing teams formed the substance of Recommendation 33. Discusses NHS board complaint procedures and professional standards, but does not provide explicit confirmation of mandatory independent investigation requirement.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Chapter 3 Preventing and controlling infection - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2018-12-07",
+        "description": "References Recommendation 33 regarding NHS board responsibility for investigation of complaints, noting the need for timely and appropriate transfer of information and escalation of concerns.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Search results show government acknowledgement of Recommendation 33 but do not provide definitive evidence of full implementation."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__33": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 3: Preventing and controlling infection",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "Scottish Government's official response addresses recommendation #34 specifically, confirming that antimicrobial management teams (AMTs) have been established in all boards to maintain stewardship activities, promote application of antimicrobial policies, and support audit and feedback activities.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Executive Summary",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/3/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "Scottish Government document confirming acceptance of all 75 recommendations including #34, and establishing an Implementation Group (February 2015) chaired by the Chief Nursing Officer to oversee implementation of all recommendations.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Scottish Government accepted recommendation #34 and established structures (AMTs) to implement antimicrobial policy guidance without delay, but the implementation plan detail was to follow separately."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__34": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 3: Preventing and controlling infection",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015-12",
+        "description": "The Scottish Government's official response document explicitly addresses recommendation #35 as part of measures to ensure policies on prudent antimicrobial prescribing are followed. It describes establishment of antimicrobial management teams in all NHS boards and monitoring through existing scrutiny systems.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The response confirms recommendation #35 was accepted and monitoring structures established, but does not provide evidence of completed implementation verification across all NHS boards."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__36": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/",
+        "source_type": "official_report",
+        "date": "2015-05-01",
+        "description": "Scottish Government official response accepting all 75 recommendations from the inquiry and establishing implementation groups to enact them, though specific details on Recommendation #37 implementation are referenced in appendices rather than explicitly detailed.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted the recommendation but specific operational implementation details for Recommendation #37 are not explicitly documented in retrievable sources."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__37": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 4: Professional Practice",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2014-12-07",
+        "description": "Government response document explicitly addressing Recommendation 38 alongside other record-keeping recommendations (14, 15, 19), discussing record-keeping practices and initiatives to improve auditing of patient records by senior medical staff through electronic health record investments.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted all 75 recommendations but the response shows initiatives in progress rather than full implementation completion."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__39": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015-05-28",
+        "description": "Chapter 3 explicitly confirms that recommendation #40 relating to prudent antimicrobial prescribing monitoring is addressed through establishment of NHS board Antimicrobial Management Teams (AMTs) to maintain stewardship activities and scrutinize implementation through Healthcare Environment Inspections.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Scottish Government accepted all 75 recommendations and implemented antimicrobial management structures, but documentation does not confirm completion of rigorous ongoing monitoring requirements specified in the recommendation."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__42": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 4 Professional practice - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2015-12",
+        "description": "Scottish Government's official response identifying recommendation 43 on targeted education for infection control nurses and doctors as one of the key recommendations to be implemented, focusing on education and training of professionals.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/",
+        "source_type": "official_report",
+        "date": "2015-12",
+        "description": "Main response document confirming the Scottish Government accepted all 75 recommendations and established an Implementation Group to oversee implementation, but does not provide evidence of completed implementation of recommendation 43.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted the recommendation and created implementation structures, but search results do not confirm whether training requirement for infection control nurses and doctors is currently in force or operational."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__43": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 4 Professional practice - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2018-12-07",
+        "description": "Scottish Government's official response document that identifies recommendation 44 regarding performance appraisals of infection prevention and control staff and references the appraisal of Infection Control Doctors.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Document discusses the recommendation but does not provide specific implementation completion details for recommendation 44."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__44": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 2 Oversight and leadership",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2014-12-15",
+        "description": "Official Scottish Government response explicitly addressing recommendations 45-49, which focus on actions to support and clarify the infection control manager role including job description requirements.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Response acknowledges the recommendation and describes measures being taken, but does not provide definitive evidence of full implementation or verification of job description changes across all Health Boards."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__46": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 4 Professional practice - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2014-12-07",
+        "description": "The Scottish Government's formal response document specifically discusses Recommendation 47, stating that the report makes specific recommendations on measures to ensure effective reporting by infection control managers to chief executives. The document indicates acceptance and outlines how infection prevention and control structures will be strengthened.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government response acknowledges Recommendation 47 and commits to implementation but does not provide evidence of full operational implementation."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__47": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 4 Professional practice - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2015-04",
+        "description": "The Scottish Government's official response explicitly addresses recommendation 48, confirming that NHS boards should ensure infection control managers report to boards on healthcare associated infection. The response confirms the government's acceptance of all 75 recommendations and outlines implementation measures.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted all 75 recommendations but the response document (April 2015) discusses recommendations being 'enacted' without providing evidence of full operational implementation by that date."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__48": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 2 Oversight and leadership - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2014-12-07",
+        "description": "The Scottish Government's official response to the inquiry acknowledges recommendation 49 regarding re-issuing national guidance on the Infection Control Manager role. It states the guidance was initially provided in February 2001 and followed-up in March 2005, with the report calling for it to be re-issued.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Scottish Government accepted the recommendation and referenced re-issuing guidance, but the search results do not confirm actual publication of re-issued guidance or its implementation details."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__49": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 4 Professional practice - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "The government response acknowledges Recommendation 50 regarding 24-hour infection prevention and control cover, but the document discusses acceptance and ongoing work rather than completed implementation with specific operational detail.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted all 75 recommendations but the response document does not provide evidence of full operational implementation with specific details on staffing structures or contingency plans."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__51": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 3 Preventing and controlling infection - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015-06",
+        "description": "The Scottish Government's official response acknowledges recommendation 52 and confirms that NHS boards are called to account for auditing adherence to infection prevention and control policies at least annually, backed by unannounced inspections.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted the recommendation and stated implementation measures, but detailed completion status and ongoing audit results not fully evidenced in this response document."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__52": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 3 Preventing and controlling infection - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015-01-01",
+        "description": "Scottish Government response explicitly addressing recommendation 53 on surveillance systems. States that issues relating to surveillance are 'comprehensively addressed' and notes guidance on local HAI surveillance programmes developed by Health Protection Scotland to support NHS boards in implementing data-driven infection prevention systems.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Response shows acceptance and development of surveillance guidance, but does not demonstrate full operational implementation as of available documents."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__53": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 4 Professional practice - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "Scottish Government response document that explicitly references Recommendation 54 within its section on professional practice and education initiatives, indicating it was part of the Government's implementation planning.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation 54 is cited in official response document but specific implementation details are not fully visible in search results."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__54": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/",
+        "source_type": "official_report",
+        "date": "2014-11-24",
+        "description": "Scottish Government's official response accepting all 75 recommendations from the Vale of Leven Hospital Inquiry, including commitment to implementation via a dedicated Implementation Group and plan.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted all 75 recommendations but search results did not provide specific implementation evidence for Recommendation #55."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__55": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 3 Preventing and controlling infection - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "Scottish Government's official response to the Vale of Leven Inquiry. Directly addresses recommendation 56 regarding infection prevention and control committee structures, reporting requirements, and committee communication lines. Confirms NHS boards are required to have infection-control committee structures in place with HAI executive leads and infection control managers.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Document shows government acceptance and outlines committee structures established, but does not provide evidence of full ongoing compliance verification across all Health Boards."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__57": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/",
+        "source_type": "official_report",
+        "date": "2014-11-24",
+        "description": "Official Scottish Government response document confirming all 75 recommendations were accepted and implementation groups established. References recommendation 58 on lay representation at infection prevention and control committee level.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted the recommendation and established implementation mechanisms, but no evidence found confirming full operational implementation across NHS boards."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__58": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 4 Professional practice - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2015-04-01",
+        "description": "The Scottish Government response document specifically addresses Recommendation 59 regarding prioritization of attendance at infection prevention and control meetings, confirming it is part of the implementation plan being developed by the Vale of Leven Hospital Inquiry Implementation Group.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted the recommendation and established an Implementation Group to oversee it, but the search did not locate evidence of full operational implementation."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__60": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 3: Preventing and controlling infection",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015-05-06",
+        "description": "Scottish Government response document that explicitly addresses recommendation #61, confirming NHS boards should conduct unannounced inspections by senior infection prevention and control staff with lay representatives.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Document shows recommendation was accepted and planning for implementation initiated, but does not provide evidence of current operational implementation of unannounced inspections."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__62": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 3: Preventing and controlling infection",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2018-12-07",
+        "description": "The Scottish Government response document explicitly addresses recommendation 63, stating that it 'urges NHS boards to ensure effective isolation of patients who are suspected of contracting C. diff infection, with procedures in place to ensure that any failure to isolate is reported to senior management.' The document describes the policy framework but does not provide evidence of full operational implementation across all Health Boards.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Document confirms government accepted the recommendation and outlined policy approach, but does not verify complete implementation across all NHS Health Boards."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__63": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Chapter 3 Preventing and controlling infection - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2014-11-24",
+        "description": "The Scottish Government's formal response document explicitly addresses recommendation 64, confirming that cohorting should not be used as a substitute for single-room isolation and outlining the conditions under which it may be used as a last resort.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Official government response indicates the recommendation was accepted and implemented in Scottish health policy."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__64": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Chapter 3 Preventing and controlling infection - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2018-12-07",
+        "description": "Official Scottish Government response document that directly addresses recommendation #65, stating that appropriate steps should be taken to isolate patients with potentially infectious diarrhoea, and details implementation measures including single-room accommodation requirements (100% for new builds, 50% for refurbished buildings).",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The gov.scot response confirms recommendation #65 is being implemented through formal policy requiring NHS boards to isolate patients with infectious diarrhoea, with architectural standards enforcing single-room isolation."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__65": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 3 Preventing and controlling infection - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/6/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "Official Scottish Government response document that specifically addresses recommendation 66, confirming acceptance of the recommendation and outlining measures including Healthcare Environment Inspectorate scrutiny of environmental standards and NHS board compliance monitoring through established systems.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted the recommendation and established monitoring systems, but search results show only commitment to implementation with ongoing scrutiny rather than evidence of full completion of enforcement."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__66": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 4 Professional practice - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "Confirms recommendation 67 regarding specific training for link nurses in boards' infection prevention and control systems and references broader education initiatives, but does not detail full implementation across NHS boards.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government committed to implementation but specific evidence of completion across all Health Boards not found in accessible documents."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__67": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report - Chapter 4 Professional practice",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/7/",
+        "source_type": "official_report",
+        "date": "2018-12-07",
+        "description": "Scottish Government response document confirming that recommendation #68 regarding consultant involvement in death certificate completion is being addressed. The document states that guidance was distributed to NHS boards in September 2009 and an updated version issued in October 2014 to ensure deaths in which HAI played a part were accurately certified.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted the recommendation but documentation shows guidance distribution rather than complete legislative or systemic implementation verification."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__70": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 2 Oversight and leadership - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "This official Scottish Government response document explicitly addresses Recommendation 71 (among others: 1, 2, 3, 4, 5, 6, 17, 49, 70, 71, 74 and 75) regarding national monitoring of CDI-related deaths. The government acknowledges the recommendation and sets out how it intends to address national monitoring of HAI-related mortality.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government response acknowledges the recommendation but the available text indicates intent to implement rather than confirmed full implementation."
+  },
+  "Vale of Leven Hospital Inquiry (Clostridioides difficile)__74": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Chapter 2 Oversight and leadership - The Scottish Government's Response to the Vale of Leven Hospital Inquiry Report",
+        "url": "https://www.gov.scot/publications/scottish-governments-response-vale-leven-hospital-inquiry-report/pages/5/",
+        "source_type": "official_report",
+        "date": "2015-12-07",
+        "description": "This official government response document directly addresses recommendations 74 and 75, which call for timely review and implementation of relevant measures from inquiry reports. The document confirms the Scottish Government accepted all 75 recommendations and established an Implementation Group and Reference Group to oversee implementation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted all 75 recommendations and established oversight mechanisms, but no evidence of complete implementation of the specific audit and review requirement."
   }
 }
