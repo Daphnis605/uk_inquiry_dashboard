@@ -359,7 +359,7 @@ def main() -> None:
                         print(f"     {line}", file=sys.stderr)
 
             if i < len(batch) - 1:
-                time.sleep(120 if use_web_search else 0.3)  # web search uses ~25k tokens; 2 min buffer clears 60s TPM window
+                time.sleep(150 if use_web_search else 0.3)  # web search can use 60k+ tokens; 150s clears the 60s TPM window
     finally:
         if audit_file:
             audit_file.close()
