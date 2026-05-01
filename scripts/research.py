@@ -217,7 +217,11 @@ def research_recommendation(
             raw = extract_final_text(message)
             return parse_response(raw), raw
         except Exception as e:
-            err = str(e)
+            err = str(e).lower()
+            # Billing/spend limit — no point retrying, exit immediately
+            if any(k in err for k in ("billing", "credit", "spend", "budget", "payment", "invoice", "limit_reached")):
+                print(f"\n💳  Billing limit reached — stopping. ({e})", file=sys.stderr)
+                sys.exit(2)
             if "rate_limit_error" in err and attempt < 2:
                 wait = 60 * (attempt + 1)
                 print(f"  Rate limit hit — waiting {wait}s before retry {attempt + 2}/3…", file=sys.stderr)

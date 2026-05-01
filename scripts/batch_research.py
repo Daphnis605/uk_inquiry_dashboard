@@ -120,6 +120,7 @@ def run_inquiry(
 
     attempted = 0
     no_response = 0
+    last_rec = 0
 
     try:
         proc = subprocess.Popen(cmd, stderr=subprocess.PIPE, text=True, encoding="utf-8", errors="replace")
@@ -129,10 +130,14 @@ def run_inquiry(
             stripped = line.strip()
             if stripped.startswith("[") and "/" in stripped:
                 attempted += 1
+                # Parse rec number from lines like "[3/288] Inquiry rec 42"
+                rec_match = __import__("re").search(r"\brec (\d+)$", stripped)
+                if rec_match:
+                    last_rec = int(rec_match.group(1))
             if "→ no_response" in stripped:
                 no_response += 1
         proc.wait()
-        return {"name": name, "returncode": proc.returncode, "attempted": attempted, "no_response": no_response}
+        return {"name": name, "returncode": proc.returncode, "attempted": attempted, "no_response": no_response, "last_rec": last_rec}
     except KeyboardInterrupt:
         proc.terminate()
         raise
@@ -273,6 +278,11 @@ def main() -> None:
             )
             completed += 1
 
+            if stats["returncode"] == 2:
+                print(f"\n💳  Billing limit reached after {completed}/{total} inquiries — stopping.", file=sys.stderr)
+                resume = f'--from "{name}" --start-from {stats["last_rec"] + 1}' if stats.get("last_rec") else f'--from "{name}"'
+                print(f"Resume next month with: python scripts/batch_research.py {resume}", file=sys.stderr)
+                sys.exit(2)
             if stats["returncode"] not in (0, None):
                 print(f"\n✗  research.py exited {stats['returncode']} — stopping.", file=sys.stderr)
                 sys.exit(1)
