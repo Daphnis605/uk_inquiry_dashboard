@@ -191,7 +191,7 @@ def research_recommendation(
     rec: dict,
     model: str,
     web_search: bool = True,
-) -> tuple[dict | None, str]:
+) -> tuple[dict | None, str, dict]:
     """Returns (parsed_result, raw_response_text)."""
     prompt_template = RESEARCH_PROMPT_WEB if web_search else RESEARCH_PROMPT
     prompt = prompt_template.format(
@@ -215,7 +215,19 @@ def research_recommendation(
         try:
             message = client.messages.create(**kwargs)
             raw = extract_final_text(message)
-            return parse_response(raw), raw
+            usage = message.usage
+            n_searches = sum(1 for b in message.content if getattr(b, "type", "") == "tool_use")
+            token_info = {
+                "input_tokens": usage.input_tokens,
+                "output_tokens": usage.output_tokens,
+                "web_searches": n_searches,
+            }
+            print(
+                f"  tokens: {usage.input_tokens:,} in / {usage.output_tokens:,} out"
+                + (f" | {n_searches} web search(es)" if web_search else ""),
+                file=sys.stderr,
+            )
+            return parse_response(raw), raw, token_info
         except Exception as e:
             err = str(e).lower()
             # Billing/spend limit — no point retrying, exit immediately
@@ -228,11 +240,11 @@ def research_recommendation(
                 time.sleep(wait)
             else:
                 print(f"  API error: {e}", file=sys.stderr)
-                return None, ""
-    return None, ""
+                return None, "", {}
+    return None, "", {}
 
 
-def write_audit_entry(audit_file: IO, rec: dict, result: dict | None, raw: str) -> None:
+def write_audit_entry(audit_file: IO, rec: dict, result: dict | None, raw: str, token_info: dict | None = None) -> None:
     """Append one JSONL entry to the audit log."""
     entry = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
@@ -243,6 +255,9 @@ def write_audit_entry(audit_file: IO, rec: dict, result: dict | None, raw: str) 
         "outcome": (result or {}).get("evidence_status", "parse_error"),
         "notes": (result or {}).get("notes", ""),
         "evidence_count": len((result or {}).get("evidence", [])),
+        "input_tokens": (token_info or {}).get("input_tokens"),
+        "output_tokens": (token_info or {}).get("output_tokens"),
+        "web_searches": (token_info or {}).get("web_searches"),
         "raw_response": raw,
     }
     audit_file.write(json.dumps(entry, ensure_ascii=False) + "\n")
@@ -333,10 +348,10 @@ def main() -> None:
             label = f"[{i + 1}/{len(batch)}] {rec['inquiry']} rec {rec['rec_idx'] + 1}"
             print(label, file=sys.stderr)
 
-            result, raw = research_recommendation(client, rec, args.model, web_search=use_web_search)
+            result, raw, token_info = research_recommendation(client, rec, args.model, web_search=use_web_search)
 
             if audit_file:
-                write_audit_entry(audit_file, rec, result, raw)
+                write_audit_entry(audit_file, rec, result, raw, token_info)
 
             if result and result.get("evidence_status") in ("actioned", "partial") and result.get("evidence"):
                 for ev in result["evidence"]:
