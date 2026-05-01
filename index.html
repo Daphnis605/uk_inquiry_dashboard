@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UK Public Inquiries Dashboard</title>
+    <title>UK Public Inquiry Tracker — Government Action on Recommendations</title>
     <meta name="description" content="Track the implementation of recommendations from major UK public inquiries, including Grenfell Tower, Infected Blood, and Manchester Arena.">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="styles.css">
@@ -62,7 +62,7 @@
                         <li><strong style="color:#49899E">Infrastructure & Facilities</strong> – Physical buildings, equipment, and safety improvements.</li>
                         <li><strong style="color:#D3A4EA">Investigation & Redress</strong> – Fact-finding, inquiries, and corrective actions.</li>
                         <li><strong style="color:#93499E">Support & Welfare</strong> – Assistance for affected individuals, victims, and communities.</li>
-                        <li><strong style="color:#878c8f">None Published</strong> – Recommended actions if they exist, have not been published or are not available.</li>
+                        <li><strong style="color:#878c8f">No Published Data</strong> – Recommendations may exist but have not been published or are not accessible for review.</li>
                     </ul>
                 </details>
 
@@ -100,18 +100,18 @@
 
         <!-- Contribution Banner -->
         <div id="helpSection" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 30px; border-radius: 15px; margin: 40px 0; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
-            <h2 style="margin: 0 0 20px 0; color: white; font-size: 32px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">💜 Help Improve This Dashboard</h2>
+            <h2 style="margin: 0 0 20px 0; color: white; font-size: 32px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);"><span aria-hidden="true">💜</span> Help Improve This Dashboard</h2>
             <p style="font-size: 18px; margin: 20px auto; max-width: 700px; line-height: 1.6;">Your contributions help track government accountability and inquiry outcomes</p>
 
             <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0 20px 0;">
                 <div style="position: relative;">
-                    <span style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #4CAF50; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; white-space: nowrap; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">✨ FREE WAY TO HELP</span>
+                    <span style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #4CAF50; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; white-space: nowrap; box-shadow: 0 2px 6px rgba(0,0,0,0.2);"><span aria-hidden="true">✨</span> FREE WAY TO HELP</span>
                     <a href="https://forms.gle/Xni4V6NhmhEHGNmv8" target="_blank" style="background: white; color: #667eea; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: inline-block;">
-                        📝 Submit Evidence Links
+                        <span aria-hidden="true">📝</span> Submit Evidence Links
                     </a>
                 </div>
                 <a href="https://buymeacoffee.com/daphnis605" target="_blank" style="background: #FFDD00; color: #000; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: inline-block;">
-                    ☕ Buy Me a Hot Chocolate
+                    <span aria-hidden="true">☕</span> Buy Me a Hot Chocolate
                 </a>
             </div>
 
@@ -189,7 +189,7 @@
                                 <option value="Infrastructure & Facilities">Infrastructure & Facilities</option>
                                 <option value="Investigation & Redress">Investigation & Redress</option>
                                 <option value="Support & Welfare">Support & Welfare</option>
-                                <option value="None Published">None Published</option>
+                                <option value="None Published">No Published Data</option>
                             </select>
                         </div>
                         <div>
@@ -207,7 +207,7 @@
                     </div>
                     </div><!-- end filterPanelBody -->
                     <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 15px; margin-top: 15px;">
-                        <button id="clearFilters" style="padding: 10px 20px; background: #d62728; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Clear All Filters</button>
+                        <button id="clearFilters" style="padding: 10px 20px; background: #6b7280; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;" aria-label="Clear all filters and reset table">Clear All Filters</button>
                         <div style="display: flex;">
                             <select id="downloadFormat" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px 0 0 4px; font-weight: bold; cursor: pointer;">
                                 <option value="csv">CSV</option>
@@ -232,13 +232,13 @@
                     </colgroup>
                     <thead>
                         <tr>
-                            <th class="sortable" data-column="0">Administration/Department <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-column="1">Inquiry Name <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-column="2">Change Type <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-column="3">Action Category <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-column="4">Recommendation <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-column="5">Evidence <span class="sort-indicator"></span></th>
-                            <th class="sortable" data-column="6">Evidence Type <span class="sort-indicator"></span></th>
+                            <th class="sortable" scope="col" data-column="0">Administration/Department <span class="sort-indicator" aria-hidden="true"></span></th>
+                            <th class="sortable" scope="col" data-column="1">Inquiry Name <span class="sort-indicator" aria-hidden="true"></span></th>
+                            <th class="sortable" scope="col" data-column="2">Change Type <span class="sort-indicator" aria-hidden="true"></span></th>
+                            <th class="sortable" scope="col" data-column="3">Action Category <span class="sort-indicator" aria-hidden="true"></span></th>
+                            <th class="sortable" scope="col" data-column="4">Recommendation <span class="sort-indicator" aria-hidden="true"></span></th>
+                            <th class="sortable" scope="col" data-column="5">Evidence <span class="sort-indicator" aria-hidden="true"></span></th>
+                            <th class="sortable" scope="col" data-column="6">Evidence Status <span class="sort-indicator" aria-hidden="true"></span></th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -285,14 +285,22 @@
         pending: "#d1d5db"
     };
 
+    // Show loading state while data fetches
+    const loadingEl = document.createElement('p');
+    loadingEl.id = 'loadingMsg';
+    loadingEl.setAttribute('aria-live', 'polite');
+    loadingEl.textContent = 'Loading data…';
+    loadingEl.style.cssText = 'text-align:center;color:#6b7280;padding:40px 0;font-size:16px;';
+    document.getElementById('stackedBarChart').appendChild(loadingEl);
+
     // Fetch and process the data
-    console.log("Starting to fetch data files...");
     Promise.all([
         fetch('data.json').then(r => r.json()),
         fetch('enriched_data.json').then(r => r.json()).catch(() => ({}))
     ])
         .then(([data, enrichedData]) => {
-            console.log("Data fetched successfully");
+            const lm = document.getElementById('loadingMsg');
+            if (lm) lm.remove();
             // Build flat lookup from enriched_data.json (skip metadata keys)
             const enrichedMap = {};
             Object.entries(enrichedData).forEach(([key, val]) => {
@@ -804,7 +812,7 @@
         })
         .catch(error => {
             console.error("Error loading or processing data:", error);
-            document.querySelector('.container').innerHTML += '<div style="background: #ffdddd; padding: 20px; margin: 20px; border-radius: 5px; border: 2px solid #ff0000;"><h2>Error Loading Data</h2><p>Could not load data files. Error: ' + error.message + '</p><p><strong>Possible solutions:</strong></p><ul><li>Make sure you are running this page through a web server (not file://)</li><li>Check that data.json and enriched_data.json exist in the same folder as index.html</li><li>Open browser console (F12) for more details</li></ul></div>';
+            document.querySelector('.container').innerHTML += '<div role="alert" aria-live="assertive" style="background: #ffdddd; padding: 20px; margin: 20px; border-radius: 5px; border: 2px solid #ff0000;"><h2>Error Loading Data</h2><p>Could not load data files. Error: ' + error.message + '</p><p><strong>Possible solutions:</strong></p><ul><li>Make sure you are running this page through a web server (not file://)</li><li>Check that data.json and enriched_data.json exist in the same folder as index.html</li><li>Open browser console (F12) for more details</li></ul></div>';
         });
 
     // ── Outcome visualization helpers ───────────────────────────────────────
@@ -872,13 +880,16 @@
         const barHeight = 26;
         const height = rowData.length * (barHeight + 10);
 
-        const svg = d3.select(containerId)
+        const svgRoot = d3.select(containerId)
             .append('svg')
             .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
             .attr('width', '100%')
             .attr('height', height + margin.top + margin.bottom)
-            .style('max-width', '1200px')
-            .append('g')
+            .attr('role', 'img')
+            .attr('aria-label', (annotationNote || containerId.replace('#', '')))
+            .style('max-width', '1200px');
+        svgRoot.append('title').text(annotationNote || 'Stacked bar chart');
+        const svg = svgRoot.append('g')
             .attr('transform', `translate(${margin.left},${margin.top})`);
 
         if (annotationNote) {
@@ -1093,13 +1104,17 @@
         const height = Math.max(chartData.length * (isMobile ? 30 : 35), 400);
 
         // Create SVG
-        const svg = d3.select("#stackedBarChart")
+        const svgEl = d3.select("#stackedBarChart")
             .append("svg")
             .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
             .attr("width", "100%")
             .attr("height", height + margin.top + margin.bottom)
-            .style("max-width", "1200px")
-            .append("g")
+            .attr("role", "img")
+            .attr("aria-label", "Horizontal stacked bar chart: recommendations by action category and change type")
+            .style("max-width", "1200px");
+        svgEl.append("title").text("Recommendations by Action Category and Change Type");
+        svgEl.append("desc").text("Horizontal stacked bar chart showing the distribution of recommendation types (New, More, Different, Less, Cease) across action categories such as Law & Regulation, Governance, Training, and others.");
+        const svg = svgEl.append("g")
             .attr("transform", `translate(${margin.left},${margin.top})`);
 
         // Get change types (ordered as requested: New, More, Different, Less, Cease, None)

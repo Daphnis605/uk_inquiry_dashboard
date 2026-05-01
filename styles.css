@@ -191,6 +191,13 @@ th.sortable {
     user-select: none;
 }
 
+th.sortable::after {
+    content: ' ↕';
+    font-size: 11px;
+    color: #9ca3af;
+    font-weight: normal;
+}
+
 th.sortable:hover {
     background-color: #e9ecef;
 }
@@ -294,13 +301,13 @@ tr:hover {
 .submit-evidence-link {
     display: block;
     margin-top: 4px;
-    font-size: 11px;
-    color: #888;
+    font-size: 12px;
+    color: #1d70b8;
     text-decoration: underline;
 }
 
 .submit-evidence-link:hover {
-    color: #555;
+    color: #003078;
 }
 
 /* Continuation rows (2nd+ evidence item for a recommendation) — no top border */
@@ -449,7 +456,7 @@ tr:hover {
         border: 1px solid #c5ceff;
         border-radius: 6px;
         font-size: 13px;
-        color: #555;
+        color: #1e293b;
         margin-bottom: 8px;
     }
 
@@ -505,4 +512,25 @@ tr:hover {
     #outcomeHeatmap {
         min-width: 0;
     }
+}
+
+/* ── Reduced motion: suppress D3 transitions ─────────────────── */
+@media (prefers-reduced-motion: reduce) {
+    svg * {
+        transition: none !important;
+        animation: none !important;
+    }
+}
+
+/* ── Print stylesheet ─────────────────────────────────────────── */
+@media print {
+    body { margin: 0; background: white; }
+    .container { box-shadow: none; border-radius: 0; padding: 0; }
+    #navToggle, #navBackdrop, #sectionNav,
+    .chart-mobile-banner, .chart-toggle-btn,
+    .filter-toggle-btn, #downloadButton, #downloadFormat,
+    .submit-evidence-link { display: none !important; }
+    .chart-collapsible { display: block !important; }
+    table { font-size: 10px; }
+    th, td { padding: 6px; }
 }
