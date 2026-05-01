@@ -4,21 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UK Public Inquiries Dashboard</title>
+    <meta name="description" content="Track the implementation of recommendations from major UK public inquiries, including Grenfell Tower, Infected Blood, and Manchester Arena.">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a href="#page-main" class="skip-link">Skip to main content</a>
     <div class="container">
         <h1>UK Public Inquiries Dashboard</h1>
-        <h3 style="text-align: center; color: #7c7b7b;"><i>Explore the charts by clicking on the sections to navigate through the data</i></h3>
+        <p style="text-align: center; font-size: 18px; color: #555; margin: 8px 0 4px 0;">What happened after that inquiry? Have the lessons been learned?</p>
+        <p style="text-align: center; font-size: 13px; color: #9ca3af; margin: 0 0 16px 0; letter-spacing: 0.03em;">☰ Contents &nbsp;·&nbsp; scroll to explore</p>
 
-        
-        <div class="chart-container">
+        <!-- Side tray navigation -->
+        <div id="navBackdrop" aria-hidden="true"></div>
+        <nav id="sectionNav" aria-label="Jump to section" aria-hidden="true">
+            <div class="nav-tray-header">
+                <span class="nav-title">Contents</span>
+                <button id="navClose" aria-label="Close contents">✕</button>
+            </div>
+            <ol>
+                <li><a href="#stackedBarSection">Recommendations overview</a></li>
+                <li><a href="#legendSection">Definitions</a></li>
+                <li><a href="#outcomeSection">Recommendation outcome status</a></li>
+                <li><a href="#helpSection">Help improve this dashboard</a></li>
+                <li><a href="#sunburstSection">Inquiry explorer</a></li>
+                <li><a href="#actionsSection">Actions explorer</a></li>
+                <li><a href="#tableSection">Data table</a></li>
+            </ol>
+        </nav>
+        <button id="navToggle" aria-expanded="false" aria-controls="sectionNav">
+            <span class="nav-toggle-icon">☰</span> Contents
+        </button>
+
+        <main id="page-main">
+
+        <div id="stackedBarSection" class="chart-container">
             <h2>Overall Recommendations by Action Category and Change Type</h2>
             <h3 style="text-align: center; color: #7c7b7b;"><i>Action Categories and Change Types are custom labels applied to unaltered inquiry recommendations (definitions below)</i></h3>
             <div id="stackedBarChart" style="overflow-x: auto; overflow-y: visible;"></div>
         </div>
-        <div>
+        <div id="legendSection">
                 <details class="legend-section" open>
                     <summary><h2>Action-Based Categories (Recommendations Analysis by ChatGPT 4-o)</h2></summary>
                     <ul>
@@ -53,45 +78,6 @@
                     </ul>
                 </details>
         </div>
-        <div class="chart-container">
-            <h2>Number of Recommendations by Administration/Department and inquiry</h2>
-            <div class="chart-mobile-banner">
-                <span>Interactive chart — best viewed on a wider screen.</span>
-                <button class="chart-toggle-btn" data-target="sunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
-            </div>
-            <div id="sunburstChart" class="chart-collapsible"></div>
-        </div>
-        <div class="chart-container">
-            <h2>Actions recommended for each Administration/Department and type of action advised</h2>
-            <h3 style="text-align: center; color: #7c7b7b;"><i>Hover over or click on the chart below to view recommendation in full</i></h3>
-            <div class="chart-mobile-banner">
-                <span>Interactive chart — best viewed on a wider screen.</span>
-                <button class="chart-toggle-btn" data-target="actionsSunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
-            </div>
-            <div id="actionsSunburstChart" class="chart-collapsible"></div>
-        </div>
-        
-        <!-- Contribution Banner -->
-        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 30px; border-radius: 15px; margin: 40px 0; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
-            <h2 style="margin: 0 0 20px 0; color: white; font-size: 32px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">💜 Help Improve This Dashboard</h2>
-            <p style="font-size: 18px; margin: 20px auto; max-width: 700px; line-height: 1.6;">Your contributions help track government accountability and inquiry outcomes</p>
-            
-            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0 20px 0;">
-                <div style="position: relative;">
-                    <span style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #4CAF50; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; white-space: nowrap; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">✨ FREE WAY TO HELP</span>
-                    <a href="https://forms.gle/Xni4V6NhmhEHGNmv8" target="_blank" style="background: white; color: #667eea; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: inline-block;">
-                        📝 Submit Evidence Links
-                    </a>
-                </div>
-                <a href="https://buymeacoffee.com/daphnis605" target="_blank" style="background: #FFDD00; color: #000; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: inline-block;">
-                    ☕ Buy Me a Hot Chocolate
-                </a>
-            </div>
-            
-            <p style="font-size: 14px; opacity: 0.9; margin-top: 20px;">
-                Learn more at <a href="https://Sophie-Lynne.com/Projects" target="_blank" style="color: #FFD700; text-decoration: underline; font-weight: bold;">Sophie-Lynne.com/Projects</a>
-            </p>
-        </div>
 
         <!-- Outcome Visualizations Section -->
         <div id="outcomeSection" class="chart-container">
@@ -107,9 +93,52 @@
             <h3 style="color:#374151;margin:16px 0 8px 0;">Outcomes by Department</h3>
             <div id="outcomeBarChart" style="overflow-x:auto;margin-bottom:32px;"></div>
             <h3 style="color:#374151;margin-bottom:8px;">Outcomes by Action Category</h3>
-            <div id="outcomeCategoryChart" style="overflow-x:auto;margin-bottom:16px;"></div>
+            <div id="outcomeCategoryChart" style="overflow-x:auto;margin-bottom:32px;"></div>
+            <h3 style="color:#374151;margin-bottom:8px;">Outcomes by Inquiry <span style="font-size:12px;font-weight:normal;color:#9ca3af;">— ordered by report year (oldest first)</span></h3>
+            <div id="outcomeInquiryChart" style="overflow-x:auto;margin-bottom:16px;"></div>
         </div>
 
+        <!-- Contribution Banner -->
+        <div id="helpSection" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 30px; border-radius: 15px; margin: 40px 0; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
+            <h2 style="margin: 0 0 20px 0; color: white; font-size: 32px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">💜 Help Improve This Dashboard</h2>
+            <p style="font-size: 18px; margin: 20px auto; max-width: 700px; line-height: 1.6;">Your contributions help track government accountability and inquiry outcomes</p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0 20px 0;">
+                <div style="position: relative;">
+                    <span style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #4CAF50; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; white-space: nowrap; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">✨ FREE WAY TO HELP</span>
+                    <a href="https://forms.gle/Xni4V6NhmhEHGNmv8" target="_blank" style="background: white; color: #667eea; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: inline-block;">
+                        📝 Submit Evidence Links
+                    </a>
+                </div>
+                <a href="https://buymeacoffee.com/daphnis605" target="_blank" style="background: #FFDD00; color: #000; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: inline-block;">
+                    ☕ Buy Me a Hot Chocolate
+                </a>
+            </div>
+
+            <p style="font-size: 14px; opacity: 0.9; margin-top: 20px;">
+                Learn more at <a href="https://Sophie-Lynne.com/Projects" target="_blank" style="color: #FFD700; text-decoration: underline; font-weight: bold;">Sophie-Lynne.com/Projects</a>
+            </p>
+        </div>
+
+        <div id="sunburstSection" class="chart-container">
+            <h2>Number of Recommendations by Administration/Department and inquiry</h2>
+            <div class="chart-mobile-banner">
+                <span>Interactive chart — best viewed on a wider screen.</span>
+                <button class="chart-toggle-btn" data-target="sunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
+            </div>
+            <div id="sunburstChart" class="chart-collapsible"></div>
+        </div>
+        <div id="actionsSection" class="chart-container">
+            <h2>Actions recommended for each Administration/Department and type of action advised</h2>
+            <h3 style="text-align: center; color: #7c7b7b;"><i>Hover over or click on the chart below to view recommendation in full</i></h3>
+            <div class="chart-mobile-banner">
+                <span>Interactive chart — best viewed on a wider screen.</span>
+                <button class="chart-toggle-btn" data-target="actionsSunburstChart" onclick="toggleChartVisibility(this)">Show chart ▼</button>
+            </div>
+            <div id="actionsSunburstChart" class="chart-collapsible"></div>
+        </div>
+
+        <div id="tableSection">
         <h2>Inquiries Table</h2>
         <h3 style="text-align: center; color: #7c7b7b;"><i>Recommendations compiled from original inquiry PDFs with custom labels (defined above). Outcomes sourced from publicly available evidence.</i></h3>
         <div id="evidenceCountBadge"></div>
@@ -215,6 +244,8 @@
                     <tbody></tbody>
                 </table>
             </div>
+        </div><!-- end tableSection -->
+        </main><!-- end page-main -->
 
     <script>
     // Define color scales for ActionCategory and ChangeType
@@ -756,6 +787,7 @@
             createOutcomeLegend(outcomeMode);
             createOutcomeBarChart(deptStats, processedData, outcomeMode);
             createOutcomeCategoryChart(processedData, outcomeMode);
+            createOutcomeInquiryChart(processedData, outcomeMode);
 
             const outcomeToggleBtn = document.getElementById('outcomeToggleBtn');
             if (outcomeToggleBtn) {
@@ -765,6 +797,7 @@
                     createOutcomeLegend(outcomeMode);
                     createOutcomeBarChart(deptStats, processedData, outcomeMode);
                     createOutcomeCategoryChart(processedData, outcomeMode);
+                    createOutcomeInquiryChart(processedData, outcomeMode);
                 });
             }
             console.log("All charts created successfully");
@@ -826,13 +859,15 @@
         });
     }
 
-    function buildHorizontalStackedBar(containerId, rowData, labelKey, stackKeys, colorMap, labelMap, annotationFn, annotationNote) {
+    function buildHorizontalStackedBar(containerId, rowData, labelKey, stackKeys, colorMap, labelMap, annotationFn, annotationNote, options) {
         d3.select(containerId).selectAll('*').remove();
         const container = document.getElementById(containerId.replace('#',''));
         if (!container) return;
 
+        const opts = options || {};
         const isMobile = window.innerWidth < 768;
-        const margin = { top: 24, right: isMobile ? 90 : 150, bottom: 30, left: isMobile ? 150 : 210 };
+        const leftMargin = opts.leftMargin || (isMobile ? 150 : 210);
+        const margin = { top: 24, right: isMobile ? 90 : 150, bottom: 30, left: leftMargin };
         const width = Math.max((container.offsetWidth || 800) - margin.left - margin.right, 200);
         const barHeight = 26;
         const height = rowData.length * (barHeight + 10);
@@ -890,6 +925,8 @@
         if (mode === 'changetype') {
             const deptChangeMap = {};
             processedData.forEach(r => {
+                const s = r.enrichedOutcome && r.enrichedOutcome.evidence_status;
+                if (s !== 'actioned' && s !== 'partial') return;
                 if (!deptChangeMap[r.department]) {
                     deptChangeMap[r.department] = { department: r.department, total: 0, New: 0, More: 0, Different: 0, Less: 0, Cease: 0, None: 0 };
                 }
@@ -900,13 +937,14 @@
             });
             const changeStats = Object.values(deptChangeMap).sort((a, b) => b.total - a.total);
             const ctKeys = ['New', 'More', 'Different', 'Less', 'Cease', 'None'];
-            buildHorizontalStackedBar('#outcomeBarChart', changeStats, 'department', ctKeys, changeTypeColors, changeTypeColors, null, null);
+            buildHorizontalStackedBar('#outcomeBarChart', changeStats, 'department', ctKeys, changeTypeColors, changeTypeColors,
+                d => `${d.total} researched`, 'Only showing actioned / partial recommendations', { leftMargin: 280 });
         } else {
             const statusKeys = ['actioned', 'partial', 'no_evidence_found', 'not_published', 'pending'];
             const statusLabels = { actioned: 'Actioned', partial: 'Partial', no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending' };
             buildHorizontalStackedBar('#outcomeBarChart', deptStats, 'department', statusKeys, outcomeStatusColor, statusLabels,
                 d => d.coveragePct > 0 ? `${d.coveragePct}% researched` : 'not yet researched',
-                'Grey = not yet researched (does not mean unactioned)');
+                'Grey = not yet researched (does not mean unactioned)', { leftMargin: 280 });
         }
     }
 
@@ -923,9 +961,20 @@
         });
 
         if (mode === 'changetype') {
-            const catStats = Object.values(catMap).sort((a, b) => b.total - a.total);
+            const catChangeMap = {};
+            processedData.forEach(r => {
+                const s = r.enrichedOutcome && r.enrichedOutcome.evidence_status;
+                if (s !== 'actioned' && s !== 'partial') return;
+                const cat = r.actionCategory;
+                if (!catChangeMap[cat]) catChangeMap[cat] = { category: cat, total: 0, New: 0, More: 0, Different: 0, Less: 0, Cease: 0, None: 0 };
+                const c = catChangeMap[cat];
+                c.total++;
+                if (c[r.changeType] !== undefined) c[r.changeType]++; else c.None++;
+            });
+            const catStats = Object.values(catChangeMap).sort((a, b) => b.total - a.total);
             const ctKeys = ['New', 'More', 'Different', 'Less', 'Cease', 'None'];
-            buildHorizontalStackedBar('#outcomeCategoryChart', catStats, 'category', ctKeys, changeTypeColors, changeTypeColors, null, null);
+            buildHorizontalStackedBar('#outcomeCategoryChart', catStats, 'category', ctKeys, changeTypeColors, changeTypeColors,
+                d => `${d.total} researched`, 'Only showing actioned / partial recommendations', { leftMargin: 280 });
         } else {
             const catStats = Object.values(catMap)
                 .map(c => ({ ...c, outstanding: c.partial + c.no_evidence_found + c.pending, coveragePct: Math.round((c.total - c.pending) / c.total * 100) }))
@@ -934,7 +983,59 @@
             const statusLabels = { actioned: 'Actioned', partial: 'Partial', no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending' };
             buildHorizontalStackedBar('#outcomeCategoryChart', catStats, 'category', statusKeys, outcomeStatusColor, statusLabels,
                 d => d.coveragePct > 0 ? `${d.coveragePct}% researched` : 'not yet researched',
-                'Grey = not yet researched (does not mean unactioned)');
+                'Grey = not yet researched (does not mean unactioned)', { leftMargin: 280 });
+        }
+    }
+
+    function shortInquiryLabel(name, dateStr) {
+        const year = dateStr ? dateStr.split('/')[2] : '';
+        let short = name
+            .replace(/^The\s+/i, '')
+            .replace(/\s*\(Clostridioides difficile\)/i, '')
+            .replace(/\s+Public\s+Inquiry\s*$/i, '')
+            .replace(/\s+Inquiry\s*$/i, '')
+            .trim();
+        if (short.length > 30) short = short.slice(0, 28) + '\u2026';
+        return year ? `${short}, ${year}` : short;
+    }
+
+    function createOutcomeInquiryChart(processedData, mode) {
+        if (mode === 'changetype') {
+            const inquiryChangeMap = {};
+            processedData.forEach(r => {
+                const s = r.enrichedOutcome && r.enrichedOutcome.evidence_status;
+                if (s !== 'actioned' && s !== 'partial') return;
+                const label = shortInquiryLabel(r.name, r.date);
+                const year = r.date ? parseInt(r.date.split('/')[2], 10) : 9999;
+                if (!inquiryChangeMap[label]) {
+                    inquiryChangeMap[label] = { inquiry: label, year, total: 0, New: 0, More: 0, Different: 0, Less: 0, Cease: 0, None: 0 };
+                }
+                const c = inquiryChangeMap[label];
+                c.total++;
+                if (c[r.changeType] !== undefined) c[r.changeType]++; else c.None++;
+            });
+            const inquiryStats = Object.values(inquiryChangeMap).sort((a, b) => a.year - b.year);
+            const ctKeys = ['New', 'More', 'Different', 'Less', 'Cease', 'None'];
+            buildHorizontalStackedBar('#outcomeInquiryChart', inquiryStats, 'inquiry', ctKeys, changeTypeColors, changeTypeColors,
+                d => `${d.total} researched`, 'Only showing actioned / partial recommendations', { leftMargin: 280 });
+        } else {
+            const inquiryMap = {};
+            processedData.forEach(r => {
+                const label = shortInquiryLabel(r.name, r.date);
+                const year = r.date ? parseInt(r.date.split('/')[2], 10) : 9999;
+                if (!inquiryMap[label]) {
+                    inquiryMap[label] = { inquiry: label, year, total: 0, actioned: 0, partial: 0, no_evidence_found: 0, not_published: 0, pending: 0 };
+                }
+                const c = inquiryMap[label]; c.total++;
+                const s = r.enrichedOutcome && r.enrichedOutcome.evidence_status;
+                if (s && c[s] !== undefined) c[s]++; else c.pending++;
+            });
+            const inquiryStats = Object.values(inquiryMap).sort((a, b) => a.year - b.year);
+            const statusKeys = ['actioned', 'partial', 'no_evidence_found', 'not_published', 'pending'];
+            const statusLabels = { actioned: 'Actioned', partial: 'Partial', no_evidence_found: 'No evidence found', not_published: 'Not published', pending: 'Research pending' };
+            buildHorizontalStackedBar('#outcomeInquiryChart', inquiryStats, 'inquiry', statusKeys, outcomeStatusColor, statusLabels,
+                d => { const pct = Math.round((d.total - d.pending) / d.total * 100); return pct > 0 ? `${pct}% researched` : null; },
+                'Grey = not yet researched (does not mean unactioned)', { leftMargin: 280 });
         }
     }
 
@@ -1560,6 +1661,69 @@
         btn.textContent = isCollapsed ? '▼ Expand' : '▲ Collapse';
         btn.setAttribute('aria-expanded', String(!isCollapsed));
     }
+
+    // ── Contents tray: open/close + active section tracking ───────────────
+    (function () {
+        const nav = document.getElementById('sectionNav');
+        const backdrop = document.getElementById('navBackdrop');
+        const toggleBtn = document.getElementById('navToggle');
+        const closeBtn = document.getElementById('navClose');
+
+        function openTray() {
+            nav.classList.add('nav-open');
+            backdrop.classList.add('nav-open');
+            nav.removeAttribute('aria-hidden');
+            toggleBtn.setAttribute('aria-expanded', 'true');
+            closeBtn.focus();
+        }
+
+        function closeTray() {
+            nav.classList.remove('nav-open');
+            backdrop.classList.remove('nav-open');
+            nav.setAttribute('aria-hidden', 'true');
+            toggleBtn.setAttribute('aria-expanded', 'false');
+            toggleBtn.focus();
+        }
+
+        toggleBtn.addEventListener('click', function () {
+            nav.classList.contains('nav-open') ? closeTray() : openTray();
+        });
+        closeBtn.addEventListener('click', closeTray);
+        backdrop.addEventListener('click', closeTray);
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && nav.classList.contains('nav-open')) closeTray();
+        });
+        nav.querySelectorAll('a').forEach(function (a) {
+            a.addEventListener('click', function () { setTimeout(closeTray, 80); });
+        });
+
+        // Active section highlight as user scrolls
+        const sectionIds = ['stackedBarSection','legendSection','outcomeSection','helpSection','sunburstSection','actionsSection','tableSection'];
+        const navLinks = {};
+        sectionIds.forEach(function (id) {
+            const a = nav.querySelector('a[href="#' + id + '"]');
+            if (a) navLinks[id] = a;
+        });
+        let activeId = null;
+        function setActive(id) {
+            if (id === activeId) return;
+            if (activeId && navLinks[activeId]) { navLinks[activeId].classList.remove('nav-active'); navLinks[activeId].removeAttribute('aria-current'); }
+            activeId = id;
+            if (id && navLinks[id]) { navLinks[id].classList.add('nav-active'); navLinks[id].setAttribute('aria-current', 'true'); }
+        }
+        window.addEventListener('scroll', function () {
+            const mid = window.innerHeight / 2;
+            let best = null, bestDist = Infinity;
+            sectionIds.forEach(function (id) {
+                const el = document.getElementById(id);
+                if (!el) return;
+                const rect = el.getBoundingClientRect();
+                const dist = Math.abs(rect.top - mid);
+                if (rect.top <= mid + 40 && dist < bestDist) { bestDist = dist; best = id; }
+            });
+            if (best) setActive(best);
+        }, { passive: true });
+    })();
 
     </script>
 
