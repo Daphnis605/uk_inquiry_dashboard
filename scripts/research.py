@@ -285,6 +285,13 @@ def main() -> None:
         default="claude-haiku-4-5-20251001",
         help="Claude model ID (default: claude-haiku-4-5-20251001)",
     )
+    parser.add_argument(
+        "--start-from",
+        type=int,
+        default=1,
+        metavar="N",
+        help="Skip recommendations numbered below N within the filtered inquiry (default: 1, i.e. start from the beginning)",
+    )
     args = parser.parse_args()
 
     client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from environment
@@ -296,6 +303,11 @@ def main() -> None:
 
     if args.inquiry:
         unevidenced = [r for r in unevidenced if args.inquiry.lower() in r["inquiry"].lower()]
+
+    if args.start_from > 1:
+        before = len(unevidenced)
+        unevidenced = [r for r in unevidenced if r["rec_idx"] + 1 >= args.start_from]
+        print(f"--start-from {args.start_from}: skipped {before - len(unevidenced)} recs below that number", file=sys.stderr)
 
     total = len(unevidenced)
     print(f"{total} unevidenced recommendations", file=sys.stderr)
@@ -343,7 +355,7 @@ def main() -> None:
                         print(f"     {line}", file=sys.stderr)
 
             if i < len(batch) - 1:
-                time.sleep(65 if use_web_search else 0.3)  # web search uses ~25k tokens; wait >60s for TPM window
+                time.sleep(120 if use_web_search else 0.3)  # web search uses ~25k tokens; 2 min buffer clears 60s TPM window
     finally:
         if audit_file:
             audit_file.close()
