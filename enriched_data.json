@@ -6620,5 +6620,37 @@
       }
     ],
     "notes": "Ofcom and government developed a measurement framework with industry consultation, but sources indicate no baseline assessment of actual plurality has been conducted."
+  },
+  "Fingerprint Inquiry__73": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Inquiry into the cost-effectiveness of Scottish public inquiries - Note by the Clerk",
+        "url": "https://www.parliament.scot/~/media/committ/10760/Paper-2--Scottish-Public-Inquiries--Note-by-the-Clerk",
+        "source_type": "parliamentary_record",
+        "date": "2025-06-10",
+        "description": "Parliamentary document confirming that the Fingerprint Inquiry reported in 2011 and that 'the then Deputy Crown Agent set up a structure to implement those recommendations.' This indicates COPFS took structural steps to implement the recommendations.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Evidence shows COPFS initiated implementation structure but does not confirm whether guidance was finalised or lawyers were trained as specifically required."
+  },
+  "Fingerprint Inquiry__81": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "FQSSG Fingerprint Interpretation Workshop Summary",
+        "url": "https://assets.publishing.service.gov.uk/media/61faa3c5e90e0768a5adf2ab/FQSSG_write_up.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "A UK government-published workshop summary on fingerprint interpretation that discusses development of probabilistic frameworks for dealing with fingerprint evidence questions and probabilistic approaches.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Limited evidence of implementation; document shows research/development of probabilistic approaches but does not confirm full operational implementation of the 2011 Inquiry recommendation."
   }
 }
