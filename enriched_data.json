@@ -5646,5 +5646,979 @@
       }
     ],
     "notes": "The government response to Francis Inquiry (Hard Truths, November 2013) indicated acceptance of the principle that NHS values should be embedded in organizational practice and referenced updating organizational policies. The NHS Standard Contracts require providers to apply NHS Constitution pledges and responsibilities. However, there is no confirmed evidence of a legislative requirement or formal policy mandate requiring all individual NHS staff employment contracts to explicitly incorporate express commitments to the NHS values and Constitution, as specifically recommended in recommendation #7. The implementation appears to have focused on organizational-level requirements and guidance rather than individual contract mandates. Further documentary evidence from government implementation guidance or regulation would be needed to confirm complete implementation of this specific recommendation."
+  },
+  "The Leveson Inquiry__0": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Royal Charter On Self-Regulation Of The Press",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7576/",
+        "source_type": "official_report",
+        "date": "2013-10-25",
+        "description": "The Royal Charter incorporated key Leveson recommendations allowing independent self-regulatory bodies to be established and overseen by a Press Recognition Panel. IMPRESS was recognised as fully Leveson-compliant in 2016.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "David Cameron statement in response to the Leveson Inquiry report",
+        "url": "https://www.gov.uk/government/speeches/david-cameron-statement-in-response-to-the-leveson-inquiry-report",
+        "source_type": "press_release",
+        "date": "2012-11-29",
+        "description": "Prime Minister's statement accepting the principle of independent appointments and funding requirements for a self-regulatory body, but declining to enact the requisite legislation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "IPSO (majority regulator) rejected the framework and remains industry-controlled; only IMPRESS fully implements Leveson's independence requirements."
+  },
+  "The Leveson Inquiry__1": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Royal Charter on Self-Regulation of the Press (as reflected in Press Recognition Panel governance)",
+        "url": "https://www.pressrecognitionpanel.org.uk/the-governments-consultation-on-the-leveson-inquiry-and-its-implementation/",
+        "source_type": "official_report",
+        "date": "2023-12-07",
+        "description": "The Press Recognition Panel was established to oversee press regulators. The Royal Charter framework embedded in UK law requires independent appointments panels for selecting regulator board chairs and members, implementing Leveson's recommendation for appointments independent of both government and industry.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "IPSO's Appointments Committee Framework",
+        "url": "https://hansard.parliament.uk/commons/2012-11-29/debates/12112958000004/LevesonInquiry",
+        "source_type": "parliamentary_record",
+        "date": "2012-11-29",
+        "description": "Parliamentary record confirming Lord Leveson's explicit recommendation that the selection of the appointment panel must be independent of both government and industry. IPSO later adopted an appointments committee structure implementing this principle.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Royal Charter framework (enacted through legislation) provides for independent appointments panels, partially implementing the recommendation, though full statutory detail was not pursued as initially envisaged by Leveson."
+  },
+  "The Leveson Inquiry__2": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/media/5a75582aed915d6faf2b243d/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Government consultation document detailing the establishment of the Press Recognition Panel with board members appointed by an independent appointments panel through an open application process across the UK, meeting the requirements for an independent, fair and open appointment process.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Government Response to the Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/684678/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": "2018-03-01",
+        "description": "Government response confirming IMPRESS recognition by the Press Recognition Panel meeting recognition criteria outlined in the Royal Charter, demonstrating implementation of the independent regulatory framework recommended by Leveson.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Royal Charter established the Press Recognition Panel with an independent appointments panel running an open UK-wide application process for board members, directly implementing Recommendation #3 requirements."
+  },
+  "The Leveson Inquiry__3": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/media/5a75582aed915d6faf2b243d/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official government consultation establishing the Press Recognition Panel as an independent body with independent appointment procedures, reflecting partial implementation of Leveson's recommendation for independent board appointments.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Press Recognition Panel was established with independent appointment criteria, but major news publishers opted for alternative self-regulation (IPSO) or in-house systems rather than the proposed framework."
+  },
+  "The Leveson Inquiry__4": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/media/5a75582aed915d6faf2b243d/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Government consultation document confirming establishment of Press Recognition Panel as independent body to recognize press self-regulators meeting Royal Charter criteria, addressing aspects of Recommendation #5 on independence and regulatory framework.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Press Recognition Panel",
+        "url": "https://www.pressrecognitionpanel.org.uk/the-governments-consultation-on-the-leveson-inquiry-and-its-implementation/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Press Recognition Panel's response to government consultation on Leveson implementation, discussing the framework for recognizing independent regulators.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government created Press Recognition Panel framework but specific details of board appointment processes not fully evidenced in available sources."
+  },
+  "The Leveson Inquiry__5": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The Leveson Report: implementation - House of Commons Library",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn06535/",
+        "source_type": "official_report",
+        "date": "2026-01-13",
+        "description": "Parliamentary research briefing documenting the implementation of Leveson recommendations. Shows that IPSO was created as the self-regulator but notes concerns about industry control over funding structures and lack of transparency in funding arrangements.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation 6 on funding settlement negotiated between industry and regulator with adequate budget certification was not fully implemented; IPSO retains industry control via Regulatory Funding Company."
+  },
+  "The Leveson Inquiry__6": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/564508/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": "2016-11-01",
+        "description": "Government consultation document addressing Leveson implementation, including discussion of IPSO's creation and the Press Recognition Panel framework for overseeing press regulators and their standards codes.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "IPSO was established but governance structure and standards code adoption remain contested regarding full Leveson Recommendation 7 compliance."
+  },
+  "The Leveson Inquiry__7": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "GOVERNMENT RESPONSE TO THE CONSULTATION ON THE LEVESON INQUIRY AND ITS IMPLEMENTATION",
+        "url": "https://assets.publishing.service.gov.uk/media/5a97cce6ed915d57d1335b3b/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": "2018-03-01",
+        "description": "Government response confirming that IPSO was created in March 2014 to replace the Press Complaints Commission, with extensive reforms to press self-regulation and standards.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Leveson Consultation Response",
+        "url": "https://www.gov.uk/government/speeches/leveson-consultation-response",
+        "source_type": "press_release",
+        "date": "2018-03-01",
+        "description": "Ministerial statement confirming IPSO regulates 95% of national newspapers by circulation and has taken steps to demonstrate independence, with Sir Joseph Pilling concluding in 2016 that IPSO largely complied with Leveson's recommendations.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "IPSO was established as a self-regulatory body with a code covering conduct, privacy and accuracy, but the government did not legislate on the recommendation as Leveson suggested, instead using voluntary self-regulation."
+  },
+  "The Leveson Inquiry__8": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "GOVERNMENT RESPONSE TO THE CONSULTATION ON THE LEVESON INQUIRY AND ITS IMPLEMENTATION",
+        "url": "https://assets.publishing.service.gov.uk/media/5a97cce6ed915d57d1335b3b/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": "2018-03-01",
+        "description": "Government response document stating that 'Publishers' own internal governance frameworks have also undergone extensive reforms' with several introducing 'long term, comprehensive reform targeted at enhancing compliance, standards'—directly addressing the governance and transparency requirements in Recommendation #9.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Consultation on the Leveson Inquiry and its implementation",
+        "url": "https://assets.publishing.service.gov.uk/media/5a75582aed915d6faf2b243d/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": "2017-01-10",
+        "description": "Consultation document describing the Royal Charter framework establishing a Press Recognition Panel to recognize self-regulators meeting specified criteria, which provided the mechanism for implementing governance and transparency requirements.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Evidence shows governance framework improvements and recognition criteria established, but no single URL explicitly confirms full implementation of all specific elements of Recommendation #9."
+  },
+  "The Leveson Inquiry__9": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "David Cameron statement in response to the Leveson Inquiry report",
+        "url": "https://www.gov.uk/government/speeches/david-cameron-statement-in-response-to-the-leveson-inquiry-report",
+        "source_type": "press_release",
+        "date": "2012-11-29",
+        "description": "PM's statement accepting the Leveson principles including speedy complaint-handling mechanism as a key requirement for independent self-regulatory bodies.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "CONSULTATION ON THE LEVESON INQUIRY AND ITS IMPLEMENTATION",
+        "url": "https://assets.publishing.service.gov.uk/media/5a75582aed915d6faf2b243d/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": "2016",
+        "description": "Government consultation showing IPSO (created March 2014) handles complaints and conducts investigations, and IMPRESS recognized as approved regulator in October 2016 meeting Charter criteria.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "GOVERNMENT RESPONSE TO THE CONSULTATION ON THE LEVESON INQUIRY AND ITS IMPLEMENTATION",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/684678/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": "2018-03-01",
+        "description": "Government response indicating IPSO handles complaints and the regulatory system based on Royal Charter, but notes ongoing debates about adequacy of implementation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation accepted and partially implemented through IPSO/IMPRESS frameworks, but academic sources and Parliament indicate system still falls short of Leveson's full vision."
+  },
+  "The Leveson Inquiry__10": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "GOVERNMENT RESPONSE TO THE CONSULTATION ON THE LEVESON INQUIRY AND ITS IMPLEMENTATION",
+        "url": "https://assets.publishing.service.gov.uk/media/5a97cce6ed915d57d1335b3b/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": "2018-02-01",
+        "description": "Government response confirming IPSO was established with powers to handle complaints and conduct investigations. However, the document does not specifically detail whether the board can hear third-party complaints as specified in Recommendation #11.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "IPSO was created to replace the PCC with wider powers to handle complaints, but specific evidence of Recommendation #11's full implementation (particularly regarding third-party complaint powers) was not found in available search results."
+  },
+  "The Leveson Inquiry__13": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Independent Press Standards Organisation (IPSO) - established as primary regulator",
+        "url": "https://www.gov.uk/government/speeches/leveson-consultation-response",
+        "source_type": "press_release",
+        "date": "2018-03-01",
+        "description": "Government statement confirming IPSO has ordered multiple front page corrections or clarifications and processes complaints. However, does not explicitly confirm full implementation of Recommendation #14's specific requirement that the board direct remedial action equally for both individual breaches and groups/matters of fact.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Government Response to the Consultation on the Leveson Inquiry and Its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/684678/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": "2018-03-01",
+        "description": "Official government response document outlining the regulatory framework established through IPSO and the Royal Charter, addressing press regulation implementation following Leveson.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "IPSO established with complaint-handling powers but searches do not provide explicit verification that Recommendation #14's specific requirement for remedial action powers covering both individual breaches AND groups/matters of fact was fully implemented."
+  },
+  "The Leveson Inquiry__15": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "IPSO continues to fail most Leveson recommendations, finds Media Standards Trust",
+        "url": "https://transparencyproject.org.uk/ipso-continues-to-fail-most-leveson-recommendations-finds-media-standards-trust/",
+        "source_type": "official_report",
+        "date": "2018-2019",
+        "description": "Media Standards Trust report documenting that IPSO's inability to implement standards investigations demonstrates lack of regulatory powers and independence, directly addressing Recommendation #16's requirement for investigation authority.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "New Report: IPSO five years on: fails to satisfy 25 out of 38 Leveson recommendations",
+        "url": "https://inforrm.org/2019/10/16/new-report-ipso-five-years-on-fails-to-satisfy-25-out-of-38-leveson-recommendations/",
+        "source_type": "news_article",
+        "date": "2019-10-16",
+        "description": "Analysis of Media Standards Trust's 2019 assessment showing IPSO satisfies only 13 of 38 Leveson recommendations after five years of operation, with documented failure in investigation powers.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Why Have the Leveson Inquiry's Recommendations not Been Implemented in Full?",
+        "url": "https://politicalquarterly.org.uk/blog/why-have-the-leveson-inquirys-recommendations-for-the-reform-of-uk-press-regulation-not-been-implemented-in-full/",
+        "source_type": "news_article",
+        "date": "2026-02-11",
+        "description": "Political Quarterly analysis confirming that Leveson proposals were not implemented in full and the press opted for modified self-regulation without the independence and investigation powers recommended.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "IPSO unable to implement single standards investigation over five years of operation, failing core Recommendation #16 requirement for investigation authority."
+  },
+  "The Leveson Inquiry__16": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "IPSO continues to fail most Leveson recommendations, finds Media Standards Trust",
+        "url": "https://transparencyproject.org.uk/ipso-continues-to-fail-most-leveson-recommendations-finds-media-standards-trust/",
+        "source_type": "news_article",
+        "date": null,
+        "description": "Reports that IPSO (Independent Press Standards Organisation) has the power to impose fines up to £1m under Leveson Recommendation 19 (equivalent to Recommendation 17) but has never actually used this power in practice.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "After the Leveson Inquiry, is the press now beyond control?",
+        "url": "https://centralbylines.co.uk/news/after-the-leveson-inquiry-is-the-press-now-beyond-control/",
+        "source_type": "news_article",
+        "date": "2025-11-04",
+        "description": "Confirms that IPSO has never issued a fine, launched a standards investigation, or imposed significant sanctions on any publishers, despite having the power to do so under Leveson recommendations.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "GOVERNMENT RESPONSE TO THE CONSULTATION ON THE LEVESON INQUIRY AND ITS IMPLEMENTATION",
+        "url": "https://assets.publishing.service.gov.uk/media/5a97cce6ed915d57d1335b3b/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Government response to Leveson consultation outlining its approach to press self-regulation and implementation of recommendations through the establishment of voluntary self-regulation systems.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The sanction power exists in law but has never been enforced; IMPRESS is noted as the only regulator to implement all Leveson recommendations."
+  },
+  "The Leveson Inquiry__19": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "THE GOVERNMENT'S CONSULTATION ON THE LEVESON INQUIRY AND ITS IMPLEMENTATION - Press Recognition Panel",
+        "url": "https://www.pressrecognitionpanel.org.uk/the-governments-consultation-on-the-leveson-inquiry-and-its-implementation/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Details the Charter-compliant arbitration scheme requirements including mechanisms for striking out frivolous/vexatious claims. Explains that arbitration is part of the recognition system but notes Section 40 commencement is needed to fully implement the framework.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "CONSULTATION ON THE LEVESON INQUIRY AND ITS IMPLEMENTATION",
+        "url": "https://assets.publishing.service.gov.uk/media/5a75582aed915d6faf2b243d/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Government consultation document establishing the Press Recognition Panel framework (formally came into existence November 2014) to receive applications from press self-regulators that meet set criteria including arbitration schemes.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Arbitration scheme framework created but full implementation incomplete; Section 40 of Crime and Courts Act not fully commenced limiting enforcement of cost incentives."
+  },
+  "The Leveson Inquiry__20": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "How is the press regulated? - House of Commons Library",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7576/",
+        "source_type": "official_report",
+        "date": "2026-01-02",
+        "description": "Parliamentary research briefing documenting that major publishers including the Guardian, Financial Times, and Evening Standard have chosen not to join either IPSO or Impress regulators, showing the system does not cover all significant publishers.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Royal Charter on press self-regulation",
+        "url": "https://www.pressrecognitionpanel.org.uk/the-governments-consultation-on-the-leveson-inquiry-and-its-implementation/",
+        "source_type": "official_report",
+        "date": "2023-12-07",
+        "description": "Press Recognition Panel page explaining that while the recognition system applies to all print and online news publishers, participation is voluntary and most UK publishers remain outside the system.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The regulation system is voluntary with incentives, not mandatory—significant publishers remain outside coverage."
+  },
+  "The Leveson Inquiry__21": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/media/5a75582aed915d6faf2b243d/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official government consultation document establishing that IPSO (created March 2014) has over 2,500 members and IMPRESS was recognised as an approved regulator by the Press Recognition Panel on 25 October 2016, implementing the framework for membership on specified criteria.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "How is the press regulated? - The House of Commons Library",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7576/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Parliamentary research briefing confirming that the Royal Charter incorporated key Leveson recommendations allowing independent self-regulatory bodies to be recognised by a Press Recognition Panel with set criteria, creating the framework for fair membership terms.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Framework exists through Royal Charter and Press Recognition Panel, but full implementation of fair/non-discriminatory membership terms varies by regulator; IMPRESS fully compliant while IPSO (majority of press) not recognised."
+  },
+  "The Leveson Inquiry__22": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Crime and Courts Act 2013 - Section 40",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7576/",
+        "source_type": "parliamentary_record",
+        "date": "2026-04-29",
+        "description": "Section 40 of the Crime and Courts Act 2013 was intended to incentivise publishers to join a recognised regulator by providing that costs in litigation could be awarded against those who did not join and use arbitration schemes. This directly implements the costs element of Recommendation 23, allowing courts to consider costs when a publisher fails to use arbitration.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Royal Charter on Press Regulation - Press Recognition Panel",
+        "url": "https://www.pressrecognitionpanel.org.uk/the-governments-consultation-on-the-leveson-inquiry-and-its-implementation/",
+        "source_type": "official_report",
+        "date": "2023-12-07",
+        "description": "The Press Recognition Panel oversees recognised regulators that provide Charter-compliant arbitration schemes for tort claims. This implements the arbitration service element of Recommendation 23, allowing subscribers to access fair, fast and inexpensive arbitration.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Government Response to the Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/684678/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": "2018-03-01",
+        "description": "Official government response documenting the implementation of Leveson recommendations through the Royal Charter system and Section 40 provisions, though Section 40 has not been fully commenced.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Section 40 was not fully commenced as of the latest government response (2018), limiting complete implementation of the costs recommendation."
+  },
+  "The Leveson Inquiry__23": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/media/5a75582aed915d6faf2b243d/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Government consultation document confirming that the Coalition Government established the Press Recognition Panel (PRP) by Royal Charter as the independent body to recognize and certify press self-regulators against specific criteria including independence, funding and appointments.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Press Recognition Panel Official Website",
+        "url": "https://www.pressrecognitionpanel.org.uk/the-governments-consultation-on-the-leveson-inquiry-and-its-implementation/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Press Recognition Panel website describing the recognition system and its 29 Charter criteria that press regulators must meet, confirming operational implementation of the certification mechanism recommended in Leveson Recommendation 24.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Press Recognition Panel was established by Royal Charter and has recognized regulators (IMPRESS in 2016, IPSO operates under the system), but critics argue key Leveson recommendations remain only partially implemented."
+  },
+  "The Leveson Inquiry__24": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Royal Charter on Press Regulation (October 2013)",
+        "url": "https://www.pressrecognitionpanel.org.uk/",
+        "source_type": "official_report",
+        "date": "2013-10-30",
+        "description": "The Press Recognition Panel was established by Royal Charter on 30 October 2013 as the independent recognition body responsible for recognizing and certifying press regulators that meet statutory criteria, directly implementing Recommendation #25.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Government Response to the Consultation on the Leveson Inquiry and Its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/media/5a97cce6ed915d57d1335b3b/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official government response confirming that IMPRESS was recognised by the Press Recognition Panel, meeting the 29 recognition criteria outlined in the Royal Charter.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "How is the press regulated? - House of Commons Library",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7576/",
+        "source_type": "official_report",
+        "date": "2026-04-29",
+        "description": "Parliamentary research briefing confirming the Press Recognition Panel was established by Royal Charter and launched in November 2014 to oversee recognition of independent self-regulatory bodies.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Press Recognition Panel now operates as the independent recognition body; IMPRESS was recognized in October 2016."
+  },
+  "The Leveson Inquiry__25": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/media/5a75582aed915d6faf2b243d/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": "2018",
+        "description": "Government consultation document describing the Press Recognition Panel established by Royal Charter as the independent body approving press self-regulators against specific criteria for independence, funding and appointments—directly implementing Recommendation #26's recognition requirements.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Government Response to the Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/media/5a97cce6ed915d57d1335b3b/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": "2018-03-01",
+        "description": "Official government response confirming the establishment of the Press Recognition Panel by Royal Charter and its operation with recognition criteria applied to both IPSO and IMPRESS regulators.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Leveson Consultation Response - GOV.UK",
+        "url": "https://www.gov.uk/government/speeches/leveson-consultation-response",
+        "source_type": "press_release",
+        "date": "2018-03-01",
+        "description": "Ministerial statement confirming IPSO regulates 95% of national newspapers and IMPRESS was recognised by the Press Recognition Panel as meeting the 29 criteria in the Royal Charter.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation #26 was implemented through establishment of Press Recognition Panel by Royal Charter with specific recognition criteria applied to approve self-regulators."
+  },
+  "The Leveson Inquiry__27": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "How is the press regulated? - The House of Commons Library",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7576/",
+        "source_type": "official_report",
+        "date": "2026-05-01",
+        "description": "Confirms that the Crime and Courts Act 2013 incorporated Leveson recommendations and established a Press Recognition Panel (not Ofcom) to recognise and oversee independent press regulatory bodies. The recommendation to give Ofcom the recognition role was not implemented.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Consultation on the Leveson Inquiry and its implementation",
+        "url": "https://assets.publishing.service.gov.uk/media/5a75582aed915d6faf2b243d/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Government consultation document explicitly states: 'The Coalition Government did not agree that Ofcom should act as the independent body for approving' press regulators, indicating the government rejected Recommendation 28 as drafted.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation 28 was not implemented as proposed. Instead of Ofcom, a Press Recognition Panel was established under the Crime and Courts Act 2013 to recognise press regulators."
+  },
+  "The Leveson Inquiry__28": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "How is the press regulated? - The House of Commons Library",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7576/",
+        "source_type": "official_report",
+        "date": "2026-04-29",
+        "description": "Confirms that there are now two press regulators: IPSO (not Leveson-recognised) and Impress (recognised by PRP in October 2016 as an 'approved' regulator). The Royal Charter allows for 'one or more independent self-regulatory bodies for the press to be established' and recognised by the Press Recognition Panel.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The Leveson Report: implementation - House of Commons Library",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/SN06535/",
+        "source_type": "official_report",
+        "date": "2026-03-19",
+        "description": "States the compromise 'allows for one or more independent self-regulatory bodies for the press to be established' with recognition and oversight by a 'Recognition Panel' established under Royal Charter. Explicitly implements Recommendation #29 permitting multiple recognised regulators.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Royal Charter system (2013) and Press Recognition Panel operationalise the ability to recognise multiple regulatory bodies, with Impress recognised in 2016."
+  },
+  "The Leveson Inquiry__37": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Royal Charter on press regulation (30 October 2013)",
+        "url": "https://committees.parliament.uk/work/5535/press-regulation-inquiry/",
+        "source_type": "official_report",
+        "date": "2013-10-30",
+        "description": "Royal Charter established a framework for independent self-regulatory bodies to hold newspapers accountable under standards codes, directly implementing the regulatory body requirement from recommendation #38.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "How is the press regulated? - House of Commons Library",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7576/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Confirms establishment of IPSO and IMPRESS as regulators with standards codes. However, notes IPSO (95% of newspapers) has not applied for Royal Charter recognition and does not fully meet Leveson criteria.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "GOVERNMENT RESPONSE TO THE CONSULTATION ON THE LEVESON INQUIRY AND ITS IMPLEMENTATION",
+        "url": "https://assets.publishing.service.gov.uk/media/5a97cce6ed915d57d1335b3b/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Government response acknowledging the establishment of IPSO and IMPRESS regulators with standards codes, but notes the system differs from Leveson's envisioned framework.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Regulatory bodies with standards codes were established, but most major newspapers (via IPSO) have not sought recognition under the Royal Charter framework intended by Leveson."
+  },
+  "The Leveson Inquiry__52": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Information Commissioner responds to Leveson - Panopticon blog",
+        "url": "https://panopticonblog.com/2013/01/14/information-commissioner-responds-to-leveson/",
+        "source_type": "news_article",
+        "date": "2013-01-14",
+        "description": "The ICO's official response states that it questions whether a formal duty to consult with the CPS needs to be enshrined in statute, arguing this is already done as a matter of course and that the ICO became a signatory to the Prosecutor's Convention in July 2012.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The ICO rejected the need for formal legislation, arguing the consultation duty already operates informally in practice. No evidence found of subsequent legislative implementation of a formal duty."
+  },
+  "The Leveson Inquiry__54": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "ICO submits Data protection and journalism code of practice to the Secretary of State",
+        "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2023/07/ico-submits-data-protection-and-journalism-code-of-practice-to-the-secretary-of-state/",
+        "source_type": "official_report",
+        "date": "2023-07-01",
+        "description": "The ICO's official page confirming it has produced and submitted the code of practice on data protection and journalism to the Secretary of State, fulfilling the requirement to prepare and publish a policy on the exercise of its formal regulatory functions to ensure press compliance with data protection requirements.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Phone hacking scandal and Leveson Inquiry",
+        "url": "https://ico.org.uk/for-the-public/ico-40/phone-hacking-scandal-and-leveson-inquiry/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "ICO's own page stating that Parliament tasked the ICO with creating a journalism code of practice to assist media in using personal information lawfully, with the code providing practical guidance on data protection compliance.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation 55 was implemented through the creation of a Data Protection and Journalism Code of Practice by the ICO."
+  },
+  "The Leveson Inquiry__55": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Information Commissioner's Office Outcomes report: The ICO's review of the processing of personal data for purposes of journalism",
+        "url": "https://assets.publishing.service.gov.uk/media/6763ed35cdb5e64b69e3083a/information_commissioner_review_of_processing_of_personal_data_for_purposes_of_journalism.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "ICO official report documenting its review and guidance on processing personal data for journalism purposes, directly implementing Leveson Recommendation 56.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "ICO published 'Data protection and journalism: a guide for the media' in 2014, followed by the Data Protection and Journalism Code of Practice in 2024."
+  },
+  "The Leveson Inquiry__56": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Data protection: a guide for the media",
+        "url": "https://ico.org.uk/for-organisations/guidance-index/data-protection-and-journalism/",
+        "source_type": "official_report",
+        "date": "2014-09-01",
+        "description": "ICO published comprehensive guidance for the media in September 2014 specifically to fulfill Leveson Recommendation #57, providing guidance to the public on their individual rights in relation to obtaining and use by the press of their personal data.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Phone hacking scandal and Leveson Inquiry",
+        "url": "https://ico.org.uk/for-the-public/ico-40/phone-hacking-scandal-and-leveson-inquiry/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "ICO official page confirming that Parliament tasked the ICO with creating guidance as a result of the Leveson Inquiry, and noting the code provides practical guidance on how to comply with data protection law.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation #57 was implemented through ICO publication of comprehensive guidance in 2014 and subsequent code of practice."
+  },
+  "The Leveson Inquiry__61": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Information Commissioner responds to Leveson",
+        "url": "https://panopticonblog.com/2013/01/14/information-commissioner-responds-to-leveson/",
+        "source_type": "news_article",
+        "date": "2013-01-14",
+        "description": "The ICO published its formal response to Leveson recommendations, including evidence of considering specialist legal and practical knowledge regarding data protection application to the press.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "GOVERNMENT RESPONSE TO THE CONSULTATION ON THE LEVESON INQUIRY AND ITS IMPLEMENTATION",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/684678/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": "2018-03-01",
+        "description": "Government response to consultation on Leveson implementation, addressing recommendations including those concerning the ICO's role in press-related data protection matters.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "ICO published response to Leveson but full implementation details of Recommendation #62 not explicitly documented in available sources."
+  },
+  "The Leveson Inquiry__62": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "ICO submits Data protection and journalism code of practice to the Secretary of State",
+        "url": "https://www.wired-gov.net/wg/news.nsf/articles/ico+submits+data+protection+and+journalism+code+of+practice+to+the+secretary+of+state+07072023122500?open=",
+        "source_type": "press_release",
+        "date": "2023-07-06",
+        "description": "The ICO submitted a statutory Code of Practice on data protection and journalism to the Secretary of State in July 2023, demonstrating implementation of recommendations related to the ICO reviewing its processes and developing a journalism code as recommended by Leveson.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "ICO response from January 2013 shows acceptance of Recommendation 63 and outlined steps including organizational review, but full implementation status remains incomplete."
+  },
+  "The Leveson Inquiry__66": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Civil Justice Council (CJC) group reports on defamation costs",
+        "url": "https://www.judiciary.uk/guidance-and-resources/cjc-report-defamation-costs/",
+        "source_type": "official_report",
+        "date": "2022-07-06",
+        "description": "Shows CJC was asked to set up a Working Group to assess costs protection regime in defamation and privacy cases following Leveson, though focus was on costs rather than damages levels.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The Leveson Inquiry Report Part 1",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229039/0779.pdf",
+        "source_type": "official_report",
+        "date": "2012-11-29",
+        "description": "Original Leveson Report containing Recommendation 67 requesting Civil Justice Council consider damages levels in privacy and confidence cases.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "CJC was tasked with related work on defamation/privacy cases but specific implementation of damages recommendation not clearly evidenced."
+  },
+  "The Leveson Inquiry__68": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Consultation on the Leveson Inquiry and its implementation",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/564508/Consultation_on_the_Leveson_Inquiry_and_its_implementation.pdf",
+        "source_type": "official_report",
+        "date": "2016-11-01",
+        "description": "Government consultation document confirming that exemplary damages provisions in sections 34-39 of the Crime and Courts Act 2013 came into force on 3 November 2015, implementing Leveson Recommendation #69 regarding exemplary damages for breach of privacy and media torts.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation #69 was implemented via the Crime and Courts Act 2013, with exemplary damages provisions (sections 34-39) coming into force on 3 November 2015."
+  },
+  "The Leveson Inquiry__70": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Government Response to the Consultation on the Leveson Inquiry and its Implementation",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/684678/GOVERNMENT_RESPONSE_TO_THE_CONSULTATION_ON_THE_LEVESON_INQUIRY_AND_ITS_IMPLEMENTATION_.pdf",
+        "source_type": "official_report",
+        "date": "2018-03-01",
+        "description": "Government official response addressing section 40 of the Crime and Courts Act 2013, which relates to costs provisions for defamation and media-related litigation. The document confirms costs provisions were enacted but remained uncommenced, representing partial implementation of the qualified one-way costs shifting recommendation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Section 40 costs provisions enacted but never commenced; exemplary damages provisions (sections 32-34) were commenced in November 2015."
+  },
+  "The Leveson Inquiry__73": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Police media guidelines updated to lift post-Leveson chill",
+        "url": "https://pressgazette.co.uk/news/police-media-guidelines-updated/",
+        "source_type": "news_article",
+        "date": "2026-02-23",
+        "description": "Reports the College of Policing's updated guidance that explicitly implements the recommendation's language, stating officers should engage if they are responsible for communicating and there is a policing purpose.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "New police media journalists guidance aims to rest post-Leveson culture of suspicion",
+        "url": "https://pressgazette.co.uk/news/new-police-media-journalists-guidance-aims-to-rest-post-leveson-culture-of-suspicion/",
+        "source_type": "news_article",
+        "date": "2025-11-05",
+        "description": "Confirms the College of Policing has accepted recommendations and quotes the exact language from Recommendation #74 regarding the test for police-media engagement.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation #74 has been fully implemented through College of Policing guidance adopted in 2024-2025."
+  },
+  "The Leveson Inquiry__74": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Code of Practice for the Police National Computer (PNC) and the Law Enforcement Data Service (LEDS)",
+        "url": "https://www.college.police.uk/guidance/pnc-and-leds/code-of-practice",
+        "source_type": "official_report",
+        "date": "2023-02-23",
+        "description": "This Code of Practice issued by the College of Policing (with Secretary of State approval) sets out basic principles for the ethical and professional processing of PNC data, including governance of access and audit requirements. It replaces the 2005 Code and was updated to address data security, access validation, and review processes.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Code of Practice for the Police National Computer (PNC) - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/code-of-practice-for-the-police-national-computer-and-the-law-enforcement-data-service",
+        "source_type": "official_report",
+        "date": "2023-02-23",
+        "description": "Official government publication of the updated Code of Practice for PNC and LEDS that addresses data handling, access controls, and audit provisions required for PNC governance.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "No direct evidence found specifically confirming implementation of Leveson recommendation 75; governance framework exists but specific audit rigour enhancements not explicitly documented in search results."
+  },
+  "The Leveson Inquiry__75": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Met officers told: 'Register' relations with journalists, consider 'motivation' of drinks and avoid 'off-the-record'",
+        "url": "https://www.awards.pressgazette.co.uk/2015/10/06/met-officers-told-register-relations-with-journalists-consider-motivation-of-drinks-and-avoid-off-the-record/",
+        "source_type": "news_article",
+        "date": "2015-10-06",
+        "description": "Describes the Met's Media Policy Toolkit (compiled in 2013, updated to June 2015) which implements guidance that 'all MPS officers and staff should start from the presumption that meetings with journalists should not be accompanied by alcohol' and that 'hospitality taken from journalists should be the exception not the rule.' This directly addresses the recommendation to spell out dangers of alcohol in casual hospitality settings.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Evidence shows implementation in Met guidance but appears limited to Metropolitan Police; unclear if rolled out across all police forces or through formal ACPO guidance."
+  },
+  "The Leveson Inquiry__79": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Leveson Inquiry - Hansard - UK Parliament (29 November 2012)",
+        "url": "https://hansard.parliament.uk/commons/2012-11-29/debates/12112958000004/LevesonInquiry",
+        "source_type": "parliamentary_record",
+        "date": "2012-11-29",
+        "description": "Parliamentary record shows the government committed to publishing details of meetings between senior politicians and media proprietors/editors as Leveson recommended. The government stated it was the first to publish such details.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Leveson Report ten years on: News Corp still top for prime minister meetings",
+        "url": "https://pressgazette.co.uk/publishers/nationals/leveson-at-10-news-corp-prime-minister-meetings/",
+        "source_type": "news_article",
+        "date": "2022-12-05",
+        "description": "Confirms that 10 Downing Street has kept and published records of all interactions between prime ministers and media executives since 2010, demonstrating ongoing implementation of the transparency recommendation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government implemented transparency on prime ministerial meetings but no evidence found of comprehensive quarterly reporting or reporting by all party leaders/opposition spokesmen as fully recommended."
+  },
+  "The Leveson Inquiry__80": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Leveson Inquiry - Hansard - UK Parliament - 29 November 2012",
+        "url": "https://hansard.parliament.uk/commons/2012-11-29/debates/12112958000004/LevesonInquiry",
+        "source_type": "parliamentary_record",
+        "date": "2012-11-29",
+        "description": "Parliamentary record from the day the Leveson Report was published. The government accepted the recommendation on transparency about meetings and contacts between politicians and the press, stating it was 'the first Government ever to publish details of meetings between senior politicians and proprietors, editors or senior executives' and confirmed acceptance of the recommendation to disclose information on interactions.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government accepted the recommendation and claimed prior publication of meetings details, but this represents acceptance rather than complete implementation of transparency reforms across all interactions as recommended."
+  },
+  "The Leveson Inquiry__83": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Measurement framework for media plurality statement",
+        "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/7875-media-plurality-framework/statement/measurement_framework_for_media_plurality_statement.pdf",
+        "source_type": "official_report",
+        "date": "2015-11-16",
+        "description": "Ofcom published a measurement framework statement addressing the Leveson recommendation that Ofcom and government work with industry to build consensus on measuring media plurality before deployment. The document acknowledges the Leveson recommendation and sets out Ofcom's subsequent framework development.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Measuring media plurality - Call for inputs",
+        "url": "https://www.ofcom.org.uk/consultations-and-statements/category-1/measuring-plurality",
+        "source_type": "official_report",
+        "date": "2014-11-27",
+        "description": "Ofcom's consultation seeking industry and stakeholder input on the media plurality measurement framework, directly implementing the Leveson recommendation to build consensus with industry before deployment of the measuring system.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Ofcom and government developed a measurement framework with industry consultation, but sources indicate no baseline assessment of actual plurality has been conducted."
   }
 }
