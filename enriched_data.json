@@ -8106,5 +8106,159 @@
       }
     ],
     "notes": "The NIAO role is fully operational with multiple reports published since 2022, including the latest October 2024 report, confirming sustained implementation of Recommendation 44."
+  },
+  "The Jermaine Baker Public Inquiry__0": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Command | College of Policing",
+        "url": "https://www.college.police.uk/app/armed-policing/command",
+        "source_type": "official_report",
+        "date": null,
+        "description": "College of Policing guidance explicitly addresses the separation of SIO and TFC/SFC roles, including clarification that they must be different individuals and emphasizing the importance of separating responsibilities, with specific provisions for protracted investigations.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The College of Policing Armed Policing guidance directly implements the Jermaine Baker Inquiry recommendation with clear separation requirements."
+  },
+  "The Jermaine Baker Public Inquiry__1": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Armed deployment | College of Policing",
+        "url": "https://www.college.police.uk/app/armed-policing/armed-deployment",
+        "source_type": "official_report",
+        "date": "2013-10-23",
+        "description": "College of Policing guidance requiring commanders to ensure operational risk assessments are undertaken and multi-dimensional threat assessments be conducted throughout planning and operations, spanning from initial consideration through operation conclusion.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "College of Policing APP (Authorised Professional Practice) is the official source of professional practice standards for UK policing."
+  },
+  "The Jermaine Baker Public Inquiry__3": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Armed deployment | College of Policing",
+        "url": "https://app.college.police.uk/app-content/armed-policing/armed-deployment",
+        "source_type": "official_report",
+        "date": "2013-10-23",
+        "description": "College of Policing guidance references multi-dimensional threat assessment for armed deployment decisions, including assessment of threat level and nature. This aligns with the inquiry's recommendation for multidimensional risk assessment to minimize lethal force use.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Multi-dimensional threat assessment concepts are referenced in College of Policing guidance, but specific amended FA forms are not documented in search results."
+  },
+  "The Jermaine Baker Public Inquiry__7": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Command | College of Policing",
+        "url": "https://www.college.police.uk/app/armed-policing/command",
+        "source_type": "official_report",
+        "date": null,
+        "description": "The College of Policing's Armed Policing guidance confirms that commanders and tactical advisors must undergo annual refresher training consisting of approved national command/tactical advisor refresher packages, supplemented by local training.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The College of Policing has established compulsory annual training requirements for firearms commanders and tactical advisors as part of their Authorised Professional Practice (APP) for Armed Policing."
+  },
+  "The Jermaine Baker Public Inquiry__13": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Recommendations by Tim Godwin and Adrian Fulford to the Lord Chancellor and the Secretary of State for the Home Department",
+        "url": "https://www.gov.uk/government/publications/police-accountability-rapid-review/recommendations-by-tim-godwin-and-adrian-fulford-to-the-lord-chancellor-and-the-secretary-of-state-for-the-home-department--2",
+        "source_type": "official_report",
+        "date": "2025-10-23",
+        "description": "Government publication confirming that in August 2023, the College of Policing made comprehensive amendments to the Authorised Professional Practice on Armed Policing resulting from the Jermaine Baker Inquiry recommendations.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Authorised Professional Practice (APP) on Armed Policing serves as the national guidance framework that forces follow, fulfilling the recommendation that NPCC and College of Policing ensure amendments are reflected in guidance and training."
+  },
+  "The Jermaine Baker Public Inquiry__14": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Armed policing | College of Policing",
+        "url": "https://www.college.police.uk/app/armed-policing",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official College of Policing webpage for the Armed Policing section of APP, confirming the guidance exists and is currently in operation as the authorised professional practice for armed policing in England and Wales.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The APP-AP is the official, published guidance by the College of Policing for armed policing operations and is actively maintained and updated."
+  },
+  "The Jermaine Baker Public Inquiry__15": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Armed deployment | College of Policing",
+        "url": "https://www.app.college.police.uk/app-content/armed-policing/armed-deployment/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "College of Policing guidance on armed deployment explicitly states officers should be aware of how their language and tactics could be interpreted, and addresses avoiding miscommunication in briefings and intelligence provision to armed officers.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Evidence shows guidance addressing language interpretation in armed operations exists, but no formal dedicated training requirement specifically mandating training for all officers on avoiding misinterpretable language in intelligence provision could be located."
+  },
+  "The Jermaine Baker Public Inquiry__25": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "CLIO - Digital Marketplace",
+        "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/887192786150968",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Government Digital Marketplace listing showing CLIO is a procured system for UK government use, confirming the system is operational and available to law enforcement and emergency services.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "CLIO - Critical Incident Management Software - Altia Intel",
+        "url": "https://altiaintel.com/our-products/clio/",
+        "source_type": "news_article",
+        "date": null,
+        "description": "Confirms CLIO is trusted by over 75% of UK police forces and is used for operations and incident management, demonstrating operational implementation across UK law enforcement.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "CLIO system is confirmed operational in UK police forces, but SOCTAB specifically and mandatory command officer training requirements could not be verified from available sources."
+  },
+  "The Jermaine Baker Public Inquiry__26": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Command | College of Policing",
+        "url": "https://www.college.police.uk/app/armed-policing/command",
+        "source_type": "official_report",
+        "date": null,
+        "description": "College of Policing guidance on command structures for armed policing operations, including protocol development for commanding armed officers. While this demonstrates the College's role in setting command standards, it does not specifically reference the uniformity of CTSFO instructions recommended in Recommendation #27.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "General command protocol guidance exists but no specific published protocol for CTSFO command uniformity per Recommendation #27 was located."
   }
 }
