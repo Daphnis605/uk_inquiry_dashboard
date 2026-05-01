@@ -36,8 +36,8 @@ python scripts/research.py --audit-log audit.jsonl
 # Disable web search (training knowledge only — faster, cheaper, less accurate)
 python scripts/research.py --no-web-search
 
-# Cheaper/faster model for a first-pass sweep
-python scripts/research.py --model claude-haiku-4-5-20251001 --limit 100
+# Use Sonnet for a higher-quality second pass on items Haiku couldn't find
+python scripts/research.py --model claude-sonnet-4-6 --limit 50
 ```
 
 ### Training knowledge vs. web search
@@ -86,5 +86,5 @@ confirmation of implementation, or news articles without primary source.
 Check current pricing at [anthropic.com/pricing](https://www.anthropic.com/pricing).
 Each recommendation uses roughly 400 input tokens and 300 output tokens (more with web search).
 
-A practical approach: run Haiku first for broad coverage, then Sonnet on
-the recommendations Haiku couldn't find evidence for.
+Haiku is the default — good for broad coverage at low cost. Switch to Sonnet
+(`--model claude-sonnet-4-6`) for a higher-quality pass on items Haiku couldn't find.
