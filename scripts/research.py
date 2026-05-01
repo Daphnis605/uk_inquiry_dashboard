@@ -219,7 +219,7 @@ def research_recommendation(
         except Exception as e:
             err = str(e)
             if "rate_limit_error" in err and attempt < 2:
-                wait = 30 * (attempt + 1)
+                wait = 60 * (attempt + 1)
                 print(f"  Rate limit hit — waiting {wait}s before retry {attempt + 2}/3…", file=sys.stderr)
                 time.sleep(wait)
             else:
@@ -343,7 +343,7 @@ def main() -> None:
                         print(f"     {line}", file=sys.stderr)
 
             if i < len(batch) - 1:
-                time.sleep(5 if use_web_search else 0.3)  # web search responses are larger
+                time.sleep(65 if use_web_search else 0.3)  # web search uses ~25k tokens; wait >60s for TPM window
     finally:
         if audit_file:
             audit_file.close()
