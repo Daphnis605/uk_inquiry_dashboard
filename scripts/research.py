@@ -235,8 +235,16 @@ def research_recommendation(
                 print(f"\n💳  Billing limit reached — stopping. ({e})", file=sys.stderr)
                 sys.exit(2)
             if "rate_limit_error" in err and attempt < 2:
-                wait = 60 * (attempt + 1)
-                print(f"  Rate limit hit — waiting {wait}s before retry {attempt + 2}/3…", file=sys.stderr)
+                # Use retry-after header if available, otherwise fall back to fixed waits
+                retry_after = None
+                if hasattr(e, "response") and e.response is not None:
+                    try:
+                        retry_after = int(e.response.headers.get("retry-after", 0)) or None
+                    except (ValueError, AttributeError):
+                        pass
+                wait = retry_after if retry_after else 60 * (attempt + 1)
+                source = "retry-after header" if retry_after else "fallback"
+                print(f"  Rate limit hit — waiting {wait}s ({source}) before retry {attempt + 2}/3…", file=sys.stderr)
                 time.sleep(wait)
             else:
                 print(f"  API error: {e}", file=sys.stderr)
@@ -374,7 +382,16 @@ def main() -> None:
                         print(f"     {line}", file=sys.stderr)
 
             if i < len(batch) - 1:
-                time.sleep(150 if use_web_search else 0.3)  # web search can use 60k+ tokens; 150s clears the 60s TPM window
+                if use_web_search:
+                    # Dynamic sleep: tokens used / ITPM_limit * 60s + 15s buffer
+                    # Haiku Tier 1 = 50k ITPM. Use actual token count if available.
+                    itpm = 50_000
+                    input_toks = token_info.get("input_tokens", itpm) if token_info else itpm
+                    dynamic_sleep = max(60, int(input_toks / itpm * 60) + 15)
+                    print(f"  sleeping {dynamic_sleep}s ({input_toks:,} tokens / {itpm:,} ITPM)…", file=sys.stderr)
+                    time.sleep(dynamic_sleep)
+                else:
+                    time.sleep(0.3)
     finally:
         if audit_file:
             audit_file.close()
