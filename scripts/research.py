@@ -211,21 +211,13 @@ def research_recommendation(
     if web_search:
         kwargs["tools"] = [{"type": "web_search_20250305", "name": "web_search"}]
 
-    for attempt in range(3):
-        try:
-            message = client.messages.create(**kwargs)
-            raw = extract_final_text(message)
-            return parse_response(raw), raw
-        except Exception as e:
-            err = str(e)
-            if "rate_limit_error" in err and attempt < 2:
-                wait = 60 * (attempt + 1)
-                print(f"  Rate limit hit — waiting {wait}s before retry {attempt + 2}/3…", file=sys.stderr)
-                time.sleep(wait)
-            else:
-                print(f"  API error: {e}", file=sys.stderr)
-                return None, ""
-    return None, ""
+    try:
+        message = client.messages.create(**kwargs)
+        raw = extract_final_text(message)
+        return parse_response(raw), raw
+    except Exception as e:
+        print(f"  API error: {e}", file=sys.stderr)
+        return None, ""
 
 
 def write_audit_entry(audit_file: IO, rec: dict, result: dict | None, raw: str) -> None:
@@ -282,8 +274,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--model",
-        default="claude-haiku-4-5-20251001",
-        help="Claude model ID (default: claude-haiku-4-5-20251001)",
+        default="claude-sonnet-4-6",
+        help="Claude model ID (default: claude-sonnet-4-6)",
     )
     args = parser.parse_args()
 
@@ -343,7 +335,7 @@ def main() -> None:
                         print(f"     {line}", file=sys.stderr)
 
             if i < len(batch) - 1:
-                time.sleep(65 if use_web_search else 0.3)  # web search uses ~25k tokens; wait >60s for TPM window
+                time.sleep(0.3)  # stay within rate limits
     finally:
         if audit_file:
             audit_file.close()
