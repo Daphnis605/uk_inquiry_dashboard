@@ -37,10 +37,22 @@ python scripts/research.py --model claude-haiku-4-5-20251001 --limit 100
 ### Workflow
 
 1. Run `research.py` — proposals are appended to `enriched_data.json` as `approved: false`
-2. Review each proposal: open the URL, read the recommendation, confirm it evidences implementation
-3. For approved items: set `"approved": true` and add `"approved_at": "YYYY-MM-DD"`
-4. For rejected items: delete the entry or leave as `approved: false`
-5. Open a PR — CI validates JSON syntax, schema, and spot-checks URLs
+2. Open the review app to approve or reject each proposal:
+   ```bash
+   pip install flask
+   python tools/review_app/app.py
+   # opens http://localhost:5000
+   ```
+   For each item: open the URL, read the recommendation, then approve or reject in the UI.
+3. Commit the reviewed file and open a PR:
+   ```bash
+   git add enriched_data.json
+   git commit -m "Research: [inquiry name] — AI-assisted evidence proposals"
+   ```
+4. CI validates the schema and spot-checks URLs — it passes only when all evidence items
+   are `approved: true`, so unapproved proposals block the merge until reviewed.
+
+See [tools/review_app/README.md](../tools/review_app/README.md) for full review app instructions.
 
 ### What counts as valid evidence
 
