@@ -282,8 +282,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--model",
-        default="claude-sonnet-4-6",
-        help="Claude model ID (default: claude-sonnet-4-6)",
+        default="claude-haiku-4-5-20251001",
+        help="Claude model ID (default: claude-haiku-4-5-20251001)",
     )
     args = parser.parse_args()
 
