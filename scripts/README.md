@@ -30,9 +30,26 @@ python scripts/research.py --limit 50
 # Preview without writing to disk
 python scripts/research.py --dry-run
 
-# Cheaper/faster model for a first-pass sweep
-python scripts/research.py --model claude-haiku-4-5-20251001 --limit 100
+# Save a full audit log of every response including no-evidence reasoning
+python scripts/research.py --audit-log audit.jsonl
+
+# Disable web search (training knowledge only — faster, cheaper, less accurate)
+python scripts/research.py --no-web-search
+
+# Use Sonnet for a higher-quality second pass on items Haiku couldn't find
+python scripts/research.py --model claude-sonnet-4-6 --limit 50
 ```
+
+### Training knowledge vs. web search
+
+Web search is **on by default**. Claude queries the internet before answering, making it
+significantly more likely to find recent or obscure URLs. Use `--no-web-search` to fall back
+to training knowledge only — faster and cheaper, but will miss anything published after the
+model's knowledge cutoff or not well represented in training data.
+
+Use `--audit-log audit.jsonl` to save the full raw response for every recommendation
+processed, including the reasoning notes for "no evidence found" conclusions. This lets you
+spot-check whether the model genuinely searched and why it gave up.
 
 ### Workflow
 
@@ -67,7 +84,7 @@ confirmation of implementation, or news articles without primary source.
 ### Cost
 
 Check current pricing at [anthropic.com/pricing](https://www.anthropic.com/pricing).
-Each recommendation uses roughly 400 input tokens and 300 output tokens.
+Each recommendation uses roughly 400 input tokens and 300 output tokens (more with web search).
 
-A practical approach: run Haiku first for broad coverage, then Sonnet on
-the recommendations Haiku couldn't find evidence for.
+Haiku is the default — good for broad coverage at low cost. Switch to Sonnet
+(`--model claude-sonnet-4-6`) for a higher-quality pass on items Haiku couldn't find.

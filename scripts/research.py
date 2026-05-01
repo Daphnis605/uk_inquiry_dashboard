@@ -20,12 +20,25 @@ Usage:
     # Preview without writing to enriched_data.json
     python scripts/research.py --dry-run
 
+    # Disable live web search (training knowledge only — faster, cheaper)
+    python scripts/research.py --no-web-search
+
+    # Save a full audit log of every response (including no-evidence reasoning)
+    python scripts/research.py --audit-log audit.jsonl
+
     # Use a faster/cheaper model for a first pass
     python scripts/research.py --model claude-haiku-4-5-20251001
 
 Requirements:
     pip install anthropic
     export ANTHROPIC_API_KEY=sk-ant-...
+
+Web search:
+    Web search is enabled by default. Claude calls the Anthropic web search
+    tool and searches the internet before answering — more likely to find recent
+    or obscure URLs than training knowledge alone.
+    Use --no-web-search to fall back to training knowledge only (faster, cheaper).
+    Use --audit-log to save a full record for either mode.
 """
 
 import json
@@ -33,7 +46,9 @@ import re
 import sys
 import time
 import argparse
+from datetime import datetime, timezone
 from pathlib import Path
+from typing import IO
 
 try:
     import anthropic
@@ -49,9 +64,9 @@ DATA_JSON = ROOT / "data.json"
 ENRICHED_JSON = ROOT / "enriched_data.json"
 
 # ---------------------------------------------------------------------------
-# Prompt
+# Prompts
 # ---------------------------------------------------------------------------
-RESEARCH_PROMPT = """\
+_PROMPT_BODY = """\
 You are helping research whether a UK public inquiry recommendation has been implemented by the government.
 
 Inquiry: {inquiry}
@@ -70,7 +85,7 @@ Rules:
 - "Acceptance" or "welcome" by government is NOT implementation evidence.
 - Progress reports or reviews are NOT sufficient unless they confirm implementation.
 - If you cannot identify a specific, verifiable URL, respond with evidence_status "no_evidence_found".
-- Do not guess or fabricate URLs.
+- Do not fabricate URLs — only provide URLs you have actually retrieved and confirmed exist.
 
 Respond in JSON only (no markdown fences):
 {{
@@ -95,6 +110,13 @@ evidence_type rules:
 If not found:
 {{"evidence_status": "no_evidence_found", "evidence": [], "notes": "reason"}}
 """
+
+RESEARCH_PROMPT = _PROMPT_BODY
+
+RESEARCH_PROMPT_WEB = (
+    "Search the web to find current, verifiable evidence before answering.\n\n"
+    + _PROMPT_BODY
+)
 
 
 # ---------------------------------------------------------------------------
@@ -155,8 +177,24 @@ def parse_response(text: str) -> dict | None:
     return None
 
 
-def research_recommendation(client: "anthropic.Anthropic", rec: dict, model: str) -> dict | None:
-    prompt = RESEARCH_PROMPT.format(
+def extract_final_text(message) -> str:
+    """Return the last text block from a message (works with or without tool use)."""
+    last_text = ""
+    for block in message.content:
+        if hasattr(block, "text"):
+            last_text = block.text
+    return last_text
+
+
+def research_recommendation(
+    client: "anthropic.Anthropic",
+    rec: dict,
+    model: str,
+    web_search: bool = True,
+) -> tuple[dict | None, str]:
+    """Returns (parsed_result, raw_response_text)."""
+    prompt_template = RESEARCH_PROMPT_WEB if web_search else RESEARCH_PROMPT
+    prompt = prompt_template.format(
         inquiry=rec["inquiry"],
         report_date=rec["report_date"],
         rec_num=rec["rec_idx"] + 1,
@@ -164,16 +202,47 @@ def research_recommendation(client: "anthropic.Anthropic", rec: dict, model: str
         action_category=rec["action_category"],
         change_type=rec["change_type"],
     )
-    try:
-        message = client.messages.create(
-            model=model,
-            max_tokens=1024,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return parse_response(message.content[0].text)
-    except Exception as e:
-        print(f"  API error: {e}", file=sys.stderr)
-        return None
+
+    kwargs: dict = {
+        "model": model,
+        "max_tokens": 2048 if web_search else 1024,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+    if web_search:
+        kwargs["tools"] = [{"type": "web_search_20250305", "name": "web_search"}]
+
+    for attempt in range(3):
+        try:
+            message = client.messages.create(**kwargs)
+            raw = extract_final_text(message)
+            return parse_response(raw), raw
+        except Exception as e:
+            err = str(e)
+            if "rate_limit_error" in err and attempt < 2:
+                wait = 60 * (attempt + 1)
+                print(f"  Rate limit hit — waiting {wait}s before retry {attempt + 2}/3…", file=sys.stderr)
+                time.sleep(wait)
+            else:
+                print(f"  API error: {e}", file=sys.stderr)
+                return None, ""
+    return None, ""
+
+
+def write_audit_entry(audit_file: IO, rec: dict, result: dict | None, raw: str) -> None:
+    """Append one JSONL entry to the audit log."""
+    entry = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "key": rec["key"],
+        "inquiry": rec["inquiry"],
+        "rec_num": rec["rec_idx"] + 1,
+        "rec_text": rec["rec_text"],
+        "outcome": (result or {}).get("evidence_status", "parse_error"),
+        "notes": (result or {}).get("notes", ""),
+        "evidence_count": len((result or {}).get("evidence", [])),
+        "raw_response": raw,
+    }
+    audit_file.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    audit_file.flush()
 
 
 # ---------------------------------------------------------------------------
@@ -202,9 +271,19 @@ def main() -> None:
         help="Print proposals as JSON without writing enriched_data.json",
     )
     parser.add_argument(
+        "--no-web-search",
+        action="store_true",
+        help="Disable live web search and use training knowledge only (faster, cheaper, less accurate)",
+    )
+    parser.add_argument(
+        "--audit-log",
+        metavar="FILE",
+        help="Path to a JSONL file to append full responses to (for auditing no-evidence conclusions)",
+    )
+    parser.add_argument(
         "--model",
-        default="claude-sonnet-4-6",
-        help="Claude model ID (default: claude-sonnet-4-6)",
+        default="claude-haiku-4-5-20251001",
+        help="Claude model ID (default: claude-haiku-4-5-20251001)",
     )
     args = parser.parse_args()
 
@@ -221,32 +300,53 @@ def main() -> None:
     total = len(unevidenced)
     print(f"{total} unevidenced recommendations", file=sys.stderr)
 
+    use_web_search = not args.no_web_search
+    mode = "web search" if use_web_search else "training knowledge only"
     batch = unevidenced[: args.limit]
-    print(f"Researching {len(batch)} (limit={args.limit}, model={args.model})\n", file=sys.stderr)
+    print(f"Researching {len(batch)} (limit={args.limit}, model={args.model}, mode={mode})\n", file=sys.stderr)
+
+    audit_file = open(args.audit_log, "a", encoding="utf-8") if args.audit_log else None
+    if audit_file:
+        print(f"Audit log: {args.audit_log}", file=sys.stderr)
 
     proposals: dict = {}
     found = 0
 
-    for i, rec in enumerate(batch):
-        label = f"[{i + 1}/{len(batch)}] {rec['inquiry']} rec {rec['rec_idx'] + 1}"
-        print(label, file=sys.stderr)
+    try:
+        for i, rec in enumerate(batch):
+            label = f"[{i + 1}/{len(batch)}] {rec['inquiry']} rec {rec['rec_idx'] + 1}"
+            print(label, file=sys.stderr)
 
-        result = research_recommendation(client, rec, args.model)
+            result, raw = research_recommendation(client, rec, args.model, web_search=use_web_search)
 
-        if result and result.get("evidence_status") in ("actioned", "partial") and result.get("evidence"):
-            for ev in result["evidence"]:
-                ev["approved"] = False
-                ev["approved_at"] = None
-                ev.setdefault("evidence_type", "partial")  # fallback if model omits it
-            proposals[rec["key"]] = result
-            found += 1
-            print(f"  → {result['evidence_status']}: {result['evidence'][0].get('url', '')}", file=sys.stderr)
-        else:
-            notes = (result or {}).get("notes", "")
-            print(f"  → no evidence found{': ' + notes if notes else ''}", file=sys.stderr)
+            if audit_file:
+                write_audit_entry(audit_file, rec, result, raw)
 
-        if i < len(batch) - 1:
-            time.sleep(0.3)  # stay within rate limits
+            if result and result.get("evidence_status") in ("actioned", "partial") and result.get("evidence"):
+                for ev in result["evidence"]:
+                    ev["approved"] = False
+                    ev["approved_at"] = None
+                    ev.setdefault("evidence_type", "partial")  # fallback if model omits it
+                proposals[rec["key"]] = result
+                found += 1
+                url = result["evidence"][0].get("url", "")
+                notes = result.get("notes", "")
+                print(f"  → {result['evidence_status']}: {url}", file=sys.stderr)
+                if notes:
+                    print(f"     {notes}", file=sys.stderr)
+            else:
+                notes = (result or {}).get("notes", "")
+                status = (result or {}).get("evidence_status", "no_response")
+                print(f"  → {status}", file=sys.stderr)
+                if notes:
+                    for line in notes.splitlines():
+                        print(f"     {line}", file=sys.stderr)
+
+            if i < len(batch) - 1:
+                time.sleep(65 if use_web_search else 0.3)  # web search uses ~25k tokens; wait >60s for TPM window
+    finally:
+        if audit_file:
+            audit_file.close()
 
     print(f"\n{found}/{len(batch)} proposals found", file=sys.stderr)
 
