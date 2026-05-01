@@ -7502,5 +7502,609 @@
       }
     ],
     "notes": "Government accepted all 75 recommendations and established oversight mechanisms, but no evidence of complete implementation of the specific audit and review requirement."
+  },
+  "Renewable Heat Incentive Inquiry__1": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Gateway Review Process | Department of Finance",
+        "url": "https://www.finance-ni.gov.uk/articles/gateway-review-process",
+        "source_type": "official_report",
+        "date": "2025-07-23",
+        "description": "Northern Ireland Department of Finance page documenting the mandatory Gateway review process for programmes and projects valued at £5M and above, confirming structured peer review scrutiny is in place across UK public bodies.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Gateway review process exists and is mandatory for major projects, though specific 'starting point Gateway assessment' and 'feasibility signoff' procedures are not explicitly documented in retrieved sources."
+  },
+  "Renewable Heat Incentive Inquiry__2": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "A Practical Guide to Policy Making In Northern Ireland",
+        "url": "https://www.executiveoffice-ni.gov.uk/publications/practical-guide-policy-making-northern-ireland",
+        "source_type": "official_report",
+        "date": "2015-05-29",
+        "description": "Official guidance commissioned by Northern Ireland Departments providing practical guidance on policy-making process aimed at NICS civil servants at all levels involved in policy development and review.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Civil Service Skills Academy",
+        "url": "https://www.economy-ni.gov.uk/civil-service-academy-frequently-asked-questions-faqs",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Training program that includes policy development skills training alongside project management, leadership, communication, commercial and financial skills for NICS staff.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Northern Ireland Civil Service Competency Framework",
+        "url": "https://irecruit-ext.hrconnect.nigov.net/resources/documents/n/i/c/nics-cf.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Framework outlining competencies and skills requirements for NICS civil servants, including capabilities for policy analysis and decision-making based on evidence.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Evidence shows training and guidance on policy development exist, but does not provide comprehensive evidence of full implementation of all recommendation elements including policy modeling and scenario testing skills development."
+  },
+  "Renewable Heat Incentive Inquiry__3": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Implementation of the Recommendations of the RHI Inquiry",
+        "url": "https://www.finance-ni.gov.uk/publications/implementation-recommendations-rhi-inquiry",
+        "source_type": "official_report",
+        "date": "2025-02-01",
+        "description": "Department of Finance publishes ongoing implementation tracking documents and agreed responses to RHI Inquiry recommendations, including Recommendation #4 on ministerial advice systems.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Monitoring and tracking processes exist, but no dedicated public documentation of the specific operational systems for officials' regular reporting to ministers was found."
+  },
+  "Renewable Heat Incentive Inquiry__5": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "CODE OF CONDUCT FOR SPECIAL ADVISERS",
+        "url": "https://www.niassembly.gov.uk/globalassets/documents/committees/2017-2022/finance/fog-bill---background-documents/code-of-conduct-for-special-advisers---final---20-january-2020.pdf",
+        "source_type": "official_report",
+        "date": "2020-01-20",
+        "description": "Published Code of Conduct for Special Advisers detailing clarity on Ministers' responsibilities, Special Advisers' roles in considering submissions and documents, and procedures for decision-making, including provisions for exceptional circumstances.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Civil Service (Special Advisers) Act (Northern Ireland) 2013",
+        "url": "https://www.legislation.gov.uk/nia/2013/8/section/7",
+        "source_type": "legislation",
+        "date": null,
+        "description": "Legislation establishing that a Minister is responsible for management and conduct of their Special Adviser, with code of conduct provisions clarifying respective roles.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Functioning of Government (Miscellaneous Provisions) Act (Northern Ireland) 2021",
+        "url": "https://www.legislation.gov.uk/nia/2021/3/notes/division/2?view=plain",
+        "source_type": "legislation",
+        "date": null,
+        "description": "Legislation implementing RHI inquiry recommendations specifying that special advisers' roles be clearly defined, Ministers are responsible for their conduct, and disciplinary procedures are outlined.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Code of Conduct published January 2020 and subsequent legislation (2021 Act) explicitly implement the recommendation by establishing clear roles for Ministers and Special Advisers regarding submissions, documents, and decision-making procedures."
+  },
+  "Renewable Heat Incentive Inquiry__6": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Special advisers: code of conduct - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/special-advisers-code-of-conduct",
+        "source_type": "official_report",
+        "date": "2024-11-06",
+        "description": "Government publishes the Special Advisers Code of Conduct and Model Contract, which are documents provided to new advisers, though these represent documents rather than a structured induction process.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "A formal, structured induction process coordinating Minister and Permanent Secretary involvement has not been established; advisers receive documents but minimal practical training."
+  },
+  "Renewable Heat Incentive Inquiry__11": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Strategic Investment Board Homepage",
+        "url": "https://sibni.org/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Confirms SIB works with government departments providing expert support on investment planning and delivery, demonstrating some collaborative structures exist.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Invest Northern Ireland - GOV.UK",
+        "url": "https://www.gov.uk/government/organisations/invest-northern-ireland",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Confirms Invest NI operates as a government body and works with departments, supporting the organizational structure referenced in the recommendation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Organizations exist and collaborate with departments, but no specific evidence of training schemes, job exchanges, or formalized early-stage policy advice mechanisms."
+  },
+  "Renewable Heat Incentive Inquiry__12": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Chapter 13. The governance and management of programmes and projects - Government Project Delivery",
+        "url": "https://projectdelivery.gov.uk/teal-book/home/part-d-managing-programmes-and-projects/chapter-13-the-governance-and-management-of-programmes-and-projects/",
+        "source_type": "official_report",
+        "date": "2025-04-02",
+        "description": "Official UK government guidance requiring project boards to include independent members not directly responsible for delivery to provide assurance and oversight.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Chapter 11. The governance and management of portfolios - Government Project Delivery",
+        "url": "https://projectdelivery.gov.uk/teal-book/home/part-c-managing-portfolios/chapter-11-the-governance-and-management-of-portfolios/",
+        "source_type": "official_report",
+        "date": "2024-07-29",
+        "description": "UK government portfolio governance framework requiring board membership to include independent individuals to provide assurance.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Current Government Project Delivery standards mandate independent board members for oversight."
+  },
+  "Renewable Heat Incentive Inquiry__13": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Chapter 20. Risk management - Government Project Delivery",
+        "url": "https://projectdelivery.gov.uk/teal-book/home/part-e-planning-and-control/chapter-20-risk-management/",
+        "source_type": "official_report",
+        "date": "2024-07-29",
+        "description": "This Government Project Delivery framework chapter establishes that risk management must include identification, monitoring and reporting responsibilities, with portfolio directors/senior responsible owners ensuring risks are managed through the project lifecycle and reported appropriately.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The Orange Book Management of Risk – Principles and Concepts",
+        "url": "https://assets.publishing.service.gov.uk/media/6453acadc33b460012f5e6b8/HMT_Orange_Book_May_2023.pdf",
+        "source_type": "official_report",
+        "date": "2023-05-01",
+        "description": "HM Treasury's Orange Book establishes government-wide risk management principles requiring integrated risk management in decision-making, with monitoring systems and timely risk reporting to management and oversight bodies.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Both documents establish the operational framework for the recommendation's requirements regarding risk tracking, real-time management, and reporting to Project Boards and ministers."
+  },
+  "Renewable Heat Incentive Inquiry__14": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Generating electricity from renewable energy (HTML) | Northern Ireland Audit Office",
+        "url": "https://www.niauditoffice.gov.uk/publications/html-document/generating-electricity-renewable-energy-html",
+        "source_type": "official_report",
+        "date": "2023-02-16",
+        "description": "Documents the establishment of a coordinating group in March 2019 where the DfE engaged NIAUR, OFGEM, NIEA and DfI to work together sharing information on renewable energy projects, though this was specifically for AD plants rather than the broader programme board recommended.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "A March 2019 AD plant review group was established involving multiple agencies, but no evidence found of a comprehensive high-level Programme Board as specifically recommended for coordinating renewable heat/energy projects across all relevant departments."
+  },
+  "Renewable Heat Incentive Inquiry__15": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Chapter 13. The governance and management of programmes and projects - Government Project Delivery",
+        "url": "https://projectdelivery.gov.uk/teal-book/home/part-d-managing-programmes-and-projects/chapter-13-the-governance-and-management-of-programmes-and-projects/",
+        "source_type": "official_report",
+        "date": "2025-04-02",
+        "description": "This official guidance establishes governance frameworks where sponsoring bodies provide oversight at senior level, with the senior responsible owner and sponsoring bodies maintaining control and accountability for programme/project management, including arrangements where third parties are involved.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Project and programme management - GOV.UK",
+        "url": "https://www.gov.uk/guidance/project-and-programme-management",
+        "source_type": "official_report",
+        "date": "2020-09-30",
+        "description": "This government guidance page establishes the Government Functional Project Delivery Standard and outlines the Infrastructure and Projects Authority's role in supporting major government project delivery with structured governance frameworks.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government project governance standards establish senior-level departmental control and oversight of programmes and projects, including those involving third parties."
+  },
+  "Renewable Heat Incentive Inquiry__18": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Treasury Approvals Process for projects and programmes - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/treasury-approvals-process-for-programmes-and-projects",
+        "source_type": "official_report",
+        "date": "2026-04-01",
+        "description": "Current Treasury guidance on departmental expenditure approval processes, setting out rigorous scrutiny and testing requirements for business cases, including formal Treasury Approvals Panels that probe key issues and provide structured assurance.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Cabinet Office Controls: Version 7 - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/cabinet-office-controls-version-6",
+        "source_type": "official_report",
+        "date": "2021-10-25",
+        "description": "Official Cabinet Office controls framework requiring robust internal assurance and approval processes for all spending activities, establishing independent structural requirements for departmental expenditure approval.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Evidence shows redesigned approval processes with structured scrutiny, though specific reference to Casework Committees is not explicitly confirmed in available sources."
+  },
+  "Renewable Heat Incentive Inquiry__20": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Business case development process | Department of Finance",
+        "url": "https://www.finance-ni.gov.uk/articles/business-case-development-process",
+        "source_type": "official_report",
+        "date": "2024-10-03",
+        "description": "This official guidance from the Department of Finance Northern Ireland details the business case development and approval process, including the requirement for DoF Supply to act as the approving authority and scrutinise business cases before departments proceed, particularly for major projects exceeding £20m or those that are novel, precedent-setting, or politically sensitive.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Department of Finance's business case scrutiny role is documented in official guidance governing the submission and approval of business cases for major projects and high-profile cases."
+  },
+  "Renewable Heat Incentive Inquiry__24": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Ministerial Code | The Northern Ireland Executive",
+        "url": "https://www.northernireland.gov.uk/topics/ministerial-code",
+        "source_type": "official_report",
+        "date": "2025-02-14",
+        "description": "The Northern Ireland Executive's official Ministerial Code sets out the rules and procedures for ministerial decisions and accountability to the Assembly. It establishes that ministers make decisions and are accountable to the public and Assembly for their decisions and actions.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Northern Ireland (Ministers, Elections and Petitions of Concern) Act 2022",
+        "url": "https://www.legislation.gov.uk/ukpga/2022/2/crossheading/ministerial-code-of-conduct/enacted",
+        "source_type": "legislation",
+        "date": "2022",
+        "description": "This Act amended the Ministerial Code to establish that ministers must be accountable to the Assembly and public for decisions and actions of their departments, legally codifying ministerial decision-making authority and accountability.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Ministerial decision-making authority and accountability in Northern Ireland are established in the Ministerial Code and reinforced through legislation (2022 Act)."
+  },
+  "Renewable Heat Incentive Inquiry__25": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Guidance: Management of Private Office information and records",
+        "url": "https://assets.publishing.service.gov.uk/media/661e45c60b9916e452bd3d88/Private-Office-guidance-version-for-publication.pdf",
+        "source_type": "official_report",
+        "date": "2023-12-29",
+        "description": "Cabinet Office guidance specifying that ministers' aides-memoire and notes (handwritten or digital) must be kept, establishing documentation requirements for ministerial meetings.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "UK Civil Service - Notes of Meetings",
+        "url": "https://www.civilservant.org.uk/skills-notes_of_meetings.html",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Civil Service guidance providing detailed standards for recording meeting notes between officials and ministers, covering documentation practices and record-keeping requirements.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Guidance exists on meeting documentation but comprehensive statutory framework establishing clear responsibility designations as per recommendation is not fully evident from available sources."
+  },
+  "Renewable Heat Incentive Inquiry__27": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "The North's shared services",
+        "url": "https://www.eolasmagazine.ie/the-norths-shared-services/",
+        "source_type": "news_article",
+        "date": null,
+        "description": "Describes Records NI as part of Enterprise Shared Services with an electronic document and record management system for the whole NICS enabling staff access to documents and records.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Electronic records system exists but no dedicated URL confirming full implementation of the recommendation's specific requirements (audits, system review, fitness for purpose assessment)."
+  },
+  "Renewable Heat Incentive Inquiry__28": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Managing Public Money NI (MPMNI)",
+        "url": "https://www.finance-ni.gov.uk/articles/managing-public-money-ni-mpmni",
+        "source_type": "official_report",
+        "date": "2024-08-12",
+        "description": "The Department of Finance maintains Managing Public Money Northern Ireland (MPMNI) as the principal guidance document that sets out standards and principles for public sector organizations in Northern Ireland to manage public resources responsibly. This framework is actively implemented across all NI departments and public bodies.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Department of Finance - Key accountability and financial guidance",
+        "url": "https://www.finance-ni.gov.uk/topics/key-accountability-and-financial-guidance",
+        "source_type": "official_report",
+        "date": "2020-03-25",
+        "description": "The Department of Finance maintains a dedicated webpage providing key accountability and financial management guidance, including Managing Public Money Northern Ireland, reflecting the Department's role in overseeing finance functions across Northern Ireland government departments.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Managing Public Money Northern Ireland (MPMNI) is actively maintained and implemented by the Department of Finance as the principal guidance framework for financial management across all NI public sector organizations."
+  },
+  "Renewable Heat Incentive Inquiry__31": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "The Orange Book Management of Risk – Principles and Concepts",
+        "url": "https://www.gov.uk/government/publications/orange-book/the-orange-book-management-of-risk-principles-and-concepts",
+        "source_type": "official_report",
+        "date": "2023-05-01",
+        "description": "The UK government's primary risk management framework requiring all departments to establish governance systems with checks and balances. It emphasizes transparency, regular review of procedures and policies, and accounting officer responsibilities for ensuring effective risk management and control frameworks.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Government Functional Standard GovS 007: Security",
+        "url": "https://www.security.gov.uk/policy-and-guidance/government-cyber-security-policy-handbook/principle-a2-risk-management/",
+        "source_type": "official_report",
+        "date": "2024-11-12",
+        "description": "Establishes requirements for government organisations to understand risks through governance structures and processes where identified risks are fully understood and leadership has confidence in mitigation effectiveness, addressing the need for functioning governance systems and risk reporting.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Orange Book framework directly implements the recommendation by requiring departments to review governance systems, establish effective risk management frameworks, and ensure civil servants can raise concerns without inhibition."
+  },
+  "Renewable Heat Incentive Inquiry__35": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Work in Progress - Northern Ireland Non-Domestic Renewable Heat Incentive Scheme: Assessing progress with the implementation of the Public Inquiry recommendations (Second Report)",
+        "url": "https://www.niauditoffice.gov.uk/publications/work-progress-northern-ireland-non-domestic-renewable-heat-incentive-scheme-assessing",
+        "source_type": "official_report",
+        "date": "2024-09-16",
+        "description": "NI Audit Office monitoring report tracking implementation progress of RHI Inquiry recommendations including recommendation 36, with latest review conducted in 2023.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Report confirms monitoring of recommendation 36 implementation but specific operational details not accessible from search results."
+  },
+  "Renewable Heat Incentive Inquiry__37": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Report on Strengthening Committee Scrutiny",
+        "url": "https://www.niassembly.gov.uk/assembly-business/committees/2017-2022/chairpersons-liaison-group/reports/report-on-strengthening-committee-scrutiny/",
+        "source_type": "official_report",
+        "date": "2022-03",
+        "description": "The Chairpersons' Liaison Group (CLG) formally reviewed committee scrutiny in response to RHI Inquiry recommendations and made 33 recommendations for strengthening scrutiny, including resource increases for statutory committees. The CLG recommended greater flexibility in staffing and additional capacity to statutory committees.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Northern Ireland Assembly Committees | Education Service",
+        "url": "https://education.niassembly.gov.uk/post-16/work-assembly/scrutinising-executive-committee/committees",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official education resource confirming that following RHI recommendations, the Chairpersons' Liaison Group considered how committee scrutiny could be strengthened and recommended significantly increasing resources available to statutory committees.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation was formally considered and acted upon by CLG in March 2022 with 33 recommendations for strengthened scrutiny, but full implementation status of resource increases is not explicitly confirmed in available sources."
+  },
+  "Renewable Heat Incentive Inquiry__39": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Conflicts of Interest A Good Practice Guide",
+        "url": "https://www.niauditoffice.gov.uk/files/niauditoffice/media-files/conflicts_of_interest_good_practice_guide.pdf",
+        "source_type": "official_report",
+        "date": "2015",
+        "description": "The Northern Ireland Audit Office good practice guide on conflicts of interest provides guidance referenced in Recommendation #40 as a baseline. It emphasizes annual declaration processes, conflict registers, and management procedures.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "CONFLICTS OF INTEREST GUIDANCE",
+        "url": "https://www.equalityni.org/ECNI/media/ECNI/Publications/Corporate/Commission%20Meetings/2021/cmeeting241121/EC-21-10-07b-(DoF)-07-21-(Attachment)-COI-Guidance-(Sept-2021)AC.pdf",
+        "source_type": "official_report",
+        "date": "2021-09-01",
+        "description": "Northern Ireland government conflicts of interest guidance from September 2021 references Declaration of Interest Registers and departmental common guidance for officials, showing implementation of declaration requirements.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The Register of Members' Interests",
+        "url": "https://www.niassembly.gov.uk/your-mlas/register-of-interests/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "The Northern Ireland Assembly maintains a public register of Members' interests in accordance with Nolan Principles, with data available in open formats for transparency.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Evidence shows guidance and registers exist but unclear if all government Departments have fully implemented public registers of interests as recommended."
+  },
+  "Renewable Heat Incentive Inquiry__40": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Civil Service (Special Advisers) Act (Northern Ireland) 2013",
+        "url": "https://www.legislation.gov.uk/nia/2013/8/section/7",
+        "source_type": "legislation",
+        "date": "2013",
+        "description": "Primary legislation establishing the requirement for a Code of Conduct for Special Advisers, including the specific elements recommended by the RHI Inquiry such as disciplinary procedures and ministerial accountability.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Code of Conduct for Special Advisers (January 2020)",
+        "url": "https://www.niassembly.gov.uk/globalassets/documents/committees/2017-2022/finance/fog-bill---background-documents/code-of-conduct-for-special-advisers---final---20-january-2020.pdf",
+        "source_type": "official_report",
+        "date": "2020-01-20",
+        "description": "The revised Code of Conduct for Special Advisers published by the Department of Finance, incorporating key accountability and conduct provisions recommended by the inquiry.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Functioning of Government (Miscellaneous Provisions) Act (Northern Ireland) 2021",
+        "url": "https://www.legislation.gov.uk/nia/2021/3/notes/division/2?view=plain",
+        "source_type": "legislation",
+        "date": "2021-09-22",
+        "description": "Legislation amending the Civil Service (Special Advisers) Act to introduce enhanced provisions for disciplinary procedures, ministerial accountability, and clear responsibilities as recommended by the inquiry.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Special Advisers | Department of Finance",
+        "url": "https://www.finance-ni.gov.uk/articles/special-advisers",
+        "source_type": "official_report",
+        "date": "2024-10-03",
+        "description": "Current Department of Finance page confirming ongoing publication and maintenance of Special Advisers Code of Conduct and related documentation.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The revised Special Adviser Code of Conduct is fully in place and operational, with supporting legislation enacted in 2013, 2020, and 2021."
+  },
+  "Renewable Heat Incentive Inquiry__41": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Northern Ireland (Ministers, Elections and Petitions of Concern) Act 2022",
+        "url": "https://www.legislation.gov.uk/ukpga/2022/2/crossheading/ministerial-code-of-conduct",
+        "source_type": "legislation",
+        "date": "2022",
+        "description": "This Act amended the Ministerial Code of Conduct to include explicit provisions on the management and conduct of special advisers, including discipline, addressing a key recommendation from the RHI Inquiry.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Ministerial Code | The Northern Ireland Executive",
+        "url": "https://www.northernireland.gov.uk/topics/ministerial-code",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Current operational Ministerial Code page showing the code is in place and regularly updated, reflecting post-RHI Inquiry improvements.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The 2022 Act and current code show partial implementation of the recommendation, particularly regarding special adviser management. Further revision appears ongoing but comprehensive evidence of all recommendation points is limited in available sources."
+  },
+  "Renewable Heat Incentive Inquiry__42": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Northern Ireland (Ministers, Elections and Petitions of Concern) Act 2022",
+        "url": "https://www.legislation.gov.uk/ukpga/2022/2/crossheading/ministerial-code-of-conduct",
+        "source_type": "legislation",
+        "date": "2022-03-03",
+        "description": "Legislation establishing ministerial code of conduct requirements for Northern Ireland Ministers, codifying standards and accountability mechanisms including the role of the commissioner for standards in investigating breaches.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Functioning of Government (Miscellaneous Provisions) Act (Northern Ireland) 2021 - Explanatory Notes",
+        "url": "https://www.legislation.gov.uk/nia/2021/3/notes/division/2?view=plain",
+        "source_type": "legislation",
+        "date": "2021-06-17",
+        "description": "The 2021 Act established the statutory framework enabling the independent Commissioner for Standards (appointed by the Northern Ireland Assembly) to investigate alleged breaches of the ministerial code of conduct, providing the independent oversight mechanism recommended.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The recommendation has been actioned through establishment of an independent commissioner mechanism with statutory oversight of ministerial and special adviser conduct."
+  },
+  "Renewable Heat Incentive Inquiry__43": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Northern Ireland Non-Domestic RHI Scheme: Progressing implementation of the Public Inquiry recommendations - 2nd Report",
+        "url": "https://www.niauditoffice.gov.uk/publications/html-document/northern-ireland-non-domestic-rhi-scheme-progressing-implementation",
+        "source_type": "official_report",
+        "date": "2024-10-15",
+        "description": "This report fulfils Recommendation 44 by demonstrating that the Northern Ireland Audit Office has been assigned and is performing the role of assessing and validating progress in implementing RHI Inquiry recommendations, with periodic reporting to the Assembly. This is the second progress report published in October 2024.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "NI Audit Office publishes second report on implementation of RHI Inquiry recommendations",
+        "url": "https://www.niauditoffice.gov.uk/news-centre/ni-audit-office-publishes-second-report-implementation-rhi-inquiry-recommendations",
+        "source_type": "press_release",
+        "date": "2024-10-15",
+        "description": "Press release confirming that the NI Audit Office has fulfilled Recommendation 44 by publishing its second progress report, demonstrating the ongoing operational role of NIAO in monitoring and reporting on implementation of the Inquiry recommendations.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The NIAO role is fully operational with multiple reports published since 2022, including the latest October 2024 report, confirming sustained implementation of Recommendation 44."
   }
 }
