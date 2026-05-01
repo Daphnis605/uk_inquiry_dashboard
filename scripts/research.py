@@ -81,11 +81,16 @@ Respond in JSON only (no markdown fences):
       "url": "https://...",
       "source_type": "legislation" | "press_release" | "official_report" | "parliamentary_record" | "news_article",
       "date": "YYYY-MM-DD or null",
-      "description": "1-2 sentences explaining how this evidences the recommendation being implemented"
+      "description": "1-2 sentences explaining how this evidences the recommendation being implemented",
+      "evidence_type": "complete" | "partial"
     }}
   ],
   "notes": "brief research notes explaining your reasoning"
 }}
+
+evidence_type rules:
+- "complete" — recommendation is fully implemented (law enacted, scheme operational, guidance published and in force)
+- "partial"  — progress is visible but implementation is incomplete, paused, or only promised
 
 If not found:
 {{"evidence_status": "no_evidence_found", "evidence": [], "notes": "reason"}}
@@ -232,7 +237,7 @@ def main() -> None:
             for ev in result["evidence"]:
                 ev["approved"] = False
                 ev["approved_at"] = None
-                ev["submitted_by"] = "ai-research"
+                ev.setdefault("evidence_type", "partial")  # fallback if model omits it
             proposals[rec["key"]] = result
             found += 1
             print(f"  → {result['evidence_status']}: {result['evidence'][0].get('url', '')}", file=sys.stderr)
