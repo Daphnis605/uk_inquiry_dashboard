@@ -8860,5 +8860,415 @@
       }
     ],
     "notes": "The guidance directly addresses the core elements of Recommendation #21 regarding officer duties to provide accurate reports and maintain role distinctions between officials and councillors."
+  },
+  "Independent Inquiry into Child Sexual Abuse__0": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Tackling child sexual abuse: progress update (accessible version)",
+        "url": "https://www.gov.uk/government/publications/tackling-child-sexual-abuse-progress-update/tackling-child-sexual-abuse-progress-update-accessible-version",
+        "source_type": "official_report",
+        "date": "2025-04-09",
+        "description": "Government response acknowledging Recommendation 1 and outlining steps including publishing Crime Survey data by December 2025 and working on data improvements via Baroness Casey's audit by June 2025, indicating ongoing implementation rather than completion.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Child sexual abuse in 2023/24: Trends in official data",
+        "url": "https://www.csacentre.org.uk/app/uploads/2025/03/Child-sexual-abuse-in-2023-24-Trends-in-official-data.pdf",
+        "source_type": "official_report",
+        "date": "2025-03-31",
+        "description": "CSA Centre report compiling data from multiple agencies across England and Wales on child sexual abuse, demonstrating data collection and publication but from existing separate systems rather than a unified core data set.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government acknowledges the recommendation and has set timelines for action, but a fully integrated core data set does not yet appear to be operational."
+  },
+  "Independent Inquiry into Child Sexual Abuse__1": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "New national Child Protection Authority announced - GOV.UK",
+        "url": "https://www.gov.uk/government/news/new-national-child-protection-authority-announced",
+        "source_type": "press_release",
+        "date": "2025-12-11",
+        "description": "Government press release announcing the decision to establish a Child Protection Authority in England, with consultation on its powers, organizational model, and governance structure.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Establishing the Child Protection Authority in England - GOV.UK",
+        "url": "https://www.gov.uk/government/consultations/establishing-the-child-protection-authority-in-england",
+        "source_type": "official_report",
+        "date": "2025-12-11",
+        "description": "The formal government consultation on creating the Child Protection Authority as a national body to improve child protection, demonstrating the government is actively progressing the recommendation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Child Protection Authority announced December 2025 and under consultation, but not yet established as an operational statutory body. Wales status could not be determined from available results."
+  },
+  "Independent Inquiry into Child Sexual Abuse__3": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Contacting Welsh Government ministers | GOV.WALES",
+        "url": "https://www.gov.wales/contacting-welsh-government-ministers",
+        "source_type": "official_report",
+        "date": "2026-03-13",
+        "description": "Official Welsh Government contacts page showing Minister for Children and Social Care as a government minister position, confirming the role exists within the Welsh Government structure.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Minister for Children and Social Care - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Minister_for_Children_and_Social_Care",
+        "source_type": "news_article",
+        "date": "2025-12-08",
+        "description": "Confirms the Minister for Children and Social Care position exists but is noted as 'accountable and deputy to the Minister for Health and Social Services', indicating it is not a cabinet-level position as the IICSA recommendation required.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "A Minister for Children and Social Care exists but lacks independent cabinet status as originally recommended; the role is subordinate to Health and Social Services."
+  },
+  "Independent Inquiry into Child Sexual Abuse__4": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Tackling Child Sexual Abuse Progress Update April 2025",
+        "url": "https://assets.publishing.service.gov.uk/media/6899fd053080e72710b2e370/Tackling_Child_Sexual_Abuse_-_Progress_Update_-_FINAL_FOR_PUBLICATION.pdf",
+        "source_type": "official_report",
+        "date": "2025-04-09",
+        "description": "Government document confirming ongoing funding and delivery of The Children's Society Prevention Programme including the 'Look Closer' campaign that raises awareness about child exploitation.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "TALK and Gurls Out Loud child sexual abuse prevention campaign",
+        "url": "https://www.iwf.org.uk/about-us/our-campaigns/talk-and-gurls-out-loud-online-child-sexual-abuse-prevention-campaign/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Home Office-backed awareness campaign delivering public information and using creative media to educate young people and parents about online child sexual abuse prevention.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Child Sexual Abuse Awareness - elearning for healthcare",
+        "url": "https://www.e-lfh.org.uk/programmes/child-sexual-abuse-awareness/",
+        "source_type": "official_report",
+        "date": "2022-01-18",
+        "description": "The 'Seen and Heard' joint initiative by Department of Health, The Children's Society and NHS England provides continuous awareness training focused on raising awareness of child sexual abuse.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Tackling child sexual abuse: progress update - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/tackling-child-sexual-abuse-progress-update",
+        "source_type": "official_report",
+        "date": "2025-04-09",
+        "description": "Government progress update page confirming ongoing commitment to prevention and awareness programmes tackling child sexual abuse.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Multiple government-funded awareness campaigns and programmes are operational across England, addressing child sexual abuse through various approaches including public information campaigns, training, and creative media."
+  },
+  "Independent Inquiry into Child Sexual Abuse__6": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Parental responsibility in England and Wales - Parliamentary Briefing",
+        "url": "https://researchbriefings.files.parliament.uk/documents/CBP-8760/CBP-8760.pdf",
+        "source_type": "official_report",
+        "date": "2026-03-18",
+        "description": "This parliamentary briefing discusses amendments to the Children Act 1989, including new sections 10C and 10D being added to the Act relating to restrictions on parental responsibility, which appears to relate to the IICSA recommendation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Children Act 1989, Section 8",
+        "url": "https://www.legislation.gov.uk/ukpga/1989/41",
+        "source_type": "legislation",
+        "date": null,
+        "description": "The current Children Act 1989 legislation includes prohibited steps orders under Section 8 which allow courts to prevent certain acts relating to parental responsibility, though the specific provision for prohibiting local authority acts in care situations requires further amendment.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Partial progress visible: prohibited steps orders exist in current law, but specific IICSA Recommendation #7 amendments appear to be in progress rather than fully enacted."
+  },
+  "Independent Inquiry into Child Sexual Abuse__9": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Check the children's barred list - GOV.UK",
+        "url": "https://www.gov.uk/guidance/check-the-childrens-barred-list",
+        "source_type": "official_report",
+        "date": "2025-01-21",
+        "description": "Official government guidance enabling recruiting organisations to check whether individuals have been barred by the Disclosure and Barring Service from working with children. The guidance explicitly describes the process for checking the children's barred list for those engaging individuals to work with children on frequent basis and supervised roles.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "DBS checks: guidance for employers - GOV.UK",
+        "url": "https://www.gov.uk/guidance/dbs-check-requests-guidance-for-employers",
+        "source_type": "official_report",
+        "date": "2026-01-16",
+        "description": "Official government guidance describing the Enhanced DBS check with Barred List(s) system that allows employers to check whether individuals are on the Children's Barred List as part of recruitment procedures for those working with children.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "UK government has implemented and operates a formal system allowing organisations to check the DBS Children's Barred List before engaging individuals to work with children."
+  },
+  "Independent Inquiry into Child Sexual Abuse__10": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "About us - Disclosure and Barring Service - GOV.UK",
+        "url": "https://www.gov.uk/government/organisations/disclosure-and-barring-service/about",
+        "source_type": "official_report",
+        "date": "2014-03-12",
+        "description": "Confirms that regulated activity providers have a legal duty to refer to DBS and that the Barring Referral Service is operational for making referrals online.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "DBS checks: guidance for employers - GOV.UK",
+        "url": "https://www.gov.uk/guidance/dbs-check-requests-guidance-for-employers",
+        "source_type": "official_report",
+        "date": "2026-01-16",
+        "description": "Current government guidance on DBS checks and compliance procedures for employers in regulated activity.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Statutory duty to refer exists and is operational, but specific implementation of compliance monitoring by inspectorates and information-sharing protocols not confirmed in search results."
+  },
+  "Independent Inquiry into Child Sexual Abuse__11": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "New Guidance for Overseas Disclosure and Barring Checks",
+        "url": "https://crbdirect.org.uk/new-guidance-for-overseas-disclosure-and-barring-checks/",
+        "source_type": "news_article",
+        "date": "2023-03-07",
+        "description": "Describes existing guidance permitting DBS checks for overseas work in limited circumstances (UK-based organisations making recruitment decisions in UK), but does not confirm full implementation of Recommendation #12.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Partial implementation visible for narrow overseas exception (UK charities), but no legislation found confirming full recommendation implementation for all overseas scenarios."
+  },
+  "Independent Inquiry into Child Sexual Abuse__12": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Tackling child sexual abuse: progress update (accessible version) - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/tackling-child-sexual-abuse-progress-update/tackling-child-sexual-abuse-progress-update-accessible-version",
+        "source_type": "official_report",
+        "date": "2025-04-09",
+        "description": "Government progress update confirming it has mandated internet companies to pre-screen for known child sexual abuse images before material is uploaded, with in-scope user-to-user and search services required to comply from 17 March 2025 under the Online Safety Act 2023.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The Child Sexual Exploitation & Abuse Industry Reporting Portal (CSEA-IRP) - National Crime Agency",
+        "url": "https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/child-sexual-abuse-and-exploitation/the-child-sexual-exploitation-abuse-industry-reporting-portal",
+        "source_type": "official_report",
+        "date": "2026-04-07",
+        "description": "Official NCA page confirming that in-scope user-to-user providers are required to report CSEA content under the Online Safety Act 2023 and associated 2026 Regulations, demonstrating the operational implementation of mandatory content screening requirements.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Online Safety Act 2023 implemented mandatory prescreening/detection requirements for in-scope services from 17 March 2025; prescreening mechanism is operational as of April 2026."
+  },
+  "Independent Inquiry into Child Sexual Abuse__13": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Duties to report child abuse in England - House of Commons Library",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn06793/",
+        "source_type": "official_report",
+        "date": "2026-03-04",
+        "description": "Parliamentary briefing confirming that the Crime and Policing Bill 2024-25, introduced on 25 February 2025, includes provisions for a mandatory reporting duty on child sexual abuse in England, with clauses 45-54 introducing the new duty.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Crime and Policing Bill 2024-25",
+        "url": "https://bills.parliament.uk/bills/3743",
+        "source_type": "legislation",
+        "date": "2025-02-25",
+        "description": "Parliamentary bill page showing the Crime and Policing Bill 2024-25 which includes provisions for mandatory reporting of child sexual abuse. As of March 2026, the bill has completed Commons stages and is scheduled for Lords report stage completion on 18 March 2026.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Mandatory reporting of child sexual abuse consultation - GOV.UK",
+        "url": "https://www.gov.uk/government/consultations/child-sexual-abuse-mandatory-reporting/mandatory-reporting-of-child-sexual-abuse-consultation",
+        "source_type": "official_report",
+        "date": "2024-05-09",
+        "description": "Government consultation document outlining the government's response to the IICSA recommendation and the proposed mandatory reporting framework for child sexual abuse.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Mandatory reporting legislation is not yet enacted - it is currently in Parliament as part of the Crime and Policing Bill 2024-25, scheduled for completion in March 2026. Implementation is partial/pending."
+  },
+  "Independent Inquiry into Child Sexual Abuse__15": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Crime and Policing Act 2026 Receives Royal Assent: new limitation laws apply relating to child sexual abuse claims",
+        "url": "https://www.keoghs.co.uk/keoghs-insight/crime-and-policing-act-2026-receives-royal-assent-new-limitation-laws-apply-relating-to-child-sexual-abuse-claims",
+        "source_type": "news_article",
+        "date": "2026-05-02",
+        "description": "Confirms the Crime and Policing Act 2026 received Royal Assent on 29 April 2026, amending the Limitation Act 1980 to remove the three-year limitation period for child sexual abuse civil claims and reversing the burden of proof onto defendants.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Crime and Policing Bill: Independent Inquiry into Child Sexual Abuse recommendations",
+        "url": "https://www.gov.uk/government/publications/crime-and-policing-bill-2025-factsheets/crime-and-policing-bill-independent-inquiry-into-child-sexual-abuse-recommendations",
+        "source_type": "official_report",
+        "date": "2026-02-04",
+        "description": "Official government factsheet detailing how the Crime and Policing Bill implements IICSA Recommendation #16, including removal of the three-year limitation period and reversal of the burden of proof for child sexual abuse claims.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "New reforms to support victims of child sexual abuse",
+        "url": "https://www.gov.uk/government/news/new-reforms-to-support-victims-of-child-sexual-abuse",
+        "source_type": "press_release",
+        "date": "2025-02-05",
+        "description": "Government press release announcing the removal of the three-year time limit for victims to bring personal injury claims and reversal of the burden of proof for child sexual abuse cases, as per IICSA recommendations.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Crime and Policing Act 2026 received Royal Assent on 29 April 2026, fully implementing both aspects of IICSA Recommendation #16."
+  },
+  "Independent Inquiry into Child Sexual Abuse__16": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Abuse victims to get specialist NHS support - GOV.UK",
+        "url": "https://www.gov.uk/government/news/abuse-victims-to-get-specialist-nhs-support",
+        "source_type": "press_release",
+        "date": "2025-12-16",
+        "description": "Announces £50 million funding for Child House expansion and therapeutic support for child sexual abuse survivors, but specifically addresses IICSA recommendation 16, not the national guarantee scheme required by recommendation 17.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "77% of local authorities offer no specialist support for children who have experienced sexual abuse | NSPCC",
+        "url": "https://www.nspcc.org.uk/about-us/news-opinion/2023/77-of-local-authorities-offer-no-specialist-support-for-children-who-have-experienced-sexual-abuse/",
+        "source_type": "news_article",
+        "date": "2023-01-01",
+        "description": "Shows only 23% of local authorities provide dedicated support, demonstrating the national guarantee with universal access has not been implemented.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The national guarantee scheme specified in recommendation 17 has not been implemented; existing efforts are fragmented and incomplete."
+  },
+  "Independent Inquiry into Child Sexual Abuse__17": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Tackling child sexual abuse: progress update (accessible version)",
+        "url": "https://www.gov.uk/government/publications/tackling-child-sexual-abuse-progress-update/tackling-child-sexual-abuse-progress-update-accessible-version",
+        "source_type": "official_report",
+        "date": "2025-04-09",
+        "description": "Government progress update confirming that the ICO Code of practice is being developed but cannot mandate 75-year retention; includes best practice guidance instead. Government remains open to legislating if needed.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Government response to the final report of the Independent Inquiry into Child Sexual Abuse",
+        "url": "https://www.gov.uk/government/publications/response-to-the-final-report-of-the-independent-inquiry-into-child-sexual-abuse/government-response-to-the-final-report-of-the-independent-inquiry-into-child-sexual-abuse",
+        "source_type": "official_report",
+        "date": "2023-05-25",
+        "description": "Government response stating it accepts the recommendation and will engage with the ICO on implementing the code of practice for access to records. ICO committed to reviewing guidance and exploring additional guidance.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Code of practice is in development/implementation phase but appears not yet fully published as a complete binding code; government developing guidance instead."
+  },
+  "Independent Inquiry into Child Sexual Abuse__19": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Child sexual abuse redress scheme to be established - GOV.UK",
+        "url": "https://www.gov.uk/government/news/child-sexual-abuse-redress-scheme-to-be-established",
+        "source_type": "press_release",
+        "date": "2023-05-22",
+        "description": "Government announcement committing to establish a redress scheme for survivors of child sexual abuse in England following the IICSA recommendations.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "New reforms to support victims of child sexual abuse - GOV.UK",
+        "url": "https://www.gov.uk/government/news/new-reforms-to-support-victims-of-child-sexual-abuse",
+        "source_type": "press_release",
+        "date": "2025-02-05",
+        "description": "February 2025 government reforms addressing some IICSA recommendations including changes to limitation law for civil claims, but notably the national redress scheme is not included in these reforms.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Commitment announced May 2023 but as of February 2025 government confirmed it is not currently taking steps to advance the national redress scheme; scheme not yet operational."
+  },
+  "Independent Inquiry into Child Sexual Abuse__20": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Online Safety Act 2023",
+        "url": "https://en.wikipedia.org/wiki/Online_age_verification_in_the_United_Kingdom",
+        "source_type": "official_report",
+        "date": "2023-10-00",
+        "description": "The Online Safety Act 2023 introduced mandatory age verification measures for online platforms and social media services. The law was enacted in October 2023 and enforcement began July 25, 2025. It requires platforms to implement robust age verification to prevent minors from accessing restricted content including pornography and other harmful material.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Online Safety Act 2023 is the UK legislation implementing the recommendation for mandatory age verification on online platforms."
   }
 }
