@@ -10098,5 +10098,41 @@
       }
     ],
     "notes": "The separated regime for paramilitary prisoners was implemented at HMP Maghaberry following the Steele Review's 2003 recommendations, ensuring lessons from HMP Maze were learned and applied."
+  },
+  "The Penrose Inquiry__0": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Infected blood awareness - gov.scot",
+        "url": "https://www.gov.scot/news/infected-blood-awareness/",
+        "source_type": "official_report",
+        "date": "2016-10-23",
+        "description": "Scottish Government awareness campaign alerting people who had blood transfusions before September 1991 to seek Hepatitis C testing, launched following the Penrose Inquiry recommendation, with 400,000 posters and leaflets distributed across Scotland.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Support for people who may have been affected by infected blood - NHS",
+        "url": "https://www.nhs.uk/conditions/support-for-people-who-may-have-been-affected-by-infected-blood/",
+        "source_type": "official_report",
+        "date": "2024-05-17",
+        "description": "Current NHS guidance advising people who had blood transfusions before 1996 to contact their GP for Hepatitis C testing, with information about free home tests available.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Scotblood | Infected Blood Inquiry",
+        "url": "https://www.scotblood.co.uk/about-blood/infected-blood-inquiry/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Scottish National Blood Transfusion Service confirms testing is available and notes 2015-2016 Chief Medical Officer letters requesting Health Boards and GP practices offer Hepatitis C testing to pre-1991 transfusion recipients.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation fully implemented through NHS, Scottish Government awareness campaigns, and clinical practice guidance."
   }
 }
