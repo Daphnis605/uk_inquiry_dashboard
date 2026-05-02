@@ -96,6 +96,8 @@ jobs:
               if key.startswith('_') or not isinstance(entry, dict):
                   continue
               for i, ev in enumerate(entry.get('evidence', [])):
+                  if ev.get('rejected', False):
+                      continue  # rejected items are kept as URL markers, not evidence
                   if not ev.get('approved', False):
                       title = ev.get('title', '(no title)')[:60]
                       unapproved.append(f"  {key}  item {i}: {title}")
@@ -135,6 +137,8 @@ jobs:
               if key.startswith('_'):
                   continue
               for ev in outcome.get('evidence', []):
+                  if ev.get('rejected', False):
+                      continue  # rejected URL markers are not live evidence
                   url = ev.get('url', '')
                   if not url:
                       continue
