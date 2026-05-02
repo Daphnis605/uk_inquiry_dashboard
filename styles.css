@@ -49,25 +49,41 @@ details summary:focus,
 /* ── Contents toggle button (fixed, always visible) ──────────── */
 #navToggle {
     position: fixed;
-    top: 16px;
-    left: 16px;
+    top: 12px;
+    left: 12px;
     z-index: 300;
-    background: #1d70b8;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 8px 14px;
+    background: rgba(255,255,255,0.92);
+    color: #333;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 6px;
+    padding: 7px 12px;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 6px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.12);
     white-space: nowrap;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
-#navToggle:hover { background: #003078; }
+#navToggle:hover {
+    background: rgba(255,255,255,1);
+    border-color: rgba(0,0,0,0.3);
+}
 .nav-toggle-icon { font-size: 18px; line-height: 1; }
+.nav-toggle-label { /* shown on desktop, hidden on mobile */ }
+
+@media screen and (max-width: 768px) {
+    #navToggle {
+        top: 10px;
+        right: 12px;
+        left: auto;       /* move to top-right on mobile */
+        padding: 8px 10px;
+    }
+    .nav-toggle-label { display: none; } /* icon only on mobile */
+}
 
 /* ── Backdrop ─────────────────────────────────────────────────── */
 #navBackdrop {
@@ -237,11 +253,6 @@ tr:hover {
 @media screen and (max-width: 768px) {
     body {
         margin: 0;
-    }
-
-    /* Push title below the fixed Contents button so it isn't obscured */
-    h1 {
-        padding-top: 52px;
     }
 
     .container {
