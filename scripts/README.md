@@ -77,9 +77,20 @@ See [tools/review_app/README.md](../tools/review_app/README.md) for full review 
 - Official government report confirming implementation (`gov.uk`, `nao.org.uk`, etc.)
 - Ministerial statement or press release announcing the action
 - Parliamentary record confirming the change was made
+- A credible news article or public body page confirming the thing is in place (where no primary source is available)
 
 **Not sufficient:** acceptance letters, welcome statements, progress reviews without
-confirmation of implementation, or news articles without primary source.
+confirmation of implementation.
+
+### What gets rejected
+
+AI proposals are rejected in the review app when:
+- The URL no longer exists or doesn't contain the claimed content
+- The source mentions the inquiry but doesn't confirm the recommendation was actually implemented
+- The source is an acceptance or welcome of a recommendation, not evidence of action taken
+- The URL is for a different recommendation or a different inquiry
+
+Rejected URLs are kept as markers so the research script doesn't re-propose the same URL on future runs.
 
 ### Cost
 
