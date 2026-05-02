@@ -6631,8 +6631,8 @@
         "date": "2025-06-10",
         "description": "Parliamentary document confirming that the Fingerprint Inquiry reported in 2011 and that 'the then Deputy Crown Agent set up a structure to implement those recommendations.' This indicates COPFS took structural steps to implement the recommendations.",
         "evidence_type": "partial",
-        "approved": false,
-        "approved_at": null
+        "approved": true,
+        "approved_at": "2026-05-02"
       }
     ],
     "notes": "Evidence shows COPFS initiated implementation structure but does not confirm whether guidance was finalised or lawyers were trained as specifically required."
@@ -6647,8 +6647,8 @@
         "date": null,
         "description": "A UK government-published workshop summary on fingerprint interpretation that discusses development of probabilistic frameworks for dealing with fingerprint evidence questions and probabilistic approaches.",
         "evidence_type": "partial",
-        "approved": false,
-        "approved_at": null
+        "approved": true,
+        "approved_at": "2026-05-02"
       }
     ],
     "notes": "Limited evidence of implementation; document shows research/development of probabilistic approaches but does not confirm full operational implementation of the 2011 Inquiry recommendation."
@@ -7257,8 +7257,8 @@
         "date": "2015-06",
         "description": "The Scottish Government's official response acknowledges recommendation 52 and confirms that NHS boards are called to account for auditing adherence to infection prevention and control policies at least annually, backed by unannounced inspections.",
         "evidence_type": "partial",
-        "approved": false,
-        "approved_at": null
+        "approved": true,
+        "approved_at": "2026-05-02"
       }
     ],
     "notes": "Government accepted the recommendation and stated implementation measures, but detailed completion status and ongoing audit results not fully evidenced in this response document."
@@ -7272,9 +7272,9 @@
         "source_type": "official_report",
         "date": "2015-01-01",
         "description": "Scottish Government response explicitly addressing recommendation 53 on surveillance systems. States that issues relating to surveillance are 'comprehensively addressed' and notes guidance on local HAI surveillance programmes developed by Health Protection Scotland to support NHS boards in implementing data-driven infection prevention systems.",
-        "evidence_type": "partial",
-        "approved": false,
-        "approved_at": null
+        "evidence_type": "complete",
+        "approved": true,
+        "approved_at": "2026-05-02"
       }
     ],
     "notes": "Response shows acceptance and development of surveillance guidance, but does not demonstrate full operational implementation as of available documents."
@@ -9749,18 +9749,18 @@
         "date": "2023-05-23",
         "description": "Official PACE Code E establishes requirements for audio recording of interviews with suspects, including procedures for secure digital network recording and handling of recording equipment.",
         "evidence_type": "complete",
-        "approved": false,
-        "approved_at": null
+        "approved": true,
+        "approved_at": "2026-05-02"
       },
       {
         "title": "Code F Visual recording with sound of interviews with suspects",
         "url": "https://assets.publishing.service.gov.uk/media/5a7b8e7c40f0b62826a04580/9789999103176.pdf",
         "source_type": "official_report",
-        "date": null,
+        "date": "",
         "description": "Official PACE Code F provides the framework for visual recording with sound of interviews, establishing procedures and requirements for video recording of suspect interviews.",
-        "evidence_type": "complete",
-        "approved": false,
-        "approved_at": null
+        "evidence_type": "partial",
+        "approved": true,
+        "approved_at": "2026-05-02"
       },
       {
         "title": "Code of Practice for the video recording with sound of interviews of persons detained under section 41 of the Terrorism Act 2000",
@@ -9769,8 +9769,8 @@
         "date": null,
         "description": "Official Home Office Code of Practice mandating video recording with sound of interviews for persons detained under counter-terrorism provisions, with specifications for cataloguing and storage.",
         "evidence_type": "complete",
-        "approved": false,
-        "approved_at": null
+        "approved": true,
+        "approved_at": "2026-05-02"
       }
     ],
     "notes": "PACE Codes E and F establish comprehensive mandatory requirements for digital audio and video recording of interrogations and questioning, with procedures for secure storage and handling."
@@ -9785,8 +9785,8 @@
         "date": "2013-10-23",
         "description": "Confirms UK procedures requiring custody officers to inform detainees of their rights and entitlements in writing, available in 54 languages, including the reason for detention and their rights under PACE Code C.",
         "evidence_type": "partial",
-        "approved": false,
-        "approved_at": null
+        "approved": true,
+        "approved_at": "2026-05-02"
       }
     ],
     "notes": "Evidence shows police detention procedures for informing detainees of rights; however, specific procedures for immigration detention facilities (IRCs) were not clearly confirmed in searches."
@@ -9795,14 +9795,8 @@
     "evidence_status": "actioned",
     "evidence": [
       {
-        "title": "Strip search: what are my rights? - Liberty",
         "url": "https://www.libertyhumanrights.org.uk/advice_information/strip-search-what-are-my-rights/",
-        "source_type": "official_report",
-        "date": "2025-04-22",
-        "description": "Confirms multiple safeguards are in place under PACE: strip searches must occur in areas where the person cannot be seen by others, minimum number of persons present for intimate searches, and same-gender officers conducting searches. Records must be kept of reasons, persons present, and results.",
-        "evidence_type": "complete",
-        "approved": false,
-        "approved_at": null
+        "rejected": true
       },
       {
         "title": "Greater protections for child strip search - GOV.UK",
@@ -9811,18 +9805,12 @@
         "date": "2024-04-30",
         "description": "Government announcement confirming existing safeguards are in place and clarifying them further, including that appropriate adults of the opposite sex can only be present if known to detainee and detainee agrees, and same-gender principle is enforced.",
         "evidence_type": "complete",
-        "approved": false,
-        "approved_at": null
+        "approved": true,
+        "approved_at": "2026-05-02"
       },
       {
-        "title": "A Radical Community Guide to Police Child Strip Search law in UK - BLAM UK CIC",
         "url": "https://blamuk.org/2023/03/27/a-radical-community-guide-to-police-child-strip-search-law-in-uk/",
-        "source_type": "news_article",
-        "date": "2023-03-27",
-        "description": "Confirms that strip searches must be carried out with dignity and sensitivity, requiring same-gender officers, and that detainees' gender identity must be respected with written records of requests.",
-        "evidence_type": "complete",
-        "approved": false,
-        "approved_at": null
+        "rejected": true
       }
     ],
     "notes": "Safeguards covering dignity, minimum persons present, same-gender officers, and detainee cooperation are established in UK police practice under PACE Codes."
@@ -9837,8 +9825,8 @@
         "date": "2025-07-09",
         "description": "GOV.UK guidance confirming that interpreters must be made available where detained persons have difficulty understanding English, with supervisory arrangements by Prison Governor and prison staff to ensure proper conduct during interviews.",
         "evidence_type": "complete",
-        "approved": false,
-        "approved_at": null
+        "approved": true,
+        "approved_at": "2026-05-02"
       },
       {
         "title": "Interpreters and Translators Policy",
@@ -9847,18 +9835,12 @@
         "date": null,
         "description": "Thames Valley Police policy document establishing procedures for providing qualified interpreters during detainee handling, custody booking, and interrogation, with provisions for various communication needs.",
         "evidence_type": "complete",
-        "approved": false,
-        "approved_at": null
+        "approved": true,
+        "approved_at": "2026-05-02"
       },
       {
-        "title": "Use of Translators and Interpreters Procedure",
         "url": "https://essex.police.uk/foi-ai/essex-police/our-policies-and-procedures/e/e0115-procedure---use-of-translators-and-interpreters/",
-        "source_type": "official_report",
-        "date": "2016-06-01",
-        "description": "Essex Police procedure requiring registered interpreters vetted to police clearance standard for detainee interviews in custody, with access to professional telephone interpreting services available anytime.",
-        "evidence_type": "complete",
-        "approved": false,
-        "approved_at": null
+        "rejected": true
       }
     ],
     "notes": "Multiple UK police forces maintain formal policies requiring trained, qualified interpreters for prisoner/detainee handling and interrogation."
@@ -9873,8 +9855,8 @@
         "date": null,
         "description": "College of Policing guidance references the DPMF (Detainee Physical and Mental assessment Form) with section 12 addressing the HCP's assessment of detainee fitness to be detained and interviewed, including recommendations if unfit.",
         "evidence_type": "complete",
-        "approved": false,
-        "approved_at": null
+        "approved": true,
+        "approved_at": "2026-05-02"
       }
     ],
     "notes": "The DPMF form appears to implement the recommendation with appropriate documentation of fitness assessments."
