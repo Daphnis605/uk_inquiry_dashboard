@@ -10082,5 +10082,21 @@
       }
     ],
     "notes": "The National IPC Manual and widespread trust policies demonstrate that the recommendation requiring trusts to take account of and act upon IPC staff advice is now embedded in UK healthcare legislation and practice."
+  },
+  "The Billy Wright Inquiry__1": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Northern Ireland Prison Service - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Northern_Ireland_Prison_Service",
+        "source_type": "news_article",
+        "date": "2026-02-07",
+        "description": "Wikipedia article confirming that 'In accordance with the recommendations of the 2003 Steele Review, Maghaberry also runs a separated regime for paramilitary prisoners, with two wings specially adapted to house Loyalist and Republican prisoners.' This directly shows the implementation of separation measures at HMP Maghaberry following lessons from HMP Maze closure.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The separated regime for paramilitary prisoners was implemented at HMP Maghaberry following the Steele Review's 2003 recommendations, ensuring lessons from HMP Maze were learned and applied."
   }
 }
