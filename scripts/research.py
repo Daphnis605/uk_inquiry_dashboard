@@ -426,7 +426,7 @@ def main() -> None:
             new_keys += 1
             new_items += len(proposal.get("evidence", []))
         else:
-            existing_urls = {ev.get("url") for ev in enriched[key].get("evidence", [])}
+            existing_urls = {ev.get("url") for ev in enriched[key].get("evidence", []) if ev.get("url")}
             for ev in proposal.get("evidence", []):
                 if ev.get("url") not in existing_urls:
                     enriched[key].setdefault("evidence", []).append(ev)
