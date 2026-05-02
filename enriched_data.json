@@ -9978,5 +9978,109 @@
       }
     ],
     "notes": "Blue lights requirement implemented; PA system guidance issued but not mandated as part of National Resource Standard."
+  },
+  "Public Inquiry into the Outbreak of Clostridioides difficile in Northern Trust Hospitals__0": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "NI Infection Control Manual",
+        "url": "https://www.niinfectioncontrolmanual.net/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "The Northern Ireland Regional Infection Prevention and Control Manual provides comprehensive guidance on infection control, including outbreak definitions, control procedures, and management protocols. The manual is regularly revised and updated by the Public Health Agency.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Healthcare associated infections (HCAIs) | HSC Public Health Agency",
+        "url": "https://www.publichealth.hscni.net/directorate-public-health/health-protection/healthcare-associated-infections",
+        "source_type": "official_report",
+        "date": "2024-04-11",
+        "description": "Confirms the Northern Ireland Regional Infection Prevention and Control Manual has been revised and updated, with the Deputy CMO launching the manual on 11th April 2024. The manual covers outbreak management and infection prevention control requirements.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The Northern Ireland Regional Infection Prevention and Control Manual implements the recommended comprehensive outbreak control guidance, including definitions, procedures, and management protocols."
+  },
+  "Public Inquiry into the Outbreak of Clostridioides difficile in Northern Trust Hospitals__1": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Communicable disease outbreak management guidance: principles to support local health protection systems - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/communicable-disease-outbreak-management-guidance/communicable-disease-outbreak-management-guidance-principles-to-support-local-health-protection-systems",
+        "source_type": "official_report",
+        "date": "2025-09-02",
+        "description": "This UK government guidance confirms that hospital outbreak plans are required and must be in place for managing outbreaks, supporting the need for regular review and maintenance of such plans.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Infection and Outbreak Management Policy - Shropshire Community Health Trust",
+        "url": "https://www.shropscommunityhealth.nhs.uk/content/doclib/10520.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "An NHS Trust infection control policy document demonstrating that outbreak management policies are actively maintained and reviewed by UK hospital trusts.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Evidence shows outbreak control plans exist and are reviewed, but no specific source found mandating annual review requirement."
+  },
+  "Public Inquiry into the Outbreak of Clostridioides difficile in Northern Trust Hospitals__2": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Clostridium difficile infection: How to deal with the problem",
+        "url": "https://assets.publishing.service.gov.uk/media/671a29fe593bb124be9c1408/Clostridium-difficile-infection-how-to-deal-with-the-problem.pdf",
+        "source_type": "official_report",
+        "date": "2008",
+        "description": "Department of Health guidance establishing national requirements for healthcare worker training and infection prevention procedures for CDI, including hand hygiene and IPC protocols that form the basis for staff training requirements.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Clostridioides difficile infection Updated guidance on management and treatment of CDI",
+        "url": "https://www.elft.nhs.uk/sites/default/files/2022-08/ukhsa-cdi-guideline-july-2022-1.pdf",
+        "source_type": "official_report",
+        "date": "2022",
+        "description": "UKHSA updated guidance covering infection prevention and control measures for CDI, including staff education components for managing patients across different care settings.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Partial evidence found: National CDI guidance frameworks exist requiring staff training, but no specific dedicated training program document found that explicitly addresses the 2011 recommendation."
+  },
+  "Public Inquiry into the Outbreak of Clostridioides difficile in Northern Trust Hospitals__3": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "National infection prevention and control manual (NIPCM) for England",
+        "url": "https://www.england.nhs.uk/national-infection-prevention-and-control-manual-nipcm-for-england/",
+        "source_type": "official_report",
+        "date": "2025-07-24",
+        "description": "Mandatory guidance for NHS settings requiring organisations to have suitably qualified infection prevention and control staff who provide expert advice and ensure action is taken, directly implementing the recommendation's core requirement.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Trustwide Infection Prevention and Control (IPC) Policy | Nottinghamshire Healthcare NHS Foundation Trust",
+        "url": "https://www.nottinghamshirehealthcare.nhs.uk/ipc-trustwide-infection-prevention-and-control-ipc-policy/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Current trust-level IPC policy demonstrating the implementation of Health and Social Care Act 2008 requirements for trusts to establish and follow IPC staff guidance and procedures.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The National IPC Manual and widespread trust policies demonstrate that the recommendation requiring trusts to take account of and act upon IPC staff advice is now embedded in UK healthcare legislation and practice."
   }
 }
