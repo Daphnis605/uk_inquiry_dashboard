@@ -9650,5 +9650,93 @@
       }
     ],
     "notes": "UKLPG and HSE developed and maintain operational guidance on Installation Records with templates for LPG installations as recommended."
+  },
+  "Inquiry into the circumstances of the Death of Bernard (Sonny) Lodge__0": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Prison Service Order 1700 - Segregation",
+        "url": "https://assets.publishing.service.gov.uk/media/627b8f278fa8f57d86f3f0e3/pso1700-segregationpdf.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official Prison Service guidance requiring measures to safeguard mental health of segregated prisoners through observations and dialogue, and mandating involvement of mental health in-reach teams in segregation review boards.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Written Question HL5168 - Parliament UK",
+        "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-02-24/HL5168/",
+        "source_type": "parliamentary_record",
+        "date": "2025-02-24",
+        "description": "Parliamentary answer confirming that segregated prisoners are managed by multi-disciplinary teams including mental health teams, and that any prisoner segregated over 30 days must have an individual mental health care plan.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "HMP Garth Comprehensive Psychological Support - Justice Inspectorates",
+        "url": "https://www.linkedin.com/pulse/comprehensive-psychological-support-segregated",
+        "source_type": "news_article",
+        "date": "2023-03-07",
+        "description": "Example of dedicated psychological and mental health provision in a segregation unit, showing implementation of multi-disciplinary mental health teams working with segregated prisoners.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Mental health provision exists in segregation units through policy and multi-disciplinary teams, but implementation varies significantly across prisons."
+  },
+  "Inquiry into the circumstances of the Death of Bernard (Sonny) Lodge__7": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Prison Service Order 2700 Suicide and Self-harm",
+        "url": "https://bulger.co.uk/prison/SelfHarmPSA_2700.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "This Prison Service Order explicitly includes procedures for 'Receiving and recording, and passing to the area of the prison where the prisoner resides, information coming into the establishment from families, agencies and other parties outside the establishment who have a concern for a prisoner who may be at risk of self-harm or suicide.'",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "PSO 2700 demonstrates the specific guidance recommended in the Bernard Lodge inquiry has been implemented in UK Prison Service policy."
+  },
+  "Inquiry into the circumstances of the Death of Bernard (Sonny) Lodge__8": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "The Listener scheme | How we can help | Samaritans",
+        "url": "https://www.samaritans.org/how-we-can-help/prisons/listener-scheme/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Confirms that Listeners scheme is operational across UK prisons with round-the-clock availability and private support provision as recommended.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "People who can help you in prison | Prison Reform Trust",
+        "url": "https://prisonreformtrust.org.uk/adviceguide/people-who-can-help-you-in-prison/",
+        "source_type": "official_report",
+        "date": "2020-11-02",
+        "description": "Confirms Listeners provide private support and that prisons provide Samaritan telephones for private calling access.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Our work in prisons | How we can help | Samaritans",
+        "url": "https://www.samaritans.org/how-we-can-help/prisons/our-work-prisons/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Confirms Samaritans works with HMPPS and other prison services to deliver the Listener scheme, and that Samaritans helpline access is required across all prisons.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation has been fully implemented: Listeners are available in almost every UK prison, operate round-the-clock, support is confidential/private, and prisoners have dedicated telephone access."
   }
 }
