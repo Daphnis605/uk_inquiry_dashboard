@@ -131,38 +131,46 @@ jobs:
           with open('enriched_data.json') as f:
               data = json.load(f)
 
-          failed = []
-          checked = 0
+          # Collect unique URLs — many recommendations share the same source
+          seen = set()
+          urls_to_check = []
           for key, outcome in data.items():
               if key.startswith('_'):
                   continue
               for ev in outcome.get('evidence', []):
                   if ev.get('rejected', False):
-                      continue  # rejected URL markers are not live evidence
-                  url = ev.get('url', '')
-                  if not url:
                       continue
-                  try:
-                      req = urllib.request.Request(url, method='HEAD', headers={
-                          'User-Agent': 'Mozilla/5.0 (uk-inquiry-dashboard CI url-check)'
-                      })
-                      with urllib.request.urlopen(req, timeout=10) as resp:
-                          status = resp.status
-                          if status >= 400:
-                              failed.append((key, url, status))
-                          else:
-                              checked += 1
-                              print(f"  OK {status}: {url}")
-                  except urllib.error.HTTPError as e:
-                      if e.code in (403, 405, 406):
-                          # Some servers reject HEAD or block CI user-agents — not a broken URL
-                          checked += 1
-                          print(f"  OK (HEAD blocked, {e.code}): {url}")
+                  url = ev.get('url', '')
+                  if url and url not in seen:
+                      seen.add(url)
+                      urls_to_check.append((key, url))
+
+          print(f"Checking {len(urls_to_check)} unique URL(s)")
+
+          failed = []
+          checked = 0
+          for key, url in urls_to_check:
+              try:
+                  req = urllib.request.Request(url, method='HEAD', headers={
+                      'User-Agent': 'Mozilla/5.0 (uk-inquiry-dashboard CI url-check)'
+                  })
+                  with urllib.request.urlopen(req, timeout=10) as resp:
+                      status = resp.status
+                      if status >= 400:
+                          failed.append((key, url, status))
                       else:
-                          failed.append((key, url, e.code))
-                  except Exception as e:
-                      failed.append((key, url, str(e)))
-                  time.sleep(0.5)  # be polite to servers
+                          checked += 1
+                          print(f"  OK {status}: {url}")
+              except urllib.error.HTTPError as e:
+                  if e.code in (403, 405, 406):
+                      # Some servers reject HEAD or block CI user-agents — not a broken URL
+                      checked += 1
+                      print(f"  OK (HEAD blocked, {e.code}): {url}")
+                  else:
+                      failed.append((key, url, e.code))
+              except Exception as e:
+                  failed.append((key, url, str(e)))
+              time.sleep(0.5)  # be polite to servers
 
           if failed:
               print("\nFAILED URL checks:", file=sys.stderr)
