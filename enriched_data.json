@@ -8656,5 +8656,209 @@
       }
     ],
     "notes": "Feasibility studies were conducted but evidence of an operational supershedder identification scheme is not confirmed."
+  },
+  "Edinburgh Tram Inquiry__2": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Cabinet Office Inquiries Guidance (referenced in Parliament Commons Library briefing)",
+        "url": "null",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Parliament's Commons Library research briefing references Cabinet Office Inquiries Guidance addressing secretariat staffing, but the specific URL and full content of this guidance document could not be retrieved.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Inquiries Guidance exists but full URL and specific provisions on civil servant transfers/agency staffing could not be verified."
+  },
+  "Edinburgh Tram Inquiry__5": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "The Green Book (2026) - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government/the-green-book-2026",
+        "source_type": "official_report",
+        "date": "2026-02-05",
+        "description": "Current UK government guidance that explicitly requires practitioners to adjust appraisals for optimism bias and account for it in estimates of social costs, project durations, and benefits.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Green Book supplementary guidance: optimism bias - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/green-book-supplementary-guidance-optimism-bias",
+        "source_type": "official_report",
+        "date": "2013-04-21",
+        "description": "Published supplementary Green Book guidance providing cost and time uplift percentages for generic project categories to account for optimism bias in business cases.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "UK government guidance on optimism bias assessment in business cases is established and actively in use, as evidenced by recent business case publications referencing these guidelines."
+  },
+  "Edinburgh Tram Inquiry__7": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Green Book supplementary guidance: optimism bias",
+        "url": "https://www.gov.uk/government/publications/green-book-supplementary-guidance-optimism-bias",
+        "source_type": "official_report",
+        "date": "2013-04-21",
+        "description": "The primary government guidance on optimism bias remains the 2013 supplementary Green Book guidance, not yet substantially revised since the inquiry recommendation despite calls for regular review.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "TAG Unit A1.2 Scheme Costs (Department for Transport)",
+        "url": "https://assets.publishing.service.gov.uk/media/681b53303f1c73824ee3e501/tag-unit-a1-2-cost-estimation.pdf",
+        "source_type": "official_report",
+        "date": "2025-05-01",
+        "description": "May 2025 Department for Transport guidance applying optimism bias principles to transport projects, showing sector-specific implementation rather than comprehensive core guidance revision.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Core government guidance on optimism bias has not been formally revised since 2013; only sector-specific applications show recent updates."
+  },
+  "Edinburgh Tram Inquiry__8": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "The Orange Book Management of Risk – Principles and Concepts",
+        "url": "https://www.gov.uk/government/publications/orange-book/the-orange-book-management-of-risk-principles-and-concepts",
+        "source_type": "official_report",
+        "date": "2023-05",
+        "description": "The UK government's primary guidance on risk management principles and concepts for all government departments and public sector organisations. This document establishes the framework for identifying and managing risk as an integral part of governance for major public-sector contracts.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Chapter 20. Risk management - Government Project Delivery",
+        "url": "https://projectdelivery.gov.uk/teal-book/home/part-e-planning-and-control/chapter-20-risk-management/",
+        "source_type": "official_report",
+        "date": "2024-07",
+        "description": "Official government project delivery guidance establishing documented risk management frameworks for portfolios, programmes and projects, including requirements for risk appetite assessment and Risk Potential Assessment for major government projects.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Overcoming challenges to managing risks in government",
+        "url": "https://www.nao.org.uk/wp-content/uploads/2023/12/overcoming-challenges-to-managing-risks-in-government.pdf",
+        "source_type": "official_report",
+        "date": "2023-12",
+        "description": "National Audit Office guidance outlining 10 approaches to managing risks effectively in government organisations, addressing governance and risk management challenges in public sector operations.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "UK government has implemented comprehensive risk management frameworks across multiple policy documents and operational guidance for major public-sector contracts."
+  },
+  "Edinburgh Tram Inquiry__10": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Local Rail Development Fund | Transport Scotland",
+        "url": "https://www.transport.gov.scot/public-transport/rail/rail-policy-and-strategy/local-rail-development-fund/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Demonstrates Transport Scotland's implementation of grant conditions including timescales and staged funding with decision points to review whether schemes should continue to be funded, aligning with some elements of Recommendation #11.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Found evidence of grant conditions and staged funding mechanisms, but no comprehensive policy document confirming full implementation of all Recommendation #11 requirements."
+  },
+  "Edinburgh Tram Inquiry__13": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Documents | UK Tram - The voice of the UK Light Rail industry",
+        "url": "https://uktram.com/documents/",
+        "source_type": "official_report",
+        "date": "2023-11-16",
+        "description": "UK Tram publishes Technical Guidance Notes (TGN1) covering utility diversion and protection apparatus, including guidance on assessing utilities' work requirements and mitigating utility diversion requirements for light rail projects.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Guidance exists but cannot confirm it directly implements the Edinburgh Tram Inquiry Recommendation 14 or demonstrates formal adoption as mandatory procedure across UK light rail promoters."
+  },
+  "Edinburgh Tram Inquiry__16": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "UK Corporate Governance Code 2024",
+        "url": "https://www.frc.org.uk/library/standards-codes-policy/corporate-governance/uk-corporate-governance-code/",
+        "source_type": "official_report",
+        "date": "2024-01-01",
+        "description": "The UK Corporate Governance Code mandates that the roles of chairman and chief executive should not be exercised by the same individual, establishing the governance structure recommended in the Edinburgh Tram Inquiry Recommendation #17.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Corporate governance in central government departments: code of good practice",
+        "url": "https://assets.publishing.service.gov.uk/media/5a747d24e5274a7f9902893d/PU2077_code_of_practice_2017.pdf",
+        "source_type": "official_report",
+        "date": "2017-01-01",
+        "description": "UK government guidance requiring non-ministerial departments to operate with a non-executive chair and separate chief executive, directly implementing the governance structure recommended in Recommendation #17.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Published guidance on major project governance structure exists and mandates separation of chairman and CEO roles."
+  },
+  "Edinburgh Tram Inquiry__17": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Gate Review 4: Readiness for Service - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/ogc-gateway-review-4-readiness-for-service-guidance-and-templates",
+        "source_type": "official_report",
+        "date": "2021-07-15",
+        "description": "Official GOV.UK publication describing the OGC Gateway Review process, which includes independent reviews by SROs and requires interview-based assessments of project readiness, consistent with Recommendation #18's requirement for interviews with key personnel including the SRO.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Gateway Review Process | Department of Finance",
+        "url": "https://www.finance.gov.uk/articles/gateway-review-process",
+        "source_type": "official_report",
+        "date": "2025-07-23",
+        "description": "Current Northern Ireland government guidance documenting the Gateway Review process, explicitly stating that reviews entail \"a series of interviews with key stakeholders\" and that the SRO is interviewed first, directly implementing the requirement to interview key personnel.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The OGC Gateway Review framework exists and includes interview-based assessments with the SRO and key personnel, but search results do not show a specific new mechanism created after the 2023 inquiry recommendation."
+  },
+  "Edinburgh Tram Inquiry__20": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Good practice guidance on member-officer relations protocols",
+        "url": "https://www.local.gov.uk/publications/good-practice-guidance-member-officer-relations-protocols",
+        "source_type": "official_report",
+        "date": "2025-11-14",
+        "description": "Guidance that establishes principles for member-officer relations built on ethical conduct, including the duty of officers to act with integrity and honesty in their reporting and interactions with elected members. Addresses the distinction between officer and councillor roles and the requirement for accurate information provision.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The guidance directly addresses the core elements of Recommendation #21 regarding officer duties to provide accurate reports and maintain role distinctions between officials and councillors."
   }
 }
