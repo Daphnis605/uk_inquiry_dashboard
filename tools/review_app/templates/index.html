@@ -120,9 +120,8 @@
       color: #3b82f6;
       cursor: pointer;
       font-size: 12px;
-      padding: 0;
       display: block;
-      margin-top: 4px;
+      border-bottom: 1px solid #e5e7eb;
     }
 
     .notes {
@@ -375,10 +374,8 @@
         </div>
       </div>
 
-      <div class="rec-text" id="rectext-{{ loop.index }}">
-        {{ entry.rec_text }}
-        <button class="expand-btn" onclick="toggleExpand({{ loop.index }})">show more</button>
-      </div>
+      <div class="rec-text" id="rectext-{{ loop.index }}">{{ entry.rec_text }}</div>
+      <button class="expand-btn" id="expandbtn-{{ loop.index }}" onclick="toggleExpand({{ loop.index }})" style="padding:4px 16px 6px;">show more</button>
 
       {% if entry.notes %}
       <div class="notes">{{ entry.notes }}</div>
@@ -583,7 +580,7 @@ function saveEdit(key, itemIndex, evid) {
 
 function toggleExpand(idx) {
   const el = document.getElementById('rectext-' + idx);
-  const btn = el.querySelector('.expand-btn');
+  const btn = document.getElementById('expandbtn-' + idx);
   if (el.classList.toggle('expanded')) {
     btn.textContent = 'show less';
   } else {
