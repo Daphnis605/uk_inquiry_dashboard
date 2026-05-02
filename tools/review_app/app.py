@@ -45,7 +45,7 @@ def load_recommendations():
     for dept in data:
         for inquiry in dept.get("Inquiries", []):
             name = inquiry["InquiryName"]
-            for i, rec in enumerate(inquiry.get("Recommendations", []), 1):
+            for i, rec in enumerate(inquiry.get("Recommendations", [])):
                 recs[f"{name}__{i}"] = rec["Recommendation"]
     return recs
 
