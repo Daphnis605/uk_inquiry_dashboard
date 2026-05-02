@@ -83,17 +83,6 @@ details summary:focus,
         padding: 8px 10px;
     }
     .nav-toggle-label { display: none; }
-
-    /* Tray slides in from the right on mobile */
-    #sectionNav {
-        left: auto;
-        right: 0;
-        border-right: none;
-        border-left: 1px solid #b1b4b6;
-        box-shadow: -4px 0 16px rgba(0,0,0,0.15);
-        transform: translateX(100%);
-    }
-    #sectionNav.nav-open { transform: translateX(0); }
 }
 
 /* ── Backdrop ─────────────────────────────────────────────────── */
@@ -470,6 +459,19 @@ tr:hover {
     cursor: pointer;
     font-size: 12px;
     color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    /* Tray slides in from the right on mobile to match the top-right button */
+    #sectionNav {
+        left: auto;
+        right: 0;
+        border-right: none;
+        border-left: 1px solid #b1b4b6;
+        box-shadow: -4px 0 16px rgba(0,0,0,0.15);
+        transform: translateX(100%);
+    }
+    #sectionNav.nav-open { transform: translateX(0); }
 }
 
 @media screen and (max-width: 768px) {
