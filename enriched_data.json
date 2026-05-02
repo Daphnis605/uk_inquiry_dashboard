@@ -9270,5 +9270,219 @@
       }
     ],
     "notes": "Online Safety Act 2023 is the UK legislation implementing the recommendation for mandatory age verification on online platforms."
+  },
+  "Brook House Inquiry__0": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Government response to the public inquiry into Brook House Immigration Removal Centre (accessible) - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/government-response-to-the-brook-house-inquiry-report/government-response-to-the-public-inquiry-into-brook-house-immigration-removal-centre-accessible",
+        "source_type": "official_report",
+        "date": "2024-03-19",
+        "description": "The document describes the Home Office's implementation of contract monitoring systems, including on-site compliance teams responsible for contract monitoring, KPI tracking, mandatory self-reporting by contractors with internal audit programmes, and escalation systems for concerns.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Government response confirms monitoring systems are operational with self-reporting requirements and penalties for non-compliance built into contracts."
+  },
+  "Brook House Inquiry__3": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Detention Services Order 04/2016 - detainee access to the internet - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/internet-access-for-detainees/detention-services-order-042016-detainee-access-to-the-internet",
+        "source_type": "official_report",
+        "date": "2016-05-17",
+        "description": "The official Home Office Detention Services Order 04/2016 establishes internet access requirements for detainees, including minimum 7 hours per day access and non-blocking of personal email and legal advice websites, matching Recommendation #4 requirements.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Detention Services Order 04/2016: access to the internet within the immigration removal estate (accessible) - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/internet-access-for-detainees/detention-services-order-042016-access-to-the-internet-within-the-immigration-removal-estate-accessible",
+        "source_type": "official_report",
+        "date": "2024-07-16",
+        "description": "Updated accessible version of DSO 04/2016 confirming operational guidance for contracted service providers on mandatory internet access provision for detained individuals, last updated July 2024.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "DSO 04/2016 was published in May 2016 and remains in force with latest updates in July 2024, directly implementing Recommendation #4 requirements."
+  },
+  "Brook House Inquiry__4": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Room sharing risk assessment (RSRA) - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/room-sharing-risk-assessment-rsra",
+        "source_type": "official_report",
+        "date": "2025-11-18",
+        "description": "Home Office Detention Services Order providing operational guidance on identifying and assessing risk of detained individuals in immigration removal centres and residential short-term holding facilities. The RSRA must be completed at admission and the guidance references ongoing risk assessment procedures.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The RSRA guidance confirms risk assessments are conducted at detention outset and reviews occur, consistent with Recommendation #5 requirements."
+  },
+  "Brook House Inquiry__6": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Border Security, Asylum and Immigration Bill (11th March 2025)",
+        "url": "https://publications.parliament.uk/pa/cm5901/cmpublic/BorderSecurityAsylumImmigration/memo/BSAIB28.htm",
+        "source_type": "parliamentary_record",
+        "date": "2025-03-11",
+        "description": "Proposes introduction of a statutory maximum 28-day time limit on immigration detention as a recommendation, citing the Brook House Inquiry among expert bodies supporting this measure. Legislation proposed but not yet enacted as of May 2026.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Illegal Migration Act 2023",
+        "url": "https://www.legislation.gov.uk/ukpga/2023/37/notes/division/2/index.htm",
+        "source_type": "legislation",
+        "date": "2023-07-20",
+        "description": "Creates a 28-day detention power, but only for specific cohorts arriving illegally, not a blanket maximum time limit for all immigration removal centres as the inquiry recommended. Not a comprehensive implementation of Recommendation #7.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The recommendation has not been fully implemented. While proposed in current parliamentary bill, no legislation establishing a universal 28-day maximum across all immigration removal centres is in force."
+  },
+  "Brook House Inquiry__7": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Equality impact assessment: draft revised guidance on adults at risk in immigration detention, April 2024 (accessible) - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/draft-revised-guidance-on-adults-at-risk-in-immigration-detention-april-2024/equality-impact-assessment-draft-revised-guidance-on-adults-at-risk-in-immigration-detention-april-2024-accessible",
+        "source_type": "official_report",
+        "date": "2024-04-30",
+        "description": "The document confirms that NHS England is developing interim clinical guidance to support Rule 35 assessments and states that training to support clinicians' understanding will be commissioned once policies are reviewed. Information is included in Initial Training Courses (ITCs) for contracted service providers.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Detention centre rule 35 and Short term Holding Facility rule 32 - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/detention-rule-35-process",
+        "source_type": "official_report",
+        "date": "2025-07-03",
+        "description": "Provides guidance on Rule 35 processes but notes that the Adults at Risk and Rule 34-35 review is ongoing and expected to conclude by June 2025, with the interim guidance remaining in place pending statutory changes.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Training infrastructure exists (ITC inclusion, interim guidance development) but comprehensive rolled-out training programme and mandatory annual refresher training as recommended have not been fully established."
+  },
+  "Brook House Inquiry__8": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Detention centre rule 35 and Short term Holding Facility rule 32 - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/detention-rule-35-process",
+        "source_type": "official_report",
+        "date": "2025-07-03",
+        "description": "Official Home Office guidance for staff on Rule 35 reports, including instructions for medical practitioners and oversight processes. Contains requirements for annual self-audit by contracted service providers.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The Detention Centre Rules 2001",
+        "url": "https://www.legislation.gov.uk/uksi/2001/238/article/35",
+        "source_type": "legislation",
+        "date": null,
+        "description": "The statutory legislation establishing Rule 35 requirements for medical practitioners to report on detained persons' health conditions, suicidal intentions, and torture concerns.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The Detention Centre (Amendment) Rules 2018",
+        "url": "https://www.legislation.gov.uk/uksi/2018/411/contents/made",
+        "source_type": "legislation",
+        "date": null,
+        "description": "Amendment to Rule 35 to include a definition of torture for immigration detention purposes, demonstrating ongoing operation and refinement of the Rule 35 framework.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Rule 35, detention centre rules: quality analysis report - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/rule-35-detention-centre-rules-quality-analysis-report",
+        "source_type": "official_report",
+        "date": "2017-11-15",
+        "description": "Home Office quality analysis report assessing compliance with Rule 35 process instructions and Detention Services Order.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Rule 35 is a statutory requirement with active Home Office guidance and auditing mechanisms in place as of July 2025."
+  },
+  "Brook House Inquiry__9": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Detention Services Order 02/2017 Removal from Association and Temporary Confinement",
+        "url": "https://www.gov.uk/government/publications/removal-from-association-and-temporary-confinement",
+        "source_type": "official_report",
+        "date": "2024-03-15",
+        "description": "GOV.UK page publishing the updated Detention Services Order 02/2017 providing clarification on authorization of Rule 40 and Rule 42, including definition of managerial authority in both urgent and non-urgent circumstances.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "1 Detention Services Order 02/2017 Removal from Association and Temporary Confinement",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/919268/detention_centre_rule_40_and_rule_42.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "The updated DSO 02/2017 document clarifying authorization procedures for Rule 40 and 42, including delegation authority and the definition of centre manager/RSTHF manager roles in urgent situations.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Updated DSO 02/2017 has been published with clarifications on Rule 40/42 authorization, though the search results do not confirm whether all specific elements of Recommendation #10 have been fully actioned."
+  },
+  "Brook House Inquiry__11": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Removal from association (detention centre rule 40) and temporary confinement (detention centre rule 42) (accessible)",
+        "url": "https://www.gov.uk/government/publications/removal-from-association-and-temporary-confinement/removal-from-association-detention-centre-rule-40-and-temporary-confinement-detention-centre-rule-42-accessible",
+        "source_type": "official_report",
+        "date": "2025-11-28",
+        "description": "Detention Services Order providing rules and procedures for Rule 40 and Rule 42 for Home Office and contracted service provider staff in immigration removal centres, with requirements for knowledge of these procedures and protocols.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Procedural guidance exists but does not explicitly confirm mandatory annual training requirement with assessment has been implemented as specified in Recommendation #12."
+  },
+  "Brook House Inquiry__12": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Removal from association (detention centre rule 40) and temporary confinement (detention centre rule 42) (accessible) - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/removal-from-association-and-temporary-confinement/removal-from-association-detention-centre-rule-40-and-temporary-confinement-detention-centre-rule-42-accessible",
+        "source_type": "official_report",
+        "date": "2025-11-28",
+        "description": "Home Office guidance on Rule 40 and Rule 42 that references recording actions for audit and assurance purposes and mandates daily monitoring, but does not explicitly document a formal quarterly audit program across the detention estate.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Operational procedures for Rule 40/42 monitoring exist, but no URL found confirming implementation of the specific quarterly audit system and inter-agency oversight review process recommended."
   }
 }
