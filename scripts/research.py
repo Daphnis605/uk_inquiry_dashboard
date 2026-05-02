@@ -67,25 +67,35 @@ ENRICHED_JSON = ROOT / "enriched_data.json"
 # Prompts
 # ---------------------------------------------------------------------------
 _PROMPT_BODY = """\
-You are helping research whether a UK public inquiry recommendation has been implemented by the government.
+You are checking whether a specific thing is in place in the UK.
 
 Inquiry: {inquiry}
 Report published: {report_date}
 Recommendation #{rec_num}: {rec_text}
 Category: {action_category} | Change type: {change_type}
 
-Task: Determine whether this specific recommendation was implemented.
-If it was, provide ONE piece of primary evidence — a direct URL to:
+Task: Find a URL showing that the thing described in the recommendation exists or is in operation.
+The source does NOT need to mention the inquiry — it just needs to show the thing is in place.
+Examples of what to look for:
+  - A new law or regulation → find the legislation
+  - A new body or regulator → find its website or founding document
+  - A new IT system or database → find a gov.uk page or announcement confirming it launched
+  - A new register or scheme → find the register or scheme page
+  - New guidance or standards → find the published guidance
+  - A training requirement → find the policy or framework document
+  - A structural or process change → find an official source confirming it is in effect
+
+The URL can point to:
   - Legislation (legislation.gov.uk)
-  - An official government report (gov.uk, parliament.uk, nao.org.uk, etc.)
+  - An official government publication or report (gov.uk, parliament.uk, nao.org.uk, etc.)
   - A press release or ministerial statement (gov.uk)
   - A parliamentary record (hansard.parliament.uk)
+  - A news article or credible public body page confirming the thing exists or happened
 
 Rules:
-- "Acceptance" or "welcome" by government is NOT implementation evidence.
-- Progress reports or reviews are NOT sufficient unless they confirm implementation.
-- If you cannot identify a specific, verifiable URL, respond with evidence_status "no_evidence_found".
-- Do not fabricate URLs — only provide URLs you have actually retrieved and confirmed exist.
+- Do not fabricate URLs — only return URLs you actually retrieved from search results.
+- If you did not find a URL, return no_evidence_found immediately. Do not write analysis.
+- A URL showing the thing exists is sufficient — it need not reference the inquiry.
 
 Respond in JSON only (no markdown fences):
 {{
@@ -96,19 +106,19 @@ Respond in JSON only (no markdown fences):
       "url": "https://...",
       "source_type": "legislation" | "press_release" | "official_report" | "parliamentary_record" | "news_article",
       "date": "YYYY-MM-DD or null",
-      "description": "1-2 sentences explaining how this evidences the recommendation being implemented",
+      "description": "1-2 sentences on how this URL relates to the recommendation",
       "evidence_type": "complete" | "partial"
     }}
   ],
-  "notes": "brief research notes explaining your reasoning"
+  "notes": "one sentence max"
 }}
 
 evidence_type rules:
-- "complete" — recommendation is fully implemented (law enacted, scheme operational, guidance published and in force)
-- "partial"  — progress is visible but implementation is incomplete, paused, or only promised
+- "complete" — recommendation is fully implemented (law enacted, scheme operational, guidance in force)
+- "partial"  — some progress visible but implementation incomplete or partial
 
-If not found:
-{{"evidence_status": "no_evidence_found", "evidence": [], "notes": "reason"}}
+If no URL found:
+{{"evidence_status": "no_evidence_found", "evidence": [], "notes": "No relevant URL found."}}
 """
 
 RESEARCH_PROMPT = _PROMPT_BODY
@@ -209,7 +219,7 @@ def research_recommendation(
         "messages": [{"role": "user", "content": prompt}],
     }
     if web_search:
-        kwargs["tools"] = [{"type": "web_search_20250305", "name": "web_search"}]
+        kwargs["tools"] = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}]
 
     for attempt in range(3):
         try:
