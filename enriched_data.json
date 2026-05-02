@@ -9878,5 +9878,105 @@
       }
     ],
     "notes": "The DPMF form appears to implement the recommendation with appropriate documentation of fitness assessments."
+  },
+  "The Anthony Grainger Inquiry__1": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "An inspection of how effective police forces are in the deployment of firearms",
+        "url": "https://hmicfrs.justiceinspectorates.gov.uk/publications/how-effective-police-forces-are-in-the-deployment-of-firearms/",
+        "source_type": "official_report",
+        "date": "2023-07-11",
+        "description": "HMICFRS conducted a thematic inspection examining the selection, training and deployment of tactical firearms advisors, tactical firearms commanders and strategic firearms commanders, as well as compliance with firearms guidance and specialist munitions use—directly addressing all components of the Anthony Grainger Inquiry Recommendation #2.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The thematic inspection was conducted between November 2022 and January 2023 and published 11 July 2023, fully implementing the recommendation."
+  },
+  "The Anthony Grainger Inquiry__2": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Armed policing and police use of less lethal weapons: code of practice - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/armed-policing-and-police-use-of-less-lethal-weapons-code-of-practice",
+        "source_type": "official_report",
+        "date": "2020-01-14",
+        "description": "The Code of Practice on Armed Policing and Police use of Less Lethal Weapons, published by the Home Office in January 2020, directly addresses the Anthony Grainger Inquiry recommendation. The code establishes that all new less lethal weapons and specialist munitions must be approved by the Home Secretary before police use.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Code of Practice for Armed Policing and Police Use of Less Lethal Weapons - Parliamentary Statement",
+        "url": "https://questions-statements.parliament.uk/written-statements/detail/2020-01-14/HCWS34",
+        "source_type": "parliamentary_record",
+        "date": "2020-01-14",
+        "description": "Ministerial statement to Parliament explicitly confirming that the revised Code of Practice contains the express prohibition on new weapon systems until approval process completion and Secretary of State approval, as recommended by the Grainger Inquiry.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The 2020 Code of Practice fully implements Recommendation #3, including the express prohibition on new weapon systems pending approval by the Secretary of State."
+  },
+  "The Anthony Grainger Inquiry__5": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Deployment of authorised firearms officers (AFOs) | College of Policing",
+        "url": "https://www.app.college.police.uk/app-content/armed-policing/use-of-force-firearms-and-less-lethal-weapons/deployment-of-afos/",
+        "source_type": "official_report",
+        "date": "2013-11-23",
+        "description": "College of Policing guidance clearly differentiates MASTS as an operational platform for tactical options (not predetermining intervention/interception), and specifies that deployment authorisation outcomes and reasons for command decisions must be recorded.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Official guidance implements all elements of Recommendation #6: differentiation of MASTS from specific tactical options, clarification that deployment does not preauthorize intervention/interception, and recording requirements for command decisions."
+  },
+  "The Anthony Grainger Inquiry__6": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "BODY-WORN VIDEO GUIDANCE 2024 V.3 Published October 2024",
+        "url": "https://www.npcc.police.uk/SysSiteAssets/media/downloads/publications/publications-log/local-policing-coordination-committee/2024/npcc-bwv-guidance-2024.pdf",
+        "source_type": "official_report",
+        "date": "2024-10-01",
+        "description": "NPCC guidance confirming body-worn video use in firearms operations including stealth mode capability for firearms incidents, addressing the video recording element of Recommendation #7.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Body Worn Video Policy (PS 306) | Nottinghamshire Police",
+        "url": "https://www.nottinghamshire.police.uk/foi-ai/nottinghamshire-police/publication/our-policies-and-procedures/human-resources/body-worn-video-policy-ps-306/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Force policy explicitly stating AFOs deploy with BWV at firearms incidents, confirming operational implementation of video recording requirement.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Video recording (BWV) for firearms operations is confirmed as operational, but no evidence found for communications recording system for firearms commanders."
+  },
+  "The Anthony Grainger Inquiry__7": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Government response to the Anthony Grainger public inquiry (accessible version)",
+        "url": "https://www.gov.uk/government/publications/response-to-the-anthony-grainger-public-inquiry/government-response-to-the-anthony-grainger-public-inquiry-accessible-version",
+        "source_type": "official_report",
+        "date": "2020-05-19",
+        "description": "Government response confirming implementation of covert blue lights on MASTS vehicles and guidance on public address systems, directly addressing Recommendation 8.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Blue lights requirement implemented; PA system guidance issued but not mandated as part of National Resource Standard."
   }
 }
