@@ -212,7 +212,7 @@ def reject():
     title = item.get("title", "")
 
     if url:
-        # Shrink to URL-only tombstone — preserves dedup, drops all bulk
+        # Shrink to URL-only rejected marker — preserves dedup, drops all bulk
         items[item_index] = {"url": url, "rejected": True}
     else:
         items.pop(item_index)
