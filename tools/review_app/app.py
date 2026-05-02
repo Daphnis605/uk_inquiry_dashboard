@@ -71,7 +71,7 @@ def index():
         pending_items = [
             (i, item)
             for i, item in enumerate(entry.get("evidence", []))
-            if not item.get("approved")
+            if not item.get("approved") and not item.get("rejected")
         ]
         if pending_items:
             pending.append({
@@ -96,7 +96,7 @@ def index():
         for entry in enriched.values()
         if isinstance(entry, dict)
         for item in entry.get("evidence", [])
-        if not item.get("approved")
+        if not item.get("approved") and not item.get("rejected")
     )
     total_approved = sum(
         1
@@ -189,7 +189,11 @@ def approve_all():
 
 @app.route("/reject", methods=["POST"])
 def reject():
-    """Remove a single evidence item from a key."""
+    """
+    Reject a single evidence item: strip it to {url, rejected:true} to prevent
+    the research script re-proposing the same URL, without bloating the JSON.
+    If the item had no URL, remove it entirely.
+    """
     data = request.get_json()
     key = data.get("key")
     item_index = data.get("item_index")
@@ -203,14 +207,22 @@ def reject():
     if not isinstance(item_index, int) or item_index < 0 or item_index >= len(items):
         return jsonify({"ok": False, "error": "Index out of range"}), 400
 
-    removed = items.pop(item_index)
+    item = items[item_index]
+    url = item.get("url", "")
+    title = item.get("title", "")
 
-    # If no evidence remains, remove the key entirely
+    if url:
+        # Shrink to URL-only tombstone — preserves dedup, drops all bulk
+        items[item_index] = {"url": url, "rejected": True}
+    else:
+        items.pop(item_index)
+
+    # If nothing remains at all, remove the key
     if not items:
         del enriched[key]
 
     save_enriched(enriched)
-    return jsonify({"ok": True, "removed_title": removed.get("title", "")})
+    return jsonify({"ok": True, "title": title})
 
 
 @app.route("/edit", methods=["POST"])
