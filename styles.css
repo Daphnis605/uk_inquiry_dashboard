@@ -238,7 +238,12 @@ tr:hover {
     body {
         margin: 0;
     }
-    
+
+    /* Push title below the fixed Contents button so it isn't obscured */
+    h1 {
+        padding-top: 52px;
+    }
+
     .container {
         padding: 10px;
         margin: 0;
