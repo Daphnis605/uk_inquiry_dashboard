@@ -54,3 +54,8 @@ coverage/
 *.old
 *.orig
 *.rej
+# Research audit logs
+*.jsonl
+
+# PDF source documents
+data/
