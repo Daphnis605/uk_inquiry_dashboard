@@ -8260,5 +8260,401 @@
       }
     ],
     "notes": "General command protocol guidance exists but no specific published protocol for CTSFO command uniformity per Recommendation #27 was located."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__0": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "E. coli cross-contamination guidance | Food Standards Agency",
+        "url": "https://www.food.gov.uk/business-guidance/e-coli-cross-contamination-guidance",
+        "source_type": "official_report",
+        "date": null,
+        "description": "FSA guidance on E. coli O157 cross-contamination control systems for food businesses, requiring procedures and systems to prevent contamination and cross-contamination in food handling operations.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "E. coli O157 Control of Cross-contamination",
+        "url": "https://www.food.gov.uk/sites/default/files/media/document/ecoli-cross-contamination-guidance-v3.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Detailed FSA guidance document establishing that E. coli O157 hazards must be controlled through food business' food safety management systems and procedures, directly addressing the recommendation requirement.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "FSA has published comprehensive guidance requiring food businesses to implement systems and procedures capable of preventing E. coli O157 contamination and cross-contamination, operationalized through mandatory food safety management systems."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__1": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Regulation (EC) No 852/2004 of the european parliament and of the council of 29 April 2004 on the hygiene of foodstuffs",
+        "url": "https://www.legislation.gov.uk/eur/2004/852/article/5",
+        "source_type": "legislation",
+        "date": "2004-04-29",
+        "description": "Article 5 of this legislation requires food business operators to put in place, implement and maintain a permanent procedure based on HACCP principles. This is the primary legal requirement in the UK.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Hazard Analysis and Critical Control Point (HACCP) | Food Standards Agency",
+        "url": "https://www.food.gov.uk/business-guidance/hazard-analysis-and-critical-control-point-haccp",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official guidance from the Food Standards Agency confirming that food businesses must implement HACCP-based food safety management systems, with supporting tools like MyHACCP and Safer Food Better Business.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "HACCP-based food safety management has been a legal requirement in the UK since 2004 through EC Regulation 852/2004, well before the 2009 inquiry recommendation."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__2": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Food Hygiene (Wales) Regulations 2006",
+        "url": "https://www.anglesey.gov.wales/en/Business/Environmental-health/Food-hygiene-and-safety/Food-Safety-Management-System-HACCP.aspx",
+        "source_type": "official_report",
+        "date": null,
+        "description": "A Welsh local authority page confirming that every food business is required by law to have a food safety management system based on HACCP principles, with inspections checking compliance.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Food Safety Management",
+        "url": "https://www.gwynedd.llyw.cymru/en/Businesses/Environmental-health-and-trading-standards/Food-hygiene-and-safety/FoodSafetyManagement.aspx",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Welsh local authority page stating that it is a legal requirement for food businesses to adopt and maintain a food safety management system based on HACCP principles.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Vale Of Glamorgan Council Guidance on HACCP compliance (Retail Pack)",
+        "url": "https://www.srs.wales/Documents/Food/Guidance-on-HACCP-Compliance-Retail-Pack.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official Welsh guidance document confirming HACCP is a legal requirement under Regulation (EC) No 852/2004, with practical compliance guidance for food businesses.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "HACCP food safety management system is a legal requirement across Wales, enforced at local authority level with dedicated guidance and support tools available to food businesses."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__3": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "The Food Safety (General Food Hygiene) (Butchers' Shops) Amendment Regulations 2000",
+        "url": "https://www.legislation.gov.uk/uksi/2000/930/schedules/made",
+        "source_type": "legislation",
+        "date": "2000-04-03",
+        "description": "Official legislation establishing the Butchers' Licensing Scheme for England, requiring premises selling unwrapped raw meat and ready-to-eat foods to be licensed annually. This directly implements the principles recommended by the 1996 E.coli outbreak inquiry.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The scheme came into force on 1 November 2000 and remains part of UK food safety law for premises handling both unwrapped raw meat and ready-to-eat foods."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__4": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "FSA publishes updated Food Law Codes of Practice and Practice Guidance in England, Wales and Northern Ireland",
+        "url": "https://www.food.gov.uk/news-alerts/news/fsa-publishes-updated-food-law-codes-of-practice-and-practice-guidance-in-england-wales-and-northern-ireland",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Confirms the FSA publishes updated guidance and codes of practice as part of its ongoing work to support food standards and enforce food law.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Regulated products application guidance | Food Standards Agency",
+        "url": "https://www.food.gov.uk/business-guidance/regulated-products-application-guidance",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Shows the FSA maintains and reviews guidance documentation regularly as part of its regulatory framework for food products.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "FSA actively reviews and generates guidance as part of standard operations."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__5": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Avoiding cross-contamination in your food business | Food Standards Agency",
+        "url": "https://www.food.gov.uk/business-guidance/avoiding-cross-contamination-in-your-food-business",
+        "source_type": "official_report",
+        "date": null,
+        "description": "FSA guidance page providing specific instructions for food business operators on cleaning and disinfecting surfaces and equipment to prevent cross-contamination, including detailed advice on which solutions and methods to use.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Evaluating FSA Guidance on Cross-Contamination | National Agricultural Library",
+        "url": "https://www.nal.usda.gov/research-tools/food-safety-research-projects/evaluating-fsa-guidance-cross-contamination",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Documents that the FSA published detailed cross-contamination guidance in February 2011 following public consultation in 2010, with training provided to local authorities enforcement officers.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The FSA has fully implemented the recommendation through published guidance and enforcement training."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__6": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Health, Well-being and Local Government Committee - Pennington Report Update",
+        "url": "https://business.senedd.wales/Data/Health,%20Wellbeing%20and%20Local%20Government%20Committee%20-%20Third%20Assembly/20100708/Agenda/HWLG(3)-13-10%20-%20Paper%202%20-%20Pennington%20Report%20Update%20(08-07-2010).pdf",
+        "source_type": "parliamentary_record",
+        "date": "2010-07-08",
+        "description": "Parliamentary committee document containing Recommendation 7 from the Pennington Inquiry, which specifically calls for regulatory bodies to keep light touch enforcement under constant review.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Recommendation 7 is documented but no dedicated enforcement review mechanism was found demonstrating ongoing constant review of light touch policies."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__7": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Chapter 4.2 HACCP Based Procedures | Food Standards Agency",
+        "url": "https://www.food.gov.uk/business-guidance/chapter-42-haccp-based-procedures",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official FSA guidance confirms that Official Veterinarians are required to conduct audits to verify food business operators apply HACCP-based procedures continuously and properly, with specific audit procedures and forms (AUD 9/3) detailed for compliance verification.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The FSA's official guidance confirms audit-based inspection of HACCP plans is the standard regulatory practice in UK food safety oversight."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__12": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Food safety inspections and enforcement | Food Standards Agency",
+        "url": "https://www.food.gov.uk/business-guidance/food-safety-inspections-and-enforcement",
+        "source_type": "official_report",
+        "date": "2025-01-30",
+        "description": "FSA guidance confirming that authorized officers usually arrive without appointment, and that unannounced inspections are the standard practice across UK food safety enforcement.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The food safety inspection process | East Riding of Yorkshire Council",
+        "url": "https://www.eastriding.gov.uk/business/food-services/food-safety-inspections/food-safety-inspection-process/",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Local authority guidance stating that the Food Law Code of Practice requires most inspections to be carried out unannounced, except in specific circumstances.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Unannounced inspections are established practice across UK food safety enforcement per Food Law Code of Practice requirements."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__14": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Summary Report of 2023-2024 and 2024-2025 Audit Programme: local authority service delivery planning processes and arrangements",
+        "url": "https://www.food.gov.uk/local-authorities/summary-report-of-2023-2024-and-2024-2025-audit-programme-local-authority-service-delivery-planning-processes-and-arrangements",
+        "source_type": "official_report",
+        "date": "2025-09-01",
+        "description": "This FSA audit report demonstrates that the Food Standards Agency conducts formal audits of local authorities' feed and food law enforcement services to assess compliance and service delivery, including inspection methodologies and standards.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The FSA's audit programme for local authorities is operational and documented on official gov.uk pages."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__17": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Advice on standards for school premises (DfE, March 2015)",
+        "url": "https://assets.publishing.service.gov.uk/media/5a800013ed915d74e622be2b/Advice_on_standards_for_school_premises.pdf",
+        "source_type": "official_report",
+        "date": "2015-03-01",
+        "description": "DfE guidance that encourages schools to audit toilets properly to prevent deterioration, addressing the substance of the recommendation but not establishing a formal local authority audit programme requirement.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "School Premises (England) Regulations 2012",
+        "url": "https://www.legislation.gov.uk/uksi/2012/1124/contents",
+        "source_type": "legislation",
+        "date": "2012-04-01",
+        "description": "Regulation establishing mandatory standards for toilet and hand washing facilities in schools, providing the baseline standards that audits would assess against, but not establishing a local authority audit programme itself.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Regulatory framework exists for school facilities but no formal local authority audit programme with dedicated governance structure was found."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__18": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Food and Feed Law Enforcement in Wales - A Report from the Food Standards Agency",
+        "url": "https://www.gov.wales/sites/default/files/publications/2019-05/food-and-feed-law-enforcement-in-wales.pdf",
+        "source_type": "official_report",
+        "date": "2014",
+        "description": "This official FSA report confirms that the majority of local authorities in Wales have embedded the recommendations of the 2009 Pennington inquiry into their practices and procedures, with most authorities demonstrating implementation of systems to respond to the inquiry's findings.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Health in Wales - Councils in Wales have adopted Pennington inquiry recommendations",
+        "url": "http://www.wales.nhs.uk/news/33421",
+        "source_type": "official_report",
+        "date": "2014",
+        "description": "An official Welsh NHS statement confirming that the majority of local authorities have embedded the recommendations of the 2009 Pennington report into their practices and procedures following the E. coli O157 outbreak inquiry.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Pembrokeshire County Council - Food Law Enforcement Service Plan 2022-23",
+        "url": "https://www.pembrokeshire.gov.uk/food-law-enforcement-service-plan-2022-23/investigation-and-control-of-outbreaks-food-related-infectious-disease-and-zoonoses",
+        "source_type": "official_report",
+        "date": "2023",
+        "description": "A local authority document confirming that Pembrokeshire considered and adopted where appropriate the recommendations made in the Pennington Report from March 2009.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Multiple independent official sources confirm local authorities in Wales have reviewed and embedded the Pennington inquiry recommendations into their practices and procedures."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__20": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Food and Feed Law Enforcement in Wales: A Report from the Food Standards Agency",
+        "url": "https://www.gov.wales/sites/default/files/publications/2019-05/food-and-feed-law-enforcement-in-wales.pdf",
+        "source_type": "official_report",
+        "date": "2019-05",
+        "description": "FSA report assessing progress over five years following the 2009 Pennington Inquiry into E. coli O157. Fulfills Recommendation #21 by conducting substantial review of food hygiene enforcement in Wales.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Food and feed law enforcement | GOV.WALES",
+        "url": "https://gov.wales/food-and-feed-law-enforcement",
+        "source_type": "official_report",
+        "date": null,
+        "description": "GOV.WALES page confirming availability of the Food Standards Agency report on food hygiene enforcement since 2009.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The FSA report documents the five-year review of food hygiene enforcement in Wales requested by Welsh Government Services to assess implementation of the 2009 Pennington Inquiry recommendations."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__21": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "The Green Book (2026) - GOV.UK",
+        "url": "https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government/the-green-book-2026",
+        "source_type": "official_report",
+        "date": "2026-02-05",
+        "description": "The Green Book is mandatory guidance for UK government departments requiring monitoring and evaluation of all funded interventions with proportionate budgets and management plans for evaluation.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Guidance on using the Evaluation Registry - GOV.UK",
+        "url": "https://www.gov.uk/guidance/guidance-on-using-the-evaluation-registry",
+        "source_type": "official_report",
+        "date": "2024-12-05",
+        "description": "Official guidance establishing a mandatory evaluation registry for central government departments to track, plan and evaluate government policies, programmes and projects systematically.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "RPC publishes updated guidance on monitoring and evaluation",
+        "url": "https://rpc.blog.gov.uk/2025/06/02/rpc-publishes-updated-guidance-on-monitoring-and-evaluation/",
+        "source_type": "press_release",
+        "date": "2025-06-02",
+        "description": "Regulatory Policy Committee published monitoring and evaluation guidance to help policy teams develop rigorous M&E plans early in policy development, including follow-up through Post-Implementation Reviews.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Multiple frameworks demonstrate systematic follow-up and evaluation of government guidance is in place and operational."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__22": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Evaluating the Use of Multilocus Variable Number Tandem Repeat Analysis of Shiga Toxin-Producing Escherichia coli O157 as a Routine Public Health Tool in England",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0085901",
+        "source_type": "official_report",
+        "date": "2014-01-17",
+        "description": "Documents that MLVA (multilocus VNTR analysis) was implemented in England from May 2012, with all STEC O157 strains submitted to GBRU typed using MLVA as standard practice.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Verotoxigenic Escherichia coli (VTEC) variable number of tandem repeats (VNTR) database",
+        "url": "https://www.data.gov.uk/dataset/929f7e78-bf2d-456d-8b7c-248b1ac253d6/verotoxigenic-escherichia-coli-vtec-variable-number-of-tandem-repeats-vntr-database",
+        "source_type": "official_report",
+        "date": "2013-08-30",
+        "description": "UK government data portal showing a Bionumerics database for VTEC VNTR typing, evidencing the operational system for VNTR analysis in the UK.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "VNTR was implemented as standard for all E. coli O157 typing in England from May 2012 onwards."
+  },
+  "Public Inquiry into the E.coli O157 outbreak in South Wales__23": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Feasibility of introducing methods, in the UK, for reducing shedding of E. coli O157 in cattle",
+        "url": "https://www.food.gov.uk/research/foodborne-disease/feasibility-of-introducing-methods-in-the-uk-for-reducing-shedding-of-e-coli-o157-in-cattle",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Food Standards Agency research examining the feasibility of introducing on-farm controls for reducing E. coli O157 shedding in cattle, conducted in response to the 2005 South Wales outbreak inquiry recommendation.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Feasibility studies were conducted but evidence of an operational supershedder identification scheme is not confirmed."
   }
 }
