@@ -9484,5 +9484,171 @@
       }
     ],
     "notes": "Operational procedures for Rule 40/42 monitoring exist, but no URL found confirming implementation of the specific quarterly audit system and inter-agency oversight review process recommended."
+  },
+  "The ICL Inquiry__0": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Pipework replacement programme - HSE",
+        "url": "https://www.hse.gov.uk/gas/lpg/pipework.htm",
+        "source_type": "official_report",
+        "date": null,
+        "description": "This HSE page details the operational pipework replacement programme that started in October 2009, with specific timescales for replacing buried metallic pipework carrying LPG, including prioritization criteria and completion deadlines.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Improving safety in the supply of liquefied petroleum gas - HSE",
+        "url": "https://www.hse.gov.uk/gas/lpg/icl-inquiry.htm",
+        "source_type": "official_report",
+        "date": null,
+        "description": "HSE's official page confirming the recommendation to replace buried metallic LPG service pipes and describing HSE's work in implementing this recommendation across the regulatory regime.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Inspecting and maintaining or replacing buried metallic pipework carrying LPG vapour",
+        "url": "https://www.hse.gov.uk/pubns/indg428.htm",
+        "source_type": "official_report",
+        "date": null,
+        "description": "HSE guidance leaflet aimed at commercial and industrial owners providing advice on replacement, maintenance and inspection of buried metallic LPG pipework.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The pipework replacement programme commenced in October 2009 and has been ongoing with defined timescales and priorities established through independent expert review."
+  },
+  "The ICL Inquiry__1": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Pipework replacement programme - HSE",
+        "url": "https://www.hse.gov.uk/gas/lpg/pipework.htm",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official HSE page confirming the replacement programme for buried metallic LPG pipework with polyethylene started in October 2009, following the ICL Inquiry recommendations. Details the risk-prioritised approach and initial timeline for replacement.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Improving safety in the supply of liquefied petroleum gas - HSE",
+        "url": "https://www.hse.gov.uk/gas/lpg/icl-inquiry.htm",
+        "source_type": "official_report",
+        "date": null,
+        "description": "HSE page confirming that LPG suppliers have already started the replacement programme, which will see metal pipes at up to 40,000 commercial and industrial premises replaced with polyethylene and other durable materials.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The recommendation has been fully actioned with an operational replacement programme managed by HSE and UK LPG industry starting in October 2009."
+  },
+  "The ICL Inquiry__2": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "OM 2011/08 - Work instruction for LPG pipework replacement inspection campaign",
+        "url": "https://www.hse.gov.uk/foi/internalops/oms/08.htm",
+        "source_type": "official_report",
+        "date": "2011",
+        "description": "HSE work instruction detailing planned inspections of LPG installations at commercial premises, including bulk tank installation inspection and verification of premises conditions to ensure risks are controlled.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Improving safety in the supply of liquefied petroleum gas - HSE",
+        "url": "https://www.hse.gov.uk/gas/lpg/icl-inquiry.htm",
+        "source_type": "official_report",
+        "date": null,
+        "description": "HSE page confirming that \"HSE and local authorities are also conducting a nationwide inspection initiative to check compliance with safety standards\" in response to Lord Gill's inquiry recommendations.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The inspection programme for premises and pipework has been operationalized through HSE and local authority initiatives."
+  },
+  "The ICL Inquiry__3": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Improving safety in the supply of liquefied petroleum gas - HSE",
+        "url": "https://www.hse.gov.uk/gas/lpg/icl-inquiry.htm",
+        "source_type": "official_report",
+        "date": null,
+        "description": "HSE official page documenting implementation of Lord Gill's recommendations from the ICL Inquiry, confirming that responsibility frameworks for LPG pipework safety have been established and are in effect through HSE guidance and industry programs.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Letter from Judith Hackitt - HSE",
+        "url": "https://www.hse.gov.uk/gas/lpg/letter.htm",
+        "source_type": "official_report",
+        "date": null,
+        "description": "HSE Chair's formal response confirming that the inquiry's finding that 'primary responsibility rested with the site user' has been accepted and embedded in the regulatory framework and guidance development.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Who Is Responsible for the LPG Pipework Between the LPG Tank and the Factory?",
+        "url": "https://www.upkeepone.co.uk/lpg-piping-responsibilities-between-the-lpg-tank-and-the-factory/",
+        "source_type": "news_article",
+        "date": "2025-12-09",
+        "description": "Current guidance confirming that LPG pipework responsibility rests with the site operator/user in the UK, with HSE enforcement of this principle as part of the regulatory framework.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The recommendation has been fully actioned and is now embedded in UK regulatory practice and HSE enforcement."
+  },
+  "The ICL Inquiry__4": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "The Gas Safety (Installation and Use) Regulations 1998",
+        "url": "https://www.legislation.gov.uk/uksi/1998/2451/made",
+        "source_type": "legislation",
+        "date": "1998-09-17",
+        "description": "Legislation requiring records to be made and retained for gas appliances and installations, including LPG systems. This provides the regulatory framework for comprehensive installation records.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "The legal framework - HSE",
+        "url": "https://www.hse.gov.uk/gas/lpg/legalframework.htm",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official HSE guidance on the legal framework governing LPG installations in the UK, confirming the regulatory requirements for safe operation and documentation.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "LPG installation records are required under the Gas Safety (Installation and Use) Regulations 1998 and related UK standards."
+  },
+  "The ICL Inquiry__5": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Consumer Guidance Sheet 25 - LPG Installation Record and Documentation",
+        "url": "https://www.liquidgasuk.org/uploads/DOC62AB3A8B2AAE4.pdf",
+        "source_type": "official_report",
+        "date": "2022",
+        "description": "UKLPG (Liquid Gas UK) guidance on Installation Records for LPG installations, including detailed template information on contents and documentation. Re-issued in 2022, showing ongoing operation and maintenance of the guidance developed in consultation with HSE per the ICL Inquiry recommendation.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "UKLPG and HSE developed and maintain operational guidance on Installation Records with templates for LPG installations as recommended."
   }
 }
