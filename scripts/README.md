@@ -77,9 +77,20 @@ See [tools/review_app/README.md](../tools/review_app/README.md) for full review 
 - Official government report confirming implementation (`gov.uk`, `nao.org.uk`, etc.)
 - Ministerial statement or press release announcing the action
 - Parliamentary record confirming the change was made
+- A credible news article or public body page confirming the thing is in place (where no primary source is available)
 
 **Not sufficient:** acceptance letters, welcome statements, progress reviews without
-confirmation of implementation, or news articles without primary source.
+confirmation of implementation.
+
+### What gets rejected
+
+AI proposals are rejected in the review app when:
+- The URL no longer exists or doesn't contain the claimed content
+- The source mentions the inquiry but doesn't confirm the recommendation was actually implemented
+- The source is an acceptance or welcome of a recommendation, not evidence of action taken
+- The URL is for a different recommendation or a different inquiry
+
+Rejected URLs are kept as markers so the research script doesn't re-propose the same URL on future runs.
 
 ### Cost
 
@@ -88,3 +99,46 @@ Each recommendation uses roughly 400 input tokens and 300 output tokens (more wi
 
 Haiku is the default — good for broad coverage at low cost. Switch to Sonnet
 (`--model claude-sonnet-4-6`) for a higher-quality pass on items Haiku couldn't find.
+
+---
+
+## batch_research.py — full sweep across all inquiries
+
+Runs `research.py` across all 21 target inquiries in priority order, with
+automatic pacing and gates to stop if the API is misbehaving.
+
+Excluded from the batch (covered by official UK inquiry dashboards):
+Manchester Arena, Grenfell Tower, Infected Blood.
+
+### Usage
+
+```bash
+# Preview the plan (no API calls)
+python scripts/batch_research.py --list
+
+# Full sweep (Haiku, web search on)
+python scripts/batch_research.py
+
+# Resume after a break
+python scripts/batch_research.py --from "Leveson"
+
+# Higher quality second pass
+python scripts/batch_research.py --model claude-sonnet-4-6
+
+# Save a full audit log
+python scripts/batch_research.py --audit-log batch_audit.jsonl
+```
+
+### Pacing
+
+Web search is capped at 1 search per call (`max_uses: 1`), keeping each call to
+~15–40k input tokens against the Haiku 50k ITPM limit. Sleep between requests is
+computed dynamically: `max(60s, tokens/50k × 60s + 15s)` — typically 60s per rec.
+Full sweep of ~463 non-Mid Staffs recs takes ~8 hours; use `--from` to split across
+multiple sessions.
+
+### Gates
+
+If more than 60% of recs in an inquiry return `no_response` (exhausted retries),
+the script pauses and asks whether to continue. Non-zero exit from `research.py`
+stops the batch immediately.

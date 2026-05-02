@@ -67,25 +67,35 @@ ENRICHED_JSON = ROOT / "enriched_data.json"
 # Prompts
 # ---------------------------------------------------------------------------
 _PROMPT_BODY = """\
-You are helping research whether a UK public inquiry recommendation has been implemented by the government.
+You are checking whether a specific thing is in place in the UK.
 
 Inquiry: {inquiry}
 Report published: {report_date}
 Recommendation #{rec_num}: {rec_text}
 Category: {action_category} | Change type: {change_type}
 
-Task: Determine whether this specific recommendation was implemented.
-If it was, provide ONE piece of primary evidence — a direct URL to:
+Task: Find a URL showing that the thing described in the recommendation exists or is in operation.
+The source does NOT need to mention the inquiry — it just needs to show the thing is in place.
+Examples of what to look for:
+  - A new law or regulation → find the legislation
+  - A new body or regulator → find its website or founding document
+  - A new IT system or database → find a gov.uk page or announcement confirming it launched
+  - A new register or scheme → find the register or scheme page
+  - New guidance or standards → find the published guidance
+  - A training requirement → find the policy or framework document
+  - A structural or process change → find an official source confirming it is in effect
+
+The URL can point to:
   - Legislation (legislation.gov.uk)
-  - An official government report (gov.uk, parliament.uk, nao.org.uk, etc.)
+  - An official government publication or report (gov.uk, parliament.uk, nao.org.uk, etc.)
   - A press release or ministerial statement (gov.uk)
   - A parliamentary record (hansard.parliament.uk)
+  - A news article or credible public body page confirming the thing exists or happened
 
 Rules:
-- "Acceptance" or "welcome" by government is NOT implementation evidence.
-- Progress reports or reviews are NOT sufficient unless they confirm implementation.
-- If you cannot identify a specific, verifiable URL, respond with evidence_status "no_evidence_found".
-- Do not fabricate URLs — only provide URLs you have actually retrieved and confirmed exist.
+- Do not fabricate URLs — only return URLs you actually retrieved from search results.
+- If you did not find a URL, return no_evidence_found immediately. Do not write analysis.
+- A URL showing the thing exists is sufficient — it need not reference the inquiry.
 
 Respond in JSON only (no markdown fences):
 {{
@@ -96,19 +106,19 @@ Respond in JSON only (no markdown fences):
       "url": "https://...",
       "source_type": "legislation" | "press_release" | "official_report" | "parliamentary_record" | "news_article",
       "date": "YYYY-MM-DD or null",
-      "description": "1-2 sentences explaining how this evidences the recommendation being implemented",
+      "description": "1-2 sentences on how this URL relates to the recommendation",
       "evidence_type": "complete" | "partial"
     }}
   ],
-  "notes": "brief research notes explaining your reasoning"
+  "notes": "one sentence max"
 }}
 
 evidence_type rules:
-- "complete" — recommendation is fully implemented (law enacted, scheme operational, guidance published and in force)
-- "partial"  — progress is visible but implementation is incomplete, paused, or only promised
+- "complete" — recommendation is fully implemented (law enacted, scheme operational, guidance in force)
+- "partial"  — some progress visible but implementation incomplete or partial
 
-If not found:
-{{"evidence_status": "no_evidence_found", "evidence": [], "notes": "reason"}}
+If no URL found:
+{{"evidence_status": "no_evidence_found", "evidence": [], "notes": "No relevant URL found."}}
 """
 
 RESEARCH_PROMPT = _PROMPT_BODY
@@ -191,7 +201,7 @@ def research_recommendation(
     rec: dict,
     model: str,
     web_search: bool = True,
-) -> tuple[dict | None, str]:
+) -> tuple[dict | None, str, dict]:
     """Returns (parsed_result, raw_response_text)."""
     prompt_template = RESEARCH_PROMPT_WEB if web_search else RESEARCH_PROMPT
     prompt = prompt_template.format(
@@ -209,26 +219,50 @@ def research_recommendation(
         "messages": [{"role": "user", "content": prompt}],
     }
     if web_search:
-        kwargs["tools"] = [{"type": "web_search_20250305", "name": "web_search"}]
+        kwargs["tools"] = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}]
 
     for attempt in range(3):
         try:
             message = client.messages.create(**kwargs)
             raw = extract_final_text(message)
-            return parse_response(raw), raw
+            usage = message.usage
+            n_searches = sum(1 for b in message.content if getattr(b, "type", "") == "tool_use")
+            token_info = {
+                "input_tokens": usage.input_tokens,
+                "output_tokens": usage.output_tokens,
+                "web_searches": n_searches,
+            }
+            print(
+                f"  tokens: {usage.input_tokens:,} in / {usage.output_tokens:,} out"
+                + (f" | {n_searches} web search(es)" if web_search else ""),
+                file=sys.stderr,
+            )
+            return parse_response(raw), raw, token_info
         except Exception as e:
-            err = str(e)
+            err = str(e).lower()
+            # Billing/spend limit — no point retrying, exit immediately
+            if any(k in err for k in ("billing", "credit", "spend", "budget", "payment", "invoice", "limit_reached")):
+                print(f"\n💳  Billing limit reached — stopping. ({e})", file=sys.stderr)
+                sys.exit(2)
             if "rate_limit_error" in err and attempt < 2:
-                wait = 60 * (attempt + 1)
-                print(f"  Rate limit hit — waiting {wait}s before retry {attempt + 2}/3…", file=sys.stderr)
+                # Use retry-after header if available, otherwise fall back to fixed waits
+                retry_after = None
+                if hasattr(e, "response") and e.response is not None:
+                    try:
+                        retry_after = int(e.response.headers.get("retry-after", 0)) or None
+                    except (ValueError, AttributeError):
+                        pass
+                wait = retry_after if retry_after else 60 * (attempt + 1)
+                source = "retry-after header" if retry_after else "fallback"
+                print(f"  Rate limit hit — waiting {wait}s ({source}) before retry {attempt + 2}/3…", file=sys.stderr)
                 time.sleep(wait)
             else:
                 print(f"  API error: {e}", file=sys.stderr)
-                return None, ""
-    return None, ""
+                return None, "", {}
+    return None, "", {}
 
 
-def write_audit_entry(audit_file: IO, rec: dict, result: dict | None, raw: str) -> None:
+def write_audit_entry(audit_file: IO, rec: dict, result: dict | None, raw: str, token_info: dict | None = None) -> None:
     """Append one JSONL entry to the audit log."""
     entry = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
@@ -239,6 +273,9 @@ def write_audit_entry(audit_file: IO, rec: dict, result: dict | None, raw: str) 
         "outcome": (result or {}).get("evidence_status", "parse_error"),
         "notes": (result or {}).get("notes", ""),
         "evidence_count": len((result or {}).get("evidence", [])),
+        "input_tokens": (token_info or {}).get("input_tokens"),
+        "output_tokens": (token_info or {}).get("output_tokens"),
+        "web_searches": (token_info or {}).get("web_searches"),
         "raw_response": raw,
     }
     audit_file.write(json.dumps(entry, ensure_ascii=False) + "\n")
@@ -285,6 +322,13 @@ def main() -> None:
         default="claude-haiku-4-5-20251001",
         help="Claude model ID (default: claude-haiku-4-5-20251001)",
     )
+    parser.add_argument(
+        "--start-from",
+        type=int,
+        default=1,
+        metavar="N",
+        help="Skip recommendations numbered below N within the filtered inquiry (default: 1, i.e. start from the beginning)",
+    )
     args = parser.parse_args()
 
     client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from environment
@@ -296,6 +340,11 @@ def main() -> None:
 
     if args.inquiry:
         unevidenced = [r for r in unevidenced if args.inquiry.lower() in r["inquiry"].lower()]
+
+    if args.start_from > 1:
+        before = len(unevidenced)
+        unevidenced = [r for r in unevidenced if r["rec_idx"] + 1 >= args.start_from]
+        print(f"--start-from {args.start_from}: skipped {before - len(unevidenced)} recs below that number", file=sys.stderr)
 
     total = len(unevidenced)
     print(f"{total} unevidenced recommendations", file=sys.stderr)
@@ -317,10 +366,10 @@ def main() -> None:
             label = f"[{i + 1}/{len(batch)}] {rec['inquiry']} rec {rec['rec_idx'] + 1}"
             print(label, file=sys.stderr)
 
-            result, raw = research_recommendation(client, rec, args.model, web_search=use_web_search)
+            result, raw, token_info = research_recommendation(client, rec, args.model, web_search=use_web_search)
 
             if audit_file:
-                write_audit_entry(audit_file, rec, result, raw)
+                write_audit_entry(audit_file, rec, result, raw, token_info)
 
             if result and result.get("evidence_status") in ("actioned", "partial") and result.get("evidence"):
                 for ev in result["evidence"]:
@@ -343,7 +392,16 @@ def main() -> None:
                         print(f"     {line}", file=sys.stderr)
 
             if i < len(batch) - 1:
-                time.sleep(65 if use_web_search else 0.3)  # web search uses ~25k tokens; wait >60s for TPM window
+                if use_web_search:
+                    # Dynamic sleep: tokens used / ITPM_limit * 60s + 15s buffer
+                    # Haiku Tier 1 = 50k ITPM. Use actual token count if available.
+                    itpm = 50_000
+                    input_toks = token_info.get("input_tokens", itpm) if token_info else itpm
+                    dynamic_sleep = max(60, int(input_toks / itpm * 60) + 15)
+                    print(f"  sleeping {dynamic_sleep}s ({input_toks:,} tokens / {itpm:,} ITPM)…", file=sys.stderr)
+                    time.sleep(dynamic_sleep)
+                else:
+                    time.sleep(0.3)
     finally:
         if audit_file:
             audit_file.close()
@@ -368,7 +426,7 @@ def main() -> None:
             new_keys += 1
             new_items += len(proposal.get("evidence", []))
         else:
-            existing_urls = {ev.get("url") for ev in enriched[key].get("evidence", [])}
+            existing_urls = {ev.get("url") for ev in enriched[key].get("evidence", []) if ev.get("url")}
             for ev in proposal.get("evidence", []):
                 if ev.get("url") not in existing_urls:
                     enriched[key].setdefault("evidence", []).append(ev)
