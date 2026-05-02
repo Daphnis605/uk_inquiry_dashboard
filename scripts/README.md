@@ -142,3 +142,42 @@ multiple sessions.
 If more than 60% of recs in an inquiry return `no_response` (exhausted retries),
 the script pauses and asks whether to continue. Non-zero exit from `research.py`
 stops the batch immediately.
+
+---
+
+## resweep.py — monthly update sweep
+
+Re-checks recommendations that previously had no evidence, and partial
+implementations that may have since become complete. Run monthly (or after
+major news events) to keep the dashboard up to date.
+
+### Usage
+
+```bash
+# Preview what would be re-checked (no API calls)
+python scripts/resweep.py --list
+
+# Full re-sweep (no-evidence + partial)
+python scripts/resweep.py
+
+# Partial implementations only
+python scripts/resweep.py --mode partial
+
+# No-evidence recs only
+python scripts/resweep.py --mode no-evidence
+
+# Higher quality pass
+python scripts/resweep.py --model claude-sonnet-4-6
+
+# Resume after a break
+python scripts/resweep.py --from "Leveson"
+```
+
+### What gets re-checked
+
+| Status | Re-checked? | Reason |
+|--------|-------------|--------|
+| `no_evidence_found` | Yes | New laws, bodies, or policies may have been introduced |
+| `partial` | Yes | Partial implementations may now be complete |
+| `actioned` | No | Already fully implemented |
+| (no entry) | No | Use `batch_research.py` for first-time research |

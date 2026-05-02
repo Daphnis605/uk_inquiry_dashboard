@@ -141,8 +141,13 @@ def build_enriched_map(enriched: dict) -> dict:
     return {k: v for k, v in enriched.items() if not k.startswith("_")}
 
 
-def get_unevidenced(data: list, enriched_map: dict) -> list:
-    """Return all recommendations that have no approved evidence."""
+def get_unevidenced(data: list, enriched_map: dict, include_partial: bool = False) -> list:
+    """Return recommendations that have no approved evidence.
+
+    If include_partial is True, also include recommendations whose approved
+    evidence_status is 'partial' — useful for monthly re-sweeps to check
+    whether partial implementations have since become complete.
+    """
     rows = []
     for dept in data:
         for inquiry in dept.get("Inquiries", []):
@@ -155,7 +160,11 @@ def get_unevidenced(data: list, enriched_map: dict) -> list:
                     and existing.get("evidence")
                     and any(ev.get("approved") for ev in existing["evidence"])
                 )
-                if not has_approved:
+                is_partial = (
+                    has_approved
+                    and existing.get("evidence_status") == "partial"
+                )
+                if not has_approved or (include_partial and is_partial):
                     rows.append({
                         "key": key,
                         "inquiry": name,
@@ -329,6 +338,11 @@ def main() -> None:
         metavar="N",
         help="Skip recommendations numbered below N within the filtered inquiry (default: 1, i.e. start from the beginning)",
     )
+    parser.add_argument(
+        "--include-partial",
+        action="store_true",
+        help="Also re-research recommendations with evidence_status 'partial' — for monthly re-sweeps to check if partial implementations are now complete",
+    )
     args = parser.parse_args()
 
     client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from environment
@@ -336,7 +350,7 @@ def main() -> None:
     data = load_json(DATA_JSON)
     enriched = load_json(ENRICHED_JSON)
     enriched_map = build_enriched_map(enriched)
-    unevidenced = get_unevidenced(data, enriched_map)
+    unevidenced = get_unevidenced(data, enriched_map, include_partial=args.include_partial)
 
     if args.inquiry:
         unevidenced = [r for r in unevidenced if args.inquiry.lower() in r["inquiry"].lower()]
