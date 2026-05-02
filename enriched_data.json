@@ -9738,5 +9738,145 @@
       }
     ],
     "notes": "Recommendation has been fully implemented: Listeners are available in almost every UK prison, operate round-the-clock, support is confidential/private, and prisoners have dedicated telephone access."
+  },
+  "Al-Sweady Inquiry__1": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "CODE E Revised Code of Practice on Audio Recording Interviews with Suspects",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/495716/52344_00_Pace_Code_E_Accessible_v0.3.pdf",
+        "source_type": "official_report",
+        "date": "2023-05-23",
+        "description": "Official PACE Code E establishes requirements for audio recording of interviews with suspects, including procedures for secure digital network recording and handling of recording equipment.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Code F Visual recording with sound of interviews with suspects",
+        "url": "https://assets.publishing.service.gov.uk/media/5a7b8e7c40f0b62826a04580/9789999103176.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official PACE Code F provides the framework for visual recording with sound of interviews, establishing procedures and requirements for video recording of suspect interviews.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Code of Practice for the video recording with sound of interviews of persons detained under section 41 of the Terrorism Act 2000",
+        "url": "https://assets.publishing.service.gov.uk/media/5a78f5de40f0b6324769b82d/video-recording-code-of-practice.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Official Home Office Code of Practice mandating video recording with sound of interviews for persons detained under counter-terrorism provisions, with specifications for cataloguing and storage.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "PACE Codes E and F establish comprehensive mandatory requirements for digital audio and video recording of interrogations and questioning, with procedures for secure storage and handling."
+  },
+  "Al-Sweady Inquiry__5": {
+    "evidence_status": "partial",
+    "evidence": [
+      {
+        "title": "Response, arrest and detention | College of Policing",
+        "url": "https://www.college.police.uk/app/detention-and-custody/response-arrest-and-detention",
+        "source_type": "official_report",
+        "date": "2013-10-23",
+        "description": "Confirms UK procedures requiring custody officers to inform detainees of their rights and entitlements in writing, available in 54 languages, including the reason for detention and their rights under PACE Code C.",
+        "evidence_type": "partial",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Evidence shows police detention procedures for informing detainees of rights; however, specific procedures for immigration detention facilities (IRCs) were not clearly confirmed in searches."
+  },
+  "Al-Sweady Inquiry__6": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Strip search: what are my rights? - Liberty",
+        "url": "https://www.libertyhumanrights.org.uk/advice_information/strip-search-what-are-my-rights/",
+        "source_type": "official_report",
+        "date": "2025-04-22",
+        "description": "Confirms multiple safeguards are in place under PACE: strip searches must occur in areas where the person cannot be seen by others, minimum number of persons present for intimate searches, and same-gender officers conducting searches. Records must be kept of reasons, persons present, and results.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Greater protections for child strip search - GOV.UK",
+        "url": "https://www.gov.uk/government/news/greater-protections-for-child-strip-search",
+        "source_type": "press_release",
+        "date": "2024-04-30",
+        "description": "Government announcement confirming existing safeguards are in place and clarifying them further, including that appropriate adults of the opposite sex can only be present if known to detainee and detainee agrees, and same-gender principle is enforced.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "A Radical Community Guide to Police Child Strip Search law in UK - BLAM UK CIC",
+        "url": "https://blamuk.org/2023/03/27/a-radical-community-guide-to-police-child-strip-search-law-in-uk/",
+        "source_type": "news_article",
+        "date": "2023-03-27",
+        "description": "Confirms that strip searches must be carried out with dignity and sensitivity, requiring same-gender officers, and that detainees' gender identity must be respected with written records of requests.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Safeguards covering dignity, minimum persons present, same-gender officers, and detainee cooperation are established in UK police practice under PACE Codes."
+  },
+  "Al-Sweady Inquiry__7": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Police and Criminal Evidence Act (PACE) Code C - Detention, Treatment and Questioning of Persons by Police Officers",
+        "url": "https://www.gov.uk/government/publications/interviewing-suspects/interviewing-suspects-accessible",
+        "source_type": "official_report",
+        "date": "2025-07-09",
+        "description": "GOV.UK guidance confirming that interpreters must be made available where detained persons have difficulty understanding English, with supervisory arrangements by Prison Governor and prison staff to ensure proper conduct during interviews.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Interpreters and Translators Policy",
+        "url": "https://www.thamesvalley.police.uk/SysSiteAssets/foi-media/thames-valley-police/policies/policy---interpreters-and-translators.pdf",
+        "source_type": "official_report",
+        "date": null,
+        "description": "Thames Valley Police policy document establishing procedures for providing qualified interpreters during detainee handling, custody booking, and interrogation, with provisions for various communication needs.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      },
+      {
+        "title": "Use of Translators and Interpreters Procedure",
+        "url": "https://essex.police.uk/foi-ai/essex-police/our-policies-and-procedures/e/e0115-procedure---use-of-translators-and-interpreters/",
+        "source_type": "official_report",
+        "date": "2016-06-01",
+        "description": "Essex Police procedure requiring registered interpreters vetted to police clearance standard for detainee interviews in custody, with access to professional telephone interpreting services available anytime.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "Multiple UK police forces maintain formal policies requiring trained, qualified interpreters for prisoner/detainee handling and interrogation."
+  },
+  "Al-Sweady Inquiry__8": {
+    "evidence_status": "actioned",
+    "evidence": [
+      {
+        "title": "Detainee care | College of Policing",
+        "url": "https://www.college.police.uk/app/detention-and-custody/detainee-care/detainee-care",
+        "source_type": "official_report",
+        "date": null,
+        "description": "College of Policing guidance references the DPMF (Detainee Physical and Mental assessment Form) with section 12 addressing the HCP's assessment of detainee fitness to be detained and interviewed, including recommendations if unfit.",
+        "evidence_type": "complete",
+        "approved": false,
+        "approved_at": null
+      }
+    ],
+    "notes": "The DPMF form appears to implement the recommendation with appropriate documentation of fitness assessments."
   }
 }
