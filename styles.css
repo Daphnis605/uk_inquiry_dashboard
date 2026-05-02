@@ -79,10 +79,21 @@ details summary:focus,
     #navToggle {
         top: 10px;
         right: 12px;
-        left: auto;       /* move to top-right on mobile */
+        left: auto;
         padding: 8px 10px;
     }
-    .nav-toggle-label { display: none; } /* icon only on mobile */
+    .nav-toggle-label { display: none; }
+
+    /* Tray slides in from the right on mobile */
+    #sectionNav {
+        left: auto;
+        right: 0;
+        border-right: none;
+        border-left: 1px solid #b1b4b6;
+        box-shadow: -4px 0 16px rgba(0,0,0,0.15);
+        transform: translateX(100%);
+    }
+    #sectionNav.nav-open { transform: translateX(0); }
 }
 
 /* ── Backdrop ─────────────────────────────────────────────────── */
