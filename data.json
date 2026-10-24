@@ -3216,6 +3216,333 @@
           "ActionCategory": "Accountability & Oversight"
         }
       ]
+    },
+    {
+      "InquiryName": "UK Covid-19 Inquiry",
+      "ReportLink": "https://covid19.public-inquiry.uk/inquiry-recommendations/",
+      "ReportDate": "18/07/2024",
+      "Recommendations":[
+        {
+          "Recommendation": "The governments of the UK, Scotland, Wales and Northern Ireland should each simplify and reduce the number of structures with responsibility for preparing for and building resilience to whole-system civil emergencies. The core structures should be: a single Cabinet-level or equivalent ministerial committee (including the senior minister responsible for health and social care) responsible for whole-system civil emergency preparedness and resilience for each government, which meets regularly and is chaired by the leader or deputy leader of the relevant government; and a single cross-departmental group of senior officials in each government (which reports regularly to the Cabinet-level or equivalent ministerial committee) to oversee and implement policy on civil emergency preparedness and resilience. This should be put in place within 12 months of the publication of this Report. Within 6 months of the creation of the group of senior officials, it should complete a review to simplify and reduce the number of structures responsible for whole- system civil emergency preparedness and resilience. Subsequently, within 24 months of the publication of this Report, the ministerial committee should rationalise and streamline subordinate or supporting groups and committees responsible for whole-system civil emergency preparedness and resilience. Any groups and committees retained or created to support this core structure should have a clear purpose and should report regularly about progress with, and completion of, tasks assigned to them.",
+          "ChangeType": "Less",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The UK government should: abolish the lead government department model for whole-system civil emergency preparedness and resilience; and require the Cabinet Office to lead on preparing for and building resilience to whole-system civil emergencies across UK government departments, including monitoring the preparedness and resilience of other departments, supporting departments to correct problems, and escalating issues to the UK Cabinet-level ministerial committee and group of senior officials in Recommendation 1.",
+          "ChangeType": "Cease",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should work together on developing a new approach to risk assessment that moves away from a reliance on single reasonable worst-case scenarios towards an approach that: assesses a wider range of scenarios representative of the different risks and the range of each kind of risk; considers the prevention and mitigation of an emergency in addition to dealing with its consequences; provides a full analysis of the ways in which the combined impacts of different risks may complicate or worsen an emergency; assesses long-term risks in addition to short-term risks and considers how they may interact with each other; undertakes an assessment of the impact of each risk on vulnerable people; andtakes into account the capacity and capabilities of the UK. In doing so, the UK government and devolved administrations should perform risk assessments that reflect the circumstances and characteristics particular to England, Wales, Scotland, Northern Ireland and the UK as a whole.",
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should together introduce a UK-wide whole-system civil emergency strategy (which includes pandemics) to prevent each emergency and also to reduce, control and mitigate its effects. As a minimum, the strategy should: be adaptable; include sections dedicated to each potential whole-system civil emergency – for example, one on pandemics with a clear explanation of the roles and responsibilities of the UK government, devolved administrations and their departments/directorates as well as local responders; consider a wide range of potential scenarios for each type of emergency; identify the key issues and set out a range of potential responses; identify how the strategy is to be applied to ensure that any potential responses are proportionate to the particular circumstances of the emergency; include an assessment in the short, medium and long term, based on published modelling, of the potential health, social and economic impacts of the emergency and of potential responses to the emergency on the population and, in particular, on vulnerable people; and include an assessment of the infrastructure, technology and skills the UK needs to respond effectively to the emergency and how those needs might change for different scenarios. The strategy should be subject to a substantive reassessment at least every three years to ensure that it is up to date and effective, incorporating lessons learned between reassessments.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government, working with the devolved administrations, should establish mechanisms for the timely collection, analysis, secure sharing and use of reliable data for informing emergency responses, in advance of future pandemics. Data systems should be tested in pandemic exercises. The UK government should also commission a wider range of research projects ready to commence in the event of a future pandemic. These could be ‘hibernated’ studies or existing studies that are designed to be rapidly adapted to a new outbreak. Better working with international partners should be encouraged. This should include projects to: understand the prevalence of a new virus; measure the effectiveness of a range of different public health measures; and identify which groups of vulnerable people are hardest hit by the pandemic and why.",
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
+        },       
+        {
+          "Recommendation": "The UK government and devolved administrations should together hold a UK-wide pandemic response exercise at least every three years. The exercise should: test the UK-wide, cross-government, national and local response to a pandemic at all stages, from the initial outbreak to multiple waves over a number of years; include a broad range of those involved in pandemic preparedness and response; and consider how a broad range of vulnerable people will be helped in the event of a pandemic.",
+          "ChangeType": "New",
+          "ActionCategory": "Training & Education"
+        },
+        {
+          "Recommendation": "For all civil emergency exercises, the governments of the UK, Scotland, Wales and Northern Ireland should each (unless there are reasons of national security for not doing so): publish an exercise report summarising the findings, lessons and recommendations, within three months of the conclusion of the exercise; publish an action plan setting out the specific steps that will be taken in response to the report’s findings, and by which entity, within six months of the conclusion of the exercise; and keep exercise reports, action plans, and emergency plans and guidance from across the UK in a single, UK-wide online archive, accessible to all involved in emergency preparedness, resilience and response.",
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
+        },
+        {
+          "Recommendation": "The governments of the UK, Scotland, Wales and Northern Ireland should each produce and publish reports to their respective legislatures at least every three years on whole-system civil emergency preparedness and resilience.The reports should include as a minimum: the risks that each government has identified are likely to result in whole-system civil emergencies; the recommendations that have been made to each government to mitigate those risks, and whether these recommendations have been accepted or rejected; a cost–benefit analysis setting out the economic and social costs of accepting the risks as against taking action to mitigate the risks; who may be vulnerable to the risks and what steps are being taken to mitigate those risks; a plan setting out the timescales for implementing the recommendations that have been accepted; and an update on the progress that has been made on implementing previously accepted recommendations.",
+          "ChangeType": "New",
+          "ActionCategory": "Communication & Reporting"
+        },
+        {
+          "Recommendation": "The governments of the UK, Scotland, Wales and Northern Ireland should each introduce the use of red teams in the Civil Service to scrutinise and challenge the principles, evidence, policies and advice relating to preparedness for and resilience to whole-system civil emergencies. The red teams should be brought in from outside of government and the Civil Service.",
+          "ChangeType": "New",
+          "ActionCategory": "Investigation & Redress"
+        },
+        {
+          "Recommendation": "The UK government should, in consultation with the devolved administrations, create a statutory independent body for whole-system civil emergency preparedness and resilience. The new body should be given responsibility for: providing independent, strategic advice to the UK government and devolved administrations on their planning for, preparedness for and building resilience to whole-system civil emergencies; consulting with the voluntary, community and social enterprise sector at a national and local level and directors of public health on the protection of vulnerable people in whole-system civil emergencies; assessing the state of planning for, preparedness for and resilience to whole-system civil emergencies across the UK; and making recommendations on the capacity and capabilities that will be required to prepare for and build resilience to whole-system civil emergencies. As an interim measure, the new body should be established on a non-statutory basis within 12 months of this Report, so that it may begin its work in advance of legislation being passed.",
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The Department of Health (Northern Ireland) should reconstitute the role of the Chief Medical Officer for Northern Ireland as an independent advisory role. The Chief Medical Officer for Northern Ireland should not have managerial responsibilities within the Department of Health (Northern Ireland).",
+          "ChangeType": "Different",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The Government Office for Science (GO-Science) should invite the governments of Scotland, Wales and Northern Ireland to nominate a small number of representatives to attend meetings of the Scientific Advisory Group for Emergencies (SAGE) from the outset of any future emergency. The status of those representatives as either ‘participant’ or ‘observer’ should depend upon their expertise and should be a matter for SAGE to determine.",
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The Government Office for Science (GO-Science) should develop and maintain a register of experts across the four nations of the UK who would be willing to participate in scientific advisory groups, covering a broad range of potential civil emergencies.",
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "During a whole-system civil emergency, the UK government and devolved administrations should each routinely publish technical advice on scientific, economic and social matters at the earliest opportunity, as well as the minutes of expert advisory groups – except where there are good reasons that prevent publication, such as commercial confidentiality, personal safety or national security, or because legal advice privilege applies.",
+          "ChangeType": "New",
+          "ActionCategory": "Communication & Reporting"
+        },
+        {
+          "Recommendation": "The Government Office for Science (GO-Science), the Scottish Government, the Welsh Government and the Department of Health (Northern Ireland) should each develop standard terms of appointment for all participants in scientific advisory groups. These terms should include: clarity around the nature of an individual’s role and the extent of their responsibility, as well as the likely time commitment; payment where their time commitment means that they have to spend time away from their substantive role; access to support services; and access to advice on personal and online security, with procedures for escalating specific concerns.",
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "The UK government should bring into force in England section 1 of the Equality Act 2010, implementing the socio-economic duty. The Northern Ireland Assembly and Northern Ireland Executive should consider an equivalent provision within section 75 of the Northern Ireland Act 1998.",
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
+        },
+        {
+          "Recommendation": "The UK government should introduce legislation to place child rights impact assessments on a statutory footing in England. The Northern Ireland Executive should consider an equivalent provision.",
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should each agree a framework that identifies people who would be most at risk of becoming infected by and dying from a disease and those who are most likely to be negatively impacted by any steps taken to respond to a future pandemic. The framework should set out the specific steps that could be taken to mitigate the risks to these people. Equality impact assessments should form part of this framework. Where they cannot be undertaken in a national crisis, they should be reinstated as soon as possible. Each government should agree and publish in its response to this Report how it will ensure that this framework is embedded into emergency decision-making and who will be responsible for ensuring these issues remain under consideration throughout a national crisis.",
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "The Northern Ireland Executive and UK government (in consultation with the Irish government where necessary) should review the structures and delegated powers of government in Northern Ireland to consider: the empowerment of the First Minister and deputy First Minister jointly to direct the work of other ministers and departments during an emergency; the empowerment of the Head of the Northern Ireland Civil Service in relation to the allocation of civil servants to departments or to civil contingency structures during an emergency; and how decisions that would usually be subject to ministerial approval would be taken should an emergency occur during the suspension of power-sharing arrangements.",
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should set out in future pandemic preparedness strategies (see the Inquiry’s Module 1 Report, Recommendation 4) how decision-making will work in a future pandemic. This should include provision for COBR to be used as the initial response structure and set out how the UK government and devolved administrations will transition from managing a pandemic through COBR to managing it through separate arrangements in each nation when it becomes clear that the  emergency will be longer-term. It should include provision for longer-term decision-making structures in the UK government which consist of: a strategy group to set the overall approach to each stage of the pandemic and take decisions on major interventions (eg entering and exiting lockdown); and an operational group to take decisions on the implementation of the agreed strategy throughout the pandemic. The design of these structures should include an outline of decision-making procedures for each group. The strategy should make express provision for the involvement of the UK Cabinet in the decision-making of the strategy and operational groups. It should also provide that longer-term decision-making should be conducted primarily by the UK, Scottish and Welsh Cabinets and the Northern Ireland Executive. Decision-making groups in each nation should include a minister with responsibility for representing the interests of vulnerable groups. In the UK government, the Minister for Women and Equalities may be the most appropriate minister in this regard.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government and the devolved administrations should each establish formal arrangements for covering the roles of Prime Minister and First Minister (and in Northern Ireland, deputy First Minister) as applicable during a whole-system civil emergency, should the incumbent be unable to undertake their duties for any reason.",
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The response to a future whole-system civil emergency should be coordinated via central taskforces in each of the UK, Scotland, Wales and Northern Ireland, with responsibility for the commissioning and synthesis of advice, coordination of a single data picture and facilitation of decision-making processes. In preparation, the UK government and the devolved administrations should each design the operating procedures for these taskforces, including, but not limited to, identifying the key roles needed to run the taskforces and how those roles would be appointed.The UK government should also identify the role of its taskforce in supporting decision-making procedures within the strategy and operational decision-making structures. These arrangements should be incorporated into future pandemic preparedness strategies (see the Inquiry’s Module 1 Report, Recommendation 4).",
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "The Executive Office should amend the Ministerial Code to impose a duty of confidentiality on ministers that prohibits the disclosure of the individual views of ministers expressed during meetings of the Northern Ireland Executive Committee.",
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
+        },
+        {
+          "Recommendation": "The UK government and the devolved administrations should each develop action plans for how government communications will be made more accessible during a pandemic. As a minimum, these should include making provision for the translation of government press conferences into British Sign Language (and Irish Sign Language in Northern Ireland) and the translation of key announcements into the most frequently spoken languages in the UK.",
+          "ChangeType": "New",
+          "ActionCategory": "Communication & Reporting"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should ensure that the draft affirmative procedure is the standard process for enacting substantial and wide- ranging powers in a civil emergency, such as a pandemic, under primary public health legislation. Any departure from this procedure should be the exception, with clear criteria and safeguards in place to prevent the bypassing of parliamentary scrutiny. These safeguards should include:‘sunset clauses’ for regulations made using the made affirmative procedure, specifying a clear expiration date, typically within two months; and a duty on ministers to report to their respective legislatures every two months on the exercise of emergency powers.",
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
+        },
+        {
+          "Recommendation": "The UK government should undertake a review of the Civil Contingencies Act 2004 to assess its potential role in managing future civil emergencies, including pandemics, and whether it could be employed as an interim emergency framework until more specific legislation with appropriate parliamentary safeguards is passed. The review should: examine the conditions under which the Civil Contingencies Act 2004 may be invoked in a public health emergency; consider any adjustments to the Act’s safeguards, such as the triple lock test or time limits, that would make it more adaptable to pandemics; and produce clear guidance on the Act’s application for use in civil emergencies, including pandemics, to support its use as an emergency measure in advance of specific legislation – such as a dedicated pandemic bill – being passed.",
+          "ChangeType": "Different",
+          "ActionCategory": "Law & Regulation"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should develop an online portal for use in future civil emergencies, where members of the public can access information on the legal restrictions that apply in their area and any associated guidance. This portal should be easily accessible and its content should be written in straightforward and unambiguous language.",
+          "ChangeType": "New",
+          "ActionCategory": "Technology & Systems"
+        },
+        {
+          "Recommendation": "The UK government should invite the devolved administrations, as a matter of standard practice, to nominate relevant ministers and officials to attend COBR meetings in the event of relevant whole-system civil emergencies that have the potential to have UK-wide effects.",
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "While intergovernmental relations should be facilitated through COBR in the initial months of any future pandemic, the UK government and devolved administrations should ensure that a specific four-nations structure, concerning pandemic response, is stood up at the same time as the transition away from COBR to nation-specific decision-making structures. This should meet regularly during a pandemic and be attended by all heads of government.  Arrangements for these four-nations meetings should be incorporated into future pandemic preparedness strategies (see the Inquiry’s Module 1 Report, Recommendation 4).",
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The UK government must ensure that there is a body (equivalent to the UK Infection Prevention and Control Cell) in place ready to be convened at the outset of any future pandemic, to consider and draft infection prevention and control guidance for healthcare settings. This body must: have clear lines of responsibility and a clear, pre-defined role and remit during a pandemic; have multidisciplinary membership, including experts in the science of viral transmission as well as those with clinical expertise; ensure that its guidance accounts for the risk of all plausible routes of transmission until sufficient evidence emerges to rule out specific routes; and ensure that guidance clearly explains the underlying rationale for the precautions recommended.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should publish guidance for the implementation of visiting restrictions in hospitals in the event of a future pandemic.  The guidance should identify the circumstances in which visiting restrictions should be introduced, escalated, decreased and removed alongside the measures and exemptions at each level. The guidance should be led by the following core principles:  Measures applied should be the least restrictive possible, both in terms of severity and the length of time for which they apply. Restrictions should be decided upon and applied at the most local level Unless restrictions are applied at a specified level, trusts and health boards should take decisions on the severity of restrictions based on local risk     Communications with the public must clearly explain the measures in place and the reasons why restrictions apply.  The guidance should be reviewed every three years in line with the Inquiry’s Module 1 Report (Recommendation 4).",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should work with employers, including health boards and trusts, to review the availability of qualified fit testers and take steps to increase the number of fit testers accordingly. Availability should be reviewed every three years in line with the Inquiry’s Module 1 Report (Recommendation 4).  The Health and Safety Executive and the Health and Safety Executive for Northern Ireland should update their guidance to employers to emphasise the need to ensure that sufficient fit-testing capacity is available.",
+          "ChangeType": "New",
+          "ActionCategory": "Training & Education"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive must ensure that health data and digital systems have the capability to identify individuals at high risk of morbidity or mortality from a pandemic disease quickly and accurately in a future pandemic. This should include action to improve health data systems and patient record-keeping by: improving patient data by enabling more granular diagnostic coding; ensuring that care records are compatible across primary and secondary care; and enabling secure data-sharing and linkage across multiple health datasets and systems for identifying individuals at high risk.",
+          "ChangeType": "New",
+          "ActionCategory": "Technology & Systems"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive, in conjunction with organisations responsible for delivering services, should plan for surge capacity in urgent and emergency care during a pandemic.  Plans must ensure that there is sufficient workforce capacity and the ability to surge, including the number and type of staff required, recruitment and training provision.  This should be completed as part of the whole-system civil emergency strategy recommended in the Inquiry’s Module 1 Report (Recommendation 4). Plans should be published and subject to review every three years.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should work with trusts and health boards to ensure that pandemic plans include practical steps to rapidly scale up hospital capacity to treat acutely unwell patients. This should include critical care services that can deliver multiple levels and types of organ support. It should also cover necessary equipment, supplies, space and staff, including redeployment and training.  All trusts and health boards must keep an easily accessible, up-to-date record of the information needed to implement these plans in the hospital sites they operate. This should include technical aspects of critical care expansion such as power, ventilation, oxygen and waste management systems.  Plans for expanding capacity should be published, subject to review every three years and tested as part of the pandemic response exercises recommended in the Inquiry’s Module 1 Report (Recommendation 6).",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should publish a UK-wide framework setting out ethical and operational principles to guide the allocation of adult intensive care resources in the extreme event that they are saturated during a pandemic. That framework must: be informed by comprehensive engagement with the public and developed in conjunction with professionals across healthcare, law and ethics, as well as with regulators of healthcare professionals; set out clearly established triggers for its use, based at least in part on a UK-wide system that measures critical care capacity strain and facilitates mutual aid (such as the CRITCON tool used in England); establish clinicians’ legal and professional duties in applying the framework, which should be clearly explained to clinicians through guidance; and be regularly reviewed with reference to contemporary patient data during a pandemic, and any future use of it must be evaluated and reported on publicly. A plan and timeline for completing this work should be published within six months of this Report. Application of the framework should be tested as part of the pandemic response exercises recommended in the Inquiry’s Module 1 Report (Recommendation 6).",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should work with their respective public health agencies and healthcare employers to develop nation-specific mechanisms to collect, analyse and publish data systematically on the deaths of healthcare workers in the event of a pandemic outbreak.  The UK Statistics Authority should work with data providers to ensure that the data are comparable across the four nations of the UK.",
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive, working with trusts and health boards, should establish and promote one standardised process across the UK (such as ReSPECT, the Recommended Summary Plan for Emergency Care and Treatment) for clinicians to ascertain and record their patients’ wishes and preferences for future care and treatment in order to inform individualised decision-making, including Do Not Attempt Cardiopulmonary Resuscitation (DNACPR) notices.",
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation":"The UK government, Scottish Government, Welsh Government and Northern Ireland Executive, working with healthcare employers and professional bodies, should put in place plans to deliver effective support for healthcare workers at scale from the outset of a pandemic. Plans should cover the nature and level of support that will be provided during and after a pandemic.  All four governments should develop a programme of peer support visits that can, from the outset of a pandemic, be targeted towards areas of acute hospitals under considerable strain. The purpose of the visits should be to support front-line staff, collect insights on the pressures that healthcare workers are facing and understand what further support they might need.",
+          "ChangeType": "New",
+          "ActionCategory": "Support & Welfare"
+        },
+        {
+          "Recommendation": "The UK government should establish a standing pharmaceutical expert advisory panel, in consultation with the Department of Health and Social Care and the Department for Science, Innovation and Technology. The panel should include ministers, civil servants and representatives from industry and academia, and be led by an independent Chair with experience of working in a relevant industry. The panel’s role should be to: oversee the UK’s preparedness to develop, procure and manufacture pharmaceuticals (vaccines and therapeutics) in the event of a pandemic or health emergency, assisting with cross-government strategy development; ensure that the UK government and devolved administrations, their agencies, industry and academia are aligned around shared goals in developing vaccines and therapeutics for pandemic diseases; oversee strong links between government and the pharmaceutical industry; advise the UK government on how to incentivise pharmaceutical companies to invest in manufacturing facilities and research in the UK; and advise the UK government on its research investments, with a view to ensuring a diverse portfolio of pharmaceutical research in the UK. During a pandemic, the panel should form the basis of specialist taskforces, which would be responsible for securing and developing medical interventions and leading on their procurement on behalf of the four nations of the UK. They should have sufficient autonomy, delegation and direct access to senior ministers, similar to that which worked well in the Covid-19 pandemic.",
+          "ChangeType": "New",
+          "ActionCategory": "Governance & Structure"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should maintain networks with local communities to produce targeted vaccination strategies and communications. To achieve this: The Scottish Government, Welsh Government and Northern Ireland Executive should establish local community networks, mirroring the approach being taken by the UK Health Security Agency. All four governments should work with their network to identify specific and measurable actions to improve vaccine uptake and reduce inequalities and consult with these networks on communications campaigns and delivery approaches. All four governments should publish a report annually on progress against these actions.",
+          "ChangeType": "New",
+          "ActionCategory": "Communication & Reporting"
+        },
+        {
+          "Recommendation": "Each of the four UK public health or health security agencies should work together to: maintain accurate, UK-wide insight into the state of vaccine uptake and hesitancy; and understand the measures proven to be effective in increasing uptake across the four nations of the UK. There should be collaboration and some standardisation in the agreed approach across the four nations for monitoring and publishing routine vaccine uptake and vaccine confidence levels in order to better understand regional variations and patterns. Each nation should set and regularly review its minimum acceptable standards of vaccine uptake, which would trigger targeted uptake campaigns if not reached. The effectiveness of vaccine uptake campaigns should be evaluated against clear, standardised measures. This includes retrospective analysis of the Covid-19 uptake campaigns, as well as evaluation of routine vaccination uptake campaigns.",
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should work together, with their respective health delivery services, to facilitate and coordinate regulatory bodies’ access to healthcare records in order to make the post-authorisation safety monitoring of new vaccines and therapeutics more efficient. In particular, the Medicines and Healthcare products Regulatory Agency should be granted specific and proportionate access to comprehensive and comparable data from across the four nations of the UK, including linked primary and secondary healthcare data records. This should include data on vaccines and therapeutics administration. This improved linkage must be accompanied by strong safeguards for patient confidentiality, which the Information Commissioner’s Office should work with the four governments to ensure",
+          "ChangeType": "New",
+          "ActionCategory": "Technology & Systems"
+        },
+        {
+          "Recommendation": "The UK government must reform the Vaccine Damage Payment Scheme as soon as possible. The reform should include as a minimum:      increasing the £120,000 payment, at least in line with inflation to date; subsequently applying annual increases in line with inflation; introducing multiple levels of payment, commensurate with the degree of injury suffered; and any transitional arrangements necessary to provide for fairness between applicants to the existing scheme and applicants to the revised scheme.",
+          "ChangeType": "Different",
+          "ActionCategory": "Support & Welfare"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should ensure, within 12 months of the publication of this Report, that the pandemic stockpiles: retain stock that is better aligned with the range and severity of pandemic risks identified in the National Security Risk Assessment; maintain a minimum three-month supply of PPE for the entire health and social care system in the UK; retain close-to-zero tolerance for expired stock; better reflect the composition of the UK’s health and social care workforce, aligned with fit-testing and other sizing requirements; maintain a simple and streamlined system of management and oversight; and are stored in a wide range of accessible locations. To demonstrate continued compliance with the above, inspection reports should be submitted to health and social care ministers at least annually. Any issues identified should be resolved within three months. The inspection reports should be published with the preparedness and resilience reports (Module 1, Recommendation 8).",
+          "ChangeType": "Different",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should evaluate the readiness of the structures, systems and processes for the emergency procurement and distribution of healthcare equipment as part of UK-wide pandemic response exercises.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive, within 12 months of the publication of this Report, should each have ready systems for the emergency procurement and distribution of healthcare equipment. These new systems must: integrate procurement and distribution; have the ability rapidly to scale up efficient operations, including through integrated emergency procurement teams and automating the triaging and processing of offers of supply; and be able to use market research, modelling and price benchmarking to ensure value for money.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should publish simplified regulations for emergency healthcare equipment that are aligned with and cover the range and severity of pandemic risks identified in the National Security Risk Assessment. The simplified regulations should: establish the minimum technical specifications of healthcare equipment specifically for use in a pandemic, including international standards that are recognised in the UK; clearly identify the regulator responsible for coordinating regulation, inspection and enforcement for each type of equipment; and be accompanied by a buyer’s guide that is easily understood by procurement officials, suppliers and end-users in the health and social care sectors.  The emergency healthcare equipment regulations and the buyer’s guide should be kept under review and updated in line with relevant changes to the National Security Risk Assessment.",
+          "ChangeType": "New",
+          "ActionCategory": "Law & Regulation"
+        },
+        {
+          "Recommendation": "UK regulators, including the Health and Safety Executive, the Health and Safety Executive for Northern Ireland, the Office for Product Safety and Standards and the Medicines and Healthcare products Regulatory Agency, should establish an emergency healthcare equipment cross-regulator plan for future pandemics. The plan must include arrangements for: coordination of written guidance from regulators to ensure that it is clear, concise and updated when required; and increasing testing house capacity and the deployment of suitable inspection regimes both to reduce the quantity of non-compliant equipment entering the system and to improve enforcement.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should jointly commission a group of experts to develop blueprints for rapidly scalable critical care medical technology, aligned with the range and severity of pandemic risks identified in the National Security Risk Assessment, within 12 months of the publication of this Report. The blueprints should be issued in accordance with the emergency healthcare equipment regulations and buyer’s guide (see Recommendation 4 of this Report) and regularly reviewed to ensure that they reflect technological advances.",
+          "ChangeType": "New",
+          "ActionCategory": "Technology & Systems"
+        },
+        {
+          "Recommendation": "The UK-wide whole-system civil emergency strategy, which the Inquiry has recommended should be developed by the UK government and devolved administrations (see the Inquiry’s Module 1 Report, Recommendation 4), should include specific objectives for international trade and domestic industry during a pandemic. These must include: the establishment of trading alliances in advance of the next pandemic, to diversify overseas sources of raw materials and healthcare equipment; contractual arrangements with domestic and international suppliers of raw materials and healthcare equipment manufacturers which activate when a pandemic is declared; a robust plan to enable domestic manufacturers rapidly to retool and repurpose facilities for the production of healthcare equipment; and supporting investment for research and development into advanced manufacturing of healthcare equipment in the UK.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should each establish a pool of officials who are trained in the emergency procurement and distribution of healthcare equipment. Completion of the training should be mandatory for at least 20% of the workforce of each nation’s central healthcare equipment procurement bodies and kept up to date through annual refresher courses.",
+          "ChangeType": "New",
+          "ActionCategory": "Training & Education"
+        },
+        {
+          "Recommendation": "The UK government and devolved administrations should collaborate to establish a UK-wide commercial framework agreement of pre-approved external specialists in the emergency procurement and distribution of healthcare equipment. The framework should be refreshed every three years.",
+          "ChangeType": "New",
+          "ActionCategory": "Processes & Procedures"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should improve transparency, governance and accountability for procurement in an emergency. As a minimum, these improvements should include the following:  Enhancing transparency Any central digital platform used for procurement must allow for the automated collation of contract information and must reduce the administrative burden involved in publishing contract information. Contracting authorities across the UK should be required to publish contract award notices (in Scotland) and contract details notices in addition to contract award notices (in England, Wales and Northern Ireland) irrespective of the country in which the supplier is based. Governance: Fairness in emergency procurement There should be no high priority lane. All offers to supply healthcare equipment during a pandemic should be assessed according to the application of objective criteria.  Accountability: Approval process for emergency spending on healthcare equipment In advance of a pandemic, each health and social care department in each government should agree, with their respective treasuries or finance departments, a process to scrutinise and approve emergency spending on healthcare equipment to ensure that there is a balance between accountability and timely spending decisions.",
+          "ChangeType": "New",
+          "ActionCategory": "Accountability & Oversight"
+        },
+        {
+          "Recommendation": "Within three years of the publication of this Report, the systems for the procurement and distribution of healthcare equipment should be digitalised and interoperable across the UK government and devolved administrations.  As a minimum, these systems should be able to use technology to collect, share and analyse data across the UK in real time on: pandemic stockpiles, health and social care sector inventories and usage rates; offers of supply, enabling automated comparison, triaging and processing; non-compliant healthcare equipment entering the market; supply chains, including international delivery times and domestic logistics and distribution data; procurement and distribution workforce capacity; and spending – automatically identifying, collecting and collating key contract data for publication.",
+          "ChangeType": "New",
+          "ActionCategory": "Technology & Systems"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should each establish clear arrangements for pandemic planning in adult social care. Those arrangements should facilitate the production of pandemic plans for adult social care at the government, local and provider levels. Plans at a government level should identify: the roles and responsibilities of each government in relation to adult social care during a pandemic; the requirements for local-level plans, including the roles and responsibilities of local authorities, Health and Social Care trusts, and health and social care partnerships in producing those plans; the requirements for provider-level plans; how and by whom the adequacy of local and provider-level plans will be assured; how bed capacity and staffing levels will be tracked in care homes and domiciliary care; and how the adult social care sector will be represented in the pandemic planning of the four governments. Government pandemic plans for adult social care should be regularly reviewed and tested as part of the pandemic response exercises recommended in the Inquiry’s Module 1 Report (Recommendation 6).",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should ensure that pandemic plans for adult social care contain practical steps rapidly to scale up isolation facilities for care home residents in a future pandemic.  As a minimum, plans should: establish mechanisms to record systematically the availability of isolation facilities in care homes in each nation and keep these up to date; identify settings that can be used in a future pandemic to isolate and meet the needs of residents, including those who need to be discharged from hospital into a care home; and establish guidance for how these settings can be run to ensure high-quality, safe care and effective infection prevention and control.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should put in place financial support schemes that should be made available and that can be implemented at the start of a future pandemic: to protect adult social care staff against financial loss as a result of compliance with mandatory self-isolation rules; and to ensure that adult social care providers and staff can comply with rules or guidance restricting the number of sites at which adult social care staff may work during a pandemic. The following principles should apply: There should be clear and straightforward guidance about eligibility criteria, application processes and payment arrangements for the support schemes. Information about the introduction of support schemes and how adult social care staff and providers can receive support should be communicated clearly and made available in accessible formats. Mechanisms should be in place to monitor the effectiveness of the support schemes. These financial support schemes should be designed in partnership with representatives from across the adult social care sector.",
+          "ChangeType": "New",
+          "ActionCategory": "Funding & Resources"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should publish guidance for the implementation of visiting restrictions in care homes in a future pandemic. The guidance should be led by the following core principles: Measures applied should be the least restrictive possible, both in terms of severity and the length of time for which they apply. Residents should have the right to in-person visitors, except in the most grave or exceptional of circumstances. Restrictions should be decided upon and applied at the most local level possible, based on local risk assessments and considering individual circumstances. Communications with the public, care home residents and loved ones must clearly explain the measures in place and their purpose. People who work in and use social care should be closely involved in developing this guidance.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The Care Quality Commission in England, Care Inspectorate Wales, the Care Inspectorate in Scotland and the Regulation and Quality Improvement Authority in Northern Ireland should each develop adaptable protocols for carrying out on-site, hybrid and remote inspections in a future public health emergency. These protocols should be guided by the core principle of continuing on-site inspections where possible. They should also clearly identify processes to minimise: the risk of transmission when on-site inspections are carried out; and the risk of safeguarding issues going unidentified where remote or hybrid inspections are carried out. Regulators should regularly review these protocols to ensure that they remain practical and effective.",
+          "ChangeType": "New",
+          "ActionCategory": "Accountability & Oversight"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should ensure that pandemic plans for adult social care include practical steps to ensure that the workforce is sufficient to meet the needs of residents in a future pandemic.  As a minimum, plans should: identify the number and type of staff required to meet the needs of residents in a future pandemic; identify the number and type of staff available to meet those needs; and establish mechanisms to address any gaps between the two.",
+          "ChangeType": "New",
+          "ActionCategory": "Emergency & Risk Management"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should develop mechanisms to collect, analyse and publish data systematically about the deaths of adult social care workers during a pandemic. The data must be comparable across the four nations of the UK. The mechanisms should be developed with the adult social care workforce regulators, public health agencies and employers of care workers.",
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
+        },
+        {
+          "Recommendation": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should establish mandatory training for health and social care professionals looking after people in the adult social care sector who are nearing the end of life. The training should be developed in conjunction with health and social care regulators and provide, at a minimum: an understanding and enhanced knowledge of how to deliver high-quality end-of-life care as well as the support available; and communication skills to be able confidently to conduct and document conversations about advance care and, where appropriate to the professional’s role, decisions on Do Not Attempt Cardiopulmonary Resuscitation (DNACPR).",
+          "ChangeType": "New",
+          "ActionCategory": "Training & Education"
+        },
+        {
+          "Recommendation": "The UK government should implement a voluntary workforce register for adult social care workers in England, in order to strengthen the professionalisation and recognition for those working in the care sector. This should be developed in conjunction with social care staff, providers, commissioners and oversight bodies. This should formalise the ongoing work to improve workforce progression and retention and any learning from registration schemes in Northern Ireland, Scotland and Wales. The design of the register should consider:  the most appropriate body or agency to operate the register, including processing applications, data-sharing and publication; the benefits and requirements of joining the register, including the best means to incentivise membership; and  the funding model that will support the establishment and operation of the register. The voluntary register should be implemented within two years of the publication of this Report. Once the voluntary register has been operating for no more than five years, the UK government should undertake a full cost–benefit analysis of the workforce register and review whether membership should become mandatory.",
+          "ChangeType": "New",
+          "ActionCategory": "Documentation & Records"
+        }
+      ]
     }
     ]
   },
